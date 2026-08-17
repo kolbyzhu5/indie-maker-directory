@@ -1,27 +1,114 @@
 {
   "source": "https://github.com/1c7/chinese-independent-developer",
-  "generatedAt": "2026-08-16T15:31:54.112Z",
+  "generatedAt": "2026-08-17T06:48:20.518Z",
   "counts": {
-    "total": 2278,
-    "main": 1853,
+    "total": 2282,
+    "main": 1857,
     "programmer": 308,
     "game": 117
   },
   "categoryCounts": {
-    "图片工具": 434,
-    "文档办公": 209,
-    "AI 工具": 791,
+    "AI 工具": 795,
+    "音视频": 393,
+    "文档办公": 210,
+    "图片工具": 435,
     "效率工具": 332,
     "开发工具": 423,
     "生活服务": 68,
     "免费工具": 367,
-    "音视频": 392,
     "浏览器扩展": 206,
     "社交社区": 84,
     "游戏娱乐": 137,
     "教育学习": 120
   },
   "projects": [
+    {
+      "id": "main-20260817-my19940202-democue",
+      "edition": "main",
+      "addedAt": "2026-08-17",
+      "maker": "my19940202",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/my19940202"
+        }
+      ],
+      "name": "democue",
+      "url": "https://democue.aizeten.me",
+      "status": "online",
+      "description": "DemoCue 是一款录屏悬浮提纲引导工具，可AI生成讲解提纲，生成悬浮提纲帮你稳定完成教程、Demo 和 技术等偏知识类的分享。",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ]
+    },
+    {
+      "id": "main-20260817-iam-tin-careerace",
+      "edition": "main",
+      "addedAt": "2026-08-17",
+      "maker": "iam-tin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/iam-tin"
+        }
+      ],
+      "name": "CareerAce",
+      "url": "https://careerace.app",
+      "status": "online",
+      "description": "AI 模拟视频面试与求职辅导工具，根据简历与实时回答进行对话提问，并在面试后提供评估报告 — 支持 Web、iOS、Android",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "文档办公"
+      ]
+    },
+    {
+      "id": "main-20260817-imaginify-ai-imaginify",
+      "edition": "main",
+      "addedAt": "2026-08-17",
+      "maker": "Imaginify",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Imaginify-ai"
+        }
+      ],
+      "name": "Imaginify",
+      "url": "https://imaginify.app/",
+      "status": "online",
+      "description": "AI 图像生成与编辑工具，支持文字生图、参考图重绘、局部修改、背景处理和画质增强，提供多种图像模型与最高 4K 输出",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ]
+    },
+    {
+      "id": "main-20260817-imaginify-ai-homedesign",
+      "edition": "main",
+      "addedAt": "2026-08-17",
+      "maker": "Imaginify",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Imaginify-ai"
+        }
+      ],
+      "name": "HomeDesign",
+      "url": "https://homedesigns.app/",
+      "status": "online",
+      "description": "AI 空间与家装设计工具，上传房间实拍、建筑外观或户型图，即可预览室内外装修改造效果，并生成 2D 布局、3D 效果图与 360° 全景",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ]
+    },
     {
       "id": "main-20260816-moresyl-metaclean",
       "edition": "main",
