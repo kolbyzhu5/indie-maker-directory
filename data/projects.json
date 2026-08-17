@@ -1,27 +1,99 @@
 {
   "source": "https://github.com/1c7/chinese-independent-developer",
-  "generatedAt": "2026-08-17T06:58:03.273Z",
+  "generatedAt": "2026-08-17T22:41:37.143Z",
   "counts": {
-    "total": 2282,
-    "main": 1857,
+    "total": 2285,
+    "main": 1860,
     "programmer": 308,
     "game": 117
   },
   "categoryCounts": {
-    "AI 工具": 795,
+    "AI 工具": 798,
+    "浏览器扩展": 207,
+    "免费工具": 368,
+    "文档办公": 211,
+    "开发工具": 424,
     "音视频": 393,
-    "文档办公": 210,
     "图片工具": 435,
     "效率工具": 332,
-    "开发工具": 423,
     "生活服务": 68,
-    "免费工具": 367,
-    "浏览器扩展": 206,
     "社交社区": 84,
     "游戏娱乐": 137,
     "教育学习": 120
   },
   "projects": [
+    {
+      "id": "main-20260817-chihoozeng-沉淀记-loamery",
+      "edition": "main",
+      "addedAt": "2026-08-17",
+      "maker": "ChihooZeng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ChihooZeng"
+        }
+      ],
+      "name": "沉淀记 Loamery",
+      "url": "https://loamery.com/",
+      "status": "online",
+      "description": "一键保存或提炼 ChatGPT、Claude、Gemini、DeepSeek、豆包、Kimi 中有价值的回答，通过搜索、收藏和项目整理，把零散的 AI 对话沉淀成可长期查找的个人知识库，数据本地优先保存 — 浏览器插件",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展"
+      ]
+    },
+    {
+      "id": "main-20260817-zhoujungis-命理手札",
+      "edition": "main",
+      "addedAt": "2026-08-17",
+      "maker": "zhoujungis",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        }
+      ],
+      "name": "命理手札",
+      "url": "https://destiny-ai.pages.dev/",
+      "status": "online",
+      "description": "AI 免费算命，问名、问时、问色、问运，知你想知，想你所想",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ]
+    },
+    {
+      "id": "main-20260817-ximing-aimo",
+      "edition": "main",
+      "addedAt": "2026-08-17",
+      "maker": "ximing",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ximing"
+        }
+      ],
+      "name": "AIMO",
+      "url": "https://aimo.plus/?utm_source=cnindie&utm_medium=github",
+      "status": "online",
+      "description": "AI First 卡片笔记，随手记下想法，语义搜索、关联和复习由系统完成，Docker 一键自托管，支持 Web / macOS / Windows / Android",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/ximing/aimo"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具"
+      ]
+    },
     {
       "id": "main-20260817-my19940202-democue",
       "edition": "main",
