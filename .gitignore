@@ -1,5 +1,6 @@
 .DS_Store
 .playwright-cli/
-*.png
+/preview.png
+/preview-mobile.png
 *.zip
 node_modules/
