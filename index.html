@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="发现中国独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。">
+  <title>独立制造所｜中国独立开发者产品导航</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>独立制造所</strong><small>中国独立开发者产品志</small></span>
+    </a>
+    <nav class="top-nav" aria-label="主要导航">
+      <a href="#directory">逛产品</a>
+      <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">源项目 ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">每日从 GitHub 自动整理</p>
+        <h1>好产品，<em>不该埋在</em><br>几千行 README 里。</h1>
+        <p class="hero-description">把中国独立开发者的作品做成真正好逛、好搜、好发现的产品导航。没有竞价排名，只有创造本身。</p>
+      </div>
+      <aside class="hero-note">
+        <span class="note-pin"></span>
+        <p>今日馆藏</p>
+        <strong id="heroTotal">—</strong>
+        <small>件独立作品</small>
+        <time id="syncTime">正在读取...</time>
+      </aside>
+    </section>
+
+    <section class="search-stage" id="directory">
+      <div class="search-wrap">
+        <label class="sr-only" for="searchInput">搜索产品、开发者或介绍</label>
+        <span class="search-mark">⌕</span>
+        <input id="searchInput" type="search" placeholder="搜产品、功能、开发者，例如：AI、PDF、macOS…" autocomplete="off">
+        <kbd>/</kbd>
+        <button id="clearSearch" class="clear-search" type="button" aria-label="清空搜索">清空</button>
+      </div>
+      <div class="quick-tags" id="quickTags" aria-label="热门分类"></div>
+    </section>
+
+    <section class="directory-shell">
+      <aside class="filter-panel" aria-label="筛选条件">
+        <div class="filter-heading">
+          <span>浏览目录</span>
+          <button id="resetFilters" type="button">重置</button>
+        </div>
+        <fieldset>
+          <legend>作品版面</legend>
+          <label><input type="radio" name="edition" value="all" checked><span>全部作品</span><b id="countAll">—</b></label>
+          <label><input type="radio" name="edition" value="main"><span>大众产品</span><b id="countMain">—</b></label>
+          <label><input type="radio" name="edition" value="programmer"><span>程序员版</span><b id="countProgrammer">—</b></label>
+          <label><input type="radio" name="edition" value="game"><span>独立游戏</span><b id="countGame">—</b></label>
+        </fieldset>
+        <fieldset>
+          <legend>项目状态</legend>
+          <label><input type="checkbox" name="status" value="online" checked><span><i class="dot online"></i>已上线</span></label>
+          <label><input type="checkbox" name="status" value="developing" checked><span><i class="dot developing"></i>开发中</span></label>
+          <label><input type="checkbox" name="status" value="inactive"><span><i class="dot inactive"></i>已停止</span></label>
+        </fieldset>
+        <div class="source-note">数据来自开源社区，项目状态及描述以原仓库为准。</div>
+      </aside>
+
+      <div class="results-area">
+        <div class="results-toolbar">
+          <div><span id="resultCount">正在装订目录…</span><small id="activeFilter"></small></div>
+          <label>排序
+            <select id="sortSelect">
+              <option value="newest">最近收录</option>
+              <option value="name">名称 A–Z</option>
+              <option value="maker">开发者</option>
+            </select>
+          </label>
+        </div>
+        <div id="projectGrid" class="project-grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <span>空</span>
+          <h2>没找到相符的作品</h2>
+          <p>换个关键词，或者减少筛选条件试试。</p>
+          <button type="button" id="emptyReset">查看全部作品</button>
+        </div>
+        <button id="loadMore" class="load-more" type="button" hidden>再翻一页 <span>↓</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>独立制造所 · 让认真做出来的东西被看见</p>
+    <p>数据源：<a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">Chinese Independent Developer</a></p>
+  </footer>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
