@@ -1,0 +1,4 @@
+{
+  "comment": "人工收录源：在 projects 数组里加项目即可。每条格式：{ name, url, description, maker, city(可选), status(online/developing/inactive), categories(数组) }。URL 与上游重复会自动跳过。改完告诉我，我触发同步上线。",
+  "projects": []
+}

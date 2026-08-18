@@ -186,6 +186,27 @@ function bindEvents() {
   document.addEventListener("keydown", (event) => { if (event.key === "/" && document.activeElement !== elements.search) { event.preventDefault(); elements.search.focus(); } });
 }
 
+// 数据源顺序：COS 主库 → GitHub Pages 本地副本（回退）
+const DATA_URLS = [
+  "https://indie-maker-data-1300618702.cos.ap-guangzhou.myqcloud.com/data/projects.json",
+  "data/projects.json"
+];
+
+async function loadData() {
+  let lastError = null;
+  for (const url of DATA_URLS) {
+    try {
+      const response = await fetch(url, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+      console.warn(`[data] ${url} 不可用，尝试下一个数据源：${error.message}`);
+    }
+  }
+  throw lastError || new Error("所有数据源均不可用");
+}
+
 async function init() {
   // locale 决策：用户选择 > 浏览器 > 默认 zh
   const saved = getSavedLocale();
@@ -198,9 +219,7 @@ async function init() {
   readURLState();
   bindEvents();
   try {
-    const response = await fetch("data/projects.json");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.data = await response.json();
+    state.data = await loadData();
     const total = state.data.counts.total;
     const loc = getCurrentLocale();
     document.querySelector("#heroTotal").textContent = loc === "zh" ? total.toLocaleString("zh-CN") : total.toLocaleString("en");

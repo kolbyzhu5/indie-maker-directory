@@ -42,13 +42,13 @@ function signCOSPut(bucket, region, key, secretId, secretKey) {
   return { host, authorization };
 }
 
-export async function uploadToCOS(localPath, cosKey = "data/projects.json") {
+export async function uploadToCOS(content, cosKey = "data/projects.json") {
   const { COS_SECRET_ID: secretId, COS_SECRET_KEY: secretKey, COS_BUCKET: bucket, COS_REGION: region } = process.env;
   if (!secretId || !secretKey || !bucket || !region) {
     console.log("[COS] 未配置 COS 环境变量，跳过上传");
     return { uploaded: false, reason: "not-configured" };
   }
-  const body = await readFile(localPath);
+  const body = typeof content === "string" ? Buffer.from(content) : content;
   const { host, authorization } = signCOSPut(bucket, region, cosKey, secretId, secretKey);
   const url = `https://${host}/${cosKey}`;
   const response = await fetch(url, {
@@ -62,6 +62,41 @@ export async function uploadToCOS(localPath, cosKey = "data/projects.json") {
   if (!response.ok) throw new Error(`COS 上传失败 HTTP ${response.status}: ${await response.text()}`);
   console.log(`[COS] 已上传 ${cosKey} → ${bucket} (${region})`);
   return { uploaded: true, url };
+}
+
+// 从 COS 读取文件（桶为公有读，无需签名）；失败返回 null
+export async function fetchFromCOS(cosKey) {
+  const { COS_BUCKET: bucket, COS_REGION: region } = process.env;
+  if (!bucket || !region) return null;
+  try {
+    const url = `https://${bucket}.cos.${region}.myqcloud.com/${cosKey}`;
+    const response = await fetch(url);
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  }
+}
+
+// 北京时间的 YYYY-MM-DD（同步按"天"归档，用国内时区）
+function beijingDate(offsetDays = 0) {
+  const now = new Date(Date.now() + offsetDays * 86400000);
+  return now.toLocaleDateString("en-CA", { timeZone: "Asia/Shanghai" });
+}
+
+// 计算增量：新增 / 更新 / 移除
+export function computeChanges(prevProjects = [], currProjects = []) {
+  const prevMap = new Map(prevProjects.map((p) => [p.url.toLowerCase(), p]));
+  const currMap = new Map(currProjects.map((p) => [p.url.toLowerCase(), p]));
+  const added = currProjects.filter((p) => !prevMap.has(p.url.toLowerCase()));
+  const removed = prevProjects.filter((p) => !currMap.has(p.url.toLowerCase()));
+  const updated = currProjects.filter((p) => {
+    const prev = prevMap.get(p.url.toLowerCase());
+    if (!prev) return false;
+    return JSON.stringify({ name: prev.name, status: prev.status, description: prev.description }) !==
+           JSON.stringify({ name: p.name, status: p.status, description: p.description });
+  });
+  return { added, removed, updated };
 }
 
 const CATEGORY_RULES = [
@@ -173,6 +208,39 @@ async function fetchText(url, localFallback) {
   }
 }
 
+// 读取人工收录源（custom-projects.json，独立于上游，永不被覆盖）
+async function loadCustomProjects() {
+  try {
+    const raw = await readFile(path.join(ROOT, "data/custom-projects.json"), "utf8");
+    const data = JSON.parse(raw);
+    return Array.isArray(data?.projects) ? data.projects : [];
+  } catch {
+    return [];
+  }
+}
+
+// 归一化人工收录条目 → 统一 project 格式
+function normalizeCustomProject(item, index) {
+  const today = beijingDate();
+  return {
+    id: `custom-${today.replaceAll("-", "")}-${index}`,
+    edition: item.edition || "main",
+    addedAt: item.addedAt || today,
+    maker: item.maker || "未知开发者",
+    city: item.city || "",
+    makerLinks: item.makerLinks || [],
+    name: String(item.name || "").trim(),
+    url: String(item.url || "").trim(),
+    status: ["online", "developing", "inactive"].includes(item.status) ? item.status : "online",
+    description: item.description || "",
+    extraLinks: item.extraLinks || [],
+    categories: Array.isArray(item.categories) && item.categories.length
+      ? item.categories
+      : inferCategories(`${item.name || ""} ${item.description || ""}`),
+    source: "custom"
+  };
+}
+
 export async function syncData() {
   const fallbacks = {
     programmer: "/tmp/cid-programmer.md",
@@ -181,16 +249,30 @@ export async function syncData() {
   const batches = [];
   for (const source of SOURCES) {
     const markdown = await fetchText(source.url, fallbacks[source.edition]);
-    batches.push(...parseMarkdown(markdown, source.edition));
+    const parsed = parseMarkdown(markdown, source.edition).map((project) => ({ ...project, source: "upstream" }));
+    batches.push(...parsed);
   }
 
+  // 合并人工收录源（独立文件，读不覆盖）
+  const customItems = await loadCustomProjects();
+  const customProjects = customItems.map(normalizeCustomProject);
+  if (customProjects.length) {
+    console.log(`[custom] 读取人工收录 ${customProjects.length} 条`);
+  }
+
+  // URL 去重：先上游后 custom（custom 与上游重复时保留上游，提示跳过）
   const seen = new Set();
-  const projects = batches.filter((project) => {
-    const key = `${project.edition}|${project.url}`.toLowerCase();
-    if (seen.has(key)) return false;
+  const projects = [];
+  for (const project of [...batches, ...customProjects]) {
+    const key = project.url.toLowerCase();
+    if (seen.has(key)) {
+      if (project.source === "custom") console.log(`[custom] 跳过重复：${project.name}（上游已有）`);
+      continue;
+    }
     seen.add(key);
-    return true;
-  }).sort((a, b) => b.addedAt.localeCompare(a.addedAt));
+    projects.push(project);
+  }
+  projects.sort((a, b) => b.addedAt.localeCompare(a.addedAt));
 
   const categoryCounts = {};
   for (const project of projects) {
@@ -207,10 +289,12 @@ export async function syncData() {
 
   const payload = {
     source: "https://github.com/1c7/chinese-independent-developer",
+    sources: ["upstream", ...(customProjects.length ? ["custom"] : [])],
     generatedAt: new Date().toISOString(),
     counts: {
       total: projects.length,
-      ...editionCounts
+      ...editionCounts,
+      custom: customProjects.length
     },
     categoryCounts,
     projects
@@ -228,8 +312,31 @@ export async function syncData() {
 `;
   await writeFile(path.join(ROOT, "sitemap.xml"), sitemap);
 
-  // 上传到腾讯云 COS（主数据存储）；未配置密钥时静默跳过
-  await uploadToCOS(outputPath);
+  // 增量归档到 COS：最新全量 + 每日快照 + 变化记录（未配置密钥时静默跳过）
+  const today = beijingDate();
+  const yesterday = beijingDate(-1);
+  const prevData = await fetchFromCOS(`history/${yesterday}.json`) || await fetchFromCOS("data/projects.json");
+  const changes = computeChanges(prevData?.projects || [], projects);
+  const changesPayload = {
+    date: today,
+    generatedAt: new Date().toISOString(),
+    added: changes.added,
+    removed: changes.removed,
+    updated: changes.updated,
+    counts: {
+      added: changes.added.length,
+      removed: changes.removed.length,
+      updated: changes.updated.length
+    }
+  };
+  const snapshot = JSON.stringify(payload);
+  await uploadToCOS(snapshot, "data/projects.json");
+  await uploadToCOS(snapshot, `history/${today}.json`);
+  await uploadToCOS(JSON.stringify(changesPayload), `changes/${today}.json`);
+  if (customProjects.length) {
+    await uploadToCOS(JSON.stringify(customProjects, null, 2), `sources/custom/${today}.json`);
+  }
+  console.log(`[changes] ${today}：新增 ${changes.added.length}，更新 ${changes.updated.length}，移除 ${changes.removed.length}`);
   return payload;
 }
 
