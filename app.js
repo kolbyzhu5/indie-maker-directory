@@ -107,6 +107,29 @@ function reset() {
   render();
 }
 
+// 注入 ItemList 结构化数据（帮助 Google 展示富结果）
+function injectItemListJSONLD() {
+  if (!state.data) return;
+  const items = state.data.projects.slice(0, 10).map((project, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": project.name,
+    "url": project.url
+  }));
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "中国独立开发者产品列表",
+    "itemListElement": items
+  };
+  document.querySelectorAll('script[data-seo="itemlist"]').forEach((node) => node.remove());
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.dataset.seo = "itemlist";
+  script.textContent = JSON.stringify(ld);
+  document.head.appendChild(script);
+}
+
 // 应用 locale：更新所有 data-i18n 元素
 function applyLocale() {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -119,8 +142,17 @@ function applyLocale() {
     }
   });
   // 动态重建：需要根据 locale 重绘
-  document.documentElement.lang = getCurrentLocale() === "zh" ? "zh-CN" : "en";
-  document.title = getCurrentLocale() === "zh" ? "独立制造所｜中国独立开发者产品导航" : "Indie Maker · Directory of Chinese indie developer products";
+  const isZh = getCurrentLocale() === "zh";
+  document.documentElement.lang = isZh ? "zh-CN" : "en";
+  document.title = isZh ? "独立制造所｜中国独立开发者产品导航" : "Indie Maker · Directory of Chinese indie developer products";
+  const desc = isZh
+    ? "发现中国独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。涵盖 AI 工具、音视频、效率工具、开发工具、独立游戏等 2000+ 精选产品。"
+    : "Discover websites, apps, tools and games built by Chinese indie developers, synced daily. 2000+ handpicked products across AI, productivity, dev tools and more.";
+  document.querySelector('meta[name="description"]')?.setAttribute("content", desc);
+  document.querySelector('meta[property="og:title"]')?.setAttribute("content", document.title);
+  document.querySelector('meta[property="og:description"]')?.setAttribute("content", desc);
+  document.querySelector('meta[name="twitter:title"]')?.setAttribute("content", document.title);
+  document.querySelector('meta[name="twitter:description"]')?.setAttribute("content", desc);
   if (state.data) {
     const total = state.data.counts.total;
     const loc = getCurrentLocale();
@@ -180,6 +212,7 @@ async function init() {
     const categories = Object.entries(state.data.categoryCounts).sort((a, b) => b[1] - a[1]).slice(0, 9);
     elements.quickTags.innerHTML = categories.map(([name, count]) => `<button type="button" data-category="${escapeHTML(name)}">${escapeHTML(name)} <small>${count}</small></button>`).join("");
     render();
+    injectItemListJSONLD();
 
     // 数据加载完后再根据 IP 智能切换（仅在用户没手动选过、且当前与 IP 推断不同时）
     if (!saved) {

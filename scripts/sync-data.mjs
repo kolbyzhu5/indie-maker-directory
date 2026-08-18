@@ -4,6 +4,8 @@ import path from "node:path";
 import { createHmac, createHash } from "node:crypto";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// 站点主 URL：GitHub Pages 部署期用此值；备案切换 indiemaker.cn 后改为 "https://indiemaker.cn"
+const SITE_URL = "https://kolbyzhu5.github.io/indie-maker-directory";
 const SOURCES = [
   { edition: "main", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/README.md" },
   { edition: "programmer", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/pages/README-Programmer-Edition.md" },
@@ -217,6 +219,15 @@ export async function syncData() {
   await mkdir(path.join(ROOT, "data"), { recursive: true });
   const outputPath = path.join(ROOT, "data/projects.json");
   await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
+
+  // 生成 sitemap.xml（含主页与全部项目页 URL；项目页作为锚点，后续做独立页时扩展）
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>${SITE_URL}/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+</urlset>
+`;
+  await writeFile(path.join(ROOT, "sitemap.xml"), sitemap);
+
   // 上传到腾讯云 COS（主数据存储）；未配置密钥时静默跳过
   await uploadToCOS(outputPath);
   return payload;
