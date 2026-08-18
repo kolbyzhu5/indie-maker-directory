@@ -1,31 +1,51 @@
 {
   "source": "https://github.com/1c7/chinese-independent-developer",
   "sources": [
-    "upstream"
+    "upstream",
+    "custom"
   ],
-  "generatedAt": "2026-08-18T14:54:29.107Z",
+  "generatedAt": "2026-08-18T15:08:40.397Z",
   "counts": {
-    "total": 2282,
-    "main": 1860,
+    "total": 2283,
+    "main": 1861,
     "programmer": 305,
     "game": 117,
-    "custom": 0
+    "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 795,
+    "AI 工具": 796,
+    "音视频": 394,
+    "效率工具": 331,
     "浏览器扩展": 207,
     "免费工具": 368,
     "文档办公": 211,
     "开发工具": 423,
-    "音视频": 393,
     "图片工具": 434,
-    "效率工具": 330,
     "生活服务": 68,
     "社交社区": 84,
     "游戏娱乐": 137,
     "教育学习": 120
   },
   "projects": [
+    {
+      "id": "custom-20260818-0",
+      "edition": "main",
+      "addedAt": "2026-08-18",
+      "maker": "HBAI-Ltd",
+      "city": "",
+      "makerLinks": [],
+      "name": "Toonflow",
+      "url": "https://toonflow.net",
+      "status": "online",
+      "description": "开源免费的 AI 短剧工厂：小说到剧本、分镜、视频全链路自动化，多 Agent 协作，角色一致性保持，全平台可用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具"
+      ],
+      "source": "custom"
+    },
     {
       "id": "main-20260817-chihoozeng-沉淀记-loamery",
       "edition": "main",
