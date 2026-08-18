@@ -58,6 +58,8 @@
 https://kolbyzhu5.github.io/indie-maker-directory/
 ```
 
+📐 完整系统设计见 [系统架构设计文档](docs/ARCHITECTURE.md)（数据同步机制、COS 数据中枢、多源合并、人工收录、前端 i18n、SEO、部署运维）。
+
 ### 本地运行
 
 ```bash
