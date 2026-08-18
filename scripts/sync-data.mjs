@@ -1,6 +1,7 @@
 import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import path from "node:path";
+import { createHmac, createHash } from "node:crypto";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCES = [
@@ -8,6 +9,57 @@ const SOURCES = [
   { edition: "programmer", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/pages/README-Programmer-Edition.md" },
   { edition: "game", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/pages/README-Game.md" }
 ];
+
+// 腾讯云 COS 上传（主数据存储）。未配置环境变量时自动跳过（本地开发无影响）。
+// 配置：COS_SECRET_ID / COS_SECRET_KEY / COS_BUCKET（不含后缀域名）/ COS_REGION（如 ap-guangzhou）
+function signCOSPut(bucket, region, key, secretId, secretKey) {
+  const host = `${bucket}.cos.${region}.myqcloud.com`;
+  const now = Math.floor(Date.now() / 1000);
+  const startTime = now - 60;
+  const endTime = now + 600;
+  const keyTime = `${startTime};${endTime}`;
+  const signKey = createHmac("sha1", secretKey).update(keyTime).digest("hex");
+  const httpMethod = "put";
+  const httpUri = `/${key}`;
+  const httpParameters = "";
+  const httpHeaders = `host=${host.toLowerCase()}\n`;
+  const stringToSign = createHash("sha1")
+    .update(`${httpMethod}\n${httpUri}\n${httpParameters}\n${httpHeaders}\n`)
+    .digest("hex");
+  const signature = createHmac("sha1", signKey).update(stringToSign).digest("hex");
+  const authorization = [
+    "q-sign-algorithm=sha1",
+    `q-ak=${encodeURIComponent(secretId)}`,
+    `q-sign-time=${keyTime}`,
+    `q-key-time=${keyTime}`,
+    "q-header-list=host",
+    "q-url-param-list=",
+    `q-signature=${signature}`
+  ].join("&");
+  return { host, authorization };
+}
+
+export async function uploadToCOS(localPath, cosKey = "data/projects.json") {
+  const { COS_SECRET_ID: secretId, COS_SECRET_KEY: secretKey, COS_BUCKET: bucket, COS_REGION: region } = process.env;
+  if (!secretId || !secretKey || !bucket || !region) {
+    console.log("[COS] 未配置 COS 环境变量，跳过上传");
+    return { uploaded: false, reason: "not-configured" };
+  }
+  const body = await readFile(localPath);
+  const { host, authorization } = signCOSPut(bucket, region, cosKey, secretId, secretKey);
+  const url = `https://${host}/${cosKey}`;
+  const response = await fetch(url, {
+    method: "PUT",
+    headers: {
+      Authorization: authorization,
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    body
+  });
+  if (!response.ok) throw new Error(`COS 上传失败 HTTP ${response.status}: ${await response.text()}`);
+  console.log(`[COS] 已上传 ${cosKey} → ${bucket} (${region})`);
+  return { uploaded: true, url };
+}
 
 const CATEGORY_RULES = [
   ["AI 工具", /\bAI\b|人工智能|大模型|LLM|ChatGPT|Claude|DeepSeek|智能体|Agent/i],
@@ -162,7 +214,10 @@ export async function syncData() {
   };
 
   await mkdir(path.join(ROOT, "data"), { recursive: true });
-  await writeFile(path.join(ROOT, "data/projects.json"), `${JSON.stringify(payload, null, 2)}\n`);
+  const outputPath = path.join(ROOT, "data/projects.json");
+  await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
+  // 上传到腾讯云 COS（主数据存储）；未配置密钥时静默跳过
+  await uploadToCOS(outputPath);
   return payload;
 }
 
