@@ -22,10 +22,11 @@ function signCOSPut(bucket, region, key, secretId, secretKey) {
   const httpMethod = "put";
   const httpUri = `/${key}`;
   const httpParameters = "";
-  const httpHeaders = `host=${host.toLowerCase()}\n`;
-  const stringToSign = createHash("sha1")
-    .update(`${httpMethod}\n${httpUri}\n${httpParameters}\n${httpHeaders}\n`)
-    .digest("hex");
+  // COS 规范：多个待签名 header 用 "&" 连接（key 小写、value 需 URL 编码，末尾不带 \n）
+  const httpHeaders = `host=${encodeURIComponent(host.toLowerCase())}`;
+  // StringToSign = "sha1\n" + KeyTime + "\n" + SHA1(FormatString) + "\n"
+  const formatString = `${httpMethod}\n${httpUri}\n${httpParameters}\n${httpHeaders}\n`;
+  const stringToSign = `sha1\n${keyTime}\n${createHash("sha1").update(formatString).digest("hex")}\n`;
   const signature = createHmac("sha1", signKey).update(stringToSign).digest("hex");
   const authorization = [
     "q-sign-algorithm=sha1",
