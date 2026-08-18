@@ -14,92 +14,100 @@
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="./" aria-label="独立制造所首页">
-      <span class="brand-seal">独立</span>
-      <span><strong>独立制造所</strong><small>中国独立开发者产品志</small></span>
+    <a class="brand" href="./" data-i18n-attr="aria-label" data-i18n="a11yHome" aria-label="独立制造所首页">
+      <span class="brand-seal" data-i18n="brandTitle">独立</span>
+      <span><strong data-i18n="brandTitle">独立制造所</strong><small data-i18n="brandSubtitle">中国独立开发者产品志</small></span>
     </a>
     <nav class="top-nav" aria-label="主要导航">
-      <a href="#directory">逛产品</a>
-      <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">源项目 ↗</a>
+      <a href="#directory" data-i18n="navBrowse">逛产品</a>
+      <button id="langToggle" type="button" class="lang-toggle" data-i18n-attr="aria-label" data-i18n="a11yLangToggle" aria-label="切换语言">
+        <span data-i18n="langToggleLabel">EN</span>
+      </button>
     </nav>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">每日从 GitHub 自动整理</p>
-        <h1>好产品，<em>不该埋在</em><br>几千行 README 里。</h1>
-        <p class="hero-description">把中国独立开发者的作品做成真正好逛、好搜、好发现的产品导航。没有竞价排名，只有创造本身。</p>
+        <p class="eyebrow" data-i18n="heroEyebrow">每日从 GitHub 自动整理</p>
+        <h1>
+          <span data-i18n="heroTitle1">好产品，</span><em data-i18n="heroTitleEm">不该埋在</em><br>
+          <span data-i18n="heroTitle2">几千行 README 里。</span>
+        </h1>
+        <p class="hero-description" data-i18n="heroDesc">把中国独立开发者的作品做成真正好逛、好搜、好发现的产品导航。没有竞价排名，只有创造本身。</p>
       </div>
       <aside class="hero-note">
         <span class="note-pin"></span>
-        <p>今日馆藏</p>
+        <p data-i18n="heroToday">今日馆藏</p>
         <strong id="heroTotal">—</strong>
-        <small>件独立作品</small>
-        <time id="syncTime">正在读取...</time>
+        <small data-i18n="heroUnit">件独立作品</small>
+        <time id="syncTime" data-i18n="heroLoading">正在读取...</time>
       </aside>
     </section>
 
     <section class="search-stage" id="directory">
       <div class="search-wrap">
-        <label class="sr-only" for="searchInput">搜索产品、开发者或介绍</label>
+        <label class="sr-only" for="searchInput" data-i18n="a11ySearch">搜索产品、开发者或介绍</label>
         <span class="search-mark">⌕</span>
-        <input id="searchInput" type="search" placeholder="搜产品、功能、开发者，例如：AI、PDF、macOS…" autocomplete="off">
+        <input id="searchInput" type="search" data-i18n-attr="placeholder" data-i18n="searchPlaceholder" placeholder="搜产品、功能、开发者，例如：AI、PDF、macOS…" autocomplete="off">
         <kbd>/</kbd>
-        <button id="clearSearch" class="clear-search" type="button" aria-label="清空搜索">清空</button>
+        <button id="clearSearch" class="clear-search" type="button" data-i18n-attr="aria-label" data-i18n="a11yClearSearch" aria-label="清空搜索" data-i18n="searchClear">清空</button>
       </div>
-      <div class="quick-tags" id="quickTags" aria-label="热门分类"></div>
+      <div class="quick-tags" id="quickTags" data-i18n-attr="aria-label" data-i18n="a11yQuickTags" aria-label="热门分类"></div>
     </section>
 
     <section class="directory-shell">
-      <aside class="filter-panel" aria-label="筛选条件">
+      <aside class="filter-panel" data-i18n-attr="aria-label" data-i18n="a11yFilters" aria-label="筛选条件">
         <div class="filter-heading">
-          <span>浏览目录</span>
-          <button id="resetFilters" type="button">重置</button>
+          <span data-i18n="filterTitle">浏览目录</span>
+          <button id="resetFilters" type="button" data-i18n="filterReset">重置</button>
         </div>
         <fieldset>
-          <legend>作品版面</legend>
-          <label><input type="radio" name="edition" value="all" checked><span>全部作品</span><b id="countAll">—</b></label>
-          <label><input type="radio" name="edition" value="main"><span>大众产品</span><b id="countMain">—</b></label>
-          <label><input type="radio" name="edition" value="programmer"><span>程序员版</span><b id="countProgrammer">—</b></label>
-          <label><input type="radio" name="edition" value="game"><span>独立游戏</span><b id="countGame">—</b></label>
+          <legend data-i18n="editionLegend">作品版面</legend>
+          <label><input type="radio" name="edition" value="all" checked><span data-i18n="editionAll">全部作品</span><b id="countAll">—</b></label>
+          <label><input type="radio" name="edition" value="main"><span data-i18n="editionMain">大众产品</span><b id="countMain">—</b></label>
+          <label><input type="radio" name="edition" value="programmer"><span data-i18n="editionProgrammer">程序员版</span><b id="countProgrammer">—</b></label>
+          <label><input type="radio" name="edition" value="game"><span data-i18n="editionGame">独立游戏</span><b id="countGame">—</b></label>
         </fieldset>
         <fieldset>
-          <legend>项目状态</legend>
-          <label><input type="checkbox" name="status" value="online" checked><span><i class="dot online"></i>已上线</span></label>
-          <label><input type="checkbox" name="status" value="developing" checked><span><i class="dot developing"></i>开发中</span></label>
-          <label><input type="checkbox" name="status" value="inactive"><span><i class="dot inactive"></i>已停止</span></label>
+          <legend data-i18n="statusLegend">项目状态</legend>
+          <label><input type="checkbox" name="status" value="online" checked><span><i class="dot online"></i><span data-i18n="statusOnline">已上线</span></span></label>
+          <label><input type="checkbox" name="status" value="developing" checked><span><i class="dot developing"></i><span data-i18n="statusDeveloping">开发中</span></span></label>
+          <label><input type="checkbox" name="status" value="inactive"><span><i class="dot inactive"></i><span data-i18n="statusInactive">已停止</span></span></label>
         </fieldset>
-        <div class="source-note">数据来自开源社区，项目状态及描述以原仓库为准。</div>
+        <div class="source-note" data-i18n="sourceNote">数据来自开源社区，项目状态及描述以原仓库为准。</div>
       </aside>
 
       <div class="results-area">
         <div class="results-toolbar">
-          <div><span id="resultCount">正在装订目录…</span><small id="activeFilter"></small></div>
-          <label>排序
+          <div><span id="resultCount" data-i18n="resultsLoading">正在装订目录…</span><small id="activeFilter"></small></div>
+          <label><span data-i18n="sortLabel">排序</span>
             <select id="sortSelect">
-              <option value="newest">最近收录</option>
-              <option value="name">名称 A–Z</option>
-              <option value="maker">开发者</option>
+              <option value="newest" data-i18n="sortNewest">最近收录</option>
+              <option value="name" data-i18n="sortName">名称 A–Z</option>
+              <option value="maker" data-i18n="sortMaker">开发者</option>
             </select>
           </label>
         </div>
-        <div id="projectGrid" class="project-grid" aria-live="polite"></div>
+        <div id="projectGrid" class="project-grid" aria-live="polite" data-i18n-attr="aria-label" data-i18n="a11yResults" aria-label="产品列表"></div>
         <div id="emptyState" class="empty-state" hidden>
           <span>空</span>
-          <h2>没找到相符的作品</h2>
-          <p>换个关键词，或者减少筛选条件试试。</p>
-          <button type="button" id="emptyReset">查看全部作品</button>
+          <h2 data-i18n="resultsEmptyTitle">没找到相符的作品</h2>
+          <p data-i18n="resultsEmptyDesc">换个关键词，或者减少筛选条件试试。</p>
+          <button type="button" id="emptyReset" data-i18n="resultsEmptyAction">查看全部作品</button>
         </div>
-        <button id="loadMore" class="load-more" type="button" hidden>再翻一页 <span>↓</span></button>
+        <button id="loadMore" class="load-more" type="button" hidden>
+          <span data-i18n="resultsLoadMore">再翻一页</span> <span>↓</span>
+        </button>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>独立制造所 · 让认真做出来的东西被看见</p>
-    <p>反馈建议：<a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></p>
+    <p data-i18n="footerSlogan">独立制造所 · 让认真做出来的东西被看见</p>
+    <p><span data-i18n="footerFeedback">反馈建议</span>：<a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></p>
   </footer>
+  <script src="i18n.js" type="module"></script>
   <script src="app.js" type="module"></script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+import { LOCALES, t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP } from "./i18n.js";
+
 const state = {
   data: null,
   query: "",
@@ -17,10 +19,11 @@ const elements = {
   resultCount: document.querySelector("#resultCount"),
   activeFilter: document.querySelector("#activeFilter"),
   loadMore: document.querySelector("#loadMore"),
-  sort: document.querySelector("#sortSelect")
+  sort: document.querySelector("#sortSelect"),
+  langToggle: document.querySelector("#langToggle")
 };
 
-const editionNames = { main: "大众产品", programmer: "程序员版", game: "独立游戏" };
+const editionKeyMap = { main: "editionMain", programmer: "editionProgrammer", game: "editionGame" };
 const escapeHTML = (value = "") => value.replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
 const normalize = (value = "") => value.toLowerCase().normalize("NFKC");
 
@@ -53,8 +56,8 @@ function filteredProjects() {
     return words.every((word) => haystack.includes(word));
   });
   return list.sort((a, b) => {
-    if (state.sort === "name") return a.name.localeCompare(b.name, "zh-CN");
-    if (state.sort === "maker") return a.maker.localeCompare(b.maker, "zh-CN");
+    if (state.sort === "name") return a.name.localeCompare(b.name, getCurrentLocale() === "zh" ? "zh-CN" : "en");
+    if (state.sort === "maker") return a.maker.localeCompare(b.maker, getCurrentLocale() === "zh" ? "zh-CN" : "en");
     return b.addedAt.localeCompare(a.addedAt);
   });
 }
@@ -62,26 +65,32 @@ function filteredProjects() {
 function cardTemplate(project, index) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
   const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(tag)}</span>`).join("");
+  const editionLabel = t(editionKeyMap[project.edition] || "editionMain");
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
-    <div class="card-top"><span class="edition-badge">${editionNames[project.edition]}</span><time class="card-date">${project.addedAt}</time></div>
+    <div class="card-top"><span class="edition-badge">${editionLabel}</span><time class="card-date">${project.addedAt}</time></div>
     <h2><a href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${escapeHTML(project.name)}</a></h2>
     <p>${escapeHTML(project.description)}</p>
     <div class="card-tags">${tags}</div>
-    <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span><a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">去看看 ↗</a></div>
+    <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span><a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a></div>
   </article>`;
 }
 
 function render() {
   if (!state.data) return;
   const projects = filteredProjects();
-  elements.resultCount.textContent = `找到 ${projects.length.toLocaleString("zh-CN")} 件作品`;
-  const filters = [state.query && `“${state.query}”`, state.edition !== "all" && editionNames[state.edition], state.category].filter(Boolean);
+  elements.resultCount.textContent = t("resultsCount", projects.length);
+  const filters = [
+    state.query && `“${state.query}”`,
+    state.edition !== "all" && t(editionKeyMap[state.edition]),
+    state.category
+  ].filter(Boolean);
   elements.activeFilter.textContent = filters.join(" · ");
   elements.grid.innerHTML = projects.slice(0, state.limit).map(cardTemplate).join("");
   elements.grid.hidden = projects.length === 0;
   elements.empty.hidden = projects.length !== 0;
   elements.loadMore.hidden = projects.length <= state.limit;
-  elements.loadMore.textContent = `再看 ${Math.min(48, projects.length - state.limit)} 件 ↓`;
+  const remaining = Math.min(48, projects.length - state.limit);
+  elements.loadMore.lastChild.textContent = `${t("resultsLoadMoreCount", remaining)} ↓`;
   document.querySelectorAll("#quickTags button").forEach((button) => button.classList.toggle("active", button.dataset.category === state.category));
   syncURL();
 }
@@ -98,6 +107,35 @@ function reset() {
   render();
 }
 
+// 应用 locale：更新所有 data-i18n 元素
+function applyLocale() {
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const key = el.getAttribute("data-i18n");
+    // 元素若带 data-i18n-attr，只更新属性，不覆盖子内容
+    if (el.hasAttribute("data-i18n-attr")) {
+      el.setAttribute(el.getAttribute("data-i18n-attr"), t(key));
+    } else {
+      el.textContent = t(key);
+    }
+  });
+  // 动态重建：需要根据 locale 重绘
+  document.documentElement.lang = getCurrentLocale() === "zh" ? "zh-CN" : "en";
+  document.title = getCurrentLocale() === "zh" ? "独立制造所｜中国独立开发者产品导航" : "Indie Maker · Directory of Chinese indie developer products";
+  if (state.data) {
+    const total = state.data.counts.total;
+    const loc = getCurrentLocale();
+    document.querySelector("#heroTotal").textContent = loc === "zh" ? total.toLocaleString("zh-CN") : total.toLocaleString("en");
+    document.querySelector("#syncTime").textContent = t("syncTime", new Date(state.data.generatedAt));
+    render();
+  }
+}
+
+function toggleLocale() {
+  const next = getCurrentLocale() === "zh" ? "en" : "zh";
+  setLocale(next);
+  applyLocale();
+}
+
 function bindEvents() {
   let timer;
   elements.search.addEventListener("input", () => {
@@ -112,28 +150,49 @@ function bindEvents() {
   elements.loadMore.addEventListener("click", () => { state.limit += 48; render(); });
   document.querySelector("#resetFilters").addEventListener("click", reset);
   document.querySelector("#emptyReset").addEventListener("click", reset);
+  elements.langToggle.addEventListener("click", toggleLocale);
   document.addEventListener("keydown", (event) => { if (event.key === "/" && document.activeElement !== elements.search) { event.preventDefault(); elements.search.focus(); } });
 }
 
 async function init() {
+  // locale 决策：用户选择 > 浏览器 > 默认 zh
+  const saved = getSavedLocale();
+  const initial = saved || browserLocale();
+  setLocale(initial);
+
+  // 首次应用 i18n（无数据时 render 会 return，但 DOM 文本已更新）
+  applyLocale();
+
   readURLState();
   bindEvents();
   try {
     const response = await fetch("data/projects.json");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
-    document.querySelector("#heroTotal").textContent = state.data.counts.total.toLocaleString("zh-CN");
+    const total = state.data.counts.total;
+    const loc = getCurrentLocale();
+    document.querySelector("#heroTotal").textContent = loc === "zh" ? total.toLocaleString("zh-CN") : total.toLocaleString("en");
     document.querySelector("#countAll").textContent = state.data.counts.total;
     document.querySelector("#countMain").textContent = state.data.counts.main;
     document.querySelector("#countProgrammer").textContent = state.data.counts.programmer;
     document.querySelector("#countGame").textContent = state.data.counts.game;
-    document.querySelector("#syncTime").textContent = `更新于 ${new Date(state.data.generatedAt).toLocaleDateString("zh-CN")}`;
+    document.querySelector("#syncTime").textContent = t("syncTime", new Date(state.data.generatedAt));
     const categories = Object.entries(state.data.categoryCounts).sort((a, b) => b[1] - a[1]).slice(0, 9);
     elements.quickTags.innerHTML = categories.map(([name, count]) => `<button type="button" data-category="${escapeHTML(name)}">${escapeHTML(name)} <small>${count}</small></button>`).join("");
     render();
+
+    // 数据加载完后再根据 IP 智能切换（仅在用户没手动选过、且当前与 IP 推断不同时）
+    if (!saved) {
+      const ipLocale = await detectLocaleByIP();
+      if (ipLocale && ipLocale !== getCurrentLocale()) {
+        setLocale(ipLocale);
+        applyLocale();
+        try { sessionStorage.setItem("imd.ipDetected", "1"); } catch {}
+      }
+    }
   } catch (error) {
-    elements.resultCount.textContent = "目录读取失败";
-    elements.grid.innerHTML = `<div class="empty-state"><h2>暂时无法打开目录</h2><p>${escapeHTML(error.message)}，请稍后刷新。</p></div>`;
+    elements.resultCount.textContent = t("errorTitle");
+    elements.grid.innerHTML = `<div class="empty-state"><h2>${escapeHTML(t("errorHeading"))}</h2><p>${escapeHTML(t("errorBody", error.message))}</p></div>`;
   }
 }
 
