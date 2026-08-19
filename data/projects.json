@@ -4,10 +4,10 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-08-18T22:41:39.475Z",
+  "generatedAt": "2026-08-19T22:41:47.187Z",
   "counts": {
-    "total": 2283,
-    "main": 1861,
+    "total": 2284,
+    "main": 1862,
     "programmer": 305,
     "game": 117,
     "custom": 1
@@ -16,8 +16,8 @@
     "AI 工具": 796,
     "音视频": 394,
     "效率工具": 331,
-    "浏览器扩展": 207,
-    "免费工具": 368,
+    "浏览器扩展": 208,
+    "免费工具": 369,
     "文档办公": 211,
     "开发工具": 423,
     "图片工具": 434,
@@ -28,9 +28,9 @@
   },
   "projects": [
     {
-      "id": "custom-20260819-0",
+      "id": "custom-20260820-0",
       "edition": "main",
-      "addedAt": "2026-08-19",
+      "addedAt": "2026-08-20",
       "maker": "HBAI-Ltd",
       "city": "",
       "makerLinks": [],
@@ -45,6 +45,29 @@
         "效率工具"
       ],
       "source": "custom"
+    },
+    {
+      "id": "main-20260819-margox-tempcanvas",
+      "edition": "main",
+      "addedAt": "2026-08-19",
+      "maker": "超能刚哥",
+      "city": "长沙",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/margox"
+        }
+      ],
+      "name": "TempCanvas",
+      "url": "https://tempcanvas.com/",
+      "status": "online",
+      "description": "免费、无需注册的临时在线白板，打开即可快速画图、手写记录和导出 PNG，内容仅保存在浏览器本地",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
     },
     {
       "id": "main-20260817-chihoozeng-沉淀记-loamery",
