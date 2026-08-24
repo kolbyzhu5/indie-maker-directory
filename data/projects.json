@@ -4,33 +4,33 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-08-23T22:38:27.631Z",
+  "generatedAt": "2026-08-24T22:44:40.133Z",
   "counts": {
-    "total": 2303,
-    "main": 1875,
+    "total": 2305,
+    "main": 1877,
     "programmer": 309,
     "game": 119,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 810,
-    "音视频": 396,
-    "效率工具": 335,
+    "AI 工具": 814,
+    "音视频": 398,
+    "效率工具": 332,
+    "图片工具": 440,
+    "文档办公": 214,
+    "浏览器扩展": 217,
+    "免费工具": 374,
     "社交社区": 86,
-    "浏览器扩展": 215,
-    "免费工具": 373,
     "开发工具": 428,
-    "图片工具": 437,
-    "文档办公": 213,
     "生活服务": 69,
     "游戏娱乐": 138,
     "教育学习": 120
   },
   "projects": [
     {
-      "id": "custom-20260824-0",
+      "id": "custom-20260825-0",
       "edition": "main",
-      "addedAt": "2026-08-24",
+      "addedAt": "2026-08-25",
       "maker": "HBAI-Ltd",
       "city": "",
       "makerLinks": [],
@@ -45,6 +45,127 @@
         "效率工具"
       ],
       "source": "custom"
+    },
+    {
+      "id": "main-20260824-mr-zhangbo-createforge-ai",
+      "edition": "main",
+      "addedAt": "2026-08-24",
+      "maker": "张波",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Mr-ZhangBo"
+        }
+      ],
+      "name": "CreateForge AI",
+      "url": "https://createforgeai.com/",
+      "status": "online",
+      "description": "AI 图像与视频生成工作台，接入 17 个模型，支持 Seedance 2.5、Veo 3.1 等模型的文生图、图生图、文生视频和图生视频，提供积分报价、任务中心与私有媒体库",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260824-ethanyoq-ai-小说作家",
+      "edition": "main",
+      "addedAt": "2026-08-24",
+      "maker": "EthanYoQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EthanYoQ"
+        }
+      ],
+      "name": "AI 小说作家",
+      "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
+      "status": "online",
+      "description": "AI 小说创作桌面应用，把角色、世界观、大纲、写作、审校与修订串成可控流程，写长篇不崩，包含续写仿写其他小说的功能；另有 DeepSeek Harness 插件版本，可用本地模型创作成人向（NSFW）小说",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260824-ethanyoq-invoice-downloader",
+      "edition": "main",
+      "addedAt": "2026-08-24",
+      "maker": "EthanYoQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EthanYoQ"
+        }
+      ],
+      "name": "Invoice Downloader",
+      "url": "https://github.com/EthanYoQ/Invoice-Downloader",
+      "status": "online",
+      "description": "电子发票整理与报销准备桌面应用，从 QQ 或 163 邮箱批量下载发票，也可直接把发票二维码下载成发票，OCR 识别、分类归档并生成报销 Excel 汇总；另有 DeepSeek Harness 插件版本",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "文档办公",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260824-ethanyoq-轻语输入-whisper-input",
+      "edition": "main",
+      "addedAt": "2026-08-24",
+      "maker": "EthanYoQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EthanYoQ"
+        }
+      ],
+      "name": "轻语输入 / Whisper Input",
+      "url": "https://github.com/EthanYoQ/whisper-input",
+      "status": "online",
+      "description": "中文 AI 语音输入工具，按全局快捷键即可将口述整理为去口头语、正式汇报或邮件格式，支持自动转成英文与自定模型",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260824-darren562-froging-ai",
+      "edition": "main",
+      "addedAt": "2026-08-24",
+      "maker": "Darren",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/darren562"
+        }
+      ],
+      "name": "Froging AI",
+      "url": "https://froging.ai",
+      "status": "online",
+      "description": "AI 视频与图片生成平台，在同一工作台调用 Kling 3.0、Veo 3.1、MiniMax H3 等模型将文字或图片转为高清内容，支持免费开始与无水印导出",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
     },
     {
       "id": "main-20260822-samuel-kuang-socialecho",
@@ -4134,52 +4255,6 @@
       "source": "upstream"
     },
     {
-      "id": "main-20260723-ethanyoq-invoice-downloader",
-      "edition": "main",
-      "addedAt": "2026-07-23",
-      "maker": "EthanYoQ",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/EthanYoQ"
-        }
-      ],
-      "name": "Invoice-Downloader",
-      "url": "https://github.com/EthanYoQ/Invoice-Downloader",
-      "status": "online",
-      "description": "发票自动化处理工具，连好邮箱后自动开票、下载、转成 PDF 并按分类归档，同时生成 Excel 清单",
-      "extraLinks": [],
-      "categories": [
-        "文档办公",
-        "效率工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20260723-ethanyoq-whisper-input",
-      "edition": "main",
-      "addedAt": "2026-07-23",
-      "maker": "EthanYoQ",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/EthanYoQ"
-        }
-      ],
-      "name": "whisper-input",
-      "url": "https://github.com/EthanYoQ/whisper-input",
-      "status": "online",
-      "description": "语音输入法，开口即输入，自动整理成逻辑清晰的话术（类似 prompt），输出风格可选；面向 vibe coding 场景，源码公开自由可调 — Windows",
-      "extraLinks": [],
-      "categories": [
-        "音视频",
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
       "id": "main-20260723-ethanyoq-agent-xiaohongshu-workbench",
       "edition": "main",
       "addedAt": "2026-07-23",
@@ -4194,34 +4269,11 @@
       "name": "agent-xiaohongshu-workbench",
       "url": "https://github.com/EthanYoQ/agent-xiaohongshu-workbench",
       "status": "online",
-      "description": "小红书工作台，一键拆解爆款内容，自动完成选题、配图与发布，支持多账号管理与账号故事线管理",
+      "description": "小红书图文内容工作台，把账号定位、热点研究、选题、原创文稿、品牌配图、完整预览和人工确认组织成一条可控流程；由本地 Codex Agent 驱动，提供 Windows 与 Apple Silicon macOS 安装包",
       "extraLinks": [],
       "categories": [
         "AI 工具",
-        "效率工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20260723-ethanyoq-ai-novel-writer",
-      "edition": "main",
-      "addedAt": "2026-07-23",
-      "maker": "EthanYoQ",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/EthanYoQ"
-        }
-      ],
-      "name": "AI-Novel-Writer",
-      "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
-      "status": "online",
-      "description": "AI 小说创作桌面工具，管理大纲、角色、章节蓝图、审稿修稿与知识库，内置系统提示词避免中长篇小说角色/内容遗忘与主题漂移；支持本地模型生成 NSFW 成人文学",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "效率工具"
+        "开发工具"
       ],
       "source": "upstream"
     },
