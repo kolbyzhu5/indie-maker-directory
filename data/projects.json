@@ -4,33 +4,56 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-08-24T22:44:40.133Z",
+  "generatedAt": "2026-08-25T22:45:11.141Z",
   "counts": {
-    "total": 2305,
-    "main": 1877,
+    "total": 2307,
+    "main": 1879,
     "programmer": 309,
     "game": 119,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 814,
-    "音视频": 398,
+    "AI 工具": 815,
+    "图片工具": 441,
+    "音视频": 399,
     "效率工具": 332,
-    "图片工具": 440,
+    "开发工具": 429,
     "文档办公": 214,
     "浏览器扩展": 217,
     "免费工具": 374,
     "社交社区": 86,
-    "开发工具": 428,
     "生活服务": 69,
     "游戏娱乐": 138,
     "教育学习": 120
   },
   "projects": [
     {
-      "id": "custom-20260825-0",
+      "id": "main-20260826-chenminjie24-ai-室内设计",
       "edition": "main",
-      "addedAt": "2026-08-25",
+      "addedAt": "2026-08-26",
+      "maker": "Jay",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenminjie24"
+        }
+      ],
+      "name": "AI 室内设计",
+      "url": "https://ai-room.design/",
+      "status": "online",
+      "description": "上传房间照片生成多种风格的装修设计，装修前即可预览效果",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "custom-20260826-0",
+      "edition": "main",
+      "addedAt": "2026-08-26",
       "maker": "HBAI-Ltd",
       "city": "",
       "makerLinks": [],
@@ -45,6 +68,33 @@
         "效率工具"
       ],
       "source": "custom"
+    },
+    {
+      "id": "main-20260825-zhoujungis-halo-音乐",
+      "edition": "main",
+      "addedAt": "2026-08-25",
+      "maker": "zhoujun",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        },
+        {
+          "label": "博客",
+          "url": "https://zhoujungis.github.io/"
+        }
+      ],
+      "name": "Halo 音乐",
+      "url": "https://github.com/zhoujungis/halo_music",
+      "status": "online",
+      "description": "在线音乐播放与下载工具，推出 Electron 桌面客户端（Windows）与安卓 APP，统一多平台音乐搜索、播放、歌词和歌单导入，支持离线缓存",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
     },
     {
       "id": "main-20260824-mr-zhangbo-createforge-ai",
