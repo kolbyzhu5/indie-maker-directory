@@ -4,29 +4,211 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-08-25T22:45:11.141Z",
+  "generatedAt": "2026-08-27T03:18:48.947Z",
   "counts": {
-    "total": 2307,
-    "main": 1879,
+    "total": 2314,
+    "main": 1886,
     "programmer": 309,
     "game": 119,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 815,
+    "AI 工具": 817,
+    "音视频": 402,
+    "效率工具": 334,
+    "开发工具": 431,
+    "免费工具": 377,
+    "浏览器扩展": 219,
+    "文档办公": 215,
+    "社交社区": 87,
     "图片工具": 441,
-    "音视频": 399,
-    "效率工具": 332,
-    "开发工具": 429,
-    "文档办公": 214,
-    "浏览器扩展": 217,
-    "免费工具": 374,
-    "社交社区": 86,
     "生活服务": 69,
     "游戏娱乐": 138,
     "教育学习": 120
   },
   "projects": [
+    {
+      "id": "custom-20260827-0",
+      "edition": "main",
+      "addedAt": "2026-08-27",
+      "maker": "HBAI-Ltd",
+      "city": "",
+      "makerLinks": [],
+      "name": "Toonflow",
+      "url": "https://toonflow.net",
+      "status": "online",
+      "description": "开源免费的 AI 短剧工厂：小说到剧本、分镜、视频全链路自动化，多 Agent 协作，角色一致性保持，全平台可用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具"
+      ],
+      "source": "custom"
+    },
+    {
+      "id": "main-20260826-encyc-灵器ai",
+      "edition": "main",
+      "addedAt": "2026-08-26",
+      "maker": "Justin Gao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/encyc"
+        }
+      ],
+      "name": "灵器AI",
+      "url": "https://lingqiai.art",
+      "status": "online",
+      "description": "多 Agent 协作的 AI 长篇小说创作工具，像一间 AI 编辑部：总编 Agent 统筹世界观、人物、大纲、导演、写手、审校 6 位专属 Agent 分工出稿，角色设定与伏笔写入文件式知识库防止幻觉，几十万字连载人物、剧情前后一致，网页打开即用，另有桌面客户端",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260826-iamcorey-wake",
+      "edition": "main",
+      "addedAt": "2026-08-26",
+      "maker": "Corey",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/iamcorey"
+        }
+      ],
+      "name": "Wake",
+      "url": "https://github.com/iamcorey/wake",
+      "status": "online",
+      "description": "Coding Agent 本地会话管理器，按 Agent 和项目浏览全部会话，全文搜索命中后直接跳到对应消息，也可回到原项目目录继续会话；支持 Claude Code、Codex、Copilot CLI、Cursor、OpenCode、Kiro、Gemini CLI 等 — 免费开源桌面应用，支持 macOS、Windows、Linux",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260826-mr-zhangbo-easydown",
+      "edition": "main",
+      "addedAt": "2026-08-26",
+      "maker": "张波",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Mr-ZhangBo"
+        }
+      ],
+      "name": "EasyDown",
+      "url": "https://easydown.org/",
+      "status": "online",
+      "description": "粘贴 TikTok、YouTube、Twitter/X、抖音、小红书、哔哩哔哩等公开视频链接即可下载，可选可用格式保存 — 免费在线工具，无需登录或安装软件",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260826-sfss5362-engabc",
+      "edition": "main",
+      "addedAt": "2026-08-26",
+      "maker": "刀刀",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sfss5362"
+        }
+      ],
+      "name": "EngABC",
+      "url": "https://chromewebstore.google.com/detail/nccmmlcobgkhlihlgjmlcdpgiinfhedl",
+      "status": "online",
+      "description": "YouTube 双语字幕精听，支持逐句定位、单句循环和变速播放 — Chrome 插件",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260826-dkphhh-read-pdf-aloud",
+      "edition": "main",
+      "addedAt": "2026-08-26",
+      "maker": "Dkphhh",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dkphhh"
+        }
+      ],
+      "name": "Read PDF Aloud",
+      "url": "https://readpdfaloud.com",
+      "status": "online",
+      "description": "在线 PDF 朗读器，也支持 TXT、MD、EPUB、MOBI、AZW3、DOCX 等主流文档格式，支持 120+ 种语言，有 600+ 种音色可以选择",
+      "extraLinks": [],
+      "categories": [
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260826-dkphhh-video-to-text",
+      "edition": "main",
+      "addedAt": "2026-08-26",
+      "maker": "Dkphhh",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dkphhh"
+        }
+      ],
+      "name": "Video to Text",
+      "url": "https://video2text.net",
+      "status": "online",
+      "description": "在线视频转文字，支持 CSV、TXT、SRT、VTT 四种导出格式，可以附带时间戳和说话人标签，支持 99 种语言，除上传文件外也支持 YouTube、TikTok、Instagram 等社交媒体平台视频链接",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "效率工具",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260826-ritavidhata-formatho",
+      "edition": "main",
+      "addedAt": "2026-08-26",
+      "maker": "Nitin Gurbani",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Ritavidhata"
+        }
+      ],
+      "name": "Formatho",
+      "url": "https://formatho.com",
+      "status": "online",
+      "description": "134 个免费开发者工具合集（JSON/YAML/CSV 格式化、JWT 解码、SQL 格式化、哈希生成等），全部浏览器本地处理，无上传无注册，开源（MIT）",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260826-chenminjie24-ai-室内设计",
       "edition": "main",
@@ -49,25 +231,6 @@
         "图片工具"
       ],
       "source": "upstream"
-    },
-    {
-      "id": "custom-20260826-0",
-      "edition": "main",
-      "addedAt": "2026-08-26",
-      "maker": "HBAI-Ltd",
-      "city": "",
-      "makerLinks": [],
-      "name": "Toonflow",
-      "url": "https://toonflow.net",
-      "status": "online",
-      "description": "开源免费的 AI 短剧工厂：小说到剧本、分镜、视频全链路自动化，多 Agent 协作，角色一致性保持，全平台可用",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "音视频",
-        "效率工具"
-      ],
-      "source": "custom"
     },
     {
       "id": "main-20260825-zhoujungis-halo-音乐",
@@ -4844,7 +5007,7 @@
       "name": "Lumi & Friends iOS App Finder",
       "url": "https://alice51849.github.io/ios-app-guide/zh-Hans/tools/private-pay-once-iphone-app-finder.html",
       "status": "online",
-      "description": "按用途、隐私和付费方式查找 29 款已上架 iPhone/iPad App，覆盖学习、效率、照片、旅行与健康，逐款直达 App Store；支持 Apple 官方 50 个本地化区域",
+      "description": "按用途、隐私和付费方式查找已上架的 iPhone/iPad App，覆盖学习、效率、照片、旅行与健康，逐款直达 App Store；支持 Apple 官方 50 个本地化区域",
       "extraLinks": [],
       "categories": [
         "图片工具",
