@@ -4,33 +4,33 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-08-27T03:18:48.947Z",
+  "generatedAt": "2026-08-28T06:07:19.443Z",
   "counts": {
-    "total": 2314,
-    "main": 1886,
-    "programmer": 309,
+    "total": 2317,
+    "main": 1888,
+    "programmer": 310,
     "game": 119,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 817,
+    "AI 工具": 819,
     "音视频": 402,
-    "效率工具": 334,
-    "开发工具": 431,
-    "免费工具": 377,
-    "浏览器扩展": 219,
-    "文档办公": 215,
+    "效率工具": 336,
+    "教育学习": 121,
+    "文档办公": 216,
+    "浏览器扩展": 220,
+    "生活服务": 70,
+    "开发工具": 432,
+    "免费工具": 378,
     "社交社区": 87,
     "图片工具": 441,
-    "生活服务": 69,
-    "游戏娱乐": 138,
-    "教育学习": 120
+    "游戏娱乐": 138
   },
   "projects": [
     {
-      "id": "custom-20260827-0",
+      "id": "custom-20260828-0",
       "edition": "main",
-      "addedAt": "2026-08-27",
+      "addedAt": "2026-08-28",
       "maker": "HBAI-Ltd",
       "city": "",
       "makerLinks": [],
@@ -45,6 +45,79 @@
         "效率工具"
       ],
       "source": "custom"
+    },
+    {
+      "id": "main-20260827-phil-fan-agentero",
+      "edition": "main",
+      "addedAt": "2026-08-27",
+      "maker": "PhilFan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Phil-Fan"
+        }
+      ],
+      "name": "Agentero",
+      "url": "https://agentero.app/",
+      "status": "online",
+      "description": "Agent 友好的文献管理与阅读器，Agent 时代的 Zotero",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260827-mingdasen-vault-keeper",
+      "edition": "main",
+      "addedAt": "2026-08-27",
+      "maker": "明大森",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mingdasen"
+        }
+      ],
+      "name": "Vault Keeper",
+      "url": "https://github.com/mingdasen/vault-keeper",
+      "status": "online",
+      "description": "Obsidian vault 自动运维插件：定时检测断链、孤儿笔记、空笔记并生成健康报告，只读不改库",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "浏览器扩展",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260827-kiddphenix-workground2",
+      "edition": "programmer",
+      "addedAt": "2026-08-27",
+      "maker": "KiddPhenix",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/KiddPhenix"
+        }
+      ],
+      "name": "WorkGround2",
+      "url": "https://github.com/KiddPhenix/WorkGround2",
+      "status": "online",
+      "description": "本地优先的 AI 工程工作台，一个 Go 二进制同时提供 CLI/TUI 与桌面端，支持 DeepSeek、Anthropic、OpenAI 兼容接口等多模型接入，内置 MCP 工具管理与改动回滚 — MIT 开源，提供 Windows、macOS、Linux 版本",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
     },
     {
       "id": "main-20260826-encyc-灵器ai",
@@ -154,7 +227,7 @@
       "name": "Read PDF Aloud",
       "url": "https://readpdfaloud.com",
       "status": "online",
-      "description": "在线 PDF 朗读器，也支持 TXT、MD、EPUB、MOBI、AZW3、DOCX 等主流文档格式，支持 120+ 种语言，有 600+ 种音色可以选择",
+      "description": "PDF 朗读器，也支持 TXT、MD、EPUB、MOBI、AZW3、DOCX 等主流文档格式，支持 120+ 种语言，有 600+ 种音色可以选择",
       "extraLinks": [],
       "categories": [
         "文档办公"
@@ -176,7 +249,7 @@
       "name": "Video to Text",
       "url": "https://video2text.net",
       "status": "online",
-      "description": "在线视频转文字，支持 CSV、TXT、SRT、VTT 四种导出格式，可以附带时间戳和说话人标签，支持 99 种语言，除上传文件外也支持 YouTube、TikTok、Instagram 等社交媒体平台视频链接",
+      "description": "视频转文字，支持 CSV、TXT、SRT、VTT 四种导出格式，可以附带时间戳和说话人标签，支持 99 种语言，除上传文件外也支持 YouTube、TikTok、Instagram 等社交媒体平台视频链接",
       "extraLinks": [],
       "categories": [
         "音视频",
@@ -251,7 +324,7 @@
       "name": "Halo 音乐",
       "url": "https://github.com/zhoujungis/halo_music",
       "status": "online",
-      "description": "在线音乐播放与下载工具，推出 Electron 桌面客户端（Windows）与安卓 APP，统一多平台音乐搜索、播放、歌词和歌单导入，支持离线缓存",
+      "description": "音乐播放与下载工具，推出 Electron 桌面客户端（Windows）与安卓 APP，统一多平台音乐搜索、播放、歌词和歌单导入，支持离线缓存",
       "extraLinks": [],
       "categories": [
         "音视频",
@@ -790,7 +863,7 @@
       "name": "MailMergeOnline",
       "url": "https://mailmergeonline.com/",
       "status": "online",
-      "description": "在线 PDF 批量生成工具，内置证书、合同、工资单、发票等现成模板，导入 Excel/CSV 并映射字段即可批量生成个性化 PDF，数据不出浏览器 — 无需安装",
+      "description": "PDF 批量生成工具，内置证书、合同、工资单、发票等现成模板，导入 Excel/CSV 并映射字段即可批量生成个性化 PDF，数据不出浏览器 — 无需安装",
       "extraLinks": [],
       "categories": [
         "文档办公",
@@ -1813,7 +1886,7 @@
       "name": "EveryCityMap",
       "url": "https://everycitymap.com",
       "status": "online",
-      "description": "在线风格化城市地图设计工具，覆盖全球 500+ 座城市，可切换多种主题，自定义图层、道路、水域、标签与配色，并导出多种尺寸的高清地图",
+      "description": "风格化城市地图设计工具，覆盖全球 500+ 座城市，可切换多种主题，自定义图层、道路、水域、标签与配色，并导出多种尺寸的高清地图",
       "extraLinks": [],
       "categories": [
         "生活服务"
@@ -2200,7 +2273,7 @@
       "name": "LiveFaceSwap AI",
       "url": "https://livefaceswap.ai/zh",
       "status": "online",
-      "description": "在线实时 AI 换脸工具，可在浏览器中体验换脸、换装和风格重绘；Windows 11 桌面版可通过虚拟摄像头接入直播、会议和视频通话软件",
+      "description": "实时 AI 换脸工具，可在浏览器中体验换脸、换装和风格重绘；Windows 11 桌面版可通过虚拟摄像头接入直播、会议和视频通话软件",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -2611,7 +2684,7 @@
       "name": "AiXian",
       "url": "https://aixian.online",
       "status": "online",
-      "description": "在线工具箱，把桌面级工具装进浏览器，PDF 合并、图片去背景、AI 证件照、JSON 格式化、OCR 识别等 50+ 工具，全部本地处理，文件不出设备",
+      "description": "工具箱，把桌面级工具装进浏览器，PDF 合并、图片去背景、AI 证件照、JSON 格式化、OCR 识别等 50+ 工具，全部本地处理，文件不出设备",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -10182,7 +10255,7 @@
       "name": "MediaInsight",
       "url": "https://www.mediainsight360.com/",
       "status": "online",
-      "description": "在线媒体格式解析工具，支持 MP4、MKV、AVI 等格式和 H264、H265、AAC 等编解码分析",
+      "description": "媒体格式解析工具，支持 MP4、MKV、AVI 等格式和 H264、H265、AAC 等编解码分析",
       "extraLinks": [
         {
           "label": "更多介绍",
@@ -10593,7 +10666,7 @@
       "name": "Passport Size Photo",
       "url": "https://passportsizephoto.net",
       "status": "online",
-      "description": "在线证件照制作工具，上传照片后选择国家/证件预设，预览尺寸、背景和人脸裁剪，下载数字文件或 4x6 打印排版",
+      "description": "证件照制作工具，上传照片后选择国家/证件预设，预览尺寸、背景和人脸裁剪，下载数字文件或 4x6 打印排版",
       "extraLinks": [],
       "categories": [
         "图片工具"
@@ -10652,7 +10725,7 @@
       "name": "黄油单词",
       "url": "https://waiyuka.cc",
       "status": "online",
-      "description": "在线背单词工具，免费，每张单词卡配有 AI 插图、单词发音和例句朗读，支持西班牙语、法语、德语、日语",
+      "description": "背单词工具，免费，每张单词卡配有 AI 插图、单词发音和例句朗读，支持西班牙语、法语、德语、日语",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -11168,7 +11241,7 @@
       "name": "seedance 2.5",
       "url": "https://seedance25ai.run/",
       "status": "online",
-      "description": "在线 AI 视频生成平台，支持文生视频和图生视频，依托 Seedance 2.5 模型生成流畅自然的 AI 视频",
+      "description": "AI 视频生成平台，支持文生视频和图生视频，依托 Seedance 2.5 模型生成流畅自然的 AI 视频",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -11296,7 +11369,7 @@
       "name": "Mobyform",
       "url": "https://mobyform.com",
       "status": "online",
-      "description": "在线表单构建工具，支持问卷调查、工作流和回复收集",
+      "description": "表单构建工具，支持问卷调查、工作流和回复收集",
       "extraLinks": [],
       "categories": [
         "效率工具"
@@ -11593,7 +11666,7 @@
       "name": "Audio Compressor",
       "url": "https://audio-compressor.org/",
       "status": "online",
-      "description": "在线音频压缩工具，支持 MP3、WAV、M4A、AAC、OGG 等格式在浏览器本地压缩，减小文件大小",
+      "description": "音频压缩工具，支持 MP3、WAV、M4A、AAC、OGG 等格式在浏览器本地压缩，减小文件大小",
       "extraLinks": [],
       "categories": [
         "音视频",
@@ -11842,7 +11915,7 @@
       "name": "YiTools",
       "url": "https://yitools.top",
       "status": "online",
-      "description": "在线工具箱，JSON 格式化/Base64/图片压缩/PDF 合并等 34 个工具，纯本地处理数据不上传，免费无广告",
+      "description": "工具箱，JSON 格式化/Base64/图片压缩/PDF 合并等 34 个工具，纯本地处理数据不上传，免费无广告",
       "extraLinks": [],
       "categories": [
         "图片工具",
@@ -12094,7 +12167,7 @@
       "name": "Pokecut",
       "url": "https://www.pokecut.com/",
       "status": "online",
-      "description": "在线免费使用的 AI 图像编辑/生成器",
+      "description": "免费使用的 AI 图像编辑/生成器",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -12451,7 +12524,7 @@
       "name": "PhotoEditorAI",
       "url": "https://photoeditorai.online/",
       "status": "online",
-      "description": "在线AI 图片编辑工具，一句话将图片变为自己想要的样子，支持 NanoBanano 2, GPT images 2 模型，支持无限画布。",
+      "description": "AI 图片编辑工具，一句话将图片变为自己想要的样子，支持 NanoBanano 2, GPT images 2 模型，支持无限画布。",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -13730,7 +13803,7 @@
       "name": "notepad link",
       "url": "https://notepadlink.online/",
       "status": "online",
-      "description": "在线记事本，支持创建文本，通过链接和二维码方式进行分享",
+      "description": "记事本，支持创建文本，通过链接和二维码方式进行分享",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -13772,7 +13845,7 @@
       "name": "免费在线pdf工具",
       "url": "https://www.pdf24tools.online/zh/",
       "status": "online",
-      "description": "在线 PDF 工具，支持合并、分割、压缩、转换和编辑",
+      "description": "PDF 工具，支持合并、分割、压缩、转换和编辑",
       "extraLinks": [],
       "categories": [
         "文档办公",
@@ -14377,7 +14450,7 @@
       "name": "Color Palette Hub",
       "url": "https://colorpalettehub.com/",
       "status": "online",
-      "description": "在线调色板百科全书，收录数千种命名颜色和数百个精选调色板，提供完整技术参数（Hex、RGB、CMYK、HSL）及颜色文化与历史含义，支持按名称或Hex值搜索、按情绪分类浏览，另有渐变库和色彩转换工具",
+      "description": "调色板百科全书，收录数千种命名颜色和数百个精选调色板，提供完整技术参数（Hex、RGB、CMYK、HSL）及颜色文化与历史含义，支持按名称或Hex值搜索、按情绪分类浏览，另有渐变库和色彩转换工具",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -14488,7 +14561,7 @@
       "name": "Fancy Font Generator",
       "url": "https://cursivegeneratorai.com/",
       "status": "online",
-      "description": "在线花体字体生成工具，输入文字即可生成多种精美字体样式，支持一键复制，适合用于社交昵称、个人简介、签名和装饰文本，无需注册即可使用。",
+      "description": "花体字体生成工具，输入文字即可生成多种精美字体样式，支持一键复制，适合用于社交昵称、个人简介、签名和装饰文本，无需注册即可使用。",
       "extraLinks": [],
       "categories": [
         "社交社区",
@@ -15917,7 +15990,7 @@
       "name": "AI Image Editor",
       "url": "https://ai-image-editor.io",
       "status": "online",
-      "description": "在线 AI 修图与图片生成工具，支持抠图、消除、放大、风格化和基于提示词的图片编辑，并提供 [ChatGPT Image 2](https://ai-image-editor.io/chatgpt-image-2) 免费体验",
+      "description": "AI 修图与图片生成工具，支持抠图、消除、放大、风格化和基于提示词的图片编辑，并提供 [ChatGPT Image 2](https://ai-image-editor.io/chatgpt-image-2) 免费体验",
       "extraLinks": [
         {
           "label": "ChatGPT Image 2",
@@ -16751,7 +16824,7 @@
       "name": "Before After Photo Maker",
       "url": "https://beforeafterphotomaker.site/",
       "status": "online",
-      "description": "在线前后对比图、视频、GIF动图制作，支持多种对比布局（并排展示、交互式滑块对比、分割视图、垂直堆叠）",
+      "description": "前后对比图、视频、GIF动图制作，支持多种对比布局（并排展示、交互式滑块对比、分割视图、垂直堆叠）",
       "extraLinks": [],
       "categories": [
         "音视频"
@@ -17715,7 +17788,7 @@
       "name": "AI Family Photo Generator",
       "url": "https://aifamilyphotogenerator.org",
       "status": "online",
-      "description": "在线工具，可从单独的照片创建逼真的家庭照片和全家福。上传家庭成员的个人照片或描述您想要的肖像，该工具将生成可下载、分享、打印或保存的自然家庭图像。",
+      "description": "工具，可从单独的照片创建逼真的家庭照片和全家福。上传家庭成员的个人照片或描述您想要的肖像，该工具将生成可下载、分享、打印或保存的自然家庭图像。",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -17827,7 +17900,7 @@
       "name": "MarkdownToWord.pro",
       "url": "https://markdowntoword.pro",
       "status": "online",
-      "description": "在线 Markdown 转 Word/PDF/HTML 工具，支持 LaTeX 公式、Mermaid 图表、GFM 语法，浏览器本地处理，无需注册",
+      "description": "Markdown 转 Word/PDF/HTML 工具，支持 LaTeX 公式、Mermaid 图表、GFM 语法，浏览器本地处理，无需注册",
       "extraLinks": [],
       "categories": [
         "文档办公",
@@ -19799,7 +19872,7 @@
       "name": "SVGView",
       "url": "https://svgview.com/?utm_source=github",
       "status": "online",
-      "description": "在线 SVG 查看、压缩、格式转换工具，全程浏览器本地处理，不上传文件",
+      "description": "SVG 查看、压缩、格式转换工具，全程浏览器本地处理，不上传文件",
       "extraLinks": [],
       "categories": [
         "浏览器扩展",
@@ -21002,7 +21075,7 @@
       "name": "MP3 to Text, TXT & SRT Converter",
       "url": "https://mp3totext.net",
       "status": "online",
-      "description": "在线 MP3 转文本工具，可将 MP3 转为 TXT 或 SRT（字幕）",
+      "description": "MP3 转文本工具，可将 MP3 转为 TXT 或 SRT（字幕）",
       "extraLinks": [],
       "categories": [
         "音视频"
@@ -24264,7 +24337,7 @@
       "name": "online-timer",
       "url": "https://icebreaker-games.org/online-timer",
       "status": "online",
-      "description": "在线会议计时器，让您的站会、研讨会和演讲保持高效，按时进行。",
+      "description": "会议计时器，让您的站会、研讨会和演讲保持高效，按时进行。",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -24340,7 +24413,7 @@
       "name": "公共网络记事本",
       "url": "https://share-text.org/",
       "status": "online",
-      "description": "在线网络记事本，支持创建，以及链接和二维码分享",
+      "description": "网络记事本，支持创建，以及链接和二维码分享",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -25994,7 +26067,7 @@
       "name": "在线记事本 – 免费在线文本编辑器与笔记分享",
       "url": "https://onlinenotepad101.org/",
       "status": "online",
-      "description": "在线记事本，用于无干扰写作、记笔记和文本编辑。免费，无需注册，可与他人分享笔记",
+      "description": "记事本，用于无干扰写作、记笔记和文本编辑。免费，无需注册，可与他人分享笔记",
       "extraLinks": [],
       "categories": [
         "文档办公",
@@ -26703,7 +26776,7 @@
       "name": "Teleprompter",
       "url": "https://teleprompteronline.org",
       "status": "online",
-      "description": "在线提词器，适用于视频创作者、演讲者和教育工作者",
+      "description": "提词器，适用于视频创作者、演讲者和教育工作者",
       "extraLinks": [],
       "categories": [
         "音视频",
@@ -27328,7 +27401,7 @@
       "name": "WheelPage - 在线转盘",
       "url": "https://wheelpage.com/zh/",
       "status": "online",
-      "description": "在线转盘，支持抽奖、游戏和快速决策（简洁好用）",
+      "description": "转盘，支持抽奖、游戏和快速决策（简洁好用）",
       "extraLinks": [],
       "categories": [
         "游戏娱乐"
@@ -28255,7 +28328,7 @@
       "name": "OnePractice",
       "url": "https://moon.onepractice.top",
       "status": "online",
-      "description": "在线英语四六级真题网站",
+      "description": "英语四六级真题网站",
       "extraLinks": [],
       "categories": [
         "教育学习"
@@ -35075,7 +35148,7 @@
       "name": "Tool Hut",
       "url": "https://tool-hut.com/",
       "status": "inactive",
-      "description": "在线工具箱，内页支持文本 DIFF、JSON 序列化、时间戳转换等小工具，让天下没有难用的工具。",
+      "description": "工具箱，内页支持文本 DIFF、JSON 序列化、时间戳转换等小工具，让天下没有难用的工具。",
       "extraLinks": [],
       "categories": [
         "效率工具"
@@ -36419,7 +36492,7 @@
       "name": "Minute Timer",
       "url": "https://minutetimers.net/",
       "status": "online",
-      "description": "在线计时器（轻量级且用户友好）",
+      "description": "计时器（轻量级且用户友好）",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -36937,7 +37010,7 @@
       "name": "Free Open Graph Generator",
       "url": "https://og.indiehub.best/",
       "status": "online",
-      "description": "在线Open Graph图片制作工具，支持多种布局，支持调整文字+背景，支持导出PNG，免费无水印",
+      "description": "Open Graph图片制作工具，支持多种布局，支持调整文字+背景，支持导出PNG，免费无水印",
       "extraLinks": [],
       "categories": [
         "图片工具",
@@ -38734,7 +38807,7 @@
       "name": "mediago",
       "url": "https://downloader.caorushizi.cn/?form=github",
       "status": "online",
-      "description": "在线视频下载，m3u8 视频提取工具",
+      "description": "视频下载，m3u8 视频提取工具",
       "extraLinks": [
         {
           "label": "更多介绍",
@@ -38857,7 +38930,7 @@
       "name": "QRCode.fun",
       "url": "https://qrcode.fun",
       "status": "online",
-      "description": "在线二维码生成工具",
+      "description": "二维码生成工具",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -38980,7 +39053,7 @@
       "name": "enjoy-player",
       "url": "https://github.com/xurenda/enjoy-player",
       "status": "online",
-      "description": "在线视频播放器，支持 Web 网页和 Windows、Mac、Linux 桌面应用。主要用于 CMS 视频采集站资源的在线浏览，实现了 HLS 视频流（m3u8）的在线播放",
+      "description": "视频播放器，支持 Web 网页和 Windows、Mac、Linux 桌面应用。主要用于 CMS 视频采集站资源的在线浏览，实现了 HLS 视频流（m3u8）的在线播放",
       "extraLinks": [],
       "categories": [
         "音视频",
@@ -42821,7 +42894,7 @@
       "name": "兔兔答题",
       "url": "https://www.tutudati.com",
       "status": "online",
-      "description": "在线考试答题系统，可用于微信考试、付费考试、社会调查问卷、明星知识问答、员工培训考核、模拟自测、企业面试、试题库等多种场景。支持一键导入、智能判卷、试后分析、不限终端等功能。",
+      "description": "考试答题系统，可用于微信考试、付费考试、社会调查问卷、明星知识问答、员工培训考核、模拟自测、企业面试、试题库等多种场景。支持一键导入、智能判卷、试后分析、不限终端等功能。",
       "extraLinks": [],
       "categories": [
         "开发工具",
@@ -43728,7 +43801,7 @@
       "name": "DIY制作手机壳",
       "url": "https://nicen.cn/wp-content/uploads/replace/2023/06/14/069586ca1329da288259ce9e6fc3e7c6.jpeg",
       "status": "online",
-      "description": "在线 DIY 制作手机壳的小程序",
+      "description": "DIY 制作手机壳的小程序",
       "extraLinks": [
         {
           "label": "更多介绍",
@@ -43753,7 +43826,7 @@
       "name": "文件收集小程序",
       "url": "https://nicen.cn/wp-content/uploads/2022/07/gh_3a8e81971071_430.jpg",
       "status": "online",
-      "description": "在线收集文件的微信小程序",
+      "description": "收集文件的微信小程序",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -43773,7 +43846,7 @@
       "name": "万物皆可DIY",
       "url": "https://douyin.nicen.cn/m.html",
       "status": "online",
-      "description": "在线 DIY 制作手机壳、衣服、抱枕、水杯等物品的 H5 应用",
+      "description": "DIY 制作手机壳、衣服、抱枕、水杯等物品的 H5 应用",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -44868,7 +44941,7 @@
       "name": "迅排设计 - PosterDesign",
       "url": "https://design.palxp.cn/home",
       "status": "online",
-      "description": "在线海报图片设计器，漂亮易用且功能强大。适用于多种场景：海报设计、电商分享图、文章长图、视频/公众号封面生成等，结合AI等工具，让你轻松实现创意、迅速排版",
+      "description": "海报图片设计器，漂亮易用且功能强大。适用于多种场景：海报设计、电商分享图、文章长图、视频/公众号封面生成等，结合AI等工具，让你轻松实现创意、迅速排版",
       "extraLinks": [
         {
           "label": "更多介绍",
@@ -45255,7 +45328,7 @@
       "name": "简约简历",
       "url": "https://jianli.online",
       "status": "online",
-      "description": "在线简历创建工具（简约风格），支持在线预览、评论和生成高清PDF",
+      "description": "简历创建工具（简约风格），支持在线预览、评论和生成高清PDF",
       "extraLinks": [],
       "categories": [
         "文档办公"
@@ -45523,7 +45596,7 @@
       "name": "iconce",
       "url": "https://iconce.com",
       "status": "online",
-      "description": "在线 SVG 图标生成器",
+      "description": "SVG 图标生成器",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
