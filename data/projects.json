@@ -4,33 +4,33 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-08-28T06:07:19.443Z",
+  "generatedAt": "2026-08-29T03:43:12.365Z",
   "counts": {
-    "total": 2317,
-    "main": 1888,
-    "programmer": 310,
-    "game": 119,
+    "total": 2322,
+    "main": 1891,
+    "programmer": 311,
+    "game": 120,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 819,
+    "AI 工具": 823,
     "音视频": 402,
-    "效率工具": 336,
+    "效率工具": 337,
+    "免费工具": 382,
+    "浏览器扩展": 221,
+    "社交社区": 88,
+    "开发工具": 433,
     "教育学习": 121,
     "文档办公": 216,
-    "浏览器扩展": 220,
     "生活服务": 70,
-    "开发工具": 432,
-    "免费工具": 378,
-    "社交社区": 87,
     "图片工具": 441,
     "游戏娱乐": 138
   },
   "projects": [
     {
-      "id": "custom-20260828-0",
+      "id": "custom-20260829-0",
       "edition": "main",
-      "addedAt": "2026-08-28",
+      "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
       "city": "",
       "makerLinks": [],
@@ -45,6 +45,128 @@
         "效率工具"
       ],
       "source": "custom"
+    },
+    {
+      "id": "main-20260828-mikewaynecn-cell-bazicalculator-ai",
+      "edition": "main",
+      "addedAt": "2026-08-28",
+      "maker": "mikewaynecn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mikewaynecn-cell"
+        }
+      ],
+      "name": "BaziCalculator.ai",
+      "url": "https://www.bazicalculator.ai/",
+      "status": "online",
+      "description": "免费在线八字排盘与解读工具，输入出生日期、时间和城市即可生成四柱、日主、五行与十年大运；按出生地真太阳时校正，时辰不详也可生成三柱命盘，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260828-mikewaynecn-cell-nail-shapes",
+      "edition": "main",
+      "addedAt": "2026-08-28",
+      "maker": "mikewaynecn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mikewaynecn-cell"
+        }
+      ],
+      "name": "Nail Shapes",
+      "url": "https://www.nailshapes.art/",
+      "status": "online",
+      "description": "美甲甲型选择指南，对比杏仁形、椭圆形、棺材形等 8 种甲型的长度、维护难度与视觉效果；回答 3 个问题即可获得适合手型与日常习惯的推荐，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260828-the-beating-light-of-the-nail-deepseek酱语录",
+      "edition": "main",
+      "addedAt": "2026-08-28",
+      "maker": "the-beating-light-of-the-nail",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "name": "DeepSeek酱语录",
+      "url": "https://ai-meme.cdqyfdbymn.me/",
+      "status": "online",
+      "description": "DeepSeek 娘化梗图库，鲸鱼娘/AI娘化表情包瀑布流浏览，台词级搜索，一键生成带二维码分享图，持续更新中 - 无需注册，点图即存",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260828-the-beating-light-of-the-nail-dsh-meme-hub",
+      "edition": "programmer",
+      "addedAt": "2026-08-28",
+      "maker": "the-beating-light-of-the-nail",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "name": "DSH Meme Hub",
+      "url": "https://github.com/the-beating-light-of-the-nail/dsh-meme-hub-site",
+      "status": "online",
+      "description": "DeepSeek Harness 社区插件导航站的 Nuxt 3 全栈源码，收录 87 个插件、13 个分类、每日 star 排行榜与 Meme Zone 整活分区，中英双语，SSG 静态生成，开放投稿 — [线上站点](https://dsh-meme-hub.cdqyfdbymn.me/)",
+      "extraLinks": [
+        {
+          "label": "线上站点",
+          "url": "https://dsh-meme-hub.cdqyfdbymn.me/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260828-lianyixin-梁圣变阻器",
+      "edition": "game",
+      "addedAt": "2026-08-28",
+      "maker": "ethanethan",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lianyixin"
+        }
+      ],
+      "name": "梁圣变阻器",
+      "url": "https://liang-slider.havenai.online/",
+      "status": "online",
+      "description": "AI 豪杰互动玩具站，用滑动变阻器六档境界研判各路 AI 大佬的成神数值，可送神火、砸神位、参与网友投票，也能上传人像创建自己的豪杰 — 已开源，可一键部署",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
     },
     {
       "id": "main-20260827-phil-fan-agentero",
