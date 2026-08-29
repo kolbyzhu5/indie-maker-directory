@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kolbyzhu5.github.io/indie-maker-directory/sitemap.xml
+Sitemap: https://indiemaker.cn/sitemap.xml

@@ -4,8 +4,8 @@ import path from "node:path";
 import { createHmac, createHash } from "node:crypto";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-// 站点主 URL：GitHub Pages 部署期用此值；备案切换 indiemaker.cn 后改为 "https://indiemaker.cn"
-const SITE_URL = "https://kolbyzhu5.github.io/indie-maker-directory";
+// 站点主 URL：正式域名已备案（2026-08-29 通过），sitemap/robots 指向 indiemaker.cn
+const SITE_URL = "https://indiemaker.cn";
 const SOURCES = [
   { edition: "main", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/README.md" },
   { edition: "programmer", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/pages/README-Programmer-Edition.md" },
