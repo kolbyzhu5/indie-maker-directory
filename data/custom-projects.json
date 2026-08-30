@@ -1,14 +1,15 @@
 {
-  "comment": "人工收录源：在 projects 数组里加项目即可。每条格式：{ name, url, description, maker, city(可选), status(online/developing/inactive), categories(数组) }。URL 与上游重复会自动跳过。改完告诉我，我触发同步上线。",
+  "comment": "人工收录源:在 projects 数组里加项目即可。每条格式:{ name, url, description, maker, city(可选), status(online/developing/inactive), categories(数组), addedAt(可选,YYYY-MM-DD) }。URL 与上游重复会自动跳过。**addedAt 推荐显式填首次录入日期**,留空会被 sync 脚本自动补成当天日期,导致每次同步都霸榜。改完告诉我,我触发同步上线。",
   "projects": [
     {
       "name": "Toonflow",
       "url": "https://toonflow.net",
-      "description": "开源免费的 AI 短剧工厂：小说到剧本、分镜、视频全链路自动化，多 Agent 协作，角色一致性保持，全平台可用",
+      "description": "开源免费的 AI 短剧工厂:小说到剧本、分镜、视频全链路自动化,多 Agent 协作,角色一致性保持,全平台可用",
       "maker": "HBAI-Ltd",
       "city": "",
       "status": "online",
-      "categories": ["AI 工具", "音视频", "效率工具"]
+      "categories": ["AI 工具", "音视频", "效率工具"],
+      "addedAt": "2026-08-29"
     }
   ]
 }
