@@ -4,40 +4,129 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-08-30T00:20:28.188Z",
+  "generatedAt": "2026-08-30T13:21:55.877Z",
   "counts": {
-    "total": 2322,
-    "main": 1891,
-    "programmer": 311,
+    "total": 2327,
+    "main": 1895,
+    "programmer": 312,
     "game": 120,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 823,
-    "音视频": 402,
+    "AI 工具": 826,
+    "音视频": 403,
+    "生活服务": 71,
+    "游戏娱乐": 139,
+    "免费工具": 383,
     "效率工具": 337,
-    "免费工具": 382,
     "浏览器扩展": 221,
     "社交社区": 88,
     "开发工具": 433,
     "教育学习": 121,
     "文档办公": 216,
-    "生活服务": 70,
-    "图片工具": 441,
-    "游戏娱乐": 138
+    "图片工具": 441
   },
   "projects": [
     {
-      "id": "custom-20260830-0",
+      "id": "main-20260830-hongshiqiang-ikat",
       "edition": "main",
       "addedAt": "2026-08-30",
+      "maker": "Hongshiqiang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Hongshiqiang"
+        }
+      ],
+      "name": "Ikat",
+      "url": "https://ikat.app",
+      "status": "online",
+      "description": "多模型 AI 视频生成工作台，在同一界面使用 Wan 3.0、Kling 3.0、Seedance 2.5、MiniMax H3，支持文生视频和图生视频",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260830-easymap-gis-easymap-desktop",
+      "edition": "main",
+      "addedAt": "2026-08-30",
+      "maker": "easymap-gis",
+      "city": "合肥",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/easymap-gis"
+        }
+      ],
+      "name": "EasyMap Desktop",
+      "url": "http://www.easymap.online/",
+      "status": "online",
+      "description": "面向测绘、规划、应急与数据治理的桌面 GIS 平台工具集，地图制图、数据目录、58 个地理处理工具、模型构建器与在线地图下载器一站齐备，解压即用、数据不出内网",
+      "extraLinks": [],
+      "categories": [
+        "生活服务",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260830-wxixuan118-ship-it-fishcare-ai",
+      "edition": "main",
+      "addedAt": "2026-08-30",
+      "maker": "Viki Wu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wxixuan118-ship-it"
+        }
+      ],
+      "name": "FishCare AI",
+      "url": "https://www.fishcareai.com/",
+      "status": "online",
+      "description": "观赏鱼饲养指南与免费工具站，买鱼前先查混养兼容性（4000+ 鱼种组合对照页）、鱼缸最小尺寸、水质参数和投喂量，覆盖斗鱼、孔雀鱼、七彩神仙等常见品种，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260830-619dev-paperphonelite",
+      "edition": "programmer",
+      "addedAt": "2026-08-30",
+      "maker": "619dev",
+      "city": "天津",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/619dev"
+        }
+      ],
+      "name": "PaperPhoneLite",
+      "url": "https://github.com/619dev/PaperPhoneLite",
+      "status": "online",
+      "description": "轻量级端到端加密即时通讯，React 19/TypeScript Web 客户端 + Rust/Axum 服务端，服务端和客户端均通过 Tor 完全隐藏 IP 地址",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "custom-20260830-0",
+      "edition": "main",
+      "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
       "city": "",
       "makerLinks": [],
       "name": "Toonflow",
       "url": "https://toonflow.net",
       "status": "online",
-      "description": "开源免费的 AI 短剧工厂：小说到剧本、分镜、视频全链路自动化，多 Agent 协作，角色一致性保持，全平台可用",
+      "description": "开源免费的 AI 短剧工厂:小说到剧本、分镜、视频全链路自动化,多 Agent 协作,角色一致性保持,全平台可用",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -45,6 +134,23 @@
         "效率工具"
       ],
       "source": "custom"
+    },
+    {
+      "id": "main-20260828-lisa-w-bibla",
+      "edition": "main",
+      "addedAt": "2026-08-28",
+      "maker": "Lisa W",
+      "city": "Berlin",
+      "makerLinks": [],
+      "name": "bibla",
+      "url": "https://bibla.top",
+      "status": "online",
+      "description": "私密 AI 多方调解，加上全员授权后才公开的脱敏纠纷故事，未登录可读全文",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
     },
     {
       "id": "main-20260828-mikewaynecn-cell-bazicalculator-ai",
