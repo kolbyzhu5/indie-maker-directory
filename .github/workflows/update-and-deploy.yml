@@ -5,6 +5,11 @@ on:
     branches: [main, master]
     paths-ignore:
       - "data/projects.json"
+      - "index.html"
+      - "sitemap.xml"
+      - "robots.txt"
+      - "llms.txt"
+      - "llms-full.txt"
   schedule:
     - cron: "20 22 * * *"
   workflow_dispatch:
@@ -35,16 +40,18 @@ jobs:
           COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
           COS_REGION: ${{ secrets.COS_REGION }}
-      - name: Commit updated data
+      - name: Build static site (SSG)
+        run: npm run build
+      - name: Commit updated data and site
         run: |
-          if git diff --quiet -- data/projects.json; then
-            echo "No data changes"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/projects.json
-          git commit -m "chore: update directory data" || echo "Nothing to commit"
+          git add data/projects.json index.html sitemap.xml robots.txt llms.txt llms-full.txt
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore: sync data and rebuild static site" || echo "Nothing to commit"
           git pull --rebase -X theirs origin main || true
           git push
       - uses: actions/configure-pages@v5

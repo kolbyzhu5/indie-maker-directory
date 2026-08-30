@@ -2,3 +2,22 @@ User-agent: *
 Allow: /
 
 Sitemap: https://indiemaker.cn/sitemap.xml
+
+# AI 爬虫显式放行（默认 Allow: / 已覆盖，此处列明便于未来精细控制）
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
