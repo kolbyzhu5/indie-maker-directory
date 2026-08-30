@@ -90,6 +90,9 @@ fieldset b { color: var(--muted); font-size: 10px; font-weight: 400; }
 .card-footer { margin-top: auto; padding-top: 12px; display: flex; justify-content: space-between; gap: 10px; align-items: center; border-top: 1px dashed var(--line); }
 .maker { min-width: 0; color: var(--muted); font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .visit { color: var(--red); font-size: 11px; text-decoration: none; white-space: nowrap; }
+.card-links { display: flex; gap: 12px; align-items: center; white-space: nowrap; }
+.card-links .detail { color: var(--muted); font-size: 11px; text-decoration: none; }
+.card-links .detail:hover { color: var(--red); }
 .load-more { display: block; min-width: 210px; margin: 30px auto 0; padding: 13px 20px; border: 1px solid var(--ink); background: transparent; color: var(--ink); box-shadow: 4px 4px 0 var(--paper-deep); }
 .load-more:hover { color: #fff; background: var(--ink); }.load-more span { margin-left: 10px; }
 .empty-state { text-align: center; padding: 80px 20px; border: 1px dashed var(--line); }

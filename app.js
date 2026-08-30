@@ -2,6 +2,7 @@ import { LOCALES, t, setLocale, getCurrentLocale, getSavedLocale, browserLocale,
 
 const state = {
   data: null,
+  slugMap: new Map(), // id -> 详情页 slug（与 scripts/build.mjs 逻辑一致）
   query: "",
   edition: "all",
   statuses: new Set(["online", "developing"]),
@@ -26,6 +27,32 @@ const elements = {
 const editionKeyMap = { main: "editionMain", programmer: "editionProgrammer", game: "editionGame" };
 const escapeHTML = (value = "") => value.replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
 const normalize = (value = "") => value.toLowerCase().normalize("NFKC");
+
+// ── slug 生成（必须与 scripts/build.mjs 完全一致，否则详情链接会 404）──
+function asciiSlug(name) {
+  return String(name).toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+function hash8(str) {
+  let h = 5381;
+  for (let i = 0; i < str.length; i++) h = ((h << 5) + h + str.charCodeAt(i)) >>> 0;
+  return h.toString(16).padStart(8, "0");
+}
+function buildSlugMap(projects) {
+  const baseCount = new Map();
+  for (const p of projects) {
+    const base = asciiSlug(p.name) || "project";
+    baseCount.set(base, (baseCount.get(base) || 0) + 1);
+  }
+  const map = new Map();
+  for (const p of projects) {
+    const base = asciiSlug(p.name) || "project";
+    map.set(p.id, baseCount.get(base) === 1 ? base : `${base}-${hash8(p.id).slice(0, 6)}`);
+  }
+  return map;
+}
+// ───────────────────────────────────────────────────────────────
 
 function readURLState() {
   const params = new URLSearchParams(location.search);
@@ -66,12 +93,16 @@ function cardTemplate(project, index) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
   const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(tag)}</span>`).join("");
   const editionLabel = t(editionKeyMap[project.edition] || "editionMain");
+  const slug = state.slugMap.get(project.id);
+  const detail = slug
+    ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a></span>`
+    : `<a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a>`;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${editionLabel}</span><time class="card-date">${project.addedAt}</time></div>
     <h2><a href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${escapeHTML(project.name)}</a></h2>
     <p>${escapeHTML(project.description)}</p>
     <div class="card-tags">${tags}</div>
-    <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span><a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a></div>
+    <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span>${detail}</div>
   </article>`;
 }
 
@@ -220,6 +251,7 @@ async function init() {
   bindEvents();
   try {
     state.data = await loadData();
+    state.slugMap = buildSlugMap(state.data.projects);
     const total = state.data.counts.total;
     const loc = getCurrentLocale();
     document.querySelector("#heroTotal").textContent = loc === "zh" ? total.toLocaleString("zh-CN") : total.toLocaleString("en");

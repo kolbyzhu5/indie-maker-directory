@@ -9,16 +9,20 @@
 - 更新时间：2026-08-30（北京时间）
 - 语言：中文 / English（双语切换）
 
-## 热门分类
-- AI 工具（826）
-- 图片工具（441）
-- 开发工具（433）
-- 音视频（403）
-- 免费工具（383）
-- 效率工具（337）
-- 浏览器扩展（221）
-- 文档办公（216）
-- 游戏娱乐（139）
+## 分类导航
+- [AI 工具](https://indiemaker.cn/c/ai-tools.html)：826 个产品
+- [音视频](https://indiemaker.cn/c/audio-video.html)：403 个产品
+- [生活服务](https://indiemaker.cn/c/lifestyle.html)：71 个产品
+- [游戏娱乐](https://indiemaker.cn/c/games.html)：139 个产品
+- [免费工具](https://indiemaker.cn/c/free-tools.html)：383 个产品
+- [效率工具](https://indiemaker.cn/c/productivity.html)：337 个产品
+- [浏览器扩展](https://indiemaker.cn/c/browser-extensions.html)：221 个产品
+- [社交社区](https://indiemaker.cn/c/social.html)：88 个产品
+- [开发工具](https://indiemaker.cn/c/dev-tools.html)：433 个产品
+- [教育学习](https://indiemaker.cn/c/education.html)：121 个产品
+- [文档办公](https://indiemaker.cn/c/docs-office.html)：216 个产品
+- [图片工具](https://indiemaker.cn/c/image-tools.html)：441 个产品
+- [未分类](https://indiemaker.cn/c/uncategorized.html)：0 个产品
 
 ## 完整数据
 - [全部产品清单](https://indiemaker.cn/llms-full.txt)：2327 个产品的名称、链接、开发者、分类、状态与简介（供 AI 索引全文）

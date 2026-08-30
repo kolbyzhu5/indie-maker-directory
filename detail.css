@@ -1,0 +1,49 @@
+/* detail.css — 产品详情页 / 分类落地页共用样式（复用全局宣纸·印章红风格变量） */
+.detail-main { max-width: 880px; margin: 0 auto; padding: 26px 34px 70px; position: relative; z-index: 1; }
+.detail-header { max-width: 880px; margin: 0 auto; }
+.breadcrumb { font-size: 13px; color: var(--muted); padding: 20px 0 6px; letter-spacing: .02em; }
+.breadcrumb a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
+.breadcrumb a:hover { color: var(--red); border-bottom-color: var(--red); }
+.breadcrumb .sep { margin: 0 8px; color: var(--line); }
+.breadcrumb .current { color: var(--ink); }
+
+/* 产品详情主体 */
+.detail-card { margin-top: 18px; background: var(--card); border: 1px solid var(--line); box-shadow: 8px 10px 0 rgba(88,71,40,.10); padding: 40px 44px; position: relative; }
+.detail-head { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+.edition-badge { font-size: 11px; letter-spacing: .1em; color: #fff9ec; background: var(--red); padding: 4px 11px; border-radius: 3px; }
+.detail-head time { font-size: 12px; color: var(--muted); }
+.detail-card h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.15; letter-spacing: -.02em; font-weight: 900; margin: 0 0 18px; }
+.detail-desc { font-size: 16px; line-height: 1.9; color: var(--ink); margin: 0 0 26px; }
+.detail-meta { display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 14px; color: var(--muted); padding: 18px 0; border-top: 1px dashed var(--line); border-bottom: 1px dashed var(--line); }
+.detail-meta b { color: var(--ink); font-weight: 700; margin-right: 4px; }
+.detail-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 26px; }
+.detail-tags a { font-size: 12px; color: var(--red-dark); background: #f7e7bd; border: 1px solid rgba(107,82,38,.18); padding: 4px 12px; border-radius: 3px; text-decoration: none; }
+.detail-tags a:hover { background: var(--red); color: #fff9ec; }
+.detail-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.btn-primary { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; color: #fff9ec; background: var(--red); padding: 13px 28px; border-radius: 4px; text-decoration: none; box-shadow: 4px 5px 0 var(--ink); transition: transform .12s ease, box-shadow .12s ease; }
+.btn-primary:hover { transform: translate(-1px,-1px); box-shadow: 6px 7px 0 var(--ink); }
+.btn-ghost { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink); background: transparent; border: 1px solid var(--line); padding: 12px 22px; border-radius: 4px; text-decoration: none; }
+.btn-ghost:hover { border-color: var(--red); color: var(--red); }
+
+/* 相关推荐 */
+.related { margin-top: 52px; }
+.related h2 { font-size: 20px; letter-spacing: .04em; margin: 0 0 18px; padding-left: 12px; border-left: 4px solid var(--red); }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+
+/* 分类落地页 */
+.category-head { margin-top: 18px; padding: 36px 8px 20px; }
+.category-head h1 { font-size: clamp(36px, 5.4vw, 60px); letter-spacing: -.02em; font-weight: 900; margin: 0; }
+.category-head .category-count { font-size: 15px; color: var(--muted); margin-top: 10px; }
+.category-head .category-count b { color: var(--red-dark); font-size: 20px; }
+.category-nav { display: flex; flex-wrap: wrap; gap: 9px; margin: 22px 0 6px; }
+.category-nav a { font-size: 13px; color: var(--muted); text-decoration: none; border: 1px solid var(--line); padding: 6px 14px; border-radius: 3px; background: var(--card); }
+.category-nav a:hover, .category-nav a.active { color: #fff9ec; background: var(--red); border-color: var(--red); }
+.category-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; margin-top: 10px; }
+
+/* 详情页内嵌小卡片（相关推荐/分类列表复用 .project-card 基础样式，此处补齐） */
+.related-grid .project-card, .category-grid .project-card { box-shadow: 5px 6px 0 rgba(88,71,40,.08); }
+
+.detail-footer { max-width: 880px; margin: 0 auto; padding: 26px 34px 60px; border-top: 1px solid var(--line); text-align: center; font-size: 12px; color: var(--muted); position: relative; z-index: 1; }
+.detail-footer p { margin: 6px 0; }
+.detail-footer a { color: var(--muted); text-decoration: none; }
+.detail-footer a:hover { color: var(--red); }
