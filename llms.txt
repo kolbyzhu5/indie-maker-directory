@@ -6,7 +6,7 @@
 - 名称：独立制造所（Indie Maker）
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
-- 更新时间：2026-08-30（北京时间）
+- 更新时间：2026-08-31（北京时间）
 - 语言：中文 / English（双语切换）
 
 ## 分类导航
