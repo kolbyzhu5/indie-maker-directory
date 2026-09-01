@@ -1,10 +1,19 @@
-# 独立制造所 · 全部产品清单（2327）
+# 独立制造所 · 全部产品清单（2330）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-08-31（北京时间）
+> 更新时间：2026-09-01（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1895）
+## 大众产品（1898）
+
+- **[HelloGen](https://hellogen.ai/)** — 开发者 chenchiwei · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-08-31 · [详情页](https://indiemaker.cn/p/hellogen.html)
+  AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费
+
+- **[AniMot](https://animot.app/)** — 开发者 hwlvipone · 图片工具 · 已上线 · 收录 2026-08-31 · [详情页](https://indiemaker.cn/p/animot.html)
+  一键让照片跳舞，让宠物跳舞
+
+- **[CardShopDir](https://cardshopdir.com/)** — 开发者 leo（上海） · 效率工具 / 游戏娱乐 · 已上线 · 收录 2026-08-31 · [详情页](https://indiemaker.cn/p/cardshopdir.html)
+  美国实体卡牌店目录，收录 7700+ 家店铺、覆盖 51 个州，支持按州、城市和游戏筛选，帮玩家找到宝可梦、万智牌、游戏王等卡牌的线下店，每家店附地址、营业时间、支持游戏和评分
 
 - **[Ikat](https://ikat.app)** — 开发者 Hongshiqiang · AI 工具 / 音视频 · 已上线 · 收录 2026-08-30 · [详情页](https://indiemaker.cn/p/ikat.html)
   多模型 AI 视频生成工作台，在同一界面使用 Wan 3.0、Kling 3.0、Seedance 2.5、MiniMax H3，支持文生视频和图生视频
