@@ -1,10 +1,58 @@
-# 独立制造所 · 全部产品清单（2330）
+# 独立制造所 · 全部产品清单（2351）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-01（北京时间）
+> 更新时间：2026-09-03（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1898）
+## 大众产品（1914）
+
+- **[YourArt](https://yourart.app)** — 开发者 CH0918 · AI 工具 / 图片工具 / 音视频 / 效率工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/yourart.html)
+  AI 设计 Agent 工作台，在同一空间调用主流图片和视频模型，生成、编辑素材并在无限画布编排工作流；按量付费，无需订阅
+
+- **[cc8.cc](https://www.cc8.cc/zh)** — 开发者 蝉息 · 效率工具 / 开发工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/cc8-cc.html)
+  面向独立开发者、网站和 App 的公开 C 位竞价曝光榜：¥1 起，金额决定名次，每日北京时间 0 点在榜金额重置为 ¥1，条目不撤下，追平即可占位
+
+- **[unblurry](https://unblurry.tools)** — 开发者 edenSu · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/unblurry.html)
+  AI 照片去模糊工具，处理失焦、抖动与低分辨率造成的画质损失，另有锐化、降噪和老照片修复；免注册免费试 2 次，按次购买 credit，不订阅
+
+- **[Lunalisa](https://luna-lisa.art)** — 开发者 JeremyGDM · AI 工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/lunalisa.html)
+  面向产品团队的 AI 视觉工作台，用提示词和获许可的参考图生成、迭代产品视觉素材
+
+- **[BulkCerts](https://bulkcerts.com/)** — 开发者 Linky-AIinlink · 文档办公 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/bulkcerts.html)
+  批量证书生成器，上传 Excel 或 CSV 列表、选择模板，即可为每位收件人生成个性化的 PDF 或 PNG 证书
+
+- **[StitchCraft](https://crossstitchpatternmaker.app/)** — 开发者 ooklwq（成都） · AI 工具 / 图片工具 / 文档办公 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/stitchcraft.html)
+  十字绣图纸生成器（免费），照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面
+
+- **[Image3D AI](https://www.aiimageto3d.com/)** — 开发者 Cairne · AI 工具 / 图片工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/image3d-ai.html)
+  AI 图片转 3D 模型平台，集成 Tripo、Meshy、Hunyuan、Pixal3D 等多个 3D 生成模型，并提供 AI 贴图、Retopology、UV 展开和模型组件分离工具，从图片生成到 3D 后处理可在一个平台完成
+
+- **[PdfCompare](https://pdfcompare.app/)** — 开发者 haihiaen · 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/pdfcompare.html)
+  免费免登录的在线 PDF 对比与文本转换工具，基于浏览器 WebAssembly 纯本地运行，毫秒级词级红绿高亮差异与图纸图层叠图对比，文档数据 100% 零上传云端，零泄露风险
+
+- **[XiuStore](https://store.xiu.ai/en/)** — 开发者 Dashu · AI 工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/xiustore.html)
+  AI 订阅和数字服务商城，商品页公开价格、交付方式、有效期、质保和售后，付款后可在订单中找到对应交付入口
+
+- **[Vibe Coding 首切片](https://dify-feishu-qa-first10.heyhui.chatgpt.site/domestic-dev-first-slice)** — 开发者 heyu17625-glitch · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/vibe-coding.html)
+  把小程序、网站、APP 或 AI/API 的模糊需求先拆成一条可运行、可验收的核心流程；公开合成演示与隐私门控受理表可直接查看，需求范围图 ¥99 起
+
+- **[MoveToZero](https://movetozero.site/)** — 开发者 LuKaka · 效率工具 / 教育学习 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/movetozero.html)
+  iPhone 久坐提醒 App，定时提醒起身走动，通过步数目标和完成记录帮助安排工作、学习间隙的休息；配套网站 [Stand Up Reminder](https://standupreminder.com/) 提供网页休息计时器和办公提醒指南
+
+- **[Chat2Mind](https://chat2mind.site/)** — 开发者 LuKaka · AI 工具 / 图片工具 / 文档办公 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/chat2mind.html)
+  将 ChatGPT 对话或粘贴的文本转成可编辑思维导图，帮助梳理笔记、复习知识和组织内容，支持图片、PDF 和 Markdown 导出
+
+- **[BookmarkHell](https://bookmarkhell.com/)** — 开发者 LuKaka · 浏览器扩展 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/bookmarkhell.html)
+  浏览器书签整理工具，导入 Chrome 或 Edge 导出的书签文件，去重、分类，检查和调整后导回浏览器
+
+- **[BigWalkTools](https://bigwalktools.com/)** — 开发者 LuKaka · 未分类 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/bigwalktools.html)
+  Big Walk 非官方解谜辅助站，根据颜色、物体、声音等线索查找谜题，分层查看提示，并与队友共享探索进度
+
+- **[WARDOGS Companion](https://wardogs-game.com/)** — 开发者 LuKaka · 游戏娱乐 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/wardogs-companion.html)
+  WARDOGS 非官方攻略与玩家工具站，汇总游戏资料、PC 配置要求和常见问题，帮助玩家准备游戏和查找攻略
+
+- **[EchoWord](https://chromewebstore.google.com/detail/echoword/ifjpabfblikdkfgchnhdcplgbpjhoila?hl=zh-CN)** — 开发者 pluone（北京） · 文档办公 / 开发工具 / 浏览器扩展 / 教育学习 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/echoword.html)
+  查词划词翻译，通过 TTS 朗读单词和例句，在语境中理解发音，帮助程序员、独立开发者和出海从业者告别哑巴英语 — Chrome / Edge 插件
 
 - **[HelloGen](https://hellogen.ai/)** — 开发者 chenchiwei · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-08-31 · [详情页](https://indiemaker.cn/p/hellogen.html)
   AI 图片和视频生成工作台，图片免费不限量、无水印、可商用，视频按次计费；助手根据需求自动选模型（Seedream、Nano Banana、GPT Image 2、Veo、Kling、Seedance），生成前先报价，失败不扣费
@@ -5700,7 +5748,22 @@
 - **[视频进度条生成工具](https://gitee.com/zhengmingpei/VideoProgressBarTool-Windows)** — 开发者 zhengmingpei（济南市） · 音视频 · 开发中 · 收录 2021-01-04 · [详情页](https://indiemaker.cn/p/project-3d2f63.html)
   帮助制作视频进度条的辅助小工具(暂时在 Gitee 上)
 
-## 程序员版（312）
+## 程序员版（317）
+
+- **[馒头新闻 Manto](https://manto.xin/)** — 开发者 tans · AI 工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/manto.html)
+  给 AI Agent 使用的公共消息网络，Agent 可通过远程 MCP 直接创建账户、发布时效消息和公开搜索其他 Agent 的内容；无需密码，排序公式公开，前 100 位有效发布者拥有永久 2× 创始权重
+
+- **[BeatDesign](https://github.com/BeatAPI/BeatDesign)** — 开发者 KKKK · AI 工具 / 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/beatdesign.html)
+  开源、本地优先的 AI 媒体创作工作台，把 Canvas、短视频时间线、素材库和 MCP Agent 操作放进同一个本地项目
+
+- **[Sub2API](https://sub2api.ai-baby-dance.com/)** — 开发者 武晓亮 · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/sub2api.html)
+  AI API 中转网关，按个人开发者到大规模商业应用的规模提供多档套餐，支持余额和订阅付费
+
+- **[XiuRouter](https://router.xiu.ai/)** — 开发者 Dashu · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/xiurouter.html)
+  多协议模型 API 服务，分别提供 OpenAI Responses/Chat Completions、Anthropic Messages 和 Gemini GenerateContent；支持受限 API Key、Agent/开发工具接入与逐请求用量/费用记录
+
+- **[LuckyAPI](https://luckyapi.online/zh-cn)** — 开发者 LuckyAPI Team · AI 工具 / 图片工具 / 音视频 / 文档办公 / 开发工具 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/luckyapi.html)
+  多模型 AI API 服务，一个 Key 集成文本、图像和视频模型；支持的模型、请求格式兼容性、定价和用量以站内模型目录与文档为准。
 
 - **[PaperPhoneLite](https://github.com/619dev/PaperPhoneLite)** — 开发者 619dev（天津） · 未分类 · 已上线 · 收录 2026-08-30 · [详情页](https://indiemaker.cn/p/paperphonelite.html)
   轻量级端到端加密即时通讯，React 19/TypeScript Web 客户端 + Rust/Axum 服务端，服务端和客户端均通过 Tor 完全隐藏 IP 地址

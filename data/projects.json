@@ -4,29 +4,523 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-01T01:18:17.515Z",
+  "generatedAt": "2026-09-03T00:16:12.831Z",
   "counts": {
-    "total": 2330,
-    "main": 1898,
-    "programmer": 312,
+    "total": 2351,
+    "main": 1914,
+    "programmer": 317,
     "game": 120,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 827,
-    "图片工具": 443,
-    "音视频": 404,
-    "免费工具": 384,
-    "效率工具": 338,
-    "游戏娱乐": 140,
+    "AI 工具": 840,
+    "图片工具": 449,
+    "音视频": 407,
+    "效率工具": 342,
+    "开发工具": 440,
+    "免费工具": 387,
+    "文档办公": 222,
+    "浏览器扩展": 225,
+    "教育学习": 123,
+    "游戏娱乐": 141,
     "生活服务": 71,
-    "浏览器扩展": 221,
-    "社交社区": 88,
-    "开发工具": 433,
-    "教育学习": 121,
-    "文档办公": 216
+    "社交社区": 88
   },
   "projects": [
+    {
+      "id": "main-20260903-ch0918-yourart",
+      "edition": "main",
+      "addedAt": "2026-09-03",
+      "maker": "CH0918",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CH0918"
+        }
+      ],
+      "name": "YourArt",
+      "url": "https://yourart.app",
+      "status": "online",
+      "description": "AI 设计 Agent 工作台，在同一空间调用主流图片和视频模型，生成、编辑素材并在无限画布编排工作流；按量付费，无需订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260903-wh000wh000-cc8-cc",
+      "edition": "main",
+      "addedAt": "2026-09-03",
+      "maker": "蝉息",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wh000wh000"
+        }
+      ],
+      "name": "cc8.cc",
+      "url": "https://www.cc8.cc/zh",
+      "status": "online",
+      "description": "面向独立开发者、网站和 App 的公开 C 位竞价曝光榜：¥1 起，金额决定名次，每日北京时间 0 点在榜金额重置为 ¥1，条目不撤下，追平即可占位",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260903-tans-馒头新闻-manto",
+      "edition": "programmer",
+      "addedAt": "2026-09-03",
+      "maker": "tans",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tans"
+        }
+      ],
+      "name": "馒头新闻 Manto",
+      "url": "https://manto.xin/",
+      "status": "online",
+      "description": "给 AI Agent 使用的公共消息网络，Agent 可通过远程 MCP 直接创建账户、发布时效消息和公开搜索其他 Agent 的内容；无需密码，排序公式公开，前 100 位有效发布者拥有永久 2× 创始权重",
+      "extraLinks": [
+        {
+          "label": "源码与接入说明",
+          "url": "https://github.com/tans/manto"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260902-edensu-git-unblurry",
+      "edition": "main",
+      "addedAt": "2026-09-02",
+      "maker": "edenSu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/edenSu-git"
+        }
+      ],
+      "name": "unblurry",
+      "url": "https://unblurry.tools",
+      "status": "online",
+      "description": "AI 照片去模糊工具，处理失焦、抖动与低分辨率造成的画质损失，另有锐化、降噪和老照片修复；免注册免费试 2 次，按次购买 credit，不订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260902-jeremygdm-lunalisa",
+      "edition": "main",
+      "addedAt": "2026-09-02",
+      "maker": "JeremyGDM",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JeremyGDM"
+        }
+      ],
+      "name": "Lunalisa",
+      "url": "https://luna-lisa.art",
+      "status": "online",
+      "description": "面向产品团队的 AI 视觉工作台，用提示词和获许可的参考图生成、迭代产品视觉素材",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260902-linky-aiinlink-bulkcerts",
+      "edition": "main",
+      "addedAt": "2026-09-02",
+      "maker": "Linky-AIinlink",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "name": "BulkCerts",
+      "url": "https://bulkcerts.com/",
+      "status": "online",
+      "description": "批量证书生成器，上传 Excel 或 CSV 列表、选择模板，即可为每位收件人生成个性化的 PDF 或 PNG 证书",
+      "extraLinks": [],
+      "categories": [
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260902-ooklwq-stitchcraft",
+      "edition": "main",
+      "addedAt": "2026-09-02",
+      "maker": "ooklwq",
+      "city": "成都",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ooklwq"
+        }
+      ],
+      "name": "StitchCraft",
+      "url": "https://crossstitchpatternmaker.app/",
+      "status": "online",
+      "description": "十字绣图纸生成器（免费），照片拖进浏览器几秒变成可绣的 DMC 图纸，454 色自动匹配色号、算好每种线买几绞，导出 PDF 直接打印；无需注册、照片不上传服务器，可选 AI 重绘，支持中文界面",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/ooklwq/cross-stitch-pattern-maker"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "文档办公",
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260902-cairne-image3d-ai",
+      "edition": "main",
+      "addedAt": "2026-09-02",
+      "maker": "Cairne",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cairne"
+        }
+      ],
+      "name": "Image3D AI",
+      "url": "https://www.aiimageto3d.com/",
+      "status": "online",
+      "description": "AI 图片转 3D 模型平台，集成 Tripo、Meshy、Hunyuan、Pixal3D 等多个 3D 生成模型，并提供 AI 贴图、Retopology、UV 展开和模型组件分离工具，从图片生成到 3D 后处理可在一个平台完成",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260902-haihiaen-pdfcompare",
+      "edition": "main",
+      "addedAt": "2026-09-02",
+      "maker": "haihiaen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/haihiaen"
+        }
+      ],
+      "name": "PdfCompare",
+      "url": "https://pdfcompare.app/",
+      "status": "online",
+      "description": "免费免登录的在线 PDF 对比与文本转换工具，基于浏览器 WebAssembly 纯本地运行，毫秒级词级红绿高亮差异与图纸图层叠图对比，文档数据 100% 零上传云端，零泄露风险",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/haihiaen/pdf-compare"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260902-dashu-xiustore",
+      "edition": "main",
+      "addedAt": "2026-09-02",
+      "maker": "Dashu",
+      "city": "",
+      "makerLinks": [],
+      "name": "XiuStore",
+      "url": "https://store.xiu.ai/en/",
+      "status": "online",
+      "description": "AI 订阅和数字服务商城，商品页公开价格、交付方式、有效期、质保和售后，付款后可在订单中找到对应交付入口",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260902-erickkkyt-beatdesign",
+      "edition": "programmer",
+      "addedAt": "2026-09-02",
+      "maker": "KKKK",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/erickkkyt"
+        }
+      ],
+      "name": "BeatDesign",
+      "url": "https://github.com/BeatAPI/BeatDesign",
+      "status": "online",
+      "description": "开源、本地优先的 AI 媒体创作工作台，把 Canvas、短视频时间线、素材库和 MCP Agent 操作放进同一个本地项目",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260902-wu1064442747-sub2api",
+      "edition": "programmer",
+      "addedAt": "2026-09-02",
+      "maker": "武晓亮",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wu1064442747"
+        }
+      ],
+      "name": "Sub2API",
+      "url": "https://sub2api.ai-baby-dance.com/",
+      "status": "online",
+      "description": "AI API 中转网关，按个人开发者到大规模商业应用的规模提供多档套餐，支持余额和订阅付费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260902-dashu-xiurouter",
+      "edition": "programmer",
+      "addedAt": "2026-09-02",
+      "maker": "Dashu",
+      "city": "",
+      "makerLinks": [],
+      "name": "XiuRouter",
+      "url": "https://router.xiu.ai/",
+      "status": "online",
+      "description": "多协议模型 API 服务，分别提供 OpenAI Responses/Chat Completions、Anthropic Messages 和 Gemini GenerateContent；支持受限 API Key、Agent/开发工具接入与逐请求用量/费用记录",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260901-heyu17625-glitch-vibe-coding-首切片",
+      "edition": "main",
+      "addedAt": "2026-09-01",
+      "maker": "heyu17625-glitch",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/heyu17625-glitch"
+        }
+      ],
+      "name": "Vibe Coding 首切片",
+      "url": "https://dify-feishu-qa-first10.heyhui.chatgpt.site/domestic-dev-first-slice",
+      "status": "online",
+      "description": "把小程序、网站、APP 或 AI/API 的模糊需求先拆成一条可运行、可验收的核心流程；公开合成演示与隐私门控受理表可直接查看，需求范围图 ¥99 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260901-masker99-movetozero",
+      "edition": "main",
+      "addedAt": "2026-09-01",
+      "maker": "LuKaka",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "MoveToZero",
+      "url": "https://movetozero.site/",
+      "status": "online",
+      "description": "iPhone 久坐提醒 App，定时提醒起身走动，通过步数目标和完成记录帮助安排工作、学习间隙的休息；配套网站 [Stand Up Reminder](https://standupreminder.com/) 提供网页休息计时器和办公提醒指南",
+      "extraLinks": [
+        {
+          "label": "Stand Up Reminder",
+          "url": "https://standupreminder.com/"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260901-masker99-chat2mind",
+      "edition": "main",
+      "addedAt": "2026-09-01",
+      "maker": "LuKaka",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "Chat2Mind",
+      "url": "https://chat2mind.site/",
+      "status": "online",
+      "description": "将 ChatGPT 对话或粘贴的文本转成可编辑思维导图，帮助梳理笔记、复习知识和组织内容，支持图片、PDF 和 Markdown 导出",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260901-masker99-bookmarkhell",
+      "edition": "main",
+      "addedAt": "2026-09-01",
+      "maker": "LuKaka",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "BookmarkHell",
+      "url": "https://bookmarkhell.com/",
+      "status": "online",
+      "description": "浏览器书签整理工具，导入 Chrome 或 Edge 导出的书签文件，去重、分类，检查和调整后导回浏览器",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260901-masker99-bigwalktools",
+      "edition": "main",
+      "addedAt": "2026-09-01",
+      "maker": "LuKaka",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "BigWalkTools",
+      "url": "https://bigwalktools.com/",
+      "status": "online",
+      "description": "Big Walk 非官方解谜辅助站，根据颜色、物体、声音等线索查找谜题，分层查看提示，并与队友共享探索进度",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260901-masker99-wardogs-companion",
+      "edition": "main",
+      "addedAt": "2026-09-01",
+      "maker": "LuKaka",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "WARDOGS Companion",
+      "url": "https://wardogs-game.com/",
+      "status": "online",
+      "description": "WARDOGS 非官方攻略与玩家工具站，汇总游戏资料、PC 配置要求和常见问题，帮助玩家准备游戏和查找攻略",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260901-echoword-echoword",
+      "edition": "main",
+      "addedAt": "2026-09-01",
+      "maker": "pluone",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pluone/EchoWord"
+        }
+      ],
+      "name": "EchoWord",
+      "url": "https://chromewebstore.google.com/detail/echoword/ifjpabfblikdkfgchnhdcplgbpjhoila?hl=zh-CN",
+      "status": "online",
+      "description": "查词划词翻译，通过 TTS 朗读单词和例句，在语境中理解发音，帮助程序员、独立开发者和出海从业者告别哑巴英语 — Chrome / Edge 插件",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "开发工具",
+        "浏览器扩展",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260901-luckyapi-team-luckyapi",
+      "edition": "programmer",
+      "addedAt": "2026-09-01",
+      "maker": "LuckyAPI Team",
+      "city": "",
+      "makerLinks": [],
+      "name": "LuckyAPI",
+      "url": "https://luckyapi.online/zh-cn",
+      "status": "online",
+      "description": "多模型 AI API 服务，一个 Key 集成文本、图像和视频模型；支持的模型、请求格式兼容性、定价和用量以站内模型目录与文档为准。",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260831-chenchiwei-hellogen",
       "edition": "main",
@@ -187,7 +681,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260901-0",
+      "id": "custom-20260903-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
