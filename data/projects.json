@@ -4,21 +4,21 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-03T00:16:12.831Z",
+  "generatedAt": "2026-09-04T00:06:37.552Z",
   "counts": {
-    "total": 2351,
-    "main": 1914,
+    "total": 2355,
+    "main": 1918,
     "programmer": 317,
     "game": 120,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 840,
-    "图片工具": 449,
+    "开发工具": 441,
+    "AI 工具": 842,
+    "图片工具": 450,
+    "免费工具": 388,
     "音视频": 407,
     "效率工具": 342,
-    "开发工具": 440,
-    "免费工具": 387,
     "文档办公": 222,
     "浏览器扩展": 225,
     "教育学习": 123,
@@ -27,6 +27,94 @@
     "社交社区": 88
   },
   "projects": [
+    {
+      "id": "main-20260904-zeroxu1-htmlshare",
+      "edition": "main",
+      "addedAt": "2026-09-04",
+      "maker": "zeroXu1",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zeroXu1"
+        }
+      ],
+      "name": "HTMLShare",
+      "url": "https://www.htmlshare.page/",
+      "status": "online",
+      "description": "将静态 HTML 发布为可分享的预览链接，方便快速分享和评审原型页面，无需 Git、生产部署和注册账号",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260903-seagnson-rgb-to-cmyk",
+      "edition": "main",
+      "addedAt": "2026-09-03",
+      "maker": "Seagnson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/seagnson"
+        }
+      ],
+      "name": "RGB TO CMYK",
+      "url": "https://rgbtocmyk.net/",
+      "status": "online",
+      "description": "基于印刷行业专业色彩转换引擎设计的 RGB 转 CMYK 在线工具，支持内置及自定义 ICC 配置文件，实现无与伦比的色彩保真度",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260903-coderlim-video-text-remover",
+      "edition": "main",
+      "addedAt": "2026-09-03",
+      "maker": "CoderLim",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoderLim"
+        }
+      ],
+      "name": "Video Text Remover",
+      "url": "https://videotextremover.org/",
+      "status": "online",
+      "description": "AI-powered tool to erase text, captions, and subtitles from any video",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260903-dong13yu-piceditor",
+      "edition": "main",
+      "addedAt": "2026-09-03",
+      "maker": "dong13",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dong13yu"
+        }
+      ],
+      "name": "PicEditor",
+      "url": "https://piceditor.org/",
+      "status": "online",
+      "description": "AI 图片编辑和生成工具，用自然语言换背景、移除物体、修改图片文字或生成新图，首次使用无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260903-ch0918-yourart",
       "edition": "main",
@@ -681,7 +769,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260903-0",
+      "id": "custom-20260904-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

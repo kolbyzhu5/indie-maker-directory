@@ -1,10 +1,22 @@
-# 独立制造所 · 全部产品清单（2351）
+# 独立制造所 · 全部产品清单（2355）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-03（北京时间）
+> 更新时间：2026-09-04（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1914）
+## 大众产品（1918）
+
+- **[HTMLShare](https://www.htmlshare.page/)** — 开发者 zeroXu1 · 开发工具 · 已上线 · 收录 2026-09-04 · [详情页](https://indiemaker.cn/p/htmlshare.html)
+  将静态 HTML 发布为可分享的预览链接，方便快速分享和评审原型页面，无需 Git、生产部署和注册账号
+
+- **[RGB TO CMYK](https://rgbtocmyk.net/)** — 开发者 Seagnson · 未分类 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/rgb-to-cmyk.html)
+  基于印刷行业专业色彩转换引擎设计的 RGB 转 CMYK 在线工具，支持内置及自定义 ICC 配置文件，实现无与伦比的色彩保真度
+
+- **[Video Text Remover](https://videotextremover.org/)** — 开发者 CoderLim（北京） · AI 工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/video-text-remover.html)
+  AI-powered tool to erase text, captions, and subtitles from any video
+
+- **[PicEditor](https://piceditor.org/)** — 开发者 dong13 · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/piceditor.html)
+  AI 图片编辑和生成工具，用自然语言换背景、移除物体、修改图片文字或生成新图，首次使用无需注册
 
 - **[YourArt](https://yourart.app)** — 开发者 CH0918 · AI 工具 / 图片工具 / 音视频 / 效率工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/yourart.html)
   AI 设计 Agent 工作台，在同一空间调用主流图片和视频模型，生成、编辑素材并在无限画布编排工作流；按量付费，无需订阅
