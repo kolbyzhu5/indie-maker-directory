@@ -1,10 +1,25 @@
-# 独立制造所 · 全部产品清单（2355）
+# 独立制造所 · 全部产品清单（2360）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-05（北京时间）
+> 更新时间：2026-09-06（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1918）
+## 大众产品（1923）
+
+- **[Seadanse](https://seadanse.com)** — 开发者 codeugar · AI 工具 / 音视频 · 已上线 · 收录 2026-09-06 · [详情页](https://indiemaker.cn/p/seadanse.html)
+  多模型 AI 视频生成平台，支持通过 Composer 工作台生成带声多镜头视频，并提供一句话自动拆解广告分镜与故事板的 AI Video Agent 功能
+
+- **[SubnetDesk](https://github.com/zibo-chen/SubnetDesk)** — 开发者 zibo-chen · 开发工具 / 免费工具 · 已上线 · 收录 2026-09-05 · [详情页](https://indiemaker.cn/p/subnetdesk.html)
+  跨平台远程桌面应用，在局域网或 VPN 内通过 mDNS 自动发现设备并用 IP 或主机名直连，无需公网设备 ID、信令或中继；支持 Windows、macOS、Linux 和 Android，AGPL-3.0 开源
+
+- **[DTCwise](https://dtcwise.com/?utm_source=cnindie&utm_medium=github)** — 开发者 863683348 · 免费工具 · 已上线 · 收录 2026-09-05 · [详情页](https://indiemaker.cn/p/dtcwise.html)
+  DTC/跨境电商独立站卖家的运营工具目录与评测站，数据驱动收录 104 个工具（Sellvia、Mangools、Spocket 等），含对比评分与佣金返利链接，免费无需注册
+
+- **[CrossTool](https://crosstool.online/?utm_source=cnindie&utm_medium=github)** — 开发者 863683348 · 图片工具 / 音视频 / 文档办公 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-09-05 · [详情页](https://indiemaker.cn/p/crosstool.html)
+  跨境卖家本地隐私工具箱，52 个工具 100% 在浏览器内运行（视频压缩、图片转 PDF、成本计算等），零上传零服务器，面向 Amazon/TikTok Shop/Shopify 卖家，免费无需注册
+
+- **[Gemini Omni](https://geminiomni.video/)** — 开发者 coderWenzi · 音视频 / 免费工具 · 已上线 · 收录 2026-09-05 · [详情页](https://indiemaker.cn/p/gemini-omni-141e3b.html)
+  免费生成和编辑视频，保持角色一致性，音频同步
 
 - **[HTMLShare](https://www.htmlshare.page/)** — 开发者 zeroXu1 · 开发工具 · 已上线 · 收录 2026-09-04 · [详情页](https://indiemaker.cn/p/htmlshare.html)
   将静态 HTML 发布为可分享的预览链接，方便快速分享和评审原型页面，无需 Git、生产部署和注册账号

@@ -4,29 +4,151 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-05T00:06:41.753Z",
+  "generatedAt": "2026-09-05T23:53:54.463Z",
   "counts": {
-    "total": 2355,
-    "main": 1918,
+    "total": 2360,
+    "main": 1923,
     "programmer": 317,
     "game": 120,
     "custom": 1
   },
   "categoryCounts": {
-    "开发工具": 441,
-    "AI 工具": 842,
-    "图片工具": 450,
-    "免费工具": 388,
-    "音视频": 407,
+    "AI 工具": 843,
+    "音视频": 410,
+    "开发工具": 443,
+    "免费工具": 391,
+    "图片工具": 451,
+    "文档办公": 223,
+    "浏览器扩展": 226,
     "效率工具": 342,
-    "文档办公": 222,
-    "浏览器扩展": 225,
     "教育学习": 123,
     "游戏娱乐": 141,
     "生活服务": 71,
     "社交社区": 88
   },
   "projects": [
+    {
+      "id": "main-20260906-codeugar-seadanse",
+      "edition": "main",
+      "addedAt": "2026-09-06",
+      "maker": "codeugar",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/codeugar"
+        }
+      ],
+      "name": "Seadanse",
+      "url": "https://seadanse.com",
+      "status": "online",
+      "description": "多模型 AI 视频生成平台，支持通过 Composer 工作台生成带声多镜头视频，并提供一句话自动拆解广告分镜与故事板的 AI Video Agent 功能",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://seadanse.com/ai-video-agent"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260905-zibo-chen-subnetdesk",
+      "edition": "main",
+      "addedAt": "2026-09-05",
+      "maker": "zibo-chen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zibo-chen"
+        }
+      ],
+      "name": "SubnetDesk",
+      "url": "https://github.com/zibo-chen/SubnetDesk",
+      "status": "online",
+      "description": "跨平台远程桌面应用，在局域网或 VPN 内通过 mDNS 自动发现设备并用 IP 或主机名直连，无需公网设备 ID、信令或中继；支持 Windows、macOS、Linux 和 Android，AGPL-3.0 开源",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260905-863683348-dtcwise",
+      "edition": "main",
+      "addedAt": "2026-09-05",
+      "maker": "863683348",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/863683348"
+        }
+      ],
+      "name": "DTCwise",
+      "url": "https://dtcwise.com/?utm_source=cnindie&utm_medium=github",
+      "status": "online",
+      "description": "DTC/跨境电商独立站卖家的运营工具目录与评测站，数据驱动收录 104 个工具（Sellvia、Mangools、Spocket 等），含对比评分与佣金返利链接，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260905-863683348-crosstool",
+      "edition": "main",
+      "addedAt": "2026-09-05",
+      "maker": "863683348",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/863683348"
+        }
+      ],
+      "name": "CrossTool",
+      "url": "https://crosstool.online/?utm_source=cnindie&utm_medium=github",
+      "status": "online",
+      "description": "跨境卖家本地隐私工具箱，52 个工具 100% 在浏览器内运行（视频压缩、图片转 PDF、成本计算等），零上传零服务器，面向 Amazon/TikTok Shop/Shopify 卖家，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "文档办公",
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260905-coderwenzi-gemini-omni",
+      "edition": "main",
+      "addedAt": "2026-09-05",
+      "maker": "coderWenzi",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coderWenzi"
+        }
+      ],
+      "name": "Gemini Omni",
+      "url": "https://geminiomni.video/",
+      "status": "online",
+      "description": "免费生成和编辑视频，保持角色一致性，音频同步",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260904-zeroxu1-htmlshare",
       "edition": "main",
@@ -769,7 +891,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260905-0",
+      "id": "custom-20260906-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
