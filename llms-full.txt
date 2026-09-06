@@ -1,10 +1,13 @@
-# 独立制造所 · 全部产品清单（2360）
+# 独立制造所 · 全部产品清单（2367）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-06（北京时间）
+> 更新时间：2026-09-07（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1923）
+## 大众产品（1928）
+
+- **[SiteHunter](https://sitehunter.org)** — 开发者 SiteHunter · 开发工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/sitehunter.html)
+  为独立开发者、创业者打造的市场调研平台。找 saas 创业点子不再靠直觉，SiteHunter 监控了一批真实的流量增长数据，用数据看清哪个赛道正在增长，从一个被验证的市场开始
 
 - **[Seadanse](https://seadanse.com)** — 开发者 codeugar · AI 工具 / 音视频 · 已上线 · 收录 2026-09-06 · [详情页](https://indiemaker.cn/p/seadanse.html)
   多模型 AI 视频生成平台，支持通过 Composer 工作台生成带声多镜头视频，并提供一句话自动拆解广告分镜与故事板的 AI Video Agent 功能
@@ -175,7 +178,7 @@
   AI 贴纸生成器，输入文字或上传参考图即可生成单张贴纸、角色三视图及统一风格贴纸合集，支持智能抠图、按主体自动切分、添加白边与涂鸦文字，自由排版并批量导出透明 PNG
 
 - **[Hermes Startup](https://hermesstartup.com)** — 开发者 33hodl · AI 工具 / 免费工具 · 已上线 · 收录 2026-08-22 · [详情页](https://indiemaker.cn/p/hermes-startup.html)
-  用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得 3 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册
+  用 Hermes Agent 赚取第一笔真实美元收入的免费实操路径——回答 10 个私人问题，免费获得全部 10 个与你匹配的商业想法（不承诺收入），可选一次性 US$10 由 Hermes Startup 帮你构建并运行；开源、无订阅、无需注册
 
 - **[AIXiamo](https://www.aixiamo.com/?utm_source=cnindie&utm_medium=github)** — 开发者 momochoog · AI 工具 · 已上线 · 收录 2026-08-22 · [详情页](https://indiemaker.cn/p/aixiamo.html)
   ChatGPT Plus / Pro 国内充值与订阅代付服务，面向没有海外银行卡的用户，支持支付宝、USDT、订单查询与 7×24 小时客服入口；独立第三方，非 OpenAI 官方
@@ -1728,6 +1731,18 @@
 - **[HappyHorse](https://www.happyhorse20.com/)** — 开发者 lisa · AI 工具 / 音视频 · 已上线 · 收录 2026-04-11 · [详情页](https://indiemaker.cn/p/happyhorse.html)
   AI 视频生成，支持文生视频、图生视频
 
+- **[Flow AI Video](https://flowaivideo.org)** — 开发者 lisa · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-04-11 · [详情页](https://indiemaker.cn/p/flow-ai-video.html)
+  在线 AI 视频生成工具，支持文字、图片和参考图生成视频，可选择画面比例、分辨率与视频时长
+
+- **[Upscayl](https://upscayl.app)** — 开发者 lisa · AI 工具 / 图片工具 · 已上线 · 收录 2026-04-11 · [详情页](https://indiemaker.cn/p/upscayl.html)
+  在线 AI 图片放大与增强工具，支持图片去模糊、老照片修复和背景移除，无需安装桌面软件
+
+- **[Video Watermark Remover](https://videowatermarkremover.org/)** — 开发者 lisa · 音视频 · 已上线 · 收录 2026-04-11 · [详情页](https://indiemaker.cn/p/video-watermark-remover-ae87ee.html)
+  在线视频水印清理工具，支持上传 MP4、AVI、MOV 等格式，并提供视频文字、标识和物体移除工具
+
+- **[Seed Imagine](https://seedimagine.com/)** — 开发者 lisa · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-04-11 · [详情页](https://indiemaker.cn/p/seed-imagine.html)
+  AI 图片与视频创作工作台，支持文生图、图像编辑、文生视频和图生视频，可在同一网页选择模型和调整输出参数
+
 - **[哪吒](https://github.com/hanshuaikang/nezha)** — 开发者 韩数 · AI 工具 / 效率工具 / 开发工具 · 已上线 · 收录 2026-04-10 · [详情页](https://indiemaker.cn/p/project-a799ef.html)
   专为多项目并行 VibeCoding 打造的轻量级 AI 编程工具，集成了 Claude Code 和 Codex，整合了多项目管理、待办系统、会话管理、虚拟终端、代码编辑器和 Git
 
@@ -2160,7 +2175,7 @@
 - **[Storyship](https://storyship.app/)** — 开发者 JohnsonZou（武汉） · 音视频 · 已上线 · 收录 2026-02-08 · [详情页](https://indiemaker.cn/p/storyship.html)
   将屏幕录像转为专业演示视频
 
-- **[Video watermark remover](https://videowatermarkremover.co/)** — 开发者 JohnsonZou（武汉） · 音视频 · 已停止 · 收录 2026-02-08 · [详情页](https://indiemaker.cn/p/video-watermark-remover.html)
+- **[Video watermark remover](https://videowatermarkremover.co/)** — 开发者 JohnsonZou（武汉） · 音视频 · 已停止 · 收录 2026-02-08 · [详情页](https://indiemaker.cn/p/video-watermark-remover-af8df0.html)
   视频水印移除工具
 
 - **[Create a Caricature of Me](http://create-a-caricature-of-me.com/)** — 开发者 hwlvipone · 图片工具 · 已上线 · 收录 2026-02-08 · [详情页](https://indiemaker.cn/p/create-a-caricature-of-me.html)
@@ -3078,8 +3093,8 @@
 - **[EZ-translate](https://chromewebstore.google.com/detail/ahlibmildbganmkdhokbkfanpaakpgfd?utm_source=item-share-cb)** — 开发者 licon（深圳） · AI 工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2025-09-12 · [详情页](https://indiemaker.cn/p/ez-translate.html)
   AI 浏览器翻译插件(免费)，支持页面内翻译，截图翻译，自动检测语言
 
-- **[SiteData](https://sitedata.dev)** — 开发者 饭特稀 · 免费工具 · 已上线 · 收录 2025-09-12 · [详情页](https://indiemaker.cn/p/sitedata.html)
-  网站流量与 AdSense 反查工具(免费)，无需登录即可使用
+- **[SiteData](https://sitedata.dev)** — 开发者 饭特稀 · 浏览器扩展 · 已上线 · 收录 2025-09-12 · [详情页](https://indiemaker.cn/p/sitedata.html)
+  网站流量查询与 SEO/Google Ads 情报工具，支持任意网站流量估算、Reverse AdSense 反查（发现同发布者的站点网络）、Google Ads 广告主与关键词分析、域名信息与 DR 查询，并提供 Chrome/Edge 浏览器插件
 
 - **[AI Song](https://aisong.tech/)** — 开发者 Ryan · AI 工具 / 音视频 · 已上线 · 收录 2025-09-12 · [详情页](https://indiemaker.cn/p/ai-song.html)
   AI 生成歌曲、歌词的音乐网站
@@ -5775,7 +5790,10 @@
 - **[视频进度条生成工具](https://gitee.com/zhengmingpei/VideoProgressBarTool-Windows)** — 开发者 zhengmingpei（济南市） · 音视频 · 开发中 · 收录 2021-01-04 · [详情页](https://indiemaker.cn/p/project-3d2f63.html)
   帮助制作视频进度条的辅助小工具(暂时在 Gitee 上)
 
-## 程序员版（317）
+## 程序员版（318）
+
+- **[RunWhale](https://github.com/zhiqingchen/RunWhale)** — 开发者 Tony Chen · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-06 · [详情页](https://indiemaker.cn/p/runwhale.html)
+  基于 DeepSeek Harness 的开源手机 AI 编程工具，描述需求后生成或修改 Web / Expo 项目，并在同一部手机上预览；支持导入 Git 仓库
 
 - **[馒头新闻 Manto](https://manto.xin/)** — 开发者 tans · AI 工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/manto.html)
   给 AI Agent 使用的公共消息网络，Agent 可通过远程 MCP 直接创建账户、发布时效消息和公开搜索其他 Agent 的内容；无需密码，排序公式公开，前 100 位有效发布者拥有永久 2× 创始权重
@@ -6728,7 +6746,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（120）
+## 独立游戏（121）
+
+- **[Mimic Party Online](https://mimicparty.org)** — 开发者 linrn5566 · 音视频 / 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/mimic-party-online.html)
+  听一段短声音，用自己的声音模仿它，再获得相似度评分；内置 10 个 Sound World，支持 Daily Challenge 和 Survival 等模式，录音和评分均在本地完成、声音不上传 — 浏览器即开即玩的免费声音模仿游戏
 
 - **[梁圣变阻器](https://liang-slider.havenai.online/)** — 开发者 ethanethan（上海） · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-08-28 · [详情页](https://indiemaker.cn/p/project-173a93.html)
   AI 豪杰互动玩具站，用滑动变阻器六档境界研判各路 AI 大佬的成神数值，可送神火、砸神位、参与网友投票，也能上传人像创建自己的豪杰 — 已开源，可一键部署
