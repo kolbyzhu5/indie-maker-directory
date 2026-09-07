@@ -31,6 +31,22 @@ const RELATED_COUNT = 6; // 详情页「同分类推荐」数量
 const EDITION_LABEL = { main: "大众产品", programmer: "程序员版", game: "独立游戏" };
 const STATUS_LABEL = { online: "已上线", developing: "开发中", inactive: "已停止" };
 
+// [P2] Organization 结构化数据（全站复用：首页/详情页/分类页/关于页）
+// sameAs 指向站点源码仓库与数据源仓库，供 AI 搜索引擎交叉验证实体一致性
+const ORGANIZATION_LD = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "独立制造所",
+  "alternateName": "Indie Maker",
+  "url": `${SITE_URL}/`,
+  "logo": `${SITE_URL}/favicon.svg`,
+  "description": "中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。",
+  "sameAs": [
+    "https://github.com/kolbyzhu5/indie-maker-directory",
+    "https://github.com/1c7/chinese-independent-developer"
+  ]
+});
+
 // 分类英文 slug 映射（分类页 URL：/c/{slug}.html）
 const CATEGORY_SLUGS = {
   "AI 工具": "ai-tools",
@@ -193,6 +209,8 @@ function renderProductPage(project, slug, slugMap, related) {
   <meta name="description" content="${desc}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/p/${slug}.html">
+  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/p/${slug}.html">
+  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/p/${slug}.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="独立制造所">
   <meta property="og:title" content="${name} - 独立制造所">
@@ -208,6 +226,7 @@ function renderProductPage(project, slug, slugMap, related) {
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">${softwareApp}</script>
   <script type="application/ld+json">${breadcrumbLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -293,6 +312,8 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   <meta name="description" content="独立制造所「${escapeHTML(category)}」分类：共收录 ${count} 个中国独立开发者产品，每日同步更新。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/c/${catSlug}.html">
+  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/c/${catSlug}.html">
+  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/c/${catSlug}.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="独立制造所">
   <meta property="og:title" content="${escapeHTML(category)} - 独立制造所">
@@ -305,6 +326,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">${collectionLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -323,6 +345,103 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
       <nav class="category-nav" aria-label="分类导航">${catNav}</nav>
     </div>
     <div class="category-grid">${cards}</div>
+  </main>
+  <footer class="detail-footer">
+    <p>独立制造所 · 让认真做出来的东西被看见</p>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p><a href="/">返回产品导航</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+// ── P2：关于页 + FAQPage ─────────────────────────────────────
+function renderAboutPage() {
+  const faqs = [
+    {
+      q: "独立制造所是什么？",
+      a: "一个收录中国独立开发者作品的产品导航站。我们把散落在 GitHub README 里的网站、应用、工具与游戏，整理成真正好逛、好搜、好发现的目录。"
+    },
+    {
+      q: "数据从哪里来？",
+      a: "每日自动从开源仓库 chinese-independent-developer 同步，产品名称、介绍、开发者与状态均以原仓库为准，不虚构、不篡改。"
+    },
+    {
+      q: "如何提交我的产品？",
+      a: "向数据源仓库 chinese-independent-developer 提交 Pull Request，下一次同步时就会收录。也可以点击首页底部的「反馈建议」联系我。"
+    },
+    {
+      q: "有竞价排名吗？",
+      a: "没有。这里是纯收录目录，没有任何付费排序或广告位——只有创造本身。"
+    }
+  ];
+
+  const faqLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  });
+
+  const faqHTML = faqs.map((f) => `
+    <div class="faq-item">
+      <h2 class="faq-q">${f.q}</h2>
+      <p class="faq-a">${f.a}</p>
+    </div>`).join("");
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>关于独立制造所 - 独立制造所</title>
+  <meta name="description" content="了解独立制造所：一个收录中国独立开发者作品的产品导航站，每日从 GitHub 自动同步，无竞价排名。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${SITE_URL}/about.html">
+  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/about.html">
+  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="独立制造所">
+  <meta property="og:title" content="关于独立制造所">
+  <meta property="og:description" content="中国独立开发者产品导航，每日自动同步，无竞价排名。">
+  <meta property="og:url" content="${SITE_URL}/about.html">
+  <meta property="og:image" content="${SITE_URL}/preview.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary">
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${faqLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>独立制造所</strong><small>中国独立开发者产品志</small></span>
+    </a>
+    <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a></nav>
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">关于</span></nav>
+    <article class="detail-card">
+      <div class="detail-head"><span class="edition-badge">关于</span></div>
+      <h1>独立制造所</h1>
+      <p class="detail-desc">好产品，不该埋在几千行 README 里。我们做一件小事：把中国独立开发者的作品，做成真正好逛、好搜、好发现的目录。</p>
+      <div class="detail-meta">
+        <span><b>数据源</b><a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a></span>
+        <span><b>源码</b><a href="https://github.com/kolbyzhu5/indie-maker-directory" target="_blank" rel="noreferrer">indie-maker-directory ↗</a></span>
+      </div>
+    </article>
+    <section class="faq-list">
+      <h2 class="faq-title">常见问题</h2>
+      ${faqHTML}
+    </section>
   </main>
   <footer class="detail-footer">
     <p>独立制造所 · 让认真做出来的东西被看见</p>
@@ -397,6 +516,7 @@ async function main() {
   const lastmod = beijingDateISO();
   const sitemapUrls = [];
   sitemapUrls.push(`  <url><loc>${SITE_URL}/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
   for (const [cat, catSlug] of Object.entries(CATEGORY_SLUGS)) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/c/${catSlug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>`);
   }
@@ -451,6 +571,7 @@ Allow: /
 - 数据源：https://github.com/1c7/chinese-independent-developer
 - 更新时间：${lastmod}（北京时间）
 - 语言：中文 / English（双语切换）
+- 关于页：${SITE_URL}/about.html（站点介绍 + 常见问题 FAQ）
 
 ## 分类导航
 ${categoryLines}
@@ -493,8 +614,10 @@ ${sections}
 `;
 
   // 写入根目录（根文件）
+  const aboutPage = renderAboutPage();
   const targets = [
     ["index.html", html],
+    ["about.html", aboutPage],
     ["sitemap.xml", sitemap],
     ["robots.txt", robots],
     ["llms.txt", llms],

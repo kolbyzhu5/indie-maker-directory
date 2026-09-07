@@ -47,3 +47,15 @@
 .detail-footer p { margin: 6px 0; }
 .detail-footer a { color: var(--muted); text-decoration: none; }
 .detail-footer a:hover { color: var(--red); }
+
+/* 关于页 · 数据源/源码链接 */
+.detail-meta a { color: var(--red-dark); text-decoration: none; border-bottom: 1px solid rgba(107,82,38,.25); }
+.detail-meta a:hover { color: var(--red); border-bottom-color: var(--red); }
+
+/* 关于页 · FAQ 问答 */
+.faq-list { margin-top: 52px; }
+.faq-title { font-size: 20px; letter-spacing: .04em; margin: 0 0 18px; padding-left: 12px; border-left: 4px solid var(--red); }
+.faq-item { background: var(--card); border: 1px solid var(--line); box-shadow: 5px 6px 0 rgba(88,71,40,.08); padding: 24px 28px; margin-bottom: 16px; }
+.faq-q { font-size: 17px; font-weight: 700; color: var(--ink); margin: 0 0 10px; }
+.faq-q::before { content: "Q "; color: var(--red); font-weight: 900; margin-right: 4px; }
+.faq-a { font-size: 15px; line-height: 1.9; color: var(--ink); margin: 0; }

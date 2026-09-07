@@ -8,6 +8,7 @@
 - 数据源：https://github.com/1c7/chinese-independent-developer
 - 更新时间：2026-09-07（北京时间）
 - 语言：中文 / English（双语切换）
+- 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
 
 ## 分类导航
 - [AI 工具](https://indiemaker.cn/c/ai-tools.html)：848 个产品
