@@ -4,29 +4,53 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-07T09:06:00.893Z",
+  "generatedAt": "2026-09-07T09:20:39.803Z",
   "counts": {
-    "total": 2368,
-    "main": 1929,
+    "total": 2370,
+    "main": 1930,
     "programmer": 318,
-    "game": 121,
+    "game": 122,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 848,
+    "AI 工具": 849,
+    "图片工具": 456,
+    "免费工具": 394,
     "文档办公": 224,
     "开发工具": 446,
-    "免费工具": 393,
-    "音视频": 414,
+    "音视频": 415,
     "浏览器扩展": 228,
-    "游戏娱乐": 142,
-    "图片工具": 454,
+    "游戏娱乐": 143,
     "效率工具": 342,
     "教育学习": 123,
     "生活服务": 71,
     "社交社区": 88
   },
   "projects": [
+    {
+      "id": "main-20260907-schwenkmurmel17-dotcom-cubistai",
+      "edition": "main",
+      "addedAt": "2026-09-07",
+      "maker": "小范",
+      "city": "武汉",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/schwenkmurmel17-dotcom"
+        }
+      ],
+      "name": "CubistAI",
+      "url": "https://cubistai.org/",
+      "status": "online",
+      "description": "AI 图片生成工具，输入文字秒出高清图，集成 Nano Banana 2、Seedream、FLUX.2 等模型，每天有免费额度，另附 AI 头像、卡通化、涂色页、抠图、水印去除等专项工具",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260907-lttxzmj-法脉-lawpulse",
       "edition": "main",
@@ -101,6 +125,30 @@
         "浏览器扩展",
         "游戏娱乐",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260907-firegomove-pixelartgame",
+      "edition": "game",
+      "addedAt": "2026-09-07",
+      "maker": "firegomove",
+      "city": "广东",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/firegomove"
+        }
+      ],
+      "name": "PixelArtGame",
+      "url": "https://pixelartgame.online/",
+      "status": "online",
+      "description": "一款结合了像素艺术与轻松玩法的网页游戏。无需下载安装，打开即可游玩。游戏以复古像素画风为核心，配合轻快的背景音乐，营造出沉浸式的游戏体验。无论是怀旧玩家还是休闲爱好者，都能快速找到属于自己的乐趣",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "游戏娱乐"
       ],
       "source": "upstream"
     },
