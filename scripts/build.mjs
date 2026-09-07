@@ -449,7 +449,7 @@ function renderAboutPage() {
     <article class="detail-card">
       <div class="detail-head"><span class="edition-badge">关于</span></div>
       <h1>AI 独立制造所</h1>
-      <p class="detail-desc">好产品，不该埋在几千行 README 里。我们做一件小事：把中国独立开发者的作品，做成真正好逛、好搜、好发现的目录。</p>
+      <p class="detail-desc">好产品，不该埋在几千行 README 里。我们做一件小事：把独立开发者的AI作品，做成真正好逛、好搜、好发现的目录。</p>
       <div class="detail-meta">
         <span><b>数据源</b><a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a></span>
         <span><b>源码</b><a href="https://github.com/kolbyzhu5/indie-maker-directory" target="_blank" rel="noreferrer">indie-maker-directory ↗</a></span>
