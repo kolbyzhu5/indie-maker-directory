@@ -4,29 +4,59 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-06T23:54:53.438Z",
+  "generatedAt": "2026-09-07T08:14:02.526Z",
   "counts": {
-    "total": 2367,
-    "main": 1928,
+    "total": 2368,
+    "main": 1929,
     "programmer": 318,
     "game": 121,
     "custom": 1
   },
   "categoryCounts": {
-    "开发工具": 445,
+    "AI 工具": 848,
+    "文档办公": 224,
+    "开发工具": 446,
+    "免费工具": 393,
     "音视频": 414,
     "浏览器扩展": 228,
     "游戏娱乐": 142,
-    "免费工具": 392,
-    "AI 工具": 847,
     "图片工具": 454,
-    "文档办公": 223,
     "效率工具": 342,
     "教育学习": 123,
     "生活服务": 71,
     "社交社区": 88
   },
   "projects": [
+    {
+      "id": "main-20260907-lttxzmj-法脉-lawpulse",
+      "edition": "main",
+      "addedAt": "2026-09-07",
+      "maker": "lttxzmj",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lttxzmj"
+        }
+      ],
+      "name": "法脉 LawPulse",
+      "url": "https://lttxzmj.github.io/lawpulse-site/",
+      "status": "online",
+      "description": "给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实；数据全在本机不上云。公测期免费。配套开源了 [chinese-law-corpus](https://github.com/lttxzmj/chinese-law-corpus)（412 部法律逐条 JSON + 723 件案例，CC0）",
+      "extraLinks": [
+        {
+          "label": "chinese-law-corpus",
+          "url": "https://github.com/lttxzmj/chinese-law-corpus"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260907-sitehunter-sitehunter",
       "edition": "main",
