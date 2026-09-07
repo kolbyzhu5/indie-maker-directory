@@ -1,9 +1,9 @@
-# 独立制造所（Indie Maker）
+# AI 独立制造所（Indie Maker）
 
 > 中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏。每日从 GitHub 自动同步，收录 2370 个产品，无竞价排名。
 
 ## 关于本站
-- 名称：独立制造所（Indie Maker）
+- 名称：AI 独立制造所（Indie Maker）
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
 - 更新时间：2026-09-07（北京时间）

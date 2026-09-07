@@ -1,4 +1,4 @@
-# 独立制造所 · 全部产品清单（2370）
+# AI 独立制造所 · 全部产品清单（2370）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-09-07（北京时间）

@@ -7,8 +7,8 @@ export const LOCALES = {
     // lang 切换按钮显示：点击切到英文时显示 "EN"
     langToggleLabel: "EN",
     // brand
-    brandTitle: "独立制造所",
-    brandSubtitle: "中国独立开发者产品志",
+    brandTitle: "AI 独立制造所",
+    brandSubtitle: "独立开发者 · AI 工具导航",
     // nav
     navBrowse: "逛产品",
     // hero
@@ -47,10 +47,10 @@ export const LOCALES = {
     resultsEmptyAction: "查看全部作品",
     resultsLoadMore: "再翻一页",
     // footer
-    footerSlogan: "独立制造所 · 让认真做出来的东西被看见",
+    footerSlogan: "AI 独立制造所 · 让认真做出来的东西被看见",
     footerFeedback: "反馈建议",
     // a11y
-    a11yHome: "独立制造所首页",
+    a11yHome: "AI 独立制造所首页",
     a11ySearch: "搜索产品、开发者或介绍",
     a11yFilters: "筛选条件",
     a11yResults: "产品列表",
@@ -63,7 +63,7 @@ export const LOCALES = {
     // lang 切换按钮显示：点击切到中文时显示 "中"
     langToggleLabel: "中",
     brandTitle: "Indie Maker",
-    brandSubtitle: "Directory of Chinese indie developer products",
+    brandSubtitle: "Indie developers · AI tools directory",
     navBrowse: "Browse",
     heroEyebrow: "Curated daily from GitHub",
     heroTitle1: "Great products, ",

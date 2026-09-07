@@ -175,7 +175,7 @@ function applyLocale() {
   // 动态重建：需要根据 locale 重绘
   const isZh = getCurrentLocale() === "zh";
   document.documentElement.lang = isZh ? "zh-CN" : "en";
-  document.title = isZh ? "独立制造所｜中国独立开发者产品导航" : "Indie Maker · Directory of Chinese indie developer products";
+  document.title = isZh ? "AI 独立制造所 - 独立开发者项目导航 | AI 工具合集" : "Indie Maker · AI tools directory for indie developers";
   const desc = isZh
     ? "发现中国独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。涵盖 AI 工具、音视频、效率工具、开发工具、独立游戏等 2000+ 精选产品。"
     : "Discover websites, apps, tools and games built by Chinese indie developers, synced daily. 2000+ handpicked products across AI, productivity, dev tools and more.";

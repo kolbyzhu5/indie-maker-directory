@@ -36,7 +36,7 @@ const STATUS_LABEL = { online: "已上线", developing: "开发中", inactive: "
 const ORGANIZATION_LD = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "独立制造所",
+  "name": "AI 独立制造所",
   "alternateName": "Indie Maker",
   "url": `${SITE_URL}/`,
   "logo": `${SITE_URL}/favicon.svg`,
@@ -205,21 +205,21 @@ function renderProductPage(project, slug, slugMap, related) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${name} - 独立制造所</title>
+  <title>${name} - AI 独立制造所</title>
   <meta name="description" content="${desc}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/p/${slug}.html">
   <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/p/${slug}.html">
   <link rel="alternate" hreflang="x-default" href="${SITE_URL}/p/${slug}.html">
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="独立制造所">
-  <meta property="og:title" content="${name} - 独立制造所">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="${name} - AI 独立制造所">
   <meta property="og:description" content="${desc}">
   <meta property="og:url" content="${SITE_URL}/p/${slug}.html">
   <meta property="og:image" content="${SITE_URL}/preview.png">
   <meta property="og:locale" content="zh_CN">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="${name} - 独立制造所">
+  <meta name="twitter:title" content="${name} - AI 独立制造所">
   <meta name="twitter:description" content="${desc}">
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
@@ -231,9 +231,9 @@ function renderProductPage(project, slug, slugMap, related) {
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="/" aria-label="独立制造所首页">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
       <span class="brand-seal">独立</span>
-      <span><strong>独立制造所</strong><small>中国独立开发者产品志</small></span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
     <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a></nav>
   </header>
@@ -253,7 +253,7 @@ function renderProductPage(project, slug, slugMap, related) {
     ${relatedSection}
   </main>
   <footer class="detail-footer">
-    <p>独立制造所 · 让认真做出来的东西被看见</p>
+    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
     <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
     <p><a href="/">返回产品导航</a></p>
   </footer>
@@ -287,9 +287,9 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   const collectionLD = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": `${category} - 独立制造所`,
+    "name": `${category} - AI 独立制造所`,
     "url": `${SITE_URL}/c/${catSlug}.html`,
-    "description": `独立制造所「${category}」分类，共收录 ${count} 个中国独立开发者产品，每日同步更新。`,
+    "description": `AI 独立制造所「${category}」分类，共收录 ${count} 个中国独立开发者产品，每日同步更新。`,
     "mainEntity": {
       "@type": "ItemList",
       "name": `${category}产品列表`,
@@ -308,15 +308,15 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHTML(category)} - 独立制造所</title>
-  <meta name="description" content="独立制造所「${escapeHTML(category)}」分类：共收录 ${count} 个中国独立开发者产品，每日同步更新。">
+  <title>${escapeHTML(category)} - AI 独立制造所</title>
+  <meta name="description" content="AI 独立制造所「${escapeHTML(category)}」分类：共收录 ${count} 个中国独立开发者产品，每日同步更新。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/c/${catSlug}.html">
   <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/c/${catSlug}.html">
   <link rel="alternate" hreflang="x-default" href="${SITE_URL}/c/${catSlug}.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="独立制造所">
-  <meta property="og:title" content="${escapeHTML(category)} - 独立制造所">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="${escapeHTML(category)} - AI 独立制造所">
   <meta property="og:description" content="共收录 ${count} 个中国独立开发者产品">
   <meta property="og:url" content="${SITE_URL}/c/${catSlug}.html">
   <meta property="og:image" content="${SITE_URL}/preview.png">
@@ -331,9 +331,9 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="/" aria-label="独立制造所首页">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
       <span class="brand-seal">独立</span>
-      <span><strong>独立制造所</strong><small>中国独立开发者产品志</small></span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
     <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a></nav>
   </header>
@@ -347,7 +347,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
     <div class="category-grid">${cards}</div>
   </main>
   <footer class="detail-footer">
-    <p>独立制造所 · 让认真做出来的东西被看见</p>
+    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
     <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
     <p><a href="/">返回产品导航</a></p>
   </footer>
@@ -360,7 +360,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
 function renderAboutPage() {
   const faqs = [
     {
-      q: "独立制造所是什么？",
+      q: "AI 独立制造所是什么？",
       a: "一个收录中国独立开发者作品的产品导航站。我们把散落在 GitHub README 里的网站、应用、工具与游戏，整理成真正好逛、好搜、好发现的目录。"
     },
     {
@@ -398,15 +398,15 @@ function renderAboutPage() {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>关于独立制造所 - 独立制造所</title>
-  <meta name="description" content="了解独立制造所：一个收录中国独立开发者作品的产品导航站，每日从 GitHub 自动同步，无竞价排名。">
+  <title>关于AI 独立制造所 - AI 独立制造所</title>
+  <meta name="description" content="了解AI 独立制造所：一个收录中国独立开发者作品的产品导航站，每日从 GitHub 自动同步，无竞价排名。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/about.html">
   <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/about.html">
   <link rel="alternate" hreflang="x-default" href="${SITE_URL}/about.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="独立制造所">
-  <meta property="og:title" content="关于独立制造所">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="关于AI 独立制造所">
   <meta property="og:description" content="中国独立开发者产品导航，每日自动同步，无竞价排名。">
   <meta property="og:url" content="${SITE_URL}/about.html">
   <meta property="og:image" content="${SITE_URL}/preview.png">
@@ -421,9 +421,9 @@ function renderAboutPage() {
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="/" aria-label="独立制造所首页">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
       <span class="brand-seal">独立</span>
-      <span><strong>独立制造所</strong><small>中国独立开发者产品志</small></span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
     <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a></nav>
   </header>
@@ -431,7 +431,7 @@ function renderAboutPage() {
     <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">关于</span></nav>
     <article class="detail-card">
       <div class="detail-head"><span class="edition-badge">关于</span></div>
-      <h1>独立制造所</h1>
+      <h1>AI 独立制造所</h1>
       <p class="detail-desc">好产品，不该埋在几千行 README 里。我们做一件小事：把中国独立开发者的作品，做成真正好逛、好搜、好发现的目录。</p>
       <div class="detail-meta">
         <span><b>数据源</b><a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a></span>
@@ -444,7 +444,7 @@ function renderAboutPage() {
     </section>
   </main>
   <footer class="detail-footer">
-    <p>独立制造所 · 让认真做出来的东西被看见</p>
+    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
     <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
     <p><a href="/">返回产品导航</a></p>
   </footer>
@@ -561,12 +561,12 @@ Allow: /
     const count = categoryCounts[name] || 0;
     return `- [${name}](${SITE_URL}/c/${catSlug}.html)：${count} 个产品`;
   }).join("\n");
-  const llms = `# 独立制造所（Indie Maker）
+  const llms = `# AI 独立制造所（Indie Maker）
 
 > 中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏。每日从 GitHub 自动同步，收录 ${total} 个产品，无竞价排名。
 
 ## 关于本站
-- 名称：独立制造所（Indie Maker）
+- 名称：AI 独立制造所（Indie Maker）
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
 - 更新时间：${lastmod}（北京时间）
@@ -604,7 +604,7 @@ ${categoryLines}
     return `## ${label}（${list.length}）\n\n${items}`;
   }).join("\n\n");
 
-  const llmsFull = `# 独立制造所 · 全部产品清单（${total}）
+  const llmsFull = `# AI 独立制造所 · 全部产品清单（${total}）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：${lastmod}（北京时间）
