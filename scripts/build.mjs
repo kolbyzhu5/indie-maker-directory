@@ -64,6 +64,23 @@ const CATEGORY_SLUGS = {
   "未分类": "uncategorized"
 };
 
+// [P3] 分类页 title 搜索词化（覆盖长尾词「XX推荐」+「独立开发者XX合集」）
+const CATEGORY_TITLES = {
+  "AI 工具": "AI 工具推荐 - 独立开发者 AI 产品合集",
+  "音视频": "音视频工具推荐 - 独立开发者音视频工具合集",
+  "生活服务": "生活工具推荐 - 独立开发者生活服务产品合集",
+  "游戏娱乐": "独立游戏推荐 - 独立开发者游戏合集",
+  "免费工具": "免费工具推荐 - 独立开发者免费工具合集",
+  "效率工具": "效率工具推荐 - 独立开发者效率工具合集",
+  "浏览器扩展": "浏览器扩展推荐 - 独立开发者浏览器插件合集",
+  "社交社区": "社交产品推荐 - 独立开发者社交社区合集",
+  "开发工具": "开发工具推荐 - 独立开发者开发工具合集",
+  "教育学习": "学习工具推荐 - 独立开发者教育工具合集",
+  "文档办公": "办公工具推荐 - 独立开发者文档办公工具合集",
+  "图片工具": "图片工具推荐 - 独立开发者图片工具合集",
+  "未分类": "独立开发者产品合集"
+};
+
 const escapeHTML = (value = "") =>
   String(value).replace(/[&<>'"]/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
@@ -287,7 +304,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   const collectionLD = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": `${category} - AI 独立制造所`,
+    "name": `${CATEGORY_TITLES[category] || category} | AI 独立制造所`,
     "url": `${SITE_URL}/c/${catSlug}.html`,
     "description": `AI 独立制造所「${category}」分类，共收录 ${count} 个中国独立开发者产品，每日同步更新。`,
     "mainEntity": {
@@ -308,7 +325,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHTML(category)} - AI 独立制造所</title>
+  <title>${escapeHTML(CATEGORY_TITLES[category] || category)} | AI 独立制造所</title>
   <meta name="description" content="AI 独立制造所「${escapeHTML(category)}」分类：共收录 ${count} 个中国独立开发者产品，每日同步更新。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/c/${catSlug}.html">
@@ -316,7 +333,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   <link rel="alternate" hreflang="x-default" href="${SITE_URL}/c/${catSlug}.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI 独立制造所">
-  <meta property="og:title" content="${escapeHTML(category)} - AI 独立制造所">
+  <meta property="og:title" content="${escapeHTML(CATEGORY_TITLES[category] || category)} | AI 独立制造所">
   <meta property="og:description" content="共收录 ${count} 个中国独立开发者产品">
   <meta property="og:url" content="${SITE_URL}/c/${catSlug}.html">
   <meta property="og:image" content="${SITE_URL}/preview.png">
