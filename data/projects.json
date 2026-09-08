@@ -4,29 +4,74 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-07T10:02:16.616Z",
+  "generatedAt": "2026-09-08T00:25:18.585Z",
   "counts": {
-    "total": 2370,
-    "main": 1930,
+    "total": 2373,
+    "main": 1932,
     "programmer": 318,
-    "game": 122,
+    "game": 123,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 849,
+    "AI 工具": 851,
+    "生活服务": 72,
     "图片工具": 456,
-    "免费工具": 394,
+    "免费工具": 395,
     "文档办公": 224,
     "开发工具": 446,
-    "音视频": 415,
-    "浏览器扩展": 228,
+    "音视频": 416,
+    "浏览器扩展": 229,
     "游戏娱乐": 143,
     "效率工具": 342,
     "教育学习": 123,
-    "生活服务": 71,
     "社交社区": 88
   },
   "projects": [
+    {
+      "id": "main-20260907-overseax-scribeflash",
+      "edition": "main",
+      "addedAt": "2026-09-07",
+      "maker": "aiScribeFlash",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/overseax"
+        }
+      ],
+      "name": "ScribeFlash",
+      "url": "https://scribeflash.com/?utm_source=github",
+      "status": "online",
+      "description": "面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260907-emptylower-seichigo-圣地巡礼",
+      "edition": "main",
+      "addedAt": "2026-09-07",
+      "maker": "emptylower",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/emptylower"
+        }
+      ],
+      "name": "SeichiGo 圣地巡礼",
+      "url": "https://seichigo.com",
+      "status": "online",
+      "description": "动漫圣地巡礼行程规划工具，选作品和天数，AI Agent 生成含交通衔接的逐日路线；全球巡礼地图 5 万+ 点位、1,500+ 作品，简中/繁中/日/英四语",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260907-schwenkmurmel17-dotcom-cubistai",
       "edition": "main",
@@ -149,6 +194,29 @@
         "图片工具",
         "音视频",
         "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260907-hbwang76-blood-of-dawnwalker-tools",
+      "edition": "game",
+      "addedAt": "2026-09-07",
+      "maker": "hbwang76",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hbwang76"
+        }
+      ],
+      "name": "Blood of Dawnwalker Tools",
+      "url": "https://bloodofdawnwalker.win",
+      "status": "online",
+      "description": "The Blood of Dawnwalker 粉丝工具站，含 Vampire/Human 构建计算器、7 结局追踪器和 47 奖杯清单，浏览器直接使用，无需注册账号",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -360,10 +428,11 @@
       "name": "Video Text Remover",
       "url": "https://videotextremover.org/",
       "status": "online",
-      "description": "AI-powered tool to erase text, captions, and subtitles from any video",
+      "description": "AI 视频文字擦除工具，去除视频中的文字、字幕和说明文字",
       "extraLinks": [],
       "categories": [
-        "AI 工具"
+        "AI 工具",
+        "音视频"
       ],
       "source": "upstream"
     },
@@ -1045,7 +1114,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260907-0",
+      "id": "custom-20260908-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

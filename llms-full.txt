@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（2370）
+# AI 独立制造所 · 全部产品清单（2373）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-07（北京时间）
+> 更新时间：2026-09-08（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1930）
+## 大众产品（1932）
+
+- **[ScribeFlash](https://scribeflash.com/?utm_source=github)** — 开发者 aiScribeFlash（北京） · AI 工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/scribeflash.html)
+  面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论
+
+- **[SeichiGo 圣地巡礼](https://seichigo.com)** — 开发者 emptylower · AI 工具 / 生活服务 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/seichigo.html)
+  动漫圣地巡礼行程规划工具，选作品和天数，AI Agent 生成含交通衔接的逐日路线；全球巡礼地图 5 万+ 点位、1,500+ 作品，简中/繁中/日/英四语
 
 - **[CubistAI](https://cubistai.org/)** — 开发者 小范（武汉） · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/cubistai.html)
   AI 图片生成工具，输入文字秒出高清图，集成 Nano Banana 2、Seedream、FLUX.2 等模型，每天有免费额度，另附 AI 头像、卡通化、涂色页、抠图、水印去除等专项工具
@@ -36,8 +42,8 @@
 - **[RGB TO CMYK](https://rgbtocmyk.net/)** — 开发者 Seagnson · 未分类 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/rgb-to-cmyk.html)
   基于印刷行业专业色彩转换引擎设计的 RGB 转 CMYK 在线工具，支持内置及自定义 ICC 配置文件，实现无与伦比的色彩保真度
 
-- **[Video Text Remover](https://videotextremover.org/)** — 开发者 CoderLim（北京） · AI 工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/video-text-remover.html)
-  AI-powered tool to erase text, captions, and subtitles from any video
+- **[Video Text Remover](https://videotextremover.org/)** — 开发者 CoderLim（北京） · AI 工具 / 音视频 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/video-text-remover.html)
+  AI 视频文字擦除工具，去除视频中的文字、字幕和说明文字
 
 - **[PicEditor](https://piceditor.org/)** — 开发者 dong13 · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-03 · [详情页](https://indiemaker.cn/p/piceditor.html)
   AI 图片编辑和生成工具，用自然语言换背景、移除物体、修改图片文字或生成新图，首次使用无需注册
@@ -6752,13 +6758,16 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（122）
+## 独立游戏（123）
 
 - **[Mimic Party Online](https://mimicparty.org)** — 开发者 linrn5566 · 音视频 / 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/mimic-party-online.html)
   听一段短声音，用自己的声音模仿它，再获得相似度评分；内置 10 个 Sound World，支持 Daily Challenge 和 Survival 等模式，录音和评分均在本地完成、声音不上传 — 浏览器即开即玩的免费声音模仿游戏
 
 - **[PixelArtGame](https://pixelartgame.online/)** — 开发者 firegomove（广东） · 图片工具 / 音视频 / 游戏娱乐 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/pixelartgame.html)
   一款结合了像素艺术与轻松玩法的网页游戏。无需下载安装，打开即可游玩。游戏以复古像素画风为核心，配合轻快的背景音乐，营造出沉浸式的游戏体验。无论是怀旧玩家还是休闲爱好者，都能快速找到属于自己的乐趣
+
+- **[Blood of Dawnwalker Tools](https://bloodofdawnwalker.win)** — 开发者 hbwang76 · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/blood-of-dawnwalker-tools.html)
+  The Blood of Dawnwalker 粉丝工具站，含 Vampire/Human 构建计算器、7 结局追踪器和 47 奖杯清单，浏览器直接使用，无需注册账号
 
 - **[梁圣变阻器](https://liang-slider.havenai.online/)** — 开发者 ethanethan（上海） · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-08-28 · [详情页](https://indiemaker.cn/p/project-173a93.html)
   AI 豪杰互动玩具站，用滑动变阻器六档境界研判各路 AI 大佬的成神数值，可送神火、砸神位、参与网友投票，也能上传人像创建自己的豪杰 — 已开源，可一键部署
