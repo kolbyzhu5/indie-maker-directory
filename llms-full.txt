@@ -1,10 +1,31 @@
-# AI 独立制造所 · 全部产品清单（2373）
+# AI 独立制造所 · 全部产品清单（2384）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-08（北京时间）
+> 更新时间：2026-09-09（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1932）
+## 大众产品（1940）
+
+- **[ReadGZH](https://readgzh.site/)** — 开发者 sweesama · AI 工具 / 开发工具 / 教育学习 · 已上线 · 收录 2026-09-09 · [详情页](https://indiemaker.cn/p/readgzh.html)
+  微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入
+
+- **[热摸爽](https://remoshuang.com/)** — 开发者 zjzno1 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/project-33a01e.html)
+  面向普通用户的全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用
+
+- **[Erase Background Pro](https://erasebgpro.com)** — 开发者 肖戈（深圳） · AI 工具 / 图片工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/erase-background-pro.html)
+  无需注册、免费即用的 AI 一键抠图工具，秒级输出边缘干净的透明 PNG，支持电商人像/发丝细节与 4K 高清，提供批量处理、免费试用与开发者 API
+
+- **[薯小二](https://xhs.jvxiao.cn/)** — 开发者 肖戈（深圳） · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/project-f37649.html)
+  小红书合规运营工具箱，违禁词一键检测+替换建议、AI 爆款标题生成、笔记收录限流自查，纯网页端免安装，新人每天免费发车
+
+- **[LoveComic](https://lovecomic.app/)** — 开发者 rain（深圳） · AI 工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/lovecomic.html)
+  AI 漫画生成网站，支持自动与人工控制双重模式，自定义对话气泡、字体等；还有 flow 画布模式，可自由编排节点生成漫画
+
+- **[NotePP](https://luminousstars.org/)** — 开发者 南宫文凯 · 开发工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/notepp.html)
+  macOS 平台的 Notepad++ 替代方案，在 Mac 上也能流畅使用 Notepad++ 的编辑体验
+
+- **[Real Job Work From Home](https://realjobworkfromhome.com/)** — 开发者 fengmao · 免费工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/real-job-work-from-home.html)
+  远程岗位检索网站，无需注册即可免费浏览，支持关键词、岗位类别、雇佣类型及已披露薪资筛选，并提供雇主申请入口
 
 - **[ScribeFlash](https://scribeflash.com/?utm_source=github)** — 开发者 aiScribeFlash（北京） · AI 工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/scribeflash.html)
   面向产品、市场与用户研究团队的 AI 研究工作台，帮助你把客户访谈快速转化为有证据支撑的洞察与专业研究报告。你可以上传访谈、查看和编辑转录内容、按研究问题整理答案、对比不同参与者、沉淀关键证据，并跨多场访谈发现主题、趋势和共识。每条 Finding 都可追溯到原始引用，让团队更快分析、更放心验证，也更容易输出可分享、可执行的研究结论
@@ -72,7 +93,7 @@
 - **[PdfCompare](https://pdfcompare.app/)** — 开发者 haihiaen · 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/pdfcompare.html)
   免费免登录的在线 PDF 对比与文本转换工具，基于浏览器 WebAssembly 纯本地运行，毫秒级词级红绿高亮差异与图纸图层叠图对比，文档数据 100% 零上传云端，零泄露风险
 
-- **[XiuStore](https://store.xiu.ai/en/)** — 开发者 Dashu · AI 工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/xiustore.html)
+- **[XiuStore](https://store.xiu.ai/zh/)** — 开发者 Dashu · AI 工具 · 已上线 · 收录 2026-09-02 · [详情页](https://indiemaker.cn/p/xiustore.html)
   AI 订阅和数字服务商城，商品页公开价格、交付方式、有效期、质保和售后，付款后可在订单中找到对应交付入口
 
 - **[Vibe Coding 首切片](https://dify-feishu-qa-first10.heyhui.chatgpt.site/domestic-dev-first-slice)** — 开发者 heyu17625-glitch · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-01 · [详情页](https://indiemaker.cn/p/vibe-coding.html)
@@ -266,6 +287,9 @@
 
 - **[RSSH](https://rssh.ofcoder.com)** — 开发者 RSSH · AI 工具 / 开发工具 · 已上线 · 收录 2026-08-14 · [详情页](https://indiemaker.cn/p/rssh.html)
   新一代的SSH客户端，命令块(定义命令输入输出)、AI分析(零服务器cli)、多平台数据同步(零服务器)、Cli-First(提供cli工具，在任意终端使用rssh数据)、动态发现(docker/k8s发现)
+
+- **[Metrune](https://treafree.github.io/Metrune/)** — 开发者 TREAFREE · 效率工具 / 开发工具 · 已上线 · 收录 2026-08-13 · [详情页](https://indiemaker.cn/p/metrune.html)
+  原生 macOS 专注与开发活动工具，把任务计时、Codex 状态、GitHub 活动和周报收进 Mac 顶部界面，核心记录保存在本地
 
 - **[File Island](https://treafree.top/FileIsland/)** — 开发者 TREAFREE · 图片工具 / 音视频 / 开发工具 / 社交社区 · 已上线 · 收录 2026-08-13 · [详情页](https://indiemaker.cn/p/file-island.html)
   原生 macOS 本地媒体转换工具，驻留在 MacBook 刘海区域，支持图片、视频、音频与混合文件夹批量转换，结果可直接拖入访达或聊天应用，文件不上传云端
@@ -5802,7 +5826,10 @@
 - **[视频进度条生成工具](https://gitee.com/zhengmingpei/VideoProgressBarTool-Windows)** — 开发者 zhengmingpei（济南市） · 音视频 · 开发中 · 收录 2021-01-04 · [详情页](https://indiemaker.cn/p/project-3d2f63.html)
   帮助制作视频进度条的辅助小工具(暂时在 Gitee 上)
 
-## 程序员版（318）
+## 程序员版（319）
+
+- **[TeamoRouter](https://teamorouter.cn)** — 开发者 yangzhou-chaofan · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/teamorouter-960233.html)
+  多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费
 
 - **[RunWhale](https://github.com/zhiqingchen/RunWhale)** — 开发者 Tony Chen · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-06 · [详情页](https://indiemaker.cn/p/runwhale.html)
   基于 DeepSeek Harness 的开源手机 AI 编程工具，描述需求后生成或修改 Web / Expo 项目，并在同一部手机上预览；支持导入 Git 仓库
@@ -6194,7 +6221,7 @@
 - **[BOSS直聘爬虫](https://github.com/eatmoreduck/boss-zhipin-scraper)** — 开发者 eatmoreduck（上海） · 浏览器扩展 · 已上线 · 收录 2026-07-06 · [详情页](https://indiemaker.cn/p/boss.html)
   基于 Chrome CDP 直连本地已登录浏览器的 BOSS直聘爬虫，绕过字体反爬拿到明文薪资，自动生成薪资分布、技能词频和求职材料优化提示词
 
-- **[TeamoRouter](https://teamorouter.com)** — 开发者 blammectrappora · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-04 · [详情页](https://indiemaker.cn/p/teamorouter.html)
+- **[TeamoRouter](https://teamorouter.com)** — 开发者 blammectrappora · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-04 · [详情页](https://indiemaker.cn/p/teamorouter-3e06cb.html)
   AI 编程 API 智能路由网关，一个 Key 接入 Claude/GPT/Gemini/DeepSeek，国内可直连，微信/支付宝充值
 
 - **[Appaloft](https://appaloft.com)** — 开发者 nichenqin · AI 工具 / 效率工具 / 开发工具 · 已上线 · 收录 2026-07-04 · [详情页](https://indiemaker.cn/p/appaloft.html)
@@ -6758,7 +6785,13 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（123）
+## 独立游戏（125）
+
+- **[海克斯小秘书](https://aramkit.cdqyfdbymn.me/)** — 开发者 the-beating-light-of-the-nail · 免费工具 · 已上线 · 收录 2026-09-09 · [详情页](https://indiemaker.cn/p/project-8703d2.html)
+  《英雄联盟》海克斯大乱斗（ARAM Mayhem）攻略站，选人前查 173 位英雄的实时胜率排行、六神装、技能加点和银/金/棱彩强化符文推荐，三源数据每晚自动聚合，中英日韩等 12 种语言，打开即用无需注册
+
+- **[BTD6 Paragon Calculator](https://btd6paragoncalculator.org/)** — 开发者 pandaupup（广州） · 文档办公 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/btd6-paragon-calculator.html)
+  面向《Bloons TD 6》玩家的非官方 Paragon 计算工具，可计算 Paragon Degree、Power、Cash Slider、Sacrifices 和 Paragon Power Totems，并提供 Degree 表格及相关计算说明
 
 - **[Mimic Party Online](https://mimicparty.org)** — 开发者 linrn5566 · 音视频 / 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/mimic-party-online.html)
   听一段短声音，用自己的声音模仿它，再获得相似度评分；内置 10 个 Sound World，支持 Daily Challenge 和 Survival 等模式，录音和评分均在本地完成、声音不上传 — 浏览器即开即玩的免费声音模仿游戏

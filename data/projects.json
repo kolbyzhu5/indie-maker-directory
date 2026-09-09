@@ -4,29 +4,264 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-08T03:55:24.775Z",
+  "generatedAt": "2026-09-09T00:15:03.307Z",
   "counts": {
-    "total": 2373,
-    "main": 1932,
-    "programmer": 318,
-    "game": 123,
+    "total": 2384,
+    "main": 1940,
+    "programmer": 319,
+    "game": 125,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 851,
+    "AI 工具": 857,
+    "开发工具": 452,
+    "教育学习": 124,
+    "免费工具": 400,
+    "图片工具": 457,
+    "文档办公": 226,
     "生活服务": 72,
-    "图片工具": 456,
-    "免费工具": 395,
-    "文档办公": 224,
-    "开发工具": 446,
     "音视频": 416,
     "浏览器扩展": 229,
     "游戏娱乐": 143,
-    "效率工具": 342,
-    "教育学习": 123,
+    "效率工具": 343,
     "社交社区": 88
   },
   "projects": [
+    {
+      "id": "main-20260909-sweesama-readgzh",
+      "edition": "main",
+      "addedAt": "2026-09-09",
+      "maker": "sweesama",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "name": "ReadGZH",
+      "url": "https://readgzh.site/",
+      "status": "online",
+      "description": "微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260909-the-beating-light-of-the-nail-海克斯小秘书",
+      "edition": "game",
+      "addedAt": "2026-09-09",
+      "maker": "the-beating-light-of-the-nail",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "name": "海克斯小秘书",
+      "url": "https://aramkit.cdqyfdbymn.me/",
+      "status": "online",
+      "description": "《英雄联盟》海克斯大乱斗（ARAM Mayhem）攻略站，选人前查 173 位英雄的实时胜率排行、六神装、技能加点和银/金/棱彩强化符文推荐，三源数据每晚自动聚合，中英日韩等 12 种语言，打开即用无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260908-zjzno1-热摸爽",
+      "edition": "main",
+      "addedAt": "2026-09-08",
+      "maker": "zjzno1",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zjzno1"
+        }
+      ],
+      "name": "热摸爽",
+      "url": "https://remoshuang.com/",
+      "status": "online",
+      "description": "面向普通用户的全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260908-jvxiao-erase-background-pro",
+      "edition": "main",
+      "addedAt": "2026-09-08",
+      "maker": "肖戈",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jvxiao"
+        }
+      ],
+      "name": "Erase Background Pro",
+      "url": "https://erasebgpro.com",
+      "status": "online",
+      "description": "无需注册、免费即用的 AI 一键抠图工具，秒级输出边缘干净的透明 PNG，支持电商人像/发丝细节与 4K 高清，提供批量处理、免费试用与开发者 API",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260908-jvxiao-薯小二",
+      "edition": "main",
+      "addedAt": "2026-09-08",
+      "maker": "肖戈",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jvxiao"
+        }
+      ],
+      "name": "薯小二",
+      "url": "https://xhs.jvxiao.cn/",
+      "status": "online",
+      "description": "小红书合规运营工具箱，违禁词一键检测+替换建议、AI 爆款标题生成、笔记收录限流自查，纯网页端免安装，新人每天免费发车",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260908-wang1309-lovecomic",
+      "edition": "main",
+      "addedAt": "2026-09-08",
+      "maker": "rain",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wang1309"
+        }
+      ],
+      "name": "LoveComic",
+      "url": "https://lovecomic.app/",
+      "status": "online",
+      "description": "AI 漫画生成网站，支持自动与人工控制双重模式，自定义对话气泡、字体等；还有 flow 画布模式，可自由编排节点生成漫画",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260908-南宫文凯-notepp",
+      "edition": "main",
+      "addedAt": "2026-09-08",
+      "maker": "南宫文凯",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://blog.csdn.net/qq_34730277"
+        }
+      ],
+      "name": "NotePP",
+      "url": "https://luminousstars.org/",
+      "status": "online",
+      "description": "macOS 平台的 Notepad++ 替代方案，在 Mac 上也能流畅使用 Notepad++ 的编辑体验",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260908-fengmao-real-job-work-from-home",
+      "edition": "main",
+      "addedAt": "2026-09-08",
+      "maker": "fengmao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fengmao"
+        }
+      ],
+      "name": "Real Job Work From Home",
+      "url": "https://realjobworkfromhome.com/",
+      "status": "online",
+      "description": "远程岗位检索网站，无需注册即可免费浏览，支持关键词、岗位类别、雇佣类型及已披露薪资筛选，并提供雇主申请入口",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260908-yangzhou-chaofan-teamorouter",
+      "edition": "programmer",
+      "addedAt": "2026-09-08",
+      "maker": "yangzhou-chaofan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yangzhou-chaofan"
+        }
+      ],
+      "name": "TeamoRouter",
+      "url": "https://teamorouter.cn",
+      "status": "online",
+      "description": "多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费",
+      "extraLinks": [
+        {
+          "label": "Astra + Codex 配置教程",
+          "url": "https://teamorouter.cn/blogs/gpt-6-astra-codex-cursor-setup"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260908-pandaupup-btd6-paragon-calculator",
+      "edition": "game",
+      "addedAt": "2026-09-08",
+      "maker": "pandaupup",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pandaupup"
+        }
+      ],
+      "name": "BTD6 Paragon Calculator",
+      "url": "https://btd6paragoncalculator.org/",
+      "status": "online",
+      "description": "面向《Bloons TD 6》玩家的非官方 Paragon 计算工具，可计算 Paragon Degree、Power、Cash Slider、Sacrifices 和 Paragon Power Totems，并提供 Degree 表格及相关计算说明",
+      "extraLinks": [],
+      "categories": [
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260907-overseax-scribeflash",
       "edition": "main",
@@ -694,7 +929,7 @@
       "city": "",
       "makerLinks": [],
       "name": "XiuStore",
-      "url": "https://store.xiu.ai/en/",
+      "url": "https://store.xiu.ai/zh/",
       "status": "online",
       "description": "AI 订阅和数字服务商城，商品页公开价格、交付方式、有效期、质保和售后，付款后可在订单中找到对应交付入口",
       "extraLinks": [],
@@ -1114,7 +1349,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260908-0",
+      "id": "custom-20260909-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -2879,6 +3114,34 @@
       "categories": [
         "AI 工具",
         "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260813-treafree-metrune",
+      "edition": "main",
+      "addedAt": "2026-08-13",
+      "maker": "TREAFREE",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TREAFREE"
+        }
+      ],
+      "name": "Metrune",
+      "url": "https://treafree.github.io/Metrune/",
+      "status": "online",
+      "description": "原生 macOS 专注与开发活动工具，把任务计时、Codex 状态、GitHub 活动和周报收进 Mac 顶部界面，核心记录保存在本地",
+      "extraLinks": [
+        {
+          "label": "项目与下载",
+          "url": "https://github.com/TREAFREE/Metrune"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "开发工具"
       ],
       "source": "upstream"
     },
