@@ -289,6 +289,24 @@ export async function syncData() {
     throw new Error(`解析结果异常，拒绝覆盖现有数据：总数 ${projects.length}，分版 ${JSON.stringify(editionCounts)}`);
   }
 
+  // 数据骤降保护：对比本地旧数据，骤降超过阈值则拒绝覆盖（防止上游结构变化静默丢数据）
+  let prevTotal = null;
+  try {
+    const prevRaw = await readFile(path.join(ROOT, "data/projects.json"), "utf8");
+    const prev = JSON.parse(prevRaw);
+    prevTotal = prev.counts?.total ?? prev.projects?.length ?? null;
+  } catch { /* 首次运行或旧文件损坏，跳过保护 */ }
+
+  if (prevTotal != null) {
+    const drop = prevTotal - projects.length;
+    if (drop > 100 && drop > prevTotal * 0.05) {
+      throw new Error(
+        `⚠️ 数据骤降保护已拦截：本次解析 ${projects.length} 个，比上次 ${prevTotal} 个骤降 ${drop} 个（${Math.round((drop / prevTotal) * 100)}%）。` +
+        `可能原因：上游 1c7 仓库结构变化（README 拆分/归档）。请检查并更新 scripts/sync-data.mjs 的 SOURCES 后重试。`
+      );
+    }
+  }
+
   const payload = {
     source: "https://github.com/1c7/chinese-independent-developer",
     sources: ["upstream", ...(customProjects.length ? ["custom"] : [])],
