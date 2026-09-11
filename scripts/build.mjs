@@ -470,6 +470,87 @@ function renderAboutPage() {
 `;
 }
 
+// ── P3：本周新收录榜单页 ─────────────────────────────────────
+function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
+  const count = weekProducts.length;
+  const cards = weekProducts.map((p) => {
+    const slug = slugMap.get(p.id);
+    const city = p.city ? ` · ${escapeHTML(p.city)}` : "";
+    const tags = (p.categories || []).slice(0, 3).map((t) => `<span>${escapeHTML(t)}</span>`).join("");
+    return `<article class="project-card">
+      <div class="card-top"><span class="edition-badge">${EDITION_LABEL[p.edition] || "大众产品"}</span><time class="card-date">${p.addedAt}</time></div>
+      <h2><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h2>
+      <p>${escapeHTML(p.description)}</p>
+      <div class="card-tags">${tags}</div>
+      <div class="card-footer"><span class="maker">${escapeHTML(p.maker)}${city}</span><span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(p.url)}" target="_blank" rel="noreferrer">去看看 ↗</a></span></div>
+    </article>`;
+  }).join("");
+
+  const itemListLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "本周新收录的独立开发者产品",
+    "numberOfItems": count,
+    "itemListElement": weekProducts.slice(0, 30).map((p, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": p.name,
+      "url": `${SITE_URL}/p/${slugMap.get(p.id)}.html`
+    }))
+  });
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>本周新收录的独立开发者产品 - AI 独立制造所</title>
+  <meta name="description" content="最近 7 天新收录的 ${count} 个独立开发者 AI 工具与产品，每日自动同步，无竞价排名。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${SITE_URL}/weekly.html">
+  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/weekly.html">
+  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/weekly.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="本周新收录的独立开发者产品">
+  <meta property="og:description" content="最近 7 天新收录的 ${count} 个独立开发者产品">
+  <meta property="og:url" content="${SITE_URL}/weekly.html">
+  <meta property="og:image" content="${SITE_URL}/preview.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary">
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${itemListLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a></nav>
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">本周新收录</span></nav>
+    <div class="category-head">
+      <h1>本周新收录</h1>
+      <p class="category-count">${startDate} ~ ${endDate} · 共 <b>${count}</b> 个新作品</p>
+    </div>
+    <div class="category-grid">${cards || '<p class="category-count">最近 7 天暂无新收录，请稍后再来。</p>'}</div>
+  </main>
+  <footer class="detail-footer">
+    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p><a href="/">返回产品导航</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
 // 幂等替换：占位注释区间的 [\s\S]*? 被新内容替换
 function replaceBlock(html, startMarker, endMarker, content) {
   const re = new RegExp(`${escapeRegExp(startMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`);
@@ -534,6 +615,7 @@ async function main() {
   const sitemapUrls = [];
   sitemapUrls.push(`  <url><loc>${SITE_URL}/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
   for (const [cat, catSlug] of Object.entries(CATEGORY_SLUGS)) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/c/${catSlug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>`);
   }
@@ -589,6 +671,7 @@ Allow: /
 - 更新时间：${lastmod}（北京时间）
 - 语言：中文 / English（双语切换）
 - 关于页：${SITE_URL}/about.html（站点介绍 + 常见问题 FAQ）
+- 本周新收录：${SITE_URL}/weekly.html（最近 7 天新收录的产品，每日更新）
 
 ## 分类导航
 ${categoryLines}
@@ -632,9 +715,15 @@ ${sections}
 
   // 写入根目录（根文件）
   const aboutPage = renderAboutPage();
+  // [P3] 本周新收录榜单（最近 7 天 addedAt 的产品）
+  const weekStart = beijingDateISO(-7);
+  const weekEnd = beijingDateISO();
+  const weekProducts = sorted.filter((p) => p.addedAt >= weekStart);
+  const weeklyPage = renderWeeklyPage(weekProducts, slugMap, weekStart, weekEnd);
   const targets = [
     ["index.html", html],
     ["about.html", aboutPage],
+    ["weekly.html", weeklyPage],
     ["sitemap.xml", sitemap],
     ["robots.txt", robots],
     ["llms.txt", llms],
