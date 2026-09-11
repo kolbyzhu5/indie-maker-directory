@@ -1,10 +1,43 @@
-# AI 独立制造所 · 全部产品清单（2201）
+# AI 独立制造所 · 全部产品清单（2901）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-10（北京时间）
+> 更新时间：2026-09-11（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（1755）
+## 大众产品（2453）
+
+- **[C2Anime](https://c2anime.com/)** — 开发者 C2Anime Team · AI 工具 · 已上线 · 收录 2026-09-11 · [详情页](https://indiemaker.cn/p/c2anime.html)
+  AI 动画创作助手（AI Anime Agent），把故事和小说片段变成有对白、有声音的动画短片，无需动画制作经验
+
+- **[Art Grid Maker](https://artgridmaker.com/)** — 开发者 ShawnHacks（北京） · 未分类 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/art-grid-maker.html)
+  面向绘画爱好者和艺术创作者的工具箱，提供网格绘画、透视辅助、参考图处理等实用工具
+
+- **[TwiFlux](https://twiflux.com/)** — 开发者 ShawnHacks（北京） · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/twiflux.html)
+  Twitter 工具站（免费），下载视频，下载图片，下载推文和线程等等超过 40 个小工具
+
+- **[PicLocation](https://piclocation.com/?utm_source=zh_github)** — 开发者 RickyLee（深圳） · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/piclocation.html)
+  AI 照片地理定位工具（免费），上传照片即返回 GPS 坐标、城市和国家，不依赖 EXIF 纯视觉识别，截图和被抹掉元数据的照片也能定位，无需注册
+
+- **[Find Key & BPM](https://findkeybpm.com/)** — 开发者 Muke · 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/find-key-bpm.html)
+  浏览器本地估算 MP3/WAV 的调性、Camelot 和 BPM，音频不上传、无需注册
+
+- **[AIradar · AI 订阅价格雷达](https://airadar.vip/)** — 开发者 superwang · AI 工具 / 效率工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/airadar-ai.html)
+  AI 订阅比价工具，按产品、交付方式、期限和币种筛选公开报价，支持地区价格参考、目标价与到期提醒
+
+- **[素刀](https://clipknife.cn/)** — 开发者 浅浅海鸥 · 未分类 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/project-7e2184.html)
+  创作者的生产力工具，素材界的瑞士军刀；用一句话，找回你散落在硬盘里的每一帧灵感
+
+- **[AI 智能快照](https://apps.apple.com/cn/app/ai-smart-snapshot/id6796251282?mt=12)** — 开发者 张赛东 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/ai-231a80.html)
+  AI 智能快照：截屏、录屏、录音、OCR 识字和标注，一个 App 完成
+
+- **[OPC 情报站](https://wxzhongwang.github.io/opc-radar/)** — 开发者 WXzhongwang · 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/opc.html)
+  一人公司（OPC）资讯聚合站，收录 80 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册
+
+- **[慧报价](https://www.swqifu.com/)** — 开发者 宋永昌（上海） · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/project-6908d5.html)
+  AI 外贸报价工具，产品库一次建好，选品自动按 EXW/FOB/CFR/CIF/DDP 计价（利润率按售价、保险 110% 加成的实务口径），30 秒生成中英双语报价单 PDF，附免费无需注册的报价计算器
+
+- **[ScribeToAny](https://scribetoany.com)** — 开发者 hypercube67 · AI 工具 / 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/scribetoany.html)
+  AI 音视频转录与字幕生成工具，支持说话人识别（区分发言人）、多语言翻译与字级高精度时间戳，长音频高速转文字，一键导出 SRT/VTT/TXT 格式 — 免费试用
 
 - **[Gpt Image 2.5 图片生成器](https://gptimage25.biz/)** — 开发者 MuYiBo · 图片工具 / 免费工具 · 已上线 · 收录 2026-09-09 · [详情页](https://indiemaker.cn/p/gpt-image-2-5.html)
   基于 Gpt Image 2.5 模型的图片工作台，生成与编辑同界面操作，支持一次生成多张图片快速比对挑选 — 免费试用
@@ -2439,13 +2472,13 @@
 - **[WordMoment](https://wordmoment.xujingyichang.top/)** — 开发者 WtecHtec（深圳） · 文档办公 / 效率工具 / 教育学习 · 已上线 · 收录 2026-01-03 · [详情页](https://indiemaker.cn/p/wordmoment.html)
   专注于背单词的纯前端 Web 应用
 
-- **[软著 Pro](https://ruanzhu.pro)** — 开发者 hackun666 · AI 工具 / 文档办公 · 已上线 · 收录 2026-01-03 · [详情页](https://indiemaker.cn/p/pro.html)
+- **[软著 Pro](https://ruanzhu.pro)** — 开发者 hackun666 · AI 工具 / 文档办公 · 已上线 · 收录 2026-01-03 · [详情页](https://indiemaker.cn/p/pro-96f1f9.html)
   AI 软著生成器，帮助用户生成软件著作权申请文档
 
 - **[VoiceAILabs](https://voiceailabs.com/)** — 开发者 Flicker（成都） · AI 工具 / 音视频 · 已上线 · 收录 2026-01-01 · [详情页](https://indiemaker.cn/p/voiceailabs.html)
   专业AI声音克隆平台，创建您的语音克隆角色
 
-- **[QQ相册下载器](https://blog.aitoolwang.com/qq/)** — 开发者 zhouzhili · 图片工具 / 音视频 / 效率工具 · 已停止 · 收录 2026-01-01 · [详情页](https://indiemaker.cn/p/qq.html)
+- **[QQ相册下载器](https://blog.aitoolwang.com/qq/)** — 开发者 zhouzhili · 图片工具 / 音视频 / 效率工具 · 已停止 · 收录 2026-01-01 · [详情页](https://indiemaker.cn/p/qq-74f578.html)
   三步完成QQ空间、QQ群相册照片批量下载到电脑，原图原视频下载，保留拍摄时间。
 
 - **[Text Behind Image](https://text-behind-image.org/)** — 开发者 wangxiaosu · 未分类 · 已上线 · 收录 2025-12-31 · [详情页](https://indiemaker.cn/p/text-behind-image.html)
@@ -5037,7 +5070,7 @@
 - **[Minitrade](https://dodid.github.io/minitrade/)** — 开发者 didid · 未分类 · 已上线 · 收录 2024-04-13 · [详情页](https://indiemaker.cn/p/minitrade.html)
   为个人投资者设计的量化回测交易系统
 
-- **[在线Markdown转图片](https://markdown2image.streamlit.app)** — 开发者 didid · 图片工具 / 文档办公 · 已上线 · 收录 2024-04-13 · [详情页](https://indiemaker.cn/p/markdown.html)
+- **[在线Markdown转图片](https://markdown2image.streamlit.app)** — 开发者 didid · 图片工具 / 文档办公 · 已上线 · 收录 2024-04-13 · [详情页](https://indiemaker.cn/p/markdown-2280c1.html)
   将 Markdown 转换成多张图片，方便在小红书上发布内容
 
 - **[北京四中考试成绩分析](https://examstats.streamlit.app)** — 开发者 didid · 教育学习 · 已上线 · 收录 2024-04-13 · [详情页](https://indiemaker.cn/p/project-f7e7f4.html)
@@ -5094,7 +5127,7 @@
 - **[SAFC](https://framist.github.io/safc/)** — 开发者 Framist · 开发工具 · 已上线 · 收录 2024-04-02 · [详情页](https://indiemaker.cn/p/safc.html)
   又一个研究生导师评价平台。不同的是此平台完全公益、共享、开放，在 Telegram 上匿名查询和评价导师以保护隐私，支持楼中楼回复。开发目标是形成一个面向大学生研究生的元平台、弱中心的评价交流社群
 
-- **[Github 自定义消息提示插件](https://github.com/qiweiii/github-custom-notifier)** — 开发者 Qiwei · 开发工具 / 浏览器扩展 · 已上线 · 收录 2024-03-30 · [详情页](https://indiemaker.cn/p/github.html)
+- **[Github 自定义消息提示插件](https://github.com/qiweiii/github-custom-notifier)** — 开发者 Qiwei · 开发工具 / 浏览器扩展 · 已上线 · 收录 2024-03-30 · [详情页](https://indiemaker.cn/p/github-795d11.html)
   支持一些 GitHub 官方不支持的事件的消息提示。比如：创建 label 事件、其他人被 @、issue 评论包含了某些关键词
 
 - **[浏览器书签同步 Notion](https://www.bookmarkstonotion.com)** — 开发者 MarkZhao · 开发工具 / 浏览器扩展 · 已上线 · 收录 2024-03-26 · [详情页](https://indiemaker.cn/p/notion.html)
@@ -5270,6 +5303,2067 @@
 
 - **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 peacefullmind · 浏览器扩展 · 已上线 · 收录 2024-01-05 · [详情页](https://indiemaker.cn/p/project-e7340e.html)
   把本列表整理成可搜索、可追踪更新的浏览器看板
+
+- **[h5-dooring](https://github.com/MrXujiang/h5-Dooring)** — 开发者 MrXujiang（重庆） · 开发工具 · 已上线 · 收录 2023-12-31 · [详情页](https://indiemaker.cn/p/h5-dooring.html)
+  开箱即用的零代码搭建平台, 致力于让页面制作更简单
+
+- **[Rare计划](https://rare.genouka.top/)** — 开发者 GenOuka（湖南） · 开发工具 · 已上线 · 收录 2023-12-29 · [详情页](https://indiemaker.cn/p/rare.html)
+  发布了一系列使智能手表更好用、更易用、更实用的程序。例如 RareBox 可以让手表用户在手表上更便捷地安装程序。适用于普通用户和开发者，主要面向普通用户。
+
+- **[人声和背景音乐分离工具](https://github.com/jianchang512/vocal-separate)** — 开发者 jianchang512（青岛） · 音视频 · 已上线 · 收录 2023-12-27 · [详情页](https://indiemaker.cn/p/project-4396d9.html)
+  极简的人声和背景音乐分离工具，本地化网页操作，无需连接外网，使用 2stems/4stems/5stems 模型。
+
+- **[CV 声音克隆工具](https://github.com/jianchang512/clone-voice)** — 开发者 jianchang512（青岛） · 未分类 · 已上线 · 收录 2023-12-27 · [详情页](https://indiemaker.cn/p/cv.html)
+  声音克隆工具，可使用任何人类音色，将一段文字合成为使用该音色说话的声音，或者将一个声音使用该音色转换为另一个声音。
+
+- **[Tabs Fast Easy](https://chromewebstore.google.com/detail/tabs-fast-easy/falglioamaogaliloglbhkannkjlpjil)** — 开发者 风逝 · 效率工具 · 已上线 · 收录 2023-12-19 · [详情页](https://indiemaker.cn/p/tabs-fast-easy-bd2df2.html)
+  改变你的 Tab 页浏览方式：简化 、分组、聚焦专注和分屏管理等体验
+
+- **[变量命名](https://www.inav.site/tools/#/p/var/var)** — 开发者 webjuzi（杭州） · 未分类 · 已上线 · 收录 2023-12-18 · [详情页](https://indiemaker.cn/p/project-59f8c8.html)
+  输入中文自动翻译为各种格式的变量名,可设置一种格式自动复制到剪切板
+
+- **[一休](https://apps.apple.com/cn/app/%E4%B8%80%E4%BC%91-%E4%BC%91%E6%81%AF%E4%B8%80%E4%BC%9A%E5%84%BF/id6467176005)** — 开发者 mengxianliang（北京） · 效率工具 / 开发工具 · 已上线 · 收录 2023-12-18 · [详情页](https://indiemaker.cn/p/project-c8376d.html)
+  macOS 休息提醒工具
+
+- **[免费API共享平台](https://www.liangmlk.cn)** — 开发者 menglike · 开发工具 / 免费工具 · 已上线 · 收录 2023-12-18 · [详情页](https://indiemaker.cn/p/api.html)
+  给广大开发者提供免费 API 共享平台,目前共计 400+ 个API接口，欢迎大家使用
+
+- **[ajax-tools](https://chromewebstore.google.com/detail/ajax-interceptor-tools/kphegobalneikdjnboeiheiklpbbhncm)** — 开发者 PengChen96 · 浏览器扩展 · 已上线 · 收录 2023-12-14 · [详情页](https://indiemaker.cn/p/ajax-tools.html)
+  修改 Ajax 请求及响应的 Chrome 扩展插件
+
+- **[什么值得看](https://smzdk.top)** — 开发者 FreeMind-LJ · 未分类 · 已上线 · 收录 2023-12-11 · [详情页](https://indiemaker.cn/p/project-8011aa.html)
+  简洁干净的高质量全球热点资讯网站
+
+- **[时光本](https://apps.apple.com/cn/app/%E6%97%B6%E5%85%89%E6%9C%AC-%E6%97%A5%E8%AE%B0%E6%9C%AC-%E7%AC%94%E8%AE%B0%E6%9C%AC-%E8%AE%B0%E4%BA%8B%E6%9C%AC-%E5%A4%87%E5%BF%98%E5%BD%95/id1495623965)** — 开发者 gorpeln（北京） · 文档办公 / 效率工具 · 已停止 · 收录 2023-12-05 · [详情页](https://indiemaker.cn/p/project-47ced6.html)
+  专注效率与安全的笔记工具
+
+- **[云剪切板](https://cv.j20.cc)** — 开发者 j20cc（武汉） · 未分类 · 已停止 · 收录 2023-12-04 · [详情页](https://indiemaker.cn/p/project-084105.html)
+  无依赖即用即走的剪切板，支持 web 与 curl
+
+- **[Github 图床](https://pic.j20.cc)** — 开发者 j20cc（武汉） · 开发工具 / 免费工具 · 已停止 · 收录 2023-12-04 · [详情页](https://indiemaker.cn/p/github-5c7fb1.html)
+  把你的 Github 仓库变成免费图床
+
+- **[Steam 自动捡漏机器人](https://www.csbuyer.com)** — 开发者 CSBuyer（江西） · 游戏娱乐 · 已上线 · 收录 2023-12-04 · [详情页](https://indiemaker.cn/p/steam.html)
+  在 Steam 市场自动购买低磨损、特殊模板 CSGO 饰品的工具
+
+- **[美国免税地址生成器](https://www.csbuyer.com/workbench/address)** — 开发者 CSBuyer（江西） · 游戏娱乐 · 已上线 · 收录 2023-12-04 · [详情页](https://indiemaker.cn/p/project-3e4a7b.html)
+  自动生成美国免税地址，可用于填写 Steam 美区账号账单地址
+
+- **[音乐歌单迁移助手](https://music.unmeta.cn/)** — 开发者 ThinkStu（上海） · 音视频 · 已上线 · 收录 2023-12-01 · [详情页](https://indiemaker.cn/p/project-6a31b9.html)
+  迁移网易云/QQ音乐歌单到 Apple Music、Youtube Music、Spotify
+
+- **[JSONT](https://www.jsont.run/)** — 开发者 bimohxh（成都） · 未分类 · 已上线 · 收录 2023-11-17 · [详情页](https://indiemaker.cn/p/jsont.html)
+  简洁强大的 JSON 格式化工具
+
+- **[Enconvo](https://enconvo.com)** — 开发者 ysnows（北京） · AI 工具 · 已上线 · 收录 2023-11-14 · [详情页](https://indiemaker.cn/p/enconvo.html)
+  AI Launcher，Mac Copilot 客户端
+
+- **[抖音高转化精准词获取工具](http://jianju.3ddysj.com/douyinxialachi.html)** — 开发者 简具科技（杭州） · 免费工具 · 已停止 · 收录 2023-11-14 · [详情页](https://indiemaker.cn/p/project-dd271c.html)
+  一键自动挖掘抖音下拉热词,分析计算出综合得分高的抖音高转化精准免费流量词获取工具
+
+- **[AI食谱](https://user-images.githubusercontent.com/17782609/282380944-121b80d7-c981-4502-b91f-aa4de163fa13.jpg)** — 开发者 控Kong（广州） · AI 工具 · 已上线 · 收录 2023-11-13 · [详情页](https://indiemaker.cn/p/ai-37db2b.html)
+  (微信小程序) 根据体重与万能减脂/增肌公式自动生成食谱，达到效果
+
+- **[StockAI.Trade](https://stockai.trade/)** — 开发者 yvonuk · AI 工具 / 免费工具 · 已上线 · 收录 2023-11-05 · [详情页](https://indiemaker.cn/p/stockai-trade.html)
+  AI 选股分析网站（基于 ChatGPT），完全免费，无需注册
+
+- **[DevShots](https://devshots.gpwzw.com)** — 开发者 林建彧 · 未分类 · 已停止 · 收录 2023-11-04 · [详情页](https://indiemaker.cn/p/devshots.html)
+  Online Developer Tool to Create Code Share Image
+
+- **[VOME](https://apps.apple.com/au/app/vome/id6468956601)** — 开发者 VOME（澳大利亚） · 音视频 · 已停止 · 收录 2023-11-04 · [详情页](https://indiemaker.cn/p/vome.html)
+  极简的语音转文字 Memo 应用
+
+- **[Podwise](https://podwise.xyz/)** — 开发者 硬地骇客（杭州） · AI 工具 / 音视频 / 效率工具 · 已上线 · 收录 2023-11-03 · [详情页](https://indiemaker.cn/p/podwise.html)
+  专为播客听友设计的 AI 知识管理应用
+
+- **[Inke笔记](https://inke.app)** — 开发者 yesmore（成都） · AI 工具 / 文档办公 · 已停止 · 收录 2023-11-03 · [详情页](https://indiemaker.cn/p/inke.html)
+  集成 AI 写作/润色和多人协作的 Web 笔记本
+
+- **[Tabs Smart Grouping](https://chrome.google.com/webstore/detail/tabs-smart-grouping/ijljhpdhecidmiaimeaalnfgoogcmmme?hl=zh-CN&authuser=0)** — 开发者 duyafeng · 浏览器扩展 · 已上线 · 收录 2023-11-03 · [详情页](https://indiemaker.cn/p/tabs-smart-grouping.html)
+  (浏览器插件) 可以对浏览器已打开 Tab 进行自动分组
+
+- **[ChatPPT](http://chatppt.closeai.red)** — 开发者 Selenium39（广州） · AI 工具 / 文档办公 · 已停止 · 收录 2023-11-02 · [详情页](https://indiemaker.cn/p/chatppt.html)
+  用 ChatGPT-4 快速创建 PowerPoint
+
+- **[百词斩助手](https://www.bilibili.com/video/BV1zj411Z7LM)** — 开发者 marmot-z（杭州） · 浏览器扩展 · 已上线 · 收录 2023-11-02 · [详情页](https://indiemaker.cn/p/project-fc65bc.html)
+  实时与百词斩 APP 协同操作的浏览器翻译插件
+
+- **[虾答](https://xiada.cn)** — 开发者 changwu · AI 工具 · 已上线 · 收录 2023-11-02 · [详情页](https://indiemaker.cn/p/project-4ace1c.html)
+  BestGPT + 知识库 AI：只要3分钟，拥有属于自己的智能代理
+
+- **[偷懒爱好者周刊](https://toolight.zhubai.love/)** — 开发者 soar · 未分类 · 已停止 · 收录 2023-11-02 · [详情页](https://indiemaker.cn/p/project-7d8059.html)
+  分享产品、工具、新鲜事，每周三发布
+
+- **[文丑](https://wenchou.top)** — 开发者 assmdx · AI 工具 · 已停止 · 收录 2023-11-01 · [详情页](https://indiemaker.cn/p/project-b540b8.html)
+  更好用的 AI 助手平台, [App 端](https://wenchou.top/laxin.html):
+
+- **[AI导航](https://ai.dreamthere.cn)** — 开发者 菩提尘埃（厦门） · AI 工具 · 已上线 · 收录 2023-10-31 · [详情页](https://indiemaker.cn/p/ai-1844e3.html)
+  搜集最新 AI 站点，推荐优质 AI 网站，推广优质人工智能各类网站
+
+- **[表情小程序-前后台源码](https://ext.dcloud.net.cn/plugin?id=14972)** — 开发者 beijing（北京） · 效率工具 / 免费工具 · 已上线 · 收录 2023-10-31 · [详情页](https://indiemaker.cn/p/project-e23eed.html)
+  斗图表情小程序前后台都有 (开源免费) 后台管理系统可批量管理前端小程序形成矩阵
+
+- **[OHTTPS](https://ohttps.com/)** — 开发者 ohttps · 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2023-10-21 · [详情页](https://indiemaker.cn/p/ohttps.html)
+  免费申请 HTTPS 通配符证书，提供证书自动化更新、自动化部署、自动化监控服务，支持自动化部署证书至阿里云、腾讯云、七牛云等云厂商的 CDN、SLB 等，以及部署至 Docker 容器、SSH、API 接口、宝塔面板等，一站式解决网站证书问题
+
+- **[京墨](https://github.com/hefengbao/jingmo/releases)** — 开发者 hefengbao（成都） · 教育学习 / 免费工具 · 已上线 · 收录 2023-10-12 · [详情页](https://indiemaker.cn/p/project-6056ff.html)
+  古诗词文（名句）、歇后语、成语阅读 Android APP (开源免费)
+
+- **[MyServers](https://myservers.plus/)** — 开发者 codelover · AI 工具 / 效率工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2023-10-11 · [详情页](https://indiemaker.cn/p/myservers.html)
+  iOS 原生服务器运维 App，可集中监控多台服务器，远程管理 Docker、终端与文件、下载器、Proxmox VE 和 FRP 等服务；内置插件市场，并支持借助 Agent Skill 开发自定义插件，把更多服务接入 Dashboard 和原生交互界面
+
+- **[Teamlinker](https://team-linker.com/)** — 开发者 sx1989827 · 效率工具 / 社交社区 · 已停止 · 收录 2023-10-11 · [详情页](https://indiemaker.cn/p/teamlinker.html)
+  团队协作平台。可以联系成员，分配任务，开始会议，安排各项事务，管理文件等。
+
+- **[未道帮](https://helper.aiwave.cc/)** — 开发者 未道科技（杭州） · AI 工具 / 图片工具 · 已停止 · 收录 2023-10-07 · [详情页](https://indiemaker.cn/p/project-e59037.html)
+  AI 能力聚合站，支持微软 GPT4、Llama2 等大模型 AI 对话，支持 Stable Diffusion XL 绘画，支持图片压缩、图片元素消除等图像处理
+
+- **[AIGC工具导航](https://nav.aiwave.cc/)** — 开发者 未道科技（杭州） · AI 工具 · 已停止 · 收录 2023-10-07 · [详情页](https://indiemaker.cn/p/aigc.html)
+  海量 AI 工具，总有一款是你需要的
+
+- **[AI抠图](https://cutout.aiwave.cc/)** — 开发者 未道科技（杭州） · AI 工具 / 图片工具 · 已停止 · 收录 2023-10-07 · [详情页](https://indiemaker.cn/p/ai-5cd6f7.html)
+  只需上传图片，无需其他操作即可自动去除图片背景
+
+- **[简约木鱼 (iOS)](https://apps.apple.com/cn/app/id6445845846)** — 开发者 marticztn / FuzzyEra Softworks LLC（浙江金华） · 未分类 · 已上线 · 收录 2023-10-01 · [详情页](https://indiemaker.cn/p/ios-b37276.html)
+  最简单好用不卡顿的敲木鱼 App
+
+- **[简约木鱼 (Android - Google Play)](https://play.google.com/store/apps/details?id=com.marticztn.woodenfish)** — 开发者 marticztn / FuzzyEra Softworks LLC（浙江金华） · 未分类 · 已上线 · 收录 2023-10-01 · [详情页](https://indiemaker.cn/p/android-google-play.html)
+  最简单好用不卡顿的敲木鱼 App
+
+- **[简具 QQ 空间相册导出工具](http://jianju.3ddysj.com/qqkongjian.html)** — 开发者 简具科技（杭州） · 图片工具 · 已停止 · 收录 2023-09-29 · [详情页](https://indiemaker.cn/p/qq-7a0b62.html)
+  一键自动下载导出QQ空间相册所有图片
+
+- **[iChat](https://ichatt.cn)** — 开发者 xerduo（重庆） · AI 工具 / 开发工具 · 已停止 · 收录 2023-09-25 · [详情页](https://indiemaker.cn/p/ichat.html)
+  智能AI助手，支持 ChatGPT 3.5、4.0、文心一言，内置90+行业AI角色，多国语言朗读，有网页版，App、Windows应用
+
+- **[Tabs-Fast-Easy](https://chrome.google.com/webstore/detail/tabs-fast-easy/falglioamaogaliloglbhkannkjlpjil)** — 开发者 风逝 · 效率工具 · 已上线 · 收录 2023-09-18 · [详情页](https://indiemaker.cn/p/tabs-fast-easy-d1021b.html)
+  更轻松 快捷管理标签页，及快速释放内存
+
+- **[MyNotes Keeper](https://www.mynoteskeeper.com)** — 开发者 Lost（深圳） · 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2023-09-11 · [详情页](https://indiemaker.cn/p/mynotes-keeper.html)
+  Windows 平台原生大纲笔记软件，强大流畅，提供免费版本
+
+- **[情侣100件事](https://apps.apple.com/app/%E6%83%85%E4%BE%A3100%E4%BB%B6%E4%BA%8B/id6461458836)** — 开发者 Leon（武汉） · 未分类 · 已停止 · 收录 2023-09-05 · [详情页](https://indiemaker.cn/p/100.html)
+  不止 100 件浪漫小事，爱情旅程的完美伴侣
+
+- **[DeskWidgets](https://apps.apple.com/us/app/deskwidgets/id6446226257?mt=12)** — 开发者 陈建利 · 开发工具 · 已上线 · 收录 2023-09-03 · [详情页](https://indiemaker.cn/p/deskwidgets.html)
+  macOS 桌面组件库
+
+- **[Twitter Classic Logo](https://chrome.google.com/webstore/detail/twitter-classic-logo/ldimicjoagopeeflheigbfaoopenobbn)** — 开发者 陈建利 · 未分类 · 已上线 · 收录 2023-09-03 · [详情页](https://indiemaker.cn/p/twitter-classic-logo.html)
+  恢复 Twitter 原来蓝鸟 Logo
+
+- **[AI画图王](https://apps.apple.com/app/id6505048186)** — 开发者 极客学伟（北京） · AI 工具 / 图片工具 · 已上线 · 收录 2023-08-18 · [详情页](https://indiemaker.cn/p/ai-05a1ce.html)
+  AI文本生成图片，AI绘图插画风格，智能AI图画生成 (iOS/iPad/Mac)
+
+- **[Nap - Break Reminder](https://apps.apple.com/app/id6471501135)** — 开发者 极客学伟（北京） · 效率工具 · 已上线 · 收录 2023-08-18 · [详情页](https://indiemaker.cn/p/nap-break-reminder.html)
+  定时提醒,番茄钟,提升工作效率,喝水提醒,避免久坐 (Mac)
+
+- **[Island Widgets - 灵动岛&锁屏小组件](https://apps.apple.com/app/id6464542768)** — 开发者 极客学伟（北京） · 效率工具 / 生活服务 · 已上线 · 收录 2023-08-18 · [详情页](https://indiemaker.cn/p/island-widgets.html)
+  灵动岛/锁屏小组件，下班倒计时、手机拿起次数、步数、心率、热搜、待办、天气、抢票倒计时等 (iOS)
+
+- **[加一 - 自律打卡](https://apps.apple.com/app/id1477743089)** — 开发者 极客学伟（北京） · 生活服务 · 已上线 · 收录 2023-08-18 · [详情页](https://indiemaker.cn/p/project-dcddff.html)
+  习惯养成打卡，追踪生活小事，记录日常情绪，计数、统计 (iOS)
+
+- **[学伟扫描 - OCR&PDF扫描打印](https://apps.apple.com/app/id1468603429)** — 开发者 极客学伟（北京） · 图片工具 / 文档办公 · 已上线 · 收录 2023-08-18 · [详情页](https://indiemaker.cn/p/ocr-pdf.html)
+  OCR、识别图片文字、翻译、图片转PDF、打印、相册资料整理 (iOS)
+
+- **[Hamibot遥控器](https://github.com/laosanyuan/HamibotRemoteControl)** — 开发者 一刀（杭州） · 效率工具 · 已上线 · 收录 2023-08-17 · [详情页](https://indiemaker.cn/p/hamibot.html)
+  手机自动化工具 Hamibot 的三方工具 APP，可编译 iOS 和 Andriod 包。支持远程操控脚本，弥补官方控制端的不足
+
+- **[火浣](https://github.com/laosanyuan/HuoHuan)** — 开发者 一刀（杭州） · 图片工具 / 开发工具 · 已上线 · 收录 2023-08-17 · [详情页](https://indiemaker.cn/p/project-49538b.html)
+  微信群爬虫 Windows 客户端工具，用于获取网络中他人公开并且有效的微信群聊二维码图片。提供安装包
+
+- **[AICodeConvert](https://aicodeconvert.com/)** — 开发者 JustAIGithub（北京） · 开发工具 · 已上线 · 收录 2023-08-15 · [详情页](https://indiemaker.cn/p/aicodeconvert.html)
+  将自然语言转代码,将一种代码语言转另一种代码语言实现
+
+- **[Genshin-GPT](http://www.limaoyi.top:4400/)** — 开发者 limaoyi1（长沙） · 游戏娱乐 · 已停止 · 收录 2023-08-15 · [详情页](https://indiemaker.cn/p/genshin-gpt.html)
+  基于 LangChain 和向量知识库模仿原神角色的对话 GPT,让三次元的人可以和游戏中的角色自由的对话
+
+- **[不懂药问](https://www.v2ex.com/t/962506)** — 开发者 叫我强哥（杭州） · 未分类 · 已上线 · 收录 2023-08-04 · [详情页](https://indiemaker.cn/p/project-503e19.html)
+  查询医保用药的微信小程序
+
+- **[极速图片压缩器](https://github.com/Dreamer365/topspeed-image-compressor)** — 开发者 Dreamer365 · 图片工具 · 已上线 · 收录 2023-08-01 · [详情页](https://indiemaker.cn/p/project-e49afd.html)
+  速度极快的图片压缩软件
+
+- **[DevOpsGPT](http://www.kuafuai.net/devopsgpt)** — 开发者 booboosui（北京） · AI 工具 · 已停止 · 收录 2023-07-29 · [详情页](https://indiemaker.cn/p/devopsgpt.html)
+  面向任何人，AI 将需求转化为可工作软件
+
+- **[SigniFi](https://www.signifi.life/)** — 开发者 discountry · AI 工具 · 已上线 · 收录 2023-07-26 · [详情页](https://indiemaker.cn/p/signifi.html)
+  AI 塔罗牌占卜，DApp
+
+- **[单词之风](https://word-wind.pages.dev/)** — 开发者 heygsc · 教育学习 · 已上线 · 收录 2023-07-26 · [详情页](https://indiemaker.cn/p/project-ba3acc.html)
+  简洁的背单词页面，词库丰富，有标记列表等功能
+
+- **[机画师](https://apps.apple.com/us/app/id1644645946)** — 开发者 五块一 · AI 工具 / 图片工具 · 已上线 · 收录 2023-07-23 · [详情页](https://indiemaker.cn/p/project-f75069.html)
+  基于 Stable Diffusion 的 AI 绘图 App
+
+- **[Nigate](https://github.com/hoochanlon/Free-NTFS-For-Mac)** — 开发者 hoochanlon · 未分类 · 已上线 · 收录 2023-07-23 · [详情页](https://indiemaker.cn/p/nigate.html)
+  支持苹果芯片的 Free NTFS for Mac 小工具软件
+
+- **[KHistory](https://github.com/Sunrisepeak/KHistory)** — 开发者 Sunrisepeak · 未分类 · 已上线 · 收录 2023-07-23 · [详情页](https://indiemaker.cn/p/khistory.html)
+  优雅&跨平台的 键盘/🎮手柄按键 检测及历史记录显示工具, 无需安装单可执行文件 (约900kb大小) 即点即用
+
+- **[妙言](https://github.com/tw93/MiaoYan)** — 开发者 Tw93 · 文档办公 · 已上线 · 收录 2023-07-22 · [详情页](https://indiemaker.cn/p/project-282650.html)
+  轻灵的 Markdown 笔记本伴你写出妙言
+
+- **[Foresee](https://apps.apple.com/cn/app/foresee-predictions-tracker/id6447700092)** — 开发者 张土福（上海） · 未分类 · 已上线 · 收录 2023-07-17 · [详情页](https://indiemaker.cn/p/foresee.html)
+  iOS App，跟踪你的预测以提升你的判断力
+
+- **[雨巷](https://apps.apple.com/us/app/%E9%9B%A8%E5%B7%B7/id1619940076)** — 开发者 GGBond · 效率工具 / 开发工具 · 已上线 · 收录 2023-07-12 · [详情页](https://indiemaker.cn/p/project-9d1c28.html)
+  为程序员打造的专属白噪音工具，精选钢琴曲混合自然音帮助保持专注，提高效率
+
+- **[文曲星记单词](https://apps.apple.com/us/app/%E6%96%87%E6%9B%B2%E6%98%9F%E8%AE%B0%E5%8D%95%E8%AF%8D/id1618265393)** — 开发者 GGBond · 教育学习 · 已上线 · 收录 2023-07-12 · [详情页](https://indiemaker.cn/p/project-5b9c41.html)
+  灵感来源于古老的文曲星电子辞典，经典复古的单词记忆软件
+
+- **[预算笔记](https://apps.apple.com/us/app/budget-note/id1623043447)** — 开发者 GGBond · 文档办公 · 已停止 · 收录 2023-07-12 · [详情页](https://indiemaker.cn/p/project-563a00.html)
+  有预算功能的记事簿，免注册，数据本地存储，同时支持 Web 多端访问
+
+- **[MoodUp](https://apps.apple.com/us/app/moodup-breeze-mental-health/id6450100126)** — 开发者 Patrick · 效率工具 · 已上线 · 收录 2023-07-05 · [详情页](https://indiemaker.cn/p/moodup.html)
+  帮助你记录心情和管理情绪的日记APP
+
+- **[visualization-collection](http://hepengwei.cn)** — 开发者 River（深圳） · AI 工具 / 效率工具 · 已上线 · 收录 2023-07-05 · [详情页](https://indiemaker.cn/p/visualization-collection.html)
+  专注于前端视觉效果的集合应用，包含CSS动效、Canvas动画、人工智能应用等上百个案例
+
+- **[ChatBoost](https://play.google.com/store/apps/details?id=studio.muggle.chatboost)** — 开发者 Airsaid（武汉） · AI 工具 · 已上线 · 收录 2023-06-29 · [详情页](https://indiemaker.cn/p/chatboost.html)
+  原生 Android ChatGPT 客户端
+
+- **[GPEG 九型人格测试系统](https://gxzv.com/know-yourself/enneagram/)** — 开发者 甘小蔗（重庆） · 未分类 · 已上线 · 收录 2023-06-19 · [详情页](https://indiemaker.cn/p/gpeg.html)
+  九型人格专业测试与分析
+
+- **[ChiauFarm](https://www.chiau.net/farm/)** — 开发者 甘小蔗（重庆） · 未分类 · 已停止 · 收录 2023-06-19 · [详情页](https://indiemaker.cn/p/chiaufarm.html)
+  Chia Token 跨平台可视化多功能自动耕种客户端
+
+- **[MetorChat](https://chat.metauit.com/)** — 开发者 甘小蔗（重庆） · 未分类 · 已停止 · 收录 2023-06-19 · [详情页](https://indiemaker.cn/p/metorchat.html)
+  对话基于 NLP 和 ML 的大型语言模型
+
+- **[工业上位机](https://gxzv.com/blog/review-2022-12/#%E5%A4%A7%E5%89%8D%E7%AB%AF)** — 开发者 甘小蔗（重庆） · 开发工具 · 开发中 · 收录 2023-06-19 · [详情页](https://indiemaker.cn/p/project-f3df99.html)
+  一些基于大前端开发的上位机应用
+
+- **[MCAdmin](https://www.mcadmin.cn/)** — 开发者 甘小蔗（重庆） · 社交社区 / 游戏娱乐 · 已停止 · 收录 2023-06-19 · [详情页](https://indiemaker.cn/p/mcadmin.html)
+  面向 Minecraft 内容提供者的垂直社区
+
+- **[行动日](https://apps.apple.com/app/id6444159859)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 效率工具 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-71dab5.html)
+  待办/不办清单应用。
+
+- **[好天气](https://apps.apple.com/app/id1658473170)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 生活服务 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-711474.html)
+  查看现在、未来与过去的天气。
+
+- **[生或死](https://apps.apple.com/app/id1498862402)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 游戏娱乐 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-718b26.html)
+  康威生命游戏（Conway’s Game of Life）。
+
+- **[白边框](https://apps.apple.com/app/id1659350166)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 图片工具 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-7196d6.html)
+  为照片添加边框。
+
+- **[计数器](https://apps.apple.com/app/id1533504378)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 未分类 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-71eb3e.html)
+  记录一切计数。
+
+- **[卅六问](https://apps.apple.com/app/id1541439969)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 未分类 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-70f92a.html)
+  让陌生人迅速相爱的 36 个问题。
+
+- **[伊摩基](https://apps.apple.com/app/id1619616706)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 生活服务 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-70e960.html)
+  用 Emoji 记录生活日记。
+
+- **[相机印](https://apps.apple.com/app/id6447237830)** — 开发者 Jinke Du（上海）- [个人网站]（https://kinnoukabokudo.com/） · 图片工具 · 已上线 · 收录 2023-06-08 · [详情页](https://indiemaker.cn/p/project-719394.html)
+  为照片添加参数水印边框。
+
+- **[软猫下载](https://softmall.net/)** — 开发者 Grant · 浏览器扩展 · 已上线 · 收录 2023-06-04 · [详情页](https://indiemaker.cn/p/project-38160f.html)
+  无插件软件/APP下载中心
+
+- **[开心果节拍器](https://apps.apple.com/cn/app/id1538268059)** — 开发者 Abenx · 未分类 · 已上线 · 收录 2023-05-28 · [详情页](https://indiemaker.cn/p/project-b70810.html)
+  首款支持Apple Watch的节拍器。学琴，跑步配速的好帮手。
+
+- **[好色相机](https://apps.apple.com/cn/app/id1151401197)** — 开发者 Abenx · 图片工具 · 已上线 · 收录 2023-05-28 · [详情页](https://indiemaker.cn/p/project-9c682f.html)
+  从照片中提取关键色彩值，为你的设计提供色彩灵感。
+
+- **[IconShop](https://apps.apple.com/cn/app/id6443592678)** — 开发者 Abenx · 未分类 · 已上线 · 收录 2023-05-28 · [详情页](https://indiemaker.cn/p/iconshop.html)
+  快速生成Xcode直接可以使用的icon格式，支持云存储。
+
+- **[ChatALL](http://chatall.ai)** — 开发者 Sunner（北京） · AI 工具 · 已上线 · 收录 2023-05-27 · [详情页](https://indiemaker.cn/p/chatall.html)
+  同时和 10+ 个大模型（ChatGPT、Bing Chat、文心一言、讯飞星火等）对话，找到最佳回答
+
+- **[海报图生成 - Foolstack](https://foolstack.net)** — 开发者 糖伴西红柿 · 图片工具 / 开发工具 · 已上线 · 收录 2023-05-24 · [详情页](https://indiemaker.cn/p/foolstack.html)
+  使用 API 将网页/HTML 渲染成高质量图片
+
+- **[哔哩哔哩字幕列表](https://github.com/IndieKKY/bilibili-subtitle)** — 开发者 IndieKKY（浙江） · 音视频 · 已上线 · 收录 2023-05-18 · [详情页](https://indiemaker.cn/p/project-22185a.html)
+  字幕显示,下载,总结,翻译
+
+- **[五彩插件](https://www.dotalk.cn/product/wucai)** — 开发者 飞刀（北京） · 文档办公 / 浏览器扩展 · 已上线 · 收录 2023-05-13 · [详情页](https://indiemaker.cn/p/project-5eb402.html)
+  网页划线高亮批注笔记工具，支持同步到 Obsidian
+
+- **[口袋四级](https://apps.apple.com/cn/app/id1673721668)** — 开发者 mattewwung（大连） · 教育学习 · 已上线 · 收录 2023-05-09 · [详情页](https://indiemaker.cn/p/project-8c9b0a.html)
+  四级必背高频单词
+
+- **[减肥小助手](https://apps.apple.com/cn/app/id1583776291)** — 开发者 mattewwung（大连） · 未分类 · 已上线 · 收录 2023-05-08 · [详情页](https://indiemaker.cn/p/project-080753.html)
+  减肥期间的小工具，帮助记录体重和卡路里
+
+- **[SearchEverywhere](https://github.com/cxxsucks/SearchEverywhere/releases/tag/v0.3.1)** — 开发者 cxxsucks（徐州） · 开发工具 · 已停止 · 收录 2023-04-30 · [详情页](https://indiemaker.cn/p/searcheverywhere.html)
+  Linux, macOS 与 Windows 上的文件检索工具，含有`find`以及`Everything`的各种功能，外加内容查找、上下层目录查找等
+
+- **[aihub](https://aihub.bitmagic.space/)** — 开发者 weekend-project-space · AI 工具 · 已停止 · 收录 2023-04-24 · [详情页](https://indiemaker.cn/p/aihub.html)
+  收集 AI 相关应用和提示与源码
+
+- **[undb](https://www.undb.xyz/)** — 开发者 nichenqin（上海） · 开发工具 · 已停止 · 收录 2023-04-14 · [详情页](https://indiemaker.cn/p/undb.html)
+  轻量自部署的无代码软件
+
+- **[学习杂货铺](https://xuexizahuopu.fun/)** — 开发者 HyJames（广州） · 效率工具 / 教育学习 / 社交社区 · 已停止 · 收录 2023-04-13 · [详情页](https://indiemaker.cn/p/project-33d1b1.html)
+  集成待办、进度、倒数日、社区等功能网站（有小程序版）
+
+- **[Video Roll](https://github.com/VideoRoll/VideoRoll)** — 开发者 Gomi（成都） · 音视频 / 效率工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2023-04-12 · [详情页](https://indiemaker.cn/p/video-roll.html)
+  帮助你旋转、缩放、移动、调整比例、镜像翻转、调节音调、专注和滤镜任意网页中 HTML5 视频的浏览器插件（Chrome/Edge/Firefox）- [更多介绍](https://github.com/VideoRoll/VideoRoll/blob/main/README-zh_CN.md)
+
+- **[WriteDeck](https://apps.apple.com/cn/app/writedeck/id6446620450)** — 开发者 静彦齐（吉林） · 文档办公 · 已上线 · 收录 2023-04-04 · [详情页](https://indiemaker.cn/p/writedeck.html)
+  写作训练 App，利用随机生成的提示词卡片进行故事创作。
+
+- **[QiReader](https://www.qireader.com)** — 开发者 weijarz（杭州） · 教育学习 · 已上线 · 收录 2023-03-30 · [详情页](https://indiemaker.cn/p/qireader.html)
+  全平台网页 RSS 阅读器，同时支持推送文章到 Kindle。
+
+- **[Tailchat](https://github.com/msgbyte/tailchat)** — 开发者 moonrailgun（上海） · 未分类 · 已上线 · 收录 2023-03-08 · [详情页](https://indiemaker.cn/p/tailchat.html)
+  您自己工作区中的下一代 noIM 应用程序
+
+- **[PicList](https://github.com/Kuingsmile/PicList)** — 开发者 Kuingsmile（杭州） · 图片工具 / 效率工具 / 开发工具 · 已上线 · 收录 2023-03-04 · [详情页](https://indiemaker.cn/p/piclist.html)
+  云存储/图床管理和图片上传工具，基于 PicGo 项目的深度二次开发
+
+- **[Super Coder](https://apps.apple.com/cn/app/super-coder-%E5%89%AA%E5%88%87%E6%9D%BF-%E6%9C%AC%E5%9C%B0%E5%8C%96-%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E6%A0%B7%E6%A0%B7%E9%83%BD%E8%A1%8C/id1663425686?mt=12)** — 开发者 Lessimore · 效率工具 / 开发工具 · 已上线 · 收录 2023-02-24 · [详情页](https://indiemaker.cn/p/super-coder.html)
+  剪切板管理、Swift 代码生成、Xcode 本地化样样都行
+
+- **[Morphling](https://github.com/shensven/Morphling)** — 开发者 Sven（昆明）- [Github]（https://github.com/shensven） · 开发工具 · 已上线 · 收录 2023-02-22 · [详情页](https://indiemaker.cn/p/morphling.html)
+  将 Hex、RGB 或者 HSL 色值转换为 CSS filter 属性的 macOS 桌面工具。
+
+- **[幕境](https://github.com/tangshimin/MuJing)** — 开发者 tangshimin（深圳）- [Github]（https://github.com/tangshimin） · 音视频 / 文档办公 / 教育学习 · 已上线 · 收录 2023-02-19 · [详情页](https://indiemaker.cn/p/project-a95a21.html)
+  沉浸式学英语,使用自己感兴趣的电影、美剧或文档，生成词库（单词本）。在记忆单词时，可以练习拼写并观看相关的视频片段，以便更好的理解和记忆单词。播放电影时，以弹幕的形式复习词库中的单词，使得单词记忆不再是一件乏味的事。
+
+- **[夜视仪 App](https://github.com/luoxuhai/NightVision)** — 开发者 Darkce（北京） · 免费工具 · 已上线 · 收录 2023-02-18 · [详情页](https://indiemaker.cn/p/app-7f678f.html)
+  可在完全无光环境下扫描和检测距离的 iOS App (开源)，使用了 iPhone 和 iPad 后置的激光雷达扫描仪。
+
+- **[每日工具箱随身助手](https://typora-1300715298.cos.ap-shanghai.myqcloud.com//blog扫码_搜索联合传播样式-标准色版.png)** — 开发者 createitv（武汉） · 图片工具 · 已上线 · 收录 2023-02-11 · [详情页](https://indiemaker.cn/p/project-f66b08.html)
+  集成去水印、电子木鱼、房贷计算、小孩取名、壁纸下载等多种功能的小程序
+
+- **[BdTab新标签页扩展](http://www.bdtab.cn)** — 开发者 miniits（厦门） · 浏览器扩展 · 已上线 · 收录 2023-02-08 · [详情页](https://indiemaker.cn/p/bdtab.html)
+  浏览器扩展程序，高度自定义，组件化，跨平台等功能的工具
+
+- **[Tracepad](https://apps.apple.com/app/id1658454999)** — 开发者 syt · 未分类 · 已上线 · 收录 2023-01-27 · [详情页](https://indiemaker.cn/p/tracepad.html)
+  将 iPhone/iPad 变为控制 Mac 的 Trackpad，支持 Trackpad 的绝大部分手势
+
+- **[G-侠客 | BPC.js](https://g-xiake.com)** — 开发者 MrZenW · 免费工具 · 已上线 · 收录 2023-01-25 · [详情页](https://indiemaker.cn/p/g-bpc-js.html)
+  可以生成能够给电波表对时的电磁波的 JS 库，并且用此搭建了一个免费帮大家对时的网站，它可以帮助拥有电波表（如卡西欧）的朋友在没有电波的地方对时
+
+- **[ChatGPT](https://github.com/lencx/ChatGPT)** — 开发者 lencx · AI 工具 / 文档办公 / 开发工具 / 社交社区 · 已上线 · 收录 2023-01-25 · [详情页](https://indiemaker.cn/p/chatgpt.html)
+  ChatGPT 跨平台桌面应用，支持 Mac、Windows 和 Linux。主要功能有斜杠指令，系统托盘，快捷键，系统菜单，聊天记录导出（PNG，PDF，Markdown），加载任意网站 URL 作为应用程序窗口（URL 桌面化，可以借助系统 API 做更多有趣的事情）- [更多介绍](https://github.com/lencx/ChatGPT/blob/main/README.md)
+
+- **[游戏存档管理器](https://github.com/mcthesw/game-save-manager)** — 开发者 Sworld（温州） · 效率工具 / 游戏娱乐 · 已上线 · 收录 2023-01-22 · [详情页](https://indiemaker.cn/p/project-dc36a6.html)
+  简单、美观的游戏存档管理软件
+
+- **[SiYuan](https://b3log.org/siyuan)** — 开发者 B3log（云南） · 文档办公 / 效率工具 · 已上线 · 收录 2023-01-13 · [详情页](https://indiemaker.cn/p/siyuan.html)
+  思源笔记是本地优先的个人知识管理系统， 支持细粒度块级引用和 Markdown 所见即所得
+
+- **[make-money](https://make-money.hanzhengrong.cn)** — 开发者 程序猿韩三皮（北京） · 未分类 · 已停止 · 收录 2023-01-13 · [详情页](https://indiemaker.cn/p/make-money.html)
+  好用的 PC 端理财工具系统（基金）
+
+- **[webfollow](https://webfollow.cc/)** — 开发者 weekendproject · 教育学习 · 已上线 · 收录 2023-01-12 · [详情页](https://indiemaker.cn/p/webfollow.html)
+  RSS 阅读器，md 风格，支持个人自定义内容顺序，pwa 可直接添加到桌面，响应式，多端运行
+
+- **[codeck](https://codeck.moonrailgun.com/)** — 开发者 moonrailgun（上海） · 开发工具 / 浏览器扩展 · 已上线 · 收录 2023-01-12 · [详情页](https://indiemaker.cn/p/codeck.html)
+  基于 JS 的可视化蓝图编程引擎，让不懂得编程的用户也能通过可视化的方式进行编程，只要掌握最基本的逻辑即可。同时支持插件形式编写适用于不同场景的代码块，产品灵感来自于`unreal`的蓝图编程引擎与`google`的`blockly`。
+
+- **[羽毛球助手](https://s3.bmp.ovh/imgs/2023/01/09/0ba2aa198f7e8a33.jpg)** — 开发者 shenpvip · 未分类 · 已上线 · 收录 2023-01-09 · [详情页](https://indiemaker.cn/p/project-19cf15.html)
+  一键参与、发起羽毛球活动
+
+- **[ModernWMS](https://wmsonline.ikeyly.com/#/login)** — 开发者 Jokerlsss（福州） · 效率工具 / 免费工具 · 已上线 · 收录 2023-01-09 · [详情页](https://indiemaker.cn/p/modernwms.html)
+  精简而充满现代化的 **仓库管理系统**，支持快速收发货、库存、仓内作业等功能。开箱即用、完全开源、十分钟即可上手！（标题链接可直达体验环境）
+
+- **[docod](http://42.192.95.146:3000)** — 开发者 yiuman（广州） · 文档办公 · 已停止 · 收录 2023-01-09 · [详情页](https://indiemaker.cn/p/docod.html)
+  智能文档比对-支持 Word、PDF 交叉比对、双屏展示、效果一目了然
+
+- **[Arxiv Search](https://www.arxiv.dev)** — 开发者 Arxiv Search · 效率工具 / 开发工具 · 已上线 · 收录 2023-01-08 · [详情页](https://indiemaker.cn/p/arxiv-search.html)
+  追踪各个领域最新 Arxiv 论文的搜索引擎和浏览网站。目前包含两大功能：(1) 一个网站, 包含各个领域最新文章的检索，和任意时间段的研究趋势的分析；包含搜索功能，分领域的论文浏览功能，还有更多数据分析的功能正在开发中。(2) 基于微信搜索获取最新 arxiv 论文推送
+
+- **[Workflow](https://vipvan.cc/upload/Workflow.zip)** — 开发者 游雨的鱼cc（杭州） · 文档办公 / 效率工具 · 已停止 · 收录 2023-01-07 · [详情页](https://indiemaker.cn/p/workflow.html)
+  实现自动化 Excel 操作的中文框架
+
+- **[AutoCut Client](https://github.com/zcf0508/autocut-client)** — 开发者 zcf0508（上海） · 开发工具 · 已上线 · 收录 2023-01-03 · [详情页](https://indiemaker.cn/p/autocut-client.html)
+  为 [AutoCut](https://github.com/mli/autocut) 提供一个开箱即用的客户端
+
+- **[Dawn Launcher](https://dawnlauncher.com/)** — 开发者 FanChenIO（北京） · 开发工具 · 已上线 · 收录 2023-01-01 · [详情页](https://indiemaker.cn/p/dawn-launcher.html)
+  Dawn Launcher Windows 快捷启动工具，解决桌面杂乱无章的问题，让您的桌面干净整洁。
+
+- **[PPT批量处理百宝箱](http://www.batchtoolset.com/)** — 开发者 Loui（长沙） · 文档办公 · 已上线 · 收录 2022-12-30 · [详情页](https://indiemaker.cn/p/ppt.html)
+  高效强悍的PPT文件批量处理工具，致力于为使用者提供可靠、安全、高效、简洁、省时省力的 PPT 文件批量处理解决方案
+
+- **[One Tab Group](https://onetab.group)** — 开发者 xiaoluoboding（大理） · 效率工具 / 浏览器扩展 · 已停止 · 收录 2022-12-13 · [详情页](https://indiemaker.cn/p/one-tab-group.html)
+  集多功能于一身的代替 `OneTab`/`Session Buddy` 的下一代标签页/标签组管理器, 帮助你有效地管理、组织您的浏览器标签页，支持云同步以及同步到 Notion 等功能。
+
+- **[iOS App：怪兽音符 - 五线谱识谱练习卡](https://apps.apple.com/cn/app/%E6%80%AA%E5%85%BD%E9%9F%B3%E7%AC%A6-%E4%BA%94%E7%BA%BF%E8%B0%B1%E8%AF%86%E8%B0%B1%E7%BB%83%E4%B9%A0%E5%8D%A1/id1641497474)** — 开发者 Mekal（Wuhan） · 未分类 · 已上线 · 收录 2022-12-12 · [详情页](https://indiemaker.cn/p/ios-app.html)
+  可以连接电钢琴的五线谱识谱训练工具，适用于钢琴初学者训练五线谱的读谱反应速度
+
+- **[iOS App：可沐心语 - 通过 Emoji 随时记录心情，阅读精美治愈与激励好句子](https://apps.apple.com/cn/app/%E5%8F%AF%E6%B2%90%E5%BF%83%E6%83%85%E8%AF%AD%E5%BD%95/id6444787701)** — 开发者 Mekal（Wuhan） · 教育学习 · 已上线 · 收录 2022-12-12 · [详情页](https://indiemaker.cn/p/ios-app-emoji.html)
+  每日语录与心情记录小工具。
+
+- **[materixiv](https://play.google.com/store/apps/details?id=onlymash.materixiv)** — 开发者 onlymash · 未分类 · 已停止 · 收录 2022-12-08 · [详情页](https://indiemaker.cn/p/materixiv.html)
+  Pixiv app
+
+- **[Oh Mymd](https://www.ohmymd.app)** — 开发者 ch3ng（成都） · 文档办公 · 已停止 · 收录 2022-12-05 · [详情页](https://indiemaker.cn/p/oh-mymd.html)
+  支持本地与云同步的 Markdown 编辑器.
+
+- **[sssbar](https://bar.ssstab.com)** — 开发者 kongkongye（台州） · 浏览器扩展 · 已停止 · 收录 2022-12-03 · [详情页](https://indiemaker.cn/p/sssbar.html)
+  浏览器快捷搜索框扩展,在线工具网页搜索.
+
+- **[智能水印工具箱](https://github.com/vioao)** — 开发者 Vio（深圳） · AI 工具 / 图片工具 / 音视频 · 已停止 · 收录 2022-12-02 · [详情页](https://indiemaker.cn/p/project-347884.html)
+  图片/短视频处理的 AI 小程序。能够一键去水印、画质增强、背景移除、图集提取。
+
+- **[UnderThink](https://underthink.cc/)** — 开发者 Patrick（佛山） · 未分类 · 已停止 · 收录 2022-11-30 · [详情页](https://indiemaker.cn/p/underthink.html)
+  危险的头脑风暴工具
+
+- **[ssstab](https://ssstab.com)** — 开发者 kongkongye（台州） · 效率工具 · 已停止 · 收录 2022-11-16 · [详情页](https://indiemaker.cn/p/ssstab.html)
+  ssstab新标签页,你的网络书签管理工具.
+
+- **[PicHoro](https://github.com/Kuingsmile/PicHoro)** — 开发者 Kuingsmile（杭州） · 图片工具 / 效率工具 · 开发中 · 收录 2022-11-12 · [详情页](https://indiemaker.cn/p/pichoro.html)
+  用于上传图片和管理云存储/图床平台的安卓 APP，与电脑端的 PicGo 配置互通，正在准备上架
+
+- **[IEnglish](https://english.zeffon.cn/)** — 开发者 Zeffon（广州） · 音视频 / 教育学习 · 已上线 · 收录 2022-11-08 · [详情页](https://indiemaker.cn/p/ienglish.html)
+  英语口语练习网站，包括音标、语音标记、语音技巧等。
+
+- **[Tesla Light Show Creator](https://tesla.coding1024.com/)** — 开发者 huangjx（广州） · 音视频 · 已停止 · 收录 2022-10-28 · [详情页](https://indiemaker.cn/p/tesla-light-show-creator.html)
+  特斯拉灯光秀制作工具，导入背景音乐一键生成炫酷的自定义灯光秀。
+
+- **[爱吖去水印](https://user-images.githubusercontent.com/15193414/198528969-868cd864-f462-46e8-91ef-e90fd8201bbb.png)** — 开发者 Likun（杭州） · 音视频 / 免费工具 · 已上线 · 收录 2022-10-28 · [详情页](https://indiemaker.cn/p/project-ba1ef0.html)
+  免费去水印、抖音去水印、快手去水印，一键保存无水印视频到相册。
+
+- **[Circle 阅读助手](http://circlereader.com/)** — 开发者 染河（杭州） · 浏览器扩展 / 教育学习 · 已上线 · 收录 2022-10-25 · [详情页](https://indiemaker.cn/p/circle.html)
+  提供沉浸式阅读的扩展，拥有强大智能的识别和排版能力，让你爱上在网页上阅读
+
+- **[ZLGithubClient](https://apps.apple.com/app/gorillas/id1498787032)** — 开发者 ExistOrlive · 开发工具 · 已上线 · 收录 2022-10-12 · [详情页](https://indiemaker.cn/p/zlgithubclient.html)
+  基于 Github 官方 API 开发的 Github iOS 客户端
+
+- **[Kake日记](https://apps.apple.com/us/app/kake-journal-password-diary/id1515415906)** — 开发者 Evancohe（惠州） · 未分类 · 已上线 · 收录 2022-10-11 · [详情页](https://indiemaker.cn/p/kake.html)
+  极简风格的日记 App, 多设备适配, 曾上 Apple 推荐。
+
+- **[Je Focus](https://apps.apple.com/sg/app/je-focus/id1486865992)** — 开发者 Evancohe（惠州） · 效率工具 · 已上线 · 收录 2022-10-11 · [详情页](https://indiemaker.cn/p/je-focus.html)
+  极简风格的专注 App, 用重力感应检测用户拿手机并暴力提醒.
+
+- **[线圈](https://xquan.net)** — 开发者 sorakylin（广州） · 未分类 · 已停止 · 收录 2022-07-14 · [详情页](https://indiemaker.cn/p/project-16b95e.html)
+  做出来的东西没人看，没人用，没人玩，没地方展示，怎么办？看过来！这是让创作者记录项目进展，分享进度成果，展示最终成品，并且可以得到来自用户（或粉丝）以及其他创作者们的反馈交流的创意平台~
+
+- **[木及简历](https://www.mujicv.com)** — 开发者 秋风（北京）- [Github](https://github.com/hua1995116), [Jike]（https://okjk.co/CEcbno） · 文档办公 / 效率工具 / 浏览器扩展 · 已上线 · 收录 2022-06-17 · [详情页](https://indiemaker.cn/p/project-0162fd.html)
+  基于 Markdown 编写的简历工具，包含多个可插拔式插件。专注简历内容，告别繁琐排版
+
+- **[2Camera 双摄相机 (iOS)](https://apps.apple.com/cn/app/id1584095090)** — 开发者 自力6XStudio（深圳） · 未分类 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/2camera-ios.html)
+  前后双摄相机，双份故事，双倍精彩
+
+- **[锁屏启动 (iOS)](https://apps.apple.com/cn/app/id1636719674)** — 开发者 自力6XStudio（深圳） · 生活服务 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/ios-f88060.html)
+  丰富小组件、灵动岛网速/天气/步数等
+
+- **[MenubarX (macOS)](https://MenubarX.app)** — 开发者 自力6XStudio（深圳） · 开发工具 / 浏览器扩展 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/menubarx-macos.html)
+  强大的 Mac 菜单栏浏览器，把网页添加到菜单栏上，像原生 App 一样即开即用
+
+- **[DockX (macOS)](https://dockx.app/)** — 开发者 自力6XStudio（深圳） · 开发工具 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/dockx-macos.html)
+  在程序坞显示任意状态，如：网速、CPU、时钟等
+
+- **[钢琴小组件 (iOS)](https://6x.studio/piano-widget/)** — 开发者 自力6XStudio（深圳） · 未分类 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/ios-b7d833.html)
+  无需启动，随时弹奏
+
+- **[桌面计算器 (iOS)](https://desktop-calculator.com/)** — 开发者 自力6XStudio（深圳） · 未分类 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/ios-9cb393.html)
+  超强的桌面计算器，无需打开App，随时随地计算
+
+- **[StickerX (iOS)](https://6x.studio/stickerx/)** — 开发者 自力6XStudio（深圳） · AI 工具 / 图片工具 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/stickerx-ios.html)
+  AI 一键抠图，表情包创作工具
+
+- **[eyeye (iOS)](https://eyeye.app/)** — 开发者 自力6XStudio（深圳） · 未分类 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/eyeye-ios.html)
+  运用 AR 眼球追踪技术帮助你轻松锻炼视力
+
+- **[鸭梨海拔 (iOS)](https://apps.apple.com/cn/app/id6738301793)** — 开发者 自力6XStudio（深圳） · 生活服务 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/ios-7fb477.html)
+  精美海拔计，旅行海拔打卡必备
+
+- **[念念不忘 (iOS)](https://buwang.app/)** — 开发者 自力6XStudio（深圳） · 效率工具 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/ios-bdb172.html)
+  简单粗暴的 iOS 提醒小组件
+
+- **[Patreon Batch Downloader (Chrome扩展)](https://chromewebstore.google.com/detail/patreon-batch-downloader/mpdbndgiplhpkognodlmmjampheficlo)** — 开发者 自力6XStudio（深圳） · 浏览器扩展 · 已上线 · 收录 2022-06-06 · [详情页](https://indiemaker.cn/p/patreon-batch-downloader-chrome.html)
+  批量下载Patreon帖子和附件
+
+- **[Input Source Pro](https://inputsource.pro)** — 开发者 Runjuu（上海） · 开发工具 · 已上线 · 收录 2022-06-05 · [详情页](https://indiemaker.cn/p/input-source-pro.html)
+  优化 macOS 输入法使用体验；根据应用或网站自动切换输入法，自动展示当前输入法。
+
+- **[SongLink](https://apps.apple.com/cn/app/songlink/id1341416046)** — 开发者 Runjuu（上海） · 音视频 · 已停止 · 收录 2022-06-05 · [详情页](https://indiemaker.cn/p/songlink.html)
+  多平台音乐搜索工具。
+
+- **[Quest新标签页](https://support.qq.com/products/308410/blog/744528)** — 开发者 Carson（广州） · 效率工具 / 浏览器扩展 · 已上线 · 收录 2022-06-04 · [详情页](https://indiemaker.cn/p/quest.html)
+  【聚合搜索】新标签页效率插件。
+
+- **[金橘记账](https://apps.apple.com/cn/app/%E9%87%91%E6%A2%A8-%E4%B8%AA%E4%BA%BA%E8%B5%84%E4%BA%A7%E8%AE%B0%E8%B4%A6%E5%8A%A9%E6%89%8B/id1551523441)** — 开发者 酱咸（广州） · 生活服务 · 已上线 · 收录 2022-05-31 · [详情页](https://indiemaker.cn/p/project-f8cecc.html)
+  多人一起记账 股票基金自动记账的记账 App
+
+- **[墨干编辑器](https://gitee.com/XmacsLabs/mogan)** — 开发者 沈浪熊猫儿（杭州） · 教育学习 · 已上线 · 收录 2022-05-28 · [详情页](https://indiemaker.cn/p/project-4f693f.html)
+  致力于让所有人畅快地学习既有的科学与技术，创造全新的科学与技术的结构化编辑器。- [更多介绍](https://www.bilibili.com/video/BV1tU4y1171q)
+
+- **[QuickDashboard](https://chrome.google.com/webstore/detail/quickdashboard/dicohhlagpacaelhmodlihaampnapape)** — 开发者 zhangyw（北京） · 浏览器扩展 · 已上线 · 收录 2022-05-19 · [详情页](https://indiemaker.cn/p/quickdashboard.html)
+  简洁美观的 Chrome 浏览器新标签页扩展
+
+- **[集美美图](https://apps.apple.com/cn/app/id1592148389)** — 开发者 dunizb（杭州） · 图片工具 · 已停止 · 收录 2022-05-06 · [详情页](https://indiemaker.cn/p/project-aa0281.html)
+  简单纯粹的美女写真壁纸精选 APP。Android 版已上线小米、华为、百度、酷安、360应用市场
+
+- **[竹叶日历](https://s3.bmp.ovh/imgs/2022/04/15/8dd0930705a3989a.jpg)** — 开发者 snow（北京） · 效率工具 · 已上线 · 收录 2022-04-16 · [详情页](https://indiemaker.cn/p/project-180db3.html)
+  极简的日历微信小程序
+
+- **[Ona Pix](https://github.com/SpaceTimee/Ona-Pix)** — 开发者 Space Time · 未分类 · 开发中 · 收录 2022-03-21 · [详情页](https://indiemaker.cn/p/ona-pix.html)
+  Pixiv 直连搜图工具，梦想是成为优秀的 Pixiv 第三方直连客户端
+
+- **[NextSSH | SSH工具，不只是命令终端](https://xzhshch.com/)** — 开发者 zhshch（北京） · 效率工具 / 开发工具 · 已停止 · 收录 2022-02-15 · [详情页](https://indiemaker.cn/p/nextssh-ssh.html)
+  具有现代化界面与丰富功能的 SSH 连接管理工具 🔧。
+
+- **[SaveTabs - Window & Tab Manager](https://www.cocong.cn/savetabs)** — 开发者 胡镇华（广州） · 效率工具 / 教育学习 · 已停止 · 收录 2022-02-14 · [详情页](https://indiemaker.cn/p/savetabs-window-tab-manager.html)
+  支持一键保存和打开所有网页，提高工作和学习效率。
+
+- **[Castflow](https://apps.apple.com/app/id1572179241)** — 开发者 Norton（南京） · 音视频 · 已上线 · 收录 2022-02-06 · [详情页](https://indiemaker.cn/p/castflow.html)
+  简单快速的iOS泛用型播客App。
+
+- **[鲨鱼取图](https://apps.apple.com/app/id1590075896)** — 开发者 Norton（南京） · 音视频 · 已上线 · 收录 2022-02-06 · [详情页](https://indiemaker.cn/p/project-685c27.html)
+  N in 1 取图 App，支持多种取图方式，例如：视频取帧，网页长图，文本取图等。
+
+- **[RSSCube](https://apps.apple.com/app/id1602812291)** — 开发者 Norton（南京） · 教育学习 · 已上线 · 收录 2022-02-06 · [详情页](https://indiemaker.cn/p/rsscube.html)
+  全新的 RSS iOS 阅读器，给RSS用户提供一种新的阅读体验。
+
+- **[只读链接](https://readonly.link)** — 开发者 谢宇恒（深圳） · 文档办公 / 社交社区 · 已上线 · 收录 2022-01-29 · [详情页](https://indiemaker.cn/p/project-86a58c.html)
+  文档渲染工具，文字创作者的社区。来自书籍与文章的邀请～
+
+- **[Yank Note](https://github.com/purocean/yn)** — 开发者 洋子（成都） · 文档办公 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2022-01-29 · [详情页](https://indiemaker.cn/p/yank-note.html)
+  面向程序员的 Markdown 本地笔记应用，支持代码片段运行、HTML 小工具、多种图表嵌入、历史版本回溯、插件拓展
+
+- **[树影取名](https://github.com/JRay0108/shuying)** — 开发者 JRay0108（济南） · 未分类 · 已上线 · 收录 2022-01-10 · [详情页](https://indiemaker.cn/p/project-a9ba1e.html)
+  从诗经楚辞唐诗宋词等中华典籍中取名的微信小程序，也可查找名字出处及测算姓名运势。
+
+- **[梦见账本](https://apps.apple.com/cn/app/id1498426607)** — 开发者 RyukieSama（广州） · 生活服务 · 已上线 · 收录 2021-12-08 · [详情页](https://indiemaker.cn/p/project-9c8e17.html)
+  百变外观，独创智能梦见模式的记账软件
+
+- **[隐私访问记录](https://apps.apple.com/cn/app/id1590992377)** — 开发者 RyukieSama（广州） · 未分类 · 已上线 · 收录 2021-12-08 · [详情页](https://indiemaker.cn/p/project-f0f7fc.html)
+  系统性分析隐私访问记录，让隐私小偷无处可藏
+
+- **[Thorn](https://app.thorn.press)** — 开发者 Alecyrus · 文档办公 · 已停止 · 收录 2021-11-16 · [详情页](https://indiemaker.cn/p/thorn.html)
+  简单的写作应用，无限丝滑的创作体验
+
+- **[划词翻译](https://hcfy.app)** — 开发者 lmk123 · 音视频 / 浏览器扩展 · 已上线 · 收录 2021-10-17 · [详情页](https://indiemaker.cn/p/project-42d177.html)
+  跨平台的一站式划词、截图、网页全文、音视频翻译扩展
+
+- **[shadowsocks-electron](https://github.com/nojsja/shadowsocks-electron)** — 开发者 nojsja（成都） · 未分类 · 已上线 · 收录 2021-10-09 · [详情页](https://indiemaker.cn/p/shadowsocks-electron.html)
+  Shadowsocks 跨平台客户端(Ubuntu/Mac x64)
+
+- **[蚁阅](https://rss.anyant.com/)** — 开发者 Guyskk · 未分类 · 已上线 · 收录 2021-08-31 · [详情页](https://indiemaker.cn/p/project-61abc0.html)
+  让 RSS 更好用，轻松订阅你喜欢的博客和资讯
+
+- **[Vight Note](https://github.com/SpaceTimee/Vight-Note)** — 开发者 Space Time · 未分类 · 已上线 · 收录 2021-07-14 · [详情页](https://indiemaker.cn/p/vight-note.html)
+  一只轻量级的临时文本处理工具
+
+- **[Ant-Forest](https://github.com/SuperMonster003/Ant-Forest)** — 开发者 SuperMonster003（北京） · 开发工具 · 已上线 · 收录 2021-06-28 · [详情页](https://indiemaker.cn/p/ant-forest.html)
+  基于 Auto.js 的蚂蚁森林能量自动收取脚本 - [更多介绍](https://github.com/SuperMonster003/Ant-Forest/wiki/%E8%9A%82%E8%9A%81%E6%A3%AE%E6%9E%97-(Ant-Forest))
+
+- **[MindCanvas](http://www.chenjt.com/mindcanvas)** — 开发者 珒陶（广州） · 未分类 · 已上线 · 收录 2021-06-17 · [详情页](https://indiemaker.cn/p/mindcanvas.html)
+  制作思维导图的 UWP 应用
+
+- **[有梦记](https://www.youmengji.zone/)** — 开发者 seth-shi（西安） · 未分类 · 已停止 · 收录 2021-06-16 · [详情页](https://indiemaker.cn/p/project-873755.html)
+  有梦记让你一目了然你的过往。记住那些不愿忘记的梦!
+
+- **[Amazing-Favorites](https://af.newbe.pro/)** — 开发者 newbe36524（上海） · 效率工具 / 浏览器扩展 · 已停止 · 收录 2021-06-14 · [详情页](https://indiemaker.cn/p/amazing-favorites.html)
+  高效管理和搜索浏览器收藏的浏览器扩展。
+
+- **[MixLive](https://live.yj1211.work)** — 开发者 YJ1211 · 音视频 · 已停止 · 收录 2021-06-11 · [详情页](https://indiemaker.cn/p/mixlive.html)
+  整合国内多个直播平台内容的网站
+
+- **[魔豆车主](https://www.yilidouzi.com)** — 开发者 一粒豆子（深圳） · 未分类 · 已停止 · 收录 2021-05-14 · [详情页](https://indiemaker.cn/p/project-1ebe1a.html)
+  更适合国人使用的特斯拉车主 App，记录特斯拉车辆行程及充电费用。
+
+- **[网页视频下载](https://m3w.cn/wyspxz)** — 开发者 LisenH · 音视频 · 已上线 · 收录 2021-04-09 · [详情页](https://indiemaker.cn/p/project-ba803c.html)
+  支持几乎所有网页视频的下载，包括 M3U8
+
+- **[RSSFlow](http://rss.zhangyingwei.com)** — 开发者 zhangyw（北京） · 教育学习 · 已停止 · 收录 2021-04-06 · [详情页](https://indiemaker.cn/p/rssflow.html)
+  RSS 阅读器（Web 端），以信息流的方式阅读你的订阅信息。
+
+- **[Make Zero](https://github.com/sheepzh/make-zero)** — 开发者 sheepzh（深圳） · 浏览器扩展 · 已上线 · 收录 2021-03-30 · [详情页](https://indiemaker.cn/p/make-zero.html)
+  快捷易用的文本加解密浏览器扩展。支持手动和自动加解密，自定义密码，密文风格切换
+
+- **[网费很贵](https://github.com/sheepzh/timer)** — 开发者 sheepzh（深圳） · 效率工具 / 浏览器扩展 · 已上线 · 收录 2021-03-30 · [详情页](https://indiemaker.cn/p/project-6dd576.html)
+  用于统计上网时间的浏览器扩展。多种统计口径，丰富的图表展示，支持数据导出
+
+- **[secret-performance-desktop](https://gitee.com/SecretOpen/secret-performance-desktop)** — 开发者 secret_C · 未分类 · 已上线 · 收录 2021-02-20 · [详情页](https://indiemaker.cn/p/secret-performance-desktop.html)
+  让桌面炫酷起来的桌面个性化工具
+
+- **[数字水印](http://www.shuiyin.online/)** — 开发者 西格玛（上海） · 图片工具 · 已停止 · 收录 2021-02-14 · [详情页](https://indiemaker.cn/p/project-eca4e2.html)
+  肉眼不可见的水印 (严格地说来是肉眼不容易分辨的水印，所以比较难以识别出来并去除，减少破坏图片的完整性)
+
+- **[早晨计划](https://apps.apple.com/cn/app/%E6%97%A9%E6%99%A8%E8%AE%A1%E5%88%92/id1542908683)** — 开发者 阿树（上海） · 生活服务 · 已停止 · 收录 2021-01-05 · [详情页](https://indiemaker.cn/p/project-167447.html)
+  帮你早起一小时，规划生活，达成目标的app
+
+- **[视频进度条生成工具](https://gitee.com/zhengmingpei/VideoProgressBarTool-Windows)** — 开发者 zhengmingpei（济南市） · 音视频 · 开发中 · 收录 2021-01-04 · [详情页](https://indiemaker.cn/p/project-3d2f63.html)
+  帮助制作视频进度条的辅助小工具(暂时在 Gitee 上)
+
+- **[Bucket](https://apps.apple.com/cn/app/bucket-achieve-your-goals/id1534447271)** — 开发者 getjennyli · 未分类 · 已上线 · 收录 2020-12-23 · [详情页](https://indiemaker.cn/p/bucket.html)
+  愿望清单 App
+
+- **[白菜录屏](https://www.bakchoi.com)** — 开发者 ZhongYuanDong（佛山市） · 未分类 · 已停止 · 收录 2020-12-23 · [详情页](https://indiemaker.cn/p/project-a318b4.html)
+  简洁、功能强大的 Mac 录屏软件。
+
+- **[我比你强问答](https://wobiniqiang.com/)** — 开发者 ysykzheng（成都） · 未分类 · 已停止 · 收录 2020-12-23 · [详情页](https://indiemaker.cn/p/project-ac5813.html)
+  常见知识问答收集，不用到处找了。
+
+- **[极简导航](https://nav.yhz610.com/)** — 开发者 阿猫阿狗 · 效率工具 · 已上线 · 收录 2020-11-26 · [详情页](https://indiemaker.cn/p/project-70b506.html)
+  专注极简的导航主页
+
+- **[DrawERD](https://drawerd.com)** — 开发者 hooopo（北京） · 开发工具 · 已停止 · 收录 2020-11-23 · [详情页](https://indiemaker.cn/p/drawerd.html)
+  数据库ERD协作工具
+
+- **[Hackershare](https://hackershare.dev)** — 开发者 hooopo（北京） · 免费工具 · 已停止 · 收录 2020-11-23 · [详情页](https://indiemaker.cn/p/hackershare.html)
+  开源书签共享工具
+
+- **[微信公众号 Markdown 编辑器 - OpenWrite](https://md.openwrite.cn/)** — 开发者 Jeff（杭州） · 文档办公 · 已上线 · 收录 2020-11-20 · [详情页](https://indiemaker.cn/p/markdown-openwrite.html)
+  专业强大的微信公众平台在线编辑排版工具，提供手机预览功能，让用户在微信图文 、文章、内容排版、文本编辑、素材编辑上更加方便
+
+- **[RobinAlgo](http://robinalgo.com/)** — 开发者 clwater（上海） · 教育学习 · 已停止 · 收录 2020-11-16 · [详情页](https://indiemaker.cn/p/robinalgo.html)
+  RobinAlgo - 可视化算法学习平台
+
+- **[字幕酱](https://www.zimujiang.com?utm_source=chinese-independent-developer)** — 开发者 竹行（杭州） · 音视频 · 已上线 · 收录 2020-11-13 · [详情页](https://indiemaker.cn/p/project-a5084a.html)
+  字幕在线生成、翻译、格式转换的工具网站
+
+- **[VAssistant](https://www.coolapk.com/apk/cn.vove7.vassistant)** — 开发者 Vove7（上海） · 音视频 · 已上线 · 收录 2020-10-28 · [详情页](https://indiemaker.cn/p/vassistant.html)
+  Android 平台强大的自定义语音助手
+
+- **[EnergyRing](https://www.coolapk.com/apk/cn.vove7.energy_ring)** — 开发者 Vove7（上海） · 未分类 · 已上线 · 收录 2020-10-28 · [详情页](https://indiemaker.cn/p/energyring.html)
+  挖孔屏福利，电量指示环
+
+- **[云极客工具](https://www.ygktool.cn)** — 开发者 RiverTwilight（成都） · 免费工具 · 已停止 · 收录 2020-10-24 · [详情页](https://indiemaker.cn/p/project-3a7044.html)
+  功能丰富的渐进式在线工具网站（开源）
+
+- **[星搭 StaringOS](https://staringos.com)** — 开发者 GeorgeZou（北京） · 开发工具 · 已停止 · 收录 2020-10-20 · [详情页](https://indiemaker.cn/p/staringos.html)
+  星搭无代码平台，快速构建中后台、小程序
+
+- **[Tefact编辑器](https://github.com/staringos/tefact)** — 开发者 GeorgeZou（北京） · 开发工具 / 免费工具 · 开发中 · 收录 2020-10-20 · [详情页](https://indiemaker.cn/p/tefact.html)
+  轻量级开源无代码 H5、表单 编辑器
+
+- **[真科技周刊](https://github.com/Tefact/tefact-weekly)** — 开发者 GeorgeZou（北京） · 未分类 · 已上线 · 收录 2020-10-20 · [详情页](https://indiemaker.cn/p/project-dbe874.html)
+  科技 · 商业 · 人文 · 未来
+
+- **[动森生活家](https://mrdear.cn/posts/animal_crossing_recommed.html)** — 开发者 Mr.Dear（杭州） · 生活服务 · 已上线 · 收录 2020-10-06 · [详情页](https://indiemaker.cn/p/project-7216f0.html)
+  动森服装码收集,归类以及分享的微信小程序
+
+- **[RabiAPI](https://apps.apple.com/cn/app/id1524200727)** — 开发者 WhiteCosm0s（上海） · 文档办公 / 开发工具 · 已上线 · 收录 2020-09-26 · [详情页](https://indiemaker.cn/p/rabiapi.html)
+  开箱即用的 Java 接口文档生成工具
+
+- **[PHP中文站](http://www.p2hp.com/)** — 开发者 Lenix（北京） · 文档办公 / 开发工具 · 已停止 · 收录 2020-07-27 · [详情页](https://indiemaker.cn/p/php.html)
+  最专业的PHP资源网站：PHP教程, PHP中文手册, PHP开发工具, PHP框架文档大全！- [更多介绍](https://www.p2hp.com/about.php)
+
+- **[名校讲座](http://qiniu.gaotenglife.com/gh_ce3241405e01_860.jpg)** — 开发者 Lenix（北京） · 未分类 · 已上线 · 收录 2020-07-23 · [详情页](https://indiemaker.cn/p/project-7cc339.html)
+  收集发布北京上海等地名校的公开讲座，让更多的人聆听名校的声音
+
+- **[Reabble](https://reabble.cn)** — 开发者 weijarz（吉林） · 未分类 · 已上线 · 收录 2020-07-18 · [详情页](https://indiemaker.cn/p/reabble.html)
+  面向 Kindle 等 E-Ink 设备的 RSS 客户端，带推送服务
+
+- **[OxyPlayer](https://player.oxyry.com/)** — 开发者 weijarz（吉林） · 音视频 / 教育学习 · 已停止 · 收录 2020-07-18 · [详情页](https://indiemaker.cn/p/oxyplayer.html)
+  专为学英语设计的视频播放器，单句重复/双语字幕/情境填词
+
+- **[Feelings](https://apps.apple.com/cn/app/feelings-mood-journal/id1446192624)** — 开发者 getjennyli · 未分类 · 已上线 · 收录 2020-07-15 · [详情页](https://indiemaker.cn/p/feelings.html)
+  心情树洞日记 App
+
+- **[Booka](https://apps.apple.com/cn/app/booka-minimal-booklist/id1116150273)** — 开发者 getjennyli · 效率工具 · 已上线 · 收录 2020-07-15 · [详情页](https://indiemaker.cn/p/booka.html)
+  书单管理 App
+
+- **[Helium N](https://geshkii.xyz/helium/)** — 开发者 sudo2u（深圳）- [Github]（https://github.com/hello-world-404） · 未分类 · 已停止 · 收录 2020-06-30 · [详情页](https://indiemaker.cn/p/helium-n.html)
+  ADB 工具箱
+
+- **[一起听歌吧](http://music.alang.run)** — 开发者 JumpAlang（泉州） · 音视频 / 社交社区 · 已上线 · 收录 2020-06-29 · [详情页](https://indiemaker.cn/p/project-30b93d.html)
+  同步多人在线听音乐聊天的网站。试想一下地球上任何一个角落的人根据自己的喜好，创建属于自己的音乐屋，让有相同喜好的人聚在一起实时听歌、分享、互动是多么有趣的事
+
+- **[Jsonman](https://jsonman.bakchoi.com/?ref=1c7)** — 开发者 ZhongYuanDong（佛山） · 开发工具 · 已停止 · 收录 2020-06-05 · [详情页](https://indiemaker.cn/p/jsonman.html)
+  零代码快速创建 JSON API (Mac App)
+
+- **[在线AI图像处理](https://photo.opencool.cn/)** — 开发者 6r6（杭州） · AI 工具 / 图片工具 · 已停止 · 收录 2020-06-02 · [详情页](https://indiemaker.cn/p/ai-367a64.html)
+  免下载免注册的在线图像处理工具，支持黑白照片上色、图像无损放大、人像漫画化
+
+- **[鱼塘热榜](https://mo.fish/)** — 开发者 timeromantic · 效率工具 · 已停止 · 收录 2020-06-01 · [详情页](https://indiemaker.cn/p/project-c5fab8.html)
+  专注摸鱼的趣味新闻热榜网站
+
+- **[InfoHub](https://infohub.fun/)** — 开发者 yuxiaoy（上海） · 社交社区 / 游戏娱乐 · 已停止 · 收录 2020-05-31 · [详情页](https://indiemaker.cn/p/infohub.html)
+  简洁轻巧的科技、社区、娱乐、财经、体育、IT、游戏等综合资讯中心
+
+- **[精酿笔记](https://itunes.apple.com/us/app/%E7%B2%BE%E9%85%BF%E7%AC%94%E8%AE%B0/id1177364674?l=zh&ls=1&mt=8)** — 开发者 漂泊80（哈尔滨） · 文档办公 / 教育学习 · 已上线 · 收录 2020-05-28 · [详情页](https://indiemaker.cn/p/project-397fae.html)
+  家酿啤酒学习交流辅助小工具
+
+- **[MPAA 电影分级插件](https://old-panda.com/projects/mpaa-rating-extension-project/)** — 开发者 漂泊80（哈尔滨） · 音视频 / 浏览器扩展 · 已停止 · 收录 2020-05-15 · [详情页](https://indiemaker.cn/p/mpaa.html)
+  在豆瓣电影、腾讯视频页面显示该片的 MPAA 分级
+
+- **[Bamboo](https://old-panda.com/projects/bamboo-parquet-viewer/)** — 开发者 漂泊80（哈尔滨） · 开发工具 · 已上线 · 收录 2020-05-15 · [详情页](https://indiemaker.cn/p/bamboo.html)
+  可能是 macOS 上最好用的 Parquet 文件查看器
+
+- **[Douban Book+](https://doubanbook.plus/)** — 开发者 漂泊80（哈尔滨） · 未分类 · 已上线 · 收录 2020-05-15 · [详情页](https://indiemaker.cn/p/douban-book.html)
+  打破豆瓣读书与各种电子书平台之间的壁障
+
+- **[Green Tiles](https://green-tiles.vercel.app/)** — 开发者 漂泊80（哈尔滨） · 开发工具 · 已上线 · 收录 2020-05-15 · [详情页](https://indiemaker.cn/p/green-tiles.html)
+  统计程序员在 GitHub 上贴过的所有瓷砖
+
+- **[小地瓜](https://xiaodigua.app/)** — 开发者 漂泊80（哈尔滨） · 图片工具 / 音视频 · 已上线 · 收录 2020-05-15 · [详情页](https://indiemaker.cn/p/project-dc9463.html)
+  一键下载小红书帖子的图片视频
+
+- **[triplan](https://triplan.tech/?utm_source=cid)** — 开发者 Mark · 效率工具 · 已停止 · 收录 2020-05-14 · [详情页](https://indiemaker.cn/p/triplan.html)
+  跨平台行程管理应用，全面提升你的出行体验
+
+- **[疯狂押韵](http://www.jezemy.cn/rhyme)** — 开发者 Jezemy（广州） · 未分类 · 已停止 · 收录 2020-04-14 · [详情页](https://indiemaker.cn/p/project-5c6d29.html)
+  中文押韵短语查询的网站
+
+- **[21云盒子](https://www.21yunbox.com)** — 开发者 tobyglei · 效率工具 / 开发工具 · 已上线 · 收录 2020-03-26 · [详情页](https://indiemaker.cn/p/21.html)
+  最容易使用的云 - 自动化你的工作流程。代码构建，静态网页，Web应用发布，云数据库托管，SSL证书生成和维护，极速CDN，私有网络的一站式服务平台
+
+- **[BlinkMath](https://apps.apple.com/au/app/blinkmath/id1497540228?l=en)** — 开发者 tobyglei · 未分类 · 已停止 · 收录 2020-03-26 · [详情页](https://indiemaker.cn/p/blinkmath.html)
+  iOS app，累了眨眨眼，动动脑!
+
+- **[FastCode](https://apps.apple.com/cn/app/fastcode-code-in-your-pocket/id1441653112)** — 开发者 ZhangPingFan（深圳） · 开发工具 · 已上线 · 收录 2020-03-23 · [详情页](https://indiemaker.cn/p/fastcode.html)
+  可以随时随地编辑运行前端代码的利器
+
+- **[今日趋势](https://neverlose.com.cn/trending/)** — 开发者 ZhangPingFan（深圳） · 效率工具 · 已停止 · 收录 2020-03-23 · [详情页](https://indiemaker.cn/p/project-f3130b.html)
+  帮助您快速了解全网热点和市场行情的效率工具
+
+- **[聚享导航](https://www.86886.wang)** — 开发者 wmui · 未分类 · 已停止 · 收录 2020-03-13 · [详情页](https://indiemaker.cn/p/project-b7e547.html)
+  方便、简洁、快速的自定义网址导航站
+
+- **[土味情话生成器](https://works.yangerxiao.com/honeyed-words-generator/)** — 开发者 Tristan（北京） · 未分类 · 已停止 · 收录 2020-03-01 · [详情页](https://indiemaker.cn/p/project-30fbea.html)
+  土味情话，定制生成
+
+- **[静心呼吸调节器](https://works.yangerxiao.com/breathe-relaxer/)** — 开发者 Tristan（北京） · 未分类 · 已上线 · 收录 2020-03-01 · [详情页](https://indiemaker.cn/p/project-97ccbf.html)
+  通过视觉反馈在线调节呼吸节奏
+
+- **[在线图片压缩工具](https://works.yangerxiao.com/icfe/)** — 开发者 Tristan（北京） · 图片工具 / 浏览器扩展 · 已上线 · 收录 2020-03-01 · [详情页](https://indiemaker.cn/p/project-d77f8e.html)
+  无他，又一个图片压缩工具，只不过是纯浏览器端压缩，即无后端技术支撑
+
+- **[wnr](https://wnr.scris.top)** — 开发者 Roderick Qiu（杭州） · 效率工具 · 已停止 · 收录 2020-02-29 · [详情页](https://indiemaker.cn/p/wnr.html)
+  跨平台的轻量计时软件，让你更高效、强力地管理作与息
+
+- **[Listify](https://apps.apple.com/cn/app/listify-simple-todo-app/id1410668897)** — 开发者 周毅刚（上海） · 未分类 · 已上线 · 收录 2020-02-11 · [详情页](https://indiemaker.cn/p/listify.html)
+  简约的清单应用
+
+- **[小鹿快传](https://deershare.com)** — 开发者 Fancy（山东） · 未分类 · 已停止 · 收录 2020-01-29 · [详情页](https://indiemaker.cn/p/project-b5c113.html)
+  提供简单安全的在线P2P文件传输服务
+
+- **[洪谷山](https://github.com/jingle1267/HelloCodeDev)** — 开发者 Jingle1267（北京） · 未分类 · 已上线 · 收录 2020-01-17 · [详情页](https://indiemaker.cn/p/project-33b854.html)
+  微信小程序每日朋友圈分享素材
+
+- **[Thief](https://github.com/cteamx/Thief)** — 开发者 SanJin（北京） · 未分类 · 已上线 · 收录 2020-01-16 · [详情页](https://indiemaker.cn/p/thief.html)
+  在任务栏、桌面、TouchBar 上进行摸鱼的神器
+
+- **[二十次幂](https://www.ershicimi.com/)** — 开发者 刘志军 · 教育学习 · 已上线 · 收录 2019-12-21 · [详情页](https://indiemaker.cn/p/project-4eed2d.html)
+  公众号阅读监控数据分析平台
+
+- **[Docs4dev](https://www.docs4dev.com/)** — 开发者 docs4dev · 文档办公 / 开发工具 · 已停止 · 收录 2019-12-19 · [详情页](https://indiemaker.cn/p/docs4dev.html)
+  开发者文档在线浏览及翻译
+
+- **[RunAny](https://github.com/hui-Zz/RunAny)** — 开发者 hui-Zz（杭州） · 浏览器扩展 · 已上线 · 收录 2019-12-19 · [详情页](https://indiemaker.cn/p/runany.html)
+  一劳永逸的快速启动软件，拥有三键启动、一键直达、批量搜索、全局热键、短语输出、热键映射、脚本插件等功能
+
+- **[小书匠](http://soft.xiaoshujiang.com)** — 开发者 suziwen · 文档办公 / 效率工具 / 开发工具 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-849a7f.html)
+  专注于写作的 Markdown 笔记软件，支持多种第三方存储(印象笔记,有道笔记,为知笔记,Github,Gitee等)
+
+- **[我的小目标](https://apps.apple.com/cn/app/id1051212505)** — 开发者 Banny（杭州） · 效率工具 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-9529b7.html)
+  个人积分管理软件，督促用户成为更好的自己
+
+- **[红色工具箱](https://apps.apple.com/cn/app/id1473577627)** — 开发者 Banny（杭州） · 未分类 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-a0a570.html)
+  多个创意实用小工具集合，如肌肉启动，截屏记事，指尖轮盘等
+
+- **[成长日记](https://github.com/imlinhanchao/growth-diary)** — 开发者 Hancel.Lin（深圳） · 开发工具 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-2ca722.html)
+  一个用于记录孩子从出生到现在的成长日记应用，基于 Flutter 开发的跨平台 App。
+
+- **[摸鱼竞技大厅](https://room.adventext.fun/)** — 开发者 Hancel.Lin（深圳） · 开发工具 / 游戏娱乐 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-1936f0.html)
+  休闲游戏竞技大厅，支持多人在线联机游戏，包含多种休闲桌游与棋牌游戏。另外包含完整二次开发接口，可以快速开发出任意多人在线回合制游戏。
+
+- **[WJU Puzzle](https://wju.adventext.fun/)** — 开发者 Hancel.Lin（深圳） · 游戏娱乐 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/wju-puzzle.html)
+  WJU 字母解密游戏，通过 5 种操作规则，解出 WJU 字母序列。
+
+- **[Adventext & 千屿引擎](https://adventext.fun/)** — 开发者 Hancel.Lin（深圳） · 游戏娱乐 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/adventext.html)
+  文字冒险游戏引擎，包含用来创作文字冒险游戏的在线编辑器以及运行游戏的引擎，你可以在这里创作文字冒险游戏，调试运行。然后推送给世界上的任何玩家游玩！
+
+- **[Time 时间胶囊](https://time-pack.com/)** — 开发者 Hancel.Lin（深圳） · 效率工具 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/time.html)
+  封存记忆，送给未来。基于小程序实现的时间胶囊，支持胶囊提醒与赠送胶囊。
+
+- **[Cashflow 钱去哪儿了](https://s.hancel.org/)** — 开发者 Hancel.Lin（深圳） · 效率工具 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/cashflow.html)
+  个人消费交易记录管理分析网站应用，通过同步微信与支付宝对账单，管理个人消费交易数据。
+
+- **[Maze Endless](https://store.steampowered.com/app/2960080)** — 开发者 Hancel.Lin（深圳） · 开发工具 / 游戏娱乐 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/maze-endless.html)
+  基于 Godot 开发的迷宫休闲游戏，从最简单的迷宫开始，逐渐挑战更加复杂的关卡，解开它们的谜团，找到出口。
+
+- **[Vue 国际化开发助手](https://marketplace.visualstudio.com/items?itemName=hancel.front-i18n)** — 开发者 Hancel.Lin（深圳） · 开发工具 / 浏览器扩展 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/vue-cf6ece.html)
+  VSCode 扩展，快速为中文 Vue 项目添加国际化支持。
+
+- **[Sticky Notes](https://github.com/imlinhanchao/sticky_notes)** — 开发者 Hancel.Lin（深圳） · 开发工具 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/sticky-notes.html)
+  Windows 桌面应用，可以用来记录你的工作事项，然后钉在桌面上，随时可以查看修改。
+
+- **[迷宫游戏Maze](https://maze.hancel.org/)** — 开发者 Hancel.Lin（深圳） · 游戏娱乐 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/maze.html)
+  摸鱼小游戏迷宫 Maze，真实体验探索迷宫的乐趣！
+
+- **[Storage Editor](https://chrome.google.com/webstore/detail/lpmmcjhefcghagdhnpbodfdamfmlicfn)** — 开发者 Hancel.Lin（深圳） · 未分类 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/storage-editor.html)
+  网页 LocalStorage 和 SessionStorage 解析与编辑工具。
+
+- **[摸鱼大闯关](https://p.hancel.org/)** — 开发者 Hancel.Lin（深圳） · 社交社区 / 游戏娱乐 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-f0b6e5.html)
+  摸鱼闯关网页解谜游戏，结合了多种计算机技术与计算机社区梗。摸鱼也要学技术！
+
+- **[摸鱼派聊天室 客户端](https://github.com/imlinhanchao/pwl-chat)** — 开发者 Hancel.Lin（深圳） · 社交社区 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-6d51e2.html)
+  摸鱼派聊天室的桌面客户端，摸鱼聊天更方便啦！
+
+- **[摸鱼派聊天室 VSCode 扩展](https://marketplace.visualstudio.com/items?itemName=hancel.pwl-chat)** — 开发者 Hancel.Lin（深圳） · 开发工具 / 浏览器扩展 / 社交社区 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/vscode.html)
+  支持在 VSCode 中摸鱼聊天的扩展应用，开启摸鱼新姿势。 [更多介绍](https://github.com/imlinhanchao/vsc-pwl-chat)
+
+- **[Serial Port Helper](https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper)** — 开发者 Hancel.Lin（深圳） · 开发工具 / 浏览器扩展 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/serial-port-helper.html)
+  VSCode扩展，支持在 VSCode 中连接与调试串口通信。 [更多介绍](https://github.com/imlinhanchao/vsc-serialport-helper)
+
+- **[自考英语查询](https://eng.sxisa.com/)** — 开发者 Hancel.Lin（深圳） · 文档办公 / 教育学习 · 已停止 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-caa15e.html)
+  英语单词查询网站，支持简单的笔记记录
+
+- **[Code Snippet](https://code-snippet.cn/)** — 开发者 Hancel.Lin（深圳） · 开发工具 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/code-snippet.html)
+  代码片段分享网站，类似 Gist，新增了代码在线运行和网页预览的功能
+
+- **[Google 翻译 VSCode 扩展](https://marketplace.visualstudio.com/items?itemName=hancel.google-translate)** — 开发者 Hancel.Lin（深圳） · 浏览器扩展 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/google-vscode.html)
+  基于 Google 翻译的 VSCode 扩展
+
+- **[婚礼邀请函制作工具](http://marry.git.hancel.org/)** — 开发者 Hancel.Lin（深圳） · 未分类 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-7b0d41.html)
+  快速自定义批量制作婚礼邀请函
+
+- **[KeyGenius](https://github.com/imlinhanchao/KeyGenius/releases/download/1.0.2/KeyGenius.exe)** — 开发者 Hancel.Lin（深圳） · 未分类 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/keygenius.html)
+  用来定时按下某个按键。比如 Ctrl + S，免得忘记保存
+
+- **[Librejo 我的书](https://librejo.cn)** — 开发者 Hancel.Lin（深圳） · 文档办公 / 效率工具 · 开发中 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/librejo.html)
+  图书笔记借阅管理的网站
+
+- **[Markdown Image](https://marketplace.visualstudio.com/items?itemName=hancel.markdown-image)** — 开发者 Hancel.Lin（深圳） · 图片工具 / 文档办公 / 浏览器扩展 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/markdown-image.html)
+  VSCode 扩展，直接复制粘贴即可在 Markdown 文件即可插入图片，支持上传到多种图床
+
+- **[微信公众号代码高亮插件](https://chrome.google.com/webstore/detail/kbiedhbfjcadjlajanccenpiicgdbfaf)** — 开发者 Hancel.Lin（深圳） · 开发工具 / 浏览器扩展 · 已上线 · 收录 2019-12-17 · [详情页](https://indiemaker.cn/p/project-69c35c.html)
+  Chrome扩展，可以在公众号文章插入代码高亮，支持多个高亮主题自选，行号和二次编辑
+
+- **[Arya - 在线 Markdown 编辑器](https://markdown.lovejade.cn)** — 开发者 nicejade（ShenZhen） · 文档办公 · 已上线 · 收录 2019-12-09 · [详情页](https://indiemaker.cn/p/arya-markdown.html)
+  基于 Vue、Vditor 所构建的在线 Markdown 编辑器
+
+- **[一撮毛](https://github.com/zoumorn/tkreborn)** — 开发者 zoumorn · 未分类 · 已上线 · 收录 2019-11-27 · [详情页](https://indiemaker.cn/p/project-cabe4b.html)
+  全网最牛自淘返现工具
+
+- **[Ebuoy](https://play.google.com/store/apps/details?id=net.bigzhu.english_buoy)** — 开发者 bigzhu · 音视频 / 教育学习 · 已上线 · 收录 2019-11-24 · [详情页](https://indiemaker.cn/p/ebuoy.html)
+  利用 YouTube 字幕刷视频轻松学习英语的 APP
+
+- **[iBlockly](https://github.com/albuer/iBlockly)** — 开发者 Albuer（FuZhou） · 开发工具 · 已上线 · 收录 2019-11-22 · [详情页](https://indiemaker.cn/p/iblockly.html)
+  基于 Google Blockly 的积木编程软件
+
+- **[网络剪切板](https://oc.to0l.cn/)** — 开发者 ETY001（淄博） · 开发工具 · 已上线 · 收录 2019-11-21 · [详情页](https://indiemaker.cn/p/project-74342b.html)
+  多终端传输文本信息。
+
+- **[温故知新](https://chrome.google.com/webstore/detail/review-bookmarks/oacajkekkegmjcnccaeijghfodogjnom)** — 开发者 ETY001（淄博） · 浏览器扩展 · 已停止 · 收录 2019-11-21 · [详情页](https://indiemaker.cn/p/project-474884.html)
+  帮助你重温或整理书签的 Chrome 浏览器插件
+
+- **[xCoins](https://apps.apple.com/cn/app/id1335320802)** — 开发者 周利刚（杭州） · 未分类 · 已上线 · 收录 2019-11-13 · [详情页](https://indiemaker.cn/p/xcoins.html)
+  迭代比特币私钥,汇总用户币的总价值
+
+- **[足迹中国](https://apps.apple.com/cn/app/id1482250279)** — 开发者 周利刚（杭州） · 生活服务 · 已上线 · 收录 2019-11-13 · [详情页](https://indiemaker.cn/p/project-1c4023.html)
+  用地图截图记录你去过的中国的省市(上架不久,完善中)
+
+- **[假装来电](https://apps.apple.com/cn/app/id1475866564)** — 开发者 周利刚（杭州） · 效率工具 · 已上线 · 收录 2019-11-13 · [详情页](https://indiemaker.cn/p/project-fa7687.html)
+  设置一定时间后,收到虚假的来电,用于逃离某些场合
+
+- **[iStat Widget](https://apps.apple.com/cn/app/id1476638491)** — 开发者 周利刚（杭州） · 未分类 · 已上线 · 收录 2019-11-13 · [详情页](https://indiemaker.cn/p/istat-widget.html)
+  查看硬件信息
+
+- **[问题库](https://questionlib.net/)** — 开发者 lemonTree · 教育学习 · 已上线 · 收录 2019-11-06 · [详情页](https://indiemaker.cn/p/project-f21f9a.html)
+  在线搜索查看试题答案，查看试题解析，讨论试题
+
+- **[文字表情制作器](https://www.coolapk.com/apk/79950)** — 开发者 lemonTree · 未分类 · 已上线 · 收录 2019-11-06 · [详情页](https://indiemaker.cn/p/project-40fd15.html)
+  一键制作文字表情
+
+- **[相见易](http://www.headset.xin/LHS)** — 开发者 何辉（深圳） · 未分类 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/project-e92a32.html)
+  允许用户在手机上、网页上自主设计表单、图表，存储和查询数据、网页与手机端的数据互通（演示用户：13510928305,密码：123456）
+
+- **[自由地呼吸](http://www.headset.xin/freebreath)** — 开发者 何辉（深圳） · 未分类 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/project-97157a.html)
+  呼吸训练、规律动作训练+心事倾述+呼吸康复学堂,用户可定义呼吸训练和计划
+
+- **[街坊情圣](http://www.headset.xin/NLovers)** — 开发者 何辉（深圳） · 音视频 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/project-172000.html)
+  恋爱学堂，包含土味情话、恋爱攻略文章、恋爱专家音频教学、用户关于爱情问题讨论
+
+- **[死亡时间预测](http://www.headset.xin/dieDate)** — 开发者 何辉（深圳） · 效率工具 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/project-74c30b.html)
+  包含死亡时间预测工具、养生知识学堂、每日养生任务计划、定时提醒。
+
+- **[密码生成管理器](http://www.headset.xin/mypassword)** — 开发者 何辉（深圳） · 效率工具 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/project-6f80b5.html)
+  包含云端存储、智能的问题密码的生成、密码搜索、复制、密码期限管理提醒（演示用户：13510920000,密码：123456）
+
+- **[mypassword](https://www.headset.xin/mypassword)** — 开发者 何辉（深圳） · 文档办公 / 效率工具 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/mypassword.html)
+  根据熟悉问题产生的易记且超强密码的生成工具、管理工具。演示用户：13510920000,密码：123456
+
+- **[中国诗人](http://www.headset.xin/tangsongsc)** — 开发者 何辉（深圳） · 未分类 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/project-f73f3b.html)
+  收录80万首，远古、古代、当代、近现代的古诗网站，支持用户上传创作诗词
+
+- **[VR+360全景图展示](http://www.headset.xin/VR)** — 开发者 何辉（深圳） · 未分类 · 已停止 · 收录 2019-10-30 · [详情页](https://indiemaker.cn/p/vr-360.html)
+  360度VR现场模式全景展示卖房案例。支持 Flash 和 H5 两种模式。VR模式需要配带VR设备支持
+
+- **[快海报](https://kuaihaibao.com)** — 开发者 小鱼（北京） · 未分类 · 已上线 · 收录 2019-10-28 · [详情页](https://indiemaker.cn/p/project-38d639.html)
+  小程序分享海报生成服务
+
+- **[历史地图](https://sdmtai.github.io/)** — 开发者 sdmtai（山东） · 生活服务 · 已上线 · 收录 2019-10-26 · [详情页](https://indiemaker.cn/p/project-0a6b5a.html)
+  中国历史疆域地图
+
+- **[DataSciCamp](https://www.datascicamp.com)** — 开发者 土豆（北京） · 未分类 · 已停止 · 收录 2019-10-21 · [详情页](https://indiemaker.cn/p/datascicamp.html)
+  数据科学竞赛题目汇编
+
+- **[markdown-nice](https://mdnice.com/)** — 开发者 mdnice（杭州） · 文档办公 · 已上线 · 收录 2019-10-20 · [详情页](https://indiemaker.cn/p/markdown-nice.html)
+  支持自定义样式的微信 Markdown 排版工具
+
+- **[markdown-resume](https://resume.mdnice.com/)** — 开发者 mdnice（杭州） · 文档办公 · 已上线 · 收录 2019-10-20 · [详情页](https://indiemaker.cn/p/markdown-resume.html)
+  支持 Markdown 和富文本的在线简历排版工具
+
+- **[wordway](https://wordway.thecode.me)** — 开发者 痕迹（深圳） · 文档办公 / 教育学习 / 社交社区 · 已停止 · 收录 2019-10-20 · [详情页](https://indiemaker.cn/p/wordway.html)
+  由社区驱动的背单词应用
+
+- **[创造者日报](https://creatorsdaily.com)** — 开发者 Tengfei（北京） · 未分类 · 已停止 · 收录 2019-10-18 · [详情页](https://indiemaker.cn/p/project-be1ad9.html)
+  每天发现一款有趣产品
+
+- **[微信公众号 Markdown 编辑器](https://prod.zkqiang.cn/wxeditor)** — 开发者 zkqiang · 文档办公 · 已上线 · 收录 2019-10-17 · [详情页](https://indiemaker.cn/p/markdown-1cdccd.html)
+  将 Markdown 转换为微信公众号文章的在线编辑器
+
+- **[中国古典颜色手册](https://colors.ichuantong.cn/)** — 开发者 zerosoul · 未分类 · 已上线 · 收录 2019-10-13 · [详情页](https://indiemaker.cn/p/project-2fdfde.html)
+  中国古典颜色的在线网站
+
+- **[微信小程序-数独之光](https://www.jianshu.com/p/7a9e970dab2a)** — 开发者 Maxwell · 游戏娱乐 · 已上线 · 收录 2019-10-09 · [详情页](https://indiemaker.cn/p/project-47cee6.html)
+  经典益智数字游戏数独
+
+- **[星文 - Xstar News](https://xstar.news/#/)** — 开发者 zhshch2002 · 未分类 · 已停止 · 收录 2019-10-07 · [详情页](https://indiemaker.cn/p/xstar-news.html)
+  有理想的~~划水~~独立创作博客聚合网站
+
+- **[nothingblock](https://github.com/dorjmi/nothingblock)** — 开发者 dorjmi · 未分类 · 已停止 · 收录 2019-09-30 · [详情页](https://indiemaker.cn/p/nothingblock.html)
+  屏蔽网页多余元素, 还你一个干净的世界
+
+- **[极简待办](https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E5%BE%85%E5%8A%9E-%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%E7%8A%B6%E6%80%81%E6%A0%8F%E5%BE%85%E5%8A%9E%E5%B7%A5%E5%85%B7/id1454209103?mt=12)** — 开发者 dylan（深圳） · 效率工具 · 已停止 · 收录 2019-09-12 · [详情页](https://indiemaker.cn/p/project-64e5fe.html)
+  轻量极的状态栏待办工具
+
+- **[积木](https://apps.apple.com/cn/app/id1390979359)** — 开发者 Meilbn（杭州） · 生活服务 · 已上线 · 收录 2019-09-06 · [详情页](https://indiemaker.cn/p/project-dd38ee.html)
+  简约而不简单的记账应用
+
+- **[FrameWork](https://apps.apple.com/cn/app/id1412383595)** — 开发者 Meilbn（杭州） · 未分类 · 已上线 · 收录 2019-09-06 · [详情页](https://indiemaker.cn/p/framework.html)
+  支持多尺寸、多机型的带壳截屏工具
+
+- **[uPic](https://github.com/gee1k/uPic)** — 开发者 Svend（苏州） · 未分类 · 已上线 · 收录 2019-09-05 · [详情页](https://indiemaker.cn/p/upic.html)
+  简洁的 Mac 图床客户端 uPic
+
+- **[在线工具 - OKTools](https://oktools.net)** — 开发者 wangyiwy（重庆） · 图片工具 / 效率工具 / 开发工具 · 已停止 · 收录 2019-08-20 · [详情页](https://indiemaker.cn/p/oktools.html)
+  程序开发在线工具站。主要有 JSON 格式化、Unix 时间戳转换、Base64 编码、加密解密、图片压缩、IP 查询、Hash计算、JSON转Go、JSON转XML、WebSocket测试等20多个工具
+
+- **[Forget](https://apps.apple.com/cn/app/id1448659423)** — 开发者 hujianhang（Beijing） · 效率工具 · 已停止 · 收录 2019-08-20 · [详情页](https://indiemaker.cn/p/forget.html)
+  时间管理软件
+
+- **[GRLib](https://www.grlib.com/)** — 开发者 weilaihui（成都） · 开发工具 · 已停止 · 收录 2019-08-18 · [详情页](https://indiemaker.cn/p/grlib.html)
+  收藏优质 GitHub 项目
+
+- **[新趣集](https://xinquji.com)** — 开发者 Kiddyu（保定） · 社交社区 · 已上线 · 收录 2019-08-11 · [详情页](https://indiemaker.cn/p/project-a72153.html)
+  互联网新产品发现社区，36kr next 的替代品
+
+- **[独角兽排行](https://dujiaoshou.io)** — 开发者 Kiddyu（保定） · 未分类 · 已停止 · 收录 2019-08-11 · [详情页](https://indiemaker.cn/p/project-e10e8a.html)
+  全球独角兽企业榜单与招聘
+
+- **[Research](http://www.suiyuanka.com/?q=%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85)** — 开发者 Andy · 未分类 · 已停止 · 收录 2019-08-01 · [详情页](https://indiemaker.cn/p/research.html)
+  快速搜索相关内容
+
+- **[橙子简历](https://wonderfulcv.com)** — 开发者 fancy · 文档办公 · 已停止 · 收录 2019-08-01 · [详情页](https://indiemaker.cn/p/project-0faf25.html)
+  在线简历制作网站-制作简历，告别word排版
+
+- **[gitpyman](https://github.com/625781186/gitpyman)** — 开发者 625781186 · 效率工具 / 开发工具 · 开发中 · 收录 2019-07-23 · [详情页](https://indiemaker.cn/p/gitpyman.html)
+  管理备注 Github 的桌面程序(用PyQt5写的)
+
+- **[又开车了](https://liudanking.com/wp-content/uploads/2019/07/qrcode_for_gh_110358ae70f0_258.jpg)** — 开发者 liudanking · 音视频 · 已上线 · 收录 2019-07-22 · [详情页](https://indiemaker.cn/p/project-ed9671.html)
+  汽车类视频节目聚合订阅微信服务号
+
+- **[小合集](https://ebooki.cn/)** — 开发者 Montisan · 教育学习 · 已停止 · 收录 2019-07-11 · [详情页](https://indiemaker.cn/p/project-e7c5c3.html)
+  聚合公众号文章精选合集阅读
+
+- **[WhereMyLife](https://wheremylife.cn)** — 开发者 Benb · 教育学习 / 免费工具 · 已上线 · 收录 2019-07-10 · [详情页](https://indiemaker.cn/p/wheremylife.html)
+  在 Kindle 上阅读 RSS，每天把最新文章推送给你。完全免费，支持添加自己的订阅源
+
+- **[今日热榜](https://tophub.today/)** — 开发者 ieliwb · 未分类 · 已上线 · 收录 2019-07-10 · [详情页](https://indiemaker.cn/p/project-c7cd3a.html)
+  聚合全网新闻头条热点排行榜
+
+- **[MySlide](https://myslide.cn)** — 开发者 Winterfell（上海） · 文档办公 · 已停止 · 收录 2019-07-03 · [详情页](https://indiemaker.cn/p/myslide.html)
+  类似 SlideShare 和 SpeakerDeck 的 PPT 分享站
+
+- **[Data Science Challenge / Competition Deadlines](https://iphysresearch.github.io/DataSciComp/)** — 开发者 土豆（北京） · 未分类 · 已停止 · 收录 2019-06-24 · [详情页](https://indiemaker.cn/p/data-science-challenge-competition-deadlines.html)
+  数据科学赛题汇编+赛题注册倒计时
+
+- **[把Kindle笔记导出成纯文本](https://tools.jiajunhuang.com/)** — 开发者 jiajunhuang（深圳） · 文档办公 · 已停止 · 收录 2019-06-23 · [详情页](https://indiemaker.cn/p/kindle.html)
+  一键将 Kindle 笔记导出成纯文本，方便编辑成 markdown 等
+
+- **[呼吸里（Breathin）](https://apps.apple.com/cn/app/%E5%91%BC%E5%90%B8%E9%87%8C/id1468461396)** — 开发者 Taufook（珠海） · 未分类 · 已停止 · 收录 2019-06-19 · [详情页](https://indiemaker.cn/p/breathin.html)
+  简洁轻量的深呼吸练习 App
+
+- **[极简翻页时钟（Zen Flip Clock）](https://itunes.apple.com/us/app/zen-flip-clock/id1265404088?l=zh&ls=1&mt=8)** — 开发者 vulgur · 免费工具 · 已停止 · 收录 2019-06-05 · [详情页](https://indiemaker.cn/p/zen-flip-clock.html)
+  免费无广告的极简主义翻页钟&番茄钟 app
+
+- **[TOP5优势测试](https://tva1.sinaimg.cn/large/007rAy9hgy1g3ofb94rtfj325s0m8wis.jpg)** — 开发者 Maxwell · 未分类 · 已上线 · 收录 2019-06-04 · [详情页](https://indiemaker.cn/p/top5.html)
+  微信小程序，发现个人TOP5的优势
+
+- **[WeChatAssistant](https://github.com/LvDunn/WeChatAssistant#%E5%9B%9B%E4%B8%8B%E8%BD%BD)** — 开发者 LvDunn（Beijing） · 未分类 · 已上线 · 收录 2019-05-28 · [详情页](https://indiemaker.cn/p/wechatassistant.html)
+  微信关键词回复、多群群发的软件
+
+- **[卡片夹](https://www.coolapk.com/apk/204800)** — 开发者 Chrissen（Shanghai） · 未分类 · 已上线 · 收录 2019-05-28 · [详情页](https://indiemaker.cn/p/project-32bafb.html)
+  整理你的碎片信息
+
+- **[成都房源分析](https://cdfangyuan.cn)** — 开发者 yhlben（成都） · 未分类 · 已停止 · 收录 2019-05-23 · [详情页](https://indiemaker.cn/p/project-0866a3.html)
+  根据成都最新摇号房源，可视化数据分析
+
+- **[mezw搜索](https://so.mezw.com)** — 开发者 mezw · 未分类 · 已停止 · 收录 2019-05-21 · [详情页](https://indiemaker.cn/p/mezw.html)
+  聚合搜索引擎网站
+
+- **[emoji短网址](https://e.mezw.com)** — 开发者 mezw · 未分类 · 已停止 · 收录 2019-05-21 · [详情页](https://indiemaker.cn/p/emoji-61e65b.html)
+  将网址变成一串带 Emoji 表情的链接
+
+- **[PS投影转换为CSS3工具](https://psd2css.mezw.com)** — 开发者 mezw · 开发工具 · 已停止 · 收录 2019-05-21 · [详情页](https://indiemaker.cn/p/ps-css3.html)
+  设计师可利用它快速提供实现PS图层投影效果的 CSS3 代码
+
+- **[Project Eye](https://github.com/Planshit/ProjectEye/releases)** — 开发者 Little Panda · 效率工具 / 开发工具 · 已上线 · 收录 2019-05-21 · [详情页](https://indiemaker.cn/p/project-eye.html)
+  基于20-20-20规则的用眼休息提醒 Windows 软件
+
+- **[APP不释手](https://pujivideo.neocities.org/app/)** — 开发者 Fly Lewis（广州） · 未分类 · 已上线 · 收录 2019-05-13 · [详情页](https://indiemaker.cn/p/app-ed0298.html)
+  iOS 应用推荐及吐槽小程序
+
+- **[open source jobs](https://oo.t9t.io/jobs)** — 开发者 timqian · 免费工具 · 已停止 · 收录 2019-05-01 · [详情页](https://indiemaker.cn/p/open-source-jobs.html)
+  为开源项目工作并获得报酬
+
+- **[闪电词典](https://play.google.com/store/apps/details?id=com.wingtech.quicklearnersdictionary)** — 开发者 YuzhouZhang（杭州） · 未分类 · 已停止 · 收录 2019-04-29 · [详情页](https://indiemaker.cn/p/project-5ce776.html)
+  取词最快的英英词典！
+
+- **[WorkBase](https://github.com/wanglian/workbase-server)** — 开发者 wanglian · 未分类 · 已上线 · 收录 2019-04-28 · [详情页](https://indiemaker.cn/p/workbase.html)
+  让企业和个人构建开放安全的通信服务
+
+- **[VNote](https://tamlok.github.io/vnote)** — 开发者 tamlok · 文档办公 / 开发工具 · 已停止 · 收录 2019-04-27 · [详情页](https://indiemaker.cn/p/vnote.html)
+  更懂程序员和 Markdown 的跨平台笔记软件！
+
+- **[Hash Calculator](https://github.com/a188037445/Hash-Calculator)** — 开发者 a188037445 · 未分类 · 已停止 · 收录 2019-04-26 · [详情页](https://indiemaker.cn/p/hash-calculator.html)
+  极速哈希计算器
+
+- **[Githuber](https://chrome.google.com/webstore/detail/githuber-%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/janmcneaglgklfljjcpihkkomeghljnf)** — 开发者 zhuowenli · 开发工具 / 浏览器扩展 · 已上线 · 收录 2019-04-22 · [详情页](https://indiemaker.cn/p/githuber.html)
+  帮助 GitHub 开发者每日发现优质内容的 Chrome 主页拓展
+
+- **[块语言](https://blocklang.com)** — 开发者 xiaohulu · 未分类 · 已停止 · 收录 2019-04-20 · [详情页](https://indiemaker.cn/p/project-1a8844.html)
+  软件拼装平台
+
+- **[RutHub](https://ruthub.com/)** — 开发者 danloh · 未分类 · 已停止 · 收录 2019-04-19 · [详情页](https://indiemaker.cn/p/ruthub.html)
+  按主题收集好东西及分享的地方(由豆瓣豆列启发)
+
+- **[思诗 - 诗歌壁纸桌面](https://itunes.apple.com/cn/app/id1416483550)** — 开发者 whbalzac · 图片工具 · 已上线 · 收录 2019-04-17 · [详情页](https://indiemaker.cn/p/project-a06f18.html)
+  Mac端、诗歌壁纸
+
+- **[爱美剧Mac客户端](https://github.com/imeiju/iMeiJu_Mac)** — 开发者 iizvv · 未分类 · 已上线 · 收录 2019-04-16 · [详情页](https://indiemaker.cn/p/mac-fb21a3.html)
+  爱美剧Mac客户端
+
+- **[iw3cplus](http://www.xiayuze.com/wxtools/w3cplus.jpg)** — 开发者 yuzexia（上海） · 社交社区 · 已停止 · 收录 2019-04-15 · [详情页](https://indiemaker.cn/p/iw3cplus.html)
+  前端社区 w3cplus 的小程序
+
+- **[相照（Timeflower）](https://itunes.apple.com/cn/app/id1436035479)** — 开发者 zgjie · 图片工具 / 开发工具 · 已上线 · 收录 2019-04-14 · [详情页](https://indiemaker.cn/p/timeflower.html)
+  轻松整理照片，支持iOS，iPadOS，macOS
+
+- **[Interactive Math Pad](https://github.com/jingkecn/interactive-math-pad-android/releases)** — 开发者 pianoguy（法國·南特） · 未分类 · 已上线 · 收录 2019-04-13 · [详情页](https://indiemaker.cn/p/interactive-math-pad.html)
+  數學公式手寫板（Android，支持導出 LaTex & Math ML，PS：復刻下架應用 MyScript MathPad）
+
+- **[HitUP](https://chrome.google.com/webstore/detail/hitup/eiokaohkigpbonodjcbjpecbnccijkjb)** — 开发者 wonderbeyond · 浏览器扩展 · 已停止 · 收录 2019-04-12 · [详情页](https://indiemaker.cn/p/hitup.html)
+  Chrome 扩展，利用 New Tab “空白页” 助您保持对流行技术趋势的跟进，附带小福利
+
+- **[Chrome 插件英雄榜](https://github.com/zhaoolee/ChromeAppHeroes)** — 开发者 zhaoolee · 浏览器扩展 · 已上线 · 收录 2019-04-12 · [详情页](https://indiemaker.cn/p/chrome.html)
+  🌈 为优秀的 Chrome 插件写一本中文说明书, 让 Chrome 插件英雄们造福人类~
+
+- **[小度涂鸦](https://www.coolapk.com/apk/188947)** — 开发者 nwsuafzq · 未分类 · 已停止 · 收录 2019-04-12 · [详情页](https://indiemaker.cn/p/project-296894.html)
+  安卓版的涂鸦软件
+
+- **[I Remember!](https://itunes.apple.com/cn/app/id1449941592)** — 开发者 waningflow · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/i-remember.html)
+  纪念日应用，让你轻松回答“XX恋爱520天是几月几号”此类问题
+
+- **[Logo Generator](https://tools.waningflow.com/logo-generate)** — 开发者 waningflow · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/logo-generator.html)
+  可以快速生成类似 YouTube logo 的网站
+
+- **[Flexbooru](https://play.google.com/store/apps/details?id=onlymash.flexbooru.play)** — 开发者 onlymash · 图片工具 / 开发工具 / 免费工具 · 已上线 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/flexbooru.html)
+  兼容 [Danbooru](https://github.com/r888888888/danbooru)、[Moebooru](https://github.com/moebooru/moebooru) 和 Gelbooru 等图版引擎的开源 Android 客户端，支持 Muzei 壁纸
+
+- **[那样记账](https://www.coolapk.com/apk/188475)** — 开发者 Bakumon · 生活服务 · 已上线 · 收录 2019-04-10 · [详情页](https://indiemaker.cn/p/project-71073e.html)
+  简单纯粹的 Android 端记账应用，旨在以简单的方式让用户慢慢建立起良好的消费习惯
+
+- **[Readhub+](https://www.coolapk.com/apk/217734)** — 开发者 Marno · 未分类 · 已停止 · 收录 2019-04-10 · [详情页](https://indiemaker.cn/p/readhub.html)
+  可能是目前为止最好用的第三方 Readhub 客户端
+
+- **[宝贝成长助理小程序](https://refined-x.com/asset/baby_assistant.png)** — 开发者 tower1229 · 生活服务 · 已上线 · 收录 2019-04-10 · [详情页](https://indiemaker.cn/p/project-8168d9.html)
+  引用世界卫生组织儿童生长标准数据，辅助衡量宝宝的成长健康状态
+
+- **[Grape for GitHub](https://itunes.apple.com/app/apple-store/id1371929193?mt=8)** — 开发者 DerekCoder · 开发工具 · 已停止 · 收录 2019-04-09 · [详情页](https://indiemaker.cn/p/grape-for-github.html)
+  简洁且功能强大的 GitHub 客户端
+
+- **[Quicker](https://getquicker.net)** — 开发者 cuiliang（BeiJing） · 开发工具 · 已上线 · 收录 2019-04-09 · [详情页](https://indiemaker.cn/p/quicker.html)
+  Windows 上的捷径
+
+- **[份子记账](https://itunes.apple.com/cn/app/id1244522074?mt=8)** — 开发者 biqinglin（Shanghai） · 生活服务 · 已停止 · 收录 2019-04-09 · [详情页](https://indiemaker.cn/p/project-be455c.html)
+  专属于中国人的份子钱情结
+
+- **[诗雨](https://itunes.apple.com/cn/app/id1193114042)** — 开发者 Steven_Zhang · 生活服务 · 已停止 · 收录 2019-03-25 · [详情页](https://indiemaker.cn/p/project-e9bb33.html)
+  有声有色有韵味的天气
+
+- **[日课](https://itunes.apple.com/cn/app/id984957369)** — 开发者 Steven_Zhang · 未分类 · 已上线 · 收录 2019-03-25 · [详情页](https://indiemaker.cn/p/project-e9b644.html)
+  给每一位好读诗的人
+
+- **[墨客·诗](https://itunes.apple.com/cn/app/id992382043)** — 开发者 Steven_Zhang · 未分类 · 已停止 · 收录 2019-03-25 · [详情页](https://indiemaker.cn/p/project-284857.html)
+  传承中国传统文化
+
+- **[百变时钟](https://itunes.apple.com/cn/app/id1434282577)** — 开发者 Steven_Zhang · 未分类 · 已上线 · 收录 2019-03-25 · [详情页](https://indiemaker.cn/p/project-3890b2.html)
+  选一款您中意的时钟
+
+- **[tomato-pie](https://chrome.google.com/webstore/detail/tomato-pie/gffgechdocgfajkbpinmjjjlkjfjampi)** — 开发者 timqian · 未分类 · 已停止 · 收录 2019-03-25 · [详情页](https://indiemaker.cn/p/tomato-pie.html)
+  番茄工作法的一种新的 UI 尝试
+
+- **[工大导航](https://brenner8023.github.io)** — 开发者 brenner · 未分类 · 已停止 · 收录 2019-03-23 · [详情页](https://indiemaker.cn/p/project-9f6a5b.html)
+  一个帮助大家拓展知识面的导航站点
+
+- **[图书馆座位自动预约软件](https://github.com/CS-Tao/whu-library-seat)** — 开发者 CS-Tao（武汉） · 未分类 · 已上线 · 收录 2019-03-07 · [详情页](https://indiemaker.cn/p/project-f93fb9.html)
+  定时预约图书馆座位
+
+- **[implode.io](https://implode.io/)** — 开发者 z-song（上海） · 开发工具 · 已停止 · 收录 2019-03-05 · [详情页](https://indiemaker.cn/p/implode-io.html)
+  在线运行、记录、分享 PHP 代码的网站
+
+- **[SteveScratchC](https://www.github.com/Steve-xmh/SteveScratchC)** — 开发者 Steve-xmh（深圳） · 开发工具 · 开发中 · 收录 2019-03-04 · [详情页](https://indiemaker.cn/p/stevescratchc.html)
+  用C语言编写的Scratch编辑器 [更多介绍](https://Steve-xmh.github.io/SSCDoc)
+
+- **[易易时间钟](http://www.9192631770.com/)** — 开发者 Eureka Chen · 效率工具 · 已停止 · 收录 2019-03-04 · [详情页](https://indiemaker.cn/p/project-838653.html)
+  集传统节气、星座、天干地支计时为一体的是间钟
+
+- **[彩色易经](https://eeeeee.org/e)** — 开发者 Eureka Chen · 未分类 · 已停止 · 收录 2019-03-04 · [详情页](https://indiemaker.cn/p/project-da03b7.html)
+  群经之首，大道之源
+
+- **[易易网址](https://eeurl.com)** — 开发者 Eureka Chen · 未分类 · 已停止 · 收录 2019-03-04 · [详情页](https://indiemaker.cn/p/project-dd359f.html)
+  既能像短网址一样简化您的网址，也能像pastebin一样记载您的文本，并且可自定义短网址文本。
+
+- **[有为法](https://youweifa.com)** — 开发者 Perchouli · 效率工具 · 已上线 · 收录 2019-02-28 · [详情页](https://indiemaker.cn/p/project-064282.html)
+  企业或机构制作内部报告（管理会计报告）的应用
+
+- **[Meazhi](http://meazhi.com)** — 开发者 Perchouli · 开发工具 / 生活服务 · 已停止 · 收录 2019-02-28 · [详情页](https://indiemaker.cn/p/meazhi.html)
+  PostGis 和 OSM 瓦片服务器制作的中国历史地图
+
+- **[中国色](http://zhongguose.com)** — 开发者 Perchouli · 未分类 · 已上线 · 收录 2019-02-28 · [详情页](https://indiemaker.cn/p/project-05d9f9.html)
+  《色谱》颜色整理
+
+- **[XorPay.com 个人支付平台](https://xorpay.com)** — 开发者 Yang（广州） · 开发工具 · 已上线 · 收录 2019-02-27 · [详情页](https://indiemaker.cn/p/xorpay-com.html)
+  个人可用的微信支付接口，支持 NATIVE/JSAPI/收银台/小程序等支付方式，资金由微信官方T+1结算自动下发个人银行卡
+
+- **[EASY](https://itunes.apple.com/cn/app/id1390326774)** — 开发者 Nine（深圳） · 图片工具 / 教育学习 · 已上线 · 收录 2019-02-23 · [详情页](https://indiemaker.cn/p/easy.html)
+  基于机器学习智能整理手机照片
+
+- **[校园助手 - 属于你我的校园助手](https://itunes.apple.com/cn/app/id1164848835)** — 开发者 Nine（深圳） · 教育学习 · 已停止 · 收录 2019-02-23 · [详情页](https://indiemaker.cn/p/project-89b464.html)
+  校园课程查询软件
+
+- **[iOS app: Info It](https://itunes.apple.com/cn/app/info-it-%E9%80%9A%E8%BF%87%E5%88%86%E4%BA%AB%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%94%B5%E5%BD%B1-%E4%B9%A6%E7%B1%8D%E4%BF%A1%E6%81%AF/id1178446966?l=en&mt=8)** — 开发者 o1xhack（Seattle&上海） · 浏览器扩展 · 已停止 · 收录 2019-02-02 · [详情页](https://indiemaker.cn/p/ios-app-info-it.html)
+  利用 iOS 分享插件在任意地方快速搜索电影/图书相关信息
+
+- **[iOS app: Coffee It](https://itunes.apple.com/cn/app/coffee-it-record-caffeine/id1216049514?l=en&mt=8)** — 开发者 o1xhack（Seattle&上海） · 开发工具 · 已上线 · 收录 2019-02-02 · [详情页](https://indiemaker.cn/p/ios-app-coffee-it.html)
+  记录追踪每日咖啡因摄入量，内置数据库
+
+- **[AlgoCasts](https://algocasts.io)** — 开发者 Hawstein（北京） · 音视频 · 已上线 · 收录 2019-01-17 · [详情页](https://indiemaker.cn/p/algocasts.html)
+  简明、轻松、易懂的算法教学视频
+
+- **[Super-inspire](https://github.com/super-inspire/super-inspire-end)** — 开发者 Cat.1&hileix（HuZhou University&上海） · 开发工具 · 已上线 · 收录 2019-01-14 · [详情页](https://indiemaker.cn/p/super-inspire.html)
+  在不到30秒内得到一个干净的开箱即用的临时Linux系统
+
+- **[简单天气](http://domain.jiandan.live/weather.html)** — 开发者 Tomxin7（桂林） · 效率工具 / 生活服务 · 已停止 · 收录 2019-01-10 · [详情页](https://indiemaker.cn/p/project-e3dcd2.html)
+  不佳天气主动提醒
+
+- **[image-conversion](http://www.wangyulue.com/assets/image-comversion/example/index.html)** — 开发者 WangYuLue（Shanghai） · 图片工具 · 已停止 · 收录 2018-12-25 · [详情页](https://indiemaker.cn/p/image-conversion.html)
+  在线图片压缩，可指定图片大小压缩图片
+
+- **[Zilch Editor](https://github.com/AlexJason/Zilch-Editor)** — 开发者 Alex Cui（上海） · 开发工具 · 开发中 · 收录 2018-12-20 · [详情页](https://indiemaker.cn/p/zilch-editor.html)
+  使用 C++ 开发的 Scratch 编辑器(少儿编程工具)
+
+- **[Source Player](https://circleapps.co)** — 开发者 Minsc（北京） · 音视频 / 教育学习 · 已上线 · 收录 2018-12-20 · [详情页](https://indiemaker.cn/p/source-player.html)
+  为英语学习者设计的视频播放器
+
+- **[WeAre](https://itunes.apple.com/cn/app/weare/id1304227680?mt=8)** — 开发者 HeiKki（Beijing） · 免费工具 · 已上线 · 收录 2018-12-05 · [详情页](https://indiemaker.cn/p/weare.html)
+  AR 相册 (iOS 开源 App)
+
+- **[永恒之墙](https://eternitywall.cn)** — 开发者 Mervyn Chou（Wuhan） · 未分类 · 已停止 · 收录 2018-12-05 · [详情页](https://indiemaker.cn/p/project-94138f.html)
+  在一堵永恒之墙（比特币主链）上的永恒留言
+
+- **[Mini GitHub](https://user-images.githubusercontent.com/15965696/47959988-d2864d80-e02c-11e8-8c39-dac879bad3d6.jpg)** — 开发者 kezhenxu94 · 开发工具 · 已上线 · 收录 2018-11-04 · [详情页](https://indiemaker.cn/p/mini-github.html)
+  一个全功能的 GitHub 小程序
+
+- **[微信公众号导航](http://wx.dreamthere.com)** — 开发者 zllz5230 · 未分类 · 已停止 · 收录 2018-10-23 · [详情页](https://indiemaker.cn/p/project-9c1cb7.html)
+  推荐优质的微信公众号和文章
+
+- **[云舒课表](https://www.coolapk.com/apk/top.itning.yunshuclassschedule)** — 开发者 itning · 效率工具 / 教育学习 · 已停止 · 收录 2018-10-11 · [详情页](https://indiemaker.cn/p/project-9664c9.html)
+  遵循 Material Design 的课程表APP，包含课程提醒，上课自动静音等实用功能
+
+- **[HiPrice](https://github.com/kwf2030/hiprice-chatbot)** — 开发者 kwf2030 · 效率工具 · 已上线 · 收录 2018-10-08 · [详情页](https://indiemaker.cn/p/hiprice.html)
+  用微信机器人（个人号）实现的商品涨价/降价提醒服务，支持主流电商平台。快来看看你想要的商品双十一是不是先涨价再降价。
+
+- **[今日装](https://itunes.apple.com/cn/app/jin-ri-zhuang-yi-chu-guan/id983491903)** — 开发者 Yaou · 效率工具 · 已上线 · 收录 2018-09-28 · [详情页](https://indiemaker.cn/p/project-ae46fd.html)
+  面向女性的衣橱管理应用
+
+- **[行动日](https://itunes.apple.com/cn/app/tododay-reminders-tasks-list/id1409990634?mt=8)** — 开发者 okjaketo · 效率工具 · 已上线 · 收录 2018-09-13 · [详情页](https://indiemaker.cn/p/project-ef9be3.html)
+  以"日"为基础，包含"不办清单"的，助您效率提升的待办事项清单类应用
+
+- **[playerdemo](https://github.com/itisyang/playerdemo)** — 开发者 itisyang · 音视频 / 教育学习 / 免费工具 · 已上线 · 收录 2018-09-13 · [详情页](https://indiemaker.cn/p/playerdemo.html)
+  视频播放器，开源版 potplayer ，用于学习和交流
+
+- **[东方符斗祭](http://thbattle.net)** — 开发者 feisuzhu · 游戏娱乐 · 已上线 · 收录 2018-09-11 · [详情页](https://indiemaker.cn/p/project-cb1e90.html)
+  Python 写的卡牌游戏，规则基本是三国杀的规则，有修改，人物设定取自东方 Project，技能设定大多是自己做的，少量复刻原版三国杀
+
+- **[前端导航](https://yhlben.github.io/front-end-navigation/)** — 开发者 yhlben · 未分类 · 已停止 · 收录 2018-09-09 · [详情页](https://indiemaker.cn/p/project-ab6105.html)
+  简洁直观的前端导航
+
+- **[时光里程表小程序](http://w3cay.com/post/1be3071d.html)** — 开发者 安望云海 · 效率工具 · 已上线 · 收录 2018-08-30 · [详情页](https://indiemaker.cn/p/project-b9e2ef.html)
+  重要时间记录小程序
+
+- **[群名大全小程序](http://w3cay.com/post/e265e1ee.html)** — 开发者 安望云海 · 未分类 · 已上线 · 收录 2018-08-30 · [详情页](https://indiemaker.cn/p/project-1b6123.html)
+  各种霸气逗逼文艺微信群名聚集地
+
+- **[OpenWebMonitor 网空网页监控器](http://openwebmonitor.netqon.com/)** — 开发者 fateleak · 游戏娱乐 · 已停止 · 收录 2018-08-30 · [详情页](https://indiemaker.cn/p/openwebmonitor.html)
+  监控网页内特定区域变化（商品物价优惠、幼儿园报名通知、Steam游戏打折等）含 Email 通知
+
+- **[谜语猜](http://miyucai.com)** — 开发者 emenwin · 未分类 · 已上线 · 收录 2018-08-16 · [详情页](https://indiemaker.cn/p/project-17af89.html)
+  猜谜语大全 侦探智力谜题[【iOS 版】](https://itunes.apple.com/cn/app/id683944940?mt=8) [【Android 版】](http://a.app.qq.com/o/simple.jsp?pkgname=com.cnspirit.android.miyucai)
+
+- **[irreader](http://irreader.netqon.com/)** — 开发者 fateleak · 教育学习 · 已停止 · 收录 2018-08-13 · [详情页](https://indiemaker.cn/p/irreader.html)
+  网空RSS阅读器
+
+- **[火星首页](https://www.goto-mars.com/)** — 开发者 Thomas94 · 未分类 · 已上线 · 收录 2018-07-30 · [详情页](https://indiemaker.cn/p/project-bbfad4.html)
+  漂亮的首页，以及完全可自定义的导航站点和云端收藏夹服务
+
+- **[Killcoding](http://killcoding.com/)** — 开发者 Jack Yip · 开发工具 · 已停止 · 收录 2018-07-26 · [详情页](https://indiemaker.cn/p/killcoding.html)
+  无需编程开发 Web 应用程序
+
+- **[ERC20 Token Exchagne](https://wanglingsong.github.io/ERC20ExchangeReactUI/)** — 开发者 Wang Lingsong · 浏览器扩展 · 已停止 · 收录 2018-07-10 · [详情页](https://indiemaker.cn/p/erc20-token-exchagne.html)
+  基于以太坊的去中心化 ERC20 代币交易所应用（需先安装 Chrome 扩展，请看更多介绍）
+
+- **[metools](https://tools.yimo.link/#/home)** — 开发者 易墨 · 文档办公 · 已上线 · 收录 2018-07-10 · [详情页](https://indiemaker.cn/p/metools.html)
+  工具集（base64转码，markdown转HTML，二维码生成和识别，数字转人民币大写（壹佰贰拾叁元整）等）
+
+- **[图文进化论](http://mp.millionshow.cn/)** — 开发者 王文杰 · 未分类 · 已停止 · 收录 2018-07-06 · [详情页](https://indiemaker.cn/p/project-f55c06.html)
+  记录美好图文（微信访问）
+
+- **[ZKEACMS](http://www.zkea.net/zkeacms/zkeacmscore)** — 开发者 魏焜榕 · 未分类 · 已上线 · 收录 2018-07-06 · [详情页](https://indiemaker.cn/p/zkeacms.html)
+  可视化设计CMS，在线编辑网站
+
+- **[Facemoji 废萌](https://play.google.com/store/apps/details?id=com.huihut.facemoji)** — 开发者 huihut · 音视频 / 开发工具 / 社交社区 · 已上线 · 收录 2018-07-06 · [详情页](https://indiemaker.cn/p/facemoji.html)
+  一个可以模仿你的表情的语音聊天机器人- [更多介绍](https://blog.huihut.com/2018/02/08/Facemoji1/), [更多介绍2](https://github.com/huihut/Facemoji)
+
+- **[中医方歌](https://app.mi.com/details?id=com.cjz.PrescriptionPoem)** — 开发者 cjztool · 教育学习 · 已上线 · 收录 2018-07-06 · [详情页](https://indiemaker.cn/p/project-c02b9e.html)
+  中医《方剂学》学习工具
+
+- **[手绘微课Pro](https://17up.org/)** — 开发者 Bill · 音视频 · 已停止 · 收录 2018-07-04 · [详情页](https://indiemaker.cn/p/pro-27862c.html)
+  语音及笔迹录制工具，简单在线制作微课
+
+- **[手绘微课Pro 小程序](https://minapp.com/miniapp/2554/)** — 开发者 Bill · 图片工具 / 音视频 · 已上线 · 收录 2018-07-04 · [详情页](https://indiemaker.cn/p/pro-a6a1cc.html)
+  语音+手写笔迹+图片+视频制作微课，可导出 mp4
+
+- **[techattic](https://techattic.herokuapp.com/)** — 开发者 alphardex · 未分类 · 已停止 · 收录 2018-06-30 · [详情页](https://indiemaker.cn/p/techattic.html)
+  聚集了许多 IT 技术博客的网站
+
+- **[铜钟音乐](https://tonzhon.com)** — 开发者 enzeberg（上海） · 音视频 · 已上线 · 收录 2018-06-26 · [详情页](https://indiemaker.cn/p/project-42b496.html)
+  将QQ音乐、网易云音乐和酷我音乐上的歌添加到一个列表来播放！- [更多介绍](https://creatorsdaily.com/e4bd2175-4cb0-4061-86b8-7f419767b615)
+
+- **[Z直播](https://www.coolapk.com/apk/com.linroid.zlive)** — 开发者 linroid · 音视频 · 已停止 · 收录 2018-06-26 · [详情页](https://indiemaker.cn/p/z.html)
+  一个 APP 看多个平台的直播，流畅、纯净、无广告
+
+- **[看应用](https://www.coolapk.com/apk/com.linroid.viewit)** — 开发者 linroid · 图片工具 · 已停止 · 收录 2018-06-26 · [详情页](https://indiemaker.cn/p/project-024095.html)
+  可以找到应用缓存的所有图片，可以很方便地提取资源
+
+- **[临时邮](https://itunes.apple.com/cn/app/%E4%B8%B4%E6%97%B6%E9%82%AE-%E5%8D%81%E5%88%86%E9%92%9F%E9%82%AE%E7%AE%B1/id1342693449?mt=8)** — 开发者 xiaobaiso · 未分类 · 已停止 · 收录 2018-06-26 · [详情页](https://indiemaker.cn/p/project-bc786b.html)
+  一键生成多个临时邮箱地址
+
+- **[下载视频小助手(微信公众号)](https://xiaobaiso.github.io/zhihudoc/)** — 开发者 xiaobaiso · 音视频 · 已停止 · 收录 2018-06-26 · [详情页](https://indiemaker.cn/p/project-e4c237.html)
+  下载知乎视频
+
+- **[小视频神器](https://video2x.cn)** — 开发者 织网哥 · 音视频 · 已停止 · 收录 2018-06-21 · [详情页](https://indiemaker.cn/p/project-fa2dbe.html)
+  微信小程序，用于视频编辑，可添加字幕/配音，也可倒播/消音/改尺寸，输出MP4/GIF；还可拼接视频/剪辑视频。
+
+- **[DDMUG](https://promotion.devgo.top/ddmug/)** — 开发者 dd · 未分类 · 已停止 · 收录 2018-06-08 · [详情页](https://indiemaker.cn/p/ddmug.html)
+  音游 poc，包含编辑器
+
+- **[V2er](https://www.coolapk.com/apk/me.ghui.v2er.free)** — 开发者 ghui · 未分类 · 已停止 · 收录 2018-06-08 · [详情页](https://indiemaker.cn/p/v2er.html)
+  好用的 V2EX 客户端
+
+- **[颜文字输入法](https://itunes.apple.com/cn/app/yan-wen-zi-shu-ru-fa-zui-qiang/id866753915?mt=8)** — 开发者 小芋头君 · 未分类 · 已停止 · 收录 2018-06-07 · [详情页](https://indiemaker.cn/p/project-bdf695.html)
+  卖萌输入法，可能是最早一批正儿八经做这个的，几年前就卖了，现在用户目测百万级别
+
+- **[喵老师绘本故事](https://itunes.apple.com/cn/app/er-shi-yi-dian-shui-qian-gu-shi/id998079819)** — 开发者 小芋头君 · 未分类 · 已上线 · 收录 2018-06-07 · [详情页](https://indiemaker.cn/p/project-6debae.html)
+  和幼师老婆一起做的讲故事 app，内容都是媳妇录的，已经 200 多期了（最开始叫 二十一点睡前故事）
+
+- **[BufPay.com](https://bufpay.com)** — 开发者 谢杨 · 开发工具 · 已上线 · 收录 2018-06-06 · [详情页](https://indiemaker.cn/p/bufpay-com.html)
+  独立开发者个人收款平台（无需公司资质，免签约）
+
+- **[达达划词翻译](https://chrome.google.com/webstore/detail/%E8%BE%BE%E8%BE%BE%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cajhcjfcodjoalmhjekljnfkgjlkeajl)** — 开发者 waynecz · 浏览器扩展 · 已上线 · 收录 2018-05-29 · [详情页](https://indiemaker.cn/p/project-a1edcb.html)
+  好看的划词翻译插件
+
+- **[全库网](https://www.iquanku.com)** — 开发者 mhkz · 未分类 · 已停止 · 收录 2018-05-22 · [详情页](https://indiemaker.cn/p/project-d10bce.html)
+  分享一些技术内容和经验
+
+- **[坚果电影](http://nutts.tv/)** — 开发者 Nutt · 未分类 · 已停止 · 收录 2018-05-22 · [详情页](https://indiemaker.cn/p/project-108f29.html)
+  为你找到下一部最爱的电影(原: 快影盒子)
+
+- **[TestFlight.top](https://testflight.top)** — 开发者 feilong · 未分类 · 已停止 · 收录 2018-05-22 · [详情页](https://indiemaker.cn/p/testflight-top.html)
+  60 秒制作 iOS 内测 App 分发页，用户直接下载测试
+
+- **[租房聚合分析](https://github.com/kezhenxu94/house-renting)** — 开发者 kezhenxu94 · 未分类 · 已上线 · 收录 2018-05-20 · [详情页](https://indiemaker.cn/p/project-4bc9a1.html)
+  租房信息聚合分析，目前聚合了 58 同城，豆瓣，链家 的上百个城市地区，可以只扒取感兴趣的城市
+
+- **[地图找租房](https://woyaozufang.live/)** — 开发者 李国宝 · 生活服务 · 已停止 · 收录 2018-05-18 · [详情页](https://indiemaker.cn/p/project-064241.html)
+  房源爬虫 + 高德地图强力驱动，迅速找到合适房源
+
+- **[BeckTabs (iOS)](https://itunes.apple.com/cn/app/becktabs/id1340423767)** — 开发者 BeckTabs · 效率工具 · 已上线 · 收录 2018-05-16 · [详情页](https://indiemaker.cn/p/becktabs-ios.html)
+  专业的乐谱管理软件
+
+- **[bullmind](https://www.bullmind.com)** — 开发者 che3vinci · AI 工具 · 已停止 · 收录 2018-05-13 · [详情页](https://indiemaker.cn/p/bullmind.html)
+  像使用笔和纸一样的整理思维
+
+- **[Thor](https://github.com/gbammc/Thor)** — 开发者 AlvinZhu · 未分类 · 已上线 · 收录 2018-05-13 · [详情页](https://indiemaker.cn/p/thor.html)
+  快速打开或切换 Mac 应用
+
+- **[密记 iOS版](https://itunes.apple.com/cn/app/mi-ji-yu-zhong-bu-tong-ji/id925021570?l=zh&mt=8)** — 开发者 iHTCboy · 文档办公 · 已上线 · 收录 2018-05-13 · [详情页](https://indiemaker.cn/p/ios-e49073.html)
+  SQLite 实现的简单笔记和备份应用
+
+- **[桂林理工大学 - 校园通](https://itunes.apple.com/cn/app/gui-lin-li-gong-da-xue-xiao/id968615456?l=en&mt=8)** — 开发者 iHTCboy · 社交社区 · 已上线 · 收录 2018-05-13 · [详情页](https://indiemaker.cn/p/project-597adc.html)
+  新闻模块抓取学校网页解释 HTML，社交仿博客
+
+- **[桂林理工大学 - 云地图](https://itunes.apple.com/cn/app/gui-lin-li-gong-da-xue-yun/id954359041?mt=8)** — 开发者 iHTCboy · 开发工具 / 生活服务 · 已上线 · 收录 2018-05-13 · [详情页](https://indiemaker.cn/p/project-590dee.html)
+  基于高德云图API开发的地图应用
+
+- **[RunningCheese Firefox](https://firefox.runningcheese.com/)** — 开发者 runningcheese · 浏览器扩展 · 已停止 · 收录 2018-05-09 · [详情页](https://indiemaker.cn/p/runningcheese-firefox.html)
+  优雅强大的定制版 Firefox 浏览器，简洁且高效
+
+- **[lrcEdit](https://www.coolapk.com/apk/185032)** — 开发者 pwxc · 未分类 · 已上线 · 收录 2018-05-02 · [详情页](https://indiemaker.cn/p/lrcedit.html)
+  可能是 Android 端唯一的歌词编辑器
+
+- **[小当家](http://smallmenu.venusworld.cn:3000)** — 开发者 Venus · 未分类 · 已停止 · 收录 2018-05-02 · [详情页](https://indiemaker.cn/p/project-f1a6c5.html)
+  在线搜索食谱的 Web 应用
+
+- **[落格输入法](https://im.logcg.com/loginput)** — 开发者 R0uter · 未分类 · 已上线 · 收录 2018-04-27 · [详情页](https://indiemaker.cn/p/project-2edb6e.html)
+  iOS 平台中文双拼码表输入法
+
+- **[落格报时喵](https://im.logcg.com/hourlymeow)** — 开发者 R0uter · 未分类 · 已上线 · 收录 2018-04-27 · [详情页](https://indiemaker.cn/p/project-2e1edd.html)
+  iOS 整点半点报时
+
+- **[ifwechat](https://github.com/zhu327/ifwechat)** — 开发者 Timmy · 未分类 · 已上线 · 收录 2018-04-25 · [详情页](https://indiemaker.cn/p/ifwechat.html)
+  用微信触发 ifttt, 连接微信与 ifttt 的公众号
+
+- **[NightMate](https://haxck.com/portfolio/src/assets/nmQr.jpg)** — 开发者 haxck · 未分类 · 已停止 · 收录 2018-04-23 · [详情页](https://indiemaker.cn/p/nightmate.html)
+  可能是史上最省心、最优雅的助眠微信小程序
+
+- **[NEO全资产区块浏览器](https://state.otcgo.cn)** — 开发者 qknow · 浏览器扩展 · 已停止 · 收录 2018-04-23 · [详情页](https://indiemaker.cn/p/neo.html)
+  NEO 全资产区块浏览器
+
+- **[旅图网](https://www.imgtrip.com)** — 开发者 qskane · 图片工具 · 已停止 · 收录 2018-04-18 · [详情页](https://indiemaker.cn/p/project-14e56e.html)
+  电脑壁纸/图片网站
+
+- **[LinkedInfo](https://www.linkedinfo.co)** — 开发者 ddxgz · 未分类 · 已停止 · 收录 2018-04-15 · [详情页](https://indiemaker.cn/p/linkedinfo.html)
+  链接各类优秀技术文章
+
+- **[计划表](https://itunes.apple.com/cn/app/计划单/id1341198801?mt=8)** — 开发者 FengYQ · 未分类 · 已停止 · 收录 2018-04-11 · [详情页](https://indiemaker.cn/p/project-cbc542.html)
+  以简洁高效为目的的计划器
+
+- **[attack-on-titans](https://github.com/Derek-X-Wang/attack-on-titans)** — 开发者 Derek-X-Wang · 未分类 · 已上线 · 收录 2018-04-03 · [详情页](https://indiemaker.cn/p/attack-on-titans.html)
+  大公司电话面试模拟器
+
+- **[米发 MFPad](http://www.mfpad.com)** — 开发者 KrisBobLea · 效率工具 · 已上线 · 收录 2018-04-03 · [详情页](https://indiemaker.cn/p/mfpad.html)
+  专注于域名转发的服务商，维护了7年的平台，提供比 DNSPod、腾讯云更稳定的域名转发服务
+
+- **[排班](https://itunes.apple.com/cn/app/id1221228242?mt=8)** — 开发者 markmiao · 效率工具 · 已上线 · 收录 2018-04-01 · [详情页](https://indiemaker.cn/p/project-143211.html)
+  以日历为基础，设置早午晚夜班的iOS客户端
+
+- **[速记](https://itunes.apple.com/cn/app/id1263819789?mt=12)** — 开发者 markmiao · 开发工具 · 已停止 · 收录 2018-04-01 · [详情页](https://indiemaker.cn/p/project-1437e7.html)
+  工具栏快速记录文本，记录剪切板历史数据的macOS应用
+
+- **[V2Ray](https://github.com/v2ray/v2ray-core/)** — 开发者 Victoria Raymond · 未分类 · 已上线 · 收录 2018-04-01 · [详情页](https://indiemaker.cn/p/v2ray.html)
+  网络代理工具，帮助你打造专属的定制网络体系
+
+- **[单纯的就是个日历](https://www.coolapk.com/apk/top.soyask.calendarii)** — 开发者 米小饭 · 效率工具 · 已上线 · 收录 2018-04-01 · [详情页](https://indiemaker.cn/p/project-6520c1.html)
+  单纯的只是个日历，附带简单的记事功能
+
+- **[Steve Jrong's Blog UWP](https://www.stevejrong.top/download)** — 开发者 Steve Jrong · 未分类 · 已停止 · 收录 2018-04-01 · [详情页](https://indiemaker.cn/p/steve-jrong-s-blog-uwp.html)
+  查看博主技术分享的 UWP 应用
+
+- **[Code Reader](https://cr.js.org)** — 开发者 echosoar · 开发工具 / 教育学习 · 已上线 · 收录 2018-03-31 · [详情页](https://indiemaker.cn/p/code-reader.html)
+  在移动设备上舒服地阅读和批注 Github 代码
+
+- **[豆腐丁](https://doufuding.com/)** — 开发者 xiaohulu · 文档办公 / 开发工具 / 教育学习 · 已停止 · 收录 2018-03-31 · [详情页](https://indiemaker.cn/p/project-5767cb.html)
+  学习资料整理网站，可编写技术文档和翻译 GitHub 网站的文档项目
+
+- **[WoodPecker](http://www.woodpeck.cn/cnindex)** — 开发者 张小刚哟 · 未分类 · 已停止 · 收录 2018-03-31 · [详情页](https://indiemaker.cn/p/woodpecker.html)
+  让你在 Mac 上轻松、高效调试 iOS 应用
+
+- **[App 计划](https://itunes.apple.com/cn/app/app%E8%AE%A1%E5%88%92/id1158663523?mt=8)** — 开发者 张小刚哟 · 未分类 · 已停止 · 收录 2018-03-31 · [详情页](https://indiemaker.cn/p/app-e0192b.html)
+  定时打开其他 App 的 iOS 应用
+
+- **[Vue 资源精选](http://vue.awesometiny.com/)** — 开发者 sobbingman · 未分类 · 已停止 · 收录 2018-03-31 · [详情页](https://indiemaker.cn/p/vue-049cb1.html)
+  Vue 精选组件分享, 手工精选出一百来个最优秀的组件库/独立组件
+
+- **[PicZoomer](http://aisnote.com/2010/12/14/%E6%89%B9%E9%87%8F%E7%85%A7%E7%89%87%E7%BC%A9%E5%B0%8F%E5%B7%A5%E5%85%B7-%E6%97%A0%E9%9C%80%E4%BB%BB%E4%BD%95%E8%AE%BE%E7%BD%AE-%E5%82%BB%E7%93%9C%E6%93%8D%E4%BD%9C/)** — 开发者 aisnote · 图片工具 · 已上线 · 收录 2018-03-31 · [详情页](https://indiemaker.cn/p/piczoomer.html)
+  批量照片缩小工具, 无需任何设置, 傻瓜操作
+
+- **[SmartPing](http://smartping.org/)** — 开发者 toryzen · 免费工具 · 已上线 · 收录 2018-03-29 · [详情页](https://indiemaker.cn/p/smartping.html)
+  开源、高效、便捷的网络质量监控神器！
+
+- **[TailLog](http://taillog.cn/)** — 开发者 djmpink · 效率工具 · 已停止 · 收录 2018-03-29 · [详情页](https://indiemaker.cn/p/taillog.html)
+  简单易用的实时日志管理工具
+
+- **[Webstack](http://webstack.cc)** — 开发者 Viggo · 效率工具 · 已上线 · 收录 2018-03-29 · [详情页](https://indiemaker.cn/p/webstack.html)
+  专注于收集国内外优秀的设计类网站
+
+- **[引路啦](http://www.yinlula.com)** — 开发者 lizhi · 未分类 · 已上线 · 收录 2018-03-29 · [详情页](https://indiemaker.cn/p/project-a179ad.html)
+  有意思的分享
+
+- **[Eastwatch](https://eastwatchapp.com)** — 开发者 Shane Qi · 未分类 · 开发中 · 收录 2018-03-29 · [详情页](https://indiemaker.cn/p/eastwatch.html)
+  可能是 iOS 平台上最美的、交互最友好的追剧 App
+
+- **[佚览](https://itunes.apple.com/cn/app/%E4%BD%9A%E8%A7%88/id1358635224?mt=8)** — 开发者 痕迹 · 浏览器扩展 · 已停止 · 收录 2018-03-27 · [详情页](https://indiemaker.cn/p/project-e9c62c.html)
+  基于 iOS 系统扩展的支持多种文件格式的预览应用
+
+- **[小黄条](http://www.6fcsj.com)** — 开发者 cg200776 · 开发工具 · 已停止 · 收录 2018-03-27 · [详情页](https://indiemaker.cn/p/project-cc8142.html)
+  能嵌入 Windows 桌面的跨平台 Todolist，手机、PC 双向同步
+
+- **[6/12/24点计算](https://github.com/yelluo/12points)** — 开发者 12points · 未分类 · 已上线 · 收录 2018-03-27 · [详情页](https://indiemaker.cn/p/6-12-24.html)
+  少儿益智练习，三个数得到6或12，或4个数得到24，可选题目难度
+
+- **[guanggoo-android](https://github.com/mzlogin/guanggoo-android)** — 开发者 mzlogin · 社交社区 · 已上线 · 收录 2018-03-27 · [详情页](https://indiemaker.cn/p/guanggoo-android.html)
+  光谷社区第三方 Android 客户端
+
+- **[快传](https://github.com/hongui/FastAir)** — 开发者 Hongui · 社交社区 · 开发中 · 收录 2018-03-27 · [详情页](https://indiemaker.cn/p/project-afa9d9.html)
+  用于短距离内点对点文件传输和聊天，无需网络
+
+- **[Smart Car on Raspberry Pi](https://github.com/pjq/rpi)** — 开发者 Jianqing · 未分类 · 开发中 · 收录 2018-03-25 · [详情页](https://indiemaker.cn/p/smart-car-on-raspberry-pi.html)
+  用来远程遛猫, 家居监控的智能小车
+
+- **[Weather Station on Raspberry Pi](http://rpi.pjq.me/)** — 开发者 Jianqing · 未分类 · 已停止 · 收录 2018-03-25 · [详情页](https://indiemaker.cn/p/weather-station-on-raspberry-pi.html)
+  实时空气质量气象站
+
+- **[家谱海](http://www.familytreesea.com)** — 开发者 Fengchang · 效率工具 · 已上线 · 收录 2018-03-25 · [详情页](https://indiemaker.cn/p/project-ad9141.html)
+  可视化数字家谱，记录管理家庭亲戚关系以及历史人物关系建模
+
+- **[今天吃什么(WhatToEat)](https://github.com/lzx2005/WhatToEat)** — 开发者 lzx2005 · 未分类 · 已上线 · 收录 2018-03-25 · [详情页](https://indiemaker.cn/p/whattoeat.html)
+  治疗吃货选择恐惧症的微信小程序
+
+- **[Self-hosted Server](https://selfhostedserver.com)** — 开发者 Toy · 效率工具 / 开发工具 · 已停止 · 收录 2018-03-25 · [详情页](https://indiemaker.cn/p/self-hosted-server.html)
+  自动化架设服务器，支持 AWS/GCE/Azure/DO/Linode/Vultr
+
+- **[藏经阁](https://favlink.cn)** — 开发者 zhangjh · 未分类 · 已停止 · 收录 2018-03-25 · [详情页](https://indiemaker.cn/p/project-0fc847.html)
+  完全定制化的个人网址收藏
+
+- **[Driki](https://itunes.apple.com/cn/app/id1238020177?mt=8)** — 开发者 Tang · 未分类 · 已停止 · 收录 2018-03-25 · [详情页](https://indiemaker.cn/p/driki.html)
+  在同质化的 Dribbble 客户端里做出差异化
+
+- **[Cloudreve](https://cloudreve.org/)** — 开发者 AaronLiu · 未分类 · 已上线 · 收录 2018-03-23 · [详情页](https://indiemaker.cn/p/cloudreve.html)
+  支持多家云存储的云盘系统
+
+- **[ToFun](https://tofun.selfcoding.cn/)** — 开发者 Damon · 未分类 · 已停止 · 收录 2018-03-23 · [详情页](https://indiemaker.cn/p/tofun.html)
+  极简匿名便签吐槽板&便签板
+
+- **[识墨笔记](https://itunes.apple.com/us/app/id1222111073)** — 开发者 luckytianyiyan · 图片工具 / 文档办公 · 已上线 · 收录 2018-03-23 · [详情页](https://indiemaker.cn/p/project-f2f8b2.html)
+  OCR 读书笔记工具, 支持导入 Kindle 笔记
+
+- **[TyLauncher](http://www.tylauncher.com/)** — 开发者 luckytianyiyan · 未分类 · 已停止 · 收录 2018-03-23 · [详情页](https://indiemaker.cn/p/tylauncher.html)
+  文件 / 程序 快捷启动工具
+
+- **[Pretty-Zhihu](https://github.com/shensky711/Pretty-Zhihu)** — 开发者 HansChen · 未分类 · 开发中 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/pretty-zhihu.html)
+  针对知乎的看图神器，你懂的
+
+- **[Run-With-You](https://github.com/shensky711/Run-With-You)** — 开发者 HansChen · 未分类 · 开发中 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/run-with-you.html)
+  双人跑步应用，计步 & 双人跑步联动功能
+
+- **[你好污啊](https://www.nihaowua.com)** — 开发者 Roogle · 未分类 · 已上线 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/project-592155.html)
+  一句话撩妹撩汉污句子
+
+- **[i5SING](http://i5sing.com)** — 开发者 miaowing · 音视频 · 已停止 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/i5sing.html)
+  中国原创音乐基地 5sing 第三方桌面客户端
+
+- **[开源链克口袋 - MyLinkToken](http://www.wankeyun.cc/thread-182.htm)** — 开发者 ImbaQ · 免费工具 · 已上线 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/mylinktoken.html)
+  第一个可实现转账功能的第三方开源链克钱包
+
+- **[Xbox比价助手](http://www.xboxfan.com)** — 开发者 haijiao1945 · 游戏娱乐 · 已上线 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/xbox.html)
+  XboxOne 游戏机的跨服比价微信小程序
+
+- **[SVNBucket](http://svn.gzyunke.cn/)** — 开发者 SVNBucket · 免费工具 · 已上线 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/svnbucket.html)
+  免费 SVN 仓库，自认为是市面最好的，不限私有数量，不限成员数量
+
+- **[GramTools](https://ritoyantools.github.io/)** — 开发者 aizuyan · 未分类 · 已上线 · 收录 2018-03-22 · [详情页](https://indiemaker.cn/p/gramtools.html)
+  跨平台工具收集（目前收集了json、diff工具）
+
+- **[四时](https://itunes.apple.com/us/app/%E5%9B%9B%E6%97%B6/id1272513774?l=zh&ls=1&mt=8)** — 开发者 Airing · 生活服务 · 已上线 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/project-0cc1cb.html)
+  闪亮亮的天气 App
+
+- **[双生](https://github.com/oh-bear/2life)** — 开发者 Airing · 未分类 · 已上线 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/project-0cc176.html)
+  遇见另一半的美好（共享日记）
+
+- **[Jed](https://itunes.apple.com/cn/app/jed/id1234853584)** — 开发者 Arczzir · 开发工具 · 已上线 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/jed.html)
+  macOS 上的 JSON 文件编辑器
+
+- **[THZ](https://itunes.apple.com/cn/app/thz/id1353765033)** — 开发者 Arczzir · 效率工具 · 已上线 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/thz.html)
+  「收藏心仪的地点 ，管理得井井有条」限中国杭州
+
+- **[饭起](https://itunes.apple.com/cn/app/%E9%A5%AD%E8%B5%B7-%E5%85%B3%E4%BA%8E%E9%A3%9F%E7%89%A9%E7%9A%84%E7%88%B1%E4%B8%8E%E6%95%85%E4%BA%8B/id1209331941?mt=8)** — 开发者 Drinking · 未分类 · 已上线 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/project-588cdc.html)
+  关于食物的爱与故事
+
+- **[Dir](https://coolapk.com/apk/kh.android.dir)** — 开发者 Yuuta · 未分类 · 已停止 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/dir.html)
+  简单美观的 Android 垃圾清理工具，支持防止文件再生
+
+- **[诗说社](http://shishuo.wesnice.com/)** — 开发者 曦莫琅 · 未分类 · 已停止 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/project-95c66c.html)
+  文青、情怀人群的聚集地，原创诗词的发布平台
+
+- **[Awaker](https://www.coolapk.com/apk/155953)** — 开发者 ruzhan123 · 教育学习 · 已停止 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/awaker.html)
+  科幻，地理阅读杂志的 Android 应用
+
+- **[Buy All Steam Games](http://steam.seewang.me)** — 开发者 cwang22 · 游戏娱乐 · 已上线 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/buy-all-steam-games.html)
+  买下所有 Steam 游戏要多少钱？
+
+- **[一天](https://fir.im/oneday)** — 开发者 santa · 社交社区 · 已停止 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/project-daa79b.html)
+  24小时结识朋友的社交应用 (Android、iOS)
+
+- **[EMore](https://www.coolapk.com/apk/com.caij.emore)** — 开发者 Caij · 未分类 · 已停止 · 收录 2018-03-21 · [详情页](https://indiemaker.cn/p/emore.html)
+  轻量简单的第三方微博客户端
+
+- **[Memory Helper](https://itunes.apple.com/cn/app/memory-helper-zi-ding-yi-nei/id1113262919?l=en&mt=8)** — 开发者 fujianjin6471 · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/memory-helper.html)
+  科学复习，真正记住知识
+
+- **[剪贴板守护](https://github.com/DeweyReed/ClipboardCleaner)** — 开发者 DeweyReed · 效率工具 / 免费工具 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-077c6e.html)
+  使用多种方式查看并清空剪贴板的开源 Android 应用
+
+- **[权限图书馆](https://www.coolapk.com/apk/162565)** — 开发者 DeweyReed · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-85745b.html)
+  查看本设备的应用和安装包的权限的 Android 应用
+
+- **[循环计时器](https://www.coolapk.com/apk/118705)** — 开发者 DeweyReed · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-e9ddb4.html)
+  一次设置N个计时器，自动计时、自动通知的 Android 应用
+
+- **[计时机器](https://www.coolapk.com/apk/177033)** — 开发者 DeweyReed · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-934fec.html)
+  循环计时器加强版，更多的通知方式和计划任务
+
+- **[若古](https://www.ruogoo.cn)** — 开发者 HyanCat · 社交社区 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-caa2c3.html)
+  古风文学兴趣交流社区（网站和 App）- [更多介绍](https://www.ruogoo.cn/about)
+
+- **[万能输入法](http://app.wodedata.com)** — 开发者 luowei · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-192db5.html)
+  支持拼音、五笔、笔画、手写、特殊符号及动画表情的输入法
+
+- **[我的浏览器](http://app.wodedata.com/myapp/mybrowser.html)** — 开发者 luowei · 文档办公 / 浏览器扩展 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-7d8405.html)
+  支持截图导出 PDF 的可个性化的自定义浏览器
+
+- **[照片DIY](http://app.wodedata.com/myapp/photodiy.html)** — 开发者 luowei · 图片工具 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/diy-8ed379.html)
+  可以对图片加滤镜、各种涂鸭、打码塞克、裁剪的 APP
+
+- **[斗图王](http://app.wodedata.com/myapp/gifemoji.html)** — 开发者 luowei · 浏览器扩展 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-afff10.html)
+  一个 GIF 斗图动画表情制作和搜索 APP，兼具斗图浏览器与斗图编辑器的功能
+
+- **[美图王](http://app.wodedata.com/myapp/mywallpaper.html)** — 开发者 luowei · 图片工具 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-b06d84.html)
+  高清的意向图和壁纸图片应用
+
+- **[Mark记事本](http://app.wodedata.com/myapp/mymarkdown.html)** — 开发者 luowei · 图片工具 / 文档办公 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/mark.html)
+  Markdown 记事本，支持从文本图片导入及导出 PDF
+
+- **[最强二维码](http://app.wodedata.com/myapp/qrcoderobot.html)** — 开发者 luowei · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-c9817f.html)
+  扫描二维码和生成自定义二维码的 App
+
+- **[如e定制](http://www.shangyuekeji.com)** — 开发者 aderm · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/e.html)
+  个性化定制加工平台
+
+- **[WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS)** — 开发者 TKkk · 开发工具 / 免费工具 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/wechatplugin-macos.html)
+  MacOS 微信小助手（可玩性很高，开源）
+
+- **[mmPlayer在线音乐播放器](http://music.mtnhao.com)** — 开发者 maomao1996（茂茂） · 音视频 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/mmplayer.html)
+  在线音乐播放器（基于Vue2）（PC）
+
+- **[每日壹单](https://mryd.freeflarum.com)** — 开发者 genru · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-42f9bf.html)
+  每天推送10条最新外包兼职信息
+
+- **[Puff Password Manager](https://itunes.apple.com/cn/app/puff-password-manager-open-source-free/id1183663532?mt=8)** — 开发者 SpongeBobSun · 文档办公 / 效率工具 / 免费工具 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/puff-password-manager.html)
+  开源免费的离线密码管理器
+
+- **[Prodigal Music Player](https://itunes.apple.com/cn/app/prodigal-music-player/id1231296263?mt=8)** — 开发者 SpongeBobSun · 音视频 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/prodigal-music-player.html)
+  复刻经典 iPod 的音乐播放器
+
+- **[MovieRater](https://www.mvrater.com)** — 开发者 Sing · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/movierater.html)
+  集合Yahoo, Ptt, IMDB評分, 方便選片
+
+- **[日本语社区](https://itunes.apple.com/cn/app/id1184113889)** — 开发者 Chars · 音视频 / 教育学习 / 社交社区 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-e2a212.html)
+  日语学习资源，整合各种文本、音频和视频学习资料
+
+- **[今日账单](https://itunes.apple.com/cn/app/id1176787145)** — 开发者 Chars · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-db2569.html)
+  帐单记录与数据分析，内含云备份功能，界面简洁清爽
+
+- **[Piclip](https://itunes.apple.com/cn/app/id1188174656)** — 开发者 Chars · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/piclip.html)
+  即兴想起的九宫格切图软件，当然还有六、四等宫格布局
+
+- **[牛皮纸](https://itunes.apple.com/cn/app/id1346384976)** — 开发者 Chars · 文档办公 / 开发工具 / 教育学习 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-aa2629.html)
+  阅读 GitHub 上 md 文档的工具，支持浏览远程 md 文档
+
+- **[ImageHosting for Mac](https://github.com/charsdavy/ImageHosting)** — 开发者 Chars · 免费工具 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/imagehosting-for-mac.html)
+  七牛云图床上载工具 (开源)
+
+- **[集木](https://itunes.apple.com/cn/app/%E9%9B%86%E6%9C%A8/id1273031712?mt=8)** — 开发者 enzo-yang · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-7b0c1a.html)
+  丰富的植物库以及拍照识别植物
+
+- **[记忆碎片](https://itunes.apple.com/cn/app/%E8%AE%B0%E5%BF%86%E7%A2%8E%E7%89%87-%E7%94%A8ar%E6%97%B6%E9%97%B4%E6%B5%81%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB%E7%82%B9%E6%BB%B4/id1340767017?l=zh&ls=1&mt=8)** — 开发者 miliPolo · 音视频 / 开发工具 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-da0a48.html)
+  AR创意短视频APP，基本功能完成，后续功能还在开发中
+
+- **[AR太阳系](https://github.com/miliPolo/ARSolarPlaySwift)** — 开发者 miliPolo · 未分类 · 开发中 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/ar.html)
+  展示太阳系的运行
+
+- **[小时光倒数日](https://minapp.com/miniapp/2810/)** — 开发者 xx19941215 · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-b684a3.html)
+  小时光倒数日，帮你铭记人生每一次的幸福时光
+
+- **[狗狗大全](https://play.google.com/store/apps/details?id=com.cjy.DogCollection)** — 开发者 JY · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-57002a.html)
+  展示狗狗特性、概述、性格等，Android App
+
+- **[JSBox](https://itunes.apple.com/cn/app/id1312014438)** — 开发者 钟颖 · 未分类 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/jsbox.html)
+  用 JavaScript 实现原生小工具
+
+- **[TodayMind](https://itunes.apple.com/cn/app/id1207158665)** — 开发者 钟颖 · 效率工具 / 浏览器扩展 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/todaymind.html)
+  提醒事项扩展小组件
+
+- **[小历](https://itunes.apple.com/cn/app/id1031088612)** — 开发者 钟颖 · 效率工具 / 浏览器扩展 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-0e6c1e.html)
+  日历扩展小组件
+
+- **[小历 for Mac](https://itunes.apple.com/cn/app/id1114272557)** — 开发者 钟颖 · 效率工具 / 浏览器扩展 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/for-mac.html)
+  日历扩展小组件
+
+- **[Pin](https://itunes.apple.com/cn/app/id1039643846)** — 开发者 钟颖 · 效率工具 / 浏览器扩展 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/pin.html)
+  剪贴板扩展工具，App Store 2016 年度应用
+
+- **[Pin for Mac](https://itunes.apple.com/cn/app/id1092997957)** — 开发者 钟颖 · 效率工具 / 浏览器扩展 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/pin-for-mac.html)
+  剪贴板扩展工具
+
+- **[生词本](https://itunes.apple.com/cn/app/生词本-智能背诵提醒/id1120027237?mt=8)** — 开发者 张嘉夫 · 效率工具 / 教育学习 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-a743ba.html)
+  生词本 - 智能背诵提醒，让你记住所有查过的单词
+
+- **[倾城之链](https://nicelinks.site/)** — 开发者 nicejade · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/project-2292d3.html)
+  旨在云集全球优秀网站，方便你我探索互联网中更广阔的世界
+
+- **[googletranslate.popclipext](https://github.com/wizyoung/googletranslate.popclipext)** — 开发者 wizyoung · 开发工具 / 浏览器扩展 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/googletranslate-popclipext.html)
+  一个 macOS 上的谷歌翻译 PopClip 扩展
+
+- **[steam-key-online-redeem](https://steamis.me)** — 开发者 LiuYue · 游戏娱乐 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/steam-key-online-redeem.html)
+  Steam 游戏兑换码在线批量激活
+
+- **[MLIA](http://ml.apachecn.org/mlia/)** — 开发者 ApacheCN · 教育学习 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/mlia.html)
+  “机器学习实战”系列课程
+
+- **[pattern-finder](https://www.minegeck.net/lab/pf)** — 开发者 SCLeo · 未分类 · 已停止 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/pattern-finder.html)
+  一个智能（zhang）的找规律程序
+
+- **[Reload-Failure](https://scleox.github.io/Reload-Failure/index.html)** — 开发者 SCLeo · 游戏娱乐 · 已上线 · 收录 2018-03-20 · [详情页](https://indiemaker.cn/p/reload-failure.html)
+  一个完全用 2d canvas 实现的伪 3D 躲避游戏
+
+- **[PicGo](https://molunerfinn.com/PicGo)** — 开发者 Molunerfinn · 图片工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/picgo.html)
+  跨平台的图床图片上传工具
+
+- **[node-github-profile-summary](https://gh-profile-summary.teamsz.xyz)** — 开发者 Molunerfinn · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/node-github-profile-summary.html)
+  漂亮地生成你的GitHub总结的网站
+
+- **[qrcode-chrome](https://chrome.google.com/webstore/detail/qr-code-generation/imabbihlfpmlpobbfhmliilagnjeoija)** — 开发者 xu42 · 浏览器扩展 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/qrcode-chrome.html)
+  生成当前页面二维码的极简 Chrome 插件
+
+- **[个人即时收款方案](https://pay.xu42.cn/)** — 开发者 xu42 · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-8f0cdb.html)
+  个人可用的即时收款解决方案
+
+- **[码农头条](http://hao.caibaojian.com)** — 开发者 kujian · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-695397.html)
+  每日自动抓取开发者文章并推荐
+
+- **[GitHub热榜](http://news.caibaojian.com)** — 开发者 kujian · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/github-0212d1.html)
+  每日自动抓取 GitHub 前端热门项目并推荐
+
+- **[繁化姬](https://zhconvert.org)** — 开发者 Jack Cherng · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-dddac6.html)
+  强大的「繁简转换」与「本地化」工具
+
+- **[Findor](https://findor.me/)** — 开发者 biezhi · 社交社区 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/findor.html)
+  分享你的个人社交信息
+
+- **[开发者秘籍](https://dev-cheats.com/)** — 开发者 biezhi · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-753f22.html)
+  系统的开发者指南、教程
+
+- **[Mos](http://mos.u2sk.com/)** — 开发者 Caldis · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/mos.html)
+  在 MacOS 上平滑鼠标滚动效果与单独设置滚动方向的小工具
+
+- **[上海地铁线路图](https://neal1991.github.io/subway-shanghai)** — 开发者 neal1991 · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-b9ad76.html)
+  上海地铁线路图，包括站点时刻表信息，卫生间信息，出入口信息，无障碍电梯信息
+
+- **[七牛云图床](https://chrome.google.com/webstore/detail/%E4%B8%83%E7%89%9B%E4%BA%91%E5%9B%BE%E5%BA%8A/fmpbbmjlniogoldpglopponaibclkjdg?utm_source=chrome-ntp-icon)** — 开发者 neal1991 · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-d094c3.html)
+  基于七牛云存储对象实现的私有图床
+
+- **[export-to-markdown](https://chrome.google.com/webstore/detail/export-to-markdown/dodkihcbgpjblncjahodbnlgkkflliim?utm_source=chrome-ntp-icon)** — 开发者 neal1991 · 文档办公 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/export-to-markdown.html)
+  将博文转化成 Markdown 格式，目前支持 Medium 和 elastic 官博
+
+- **[去哪拍照片](http://ozfo4jjxb.bkt.clouddn.com/gh_900fd73a1fd0_258.jpg)** — 开发者 neal1991 · 图片工具 / 免费工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-284580.html)
+  微信小程序，主要是上海市落户拍照地点，包括免费和收费两种
+
+- **[GitIssue](https://gitissue.com)** — 开发者 GitIssue · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/gitissue.html)
+  GitHub Issue 博客平台
+
+- **[X_Wubi](https://itunes.apple.com/cn/app/X_Wubi/id1122043433)** — 开发者 Haocold · 游戏娱乐 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/x-wubi.html)
+  简洁、轻盈，在游戏中学五笔
+
+- **[微Yue](https://github.com/LiangLuDev/WeYueReader)** — 开发者 LiangLuDev · 教育学习 · 开发中 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/yue.html)
+  Android 电子书阅读 App
+
+- **[PPHub](https://itunes.apple.com/cn/app/PPHub%20For%20GitHub/id1314212521?mt=8)** — 开发者 jkpang · 开发工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/pphub.html)
+  简洁漂亮的 GitHub 客户端
+
+- **[Love2.io](https://love2.io/)** — 开发者 gaolinjie · 文档办公 / 免费工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/love2-io.html)
+  优雅的开源技术文档分享平台
+
+- **[翻译侠](https://chrome.google.com/webstore/detail/translate-man/fapgabkkfcaejckbfmfcdgnfefbmlion)** — 开发者 Magic-fe · 浏览器扩展 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-afd727.html)
+  超棒的翻译插件（支持 Chrome + Firefox）
+
+- **[Channelshunt](https://www.channelshunt.com/)** — 开发者 Windson · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/channelshunt.html)
+  YouTube 频道推荐站
+
+- **[Thank you, Open source](https://www.thankyouopensource.com/)** — 开发者 Windson · 免费工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/thank-you-open-source.html)
+  给开源项目的感谢信
+
+- **[OpenSource Jobs](https://www.osjobs.net/)** — 开发者 Windson · 免费工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/opensource-jobs.html)
+  根据开源项目的贡献推荐工作
+
+- **[EngineGo](https://www.enginego.org/)** — 开发者 Windson · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/enginego.html)
+  计算机基础教程
+
+- **[电子书支援计划](https://www.ebooksplan.org/)** — 开发者 yaoleifly · 教育学习 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-0c6442.html)
+  以数字资源为核心的自我学习社群
+
+- **[扫地僧的橱柜](https://www.ebooksplan.club/)** — 开发者 yaoleifly · 浏览器扩展 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-f2db76.html)
+  支持 Kindle 内置浏览器的资源站
+
+- **[吉他谱搜索](https://gtpso.com/)** — 开发者 mw2c · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-495db3.html)
+  分享、搜索和播放吉他谱的 App 和网站
+
+- **[Tab PlayAlong](https://playalong.gtpso.com/)** — 开发者 mw2c · 音视频 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/tab-playalong.html)
+  连接电吉他到手机，并使用效果器跟随吉他谱练习、演奏和录音的 iOS 应用
+
+- **[美股指南](https://investguider.com/)** — 开发者 小贝 · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-b2f505.html)
+  美股、港股投资指南
+
+- **[斗图啦](https://www.doutula.com)** — 开发者 H1ac0k · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-ad524c.html)
+  斗图装逼必备
+
+- **[白描](https://itunes.apple.com/cn/app/id1249901692)** — 开发者 Tolecen · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-49bff7.html)
+  高效的文字识别与翻译软件
+
+- **[西江月](https://itunes.apple.com/cn/app/id1084924739)** — 开发者 Tolecen · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-821140.html)
+  遇见传统诗词之美
+
+- **[天天成语](https://itunes.apple.com/cn/app/id843601091)** — 开发者 Tolecen · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-a96622.html)
+  简洁方便的离线成语词典
+
+- **[中文错别字纠错校对系统](http://www.CuoBieZi.net/)** — 开发者 textproofreading · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-bf671d.html)
+  可以在线检测中文错别字的工具
+
+- **[便签](https://www.coolapk.com/apk/xyz.hanks.note)** — 开发者 hanks · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-b280b0.html)
+  体积不足 2M，功能却全面到令人惊喜的 Android 便签应用
+
+- **[氢应用](https://www.coolapk.com/apk/pub.hydrogen.android)** — 开发者 hanks · 浏览器扩展 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-030c2c.html)
+  Android 插件容器应用
+
+- **[MoreiTunesConnect_iOS](https://github.com/CoderDwang/MoreiTunesConnect_iOS)** — 开发者 CoderDwang · 未分类 · 开发中 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/moreitunesconnect-ios.html)
+  允许多开的非苹果官方的 App 审核状态查询
+
+- **[Monkey for GitHub](https://itunes.apple.com/cn/app/monkey-for-github/id1003765407)** — 开发者 coderyi · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/monkey-for-github.html)
+  以 GitHub 排名为主的 GitHub App，支持iOS/Android
+
+- **[BuguLink](https://bugu.link)** — 开发者 bugulink · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/bugulink.html)
+  快速安全的文件分享网站
+
+- **[MiniHour](https://itunes.apple.com/us/app/minihour/id1383208731?mt=8)** — 开发者 Larry · 效率工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/minihour.html)
+  时刻关注你的目标时间
+
+- **[奇点日报](https://itunes.apple.com/us/app/wa-wa-yu-jian-hao-yin-le/id1223916908?l=zh&ls=1&mt=8)** — 开发者 Larry · 开发工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-9ece69.html)
+  高逼格程序员开发者技术分享平台
+
+- **[破壳日](https://itunes.apple.com/us/app/破壳日/id1267213085?l=zh&ls=1&mt=8)** — 开发者 Larry · 效率工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-bf7ef9.html)
+  精美的生日 · 节日 · 纪念日礼物提醒工具
+
+- **[壹日程](https://itunes.apple.com/us/app/壹日程-专注任务管理和待办计划提醒/id1251547470?l=zh&ls=1&mt=8)** — 开发者 Larry · 效率工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-befbdf.html)
+  专注任务管理和待办计划提醒
+
+- **[心动屋](https://itunes.apple.com/us/app/心动屋-发现令你心动的好物/id1234003952?l=zh&ls=1&mt=8)** — 开发者 Larry · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-bf1628.html)
+  发现令你心动的好物
+
+- **[口袋密码](https://itunes.apple.com/us/app/口袋密码-安全简洁的账号管家/id1256288406?l=zh&ls=1&mt=8)** — 开发者 Larry · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-9c3dca.html)
+  安全简洁的账号管家
+
+- **[拾光记](https://itunes.apple.com/us/app/拾光记-拾起你走过的时光/id1247124599?l=zh&ls=1&mt=8)** — 开发者 Larry · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-bf23e8.html)
+  拾起你走过的时光
+
+- **[Net](https://itunes.apple.com/app/id1288011873)** — 开发者 lfb-cd · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/net.html)
+  网速展示流量统计工具
+
+- **[Net-Lite](https://itunes.apple.com/app/id1109807177)** — 开发者 lfb-cd · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/net-lite.html)
+  精简版网速展示流量统计工具
+
+- **[晴天见](https://itunes.apple.com/app/id1231863233)** — 开发者 lfb-cd · 生活服务 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-01358f.html)
+  极简天气应用
+
+- **[Reminder](https://itunes.apple.com/app/id1258508583)** — 开发者 lfb-cd · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/reminder.html)
+  只有 1.5MB 的极简备忘 APP
+
+- **[极客教程](https://www.geekjc.com)** — 开发者 cllgeek · 开发工具 / 教育学习 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-9b8c4f.html)
+  提供学习编程资料的网站
+
+- **[GSYGitHubAPP](https://www.pgyer.com/GSYGitHubApp)** — 开发者 CarGuo · 开发工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/gsygithubapp.html)
+  高质量的 GitHub 客户端
+
+- **[小私密](https://link.jianshu.com/?t=https://itunes.apple.com/us/app/小私密-匿名分享你的小私密/id1249902405?l=zh&ls=1&mt=8)** — 开发者 biqinglin · 社交社区 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-1c139e.html)
+  小私密，匿名分享你的小私密的轻社交应用
+
+- **[拼红包](https://www.pinghongbao.com)** — 开发者 Anynices · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-7dcf58.html)
+  外卖红包实时分享
+
+- **[闪念ToDo](https://www.coolapk.com/apk/com.kdfly.todo)** — 开发者 sheepkx · 效率工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/todo.html)
+  ToDo 计划管理App
+
+- **[Ptoo](https://itunes.apple.com/us/app/ptoo/id1219224872?mt=8)** — 开发者 jiangboLee · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/ptoo.html)
+  美图软件
+
+- **[即时天气](https://github.com/jiangboLee/WeatherWX)** — 开发者 jiangboLee · 生活服务 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-2b5b56.html)
+  天气预报小程序~
+
+- **[视觉图表](https://itunes.apple.com/cn/app/id1090006424)** — 开发者 MORECATS · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-5beb18.html)
+  适用于 iPhone & iPad 的图表制作应用
+
+- **[标注图像+](https://itunes.apple.com/cn/app/id1227197910)** — 开发者 MORECATS · 图片工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-48eeca.html)
+  高效快捷地标注图像，长图，拼图，二维码一应俱全
+
+- **[课程表](https://itunes.apple.com/cn/app/id1219202104)** — 开发者 MORECATS · 教育学习 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-1a1677.html)
+  一周课程表 & 艾宾浩斯遗忘曲线计划表
+
+- **[今日美图](https://itunes.apple.com/cn/app/id1195400858)** — 开发者 MORECATS · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-3aff4b.html)
+  获取今日 Bing 美图，每日新视野
+
+- **[网速查看+](https://itunes.apple.com/cn/app/id1289105991)** — 开发者 MORECATS · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-564c36.html)
+  在 iPhone & iPad 通知小部件上查看实时网络上下行速度
+
+- **[取色器+](https://itunes.apple.com/cn/app/id1326506149)** — 开发者 MORECATS · 图片工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-192878.html)
+  像素级图像取色 & 色彩收集
+
+- **[短信过滤+](https://itunes.apple.com/cn/app/id1314415052)** — 开发者 MORECATS · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-51328d.html)
+  基于 iOS 11 新特性的垃圾短信过滤应用
+
+- **[Mark Text](https://marktext.github.io/website/)** — 开发者 Jocs · 文档办公 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/mark-text.html)
+  所输及所见的 Markdown 编辑器，支持源码模式、焦点模式、打字机模式
+
+- **[单语](https://itunes.apple.com/cn/app/单语-日语生词本-日语单词-日语学习/id1086636706)** — 开发者 滑滑鸡 · 教育学习 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-62af8f.html)
+  日语单词本应用
+
+- **[APOD](https://itunes.apple.com/us/app/apod/id1173315594)** — 开发者 滑滑鸡 · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/apod.html)
+  每日天文一图客户端
+
+- **[今日打卡](https://itunes.apple.com/cn/app/keeping-任务管理利器-打卡习惯养成/id1197272196)** — 开发者 滑滑鸡 · 效率工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-c9c0b6.html)
+  小巧的日程管理打卡应用
+
+- **[TouchBrickout](https://itunes.apple.com/cn/app/touchbrickout/id1314804894)** — 开发者 滑滑鸡 · 游戏娱乐 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/touchbrickout.html)
+  在 Mac 上用键盘或者 Touch Bar 进行打砖块的游戏
+
+- **[YaoYao](https://itunes.apple.com/cn/app/id1179393901/)** — 开发者 haozes · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/yaoyao.html)
+  Apple Watch 跳绳计数应用
+
+- **[DunDun](https://itunes.apple.com/cn/app/dundun-squats-counter/id1348285355?l=zh&ls=1&mt=8)** — 开发者 haozes · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/dundun.html)
+  Apple Watch 深蹲计数应用
+
+- **[Lean](https://itunes.apple.com/cn/app/id1435069659?mt=8)** — 开发者 haozes · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/lean.html)
+  自重力量训练
+
+- **[OnlyTalk](https://itunes.apple.com/cn/app/id1462516460?mt=8)** — 开发者 haozes · 音视频 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/onlytalk.html)
+  亲情语音对讲
+
+- **[玩客钱包](https://itunes.apple.com/cn/app/%E7%8E%A9%E5%AE%A2%E9%92%B1%E5%8C%85/id1302778851)** — 开发者 Tuluobo · 效率工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-4e6ebb.html)
+  迅雷玩客币（改名链克）的非官方查询管理钱包 APP
+
+- **[三立三](https://3li3.com/)** — 开发者 forecho · 效率工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-f80061.html)
+  提供 Kindle 电子书和 iOS App 降价提醒和购买服务
+
+- **[Shots 精简壁纸](https://shoots.coding.me/)** — 开发者 JonyFang · 图片工具 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/shots.html)
+  精简壁纸应用，最原本的方式，最简朴的体验，只为在你挑选壁纸时，给予小小的建议：）
+
+- **[绿色守护 (Greenify)](https://www.coolapk.com/apk/com.oasisfeng.greenify)** — 开发者 oasisfeng · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/greenify.html)
+  帮助甄别那些对系统性能和耗电有不良影响的程序，阻止它们 （省略原描述20字）
+
+- **[岛 (Island)](https://www.coolapk.com/apk/com.oasisfeng.island)** — 开发者 oasisfeng · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/island.html)
+  提供：隔离应用，保护隐私、克隆应用，平行运行（省略原描述20字）等功能
+
+- **[Imagine](https://github.com/meowtec/Imagine)** — 开发者 meowtec · 图片工具 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/imagine.html)
+  跨平台的图片可视压缩 PC App
+
+- **[aidou-electron](https://github.com/ywwhack/aidou-electron)** — 开发者 ywwhack · 未分类 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/aidou-electron.html)
+  (Mac) 斗图神器 - 根据关键字搜索表情，一键复制
+
+- **[aidou](https://chrome.google.com/webstore/detail/aidou/kidfkhcacngpkgkagdmbkncecbnadajb?hl=zh-CN)** — 开发者 kinglisky · 浏览器扩展 / 社交社区 · 已上线 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/aidou.html)
+  (Chrome 插件) 社区回帖 Code review 斗图插件，一键生成表情链接
+
+- **[有饭](https://fan.zico.im/)** — 开发者 tinyao · 未分类 · 已停止 · 收录 2018-03-19 · [详情页](https://indiemaker.cn/p/project-9e51a5.html)
+  一款白白的饭否 Android 客户端
+
+- **[Luoo.qy](https://github.com/HuQingyang/Luoo.qy)** — 开发者 青杨 · 音视频 / 社交社区 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/luoo-qy.html)
+  独立音乐社区[落网](http://www.luoo.net/)的第三方电脑客户端
+
+- **[Page.qy](https://github.com/HuQingyang/Page.qy)** — 开发者 青杨 · 效率工具 / 开发工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/page-qy.html)
+  针对小白(~~懒人~~)的自动化管理、生成、部署个人博客的工具
+
+- **[路几](http://www.ruki.pw)** — 开发者 zomco · 音视频 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-1e11ee.html)
+  分享精彩的行车记录仪视频
+
+- **[Star Order for Mac/iOS](https://star-order.com/)** — 开发者 Akring · 效率工具 / 开发工具 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/star-order-for-mac-ios.html)
+  Mac/iOS 双平台的 GitHub Star 管理工具
+
+- **[短信卫士](https://itunes.apple.com/cn/app/%E7%9F%AD%E4%BF%A1%E5%8D%AB%E5%A3%AB/id1317407948?mt=8)** — 开发者 Jinya · 未分类 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-116891.html)
+  iOS 垃圾短信过滤工具（需要 iOS 11.0 或更高版本）
+
+- **[IINA](https://github.com/lhc70000/iina)** — 开发者 Collider LI · 音视频 / 开发工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/iina.html)
+  现代的 macOS 媒体播放器
+
+- **[远离手机](http://www.offphone.net)** — 开发者 lijianqiang12 · 效率工具 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-d36131.html)
+  能将手机锁定一段时间的 App
+
+- **[Klib](https://itunes.apple.com/cn/app/id1196268448?mt=12)** — 开发者 Jason · 文档办公 / 效率工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/klib.html)
+  Kindle、iBooks、多看标注与笔记管理
+
+- **[iText](https://itunes.apple.com/cn/app/id1314980676?mt=12)** — 开发者 Jason · 图片工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/itext.html)
+  从图片中识别文字的 OCR 工具
+
+- **[iPic](https://itunes.apple.com/cn/app/id1101244278?mt=12)** — 开发者 Jason · 文档办公 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/ipic.html)
+  图床工具、Markdown 插图助手，支持微博、七牛、又拍、阿里云等图床
+
+- **[iPaste](https://itunes.apple.com/cn/app/id1056935452?mt=12)** — 开发者 Jason · 效率工具 / 开发工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/ipaste.html)
+  给效率人士开发的剪切板工具，macOS & iOS 双平台
+
+- **[iHosts](https://itunes.apple.com/cn/app/id1102004240?mt=12)** — 开发者 Jason · 未分类 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/ihosts.html)
+  唯一上架 Mac App Store 的 /etc/hosts 编辑工具
+
+- **[诗鲸](https://tab.leancloud.cn/1/stats/track/2lkBXY)** — 开发者 潇涧 · 教育学习 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-72cc17.html)
+  诗鲸是简洁而呆萌的诗词学习应用
+
+- **[干货集中营Mac客户端](https://github.com/hujiaweibujidao/Gank-for-Mac)** — 开发者 潇涧 · 未分类 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/mac-726fc2.html)
+  『Gank for Mac』 可能是唯一的干货集中营 Mac 客户端
+
+- **[Steward](https://github.com/solobat/Steward)** — 开发者 tomasy · 浏览器扩展 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/steward.html)
+  Chrome 上类 Alfred / Wox 命令启动器扩展
+
+- **[单词小卡片](https://github.com/solobat/wordcard)** — 开发者 tomasy · 浏览器扩展 / 教育学习 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-6674f0.html)
+  单词查询、例句收集、单词记忆于一体的浏览器扩展，支持 Chrome / Firefox
+
+- **[下一栈](https://nextstack.xyz)** — 开发者 NextStack · 教育学习 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-8c7540.html)
+  把你的博客网站制作成 APP 进行更爽阅读浏览
+
+- **[DzzOffice](http://dzzoffice.com)** — 开发者 zyx0814 · 免费工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/dzzoffice.html)
+  类似 Office365, Google 企业应用套件的开源私有方案
+
+- **[京价保](https://jjb.im/)** — 开发者 ming · 浏览器扩展 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-549bd6.html)
+  帮你自动申请京东价格保护，顺便签到领券，自动领取返利的 Chrome 拓展
+
+- **[声音笔记+](http://www.wandoujia.com/apps/com.cmajor.musicnote)** — 开发者 叶大侠 · 文档办公 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-b2ecc4.html)
+  一个人，也可以像一支乐队一样练琴
+
+- **[为你搜谱](http://sopu.52cmajor.com/)** — 开发者 叶大侠 · 未分类 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-abd57e.html)
+  应该是国内最全的乐谱搜索引擎了
+
+- **[我旁](https://3kmq.com/)** — 开发者 mclxly · 生活服务 / 社交社区 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-c484eb.html)
+  分享 / 发现周边生活资讯的社区
+
+- **[纯纯写作](https://www.coolapk.com/apk/com.drakeet.purewriter?mt=8&uo=4&ct=appcards)** — 开发者 drakeet · 文档办公 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-792ffc.html)
+  绝不丢失文本编辑器
+
+- **[Lazy K](https://itunes.apple.com/cn/app/lazy-k/id1348224910?mt=8)** — 开发者 Soledad · 社交社区 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/lazy-k.html)
+  不想聊天的敷衍“输入法”
+
+- **[小目标](https://itunes.apple.com/cn/app/%E5%B0%8F%E7%9B%AE%E6%A0%87-%E9%87%8F%E5%8C%96%E4%BD%A0%E7%9A%84%E8%BF%9B%E6%AD%A5/id1215312957?mt=8)** — 开发者 Soledad · 效率工具 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-c3f2a8.html)
+  实用且精致的任务管理类应用，以量化的方式激励你完成目标
+
+- **[AtPill](https://itunes.apple.com/cn/app/id590504521?mt=12)** — 开发者 Gao Deng · 未分类 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/atpill.html)
+  (Mac) 豆瓣电台客户端
+
+- **[HaloRadio](https://www.icyarrow.com/haloradio/)** — 开发者 Gao Deng · 开发工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/haloradio.html)
+  (Windows) 豆瓣电台客户端
+
+- **[Biu](https://github.com/gaodeng/Biu-for-ReadHub)** — 开发者 Gao Deng · 未分类 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/biu.html)
+  (Android/iOS) Readhub 移动客户端
+
+- **[易词云](http://yciyun.com)** — 开发者 ymark · 图片工具 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-99446b.html)
+  根据各种图片模板生成词云图片
+
+- **[易LOGO](http://yeelogo.com/)** — 开发者 ymark · 未分类 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/logo.html)
+  简单的在线生成 Logo 网站
+
+- **[二维码梦工厂](http://qrdream.ymark.cc/)** — 开发者 ymark · 效率工具 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-cc2326.html)
+  专注于个性、动态、扁平、表情二维码生成
+
+- **[GhostSKB](https://itunes.apple.com/cn/app/ghostskb/id1134384859?mt=12)** — 开发者 GhostSKB · 未分类 · 已停止 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/ghostskb.html)
+  (Mac) 可根据应用设置默认输入法，应用切换时，输入法也跟随切换
+
+- **[饭斯基](https://github.com/simpleapples/fansky)** — 开发者 simpleapples · 未分类 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-4a1f32.html)
+  第三方饭否iOS客户端
+
+- **[摇摇选餐](https://github.com/simpleapples/ShakeChoose)** — 开发者 simpleapples · 未分类 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-70e27c.html)
+  随机选餐工具
+
+- **[短网址二维码生成器](https://github.com/simpleapples/url2qrcode)** — 开发者 simpleapples · 浏览器扩展 · 已上线 · 收录 2018-03-18 · [详情页](https://indiemaker.cn/p/project-77cf31.html)
+  Chrome 短网址二维码生成器
+
+- **[RapZH](https://rapzh.com/)** — 开发者 wangzuo · 开发工具 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/rapzh.html)
+  中文说唱数据库
+
+- **[Nihon Cam](https://itunes.apple.com/cn/app/id1362401778)** — 开发者 KyXu · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/nihon-cam.html)
+  提供 5810 种滤镜的另类美图软件，已被 App Store 推荐
+
+- **[Nihon](https://itunes.apple.com/app/id1315486029)** — 开发者 KyXu · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/nihon.html)
+  在 iOS 上呈现日本传统颜色
+
+- **[闪念](https://itunes.apple.com/cn/app/id1342519507)** — 开发者 KyXu · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-b48be2.html)
+  在 iPhone 上尽力复刻了锤子的 Idea Pills
+
+- **[记分牌](https://itunes.apple.com/cn/app/id1080572635)** — 开发者 KyXu · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-45db66.html)
+  (iOS) NBA 比分跟踪利器
+
+- **[Basketball Moment](https://itunes.apple.com/cn/app/id1185284010)** — 开发者 KyXu · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/basketball-moment.html)
+  (Mac) NBA 比分跟踪利器
+
+- **[时间规划局](https://itunes.apple.com/cn/app/id1204689405)** — 开发者 KyXu · 效率工具 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-a54be6.html)
+  提醒珍惜时间的 iOS Today Widget
+
+- **[飞花令](https://itunes.apple.com/cn/app/id1340671116)** — 开发者 KyXu · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-461999.html)
+  用三十万古诗词数据打造的极简飞花令主题 App
+
+- **[PriceTag](https://itunes.apple.com/cn/app/price-tag/id1166819590?mt=8)** — 开发者 61 · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/pricetag.html)
+  应用资讯即刻知晓
+
+- **[妙笔](https://wonderpen.app)** — 开发者 oldj · 文档办公 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-0f4e5e.html)
+  Mac 平台写作软件
+
+- **[SwitchHosts!](https://swh.app)** — 开发者 oldj · 效率工具 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/switchhosts.html)
+  便捷的 Hosts 管理工具
+
+- **[简悦](http://ksria.com/simpread/)** — 开发者 Kenshin · 浏览器扩展 / 教育学习 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-50c384.html)
+  让你瞬间进入沉浸式阅读的 Chrome 扩展
+
+- **[Emoji](http://ksria.com/emoji/)** — 开发者 Kenshin · 浏览器扩展 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/emoji-9de49f.html)
+  简单、可靠、纯粹、中文语义化的 Emoji 扩展
+
+- **[TopTalkedBooks](https://toptalkedbooks.com/)** — 开发者 jadeydi · 未分类 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/toptalkedbooks.html)
+  收集 Hacker News, Stack Overflow, Reddit 书，展示推荐最多的书
+
+- **[Techshack Weekly](https://wanqu.io/t/techshack-weekly/7809)** — 开发者 soasme · 开发工具 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/techshack-weekly.html)
+  精细耕耘后端开发的每一个知识点
+
+- **[Cominsoon](https://cominsoon.io/)** — 开发者 wwayne · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cominsoon.html)
+  快速搭建『即将上线』页面
+
+- **[小专栏](https://xiaozhuanlan.com/)** — 开发者 寂小桦 · 文档办公 / 社交社区 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-152f38.html)
+  专业人士的写作社区
+
+- **[创造狮导航](http://chuangzaoshi.com)** — 开发者 像素君 · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-326ef1.html)
+  创意工作者导航
+
+- **[Paybase](https://paybase.cn)** — 开发者 wichna · 效率工具 / 社交社区 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/paybase.html)
+  专注于支付领域的垂直论坛
+
+- **[Anyshortcut](https://anyshortcut.com/)** — 开发者 wichna · 效率工具 / 浏览器扩展 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/anyshortcut.html)
+  Chrome/Firefox 效率插件，自定义快捷键快速打开常用网站
+
+- **[纸小墨](https://www.v2ex.com/t/393185#reply710)** — 开发者 猫叔 · 文档办公 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-65ee70.html)
+  全平台笔记软件
+
+- **[字幕组机翻小助手](https://tern.1c7.me)** — 开发者 糖醋陈皮 · 音视频 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-4869d3.html)
+  机器翻译 .srt .ass 字幕文件
+
+- **[寓住](https://yuzhu.me)** — 开发者 糖醋陈皮 · 未分类 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/project-409a78.html)
+  找长租公寓/评价长租公寓
+
+- **[Sideidea](http://sideidea.com)** — 开发者 糖醋陈皮 · 开发工具 · 已上线 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/sideidea.html)
+  独立开发者分享做项目盈利的故事，目前内容均翻译自 Indie Hacker，暂无原创内容。
+
+- **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
+  聚合所有中文字幕 Crash Course 视频
 
 ## 程序员版（319）
 
@@ -6230,7 +8324,13 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（127）
+## 独立游戏（129）
+
+- **[Narinig Mo Ba? Fan Guide](https://narinigmoba.app/)** — 开发者 Felicia · 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/narinig-mo-ba-fan-guide.html)
+  Narinig Mo Ba? 在线游玩与独立玩家攻略站（免费），提供安全下载、玩法、流程、剧情解析和移动端状态
+
+- **[Concentration Games](https://concentrationgames.online/)** — 开发者 Kai · 效率工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/concentration-games.html)
+  专注力 / 脑力小游戏合集（免费），免注册、免下载，主打 concentration games，含 Schulte 表、Dual N-Back、反应速度测试等工具页
 
 - **[Gamepad Tester](https://gamepadtesteronline.org/)** — 开发者 pandaupup（广州） · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-09 · [详情页](https://indiemaker.cn/p/gamepad-tester.html)
   游戏手柄测试与诊断工具（免费），可实时检测手柄按键、摇杆、扳机键和震动，并提供摇杆漂移、Circularity、Polling Rate、Latency、Button Mapping，以及 Xbox、PS5、Joy-Con、Switch Pro 等专项测试

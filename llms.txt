@@ -1,35 +1,36 @@
 # AI 独立制造所（Indie Maker）
 
-> 中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏。每日从 GitHub 自动同步，收录 2201 个产品，无竞价排名。
+> 中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏。每日从 GitHub 自动同步，收录 2901 个产品，无竞价排名。
 
 ## 关于本站
 - 名称：AI 独立制造所（Indie Maker）
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
-- 更新时间：2026-09-10（北京时间）
+- 更新时间：2026-09-11（北京时间）
 - 语言：中文 / English（双语切换）
 - 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
+- 本周新收录：https://indiemaker.cn/weekly.html（最近 7 天新收录的产品，每日更新）
 
 ## 分类导航
-- [AI 工具](https://indiemaker.cn/c/ai-tools.html)：836 个产品
-- [音视频](https://indiemaker.cn/c/audio-video.html)：399 个产品
-- [生活服务](https://indiemaker.cn/c/lifestyle.html)：63 个产品
-- [游戏娱乐](https://indiemaker.cn/c/games.html)：140 个产品
-- [免费工具](https://indiemaker.cn/c/free-tools.html)：398 个产品
-- [效率工具](https://indiemaker.cn/c/productivity.html)：307 个产品
-- [浏览器扩展](https://indiemaker.cn/c/browser-extensions.html)：210 个产品
-- [社交社区](https://indiemaker.cn/c/social.html)：83 个产品
-- [开发工具](https://indiemaker.cn/c/dev-tools.html)：421 个产品
-- [教育学习](https://indiemaker.cn/c/education.html)：109 个产品
-- [文档办公](https://indiemaker.cn/c/docs-office.html)：207 个产品
-- [图片工具](https://indiemaker.cn/c/image-tools.html)：444 个产品
+- [AI 工具](https://indiemaker.cn/c/ai-tools.html)：869 个产品
+- [音视频](https://indiemaker.cn/c/audio-video.html)：452 个产品
+- [生活服务](https://indiemaker.cn/c/lifestyle.html)：88 个产品
+- [游戏娱乐](https://indiemaker.cn/c/games.html)：163 个产品
+- [免费工具](https://indiemaker.cn/c/free-tools.html)：439 个产品
+- [效率工具](https://indiemaker.cn/c/productivity.html)：411 个产品
+- [浏览器扩展](https://indiemaker.cn/c/browser-extensions.html)：272 个产品
+- [社交社区](https://indiemaker.cn/c/social.html)：111 个产品
+- [开发工具](https://indiemaker.cn/c/dev-tools.html)：529 个产品
+- [教育学习](https://indiemaker.cn/c/education.html)：157 个产品
+- [文档办公](https://indiemaker.cn/c/docs-office.html)：265 个产品
+- [图片工具](https://indiemaker.cn/c/image-tools.html)：492 个产品
 - [未分类](https://indiemaker.cn/c/uncategorized.html)：0 个产品
 
 ## 完整数据
-- [全部产品清单](https://indiemaker.cn/llms-full.txt)：2201 个产品的名称、链接、开发者、分类、状态与简介（供 AI 索引全文）
+- [全部产品清单](https://indiemaker.cn/llms-full.txt)：2901 个产品的名称、链接、开发者、分类、状态与简介（供 AI 索引全文）
 - [产品导航首页](https://indiemaker.cn/)：可交互的浏览 / 搜索 / 筛选界面
 
 ## 分版
-- 大众产品：1755
+- 大众产品：2453
 - 程序员版：319
-- 独立游戏：127
+- 独立游戏：129

@@ -8,8 +8,10 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SITE_URL = "https://indiemaker.cn";
 const SOURCES = [
   { edition: "main", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/README.md" },
-  { edition: "programmer", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/pages/README-Programmer-Edition.md" },
-  { edition: "game", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/pages/README-Game.md" }
+  // 2026-09-10 上游整理：2018-2023 旧项目抽到 .github/pages/README-Archive.md（GitHub README 512KB 渲染限制）
+  { edition: "main", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/.github/pages/README-Archive.md" },
+  { edition: "programmer", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/.github/pages/README-Programmer-Edition.md" },
+  { edition: "game", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/.github/pages/README-Game.md" }
 ];
 
 // 腾讯云 COS 上传（主数据存储）。未配置环境变量时自动跳过（本地开发无影响）。
