@@ -4,19 +4,19 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-11T03:57:21.396Z",
+  "generatedAt": "2026-09-12T00:18:38.778Z",
   "counts": {
-    "total": 2901,
-    "main": 2453,
+    "total": 2902,
+    "main": 2454,
     "programmer": 319,
     "game": 129,
     "custom": 1
   },
   "categoryCounts": {
+    "音视频": 453,
+    "免费工具": 440,
     "AI 工具": 869,
     "图片工具": 492,
-    "音视频": 452,
-    "免费工具": 439,
     "浏览器扩展": 272,
     "效率工具": 411,
     "文档办公": 265,
@@ -27,6 +27,29 @@
     "社交社区": 111
   },
   "projects": [
+    {
+      "id": "main-20260911-chenchuxin-voicecloner",
+      "edition": "main",
+      "addedAt": "2026-09-11",
+      "maker": "LongAotian",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenchuxin"
+        }
+      ],
+      "name": "VoiceCloner",
+      "url": "https://voicecloner.org/",
+      "status": "online",
+      "description": "使用自己的声音，将文字转成语音；每天免费额度，不注册也可使用",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260911-codaaiteam-c2anime",
       "edition": "main",
@@ -236,9 +259,9 @@
         }
       ],
       "name": "OPC 情报站",
-      "url": "https://wxzhongwang.github.io/opc-radar/",
+      "url": "https://opc-radar.pages.dev/",
       "status": "online",
-      "description": "一人公司（OPC）资讯聚合站，收录 80 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册",
+      "description": "一人公司（OPC）资讯聚合站，收录 82 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册",
       "extraLinks": [
         {
           "label": "GitHub 仓库",
@@ -1909,7 +1932,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260911-0",
+      "id": "custom-20260912-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
