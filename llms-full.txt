@@ -1,10 +1,34 @@
-# AI 独立制造所 · 全部产品清单（2902）
+# AI 独立制造所 · 全部产品清单（2911）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-12（北京时间）
+> 更新时间：2026-09-13（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2454）
+## 大众产品（2462）
+
+- **[1980s AI Photo](https://1980saiphoto.com)** — 开发者 littlePig-zzf · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/1980s-ai-photo.html)
+  上传一张个人照片，保留面部特征，一键生成逼真的 1980 年代复古肖像；首张可免费生成
+
+- **[IELTS Writing Practice](https://ieltswritingpractice.app/)** — 开发者 Ian · AI 工具 / 文档办公 / 教育学习 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/ielts-writing-practice.html)
+  雅思写作练习平台，提供 Task 1 / Task 2 题库、模拟写作、AI 评分与逐句批改反馈
+
+- **[NanoAvatar](https://github.com/wpydcr/NanoAvatar/releases/latest)** — 开发者 wpydcr · 音视频 / 开发工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/nanoavatar.html)
+  Android 数字人应用，用自己的录音在手机上驱动逼真、流畅的数字人，响应快，老款手机也可运行，录音体验可离线使用，无需 API key
+
+- **[神算阁 / Shen Suan Ge](https://breezesamuel.github.io/ssg-sites/zh/)** — 开发者 breezesamuel · AI 工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/shen-suan-ge.html)
+  AI 命理网页应用,塔罗/六爻/梅花/四柱/紫微 15+ 占卜方法,中英多语,纯 HTML 免构建开箱即用,支持 USDC 收款
+
+- **[UI Design Agent Kit 作品展厅](https://agent.kcos.club/)** — 开发者 muzimu217 · AI 工具 / 效率工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/ui-design-agent-kit.html)
+  AI 设计工作流产出的界面作品展厅，收录 11 个带验收记录的案例，「地铁疾行」3D 跑酷与「积木小工坊」3D 拼搭可以直接上手玩
+
+- **[TokenTracker / 纸账](https://www.yoquai.com/)** — 开发者 yoqu · AI 工具 / 效率工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/tokentracker.html)
+  Mac 菜单栏 Agent 状态工具与本地用量账本，查看 Claude Code、Codex 等工具的活动，接收受支持 Hook 的完成或待处理提醒，按工具、模型、项目筛选 Token 记录并导出 CSV
+
+- **[Trim 订阅扫雷器](https://leilosss.github.io/)** — 开发者 leilosss · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/trim.html)
+  订阅账单分析工具，导入支付宝/微信账单自动识别自动续费、算出年度订阅支出与可省金额；账单不上传，识别全在浏览器本地完成，免费无需注册
+
+- **[工程数据驾驶舱](http://43.156.229.191:8080/)** — 开发者 wuzhaohui · 未分类 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/project-6c8346.html)
+  工程项目数据驾驶舱，把 SQL、HTTP、JSON 和 WebSocket 数据拖拽编排为可发布、可回滚的大屏，支持实时刷新和只读分享
 
 - **[VoiceCloner](https://voicecloner.org/)** — 开发者 LongAotian · 音视频 / 免费工具 · 已上线 · 收录 2026-09-11 · [详情页](https://indiemaker.cn/p/voicecloner.html)
   使用自己的声音，将文字转成语音；每天免费额度，不注册也可使用
@@ -7368,7 +7392,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（319）
+## 程序员版（320）
+
+- **[DeliverKit](https://github.com/muzimu217/DeliverKit)** — 开发者 muzimu217 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/deliverkit.html)
+  给 AI Agent 用的交付 MCP，把产品打包成各生态安装包的知识、可评审计划和真实产物串成一条链路——Linux deb/rpm/AppImage 已跑通真实构建和干净容器安装运行验证，Windows/macOS/鸿蒙按契约调度到对应 CI runner 产出；npx -y deliverkit-mcp 一条命令接入 Claude Code、Cursor 等客户端，MIT 开源 TypeScript
 
 - **[TeamoRouter](https://teamorouter.cn)** — 开发者 yangzhou-chaofan · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/teamorouter-960233.html)
   多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费
