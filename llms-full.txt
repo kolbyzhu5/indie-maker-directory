@@ -1,10 +1,22 @@
-# AI 独立制造所 · 全部产品清单（2913）
+# AI 独立制造所 · 全部产品清单（2919）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-09-14（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2464）
+## 大众产品（2468）
+
+- **[小麦 Mika](https://mktskill.com/)** — 开发者 fffffrost · AI 工具 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/mika.html)
+  AI 营销工作台，提交目标和材料，生成竞品研究、内容文稿或执行方案，支持查看进度、修订和导出
+
+- **[Excel 表格工具](http://43.156.229.191:3001/)** — 开发者 wuzhaohui · 文档办公 / 浏览器扩展 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/excel.html)
+  浏览器端 Excel/PDF 数据处理工具，上传多个来源后配置字段匹配、预览组合结果并导出新的工作簿
+
+- **[TideLink](https://tidelink.xyz)** — 开发者 tidelink88 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/tidelink.html)
+  已有 OpenAI SDK 代码无需改动，一个 API key 即可调用 GLM/Qwen/DeepSeek/Hunyuan/Doubao 多家国产大模型；网关自动故障转移，免信用卡免费起步
+
+- **[Image to ASCII](https://imagetoascii.art/)** — 开发者 Lucas-CX · 图片工具 / 文档办公 / 浏览器扩展 / 社交社区 / 免费工具 · 已上线 · 收录 2026-09-13 · [详情页](https://indiemaker.cn/p/image-to-ascii.html)
+  图片转 ASCII 字符画工具，免费无需注册，图片在浏览器本地处理；可调整字符样式、细节和颜色，复制文本或 Markdown，导出 TXT、PNG、SVG 等格式，用于 README、聊天字符画和复古封面
 
 - **[剪蛋 Jiandan](https://www.jiandan.qd.je/)** — 开发者 SKYCHENV · 图片工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-13 · [详情页](https://indiemaker.cn/p/jiandan.html)
   Windows 截图导入辅助工具，将剪贴板图片通过 Ctrl+V 送进剪映专业版，减少另存图片和查找文件；首次需邮箱验证码登录，图片本地处理不上传
@@ -7398,7 +7410,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（320）
+## 程序员版（322）
+
+- **[vibepanel](https://github.com/jiangmuran/vibepanel)** — 开发者 jiangmuran · AI 工具 / 效率工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/vibepanel.html)
+  自托管的 AI 编程会话面板，在浏览器和手机上同时管理多个 Claude Code / Codex 会话，面板重启或断网时 agent 照样运行
+
+- **[MOVO](https://github.com/himovo/movo)** — 开发者 juncheng-zheng · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/movo.html)
+  基于 DeepSeek Harness 构建的自托管企业级 Agent 平台，提供 Web 工作空间、企业知识库、深度研究、内容与文件生成、Skills、MCP、权限治理和 Docker 一键部署
 
 - **[DeliverKit](https://github.com/muzimu217/DeliverKit)** — 开发者 muzimu217 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/deliverkit.html)
   给 AI Agent 用的交付 MCP，把产品打包成各生态安装包的知识、可评审计划和真实产物串成一条链路——Linux deb/rpm/AppImage 已跑通真实构建和干净容器安装运行验证，Windows/macOS/鸿蒙按契约调度到对应 CI runner 产出；npx -y deliverkit-mcp 一条命令接入 Claude Code、Cursor 等客户端，MIT 开源 TypeScript

@@ -4,29 +4,187 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-14T00:12:28.097Z",
+  "generatedAt": "2026-09-14T07:49:41.465Z",
   "counts": {
-    "total": 2913,
-    "main": 2464,
-    "programmer": 320,
+    "total": 2919,
+    "main": 2468,
+    "programmer": 322,
     "game": 129,
     "custom": 1
   },
   "categoryCounts": {
-    "图片工具": 494,
-    "效率工具": 414,
-    "开发工具": 532,
-    "免费工具": 444,
-    "AI 工具": 875,
-    "文档办公": 266,
+    "AI 工具": 879,
+    "文档办公": 268,
+    "浏览器扩展": 276,
+    "开发工具": 535,
+    "免费工具": 446,
+    "效率工具": 415,
+    "图片工具": 495,
+    "社交社区": 112,
     "教育学习": 158,
     "音视频": 454,
-    "浏览器扩展": 273,
     "游戏娱乐": 163,
-    "生活服务": 88,
-    "社交社区": 111
+    "生活服务": 88
   },
   "projects": [
+    {
+      "id": "main-20260914-fffffrost-小麦-mika",
+      "edition": "main",
+      "addedAt": "2026-09-14",
+      "maker": "fffffrost",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fffffrost"
+        }
+      ],
+      "name": "小麦 Mika",
+      "url": "https://mktskill.com/",
+      "status": "online",
+      "description": "AI 营销工作台，提交目标和材料，生成竞品研究、内容文稿或执行方案，支持查看进度、修订和导出",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260914-wuzhaohui1993-excel-表格工具",
+      "edition": "main",
+      "addedAt": "2026-09-14",
+      "maker": "wuzhaohui",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WuZhaohui1993"
+        }
+      ],
+      "name": "Excel 表格工具",
+      "url": "http://43.156.229.191:3001/",
+      "status": "online",
+      "description": "浏览器端 Excel/PDF 数据处理工具，上传多个来源后配置字段匹配、预览组合结果并导出新的工作簿",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/WuZhaohui1993/excel-composer-public"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260914-tidelink88-tidelink",
+      "edition": "main",
+      "addedAt": "2026-09-14",
+      "maker": "tidelink88",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tidelink88"
+        }
+      ],
+      "name": "TideLink",
+      "url": "https://tidelink.xyz",
+      "status": "online",
+      "description": "已有 OpenAI SDK 代码无需改动，一个 API key 即可调用 GLM/Qwen/DeepSeek/Hunyuan/Doubao 多家国产大模型；网关自动故障转移，免信用卡免费起步",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/tidelink88/tidelink-opensource"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260914-jiangmuran-vibepanel",
+      "edition": "programmer",
+      "addedAt": "2026-09-14",
+      "maker": "jiangmuran",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jiangmuran"
+        }
+      ],
+      "name": "vibepanel",
+      "url": "https://github.com/jiangmuran/vibepanel",
+      "status": "online",
+      "description": "自托管的 AI 编程会话面板，在浏览器和手机上同时管理多个 Claude Code / Codex 会话，面板重启或断网时 agent 照样运行",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260914-juncheng-zheng-movo",
+      "edition": "programmer",
+      "addedAt": "2026-09-14",
+      "maker": "juncheng-zheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/juncheng-zheng"
+        }
+      ],
+      "name": "MOVO",
+      "url": "https://github.com/himovo/movo",
+      "status": "online",
+      "description": "基于 DeepSeek Harness 构建的自托管企业级 Agent 平台，提供 Web 工作空间、企业知识库、深度研究、内容与文件生成、Skills、MCP、权限治理和 Docker 一键部署",
+      "extraLinks": [
+        {
+          "label": "官网",
+          "url": "https://www.himovo.com"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260913-lucas-cx-image-to-ascii",
+      "edition": "main",
+      "addedAt": "2026-09-13",
+      "maker": "Lucas-CX",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Lucas-CX"
+        }
+      ],
+      "name": "Image to ASCII",
+      "url": "https://imagetoascii.art/",
+      "status": "online",
+      "description": "图片转 ASCII 字符画工具，免费无需注册，图片在浏览器本地处理；可调整字符样式、细节和颜色，复制文本或 Markdown，导出 TXT、PNG、SVG 等格式，用于 README、聊天字符画和复古封面",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "浏览器扩展",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260913-skychenv-剪蛋-jiandan",
       "edition": "main",
