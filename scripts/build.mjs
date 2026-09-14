@@ -47,6 +47,9 @@ const ORGANIZATION_LD = JSON.stringify({
   ]
 });
 
+// Umami 访问统计（隐私友好、无 cookie，全站复用）
+const UMAMI_SCRIPT = '<script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>';
+
 // 分类英文 slug 映射（分类页 URL：/c/{slug}.html）
 const CATEGORY_SLUGS = {
   "AI 工具": "ai-tools",
@@ -244,6 +247,7 @@ function renderProductPage(project, slug, slugMap, related) {
   <script type="application/ld+json">${softwareApp}</script>
   <script type="application/ld+json">${breadcrumbLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -344,6 +348,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">${collectionLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -434,6 +439,7 @@ function renderAboutPage() {
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">${faqLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -523,6 +529,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">${itemListLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
