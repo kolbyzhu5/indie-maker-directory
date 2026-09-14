@@ -4,29 +4,79 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-13T00:00:00.018Z",
+  "generatedAt": "2026-09-14T00:12:28.097Z",
   "counts": {
-    "total": 2911,
-    "main": 2462,
+    "total": 2913,
+    "main": 2464,
     "programmer": 320,
     "game": 129,
     "custom": 1
   },
   "categoryCounts": {
+    "图片工具": 494,
+    "效率工具": 414,
+    "开发工具": 532,
+    "免费工具": 444,
     "AI 工具": 875,
-    "图片工具": 493,
-    "免费工具": 443,
     "文档办公": 266,
     "教育学习": 158,
     "音视频": 454,
-    "开发工具": 531,
-    "效率工具": 413,
     "浏览器扩展": 273,
     "游戏娱乐": 163,
     "生活服务": 88,
     "社交社区": 111
   },
   "projects": [
+    {
+      "id": "main-20260913-skychenv-剪蛋-jiandan",
+      "edition": "main",
+      "addedAt": "2026-09-13",
+      "maker": "SKYCHENV",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SKYCHENV"
+        }
+      ],
+      "name": "剪蛋 Jiandan",
+      "url": "https://www.jiandan.qd.je/",
+      "status": "online",
+      "description": "Windows 截图导入辅助工具，将剪贴板图片通过 Ctrl+V 送进剪映专业版，减少另存图片和查找文件；首次需邮箱验证码登录，图片本地处理不上传",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/SKYCHENV/Jiandan"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260913-hwlvipone-pet-memorial-portrait",
+      "edition": "main",
+      "addedAt": "2026-09-13",
+      "maker": "hwlvipone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "name": "pet memorial portrait",
+      "url": "https://aipetmemorialportrait.com/",
+      "status": "online",
+      "description": "宠物纪念海报生成器",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
     {
       "id": "main-20260912-littlepig-zzf-1980s-ai-photo",
       "edition": "main",
@@ -2163,7 +2213,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260913-0",
+      "id": "custom-20260914-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

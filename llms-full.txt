@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（2911）
+# AI 独立制造所 · 全部产品清单（2913）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-13（北京时间）
+> 更新时间：2026-09-14（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2462）
+## 大众产品（2464）
+
+- **[剪蛋 Jiandan](https://www.jiandan.qd.je/)** — 开发者 SKYCHENV · 图片工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-13 · [详情页](https://indiemaker.cn/p/jiandan.html)
+  Windows 截图导入辅助工具，将剪贴板图片通过 Ctrl+V 送进剪映专业版，减少另存图片和查找文件；首次需邮箱验证码登录，图片本地处理不上传
+
+- **[pet memorial portrait](https://aipetmemorialportrait.com/)** — 开发者 hwlvipone · 未分类 · 已上线 · 收录 2026-09-13 · [详情页](https://indiemaker.cn/p/pet-memorial-portrait.html)
+  宠物纪念海报生成器
 
 - **[1980s AI Photo](https://1980saiphoto.com)** — 开发者 littlePig-zzf · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-12 · [详情页](https://indiemaker.cn/p/1980s-ai-photo.html)
   上传一张个人照片，保留面部特征，一键生成逼真的 1980 年代复古肖像；首张可免费生成
