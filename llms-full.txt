@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（2921）
+# AI 独立制造所 · 全部产品清单（2924）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-09-15（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2468）
+## 大众产品（2471）
+
+- **[云播切片](https://live.zyue.wiki/)** — 开发者 lizhongyue248 · 音视频 · 已上线 · 收录 2026-09-15 · [详情页](https://indiemaker.cn/p/project-16a925.html)
+  全自动直播录制、归档与切片平台，开播自动录。市面上唯一一款支持录制弹幕、录制礼物特效和直播间界面完整画面的云平台，云端实时监控与分段保存，方便直播复盘、高清 1080p 直播切片与素材剪辑
+
+- **[PICWALL](https://picwall.dpdns.org)** — 开发者 xulovemin · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-09-15 · [详情页](https://indiemaker.cn/p/picwall.html)
+  AI 图片与视频提示词库，按作品、媒体类型与风格标签浏览灵感
+
+- **[hippoxOS](https://hippoxos.vercel.app/)** — 开发者 0xhappyboy · AI 工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-09-15 · [详情页](https://indiemaker.cn/p/hippoxos.html)
+  一款真正意义上的 LLM 操作系统，内置 6 个子系统，统一由自然语言控制：通用对话计算机控制系统、完整的视频编辑系统（自研 NLE 引擎）、金融数据分析系统、地理信息系统、代码编辑系统、3D 沙盒系统
 
 - **[小麦 Mika](https://mktskill.com/)** — 开发者 fffffrost · AI 工具 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/mika.html)
   AI 营销工作台，提交目标和材料，生成竞品研究、内容文稿或执行方案，支持查看进度、修订和导出

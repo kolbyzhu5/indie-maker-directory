@@ -4,29 +4,104 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-15T00:38:31.795Z",
+  "generatedAt": "2026-09-15T15:17:12.103Z",
   "counts": {
-    "total": 2921,
-    "main": 2468,
+    "total": 2924,
+    "main": 2471,
     "programmer": 323,
     "game": 130,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 880,
+    "音视频": 457,
+    "AI 工具": 882,
+    "图片工具": 496,
+    "开发工具": 537,
     "文档办公": 268,
     "浏览器扩展": 277,
-    "开发工具": 536,
     "免费工具": 448,
     "效率工具": 416,
     "教育学习": 159,
     "游戏娱乐": 164,
-    "图片工具": 495,
     "社交社区": 112,
-    "音视频": 454,
     "生活服务": 88
   },
   "projects": [
+    {
+      "id": "main-20260915-lizhongyue248-云播切片",
+      "edition": "main",
+      "addedAt": "2026-09-15",
+      "maker": "lizhongyue248",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lizhongyue248"
+        }
+      ],
+      "name": "云播切片",
+      "url": "https://live.zyue.wiki/",
+      "status": "online",
+      "description": "全自动直播录制、归档与切片平台，开播自动录。市面上唯一一款支持录制弹幕、录制礼物特效和直播间界面完整画面的云平台，云端实时监控与分段保存，方便直播复盘、高清 1080p 直播切片与素材剪辑",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260915-xulovemin-picwall",
+      "edition": "main",
+      "addedAt": "2026-09-15",
+      "maker": "xulovemin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xulovemin"
+        }
+      ],
+      "name": "PICWALL",
+      "url": "https://picwall.dpdns.org",
+      "status": "online",
+      "description": "AI 图片与视频提示词库，按作品、媒体类型与风格标签浏览灵感",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260915-0xhappyboy-hippoxos",
+      "edition": "main",
+      "addedAt": "2026-09-15",
+      "maker": "0xhappyboy",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0xhappyboy"
+        }
+      ],
+      "name": "hippoxOS",
+      "url": "https://hippoxos.vercel.app/",
+      "status": "online",
+      "description": "一款真正意义上的 LLM 操作系统，内置 6 个子系统，统一由自然语言控制：通用对话计算机控制系统、完整的视频编辑系统（自研 NLE 引擎）、金融数据分析系统、地理信息系统、代码编辑系统、3D 沙盒系统",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/HippoxHQ/hippoxOS"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260914-fffffrost-小麦-mika",
       "edition": "main",
