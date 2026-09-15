@@ -86,7 +86,8 @@ fieldset b { color: var(--muted); font-size: 10px; font-weight: 400; }
 .project-card:hover h2 a { color: var(--red-dark); background-size: 100% 1px; }
 .project-card p { margin: 0; color: #5f5a50; font-size: 12px; line-height: 1.8; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .card-tags { display: flex; flex-wrap: wrap; gap: 5px; margin: 13px 0; }
-.card-tags span { color: var(--muted); background: var(--paper); border-radius: 2px; padding: 3px 6px; font-size: 9px; }
+.card-tags span, .card-tags a { color: var(--muted); background: var(--paper); border-radius: 2px; padding: 3px 6px; font-size: 9px; text-decoration: none; }
+.card-tags a:hover { color: var(--red); background: var(--paper-deep); }
 .card-footer { margin-top: auto; padding-top: 12px; display: flex; justify-content: space-between; gap: 10px; align-items: center; border-top: 1px dashed var(--line); }
 .maker { min-width: 0; color: var(--muted); font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .visit { color: var(--red); font-size: 11px; text-decoration: none; white-space: nowrap; }

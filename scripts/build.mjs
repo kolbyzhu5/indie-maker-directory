@@ -217,7 +217,7 @@ function renderProductPage(project, slug, slugMap, related) {
   });
 
   const relatedSection = relatedCards
-    ? `<section class="related"><h2>同分类推荐</h2><div class="related-grid">${relatedCards}</div></section>`
+    ? `<section class="related" id="related"><h2>同分类推荐</h2><div class="related-grid">${relatedCards}</div></section>`
     : "";
 
   return `<!DOCTYPE html>
@@ -269,6 +269,7 @@ function renderProductPage(project, slug, slugMap, related) {
       <div class="detail-actions">
         <a class="btn-primary" href="${url}" target="_blank" rel="noreferrer">访问官网 ↗</a>
         ${extraLinks}
+        ${relatedCards ? '<a class="btn-ghost" href="#related">看同类产品 ↓</a>' : ""}
       </div>
     </article>
     ${relatedSection}
@@ -295,7 +296,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   const cards = products.map((p) => {
     const slug = slugMap.get(p.id);
     const city = p.city ? ` · ${escapeHTML(p.city)}` : "";
-    const tags = (p.categories || []).slice(0, 3).map((t) => `<span>${escapeHTML(t)}</span>`).join("");
+    const tags = (p.categories || []).slice(0, 3).map((t) => `<a href="/c/${CATEGORY_SLUGS[t] || "uncategorized"}.html">${escapeHTML(t)}</a>`).join("");
     return `<article class="project-card">
       <div class="card-top"><span class="edition-badge">${EDITION_LABEL[p.edition] || "大众产品"}</span><time class="card-date">${p.addedAt}</time></div>
       <h2><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h2>
@@ -482,7 +483,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   const cards = weekProducts.map((p) => {
     const slug = slugMap.get(p.id);
     const city = p.city ? ` · ${escapeHTML(p.city)}` : "";
-    const tags = (p.categories || []).slice(0, 3).map((t) => `<span>${escapeHTML(t)}</span>`).join("");
+    const tags = (p.categories || []).slice(0, 3).map((t) => `<a href="/c/${CATEGORY_SLUGS[t] || "uncategorized"}.html">${escapeHTML(t)}</a>`).join("");
     return `<article class="project-card">
       <div class="card-top"><span class="edition-badge">${EDITION_LABEL[p.edition] || "大众产品"}</span><time class="card-date">${p.addedAt}</time></div>
       <h2><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h2>
