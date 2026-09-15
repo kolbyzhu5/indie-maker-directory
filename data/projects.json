@@ -4,26 +4,26 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-14T07:49:41.465Z",
+  "generatedAt": "2026-09-15T00:38:31.795Z",
   "counts": {
-    "total": 2919,
+    "total": 2921,
     "main": 2468,
-    "programmer": 322,
-    "game": 129,
+    "programmer": 323,
+    "game": 130,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 879,
+    "AI 工具": 880,
     "文档办公": 268,
-    "浏览器扩展": 276,
-    "开发工具": 535,
-    "免费工具": 446,
-    "效率工具": 415,
+    "浏览器扩展": 277,
+    "开发工具": 536,
+    "免费工具": 448,
+    "效率工具": 416,
+    "教育学习": 159,
+    "游戏娱乐": 164,
     "图片工具": 495,
     "社交社区": 112,
-    "教育学习": 158,
     "音视频": 454,
-    "游戏娱乐": 163,
     "生活服务": 88
   },
   "projects": [
@@ -107,6 +107,31 @@
       "source": "upstream"
     },
     {
+      "id": "programmer-20260914-wujerry-repoatlas",
+      "edition": "programmer",
+      "addedAt": "2026-09-14",
+      "maker": "Wujerry",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Wujerry"
+        }
+      ],
+      "name": "RepoAtlas",
+      "url": "https://github.com/Wujerry/RepoAtlas",
+      "status": "online",
+      "description": "本地优先的 AI 编程项目工作台，把散落的代码仓库、Claude Code / Codex / OpenCode / Cursor 等 8 个 Coding Agent 会话和常用开发任务集中管理；支持跨 Agent 搜索并恢复历史会话、运行构建/测试任务，数据保存在本机 — MIT 开源，提供 Windows 安装包",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20260914-jiangmuran-vibepanel",
       "edition": "programmer",
       "addedAt": "2026-09-14",
@@ -156,6 +181,31 @@
       "categories": [
         "AI 工具",
         "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260914-wqnlll-wqnlll-游戏中心",
+      "edition": "game",
+      "addedAt": "2026-09-14",
+      "maker": "wqnlll",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wqnlll"
+        }
+      ],
+      "name": "wqnlll 游戏中心",
+      "url": "https://wqnlll.github.io",
+      "status": "online",
+      "description": "免费在线小游戏合集（6 款原创游戏），免注册免下载、浏览器打开即玩，含用打砖块记 222 个英语单词的背单词游戏和红警风格 RTS",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "教育学习",
+        "游戏娱乐",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -2371,7 +2421,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260914-0",
+      "id": "custom-20260915-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

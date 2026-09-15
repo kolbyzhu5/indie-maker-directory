@@ -1,7 +1,7 @@
-# AI 独立制造所 · 全部产品清单（2919）
+# AI 独立制造所 · 全部产品清单（2921）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-14（北京时间）
+> 更新时间：2026-09-15（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
 ## 大众产品（2468）
@@ -7410,7 +7410,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（322）
+## 程序员版（323）
+
+- **[RepoAtlas](https://github.com/Wujerry/RepoAtlas)** — 开发者 Wujerry · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/repoatlas.html)
+  本地优先的 AI 编程项目工作台，把散落的代码仓库、Claude Code / Codex / OpenCode / Cursor 等 8 个 Coding Agent 会话和常用开发任务集中管理；支持跨 Agent 搜索并恢复历史会话、运行构建/测试任务，数据保存在本机 — MIT 开源，提供 Windows 安装包
 
 - **[vibepanel](https://github.com/jiangmuran/vibepanel)** — 开发者 jiangmuran · AI 工具 / 效率工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/vibepanel.html)
   自托管的 AI 编程会话面板，在浏览器和手机上同时管理多个 Claude Code / Codex 会话，面板重启或断网时 agent 照样运行
@@ -8378,7 +8381,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（129）
+## 独立游戏（130）
+
+- **[wqnlll 游戏中心](https://wqnlll.github.io)** — 开发者 wqnlll · 浏览器扩展 / 教育学习 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/wqnlll.html)
+  免费在线小游戏合集（6 款原创游戏），免注册免下载、浏览器打开即玩，含用打砖块记 222 个英语单词的背单词游戏和红警风格 RTS
 
 - **[Narinig Mo Ba? Fan Guide](https://narinigmoba.app/)** — 开发者 Felicia · 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/narinig-mo-ba-fan-guide.html)
   Narinig Mo Ba? 在线游玩与独立玩家攻略站（免费），提供安全下载、玩法、流程、剧情解析和移动端状态
