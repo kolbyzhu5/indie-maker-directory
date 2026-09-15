@@ -217,10 +217,13 @@ function bindEvents() {
   document.addEventListener("keydown", (event) => { if (event.key === "/" && document.activeElement !== elements.search) { event.preventDefault(); elements.search.focus(); } });
 }
 
-// 数据源顺序：COS 主库 → GitHub Pages 本地副本（回退）
+// 数据源顺序：站点本地副本优先 → COS 主库（回退）
+// ⚠️ 本地 data/projects.json 与 /p/ 详情页在同一次 build 的同一个部署包里，slug 永远一致；
+// COS 由 sync 第一步即上传，可能超前于站点部署——若 COS 优先，前端会渲染出「尚无详情页」的
+// 新产品卡片，点详情 404（2026-09-15 实际事故）。正确性优先于及时性，故本地在前。
 const DATA_URLS = [
-  "https://indie-maker-data-1300618702.cos.ap-guangzhou.myqcloud.com/data/projects.json",
-  "data/projects.json"
+  "data/projects.json",
+  "https://indie-maker-data-1300618702.cos.ap-guangzhou.myqcloud.com/data/projects.json"
 ];
 
 async function loadData() {

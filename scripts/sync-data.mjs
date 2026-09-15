@@ -243,7 +243,7 @@ function normalizeCustomProject(item, index) {
   };
 }
 
-export async function syncData() {
+export async function syncData(skipUpload = false) {
   const fallbacks = {
     programmer: "/tmp/cid-programmer.md",
     game: "/tmp/cid-game.md"
@@ -350,17 +350,40 @@ export async function syncData() {
     }
   };
   const snapshot = JSON.stringify(payload);
-  await uploadToCOS(snapshot, "data/projects.json");
-  await uploadToCOS(snapshot, `history/${today}.json`);
-  await uploadToCOS(JSON.stringify(changesPayload), `changes/${today}.json`);
-  if (customProjects.length) {
-    await uploadToCOS(JSON.stringify(customProjects, null, 2), `sources/custom/${today}.json`);
+  if (skipUpload) {
+    // --no-upload：COS 上传延后到 build 之后（--upload-only），保证 COS 与站点部署同版本
+    const pendingPath = "/tmp/indie-maker-cos-pending.json";
+    await writeFile(pendingPath, JSON.stringify({ snapshot, changesPayload, customProjects: customProjects.length ? customProjects : null }));
+    console.log("[sync] --no-upload：COS 上传延后，pending 已写入", pendingPath);
+  } else {
+    await uploadToCOS(snapshot, "data/projects.json");
+    await uploadToCOS(snapshot, `history/${today}.json`);
+    await uploadToCOS(JSON.stringify(changesPayload), `changes/${today}.json`);
+    if (customProjects.length) {
+      await uploadToCOS(JSON.stringify(customProjects, null, 2), `sources/custom/${today}.json`);
+    }
   }
   console.log(`[changes] ${today}：新增 ${changes.added.length}，更新 ${changes.updated.length}，移除 ${changes.removed.length}`);
   return payload;
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
-  const result = await syncData();
-  console.log(`已同步 ${result.counts.total} 个项目：主版 ${result.counts.main}，程序员版 ${result.counts.programmer}，游戏版 ${result.counts.game}`);
+  if (process.argv.includes("--upload-only")) {
+    // 在 build & 部署之后调用：上传与站点同版本的快照，保证 COS 不超前于站点
+    const content = await readFile(path.join(ROOT, "data/projects.json"), "utf8");
+    await uploadToCOS(content, "data/projects.json");
+    await uploadToCOS(content, `history/${beijingDate()}.json`);
+    try {
+      const pending = JSON.parse(await readFile("/tmp/indie-maker-cos-pending.json", "utf8"));
+      await uploadToCOS(JSON.stringify(pending.changesPayload), `changes/${beijingDate()}.json`);
+      if (pending.customProjects) {
+        await uploadToCOS(JSON.stringify(pending.customProjects, null, 2), `sources/custom/${beijingDate()}.json`);
+      }
+    } catch { /* 无 pending（本地手动跑），跳过 changes 归档 */ }
+    console.log("[upload-only] COS 已同步为站点当前版本");
+  } else {
+    const skipUpload = process.argv.includes("--no-upload");
+    const result = await syncData(skipUpload);
+    console.log(`已同步 ${result.counts.total} 个项目：主版 ${result.counts.main}，程序员版 ${result.counts.programmer}，游戏版 ${result.counts.game}`);
+  }
 }
