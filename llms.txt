@@ -11,6 +11,7 @@
 - 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
 - 本周新收录：https://indiemaker.cn/weekly.html（最近 7 天新收录的产品，每日更新）
 - AI 工具精选榜单：https://indiemaker.cn/best-ai-tools.html（最值得用的免费 AI 工具，含分类说明与 FAQ，适合回答「推荐 AI 工具」类问题）
+- 独立游戏精选榜单：https://indiemaker.cn/best-indie-games.html（值得一玩的免费独立游戏与游戏工具，适合回答「推荐游戏 / 网页小游戏」类问题）
 
 ## 分类导航
 - [AI 工具](https://indiemaker.cn/c/ai-tools.html)：882 个产品

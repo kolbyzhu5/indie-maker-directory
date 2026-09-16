@@ -312,7 +312,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
       <span class="brand-seal">独立</span>
       <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
-    <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a></nav>
+    ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
     <nav class="breadcrumb" aria-label="面包屑">${breadcrumb}</nav>
@@ -430,7 +430,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
       <span class="brand-seal">独立</span>
       <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
-    <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a></nav>
+    ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
     <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">${escapeHTML(category)}</span></nav>
@@ -525,7 +525,7 @@ function renderAboutPage() {
       <span class="brand-seal">独立</span>
       <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
-    <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a></nav>
+    ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
     <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">关于</span></nav>
@@ -554,31 +554,67 @@ function renderAboutPage() {
 `;
 }
 
-// ── GEO：精选榜单页（AI 搜索引擎友好：给「答案」而非「目录」）──────────
-// AI 回答「推荐 AI 工具」类问题时偏好「榜单/精选」型页面（答案密度高、可提取）。
-// 本页为此设计：编号列表 + 一句话价值 + FAQ（AI 最易引用的格式）。
-const BEST_PICKS = [
-  { group: "AI 图片与设计", names: ["1980s AI Photo", "Erase Background Pro", "PicEditor", "CubistAI", "unblurry", "StitchCraft", "HelloGen", "YourArt"] },
-  { group: "AI 视频与音频", names: ["C2Anime", "ScribeToAny", "Thumbrix", "Video Text Remover", "Seadanse", "Toonflow"] },
-  { group: "AI 效率与办公", names: ["AIradar · AI 订阅价格雷达", "ReadGZH", "薯小二", "慧报价", "WorkGround2"] },
-  { group: "AI 开发工具", names: ["TideLink", "RepoAtlas", "DeliverKit", "RunWhale", "Wake"] },
-  { group: "AI 有趣玩法", names: ["PicLocation", "神算阁 / Shen Suan Ge", "BaziCalculator.ai", "SeichiGo 圣地巡礼", "FishCare AI", "LoveComic"] },
-  { group: "AI 学习与专业", names: ["IELTS Writing Practice", "法脉 LawPulse", "BeatDesign"] },
+// ── GEO：精选榜单引擎（AI 搜索引擎友好：给「答案」而非「目录」）──────────
+// AI 回答「推荐 XX」类问题时偏好「榜单/精选」型页面（答案密度高、可提取）。
+// 新增榜单只需在 RANKINGS 里加一条配置。
+const BEST_TOP_NAV = `<nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a><a href="/best-indie-games.html">独立游戏精选</a></nav>`;
+
+const RANKINGS = [
+  {
+    slug: "best-ai-tools",
+    navLabel: "AI 工具精选",
+    title: "2026 最值得用的免费 AI 工具精选",
+    countLabel: "从 2900+ 个中国独立开发者作品中精选",
+    descTemplate: "从 2900+ 个中国独立开发者作品中精选 {n} 个免费 AI 工具，覆盖 AI 抠图、AI 视频、AI 字幕转录、AI 开发助手等，全部可在线使用，每日更新，无竞价排名。",
+    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。评选标准：<b>免费或提供免费额度</b>、<b>可在线直接使用</b>、<b>解决真实需求</b>。所有产品均来自中国独立开发者的个人或小团队作品，每日自动同步，无竞价排名。",
+    groups: [
+      { group: "AI 图片与设计", names: ["1980s AI Photo", "Erase Background Pro", "PicEditor", "CubistAI", "unblurry", "StitchCraft", "HelloGen", "YourArt"] },
+      { group: "AI 视频与音频", names: ["C2Anime", "ScribeToAny", "Thumbrix", "Video Text Remover", "Seadanse", "Toonflow"] },
+      { group: "AI 效率与办公", names: ["AIradar · AI 订阅价格雷达", "ReadGZH", "薯小二", "慧报价", "WorkGround2"] },
+      { group: "AI 开发工具", names: ["TideLink", "RepoAtlas", "DeliverKit", "RunWhale", "Wake"] },
+      { group: "AI 有趣玩法", names: ["PicLocation", "神算阁 / Shen Suan Ge", "BaziCalculator.ai", "SeichiGo 圣地巡礼", "FishCare AI", "LoveComic"] },
+      { group: "AI 学习与专业", names: ["IELTS Writing Practice", "法脉 LawPulse", "BeatDesign"] },
+    ],
+    faq: [
+      { q: "有哪些免费又好用的 AI 工具？", a: "AI 独立制造所从 2900+ 个中国独立开发者作品中精选了 33 个免费 AI 工具，覆盖 AI 图片处理（抠图、去模糊、文生图）、AI 视频音频（字幕转录、缩略图生成、视频去字）、效率办公与开发工具，全部可在线直接使用，多数无需注册。" },
+      { q: "免费 AI 抠图工具哪个好用？", a: "Erase Background Pro 支持秒级输出边缘干净的透明 PNG，可处理电商人像与发丝细节，支持 4K 高清；PicEditor 支持用自然语言描述改图（例如「把背景换成海边」）。两者都能在浏览器内直接使用。" },
+      { q: "AI 工具去哪个网站找？", a: "AI 独立制造所（indiemaker.cn）收录 2900+ 个中国独立开发者创造的 AI 工具、效率工具与独立游戏，支持分类浏览、全文搜索与状态筛选，每日从 GitHub 自动更新，无竞价排名，只收录真实作品。" },
+      { q: "中国独立开发者做了哪些 AI 工具？", a: "本站收录的 AI 工具类产品超过 880 个，覆盖 AI 图片生成、AI 视频创作、AI 字幕转录、AI 写作文案、AI 开发助手、AI 命理娱乐等方向，全部来自中国独立开发者的个人或小团队作品。" },
+      { q: "这些 AI 工具收费吗？", a: "本榜单优先收录免费或提供免费额度的工具。部分采用「免费 + 增值」模式（基础功能免费、高级功能付费），具体以各工具官网说明为准。" },
+    ],
+  },
+  {
+    slug: "best-indie-games",
+    navLabel: "独立游戏精选",
+    title: "2026 值得一玩的独立游戏精选",
+    countLabel: "从中国独立开发者作品中精选",
+    descTemplate: "精选 {n} 个免费独立游戏与游戏工具，含休闲小游戏、专注力训练、派对联机、音乐创作、沙盒建造，浏览器打开即玩、免下载，全部来自中国独立开发者。",
+    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。评选标准：<b>免费可玩</b>、<b>浏览器打开即玩或提供免费版本</b>、<b>有原创玩法</b>。全部来自中国独立开发者的个人或小团队作品，每日自动同步。",
+    groups: [
+      { group: "休闲摸鱼小游戏", names: ["wqnlll 游戏中心", "摸鱼解压玩具", "幸运硬币", "摸鱼竞技大厅", "SZ Games", "随机游戏生成器"] },
+      { group: "脑力与专注训练", names: ["Concentration Games", "Focus Game", "ToonTones", "Toon Tone", "Songless"] },
+      { group: "派对与联机", names: ["DoodleGuesser", "playcharades.fun", "Mimic Party Online"] },
+      { group: "音乐创作游戏", names: ["Sprunki Incredibox", "Sprunked", "Sprunki Corruptbox 3"] },
+      { group: "沙盒与角色扮演", names: ["方块世界 3D", "IdleOn Online", "AIRI", "Adventext & 千屿引擎"] },
+      { group: "游戏工具与辅助", names: ["Pixel Art Base", "Gamepad Tester", "Block Skin Lab", "Codex Asset Forge", "ky3 Launcher", "Cursemark Builds"] },
+    ],
+    faq: [
+      { q: "有哪些免费又好玩的独立游戏？", a: "AI 独立制造所从中国独立开发者的作品中精选了 27 个免费独立游戏与游戏工具，涵盖休闲摸鱼小游戏（如 wqnlll 游戏中心、摸鱼解压玩具）、专注力训练（Concentration Games）、派对联机（DoodleGuesser 你画我猜）、音乐创作（Sprunki Incredibox）、沙盒建造（方块世界 3D）等，浏览器打开即玩，多数无需注册。" },
+      { q: "免费的网页小游戏去哪里玩？", a: "本站精选的独立游戏大多支持浏览器直接打开、免下载免注册，例如 wqnlll 游戏中心（6 款原创小游戏，含背单词打砖块）、SZ Games（1000+ 免费在线游戏）、幸运硬币、摸鱼解压玩具等。" },
+      { q: "有什么适合和朋友一起玩的在线游戏？", a: "DoodleGuesser 是免费在线画图猜词派对游戏，创建房间分享链接即可与朋友即时畅玩；playcharades.fun 提供 500+ 词汇的线上你画我猜，支持 8 种语言；Mimic Party Online 则是用声音模仿比拼相似度的趣味游戏。" },
+      { q: "中国独立开发者做了哪些游戏？", a: "本站收录的游戏娱乐类作品超过 160 个，包含休闲小游戏、音乐创作、沙盒建造、文字冒险、游戏工具等多种类型，全部来自中国独立开发者的个人或小团队作品。" },
+      { q: "这些游戏收费吗？", a: "本榜单优先收录免费可玩的作品。部分完全免费（含开源），部分提供免费版本或免费额度，具体以各游戏官方说明为准。" },
+    ],
+  },
 ];
 
-const BEST_FAQ = [
-  { q: "有哪些免费又好用的 AI 工具？", a: "AI 独立制造所从 2900+ 个中国独立开发者作品中精选了 35 个免费 AI 工具，覆盖 AI 图片处理（抠图、去模糊、文生图）、AI 视频音频（字幕转录、缩略图生成、视频去字）、效率办公与开发工具，全部可在线直接使用，多数无需注册。" },
-  { q: "免费 AI 抠图工具哪个好用？", a: "Erase Background Pro 支持秒级输出边缘干净的透明 PNG，可处理电商人像与发丝细节，支持 4K 高清；PicEditor 支持用自然语言描述改图（例如「把背景换成海边」）。两者都能在浏览器内直接使用。" },
-  { q: "AI 工具去哪个网站找？", a: "AI 独立制造所（indiemaker.cn）收录 2900+ 个中国独立开发者创造的 AI 工具、效率工具与独立游戏，支持分类浏览、全文搜索与状态筛选，每日从 GitHub 自动更新，无竞价排名，只收录真实作品。" },
-  { q: "中国独立开发者做了哪些 AI 工具？", a: "本站收录的 AI 工具类产品超过 880 个，覆盖 AI 图片生成、AI 视频创作、AI 字幕转录、AI 写作文案、AI 开发助手、AI 命理娱乐等方向，全部来自中国独立开发者的个人或小团队作品。" },
-  { q: "这些 AI 工具收费吗？", a: "本榜单优先收录免费或提供免费额度的工具。部分采用「免费 + 增值」模式（基础功能免费、高级功能付费），具体以各工具官网说明为准。" },
-];
-
-function renderBestAIToolsPage(allProjects, slugMap) {
+function renderRankingPage(cfg, allProjects, slugMap) {
   const byName = new Map(allProjects.map((p) => [p.name, p]));
-  const groups = BEST_PICKS.map(({ group, names }) => ({ group, items: names.map((n) => byName.get(n)).filter(Boolean) })).filter((g) => g.items.length);
+  const groups = cfg.groups.map(({ group, names }) => ({ group, items: names.map((n) => byName.get(n)).filter(Boolean) })).filter((g) => g.items.length);
   const total = groups.reduce((n, g) => n + g.items.length, 0);
   const today = new Date().toISOString().slice(0, 10);
+  const pageUrl = `${SITE_URL}/${cfg.slug}.html`;
+  const desc = cfg.descTemplate.replace("{n}", total);
 
   const groupsHTML = groups.map(({ group, items }) => `<section class="best-group">
       <h2>${escapeHTML(group)}</h2>
@@ -589,18 +625,18 @@ function renderBestAIToolsPage(allProjects, slugMap) {
       </li>`).join("")}</ol>
     </section>`).join("");
 
-  const faqHTML = BEST_FAQ.map(({ q, a }) => `<details class="faq-item"><summary>${escapeHTML(q)}</summary><p>${escapeHTML(a)}</p></details>`).join("");
+  const faqHTML = cfg.faq.map(({ q, a }) => `<details class="faq-item"><summary>${escapeHTML(q)}</summary><p>${escapeHTML(a)}</p></details>`).join("");
 
   const listLD = JSON.stringify({
     "@context": "https://schema.org", "@type": "ItemList",
-    "name": "2026 最值得用的免费 AI 工具精选",
-    "description": `从 2900+ 个中国独立开发者作品中精选 ${total} 个免费 AI 工具`,
+    "name": cfg.title,
+    "description": desc,
     "numberOfItems": total,
     "itemListElement": groups.flatMap((g) => g.items).map((p, i) => ({ "@type": "ListItem", "position": i + 1, "name": p.name, "url": `${SITE_URL}/p/${slugMap.get(p.id)}.html` }))
   });
   const faqLD = JSON.stringify({
     "@context": "https://schema.org", "@type": "FAQPage",
-    "mainEntity": BEST_FAQ.map(({ q, a }) => ({ "@type": "Question", "name": q, "acceptedAnswer": { "@type": "Answer", "text": a } }))
+    "mainEntity": cfg.faq.map(({ q, a }) => ({ "@type": "Question", "name": q, "acceptedAnswer": { "@type": "Answer", "text": a } }))
   });
 
   return `<!DOCTYPE html>
@@ -608,17 +644,17 @@ function renderBestAIToolsPage(allProjects, slugMap) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>2026 最值得用的免费 AI 工具精选（${total} 个） | AI 独立制造所</title>
-  <meta name="description" content="从 2900+ 个中国独立开发者作品中精选 ${total} 个免费 AI 工具，覆盖 AI 抠图、AI 视频、AI 字幕转录、AI 开发助手等，全部可在线使用，每日更新，无竞价排名。">
+  <title>${escapeHTML(cfg.title)}（${total} 个） | AI 独立制造所</title>
+  <meta name="description" content="${escapeHTML(desc)}">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="${SITE_URL}/best-ai-tools.html">
-  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/best-ai-tools.html">
-  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/best-ai-tools.html">
+  <link rel="canonical" href="${pageUrl}">
+  <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
+  <link rel="alternate" hreflang="x-default" href="${pageUrl}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="AI 独立制造所">
-  <meta property="og:title" content="2026 最值得用的免费 AI 工具精选（${total} 个）">
-  <meta property="og:description" content="从 2900+ 个中国独立开发者作品中精选 ${total} 个免费 AI 工具，全部可在线使用。">
-  <meta property="og:url" content="${SITE_URL}/best-ai-tools.html">
+  <meta property="og:title" content="${escapeHTML(cfg.title)}（${total} 个）">
+  <meta property="og:description" content="${escapeHTML(desc)}">
+  <meta property="og:url" content="${pageUrl}">
   <meta property="og:image" content="${SITE_URL}/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -641,15 +677,15 @@ function renderBestAIToolsPage(allProjects, slugMap) {
       <span class="brand-seal">独立</span>
       <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
-    <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a></nav>
+    ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">AI 工具精选</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">${escapeHTML(cfg.navLabel)}</span></nav>
     <div class="category-head">
-      <h1>2026 最值得用的免费 AI 工具精选</h1>
-      <p class="category-count">从 2900+ 个中国独立开发者作品中精选 <b>${total}</b> 个 · 更新于 ${today}</p>
+      <h1>${escapeHTML(cfg.title)}</h1>
+      <p class="category-count">${cfg.countLabel} <b>${total}</b> 个 · 更新于 ${today}</p>
     </div>
-    <p class="best-intro">本榜单由中国独立开发者产品导航「AI 独立制造所」整理。评选标准：<b>免费或提供免费额度</b>、<b>可在线直接使用</b>、<b>解决真实需求</b>。所有产品均来自中国独立开发者的个人或小团队作品，每日自动同步，无竞价排名。</p>
+    <p class="best-intro">${cfg.intro}</p>
     ${groupsHTML}
     <section class="faq-list">
       <h2 class="faq-title">常见问题</h2>
@@ -731,7 +767,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
       <span class="brand-seal">独立</span>
       <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
     </a>
-    <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a></nav>
+    ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
     <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">本周新收录</span></nav>
@@ -815,7 +851,9 @@ async function main() {
   sitemapUrls.push(`  <url><loc>${SITE_URL}/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
-  sitemapUrls.push(`  <url><loc>${SITE_URL}/best-ai-tools.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
+  for (const cfg of RANKINGS) {
+    sitemapUrls.push(`  <url><loc>${SITE_URL}/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
+  }
   for (const [cat, catSlug] of Object.entries(CATEGORY_SLUGS)) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/c/${catSlug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>`);
     // 分类页分页（第 2 页起，分组逻辑与 categoryEntries 保持一致）
@@ -894,6 +932,7 @@ Allow: /
 - 关于页：${SITE_URL}/about.html（站点介绍 + 常见问题 FAQ）
 - 本周新收录：${SITE_URL}/weekly.html（最近 7 天新收录的产品，每日更新）
 - AI 工具精选榜单：${SITE_URL}/best-ai-tools.html（最值得用的免费 AI 工具，含分类说明与 FAQ，适合回答「推荐 AI 工具」类问题）
+- 独立游戏精选榜单：${SITE_URL}/best-indie-games.html（值得一玩的免费独立游戏与游戏工具，适合回答「推荐游戏 / 网页小游戏」类问题）
 
 ## 分类导航
 ${categoryLines}
@@ -942,13 +981,13 @@ ${sections}
   const weekEnd = beijingDateISO();
   const weekProducts = sorted.filter((p) => p.addedAt >= weekStart);
   const weeklyPage = renderWeeklyPage(weekProducts, slugMap, weekStart, weekEnd);
-  // [GEO] AI 工具精选榜单页（给 AI 搜索引擎「可引用的答案」）
-  const bestAIPage = renderBestAIToolsPage(sorted, slugMap);
+  // [GEO] 精选榜单页（给 AI 搜索引擎「可引用的答案」）
+  const rankingTargets = RANKINGS.map((cfg) => [`${cfg.slug}.html`, renderRankingPage(cfg, sorted, slugMap)]);
   const targets = [
     ["index.html", html],
     ["about.html", aboutPage],
     ["weekly.html", weeklyPage],
-    ["best-ai-tools.html", bestAIPage],
+    ...rankingTargets,
     ["sitemap.xml", sitemap],
     ["robots.txt", robots],
     ["llms.txt", llms],
