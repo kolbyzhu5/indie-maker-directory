@@ -785,7 +785,7 @@ ${sections}
     // 数据文件 + 静态资源同步
     await mkdir(path.join(dist, "data"), { recursive: true });
     await copyFile(path.join(ROOT, "data", "projects.json"), path.join(dist, "data", "projects.json"));
-    await copyFile(path.join(ROOT, "preview.png"), path.join(dist, "preview.png"));
+    await copyFile(path.join(ROOT, "preview.png"), path.join(dist, "preview.png")).catch(() => console.log("[build] preview.png 不存在，跳过（本地可选资源）"));
     await copyFile(path.join(ROOT, "detail.css"), path.join(dist, "detail.css"));
     // 运行时静态资源（index.html 直接引用的 JS/CSS/图标，必须与根目录保持一致）
     for (const asset of ["app.js", "i18n.js", "styles.css", "favicon.svg"]) {
