@@ -36,7 +36,7 @@ jobs:
       - name: Sync upstream directory (no COS upload yet)
         run: node scripts/sync-data.mjs --no-upload
       - name: Build static site (SSG)
-        run: npm run build
+        run: node scripts/build.mjs --sync-dist
       - name: Commit updated data and site
         run: |
           git config user.name "github-actions[bot]"
@@ -56,6 +56,13 @@ jobs:
           COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
           COS_REGION: ${{ secrets.COS_REGION }}
+      - name: Deploy to EdgeOne Makers (main domain indiemaker.cn)
+        run: |
+          npm install -g edgeone@latest
+          edgeone makers deploy dist/ -n indie-maker-directory --json
+        env:
+          EDGEONE_PAGES_API_TOKEN: ${{ secrets.EDGEONE_PAGES_API_TOKEN }}
+          PAGES_SOURCE: skills
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
