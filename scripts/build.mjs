@@ -27,6 +27,8 @@ const SITE_URL = "https://indiemaker.cn";
 const PRE_RENDER = 48; // 首页预渲染卡片数（与 app.js 首屏 limit 一致）
 const QUICK_TAGS = 9; // 热门分类数（与 app.js slice(0,9) 一致）
 const RELATED_COUNT = 6; // 详情页「同分类推荐」数量
+const MAKER_LIST_MAX = 6; // 独有内容模块：同作者其他作品最多列几个
+const SAME_DATE_LIST_MAX = 8; // 独有内容模块：同日收录最多列几个
 const CATEGORY_PAGE_SIZE = 60; // 分类页每页卡片数（分页控制单页体积：692KB → ~50KB，提升爬取效率与 LCP）
 
 const EDITION_LABEL = { main: "大众产品", programmer: "程序员版", game: "独立游戏" };
@@ -165,7 +167,7 @@ function buildItemListJSONLD(projects) {
 }
 
 // ── P1：产品详情页 ─────────────────────────────────────────────
-function renderProductPage(project, slug, slugMap, related) {
+function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   const name = escapeHTML(project.name);
   const desc = escapeHTML(project.description);
   const maker = escapeHTML(project.maker);
@@ -220,6 +222,55 @@ function renderProductPage(project, slug, slugMap, related) {
   const relatedSection = relatedCards
     ? `<section class="related" id="related"><h2>同分类推荐</h2><div class="related-grid">${relatedCards}</div></section>`
     : "";
+
+  // ── 独有内容模块（P1 SEO：只用真实数据重组，不生成虚构内容）──
+  const statusChip = (p) => `<span class="u-chip s-${p.status}">${STATUS_LABEL[p.status] || escapeHTML(p.status)}</span>`;
+  const miniItem = (p) => `<li><a class="u-name" href="/p/${slugMap.get(p.id)}.html">${escapeHTML(p.name)}</a>${statusChip(p)}<span class="u-desc">${escapeHTML(p.description)}</span></li>`;
+
+  // 模块 1：同作者其他作品
+  const sameMaker = (ctx.byMakerIdx?.get(project.maker) || []).filter((x) => x.id !== project.id);
+  const sameMakerSection = sameMaker.length
+    ? `<section class="unique-block"><h2>「${escapeHTML(project.maker)}」还做了这些</h2>
+      <ul class="u-list">${sameMaker.slice(0, MAKER_LIST_MAX).map(miniItem).join("")}</ul>
+      ${sameMaker.length > MAKER_LIST_MAX ? `<p class="u-note">该开发者另有 ${sameMaker.length - MAKER_LIST_MAX} 个作品也收录在本站。</p>` : ""}
+    </section>`
+    : "";
+
+  // 模块 2：同日收录关联
+  const sameDate = (ctx.byDateIdx?.get(project.addedAt) || []).filter((x) => x.id !== project.id);
+  const sameDateSection = sameDate.length >= 2
+    ? `<section class="unique-block"><h2>同一批被收录的还有</h2>
+      <p class="u-note">本批（${project.addedAt}）共收录 <b>${sameDate.length + 1}</b> 个作品</p>
+      <ul class="u-list">${sameDate.slice(0, SAME_DATE_LIST_MAX).map(miniItem).join("")}</ul>
+      ${sameDate.length > SAME_DATE_LIST_MAX ? `<p class="u-note">同批还有 ${sameDate.length - SAME_DATE_LIST_MAX} 个，<a href="/weekly.html">看本周新收录 →</a></p>` : ""}
+    </section>`
+    : "";
+
+  // 模块 3：分类数据洞察
+  const primaryCat = (project.categories || [])[0];
+  const catStat = primaryCat ? ctx.byCategoryStat?.get(primaryCat) : null;
+  const catIdx = primaryCat ? (ctx.indexInCategory?.get(project.id) || {})[primaryCat] : null;
+  const inactivePct = catStat ? Math.round((catStat.inactive || 0) / catStat.total * 100) : 0;
+  const catInsightSection = catStat
+    ? `<section class="unique-block"><h2>关于「${escapeHTML(primaryCat)}」分类</h2>
+      <ul class="u-stats">
+        <li><b>${catStat.total}</b><span>共收录</span></li>
+        <li><b>${catStat.online || 0}</b><span>已上线</span></li>
+        <li><b>${catStat.developing || 0}</b><span>开发中</span></li>
+        <li><b>${catStat.inactive || 0}</b><span>已停更</span></li>
+      </ul>
+      ${catIdx ? `<p>本产品是该分类按收录时间排序的 <b>第 ${catIdx} 个</b>作品；该分类中约 <b>${inactivePct}%</b> 的作品已停更。</p>` : ""}
+      <p class="u-note"><a href="/c/${CATEGORY_SLUGS[primaryCat] || "uncategorized"}.html">浏览「${escapeHTML(primaryCat)}」全部产品 →</a></p>
+    </section>`
+    : "";
+
+  // 模块 4：数据来源与纠错（E-E-A-T 透明度信号）
+  const sourceSection = `<section class="unique-block"><h2>数据来源</h2>
+    <p>本页信息由 AI 独立制造所每日从开源仓库 <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer</a> 自动同步，本产品收录于 <b>${project.addedAt}</b>。</p>
+    <p class="u-note">信息有误或想更新？<a href="mailto:kolbyzhu5@gmail.com">告诉我们</a>，或直接向<a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">上游仓库提交 PR</a>。</p>
+  </section>`;
+
+  const uniqueContent = `${relatedSection}${sameMakerSection}${sameDateSection}${catInsightSection}${sourceSection}`;
 
   return `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -277,7 +328,7 @@ function renderProductPage(project, slug, slugMap, related) {
         ${relatedCards ? '<a class="btn-ghost" href="#related">看同类产品 ↓</a>' : ""}
       </div>
     </article>
-    ${relatedSection}
+    ${uniqueContent}
   </main>
   <footer class="detail-footer">
     <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
@@ -810,6 +861,40 @@ ${sections}
   }
   console.log(`[build] 已生成 ${generatedCategoryPages} 个分类页（${categoryEntries.length} 个分类，含分页）`);
 
+  // ── 详情页「独有内容」索引（P1 SEO：破除 thin content，全部基于真实数据重组，不生成虚构内容）──
+  const byMakerIdx = new Map();
+  const byDateIdx = new Map();
+  const byCategoryStat = new Map();
+  for (const p of sorted) {
+    if (p.maker) {
+      if (!byMakerIdx.has(p.maker)) byMakerIdx.set(p.maker, []);
+      byMakerIdx.get(p.maker).push(p);
+    }
+    if (p.addedAt) {
+      if (!byDateIdx.has(p.addedAt)) byDateIdx.set(p.addedAt, []);
+      byDateIdx.get(p.addedAt).push(p);
+    }
+    for (const c of (p.categories || [])) {
+      if (!byCategoryStat.has(c)) byCategoryStat.set(c, { total: 0, online: 0, developing: 0, inactive: 0, list: [] });
+      const s = byCategoryStat.get(c);
+      s.total++;
+      if (p.status === "online") s.online++;
+      else if (p.status === "developing") s.developing++;
+      else if (p.status === "inactive") s.inactive++;
+      s.list.push(p);
+    }
+  }
+  // 分类内收录序号（按收录时间升序，序号稳定不抖动）
+  const indexInCategory = new Map();
+  for (const [cat, s] of byCategoryStat) {
+    s.list.sort((a, b) => String(a.addedAt || "").localeCompare(String(b.addedAt || "")));
+    s.list.forEach((p, i) => {
+      if (!indexInCategory.has(p.id)) indexInCategory.set(p.id, {});
+      indexInCategory.get(p.id)[cat] = i + 1;
+    });
+  }
+  const uniqueCtx = { byMakerIdx, byDateIdx, byCategoryStat, indexInCategory };
+
   // 产品详情页
   let generatedProducts = 0;
   for (const p of sorted) {
@@ -817,7 +902,7 @@ ${sections}
     const cat = (p.categories && p.categories[0]) || "未分类";
     const siblings = byPrimaryCategory.get(cat) || [];
     const related = siblings.filter((x) => x.id !== p.id).slice(0, RELATED_COUNT);
-    const page = renderProductPage(p, slug, slugMap, related);
+    const page = renderProductPage(p, slug, slugMap, related, uniqueCtx);
     await writeFile(path.join(ROOT, "p", `${slug}.html`), page, "utf8");
     generatedProducts++;
   }
