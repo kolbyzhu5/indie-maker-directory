@@ -21,3 +21,16 @@ Allow: /
 
 User-agent: Bytespider
 Allow: /
+
+# 中文搜索引擎爬虫（默认 Allow: / 已覆盖，显式列出便于未来精细控制）
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /

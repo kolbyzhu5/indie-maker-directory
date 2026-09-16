@@ -80,6 +80,20 @@
 .u-stats b { font-size: 24px; color: var(--red-dark); line-height: 1.2; }
 .u-stats span { font-size: 11px; color: var(--muted); }
 .u-note { font-size: 12px; color: var(--muted); }
+
+/* GEO 精选榜单页（AI 搜索引擎友好：编号列表 + 一句话价值） */
+.best-intro { max-width: 880px; margin: 0 auto 26px; font-size: 14px; line-height: 2; color: var(--muted); position: relative; z-index: 1; }
+.best-intro b { color: var(--red-dark); }
+.best-group { max-width: 880px; margin: 30px auto 0; position: relative; z-index: 1; }
+.best-group h2 { font-size: 20px; letter-spacing: .03em; margin: 0 0 14px; padding-left: 12px; border-left: 4px solid var(--red); }
+.best-list { list-style: none; counter-reset: best; margin: 0; padding: 0; }
+.best-list li { position: relative; padding: 14px 0 14px 40px; border-bottom: 1px dashed var(--line); counter-increment: best; }
+.best-list li:last-child { border-bottom: 0; }
+.best-list li::before { content: counter(best); position: absolute; left: 0; top: 14px; width: 24px; height: 24px; display: grid; place-items: center; background: var(--red); color: #fff9ec; border-radius: 50%; font-size: 12px; font-weight: bold; }
+.best-name { display: inline-block; font-size: 16px; font-weight: 700; color: var(--red-dark); text-decoration: none; border-bottom: 1px solid rgba(107,82,38,.25); }
+.best-name:hover { color: var(--red); border-bottom-color: var(--red); }
+.best-desc { display: block; margin: 6px 0 5px; font-size: 13px; line-height: 1.8; color: var(--ink); }
+.best-meta { display: block; font-size: 11px; color: var(--muted); }
 .unique-block a { color: var(--red-dark); }
 .unique-block a:hover { color: var(--red); }
 
