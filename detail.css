@@ -48,6 +48,14 @@
 .detail-footer a { color: var(--muted); text-decoration: none; }
 .detail-footer a:hover { color: var(--red); }
 
+/* 分类页分页导航 */
+.pagination { display: flex; justify-content: center; align-items: center; gap: 16px; margin: 34px 0 8px; flex-wrap: wrap; }
+.pagination .page-btn { display: inline-block; padding: 9px 18px; border: 1px solid var(--line); border-radius: 4px; background: var(--card); color: var(--ink); font-size: 13px; text-decoration: none; transition: border-color .15s ease, color .15s ease; }
+.pagination .page-btn:hover { border-color: var(--red); color: var(--red); }
+.pagination .page-btn.is-disabled { color: var(--line); background: transparent; cursor: not-allowed; }
+.pagination .page-info { font-size: 13px; color: var(--muted); }
+.pagination .page-info b { color: var(--red-dark); font-size: 15px; }
+
 /* 关于页 · 数据源/源码链接 */
 .detail-meta a { color: var(--red-dark); text-decoration: none; border-bottom: 1px solid rgba(107,82,38,.25); }
 .detail-meta a:hover { color: var(--red); border-bottom-color: var(--red); }

@@ -176,9 +176,12 @@ function applyLocale() {
   const isZh = getCurrentLocale() === "zh";
   document.documentElement.lang = isZh ? "zh-CN" : "en";
   document.title = isZh ? "AI 独立制造所 - 独立开发者项目导航 | AI 工具合集" : "Indie Maker · AI tools directory for indie developers";
+  // 产品数动态化：优先用真实数据，避免硬编码数字过时拖累 SERP 相关性
+  const totalCount = state.data?.counts?.total;
+  const totalLabel = totalCount ? `${totalCount.toLocaleString("zh-CN")}+` : "2900+";
   const desc = isZh
-    ? "发现中国独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。涵盖 AI 工具、音视频、效率工具、开发工具、独立游戏等 2000+ 精选产品。"
-    : "Discover websites, apps, tools and games built by Chinese indie developers, synced daily. 2000+ handpicked products across AI, productivity, dev tools and more.";
+    ? `发现中国独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。涵盖 AI 工具、音视频、效率工具、开发工具、独立游戏等 ${totalLabel} 精选产品。`
+    : `Discover websites, apps, tools and games built by Chinese indie developers, synced daily. ${totalLabel} handpicked products across AI, productivity, dev tools and more.`;
   document.querySelector('meta[name="description"]')?.setAttribute("content", desc);
   document.querySelector('meta[property="og:title"]')?.setAttribute("content", document.title);
   document.querySelector('meta[property="og:description"]')?.setAttribute("content", desc);

@@ -27,6 +27,7 @@ const SITE_URL = "https://indiemaker.cn";
 const PRE_RENDER = 48; // 首页预渲染卡片数（与 app.js 首屏 limit 一致）
 const QUICK_TAGS = 9; // 热门分类数（与 app.js slice(0,9) 一致）
 const RELATED_COUNT = 6; // 详情页「同分类推荐」数量
+const CATEGORY_PAGE_SIZE = 60; // 分类页每页卡片数（分页控制单页体积：692KB → ~50KB，提升爬取效率与 LCP）
 
 const EDITION_LABEL = { main: "大众产品", programmer: "程序员版", game: "独立游戏" };
 const STATUS_LABEL = { online: "已上线", developing: "开发中", inactive: "已停止" };
@@ -236,11 +237,15 @@ function renderProductPage(project, slug, slugMap, related) {
   <meta property="og:title" content="${name} - AI 独立制造所">
   <meta property="og:description" content="${desc}">
   <meta property="og:url" content="${SITE_URL}/p/${slug}.html">
-  <meta property="og:image" content="${SITE_URL}/preview.png">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="zh_CN">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${name} - AI 独立制造所">
   <meta name="twitter:description" content="${desc}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/detail.css">
@@ -284,13 +289,26 @@ function renderProductPage(project, slug, slugMap, related) {
 }
 
 // ── P1：分类落地页 ─────────────────────────────────────────────
-function renderCategoryPage(category, catSlug, products, slugMap, allCategories) {
+function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategories, page = 1) {
+  const totalCount = allProducts.length;
+  const totalPages = Math.max(1, Math.ceil(totalCount / CATEGORY_PAGE_SIZE));
+  const safePage = Math.min(Math.max(1, page), totalPages);
+  const start = (safePage - 1) * CATEGORY_PAGE_SIZE;
+  const products = allProducts.slice(start, start + CATEGORY_PAGE_SIZE);
   const count = products.length;
+  const pagePath = safePage === 1 ? `/c/${catSlug}.html` : `/c/${catSlug}/${safePage}.html`;
+  const pageUrl = SITE_URL + pagePath;
+  const pageSuffix = safePage > 1 ? `（第 ${safePage} 页）` : "";
   const catNav = allCategories.map(([c, n]) => {
     const cs = CATEGORY_SLUGS[c];
     const active = c === category ? ' class="active"' : "";
     return `<a href="/c/${cs}.html"${active}>${escapeHTML(c)}（${n}）</a>`;
   }).join("");
+  const paginationNav = totalPages > 1 ? `<nav class="pagination" aria-label="分页导航">
+    ${safePage > 1 ? `<a class="page-btn" href="${safePage === 2 ? `/c/${catSlug}.html` : `/c/${catSlug}/${safePage - 1}.html`}">← 上一页</a>` : `<span class="page-btn is-disabled">← 上一页</span>`}
+    <span class="page-info">第 <b>${safePage}</b> / ${totalPages} 页</span>
+    ${safePage < totalPages ? `<a class="page-btn" href="/c/${catSlug}/${safePage + 1}.html">下一页 →</a>` : `<span class="page-btn is-disabled">下一页 →</span>`}
+  </nav>` : "";
 
   const cards = products.map((p) => {
     const slug = slugMap.get(p.id);
@@ -309,8 +327,8 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": `${CATEGORY_TITLES[category] || category} | AI 独立制造所`,
-    "url": `${SITE_URL}/c/${catSlug}.html`,
-    "description": `AI 独立制造所「${category}」分类，共收录 ${count} 个中国独立开发者产品，每日同步更新。`,
+    "url": pageUrl,
+    "description": `AI 独立制造所「${category}」分类，共收录 ${totalCount} 个中国独立开发者产品，每日同步更新。`,
     "mainEntity": {
       "@type": "ItemList",
       "name": `${category}产品列表`,
@@ -329,20 +347,24 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHTML(CATEGORY_TITLES[category] || category)} | AI 独立制造所</title>
-  <meta name="description" content="AI 独立制造所「${escapeHTML(category)}」分类：共收录 ${count} 个中国独立开发者产品，每日同步更新。">
+  <title>${escapeHTML(CATEGORY_TITLES[category] || category)}${pageSuffix} | AI 独立制造所</title>
+  <meta name="description" content="AI 独立制造所「${escapeHTML(category)}」分类：共收录 ${totalCount} 个中国独立开发者产品${safePage > 1 ? `，当前第 ${safePage} 页（共 ${totalPages} 页）` : ""}，每日同步更新。">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="${SITE_URL}/c/${catSlug}.html">
-  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/c/${catSlug}.html">
-  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/c/${catSlug}.html">
+  <link rel="canonical" href="${pageUrl}">
+  <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
+  <link rel="alternate" hreflang="x-default" href="${pageUrl}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI 独立制造所">
-  <meta property="og:title" content="${escapeHTML(CATEGORY_TITLES[category] || category)} | AI 独立制造所">
-  <meta property="og:description" content="共收录 ${count} 个中国独立开发者产品">
-  <meta property="og:url" content="${SITE_URL}/c/${catSlug}.html">
-  <meta property="og:image" content="${SITE_URL}/preview.png">
+  <meta property="og:title" content="${escapeHTML(CATEGORY_TITLES[category] || category)}${pageSuffix} | AI 独立制造所">
+  <meta property="og:description" content="共收录 ${totalCount} 个中国独立开发者产品">
+  <meta property="og:url" content="${pageUrl}">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="zh_CN">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/detail.css">
@@ -363,10 +385,11 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
     <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">${escapeHTML(category)}</span></nav>
     <div class="category-head">
       <h1>${escapeHTML(category)}</h1>
-      <p class="category-count">共收录 <b>${count}</b> 个产品</p>
+      <p class="category-count">共收录 <b>${totalCount}</b> 个产品${safePage > 1 ? `（第 ${safePage} 页）` : ""}</p>
       <nav class="category-nav" aria-label="分类导航">${catNav}</nav>
     </div>
     <div class="category-grid">${cards}</div>
+    ${paginationNav}
   </main>
   <footer class="detail-footer">
     <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
@@ -430,9 +453,13 @@ function renderAboutPage() {
   <meta property="og:title" content="关于AI 独立制造所">
   <meta property="og:description" content="中国独立开发者产品导航，每日自动同步，无竞价排名。">
   <meta property="og:url" content="${SITE_URL}/about.html">
-  <meta property="og:image" content="${SITE_URL}/preview.png">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="zh_CN">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/detail.css">
@@ -521,9 +548,13 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   <meta property="og:title" content="本周新收录的独立开发者产品">
   <meta property="og:description" content="最近 7 天新收录的 ${count} 个独立开发者产品">
   <meta property="og:url" content="${SITE_URL}/weekly.html">
-  <meta property="og:image" content="${SITE_URL}/preview.png">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="zh_CN">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/detail.css">
@@ -624,6 +655,14 @@ async function main() {
   sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
   for (const [cat, catSlug] of Object.entries(CATEGORY_SLUGS)) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/c/${catSlug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>`);
+    // 分类页分页（第 2 页起，分组逻辑与 categoryEntries 保持一致）
+    const catCount = cat === "未分类"
+      ? sorted.filter((p) => !p.categories || p.categories.length === 0).length
+      : sorted.filter((p) => (p.categories || []).includes(cat)).length;
+    const catTotalPages = Math.max(1, Math.ceil(catCount / CATEGORY_PAGE_SIZE));
+    for (let page = 2; page <= catTotalPages; page++) {
+      sitemapUrls.push(`  <url><loc>${SITE_URL}/c/${catSlug}/${page}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>`);
+    }
   }
   for (const p of sorted) {
     const slug = slugMap.get(p.id);
@@ -754,11 +793,22 @@ ${sections}
   // 分类导航计数（含「未分类」），用于每个分类页顶部的导航条
   const allCategoryCounts = categoryEntries.map(([cat, , productsInCat]) => [cat, productsInCat.length])
     .sort((a, b) => b[1] - a[1]);
+  let generatedCategoryPages = 0;
   for (const [cat, catSlug, productsInCat] of categoryEntries) {
-    const page = renderCategoryPage(cat, catSlug, productsInCat, slugMap, allCategoryCounts);
-    await writeFile(path.join(ROOT, "c", `${catSlug}.html`), page, "utf8");
+    const totalPages = Math.max(1, Math.ceil(productsInCat.length / CATEGORY_PAGE_SIZE));
+    for (let page = 1; page <= totalPages; page++) {
+      const html = renderCategoryPage(cat, catSlug, productsInCat, slugMap, allCategoryCounts, page);
+      if (page === 1) {
+        await writeFile(path.join(ROOT, "c", `${catSlug}.html`), html, "utf8");
+      } else {
+        const dir = path.join(ROOT, "c", catSlug);
+        await mkdir(dir, { recursive: true });
+        await writeFile(path.join(dir, `${page}.html`), html, "utf8");
+      }
+      generatedCategoryPages++;
+    }
   }
-  console.log(`[build] 已生成 ${categoryEntries.length} 个分类页`);
+  console.log(`[build] 已生成 ${generatedCategoryPages} 个分类页（${categoryEntries.length} 个分类，含分页）`);
 
   // 产品详情页
   let generatedProducts = 0;
@@ -783,7 +833,7 @@ ${sections}
     // 数据文件 + 静态资源同步
     await mkdir(path.join(dist, "data"), { recursive: true });
     await copyFile(path.join(ROOT, "data", "projects.json"), path.join(dist, "data", "projects.json"));
-    await copyFile(path.join(ROOT, "preview.png"), path.join(dist, "preview.png")).catch(() => console.log("[build] preview.png 不存在，跳过（本地可选资源）"));
+    await copyFile(path.join(ROOT, "og.png"), path.join(dist, "og.png")).catch(() => console.log("[build] og.png 不存在，跳过（本地可选资源）"));
     await copyFile(path.join(ROOT, "detail.css"), path.join(dist, "detail.css"));
     // 运行时静态资源（index.html 直接引用的 JS/CSS/图标，必须与根目录保持一致）
     for (const asset of ["app.js", "i18n.js", "styles.css", "favicon.svg"]) {
