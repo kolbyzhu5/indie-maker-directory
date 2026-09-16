@@ -276,8 +276,7 @@ function renderProductPage(project, slug, slugMap, related) {
   </main>
   <footer class="detail-footer">
     <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
-    <p><a href="/">返回产品导航</a></p>
+    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -371,8 +370,7 @@ function renderCategoryPage(category, catSlug, products, slugMap, allCategories)
   </main>
   <footer class="detail-footer">
     <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
-    <p><a href="/">返回产品导航</a></p>
+    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -460,6 +458,8 @@ function renderAboutPage() {
       <div class="detail-meta">
         <span><b>数据源</b><a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a></span>
         <span><b>源码</b><a href="https://github.com/kolbyzhu5/indie-maker-directory" target="_blank" rel="noreferrer">indie-maker-directory ↗</a></span>
+        <span><b>反馈建议</b><a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></span>
+        <span><b>备案</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></span>
       </div>
     </article>
     <section class="faq-list">
@@ -469,8 +469,7 @@ function renderAboutPage() {
   </main>
   <footer class="detail-footer">
     <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
-    <p><a href="/">返回产品导航</a></p>
+    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -551,8 +550,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   </main>
   <footer class="detail-footer">
     <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
-    <p><a href="/">返回产品导航</a></p>
+    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
