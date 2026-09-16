@@ -10,6 +10,9 @@ on:
       - "robots.txt"
       - "llms.txt"
       - "llms-full.txt"
+      - "docs/**"
+      - "README.md"
+      - "*.zip"
   schedule:
     - cron: "20 22 * * *"
   workflow_dispatch:
