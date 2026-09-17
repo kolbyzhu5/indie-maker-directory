@@ -4,29 +4,74 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-17T00:32:38.604Z",
+  "generatedAt": "2026-09-17T02:49:35.152Z",
   "counts": {
-    "total": 2924,
+    "total": 2926,
     "main": 2471,
     "programmer": 323,
-    "game": 130,
+    "game": 132,
     "custom": 1
   },
   "categoryCounts": {
+    "游戏娱乐": 165,
+    "免费工具": 450,
     "音视频": 457,
     "AI 工具": 882,
     "图片工具": 496,
     "开发工具": 537,
     "文档办公": 268,
     "浏览器扩展": 277,
-    "免费工具": 448,
     "效率工具": 416,
     "教育学习": 159,
-    "游戏娱乐": 164,
     "社交社区": 112,
     "生活服务": 88
   },
   "projects": [
+    {
+      "id": "game-20260917-the-beating-light-of-the-nail-停一刻",
+      "edition": "game",
+      "addedAt": "2026-09-17",
+      "maker": "the-beating-light-of-the-nail",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "name": "停一刻",
+      "url": "https://calm.tradershelf.com/",
+      "status": "online",
+      "description": "给交易者的三分钟休息站，管不住手的时候按流程走：30 秒安顿 → 60-90 秒小游戏 → 60 秒收尾；十个 30-90 秒小游戏分三类（情绪降温 / 注意力切换 / 规则与冲动，含舒尔特方格、Stroop、Go/No-Go），亏损后想立刻做下一笔时有专门的高风险暂停流程，不显示行情不给建议，记录只存本机，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260917-the-beating-light-of-the-nail-万象中枢-wxhub",
+      "edition": "game",
+      "addedAt": "2026-09-17",
+      "maker": "the-beating-light-of-the-nail",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/the-beating-light-of-the-nail"
+        }
+      ],
+      "name": "万象中枢 WXHub",
+      "url": "https://wxq.whatsyour.fun/",
+      "status": "online",
+      "description": "《王者荣耀》王者万象棋一体化工具站，查卡、抄阵容、摆站位一个站搞定：85 英雄/78 装备/254 天赋/99 效果牌图鉴、64 套阵容一图流、拖拽站位编辑器（可导出 PNG）、禁阵营应对推演、Buff 词典与快速认卡，拼音首字母搜索，无需注册，数据来自官方卡牌库",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260915-lizhongyue248-云播切片",
       "edition": "main",
