@@ -108,21 +108,47 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
 @media (max-width: 760px) { .site-header { height: 76px; padding: 14px 18px; }.brand-seal { width: 43px; height: 43px; }.brand small, .top-nav a:first-child { display: none; } main { padding: 0 18px 50px; }.hero { min-height: auto; grid-template-columns: 1fr; gap: 25px; padding: 48px 0 35px; }.hero-note { display: none; } h1 { font-size: 44px; }.search-stage { padding: 0 0 22px; }.search-wrap { height: 61px; box-shadow: 4px 4px 0 var(--red); }.search-mark { padding: 0 12px 4px; }.search-wrap input { font-size: 14px; }.search-wrap kbd { display: none; }.clear-search { padding: 0 12px; }.directory-shell { grid-template-columns: 1fr; }.filter-panel { position: static; }.filter-panel fieldset { display: flex; flex-wrap: wrap; gap: 4px 14px; }.filter-panel fieldset label { min-height: 27px; }.source-note { display: none; }.project-grid { grid-template-columns: 1fr; }.project-card { min-height: 215px; }.results-toolbar { margin-top: 4px; } footer { margin: 0 18px; padding-left: 0; padding-right: 0; flex-direction: column; gap: 5px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
 
-/* P0 移动端首屏优化（目标：第一张产品卡进入 844px 首屏内） */
+/* 移动端：首屏优化 + 排版精修（对齐 / 层次） */
 @media (max-width: 760px) {
-  .hero { padding: 18px 0 12px; gap: 0; }
+  /* ── 首屏优化：让第一张产品卡进入 844px 视口 ── */
+  .hero { padding: 16px 0 10px; gap: 0; }
   .eyebrow { display: none; }
-  h1 { font-size: 28px; line-height: 1.38; letter-spacing: -.03em; }
   .hero-description { display: none; }
   .search-stage { padding: 0 0 10px; }
   .search-wrap { height: 52px; }
   .quick-tags { flex-wrap: nowrap; overflow-x: auto; gap: 7px; margin-top: 11px; padding-bottom: 4px; scrollbar-width: none; }
   .quick-tags::-webkit-scrollbar { display: none; }
+
+  /* ── 头部：品牌不换行 + 导航紧凑（原 letter-spacing .16em / gap 28px 在窄屏必然挤成一团）── */
+  .site-header { height: 60px; padding: 10px 16px; gap: 8px; }
+  .brand { gap: 9px; min-width: 0; }
+  .brand-seal { width: 36px; height: 36px; font-size: 15px; }
+  .brand strong { font-size: 15px; letter-spacing: .04em; white-space: nowrap; }
+  .brand small { display: none; }
+  .top-nav { gap: 2px; flex: 0 0 auto; }
+  .top-nav a { padding: 6px 8px; font-size: 12px; border-radius: 6px; }
+
+  /* ── 标题：紧凑且保留书法体层次 ── */
+  h1 { font-size: 27px; line-height: 1.42; letter-spacing: -.02em; }
+
+  /* ── 胶囊横滑：右侧留白，末项不贴边 ── */
+  .quick-tags { margin-right: -16px; padding-right: 16px; }
   .quick-tags button { flex: 0 0 auto; padding: 6px 11px; }
-  .directory-shell { margin-top: 12px; padding-top: 18px; }
-  .filter-heading { padding-bottom: 8px; }
-  .filter-panel fieldset { padding: 8px 0; gap: 4px 12px; }
-  .filter-panel fieldset legend { padding: 0 0 4px; }
-  .filter-panel fieldset label { min-height: 26px; }
-  .results-toolbar { min-height: 40px; margin-bottom: 14px; }
+
+  /* ── 筛选区：卡片化 + 网格对齐（「对齐 + 层次」的关键）── */
+  .directory-shell { margin-top: 14px; padding-top: 16px; }
+  .filter-panel { background: rgba(255,253,247,.8); border: 1px solid var(--line); border-radius: 12px; padding: 13px 13px 3px; margin-bottom: 18px; }
+  .filter-heading { padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .filter-panel fieldset { padding: 12px 0; border-bottom: 1px dashed var(--line); }
+  .filter-panel fieldset:last-of-type { border-bottom: 0; }
+  .filter-panel fieldset legend { grid-column: 1 / -1; color: var(--red-dark); font-weight: 700; letter-spacing: .1em; padding: 0 0 8px; }
+  .filter-panel fieldset:nth-of-type(1) { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px 10px; }
+  .filter-panel fieldset:nth-of-type(2) { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 8px; }
+  .filter-panel fieldset label { min-height: 34px; padding: 0 10px; gap: 6px; background: #fff; border: 1px solid var(--line); border-radius: 8px; }
+  .filter-panel fieldset label b { margin-left: auto; }
+  .filter-panel fieldset label:has(input:checked) { border-color: var(--red); background: #fffaf7; }
+
+  /* ── 结果栏与卡片 ── */
+  .results-toolbar { min-height: 40px; margin-bottom: 14px; padding-bottom: 8px; align-items: center; }
+  .project-card { min-height: 0; padding: 16px 16px 14px; }
 }
