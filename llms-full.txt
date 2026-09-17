@@ -1,7 +1,7 @@
 # AI 独立制造所 · 全部产品清单（2924）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-16（北京时间）
+> 更新时间：2026-09-17（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
 ## 大众产品（2471）
