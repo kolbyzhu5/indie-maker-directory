@@ -143,7 +143,7 @@ function cardTemplate(project, index, slugMap) {
   const detail = slug ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${url}" target="_blank" rel="noreferrer">去看看 ↗</a></span>` : `<a class="visit" href="${url}" target="_blank" rel="noreferrer">去看看 ↗</a>`;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${edition}</span><time class="card-date">${project.addedAt}</time></div>
-    <h2><a href="${url}" target="_blank" rel="noreferrer">${name}</a></h2>
+    <h2><a href="${slug ? `/p/${slug}.html` : url}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${name}</a></h2>
     <p>${escapeHTML(project.description)}</p>
     <div class="card-tags">${tags}</div>
     <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span>${detail}</div>

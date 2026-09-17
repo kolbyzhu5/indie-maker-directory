@@ -99,7 +99,7 @@ function cardTemplate(project, index) {
     : `<a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a>`;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${editionLabel}</span><time class="card-date">${project.addedAt}</time></div>
-    <h2><a href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${escapeHTML(project.name)}</a></h2>
+    <h2><a href="${slug ? `/p/${slug}.html` : escapeHTML(project.url)}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${escapeHTML(project.name)}</a></h2>
     <p>${escapeHTML(project.description)}</p>
     <div class="card-tags">${tags}</div>
     <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span>${detail}</div>
