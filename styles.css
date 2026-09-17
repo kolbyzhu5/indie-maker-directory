@@ -159,4 +159,5 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
   .quick-tags button small { font-size: 11px; }
   .filter-panel fieldset b { font-size: 11px; }
   .edition-badge { font-size: 11px; }
+  footer { font-size: 11px; }
 }
