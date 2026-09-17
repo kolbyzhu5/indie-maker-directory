@@ -142,5 +142,8 @@
   .more-rankings { margin-top: 20px; padding: 16px; border-radius: 10px; }
   .more-rankings h2 { font-size: 15px; }
 
+  /* 独有内容模块的状态徽章（10px 在手机上过小） */
+  .u-chip { font-size: 11px; padding: 2px 7px; }
+
   .detail-footer { padding: 20px 16px 44px; }
 }

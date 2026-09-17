@@ -157,4 +157,6 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
   .card-tags span, .card-tags a { font-size: 11px; padding: 3px 7px; }
   .card-links a { font-size: 11px; }
   .quick-tags button small { font-size: 11px; }
+  .filter-panel fieldset b { font-size: 11px; }
+  .edition-badge { font-size: 11px; }
 }
