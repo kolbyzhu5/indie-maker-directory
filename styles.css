@@ -151,4 +151,10 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
   /* ── 结果栏与卡片 ── */
   .results-toolbar { min-height: 40px; margin-bottom: 14px; padding-bottom: 8px; align-items: center; }
   .project-card { min-height: 0; padding: 16px 16px 14px; }
+
+  /* ── 小字号可读性：桌面设定的 9-10px 在手机上过小（微信内还会再缩一号），统一提到 11px ── */
+  .card-date, .maker { font-size: 11px; }
+  .card-tags span, .card-tags a { font-size: 11px; padding: 3px 7px; }
+  .card-links a { font-size: 11px; }
+  .quick-tags button small { font-size: 11px; }
 }
