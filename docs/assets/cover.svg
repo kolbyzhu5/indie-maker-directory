@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="460" viewBox="0 0 1080 460" font-family="'PingFang SC','Noto Serif SC','Songti SC',serif">
+  <!-- 宣纸背景 -->
+  <rect width="1080" height="460" fill="#f5f0e6"/>
+  <!-- 纸张纹理（浅色噪点带） -->
+  <rect x="0" y="0" width="1080" height="460" fill="#000" opacity="0.015"/>
+  <rect x="0" y="100" width="1080" height="1" fill="#cec3ac" opacity="0.4"/>
+  <rect x="0" y="340" width="1080" height="1" fill="#cec3ac" opacity="0.4"/>
+
+  <!-- 顶部印章红装饰条 -->
+  <rect x="0" y="0" width="1080" height="8" fill="#b3292e"/>
+
+  <!-- 印章 logo（左上） -->
+  <g transform="translate(120, 96)">
+    <rect x="-42" y="-42" width="84" height="84" rx="7" fill="#b3292e" transform="rotate(-2)"/>
+    <rect x="-34" y="-34" width="68" height="68" rx="4" fill="none" stroke="#fff9ec" stroke-opacity="0.35" stroke-width="2" transform="rotate(-2)"/>
+    <text x="0" y="16" text-anchor="middle" fill="#fff9ec" font-size="34" font-weight="bold">独立</text>
+  </g>
+
+  <!-- 品牌名（印章右侧） -->
+  <g transform="translate(220, 96)">
+    <text x="0" y="-4" fill="#201e1a" font-size="30" font-weight="bold">AI 独立制造所</text>
+    <text x="0" y="26" fill="#756f63" font-size="17" letter-spacing="3">中国独立开发者产品导航</text>
+  </g>
+
+  <!-- 主标题第一行 -->
+  <text x="540" y="226" text-anchor="middle" fill="#201e1a" font-size="66" font-weight="bold">好产品，不该埋在</text>
+  <!-- 主标题第二行（红色强调） -->
+  <text x="540" y="314" text-anchor="middle" fill="#b3292e" font-size="66" font-weight="bold">几千行 README 里</text>
+
+  <!-- 副标题 -->
+  <text x="540" y="378" text-anchor="middle" fill="#756f63" font-size="25">2900 个独立开发者的产品 · 做成了一个导航站</text>
+
+  <!-- 底部品牌 + 域名 -->
+  <g transform="translate(540, 430)">
+    <rect x="-220" y="-16" width="440" height="32" rx="4" fill="#b3292e"/>
+    <text x="0" y="6" text-anchor="middle" fill="#fff9ec" font-size="19" letter-spacing="1">indiemaker.cn</text>
+  </g>
+</svg>

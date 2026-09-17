@@ -606,6 +606,96 @@ const RANKINGS = [
       { q: "这些游戏收费吗？", a: "本榜单优先收录免费可玩的作品。部分完全免费（含开源），部分提供免费版本或免费额度，具体以各游戏官方说明为准。" },
     ],
   },
+  {
+    slug: "best-free-tools",
+    navLabel: "免费工具精选",
+    title: "2026 最实用的免费在线工具精选",
+    countLabel: "从中国独立开发者作品中精选",
+    descTemplate: "精选 {n} 个免安装、浏览器打开即用的免费在线工具，覆盖图片处理、音视频、格式转换、订阅管理、设备检测等，无需下载注册，全部来自中国独立开发者。",
+    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。收录标准：<b>完全免费</b>、<b>免安装免注册</b>、<b>浏览器内直接运行</b>。适合不想装软件、随手要处理个文件或图片的场景。",
+    groups: [
+      { group: "图片与文档处理", names: ["Image to ASCII", "PicPermit", "PdfCompare", "MailMergeOnline", "Create PDF from Sheet"] },
+      { group: "音视频处理", names: ["Find Key & BPM", "剪蛋 Jiandan", "VoiceCloner", "SubtitleGenerator", "Video to Text"] },
+      { group: "格式转换与分享", names: ["Formatho", "HTMLShare", "CrossTool"] },
+      { group: "效率与省钱", names: ["Trim 订阅扫雷器", "Interval Timers", "Invoice Downloader", "热摸爽", "摸鱼助手"] },
+      { group: "设备检测", names: ["Dead Pixel Test", "SubnetDesk"] },
+    ],
+    faq: [
+      { q: "有哪些免费又好用的在线工具？", a: "AI 独立制造所精选了 20 个免安装的免费在线工具，涵盖图片转字符画（Image to ASCII）、证件照制作（PicPermit）、PDF 对比与合并、批量生成 PDF、音频调性检测、视频转文字、订阅账单分析、屏幕坏点检测等，全部在浏览器内运行，无需下载软件或注册账号。" },
+      { q: "不装软件能处理图片和 PDF 吗？", a: "可以。PicPermit 支持 500+ 官方证件照规格与 ICAO 生物识别线辅助；PdfCompare 基于浏览器 WebAssembly 做 PDF 对比与文本转换；MailMergeOnline 内置证书、合同、工资单模板批量生成 PDF。文件均在本地处理，不上传服务器。" },
+      { q: "免费在线工具安全吗？会上传我的文件吗？", a: "本榜单优先收录「浏览器本地处理」的工具，例如 Image to ASCII、Find Key & BPM 等均声明文件不上传、在浏览器内本地完成处理；部分工具还开源可查代码。涉及敏感文件时建议优先选择这类本地处理工具。" },
+      { q: "怎么查自己有多少自动续费订阅？", a: "用 Trim 订阅扫雷器：导入支付宝或微信账单，自动识别自动续费项、算出年度订阅总支出与可省金额，帮你在涨价前发现不用的订阅。" },
+      { q: "这些工具收费吗？", a: "本榜单收录的全部是免费工具（部分开源），无需付费即可使用核心功能。少数可能提供付费增值项，但不影响免费使用。" },
+    ],
+  },
+  {
+    slug: "best-dev-tools",
+    navLabel: "开发者工具精选",
+    title: "2026 值得一试的开发者工具精选",
+    countLabel: "从中国独立开发者作品中精选",
+    descTemplate: "精选 {n} 个面向开发者的工具，覆盖 AI 编程 Agent、模型 API 网关、市场调研、安全监控与开发辅助，全部来自中国独立开发者。",
+    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。面向开发者与独立创作者，覆盖 <b>AI 编程 Agent 平台</b>、<b>模型 API 网关</b>、<b>调研与曝光</b>、<b>安全与取证</b>、<b>开发辅助资源</b>五类。",
+    groups: [
+      { group: "AI 编程与 Agent 平台", names: ["hippoxOS", "vibepanel", "MOVO", "FlowWeaver", "WebCode", "BitFun"] },
+      { group: "模型 API 与路由", names: ["TeamoRouter", "Sub2API", "XiuRouter"] },
+      { group: "市场调研与曝光", names: ["SiteHunter", "Vibe Coding 首切片", "cc8.cc"] },
+      { group: "安全与取证", names: ["哪吒网络安全", "小辣椒", "灵取证"] },
+      { group: "开发资源与插件", names: ["DSH Quality", "DSH Meme Hub", "Awesome Codex Skin", "OctoCounts", "TomlJump", "mv3migrate"] },
+    ],
+    faq: [
+      { q: "有哪些好用的 AI 编程工具？", a: "本榜单收录了 hippoxOS（LLM 操作系统）、vibepanel（自托管 AI 编程会话面板，可在浏览器和手机上管理多个 Claude Code 会话）、MOVO（企业级 Agent 平台）、WebCode（浏览器内运行 Claude Code / Codex）、BitFun（开源跨平台桌面 AI Agent）等开发者工具。" },
+      { q: "多个 AI 模型的 API 怎么统一调用？", a: "可以用 API 中转网关：TeamoRouter 支持一个 key 调用 GPT-6 Astra / Claude / Gemini 等多个模型；TideLink 让已有 OpenAI SDK 代码无需改动即可切换模型；Sub2API 与 XiuRouter 则面向个人到商业规模提供多档方案。" },
+      { q: "独立开发者怎么找产品点子？", a: "SiteHunter 是面向独立开发者和创业者的市场调研平台，通过数据而非直觉找 SaaS 创业方向；Vibe Coding 首切片 帮助把模糊需求拆成可运行、可验收的核心切片；cc8.cc 则是面向独立开发者的公开曝光榜。" },
+      { q: "中国独立开发者做了哪些开发者工具？", a: "本站收录的开发工具类产品超过 530 个，覆盖 AI 编程、API 网关、CI/CD、监控运维、安全取证、代码统计等方向，全部来自中国独立开发者的个人或小团队作品。" },
+      { q: "这些开发者工具收费吗？", a: "本榜单包含免费开源工具与商业工具。例如 hippoxOS、BitFun、mv3migrate、OctoCounts 为开源项目；商业工具多提供免费额度或试用，具体以官网说明为准。" },
+    ],
+  },
+  {
+    slug: "best-productivity-tools",
+    navLabel: "效率工具精选",
+    title: "2026 值得一试的效率工具精选",
+    countLabel: "从中国独立开发者作品中精选",
+    descTemplate: "精选 {n} 个提升日常效率的工具，覆盖 AI 会话管理、专注习惯、笔记知识、社媒营销、语言学习与内容创作，全部来自中国独立开发者。",
+    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。面向需要管理多线任务、维护知识库、持续产出的个人。覆盖 <b>AI 会话与用量管理</b>、<b>专注与习惯</b>、<b>笔记与知识</b>、<b>社媒与翻译</b>、<b>学习与创作</b>五类。",
+    groups: [
+      { group: "AI 会话与用量管理", names: ["TokenTracker / 纸账", "MaxUsage", "豆包超级助手"] },
+      { group: "专注与习惯养成", names: ["Dopastep", "MoveToZero"] },
+      { group: "笔记与知识管理", names: ["NotePP", "Vault Keeper", "EchoWord"] },
+      { group: "社媒与翻译", names: ["SocialEcho", "TwiFlux", "Duo Translator"] },
+      { group: "学习与语言", names: ["EngABC", "JoyRead 双语绘本"] },
+      { group: "内容创作", names: ["AI 小说作家", "UI Design Agent Kit", "BokeBox"] },
+      { group: "其他实用工具", names: ["CardShopDir", "海克斯小秘书"] },
+    ],
+    faq: [
+      { q: "同时订阅多个 AI 套餐怎么管理额度？", a: "MaxUsage 帮助同时订阅多个 AI 编程套餐的用户充分利用每个套餐额度，根据剩余额度和重置时间给出使用建议；TokenTracker / 纸账 则是 Mac 菜单栏的 Agent 状态工具与本地用量账本，可查看 Claude Code 等工具的用量。" },
+      { q: "有什么工具能帮我专注、改掉拖延？", a: "Dopastep 把你一直不想动的事拆成小到不用下决心就能开始的第一步，并进入实时专注房与他人同步专注；MoveToZero（iPhone 久坐提醒）通过步数目标和完成记录帮你安排起身走动。" },
+      { q: "知识库和笔记工具推荐哪些？", a: "NotePP 是 macOS 平台的 Notepad++ 替代方案；Vault Keeper 是 Obsidian 自动运维插件，定时检测断链、孤儿笔记并生成报告；EchoWord 提供查词、划词翻译与 TTS 朗读，在语境中记单词。" },
+      { q: "做自媒体/出海营销有什么效率工具？", a: "SocialEcho 面向出海企业和跨境卖家，在一个工作区统一管理 11 个海外社交平台；TwiFlux 提供超过 40 个 Twitter 下载与管理工具；Duo Translator 支持网页双语翻译、划词翻译与写作增强。" },
+      { q: "这些效率工具收费吗？", a: "本榜单以免费或提供免费额度的工具为主，部分是开源项目。商业工具多提供免费试用或基础免费档，具体以官网说明为准。" },
+    ],
+  },
+  {
+    slug: "best-browser-extensions",
+    navLabel: "浏览器扩展精选",
+    title: "2026 值得装的浏览器扩展与网页工具精选",
+    countLabel: "从中国独立开发者作品中精选",
+    descTemplate: "精选 {n} 个浏览器扩展与网页内工具，覆盖书签标签管理、网页媒体下载、阅读翻译、创意娱乐与格式转换，全部来自中国独立开发者。",
+    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。收录 <b>浏览器扩展插件</b> 与 <b>浏览器内直接运行的工具</b>，覆盖书签标签管理、网页媒体下载、阅读翻译、创意娱乐、格式转换五类。",
+    groups: [
+      { group: "书签与标签管理", names: ["BookmarkHell", "LazyTabs"] },
+      { group: "网页媒体与下载", names: ["FlowPick", "网页视频港 WebVideoHarbor", "FluxDown"] },
+      { group: "阅读与理解", names: ["Kindly-Web", "沉淀记 Loamery"] },
+      { group: "创意与娱乐", names: ["YiBoard", "Synthesizer Flow", "LiveFaceSwap AI", "0trace", "TempCanvas"] },
+      { group: "格式转换与开发辅助", names: ["Chrome Renamer", "ImageToSTL.online", "Semaphore", "AiXian", "Next BConvert"] },
+    ],
+    faq: [
+      { q: "有哪些好用的浏览器扩展推荐？", a: "本榜单收录了 FlowPick（自动检测并下载网页中的视频、音频和图片，免费开源）、网页视频港 WebVideoHarbor（识别并保存网页媒体）、Kindly-Web（开源 Chrome 插件，自动扫描 B 站评论区调用大模型分析）、BookmarkHell（书签去重分类）、LazyTabs（Chrome 标签页收纳）等实用扩展。" },
+      { q: "怎么下载网页里的视频和图片？", a: "FlowPick 是免费开源的浏览器扩展，可自动检测并下载网页中的视频、音频和图片等媒体资源；网页视频港 WebVideoHarbor 通过 Chrome 扩展识别 MP4、WebM 等格式；FluxDown 则是支持 HTTP/FTP、BT 磁力、HLS 的多协议下载管理器。" },
+      { q: "浏览器里能把图片转成 3D 模型吗？", a: "可以。ImageToSTL.online 是免费的 PNG/JPG 转 STL 在线工具，在浏览器本地生成可 3D 打印的模型，支持高度调整等参数；文件不上传服务器。" },
+      { q: "有什么不用注册的浏览器小工具？", a: "TempCanvas 是免费、无需注册的临时在线白板，可快速画图、手写记录并导出 PNG；0trace 提供纯 P2P 浏览器端对端聊天与文件传输，无服务器中转、无需注册；Semaphore 把图片拖进浏览器即变 ASCII 字符画。" },
+      { q: "这些扩展收费吗？", a: "本榜单以免费、开源扩展为主，绝大多数无需付费即可使用全部功能，具体以各项目说明为准。" },
+    ],
+  },
 ];
 
 function renderRankingPage(cfg, allProjects, slugMap) {
@@ -626,6 +716,13 @@ function renderRankingPage(cfg, allProjects, slugMap) {
     </section>`).join("");
 
   const faqHTML = cfg.faq.map(({ q, a }) => `<details class="faq-item"><summary>${escapeHTML(q)}</summary><p>${escapeHTML(a)}</p></details>`).join("");
+
+  // 榜单间互链（帮助用户与爬虫发现全部榜单）
+  const otherRankings = RANKINGS.filter((r) => r.slug !== cfg.slug);
+  const moreRankingsHTML = `<section class="more-rankings">
+    <h2>更多精选榜单</h2>
+    <ul>${otherRankings.map((r) => `<li><a href="/${r.slug}.html">${escapeHTML(r.title)}</a></li>`).join("")}</ul>
+  </section>`;
 
   const listLD = JSON.stringify({
     "@context": "https://schema.org", "@type": "ItemList",
@@ -691,6 +788,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
       <h2 class="faq-title">常见问题</h2>
       ${faqHTML}
     </section>
+    ${moreRankingsHTML}
   </main>
   <footer class="detail-footer">
     <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
