@@ -80,6 +80,11 @@
 .u-stats b { font-size: 24px; color: var(--red-dark); line-height: 1.2; }
 .u-stats span { font-size: 11px; color: var(--muted); }
 .u-note { font-size: 12px; color: var(--muted); }
+/* 「关于产品信息」边界声明：切断"产品属性 → 站点属性"的误读（GEO）
+   AI 搜索常把产品描述里的「会员 / 付费 / 高级功能」误当成站点自身的商业模式 */
+.u-boundary { margin: 10px 0; padding: 12px 14px; background: rgba(179,41,46,.045); border-left: 3px solid var(--red); font-size: 13px; line-height: 1.85; color: var(--ink); }
+.u-boundary b { display: block; margin-bottom: 3px; font-size: 12.5px; color: var(--red-dark); }
+.u-boundary span { color: var(--muted); }
 
 /* GEO 精选榜单页（AI 搜索引擎友好：编号列表 + 一句话价值） */
 .best-intro { max-width: 880px; margin: 0 auto 26px; font-size: 14px; line-height: 2; color: var(--muted); position: relative; z-index: 1; }

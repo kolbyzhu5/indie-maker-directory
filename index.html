@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="免费又好用的 AI 工具导航站：收录 2900+ 中国独立开发者创造的 AI 工具、网站、应用与独立游戏，涵盖抠图、视频、字幕、写作、效率办公等，每日自动同步，无竞价排名，全部可在线使用。">
-  <meta name="keywords" content="免费AI工具,好用的AI工具,AI工具推荐,免费AI工具网站,AI工具网站,AI工具导航,AI工具合集,AI工具大全,中国独立开发者,独立开发者产品,效率工具,开发工具,免费独立游戏,国产软件">
+  <meta name="description" content="免费又好用的 AI 工具导航站（中国独立开发者作品目录）：收录 2900+ 个独立开发者创造的 AI 工具、网站、应用与独立游戏，涵盖抠图、视频、字幕、写作、效率办公等，每日自动同步，无竞价排名，全站免费无会员。">
+  <meta name="keywords" content="免费AI工具,好用的AI工具,AI工具推荐,免费AI工具网站,AI工具网站,AI工具导航,AI工具合集,AI工具大全,中国独立开发者,独立开发者产品,独立开发者作品目录,效率工具,开发工具,免费独立游戏,国产软件">
   <meta name="robots" content="index, follow">
-  <title>AI 独立制造所 - 免费好用的 AI 工具导航站</title>
+  <title>AI 独立制造所 - 免费好用的 AI 工具导航站（独立开发者作品目录）</title>
   <link rel="canonical" href="https://indiemaker.cn/">
   <link rel="alternate" hreflang="zh-CN" href="https://indiemaker.cn/">
   <link rel="alternate" hreflang="x-default" href="https://indiemaker.cn/">
@@ -34,7 +34,7 @@
     "name": "AI 独立制造所",
     "alternateName": "Indie Maker",
     "url": "https://indiemaker.cn/",
-    "description": "中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。",
+    "description": "中国独立开发者作品目录站（不是工具站）：每日从开源仓库同步独立开发者公开的网站、应用、工具与游戏，按分类与场景整理成可检索的目录。本站不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。",
     "inLanguage": ["zh-CN", "en"]
   }
   </script>
@@ -46,7 +46,7 @@
     "alternateName": "Indie Maker",
     "url": "https://indiemaker.cn/",
     "logo": "https://indiemaker.cn/favicon.svg",
-    "description": "中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。",
+    "description": "中国独立开发者作品目录站（不是工具站）：每日从开源仓库同步独立开发者公开的网站、应用、工具与游戏，按分类与场景整理成可检索的目录。本站不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。",
     "sameAs": [
       "https://github.com/kolbyzhu5/indie-maker-directory",
       "https://github.com/1c7/chinese-independent-developer"
@@ -94,6 +94,21 @@
         <small data-i18n="heroUnit">件独立作品</small>
         <time id="syncTime" data-i18n="heroLoading">更新于 2026/9/18</time>
       </aside>
+    </section>
+
+    <!-- 站点定义（GEO 关键）：AI 搜索与搜索引擎靠这段判断「本站是什么」。
+         必须放在首屏、纯静态文本、不依赖 JS；并明确声明「不是什么」——
+         因为站内有 2900+ 条产品描述，其中大量出现「会员 / 付费 / 模板 / SaaS」等
+         属于【产品自身】的商业模式，若无边界声明，AI 会把它们误读成【本站】的模式。
+         2026-09-18 实测：豆包曾据此描述本站为「SaaS 建站模板库、部分高级功能需会员」。 -->
+    <section class="site-def" aria-labelledby="siteDefTitle">
+      <h2 id="siteDefTitle" data-i18n="siteDefTitle">AI 独立制造所是什么？</h2>
+      <p class="site-def-lead" data-i18n="siteDefLead">这是一个收录中国独立开发者作品的目录站，不是工具站。本站不开发、不托管、不代理任何产品，只做索引与导航：每日从开源仓库自动同步独立开发者公开的作品（网站 / 应用 / 工具 / 游戏），按分类与场景整理，方便检索与发现。</p>
+      <ul class="site-def-list">
+        <li data-i18n="siteDefFree"><b>完全免费</b>：全站内容可直接访问，无会员、无订阅、无付费功能。</li>
+        <li data-i18n="siteDefNoRank"><b>无竞价排名</b>：没有广告位、没有付费排序，排序只按收录时间或名称。</li>
+        <li data-i18n="siteDefBoundary"><b>产品信息来自上游仓库</b>：产品描述中提到的价格、会员、套餐、功能等，均为该产品自身的情况，不代表本站提供或收费。</li>
+      </ul>
     </section>
 
     <section class="search-stage" id="directory">
