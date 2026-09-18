@@ -1232,6 +1232,8 @@ ${sections}
     }
     // IndexNow key 验证文件（Bing 站点所有权验证，必须部署到站点根目录）
     await copyFile(path.join(ROOT, "9082f4b3a3a9450894ffdb0861c74a65.txt"), path.join(dist, "9082f4b3a3a9450894ffdb0861c74a65.txt"));
+    // EdgeOne Pages 平台配置（域名级 301：www → 非 www，避免重复内容）
+    await copyFile(path.join(ROOT, "edgeone.json"), path.join(dist, "edgeone.json")).catch(() => console.log("[build] edgeone.json 不存在，跳过"));
     // 详情页 / 分类页目录
     await copyDir(path.join(ROOT, "p"), path.join(dist, "p"));
     await copyDir(path.join(ROOT, "c"), path.join(dist, "c"));
