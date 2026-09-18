@@ -112,7 +112,7 @@ fieldset b { color: var(--muted); font-size: 10px; font-weight: 400; }
 .empty-state { text-align: center; padding: 80px 20px; border: 1px dashed var(--line); }
 .empty-state > span { display: grid; place-items: center; width: 62px; height: 62px; margin: 0 auto 20px; background: var(--red); color: white; font-family: var(--display); font-size: 28px; transform: rotate(-3deg); }
 .empty-state h2 { margin: 0 0 8px; }.empty-state p { color: var(--muted); }.empty-state button { border: 0; border-bottom: 1px solid var(--red); background: transparent; color: var(--red); }
-footer { max-width: 1292px; margin: 0 auto; padding: 25px 34px 45px; border-top: 1px solid var(--line); color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; font-size: 10px; }
+footer { max-width: 1292px; margin: 0 auto; padding: 25px 34px 45px; border-top: 1px solid var(--line); color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; font-size: 11px; }
 /* 站点定义（GEO）：安静地待在页脚，不打断「进来逛的人」。
    放在页脚而非首屏是 2026-09-18 的用户反馈；仍保留在首页 DOM 且不隐藏，
    因为 AI 搜索主要读首页，而 Google 移动优先索引会折价 display:none 的内容。 */
@@ -120,6 +120,16 @@ footer .footer-def { flex: 0 0 100%; margin: 0 0 12px; padding-bottom: 10px; bor
 footer .footer-links { line-height: 1.9; }
 footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
 footer a:hover { color: var(--red); border-bottom-color: var(--red); }
+
+/* ── 触控热区扩展（可访问性 / 移动端）───────────────────────────
+   实测 390px 下的可点元素高度：卡片「详情 / 去看看」仅 16px、「重置」18px、
+   页脚链接 17-19px、详情页推荐条目 20px —— 远低于 WCAG 建议的 24px（触控 44px）。
+   而这些恰恰是频率最高的动作（进详情页 / 去官网 / 重置筛选），手机上极易点错。
+   做法：用伪元素向外扩命中区，**只扩垂直方向**（横向留 0，避免相邻链接互相抢点击），
+   绝对定位不占布局 —— 因此视觉与排版完全不变，只是"更容易点中"。 */
+.card-links a, .filter-heading button, .u-name, footer .footer-links a { position: relative; }
+.card-links a::after, .filter-heading button::after, .u-name::after { content: ""; position: absolute; inset: -8px 0; }
+footer .footer-links a::after { content: ""; position: absolute; inset: -5px 0; }
 @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 1050px) { .project-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }.hero { padding-left: 3%; padding-right: 3%; }.search-stage { padding-left: 3%; padding-right: 3%; } }
 @media (max-width: 760px) { .site-header { height: 76px; padding: 14px 18px; }.brand-seal { width: 43px; height: 43px; }.brand small, .top-nav a:first-child { display: none; } main { padding: 0 18px 50px; }.hero { min-height: auto; grid-template-columns: 1fr; gap: 25px; padding: 48px 0 35px; }.hero-note { display: none; } h1 { font-size: 44px; }.search-stage { padding: 0 0 22px; }.search-wrap { height: 61px; box-shadow: 4px 4px 0 var(--red); }.search-mark { padding: 0 12px 4px; }.search-wrap input { font-size: 14px; }.search-wrap kbd { display: none; }.clear-search { padding: 0 12px; }.directory-shell { grid-template-columns: 1fr; }.filter-panel { position: static; }.filter-panel fieldset { display: flex; flex-wrap: wrap; gap: 4px 14px; }.filter-panel fieldset label { min-height: 27px; }.source-note { display: none; }.project-grid { grid-template-columns: 1fr; }.project-card { min-height: 215px; }.results-toolbar { margin-top: 4px; } footer { margin: 0 18px; padding-left: 0; padding-right: 0; flex-direction: column; gap: 5px; } }
@@ -140,6 +150,10 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
   .site-def-meta span { display: block; }
   .site-def-meta span::after { display: none; }
   .site-def-meta span::before { content: "·"; margin-right: 5px; color: var(--red); font-weight: 900; }
+  /* 页脚链接换行后行距拉开，配合上面的热区扩展，避免相邻两行的热区互相重叠导致误点 */
+  footer .footer-links { line-height: 2.35; }
+  /* 页脚定义行：字号保持 11px（不再往下压 —— 低于 11px 就进入"读不清"区间） */
+  footer .footer-def { line-height: 1.8; margin-bottom: 10px; padding-bottom: 8px; }
   .search-stage { padding: 0 0 10px; }
   .search-wrap { height: 52px; }
   .quick-tags { flex-wrap: nowrap; overflow-x: auto; gap: 7px; margin-top: 11px; padding-bottom: 4px; scrollbar-width: none; }
