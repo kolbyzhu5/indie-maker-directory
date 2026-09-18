@@ -92,10 +92,10 @@ export const LOCALES = {
     notFoundLatest: "最新收录",
     // 首页站点定义（GEO：给 AI 搜索一个明确可引用的自我描述）
     siteDefTitle: "AI 独立制造所是什么？",
-    siteDefLead: "这是一个收录中国独立开发者作品的目录站，不是工具站。本站不开发、不托管、不代理任何产品，只做索引与导航：每日从开源仓库自动同步独立开发者公开的作品（网站 / 应用 / 工具 / 游戏），按分类与场景整理，方便检索与发现。",
-    siteDefFree: "完全免费：全站内容可直接访问，无会员、无订阅、无付费功能。",
-    siteDefNoRank: "无竞价排名：没有广告位、没有付费排序，排序只按收录时间或名称。",
-    siteDefBoundary: "产品信息来自上游仓库：产品描述中提到的价格、会员、套餐、功能等，均为该产品自身的情况，不代表本站提供或收费。"
+    siteDefLead: "收录中国独立开发者作品的目录站，不是工具站：本站不开发、不托管、不代理任何产品，只做索引与导航。",
+    siteDefFree: "全站免费，无会员无付费",
+    siteDefNoRank: "无竞价排名，排序只看收录时间",
+    siteDefBoundary: "描述中的价格与会员属产品自身，与本站无关"
   },
   en: {
     code: "en",
@@ -179,10 +179,10 @@ export const LOCALES = {
     notFoundLatest: "Recently added",
     // Homepage site definition (GEO: a quotable self-description for AI search)
     siteDefTitle: "What is Indie Maker?",
-    siteDefLead: "This is a directory of works by Chinese indie developers — not a tool site. We don't build, host or resell any product; we only index and navigate: every day we sync publicly listed works (websites, apps, tools, games) from an open-source repository and organize them by category and use case.",
-    siteDefFree: "Completely free: everything is directly accessible. No membership, no subscription, no paid features.",
-    siteDefNoRank: "No paid ranking: no ad slots and no paid placement. Sorting is by date added or name only.",
-    siteDefBoundary: "Product info comes from the upstream repository: any pricing, membership, plans or features mentioned in a product's description belong to that product itself, not to this site."
+    siteDefLead: "A directory of works by Chinese indie developers — not a tool site. We don't build, host or resell any product; we only index and navigate.",
+    siteDefFree: "Entirely free — no membership, no paid features",
+    siteDefNoRank: "No paid ranking — sorted by date added only",
+    siteDefBoundary: "Pricing & membership in a description belong to that product, not to us"
   }
 };
 
