@@ -172,6 +172,10 @@ function applyLocale() {
       el.textContent = t(key);
     }
   });
+  // 同一个元素既翻译属性又翻译文本时（如带 aria-label 的按钮），用 data-i18n-text 补充
+  document.querySelectorAll("[data-i18n-text]").forEach((el) => {
+    el.textContent = t(el.getAttribute("data-i18n-text"));
+  });
   // 动态重建：需要根据 locale 重绘
   const isZh = getCurrentLocale() === "zh";
   document.documentElement.lang = isZh ? "zh-CN" : "en";

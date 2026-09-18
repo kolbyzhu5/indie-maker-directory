@@ -590,7 +590,7 @@ function renderAboutPage() {
 // ── GEO：精选榜单引擎（AI 搜索引擎友好：给「答案」而非「目录」）──────────
 // AI 回答「推荐 XX」类问题时偏好「榜单/精选」型页面（答案密度高、可提取）。
 // 新增榜单只需在 RANKINGS 里加一条配置。
-const BEST_TOP_NAV = `<nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a><a href="/best-indie-games.html">独立游戏精选</a></nav>`;
+const BEST_TOP_NAV = `<nav class="top-nav" aria-label="主要导航"><a href="/#directory" data-i18n="navBrowse">逛产品</a><a href="/best-ai-tools.html" data-i18n="navBestAI">AI 工具精选</a><a href="/best-indie-games.html" data-i18n="navBestGames">独立游戏精选</a></nav>`;
 
 const RANKINGS = [
   {

@@ -11,6 +11,8 @@ export const LOCALES = {
     brandSubtitle: "独立开发者 · AI 工具导航",
     // nav
     navBrowse: "逛产品",
+    navBestAI: "AI 工具精选",
+    navBestGames: "独立游戏精选",
     // hero
     heroEyebrow: "每日从 GitHub 自动整理",
     heroTitle1: "好产品，",
@@ -86,6 +88,8 @@ export const LOCALES = {
     brandTitle: "Indie Maker",
     brandSubtitle: "Indie developers · AI tools directory",
     navBrowse: "Browse",
+    navBestAI: "AI Tools Picks",
+    navBestGames: "Indie Games",
     heroEyebrow: "Curated daily from GitHub",
     heroTitle1: "Great products, ",
     heroTitleEm: "shouldn't be buried",
