@@ -66,6 +66,12 @@ jobs:
         env:
           EDGEONE_PAGES_API_TOKEN: ${{ secrets.EDGEONE_PAGES_API_TOKEN }}
           PAGES_SOURCE: skills
+      # 部署完成后主动通知搜索引擎（IndexNow 覆盖 Bing / Yandex / Naver 等）。
+      # Google 不参与 IndexNow，靠 sitemap + 爬虫自然发现；百度需在站长平台单独配置推送。
+      # 放在部署之后，确保引擎来抓时页面已就绪；失败不阻塞发布流程。
+      - name: Notify search engines via IndexNow
+        run: node scripts/indexnow.mjs
+        continue-on-error: true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
