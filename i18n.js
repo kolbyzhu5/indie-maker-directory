@@ -245,7 +245,7 @@ export async function detectLocaleByIP() {
   return null;
 }
 
-// ── 分类名翻译 ────────────────────────────────────────────────
+// ── 中文界面标签 → 英文映射（分类名 + 榜单页导航名）──────────────
 // 数据源（上游仓库）的分类名是中文，英文界面下需要映射。
 // 注意：这些是「界面标签」，不影响 URL slug（/c/ai-tools.html 等保持英文 kebab-case）。
 const CATEGORY_I18N = {
@@ -261,7 +261,14 @@ const CATEGORY_I18N = {
   "教育学习": "Education",
   "文档办公": "Docs & Office",
   "图片工具": "Image Tools",
-  "未分类": "Uncategorized"
+  "未分类": "Uncategorized",
+  // 榜单页面包屑导航名
+  "AI 工具精选": "AI Tools Picks",
+  "独立游戏精选": "Indie Games",
+  "免费工具精选": "Free Tools",
+  "开发者工具精选": "Dev Tools",
+  "效率工具精选": "Productivity",
+  "浏览器扩展精选": "Browser Extensions"
 };
 
 // 把中文分类名按当前 locale 渲染；中文 locale 原样返回，未知分类原样返回

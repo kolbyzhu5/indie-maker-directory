@@ -811,7 +811,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
     ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">${escapeHTML(cfg.navLabel)}</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n-cat="${escapeHTML(cfg.navLabel)}">${escapeHTML(cfg.navLabel)}</span></nav>
     <div class="category-head">
       <h1>${escapeHTML(cfg.title)}</h1>
       <p class="category-count">${cfg.countLabel} <b>${total}</b> 个 · 更新于 ${today}</p>
