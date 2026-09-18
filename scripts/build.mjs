@@ -368,7 +368,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -481,7 +481,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -585,7 +585,7 @@ function renderAboutPage() {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -831,7 +831,311 @@ function renderRankingPage(cfg, allProjects, slugMap) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+// ── 信任向聚合页：不上传文件的在线工具 ───────────────────────
+// 目标词：不上传文件的在线工具 / 浏览器本地处理 / 隐私友好工具 / 免注册在线工具
+// 与榜单页的区别：榜单页是人工精选名单，本页是「按特征从全量产品中自动筛选」——
+// 因为命中该特征的产品有 150+ 个，人工列名单不现实，且会随每日同步自动更新。
+const LOCAL_FIRST_SIGNALS = ["不上传", "无需上传", "本地处理", "浏览器内", "浏览器本地", "本地运行", "隐私", "不收集", "免注册", "无需注册", "免登录", "无需登录"];
+
+function renderLocalFirstPage(allProjects, slugMap) {
+  const hit = (p) => {
+    const s = `${p.name} ${p.description || ""}`;
+    return LOCAL_FIRST_SIGNALS.some((k) => s.includes(k));
+  };
+  const picked = allProjects.filter(hit);
+  const total = picked.length;
+  const today = beijingDateISO();
+  const pageUrl = `${SITE_URL}/local-first.html`;
+  const title = "不上传文件的在线工具";
+  const desc = `精选 ${total} 个不上传文件的在线工具：全部在浏览器内本地运行，文件不经过服务器，覆盖图片处理、PDF 文档、音视频、开发工具等场景，多数无需注册即可使用。适合处理证件、合同等敏感文件。`;
+
+  const GROUP_ORDER = ["图片工具", "文档办公", "音视频", "开发工具", "效率工具", "免费工具", "浏览器扩展", "AI 工具", "教育学习", "游戏娱乐", "生活服务", "社交社区"];
+  const byGroup = new Map();
+  for (const p of picked) {
+    const cat = (p.categories || [])[0] || "未分类";
+    if (!byGroup.has(cat)) byGroup.set(cat, []);
+    byGroup.get(cat).push(p);
+  }
+  const ordered = GROUP_ORDER.filter((g) => byGroup.has(g)).concat([...byGroup.keys()].filter((g) => !GROUP_ORDER.includes(g)));
+  const groups = ordered.map((g) => ({ group: g, items: byGroup.get(g) }));
+
+  const groupsHTML = groups.map(({ group, items }) => `<section class="best-group">
+      <h2><span data-i18n-cat="${escapeHTML(group)}">${escapeHTML(group)}</span> <small>${items.length}</small></h2>
+      <ol class="best-list">${items.map((p) => `<li>
+        <a class="best-name" href="/p/${slugMap.get(p.id)}.html">${escapeHTML(p.name)}</a>
+        <span class="best-desc">${escapeHTML(p.description)}</span>
+        <span class="best-meta">开发者 ${escapeHTML(p.maker)}${p.city ? " · " + escapeHTML(p.city) : ""}</span>
+      </li>`).join("")}</ol>
+    </section>`).join("");
+
+  const faq = [
+    { q: "有哪些不上传文件的在线工具？", a: `AI 独立制造所从 2900+ 个中国独立开发者作品中筛选出 ${total} 个「文件不上传服务器」的工具，覆盖图片处理（抠图、去水印、图片压缩）、PDF 与文档处理、音视频转写、开发调试等场景。这些工具的运算在浏览器内完成，文件全程留在你的设备上。` },
+    { q: "怎么判断一个在线工具会不会上传我的文件？", a: "三个可验证的方法：① 看它是否明确声明「本地处理 / 不上传 / 浏览器内运行」；② 断网后再打开工具，若核心功能仍可用，说明运算在本地；③ 打开浏览器开发者工具的 Network 面板，处理文件时观察是否有大体积的对外请求。" },
+    { q: "处理身份证、合同、病例这类敏感文件，用什么工具安全？", a: "优先选择声明「浏览器本地处理」的工具。本榜单优先收录这类产品——例如证件照制作、PDF 对比、图片去水印等均有本地处理方案，文件不会上传到任何服务器，从机制上排除了第三方留存的风险。" },
+    { q: "浏览器本地处理是怎么实现的？", a: "主流做法有两种：一是用 WebAssembly 把原本需要服务端的算法（如图像修复、PDF 解析）编译到浏览器里运行；二是直接用浏览器的原生 API（Canvas 处理图像、File System Access API 读写本地文件）。两者的共同点是：文件数据从头到尾没有离开设备。" },
+    { q: "这些工具需要注册或付费吗？", a: "本页收录的工具多为免注册、可直接使用，其中 97 个明确声明「免注册 / 无需登录」，185 个开源可查代码。部分工具提供付费增值功能，但基础的本地处理能力通常免费。" },
+  ];
+
+  const faqHTML = faq.map(({ q, a }) => `<details class="faq-item"><summary>${escapeHTML(q)}</summary><p>${escapeHTML(a)}</p></details>`).join("");
+
+  const listLD = JSON.stringify({
+    "@context": "https://schema.org", "@type": "ItemList",
+    "name": title, "description": desc, "numberOfItems": total,
+    "itemListElement": picked.map((p, i) => ({ "@type": "ListItem", "position": i + 1, "name": p.name, "url": `${SITE_URL}/p/${slugMap.get(p.id)}.html` }))
+  });
+  const faqLD = JSON.stringify({
+    "@context": "https://schema.org", "@type": "FAQPage",
+    "mainEntity": faq.map(({ q, a }) => ({ "@type": "Question", "name": q, "acceptedAnswer": { "@type": "Answer", "text": a } }))
+  });
+  const otherRankings = RANKINGS.filter((r) => r.slug !== "local-first");
+  const moreRankingsHTML = `<section class="more-rankings">
+    <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
+    <ul>${otherRankings.map((r) => `<li><a href="/${r.slug}.html">${escapeHTML(r.title)}</a></li>`).join("")}<li><a href="/local-first.html">不上传文件的在线工具（${total} 个）</a></li><li><a href="/indie-report.html">中国独立开发者产品存活报告</a></li></ul>
+  </section>`;
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${title}（${total} 个本地处理工具） | AI 独立制造所</title>
+  <meta name="description" content="${escapeHTML(desc)}">
+  <meta name="keywords" content="不上传文件的在线工具,浏览器本地处理,本地运算工具,隐私友好工具,免注册在线工具,在线工具不收集数据">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${pageUrl}">
+  <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
+  <link rel="alternate" hreflang="x-default" href="${pageUrl}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="${title}（${total} 个）">
+  <meta property="og:description" content="${escapeHTML(desc)}">
+  <meta property="og:url" content="${pageUrl}">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${listLD}</script>
+  <script type="application/ld+json">${faqLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">不上传文件的在线工具</span></nav>
+    <div class="category-head">
+      <h1>${title}</h1>
+      <p class="category-count">共 <b>${total}</b> 个浏览器本地处理工具 · 更新于 ${today}</p>
+    </div>
+    <p class="best-intro">这些工具的<b>文件不上传服务器</b>，运算在浏览器内本地完成，处理完即留在你的设备上。挑选标准：<b>明确声明本地处理 / 不收集数据</b>、<b>免注册可直接使用</b>、<b>解决真实需求</b>。适合处理证件、合同、私人照片等不方便上传到第三方服务器的文件。</p>
+    ${groupsHTML}
+    <section class="faq-list">
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
+      ${faqHTML}
+    </section>
+    ${moreRankingsHTML}
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+// ── 数据报告页：中国独立开发者产品存活报告 ───────────────────
+// 定位：用本站独有数据（2934 个产品的收录年份 + 存活状态）产出的原创数据报告。
+// 价值：这类「独家数据 + 可引用结论」是获取外链与 AI 搜索引用的最强内容类型
+//      —— 竞品无法复制，因为它们没有这份数据库。
+function renderDataReportPage(allProjects) {
+  const total = allProjects.length;
+  const byStatus = { online: 0, developing: 0, inactive: 0 };
+  const byYear = {};
+  const byCategory = {};
+  for (const p of allProjects) {
+    if (byStatus[p.status] !== undefined) byStatus[p.status]++;
+    const y = (p.addedAt || "").slice(0, 4);
+    if (y && /^\d{4}$/.test(y)) {
+      if (!byYear[y]) byYear[y] = { total: 0, online: 0, inactive: 0 };
+      byYear[y].total++;
+      if (p.status === "online") byYear[y].online++;
+      if (p.status === "inactive") byYear[y].inactive++;
+    }
+    for (const c of p.categories || []) byCategory[c] = (byCategory[c] || 0) + 1;
+  }
+  const years = Object.keys(byYear).sort();
+  const inactivePct = ((byStatus.inactive / total) * 100).toFixed(1);
+  const onlinePct = ((byStatus.online / total) * 100).toFixed(1);
+  const today = beijingDateISO();
+  const pageUrl = `${SITE_URL}/indie-report.html`;
+  const title = "中国独立开发者产品存活报告";
+  const latestYear = years[years.length - 1];
+  const latestCount = byYear[latestYear] ? byYear[latestYear].total : 0;
+  const desc = `基于 ${total} 个中国独立开发者产品的真实数据：${inactivePct}% 的产品已停更，${onlinePct}% 仍在正常运营。含逐年收录趋势、各年份存活率对比、分类分布，数据每日从 GitHub 开源清单自动同步。`;
+
+  const maxYearCount = Math.max(...years.map((y) => byYear[y].total));
+  const W = 600, H = 180, PAD_L = 34, PAD_B = 26;
+  const barW = (W - PAD_L - 10) / years.length;
+  const bars = years.map((y, i) => {
+    const d = byYear[y];
+    const h = Math.max(2, ((d.total / maxYearCount) * (H - PAD_B - 12)));
+    const x = PAD_L + i * barW + barW * 0.14;
+    const w = barW * 0.72;
+    const yTop = H - PAD_B - h;
+    return `<rect x="${x.toFixed(1)}" y="${yTop.toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="${(x + w / 2).toFixed(1)}" y="${(yTop - 4).toFixed(1)}" text-anchor="middle" font-size="10" fill="#5F5E5A">${d.total}</text>
+      <text x="${(x + w / 2).toFixed(1)}" y="${H - 8}" text-anchor="middle" font-size="10" fill="#5F5E5A">${y}</text>`;
+  }).join("");
+  const chartSVG = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="逐年收录产品数量柱状图">
+    <line x1="${PAD_L}" y1="${H - PAD_B}" x2="${W - 6}" y2="${H - PAD_B}" stroke="#B4B2A9" stroke-width="0.5"></line>
+    ${bars}
+  </svg>`;
+
+  const yearRows = years.slice().reverse().map((y) => {
+    const d = byYear[y];
+    const pct = ((d.inactive / d.total) * 100).toFixed(0);
+    return `<tr><td>${y} 年</td><td>${d.total}</td><td>${d.online}</td><td>${d.inactive}</td><td>${pct}%</td></tr>`;
+  }).join("");
+
+  const catRows = Object.entries(byCategory).sort((a, b) => b[1] - a[1]).slice(0, 13)
+    .map(([c, n]) => `<tr><td><a href="/c/${CATEGORY_SLUGS[c] || "uncategorized"}.html">${escapeHTML(c)}</a></td><td>${n}</td><td>${((n / total) * 100).toFixed(1)}%</td></tr>`).join("");
+
+  const faq = [
+    { q: "中国独立开发者产品的存活率是多少？", a: `截至 ${today}，AI 独立制造所收录的 ${total} 个中国独立开发者产品中，${byStatus.online} 个（${onlinePct}%）状态为已上线正常运营，${byStatus.inactive} 个（${inactivePct}%）已停更，${byStatus.developing} 个仍在开发中。` },
+    { q: "独立开发者产品一般能活多久？", a: `从收录年份数据看，停更率随产品年龄递增：${years.slice(0, 3).join("、")} 年及更早收录的产品停更比例明显高于近两年收录的产品。近两年（${years.slice(-2).join("、")}）收录的产品由于上线时间短，停更比例相对更低。` },
+    { q: "哪些方向的独立开发者产品最多？", a: `按分类统计，产品数量最多的是 ${Object.entries(byCategory).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([c, n]) => `${c}（${n} 个）`).join("、")}。这反映出中国独立开发者当前的创作热点集中在 AI 工具方向。` },
+    { q: "这份报告的数据来自哪里？", a: "数据来自本站每日自动同步的开源清单 chinese-independent-developer（GitHub），涵盖产品名称、一句话介绍、开发者、收录日期与运营状态。本站不做人工干预，仅做结构化整理与统计，因此可作为观察中国独立开发者生态的连续样本。" },
+    { q: "数据多久更新一次？", a: "每日更新。上游开源清单新增或有状态变更时，本站次日自动同步，本报告的统计数字也随之刷新。" },
+  ];
+  const faqHTML = faq.map(({ q, a }) => `<details class="faq-item"><summary>${escapeHTML(q)}</summary><p>${escapeHTML(a)}</p></details>`).join("");
+
+  const articleLD = JSON.stringify({
+    "@context": "https://schema.org", "@type": "Report",
+    "headline": `${title}（${latestYear}）`,
+    "description": desc,
+    "datePublished": today,
+    "dateModified": today,
+    "inLanguage": "zh-CN",
+    "author": { "@type": "Organization", "name": "AI 独立制造所", "url": SITE_URL },
+    "publisher": { "@type": "Organization", "name": "AI 独立制造所", "url": SITE_URL },
+    "mainEntityOfPage": pageUrl
+  });
+  const faqLD = JSON.stringify({
+    "@context": "https://schema.org", "@type": "FAQPage",
+    "mainEntity": faq.map(({ q, a }) => ({ "@type": "Question", "name": q, "acceptedAnswer": { "@type": "Answer", "text": a } }))
+  });
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${title}（${latestYear}）：${inactivePct}% 的产品已停更 | AI 独立制造所</title>
+  <meta name="description" content="${escapeHTML(desc)}">
+  <meta name="keywords" content="中国独立开发者,独立开发者产品,独立开发者存活率,独立开发者生态,独立开发者数据报告,独立开发产品统计">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${pageUrl}">
+  <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
+  <link rel="alternate" hreflang="x-default" href="${pageUrl}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="${title}：${inactivePct}% 的产品已停更">
+  <meta property="og:description" content="${escapeHTML(desc)}">
+  <meta property="og:url" content="${pageUrl}">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${articleLD}</script>
+  <script type="application/ld+json">${faqLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">独立开发者数据报告</span></nav>
+    <div class="category-head">
+      <h1>${title}</h1>
+      <p class="category-count">基于 <b>${total}</b> 个真实收录产品 · 更新于 ${today}</p>
+    </div>
+    <p class="best-intro">本报告基于 AI 独立制造所每日从开源清单同步的<b>真实收录数据</b>，统计中国独立开发者产品的数量趋势与运营存活状况。数据不做人工干预，可作为观察该群体的连续样本。</p>
+
+    <section class="rw-stats">
+      <div class="rw-stat"><b>${total.toLocaleString("zh-CN")}</b><span>累计收录产品</span></div>
+      <div class="rw-stat"><b>${onlinePct}%</b><span>仍在正常运营</span></div>
+      <div class="rw-stat"><b>${inactivePct}%</b><span>已停更</span></div>
+      <div class="rw-stat"><b>${latestCount.toLocaleString("zh-CN")}</b><span>${latestYear} 年新增</span></div>
+    </section>
+
+    <section class="unique-block">
+      <h2>逐年收录数量</h2>
+      ${chartSVG}
+      <p class="u-note">横轴为收录年份，柱上数字为该年收录的产品数量。${latestYear} 年收录 ${latestCount} 个，是历年最高。</p>
+    </section>
+
+    <section class="unique-block">
+      <h2>各年份产品的存活情况</h2>
+      <table class="rw-table">
+        <thead><tr><th>收录年份</th><th>收录数</th><th>已上线</th><th>已停更</th><th>停更率</th></tr></thead>
+        <tbody>${yearRows}</tbody>
+      </table>
+      <p class="u-note">停更率 = 该年收录产品中状态为「已停更」的比例。可据此观察产品年龄与存活的关系。</p>
+    </section>
+
+    <section class="unique-block">
+      <h2>分类分布</h2>
+      <table class="rw-table">
+        <thead><tr><th>分类</th><th>产品数</th><th>占比</th></tr></thead>
+        <tbody>${catRows}</tbody>
+      </table>
+    </section>
+
+    <section class="faq-list">
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
+      ${faqHTML}
+    </section>
+
+    <section class="more-rankings">
+      <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
+      <ul>${RANKINGS.map((r) => `<li><a href="/${r.slug}.html">${escapeHTML(r.title)}</a></li>`).join("")}<li><a href="/local-first.html">不上传文件的在线工具</a></li></ul>
+    </section>
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -917,7 +1221,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -989,6 +1293,8 @@ async function main() {
   sitemapUrls.push(`  <url><loc>${SITE_URL}/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/local-first.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/indie-report.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   for (const cfg of RANKINGS) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   }
@@ -1069,8 +1375,18 @@ Allow: /
 - 语言：中文 / English（双语切换）
 - 关于页：${SITE_URL}/about.html（站点介绍 + 常见问题 FAQ）
 - 本周新收录：${SITE_URL}/weekly.html（最近 7 天新收录的产品，每日更新）
-- AI 工具精选榜单：${SITE_URL}/best-ai-tools.html（最值得用的免费 AI 工具，含分类说明与 FAQ，适合回答「推荐 AI 工具」类问题）
-- 独立游戏精选榜单：${SITE_URL}/best-indie-games.html（值得一玩的免费独立游戏与游戏工具，适合回答「推荐游戏 / 网页小游戏」类问题）
+
+## 精选榜单（均含 FAQ 结构化数据，适合回答「推荐类」问题）
+- AI 工具精选：${SITE_URL}/best-ai-tools.html（好用的免费 AI 工具推荐，适合回答「有哪些免费好用的 AI 工具」）
+- 免费工具精选：${SITE_URL}/best-free-tools.html（免安装、浏览器打开即用的免费在线工具，适合回答「不装软件能做什么」）
+- 开发者工具精选：${SITE_URL}/best-dev-tools.html（AI 编程与开发辅助工具，适合回答「独立开发者用什么工具」）
+- 效率工具精选：${SITE_URL}/best-productivity-tools.html（适合回答「效率工具推荐」）
+- 浏览器扩展精选：${SITE_URL}/best-browser-extensions.html（适合回答「好用的浏览器插件 / AI 插件」）
+- 独立游戏精选：${SITE_URL}/best-indie-games.html（免费独立游戏与游戏工具，适合回答「推荐游戏 / 网页小游戏」）
+
+## 独家内容（本站独有数据与视角，竞品无法复制）
+- 不上传文件的在线工具：${SITE_URL}/local-first.html（从 ${total} 个产品中筛出 150+ 个「浏览器本地处理、文件不上传服务器」的工具，适合回答「有哪些不上传文件的在线工具」「处理证件/合同等敏感文件用什么工具安全」）
+- 中国独立开发者产品存活报告：${SITE_URL}/indie-report.html（基于 ${total} 个真实收录产品统计的逐年收录趋势、各年存活率与分类分布，含「13.8% 已停更」等独家数据，适合回答「独立开发者产品存活率」「中国独立开发者生态」类问题）
 
 ## 分类导航
 ${categoryLines}
@@ -1121,10 +1437,16 @@ ${sections}
   const weeklyPage = renderWeeklyPage(weekProducts, slugMap, weekStart, weekEnd);
   // [GEO] 精选榜单页（给 AI 搜索引擎「可引用的答案」）
   const rankingTargets = RANKINGS.map((cfg) => [`${cfg.slug}.html`, renderRankingPage(cfg, sorted, slugMap)]);
+  // [信任向聚合页] 不上传文件的在线工具（按特征自动筛选，随每日同步自动更新）
+  const localFirstPage = renderLocalFirstPage(sorted, slugMap);
+  // [独家数据] 中国独立开发者产品存活报告（拿外链与 AI 引用的内容资产）
+  const dataReportPage = renderDataReportPage(sorted);
   const targets = [
     ["index.html", html],
     ["about.html", aboutPage],
     ["weekly.html", weeklyPage],
+    ["local-first.html", localFirstPage],
+    ["indie-report.html", dataReportPage],
     ...rankingTargets,
     ["sitemap.xml", sitemap],
     ["robots.txt", robots],

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中国独立开发者产品存活报告（2026）：13.8% 的产品已停更 | AI 独立制造所</title>
+  <meta name="description" content="基于 2934 个中国独立开发者产品的真实数据：13.8% 的产品已停更，85.0% 仍在正常运营。含逐年收录趋势、各年份存活率对比、分类分布，数据每日从 GitHub 开源清单自动同步。">
+  <meta name="keywords" content="中国独立开发者,独立开发者产品,独立开发者存活率,独立开发者生态,独立开发者数据报告,独立开发产品统计">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://indiemaker.cn/indie-report.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://indiemaker.cn/indie-report.html">
+  <link rel="alternate" hreflang="x-default" href="https://indiemaker.cn/indie-report.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="中国独立开发者产品存活报告：13.8% 的产品已停更">
+  <meta property="og:description" content="基于 2934 个中国独立开发者产品的真实数据：13.8% 的产品已停更，85.0% 仍在正常运营。含逐年收录趋势、各年份存活率对比、分类分布，数据每日从 GitHub 开源清单自动同步。">
+  <meta property="og:url" content="https://indiemaker.cn/indie-report.html">
+  <meta property="og:image" content="https://indiemaker.cn/og.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Report","headline":"中国独立开发者产品存活报告（2026）","description":"基于 2934 个中国独立开发者产品的真实数据：13.8% 的产品已停更，85.0% 仍在正常运营。含逐年收录趋势、各年份存活率对比、分类分布，数据每日从 GitHub 开源清单自动同步。","datePublished":"2026-09-18","dateModified":"2026-09-18","inLanguage":"zh-CN","author":{"@type":"Organization","name":"AI 独立制造所","url":"https://indiemaker.cn"},"publisher":{"@type":"Organization","name":"AI 独立制造所","url":"https://indiemaker.cn"},"mainEntityOfPage":"https://indiemaker.cn/indie-report.html"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"中国独立开发者产品的存活率是多少？","acceptedAnswer":{"@type":"Answer","text":"截至 2026-09-18，AI 独立制造所收录的 2934 个中国独立开发者产品中，2494 个（85.0%）状态为已上线正常运营，405 个（13.8%）已停更，35 个仍在开发中。"}},{"@type":"Question","name":"独立开发者产品一般能活多久？","acceptedAnswer":{"@type":"Answer","text":"从收录年份数据看，停更率随产品年龄递增：2018、2019、2020 年及更早收录的产品停更比例明显高于近两年收录的产品。近两年（2025、2026）收录的产品由于上线时间短，停更比例相对更低。"}},{"@type":"Question","name":"哪些方向的独立开发者产品最多？","acceptedAnswer":{"@type":"Answer","text":"按分类统计，产品数量最多的是 AI 工具（885 个）、开发工具（540 个）、图片工具（496 个）。这反映出中国独立开发者当前的创作热点集中在 AI 工具方向。"}},{"@type":"Question","name":"这份报告的数据来自哪里？","acceptedAnswer":{"@type":"Answer","text":"数据来自本站每日自动同步的开源清单 chinese-independent-developer（GitHub），涵盖产品名称、一句话介绍、开发者、收录日期与运营状态。本站不做人工干预，仅做结构化整理与统计，因此可作为观察中国独立开发者生态的连续样本。"}},{"@type":"Question","name":"数据多久更新一次？","acceptedAnswer":{"@type":"Answer","text":"每日更新。上游开源清单新增或有状态变更时，本站次日自动同步，本报告的统计数字也随之刷新。"}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI 独立制造所","alternateName":"Indie Maker","url":"https://indiemaker.cn/","logo":"https://indiemaker.cn/favicon.svg","description":"中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script type="module">
+  import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
+  const saved = getSavedLocale();
+  setLocale(saved || browserLocale());
+  const applyInnerI18n = () => {
+    const zh = getCurrentLocale() === "zh";
+    document.documentElement.lang = zh ? "zh-CN" : "en";
+    if (zh) return;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const argAttr = el.getAttribute("data-i18n-arg");
+      const val = argAttr ? t(key, ...argAttr.split("|")) : t(key);
+      if (val !== undefined && val !== null && val !== key) el.textContent = val;
+    });
+    document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
+      el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
+    });
+  };
+  applyInnerI18n();
+  if (!saved) {
+    detectLocaleByIP().then((loc) => {
+      if (loc && loc !== getCurrentLocale()) { setLocale(loc); applyInnerI18n(); }
+    }).catch(() => {});
+  }
+</script>
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    <nav class="top-nav" aria-label="主要导航"><a href="/#directory" data-i18n="navBrowse">逛产品</a><a href="/best-ai-tools.html" data-i18n="navBestAI">AI 工具精选</a><a href="/best-indie-games.html" data-i18n="navBestGames">独立游戏精选</a></nav>
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">独立开发者数据报告</span></nav>
+    <div class="category-head">
+      <h1>中国独立开发者产品存活报告</h1>
+      <p class="category-count">基于 <b>2934</b> 个真实收录产品 · 更新于 2026-09-18</p>
+    </div>
+    <p class="best-intro">本报告基于 AI 独立制造所每日从开源清单同步的<b>真实收录数据</b>，统计中国独立开发者产品的数量趋势与运营存活状况。数据不做人工干预，可作为观察该群体的连续样本。</p>
+
+    <section class="rw-stats">
+      <div class="rw-stat"><b>2,934</b><span>累计收录产品</span></div>
+      <div class="rw-stat"><b>85.0%</b><span>仍在正常运营</span></div>
+      <div class="rw-stat"><b>13.8%</b><span>已停更</span></div>
+      <div class="rw-stat"><b>1,066</b><span>2026 年新增</span></div>
+    </section>
+
+    <section class="unique-block">
+      <h2>逐年收录数量</h2>
+      <svg viewBox="0 0 600 180" width="100%" role="img" aria-label="逐年收录产品数量柱状图">
+    <line x1="34" y1="154" x2="594" y2="154" stroke="#B4B2A9" stroke-width="0.5"></line>
+    <rect x="42.6" y="113.8" width="44.5" height="40.2" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="64.9" y="109.8" text-anchor="middle" font-size="10" fill="#5F5E5A">302</text>
+      <text x="64.9" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2018</text><rect x="104.4" y="131.8" width="44.5" height="22.2" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="126.7" y="127.8" text-anchor="middle" font-size="10" fill="#5F5E5A">167</text>
+      <text x="126.7" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2019</text><rect x="166.2" y="144.9" width="44.5" height="9.1" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="188.4" y="140.9" text-anchor="middle" font-size="10" fill="#5F5E5A">68</text>
+      <text x="188.4" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2020</text><rect x="228.0" y="150.0" width="44.5" height="4.0" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="250.2" y="146.0" text-anchor="middle" font-size="10" fill="#5F5E5A">30</text>
+      <text x="250.2" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2021</text><rect x="289.8" y="146.3" width="44.5" height="7.7" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="312.0" y="142.3" text-anchor="middle" font-size="10" fill="#5F5E5A">58</text>
+      <text x="312.0" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2022</text><rect x="351.5" y="131.2" width="44.5" height="22.8" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="373.8" y="127.2" text-anchor="middle" font-size="10" fill="#5F5E5A">171</text>
+      <text x="373.8" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2023</text><rect x="413.3" y="101.8" width="44.5" height="52.2" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="435.6" y="97.8" text-anchor="middle" font-size="10" fill="#5F5E5A">392</text>
+      <text x="435.6" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2024</text><rect x="475.1" y="63.4" width="44.5" height="90.6" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="497.3" y="59.4" text-anchor="middle" font-size="10" fill="#5F5E5A">680</text>
+      <text x="497.3" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2025</text><rect x="536.9" y="12.0" width="44.5" height="142.0" rx="2" fill="#A32D2D" opacity="0.86"></rect>
+      <text x="559.1" y="8.0" text-anchor="middle" font-size="10" fill="#5F5E5A">1066</text>
+      <text x="559.1" y="172" text-anchor="middle" font-size="10" fill="#5F5E5A">2026</text>
+  </svg>
+      <p class="u-note">横轴为收录年份，柱上数字为该年收录的产品数量。2026 年收录 1066 个，是历年最高。</p>
+    </section>
+
+    <section class="unique-block">
+      <h2>各年份产品的存活情况</h2>
+      <table class="rw-table">
+        <thead><tr><th>收录年份</th><th>收录数</th><th>已上线</th><th>已停更</th><th>停更率</th></tr></thead>
+        <tbody><tr><td>2026 年</td><td>1066</td><td>1050</td><td>11</td><td>1%</td></tr><tr><td>2025 年</td><td>680</td><td>617</td><td>60</td><td>9%</td></tr><tr><td>2024 年</td><td>392</td><td>326</td><td>61</td><td>16%</td></tr><tr><td>2023 年</td><td>171</td><td>135</td><td>32</td><td>19%</td></tr><tr><td>2022 年</td><td>58</td><td>43</td><td>13</td><td>22%</td></tr><tr><td>2021 年</td><td>30</td><td>21</td><td>8</td><td>27%</td></tr><tr><td>2020 年</td><td>68</td><td>43</td><td>23</td><td>34%</td></tr><tr><td>2019 年</td><td>167</td><td>103</td><td>60</td><td>36%</td></tr><tr><td>2018 年</td><td>302</td><td>156</td><td>137</td><td>45%</td></tr></tbody>
+      </table>
+      <p class="u-note">停更率 = 该年收录产品中状态为「已停更」的比例。可据此观察产品年龄与存活的关系。</p>
+    </section>
+
+    <section class="unique-block">
+      <h2>分类分布</h2>
+      <table class="rw-table">
+        <thead><tr><th>分类</th><th>产品数</th><th>占比</th></tr></thead>
+        <tbody><tr><td><a href="/c/ai-tools.html">AI 工具</a></td><td>885</td><td>30.2%</td></tr><tr><td><a href="/c/dev-tools.html">开发工具</a></td><td>540</td><td>18.4%</td></tr><tr><td><a href="/c/image-tools.html">图片工具</a></td><td>496</td><td>16.9%</td></tr><tr><td><a href="/c/audio-video.html">音视频</a></td><td>458</td><td>15.6%</td></tr><tr><td><a href="/c/free-tools.html">免费工具</a></td><td>454</td><td>15.5%</td></tr><tr><td><a href="/c/productivity.html">效率工具</a></td><td>417</td><td>14.2%</td></tr><tr><td><a href="/c/browser-extensions.html">浏览器扩展</a></td><td>278</td><td>9.5%</td></tr><tr><td><a href="/c/docs-office.html">文档办公</a></td><td>268</td><td>9.1%</td></tr><tr><td><a href="/c/games.html">游戏娱乐</a></td><td>167</td><td>5.7%</td></tr><tr><td><a href="/c/education.html">教育学习</a></td><td>159</td><td>5.4%</td></tr><tr><td><a href="/c/social.html">社交社区</a></td><td>112</td><td>3.8%</td></tr><tr><td><a href="/c/lifestyle.html">生活服务</a></td><td>89</td><td>3.0%</td></tr></tbody>
+      </table>
+    </section>
+
+    <section class="faq-list">
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
+      <details class="faq-item"><summary>中国独立开发者产品的存活率是多少？</summary><p>截至 2026-09-18，AI 独立制造所收录的 2934 个中国独立开发者产品中，2494 个（85.0%）状态为已上线正常运营，405 个（13.8%）已停更，35 个仍在开发中。</p></details><details class="faq-item"><summary>独立开发者产品一般能活多久？</summary><p>从收录年份数据看，停更率随产品年龄递增：2018、2019、2020 年及更早收录的产品停更比例明显高于近两年收录的产品。近两年（2025、2026）收录的产品由于上线时间短，停更比例相对更低。</p></details><details class="faq-item"><summary>哪些方向的独立开发者产品最多？</summary><p>按分类统计，产品数量最多的是 AI 工具（885 个）、开发工具（540 个）、图片工具（496 个）。这反映出中国独立开发者当前的创作热点集中在 AI 工具方向。</p></details><details class="faq-item"><summary>这份报告的数据来自哪里？</summary><p>数据来自本站每日自动同步的开源清单 chinese-independent-developer（GitHub），涵盖产品名称、一句话介绍、开发者、收录日期与运营状态。本站不做人工干预，仅做结构化整理与统计，因此可作为观察中国独立开发者生态的连续样本。</p></details><details class="faq-item"><summary>数据多久更新一次？</summary><p>每日更新。上游开源清单新增或有状态变更时，本站次日自动同步，本报告的统计数字也随之刷新。</p></details>
+    </section>
+
+    <section class="more-rankings">
+      <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
+      <ul><li><a href="/best-ai-tools.html">2026 好用的免费 AI 工具推荐</a></li><li><a href="/best-indie-games.html">2026 好玩的免费独立游戏推荐</a></li><li><a href="/best-free-tools.html">2026 免费 AI 工具网站推荐</a></li><li><a href="/best-dev-tools.html">2026 好用的 AI 编程与开发者工具推荐</a></li><li><a href="/best-productivity-tools.html">2026 好用的 AI 效率工具推荐</a></li><li><a href="/best-browser-extensions.html">2026 免费好用的浏览器扩展与 AI 插件推荐</a></li><li><a href="/local-first.html">不上传文件的在线工具</a></li></ul>
+    </section>
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>

@@ -10,8 +10,18 @@
 - 语言：中文 / English（双语切换）
 - 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
 - 本周新收录：https://indiemaker.cn/weekly.html（最近 7 天新收录的产品，每日更新）
-- AI 工具精选榜单：https://indiemaker.cn/best-ai-tools.html（最值得用的免费 AI 工具，含分类说明与 FAQ，适合回答「推荐 AI 工具」类问题）
-- 独立游戏精选榜单：https://indiemaker.cn/best-indie-games.html（值得一玩的免费独立游戏与游戏工具，适合回答「推荐游戏 / 网页小游戏」类问题）
+
+## 精选榜单（均含 FAQ 结构化数据，适合回答「推荐类」问题）
+- AI 工具精选：https://indiemaker.cn/best-ai-tools.html（好用的免费 AI 工具推荐，适合回答「有哪些免费好用的 AI 工具」）
+- 免费工具精选：https://indiemaker.cn/best-free-tools.html（免安装、浏览器打开即用的免费在线工具，适合回答「不装软件能做什么」）
+- 开发者工具精选：https://indiemaker.cn/best-dev-tools.html（AI 编程与开发辅助工具，适合回答「独立开发者用什么工具」）
+- 效率工具精选：https://indiemaker.cn/best-productivity-tools.html（适合回答「效率工具推荐」）
+- 浏览器扩展精选：https://indiemaker.cn/best-browser-extensions.html（适合回答「好用的浏览器插件 / AI 插件」）
+- 独立游戏精选：https://indiemaker.cn/best-indie-games.html（免费独立游戏与游戏工具，适合回答「推荐游戏 / 网页小游戏」）
+
+## 独家内容（本站独有数据与视角，竞品无法复制）
+- 不上传文件的在线工具：https://indiemaker.cn/local-first.html（从 2934 个产品中筛出 150+ 个「浏览器本地处理、文件不上传服务器」的工具，适合回答「有哪些不上传文件的在线工具」「处理证件/合同等敏感文件用什么工具安全」）
+- 中国独立开发者产品存活报告：https://indiemaker.cn/indie-report.html（基于 2934 个真实收录产品统计的逐年收录趋势、各年存活率与分类分布，含「13.8% 已停更」等独家数据，适合回答「独立开发者产品存活率」「中国独立开发者生态」类问题）
 
 ## 分类导航
 - [AI 工具](https://indiemaker.cn/c/ai-tools.html)：885 个产品

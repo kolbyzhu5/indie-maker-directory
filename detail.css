@@ -105,6 +105,18 @@
 .faq-q::before { content: "Q "; color: var(--red); font-weight: 900; margin-right: 4px; }
 .faq-a { font-size: 15px; line-height: 1.9; color: var(--ink); margin: 0; }
 
+/* ── 数据报告页（indie-report.html）：数据卡片 + 数据表 ── */
+.rw-stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin: 26px 0 8px; }
+.rw-stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 12px; text-align: center; }
+.rw-stat b { display: block; font-size: 27px; line-height: 1.1; color: var(--red-dark); }
+.rw-stat span { display: block; margin-top: 7px; font-size: 12px; color: var(--muted); }
+.rw-table { width: 100%; border-collapse: collapse; margin: 14px 0 0; font-size: 13px; }
+.rw-table th { padding: 9px 10px; border-bottom: 2px solid var(--ink); text-align: left; font-weight: 700; white-space: nowrap; }
+.rw-table td { padding: 9px 10px; border-bottom: 1px dashed var(--line); }
+.rw-table tr:last-child td { border-bottom: 0; }
+.rw-table a { color: var(--red-dark); text-decoration: none; }
+.rw-table a:hover { border-bottom: 1px solid var(--red); }
+
 /* 移动端适配：detail.css 此前无媒体查询，手机上沿用桌面 padding（34+44px）导致内容区仅 234px、每行只 12 字 */
 @media (max-width: 760px) {
   .detail-main { padding: 14px 16px 48px; }
@@ -144,6 +156,13 @@
 
   /* 独有内容模块的状态徽章（10px 在手机上过小） */
   .u-chip { font-size: 11px; padding: 2px 7px; }
+
+  /* 数据报告页：数据卡片改 2 列，表格收紧 */
+  .rw-stats { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; margin: 18px 0 6px; }
+  .rw-stat { padding: 14px 10px; }
+  .rw-stat b { font-size: 22px; }
+  .rw-table { font-size: 12px; }
+  .rw-table th, .rw-table td { padding: 7px 6px; }
 
   .detail-footer { padding: 20px 16px 44px; }
 }
