@@ -4,29 +4,153 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-17T07:00:04.467Z",
+  "generatedAt": "2026-09-18T00:19:43.685Z",
   "counts": {
-    "total": 2926,
-    "main": 2471,
-    "programmer": 323,
+    "total": 2931,
+    "main": 2474,
+    "programmer": 325,
     "game": 132,
     "custom": 1
   },
   "categoryCounts": {
+    "免费工具": 453,
+    "AI 工具": 885,
+    "浏览器扩展": 278,
+    "开发工具": 539,
     "游戏娱乐": 165,
-    "免费工具": 450,
     "音视频": 457,
-    "AI 工具": 882,
     "图片工具": 496,
-    "开发工具": 537,
     "文档办公": 268,
-    "浏览器扩展": 277,
     "效率工具": 416,
     "教育学习": 159,
     "社交社区": 112,
     "生活服务": 88
   },
   "projects": [
+    {
+      "id": "main-20260917-chyf-人人都是opc",
+      "edition": "main",
+      "addedAt": "2026-09-17",
+      "maker": "chyf",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chyf"
+        }
+      ],
+      "name": "人人都是OPC",
+      "url": "https://opcwiki.net/",
+      "status": "online",
+      "description": "一人公司（OPC）中文知识库，聚合创业案例、变现教程、工具推荐、政策解读与开源项目",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260917-westlinkin-playiq",
+      "edition": "main",
+      "addedAt": "2026-09-17",
+      "maker": "Wesley",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/westlinkin"
+        }
+      ],
+      "name": "PlayIQ",
+      "url": "https://theplayiq.com",
+      "status": "online",
+      "description": "用 AI 帮橄榄球教练自动分析比赛录像，识别阵型与跑位，战术板与录像同步播放，自动生成球探报告",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260917-selenium39-iloveepub",
+      "edition": "main",
+      "addedAt": "2026-09-17",
+      "maker": "Selenium39",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Selenium39"
+        }
+      ],
+      "name": "iloveepub",
+      "url": "https://iloveepub.com",
+      "status": "online",
+      "description": "浏览器 EPUB 工具（免费），支持压缩、合并、拆分与转换，文件全部在设备本地处理，绝不上传",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260917-qiuner-birdview",
+      "edition": "programmer",
+      "addedAt": "2026-09-17",
+      "maker": "Qiuner",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Qiuner"
+        }
+      ],
+      "name": "Birdview",
+      "url": "https://qiuner.github.io/birdview/",
+      "status": "online",
+      "description": "AI 编程 Agent 的架构可视化 Skill，在改代码前生成项目架构图，标出计划触碰的模块、文件及对应源码证据；结果输出为无需部署的独立交互式 HTML，支持 Codex、Claude Code 与 DeepSeek Harness",
+      "extraLinks": [
+        {
+          "label": "源码与安装说明",
+          "url": "https://github.com/Qiuner/birdview"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260917-qiuner-agent-isles",
+      "edition": "programmer",
+      "addedAt": "2026-09-17",
+      "maker": "Qiu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Qiuner"
+        }
+      ],
+      "name": "agent-isles",
+      "url": "https://github.com/Qiuner/agent-isles",
+      "status": "developing",
+      "description": "把 AI 编程 Agent 放进可探索的 3D 小岛，让用户在与居民协作、完成真实项目的过程中，玩着玩着就学会使用 Agent；本地运行，开源，支持自带模型密钥",
+      "extraLinks": [
+        {
+          "label": "项目介绍",
+          "url": "https://qiuner.github.io/agent-isles/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "game-20260917-the-beating-light-of-the-nail-停一刻",
       "edition": "game",
@@ -2541,7 +2665,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260917-0",
+      "id": "custom-20260918-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

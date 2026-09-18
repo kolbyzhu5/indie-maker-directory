@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（2926）
+# AI 独立制造所 · 全部产品清单（2931）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-17（北京时间）
+> 更新时间：2026-09-18（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2471）
+## 大众产品（2474）
+
+- **[人人都是OPC](https://opcwiki.net/)** — 开发者 chyf（广州） · 免费工具 · 已上线 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/opc-f19fab.html)
+  一人公司（OPC）中文知识库，聚合创业案例、变现教程、工具推荐、政策解读与开源项目
+
+- **[PlayIQ](https://theplayiq.com)** — 开发者 Wesley · AI 工具 · 已上线 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/playiq.html)
+  用 AI 帮橄榄球教练自动分析比赛录像，识别阵型与跑位，战术板与录像同步播放，自动生成球探报告
+
+- **[iloveepub](https://iloveepub.com)** — 开发者 Selenium39（广州） · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/iloveepub.html)
+  浏览器 EPUB 工具（免费），支持压缩、合并、拆分与转换，文件全部在设备本地处理，绝不上传
 
 - **[云播切片](https://live.zyue.wiki/)** — 开发者 lizhongyue248 · 音视频 · 已上线 · 收录 2026-09-15 · [详情页](https://indiemaker.cn/p/project-16a925.html)
   全自动直播录制、归档与切片平台，开播自动录。市面上唯一一款支持录制弹幕、录制礼物特效和直播间界面完整画面的云平台，云端实时监控与分段保存，方便直播复盘、高清 1080p 直播切片与素材剪辑
@@ -84,7 +93,7 @@
 - **[AI 智能快照](https://apps.apple.com/cn/app/ai-smart-snapshot/id6796251282?mt=12)** — 开发者 张赛东 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/ai-231a80.html)
   AI 智能快照：截屏、录屏、录音、OCR 识字和标注，一个 App 完成
 
-- **[OPC 情报站](https://opc-radar.pages.dev/)** — 开发者 WXzhongwang · 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/opc.html)
+- **[OPC 情报站](https://opc-radar.pages.dev/)** — 开发者 WXzhongwang · 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/opc-4ae23a.html)
   一人公司（OPC）资讯聚合站，收录 82 条政策动向、创业案例与生态工具情报，支持 9 大分类筛选、全文搜索与热度排行，纯静态打开即用，无需注册
 
 - **[慧报价](https://www.swqifu.com/)** — 开发者 宋永昌（上海） · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-09-10 · [详情页](https://indiemaker.cn/p/project-6908d5.html)
@@ -7419,7 +7428,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（323）
+## 程序员版（325）
+
+- **[Birdview](https://qiuner.github.io/birdview/)** — 开发者 Qiuner · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/birdview.html)
+  AI 编程 Agent 的架构可视化 Skill，在改代码前生成项目架构图，标出计划触碰的模块、文件及对应源码证据；结果输出为无需部署的独立交互式 HTML，支持 Codex、Claude Code 与 DeepSeek Harness
+
+- **[agent-isles](https://github.com/Qiuner/agent-isles)** — 开发者 Qiu · AI 工具 / 开发工具 / 免费工具 · 开发中 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/agent-isles.html)
+  把 AI 编程 Agent 放进可探索的 3D 小岛，让用户在与居民协作、完成真实项目的过程中，玩着玩着就学会使用 Agent；本地运行，开源，支持自带模型密钥
 
 - **[RepoAtlas](https://github.com/Wujerry/RepoAtlas)** — 开发者 Wujerry · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-14 · [详情页](https://indiemaker.cn/p/repoatlas.html)
   本地优先的 AI 编程项目工作台，把散落的代码仓库、Claude Code / Codex / OpenCode / Cursor 等 8 个 Coding Agent 会话和常用开发任务集中管理；支持跨 Agent 搜索并恢复历史会话、运行构建/测试任务，数据保存在本机 — MIT 开源，提供 Windows 安装包
