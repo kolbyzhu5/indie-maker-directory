@@ -200,10 +200,28 @@ function applyLocale() {
   }
 }
 
+// 重绘「依赖 locale 的动态内容」（分类胶囊、卡片网格、总量与同步时间）。
+// 这些是 JS 用 innerHTML 渲染出来的，身上没有 data-i18n 标记，applyLocale() 覆盖不到，
+// 因此切换语言时必须单独重绘一次，否则会出现「界面文案切了、分类胶囊没切」的割裂。
+function renderLocaleDependent() {
+  if (!state.data) return;
+  const loc = getCurrentLocale();
+  const total = state.data.counts.total;
+  const heroTotal = document.querySelector("#heroTotal");
+  if (heroTotal) heroTotal.textContent = loc === "zh" ? total.toLocaleString("zh-CN") : total.toLocaleString("en");
+  const syncEl = document.querySelector("#syncTime");
+  if (syncEl) syncEl.textContent = t("syncTime", new Date(state.data.generatedAt));
+  const categories = Object.entries(state.data.categoryCounts).sort((a, b) => b[1] - a[1]).slice(0, 9);
+  elements.quickTags.innerHTML = categories.map(([name, count]) => `<button type="button" data-category="${escapeHTML(name)}">${escapeHTML(categoryName(name))} <small>${count}</small></button>`).join("");
+  render();
+}
+
 function toggleLocale() {
   const next = getCurrentLocale() === "zh" ? "en" : "zh";
   setLocale(next);
   applyLocale();
+  renderLocaleDependent();
+  document.documentElement.lang = next === "zh" ? "zh-CN" : "en";
 }
 
 function bindEvents() {
@@ -263,16 +281,11 @@ async function init() {
     state.data = await loadData();
     state.slugMap = buildSlugMap(state.data.projects);
     const total = state.data.counts.total;
-    const loc = getCurrentLocale();
-    document.querySelector("#heroTotal").textContent = loc === "zh" ? total.toLocaleString("zh-CN") : total.toLocaleString("en");
-    document.querySelector("#countAll").textContent = state.data.counts.total;
+    document.querySelector("#countAll").textContent = total;
     document.querySelector("#countMain").textContent = state.data.counts.main;
     document.querySelector("#countProgrammer").textContent = state.data.counts.programmer;
     document.querySelector("#countGame").textContent = state.data.counts.game;
-    document.querySelector("#syncTime").textContent = t("syncTime", new Date(state.data.generatedAt));
-    const categories = Object.entries(state.data.categoryCounts).sort((a, b) => b[1] - a[1]).slice(0, 9);
-    elements.quickTags.innerHTML = categories.map(([name, count]) => `<button type="button" data-category="${escapeHTML(name)}">${escapeHTML(categoryName(name))} <small>${count}</small></button>`).join("");
-    render();
+    renderLocaleDependent();
     injectItemListJSONLD();
 
     // 数据加载完后再根据 IP 智能切换（仅在用户没手动选过、且当前与 IP 推断不同时）
@@ -281,6 +294,7 @@ async function init() {
       if (ipLocale && ipLocale !== getCurrentLocale()) {
         setLocale(ipLocale);
         applyLocale();
+        renderLocaleDependent();
         try { sessionStorage.setItem("imd.ipDetected", "1"); } catch {}
       }
     }

@@ -84,6 +84,11 @@ const INNER_I18N_SCRIPT = `<script type="module">
 </script>`;
 
 // 分类英文 slug 映射（分类页 URL：/c/{slug}.html）
+// 详情页/卡片「作品版面」徽章 → i18n key（英文界面下翻译）
+const EDITION_I18N_KEY = { "大众产品": "editionMain", "程序员版": "editionProgrammer", "独立游戏": "editionGame" };
+// 项目状态中文标签 → i18n key
+const STATUS_I18N_KEY = { "已上线": "statusOnline", "开发中": "statusDeveloping", "已停止": "statusInactive" };
+
 const CATEGORY_SLUGS = {
   "AI 工具": "ai-tools",
   "音视频": "audio-video",
@@ -165,7 +170,7 @@ function buildSlugMap(projects) {
 // 与 app.js 的 cardTemplate 保持一致的静态版本（中文快照），含详情页链接
 function cardTemplate(project, index, slugMap) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
-  const tags = (project.categories || []).slice(0, 3).map((t) => `<span>${escapeHTML(t)}</span>`).join("");
+  const tags = (project.categories || []).slice(0, 3).map((t) => `<span data-i18n-cat="${escapeHTML(t)}">${escapeHTML(t)}</span>`).join("");
   const edition = EDITION_LABEL[project.edition] || "大众产品";
   const url = escapeHTML(project.url);
   const name = escapeHTML(project.name);
@@ -212,7 +217,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   const breadcrumb = `<a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><a href="/c/${catSlug}.html" data-i18n-cat="${escapeHTML(primaryCategory)}">${escapeHTML(primaryCategory)}</a><span class="sep">›</span><span class="current">${name}</span>`;
   const tags = categories.map((c) => {
     const cs = CATEGORY_SLUGS[c] || "uncategorized";
-    return `<a href="/c/${cs}.html">${escapeHTML(c)}</a>`;
+    return `<a href="/c/${cs}.html" data-i18n-cat="${escapeHTML(c)}">${escapeHTML(c)}</a>`;
   }).join("");
   const extraLinks = (project.makerLinks || []).map((l) => `<a class="btn-ghost" href="${escapeHTML(l.url)}" target="_blank" rel="noreferrer">${escapeHTML(l.label)}</a>`).join("");
 
@@ -254,7 +259,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
     : "";
 
   // ── 独有内容模块（P1 SEO：只用真实数据重组，不生成虚构内容）──
-  const statusChip = (p) => `<span class="u-chip s-${p.status}">${STATUS_LABEL[p.status] || escapeHTML(p.status)}</span>`;
+  const statusChip = (p) => { const sl = STATUS_LABEL[p.status] || escapeHTML(p.status); return `<span class="u-chip s-${p.status}" data-i18n="${STATUS_I18N_KEY[sl] || "statusOnline"}">${sl}</span>`; };
   const miniItem = (p) => `<li><a class="u-name" href="/p/${slugMap.get(p.id)}.html">${escapeHTML(p.name)}</a>${statusChip(p)}<span class="u-desc">${escapeHTML(p.description)}</span></li>`;
 
   // 模块 1：同作者其他作品
@@ -348,10 +353,10 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   <main class="detail-main">
     <nav class="breadcrumb" aria-label="面包屑">${breadcrumb}</nav>
     <article class="detail-card">
-      <div class="detail-head"><span class="edition-badge">${edition}</span><time>${project.addedAt} 收录</time></div>
+      <div class="detail-head"><span class="edition-badge" data-i18n="${EDITION_I18N_KEY[edition] || "editionMain"}">${edition}</span><time data-i18n="detailAddedAt" data-i18n-arg="${project.addedAt}">${project.addedAt} 收录</time></div>
       <h1>${name}</h1>
       <p class="detail-desc">${desc}</p>
-      <div class="detail-meta"><span><b>开发者</b>${maker}${city}</span><span><b>状态</b>${status}</span></div>
+      <div class="detail-meta"><span><b data-i18n="detailMakerLabel">开发者</b>${maker}${city}</span><span><b data-i18n="detailStatusLabel">状态</b><span data-i18n="${STATUS_I18N_KEY[status] || "statusOnline"}">${status}</span></span></div>
       <div class="detail-tags">${tags}</div>
       <div class="detail-actions">
         <a class="btn-primary" href="${url}" target="_blank" rel="noreferrer" data-i18n="detailVisitSite">访问官网 ↗</a>
@@ -395,7 +400,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   const cards = products.map((p) => {
     const slug = slugMap.get(p.id);
     const city = p.city ? ` · ${escapeHTML(p.city)}` : "";
-    const tags = (p.categories || []).slice(0, 3).map((t) => `<a href="/c/${CATEGORY_SLUGS[t] || "uncategorized"}.html">${escapeHTML(t)}</a>`).join("");
+    const tags = (p.categories || []).slice(0, 3).map((t) => `<a href="/c/${CATEGORY_SLUGS[t] || "uncategorized"}.html" data-i18n-cat="${escapeHTML(t)}">${escapeHTML(t)}</a>`).join("");
     return `<article class="project-card">
       <div class="card-top"><span class="edition-badge">${EDITION_LABEL[p.edition] || "大众产品"}</span><time class="card-date">${p.addedAt}</time></div>
       <h2><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h2>
@@ -839,7 +844,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   const cards = weekProducts.map((p) => {
     const slug = slugMap.get(p.id);
     const city = p.city ? ` · ${escapeHTML(p.city)}` : "";
-    const tags = (p.categories || []).slice(0, 3).map((t) => `<a href="/c/${CATEGORY_SLUGS[t] || "uncategorized"}.html">${escapeHTML(t)}</a>`).join("");
+    const tags = (p.categories || []).slice(0, 3).map((t) => `<a href="/c/${CATEGORY_SLUGS[t] || "uncategorized"}.html" data-i18n-cat="${escapeHTML(t)}">${escapeHTML(t)}</a>`).join("");
     return `<article class="project-card">
       <div class="card-top"><span class="edition-badge">${EDITION_LABEL[p.edition] || "大众产品"}</span><time class="card-date">${p.addedAt}</time></div>
       <h2><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h2>

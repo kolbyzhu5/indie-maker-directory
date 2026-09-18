@@ -67,6 +67,8 @@ export const LOCALES = {
     paginationNext: "下一页 →",
     detailVisitSite: "访问官网",
     detailMoreLikeThis: "看同类产品 ↓",
+    detailMakerLabel: "开发者",
+    detailStatusLabel: "状态",
     dataSourceTitle: "数据来源",
     sameBatchTitle: "同一批被收录的还有",
     catStatTotal: "共收录",
@@ -138,6 +140,8 @@ export const LOCALES = {
     paginationNext: "Next →",
     detailVisitSite: "Visit site",
     detailMoreLikeThis: "Similar products ↓",
+    detailMakerLabel: "Maker",
+    detailStatusLabel: "Status",
     dataSourceTitle: "Data source",
     sameBatchTitle: "Also added in the same batch",
     catStatTotal: "Total",
@@ -184,6 +188,7 @@ const DYNAMIC = {
   // 卡片"去看看"按钮
   cardVisit: () => (currentLocale === "zh" ? "去看看 ↗" : "Visit ↗"),
   // ── 内页参数化文案 ──
+  detailAddedAt: (date) => (currentLocale === "zh" ? `${date} 收录` : `Added ${date}`),
   sameMakerTitle: (maker) => (currentLocale === "zh" ? `「${maker}」还做了这些` : `More by ${maker}`),
   sameBatchNote: (date, n) => (currentLocale === "zh" ? `本批（${date}）共收录 ${n} 个作品` : `${n} works in the same batch (${date})`),
   catInsightTitle: (cat) => (currentLocale === "zh" ? `关于「${cat}」分类` : `About ${CATEGORY_I18N[cat] || cat}`),
