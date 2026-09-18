@@ -18,7 +18,7 @@
 // ⚠️ slug 生成逻辑（asciiSlug / hash8 / buildSlugMap）必须与 app.js 中完全一致，
 //    否则运行时卡片上的「详情」链接会 404。改这里务必同步改 app.js。
 
-import { readFile, writeFile, mkdir, copyFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir, copyFile, rm } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -126,6 +126,38 @@ const escapeHTML = (value = "") =>
   String(value).replace(/[&<>'"]/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
   })[char]);
+
+// ── 数据文本清洗 ─────────────────────────────────────────────
+// 上游仓库的 description / maker 字段里混有 Markdown 语法，直接渲染会在页面上
+// 露出残骸，例如「- [GitHub 仓库](https://github.com/xxx)」「能**有效辅助**开发者」。
+// 这里只做「Markdown 语法 → 纯文本」的降级还原（渲染层问题），不改动原意。
+// ⚠️ app.js 有一份等价实现（浏览器端渲染卡片用），两处必须同步修改。
+const cleanText = (value = "") =>
+  String(value)
+    // [文字](url) → 文字；文字为空时退回 url
+    .replace(/\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, (_, text, url) => text.trim() || url)
+    // **加粗** / __加粗__
+    .replace(/\*\*([^*\n]+)\*\*/g, "$1")
+    .replace(/__([^_\n]+)__/g, "$1")
+    // `行内代码`
+    .replace(/`([^`\n]+)`/g, "$1")
+    // 行首列表符号
+    .replace(/^\s*[-*+]\s+/, "")
+    // 折叠空白（含换行）为单空格
+    .replace(/\s+/g, " ")
+    .trim();
+
+// URL 清洗：上游把 Markdown 链接写进了 url 字段，会产生【坏外链】
+//   实际数据： "https://github.com/[WebClocks](https://github.com/WebClocks)"
+//   正确值：   "https://github.com/WebClocks"
+// 策略：抓出串中所有 http(s) 片段，取最后一个「非裸协议头」的，即 Markdown 括号里的真 URL。
+const cleanUrl = (value = "") => {
+  const raw = String(value).trim();
+  const found = raw.match(/https?:\/\/[^\s[\]()]+/g) || [];
+  const usable = found.filter((u) => u.replace(/^https?:\/\//, "").length > 3);
+  if (usable.length) return usable[usable.length - 1];
+  return usable.length ? usable[0] : raw;
+};
 
 const escapeXML = (value = "") =>
   String(value).replace(/[&<>'"]/g, (char) => ({
@@ -1309,7 +1341,106 @@ function renderScenarioPage(cfg, allProjects, slugMap) {
 `;
 }
 
-// ── P3：本周新收录榜单页 ─────────────────────────────────────
+// ── 自定义 404 页 ────────────────────────────────────────────
+// EdgeOne Pages 会用输出目录根部的 404.html 作为 404 响应页（此前是云厂商默认页：
+// 无站内导航、无返回入口，误入即流失）。这里给一个「有路可走」的 404。
+// 注意：必须 noindex（404 页不该被索引），也不进 sitemap。
+function render404Page(allProjects, slugMap) {
+  const latest = allProjects.filter((p) => p.status === "online").slice(0, 6);
+  const catCounts = {};
+  for (const p of allProjects) {
+    const c = (p.categories || [])[0];
+    if (c) catCounts[c] = (catCounts[c] || 0) + 1;
+  }
+  const topCats = Object.entries(catCounts).sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const pageUrl = `${SITE_URL}/404.html`;
+
+  const entries = [
+    ["/#directory", "逛全部产品", "navBrowse"],
+    ["/local-first.html", "不上传文件的在线工具", null],
+    ["/indie-report.html", "独立开发者数据报告", null],
+    ["/topic/pdf.html", "在线 PDF 工具", null],
+    ["/topic/translate.html", "在线翻译工具", null],
+    ["/best-ai-tools.html", "AI 工具精选", "navBestAI"],
+    ["/best-indie-games.html", "独立游戏精选", "navBestGames"]
+  ].map(([href, label, key]) =>
+    `<a class="nf-entry" href="${href}"${key ? ` data-i18n="${key}"` : ""}>${label}<span aria-hidden="true">→</span></a>`
+  ).join("");
+
+  const catLinks = topCats.map(([name, n]) => {
+    const slug = CATEGORY_SLUGS[name] || "uncategorized";
+    return `<a href="/c/${slug}.html" data-i18n-cat="${escapeHTML(name)}">${escapeHTML(name)} <small>${n}</small></a>`;
+  }).join("");
+
+  const latestItems = latest.map((p) => `<li>
+      <a class="best-name" href="/p/${slugMap.get(p.id)}.html">${escapeHTML(p.name)}</a>
+      <span class="best-desc">${escapeHTML(p.description)}</span>
+    </li>`).join("");
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>页面走丢了（404） | AI 独立制造所</title>
+  <meta name="description" content="抱歉，你访问的页面不存在。可以从首页、精选榜单或热门分类继续浏览中国独立开发者的作品。">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="${pageUrl}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="页面走丢了（404）">
+  <meta property="og:url" content="${pageUrl}">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:locale" content="zh_CN">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n="notFoundTitle">页面走丢了</span></nav>
+    <div class="nf-hero">
+      <p class="nf-code">404</p>
+      <h1 data-i18n="notFoundTitle">页面走丢了</h1>
+      <p class="nf-desc" data-i18n="notFoundDesc">这个地址不存在，也可能是那个产品已经被移除了。下面这些入口也许能帮到你。</p>
+    </div>
+
+    <section class="unique-block">
+      <h2 data-i18n="notFoundEntries">换个入口逛逛</h2>
+      <div class="nf-entries">${entries}</div>
+    </section>
+
+    <section class="unique-block">
+      <h2 data-i18n="notFoundCategories">热门分类</h2>
+      <div class="category-nav">${catLinks}</div>
+    </section>
+
+    <section class="unique-block">
+      <h2 data-i18n="notFoundLatest">最新收录</h2>
+      <ol class="best-list">${latestItems}</ol>
+    </section>
+  </main>
+  <footer class="site-footer detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>`;
+}
+
+
 function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   const count = weekProducts.length;
   const cards = weekProducts.map((p) => {
@@ -1410,6 +1541,18 @@ async function main() {
   const syncDist = process.argv.includes("--sync-dist");
   const data = JSON.parse(await readFile(path.join(ROOT, "data/projects.json"), "utf8"));
   const projects = data.projects || [];
+  // 清洗上游数据里的 Markdown 残骸（详见 cleanText 注释）。在此统一处理一次，
+  // 下游所有模板（卡片/详情页/榜单页/场景页/meta description）即自动干净。
+  for (const p of projects) {
+    if (p.description) p.description = cleanText(p.description);
+    if (p.maker) p.maker = cleanText(p.maker);
+    // 开发者外链（详情页的 Github / 博客等按钮）：URL 里同样混有 Markdown 语法
+    if (Array.isArray(p.makerLinks)) {
+      p.makerLinks = p.makerLinks
+        .map((l) => ({ ...l, url: cleanUrl(l.url) }))
+        .filter((l) => /^https?:\/\/[^\s]+$/.test(l.url));
+    }
+  }
   const counts = data.counts || {};
   const categoryCounts = data.categoryCounts || {};
 
@@ -1616,8 +1759,11 @@ ${sections}
   const dataReportPage = renderDataReportPage(sorted);
   // [场景长尾] 按具体需求聚合的跨分类页面（PDF / 翻译）
   const scenarioTargets = SCENARIOS.map((cfg) => [`topic/${cfg.slug}.html`, renderScenarioPage(cfg, sorted, slugMap)]);
+  // [体验] 自定义 404 页（取代云厂商默认页；noindex，不进 sitemap）
+  const notFoundPage = render404Page(sorted, slugMap);
   const targets = [
     ["index.html", html],
+    ["404.html", notFoundPage],
     ["about.html", aboutPage],
     ["weekly.html", weeklyPage],
     ["local-first.html", localFirstPage],
@@ -1637,6 +1783,12 @@ ${sections}
   }
 
   // [P1] 生成产品详情页（/p/）与分类页（/c/）
+  // 清理上一轮产物再生成。p/ 与 c/ 是纯生成物（已在 .gitignore 中），
+  // 若只做覆盖写，产品改名或从数据源移除后，旧 slug 的页面会永远留在本地 dist 里
+  // ——实测残留了 5 个 09-07～09-11 的陈旧详情页（内容还是改版前的模板）。
+  // CI 是全新检出不受影响，但本地会污染排查、本地直接部署还会把它们传上去。
+  await rm(path.join(ROOT, "p"), { recursive: true, force: true });
+  await rm(path.join(ROOT, "c"), { recursive: true, force: true });
   await mkdir(path.join(ROOT, "p"), { recursive: true });
   await mkdir(path.join(ROOT, "c"), { recursive: true });
 
@@ -1737,6 +1889,9 @@ ${sections}
     // EdgeOne Pages 平台配置（域名级 301：www → 非 www，避免重复内容）
     await copyFile(path.join(ROOT, "edgeone.json"), path.join(dist, "edgeone.json")).catch(() => console.log("[build] edgeone.json 不存在，跳过"));
     // 详情页 / 分类页目录
+    // 先清掉 dist 里的旧详情页/分类页，否则 copyDir 只做合并，陈旧孤儿页会一直留在部署目录
+    await rm(path.join(dist, "p"), { recursive: true, force: true });
+    await rm(path.join(dist, "c"), { recursive: true, force: true });
     await copyDir(path.join(ROOT, "p"), path.join(dist, "p"));
     await copyDir(path.join(ROOT, "c"), path.join(dist, "c"));
     // 场景长尾页目录（/topic/pdf.html 等）

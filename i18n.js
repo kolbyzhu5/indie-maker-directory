@@ -81,7 +81,13 @@ export const LOCALES = {
     catCountLabel: "共收录",
     catCountUnit: "个产品",
     aboutBreadcrumb: "关于",
-    weeklyBreadcrumb: "本周新收录"
+    weeklyBreadcrumb: "本周新收录",
+    // 404 页
+    notFoundTitle: "页面走丢了",
+    notFoundDesc: "这个地址不存在，也可能是那个产品已经被移除了。下面这些入口也许能帮到你。",
+    notFoundEntries: "换个入口逛逛",
+    notFoundCategories: "热门分类",
+    notFoundLatest: "最新收录"
   },
   en: {
     code: "en",
@@ -154,7 +160,13 @@ export const LOCALES = {
     catCountLabel: "Contains",
     catCountUnit: "products",
     aboutBreadcrumb: "About",
-    weeklyBreadcrumb: "This week"
+    weeklyBreadcrumb: "This week",
+    // 404 页
+    notFoundTitle: "Page not found",
+    notFoundDesc: "This URL doesn't exist — the product may have been removed. Here are a few ways to keep browsing.",
+    notFoundEntries: "Try another entry",
+    notFoundCategories: "Popular categories",
+    notFoundLatest: "Recently added"
   }
 };
 

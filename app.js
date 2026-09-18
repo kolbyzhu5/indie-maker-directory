@@ -28,6 +28,20 @@ const editionKeyMap = { main: "editionMain", programmer: "editionProgrammer", ga
 const escapeHTML = (value = "") => value.replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
 const normalize = (value = "") => value.toLowerCase().normalize("NFKC");
 
+// ── 数据文本清洗（与 scripts/build.mjs 的 cleanText 必须保持一致）──
+// 上游仓库的 description / maker 里混有 Markdown 语法，前端渲染卡片时会露出
+// 「- [GitHub 仓库](https://...)」这类残骸。这里只做语法→纯文本的降级还原。
+function cleanText(value = "") {
+  return String(value)
+    .replace(/\[([^\]]*)\]\((https?:\/\/[^)\s]+)\)/g, (_, text, url) => text.trim() || url)
+    .replace(/\*\*([^*\n]+)\*\*/g, "$1")
+    .replace(/__([^_\n]+)__/g, "$1")
+    .replace(/`([^`\n]+)`/g, "$1")
+    .replace(/^\s*[-*+]\s+/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 // ── slug 生成（必须与 scripts/build.mjs 完全一致，否则详情链接会 404）──
 function asciiSlug(name) {
   return String(name).toLowerCase()
@@ -139,13 +153,16 @@ function reset() {
 }
 
 // 注入 ItemList 结构化数据（帮助 Google 展示富结果）
+// ⚠️ item 的 url 必须指向【本站在该产品上的详情页】，而不是产品官网。
+// 目录站的「条目」就是本站的收录页；指向外站既不符合语义，也把权重让了出去。
+const SITE_URL = "https://indiemaker.cn";
 function injectItemListJSONLD() {
   if (!state.data) return;
   const items = state.data.projects.slice(0, 10).map((project, index) => ({
     "@type": "ListItem",
     "position": index + 1,
     "name": project.name,
-    "url": project.url
+    "url": `${SITE_URL}/p/${state.slugMap.get(project.id)}.html`
   }));
   const ld = {
     "@context": "https://schema.org",
@@ -279,6 +296,11 @@ async function init() {
   bindEvents();
   try {
     state.data = await loadData();
+    // 清洗上游 Markdown 残骸（本地副本与 COS 回退来源都可能带语法）
+    for (const p of state.data.projects) {
+      if (p.description) p.description = cleanText(p.description);
+      if (p.maker) p.maker = cleanText(p.maker);
+    }
     state.slugMap = buildSlugMap(state.data.projects);
     const total = state.data.counts.total;
     document.querySelector("#countAll").textContent = total;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>页面走丢了（404） | AI 独立制造所</title>
+  <meta name="description" content="抱歉，你访问的页面不存在。可以从首页、精选榜单或热门分类继续浏览中国独立开发者的作品。">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://indiemaker.cn/404.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="页面走丢了（404）">
+  <meta property="og:url" content="https://indiemaker.cn/404.html">
+  <meta property="og:image" content="https://indiemaker.cn/og.png">
+  <meta property="og:locale" content="zh_CN">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script type="module">
+  import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
+  const saved = getSavedLocale();
+  setLocale(saved || browserLocale());
+  const applyInnerI18n = () => {
+    const zh = getCurrentLocale() === "zh";
+    document.documentElement.lang = zh ? "zh-CN" : "en";
+    if (zh) return;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const argAttr = el.getAttribute("data-i18n-arg");
+      const val = argAttr ? t(key, ...argAttr.split("|")) : t(key);
+      if (val !== undefined && val !== null && val !== key) el.textContent = val;
+    });
+    document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
+      el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
+    });
+  };
+  applyInnerI18n();
+  if (!saved) {
+    detectLocaleByIP().then((loc) => {
+      if (loc && loc !== getCurrentLocale()) { setLocale(loc); applyInnerI18n(); }
+    }).catch(() => {});
+  }
+</script>
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    <nav class="top-nav" aria-label="主要导航"><a href="/#directory" data-i18n="navBrowse">逛产品</a><a href="/best-ai-tools.html" data-i18n="navBestAI">AI 工具精选</a><a href="/best-indie-games.html" data-i18n="navBestGames">独立游戏精选</a></nav>
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n="notFoundTitle">页面走丢了</span></nav>
+    <div class="nf-hero">
+      <p class="nf-code">404</p>
+      <h1 data-i18n="notFoundTitle">页面走丢了</h1>
+      <p class="nf-desc" data-i18n="notFoundDesc">这个地址不存在，也可能是那个产品已经被移除了。下面这些入口也许能帮到你。</p>
+    </div>
+
+    <section class="unique-block">
+      <h2 data-i18n="notFoundEntries">换个入口逛逛</h2>
+      <div class="nf-entries"><a class="nf-entry" href="/#directory" data-i18n="navBrowse">逛全部产品<span aria-hidden="true">→</span></a><a class="nf-entry" href="/local-first.html">不上传文件的在线工具<span aria-hidden="true">→</span></a><a class="nf-entry" href="/indie-report.html">独立开发者数据报告<span aria-hidden="true">→</span></a><a class="nf-entry" href="/topic/pdf.html">在线 PDF 工具<span aria-hidden="true">→</span></a><a class="nf-entry" href="/topic/translate.html">在线翻译工具<span aria-hidden="true">→</span></a><a class="nf-entry" href="/best-ai-tools.html" data-i18n="navBestAI">AI 工具精选<span aria-hidden="true">→</span></a><a class="nf-entry" href="/best-indie-games.html" data-i18n="navBestGames">独立游戏精选<span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="unique-block">
+      <h2 data-i18n="notFoundCategories">热门分类</h2>
+      <div class="category-nav"><a href="/c/ai-tools.html" data-i18n-cat="AI 工具">AI 工具 <small>885</small></a><a href="/c/productivity.html" data-i18n-cat="效率工具">效率工具 <small>241</small></a><a href="/c/dev-tools.html" data-i18n-cat="开发工具">开发工具 <small>236</small></a><a href="/c/image-tools.html" data-i18n-cat="图片工具">图片工具 <small>230</small></a><a href="/c/audio-video.html" data-i18n-cat="音视频">音视频 <small>209</small></a><a href="/c/docs-office.html" data-i18n-cat="文档办公">文档办公 <small>143</small></a><a href="/c/browser-extensions.html" data-i18n-cat="浏览器扩展">浏览器扩展 <small>94</small></a><a href="/c/games.html" data-i18n-cat="游戏娱乐">游戏娱乐 <small>86</small></a></div>
+    </section>
+
+    <section class="unique-block">
+      <h2 data-i18n="notFoundLatest">最新收录</h2>
+      <ol class="best-list"><li>
+      <a class="best-name" href="/p/soulcut.html">SoulCut</a>
+      <span class="best-desc">一款为每一帧画面注入灵魂的非线性视频编辑系统，免费使用，内置 15 种滤镜、78 种视觉特效、26 种转场，支持多机位渲染与音视频同轨编辑 - GitHub 仓库</span>
+    </li><li>
+      <a class="best-name" href="/p/over-the-hill-wiki.html">Over the Hill Wiki</a>
+      <span class="best-desc">Over the Hill 非官方游戏攻略与资料站，整理游戏玩法、车辆、地图、常见问题和实用指南，方便玩家快速查找相关信息</span>
+    </li><li>
+      <a class="best-name" href="/p/steal-an-egg-predictor.html">Steal an Egg Predictor</a>
+      <span class="best-desc">Steal an Egg 非官方玩家工具与攻略站，提供蛋刷新时间预测、蛋和宠物资料以及相关游戏指南，帮助玩家更方便地查询和规划游戏进度</span>
+    </li><li>
+      <a class="best-name" href="/p/opc-f19fab.html">人人都是OPC</a>
+      <span class="best-desc">一人公司（OPC）中文知识库，聚合创业案例、变现教程、工具推荐、政策解读与开源项目</span>
+    </li><li>
+      <a class="best-name" href="/p/playiq.html">PlayIQ</a>
+      <span class="best-desc">用 AI 帮橄榄球教练自动分析比赛录像，识别阵型与跑位，战术板与录像同步播放，自动生成球探报告</span>
+    </li><li>
+      <a class="best-name" href="/p/iloveepub.html">iloveepub</a>
+      <span class="best-desc">浏览器 EPUB 工具（免费），支持压缩、合并、拆分与转换，文件全部在设备本地处理，绝不上传</span>
+    </li></ol>
+    </section>
+  </main>
+  <footer class="site-footer detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
