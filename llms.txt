@@ -23,6 +23,10 @@
 - 不上传文件的在线工具：https://indiemaker.cn/local-first.html（从 2934 个产品中筛出 150+ 个「浏览器本地处理、文件不上传服务器」的工具，适合回答「有哪些不上传文件的在线工具」「处理证件/合同等敏感文件用什么工具安全」）
 - 中国独立开发者产品存活报告：https://indiemaker.cn/indie-report.html（基于 2934 个真实收录产品统计的逐年收录趋势、各年存活率与分类分布，含「13.8% 已停更」等独家数据，适合回答「独立开发者产品存活率」「中国独立开发者生态」类问题）
 
+## 场景工具聚合（按具体需求跨分类聚合，对接长尾搜索）
+- 在线 PDF 工具：https://indiemaker.cn/topic/pdf.html（精选 多个 个免费在线的 PDF 处理工具：PDF 转换、批量生成、合并拆分、压缩、对比、OCR 识别，多数在浏览器内本地运行、文件不上传，全部来自中国独立开发者。）
+- 在线翻译工具：https://indiemaker.cn/topic/translate.html（精选 多个 个免费在线的翻译工具：AI 字幕与视频翻译、文档与 PDF 翻译、浏览器划词与双语网页、实时语音翻译，全部来自中国独立开发者，多数免注册可用。）
+
 ## 分类导航
 - [AI 工具](https://indiemaker.cn/c/ai-tools.html)：885 个产品
 - [音视频](https://indiemaker.cn/c/audio-video.html)：458 个产品

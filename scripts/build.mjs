@@ -1142,6 +1142,173 @@ function renderDataReportPage(allProjects) {
 `;
 }
 
+// ── 场景长尾聚合页：按「用户要解决的事」聚合跨分类产品 ────────
+// 与分类页的区别：分类页按大分类（图片工具/开发工具）服务站内浏览；
+//   场景页跨分类按具体需求聚合，直接对接搜索意图（如「在线 PDF 工具」「字幕翻译工具」）。
+// 子场景分组按产品描述的真实词频设计，保证每组都有足够产品。
+const SCENARIOS = [
+  {
+    slug: "pdf",
+    navLabel: "PDF 工具",
+    h1: "在线 PDF 工具",
+    keyword: "PDF",
+    title: "在线 PDF 工具推荐",
+    desc: "精选 {n} 个免费在线的 PDF 处理工具：PDF 转换、批量生成、合并拆分、压缩、对比、OCR 识别，多数在浏览器内本地运行、文件不上传，全部来自中国独立开发者。",
+    intro: "处理 PDF 不必装 Adobe。本页按<b>具体需求</b>聚合了 {n} 个在线 PDF 工具——转换格式、批量生成证书合同、合并拆分、压缩、对比差异、OCR 识别，多数在浏览器内直接完成且文件不上传服务器。",
+    groups: [
+      { name: "PDF 格式转换", keywords: ["转 PDF", "PDF 转", "转为 PDF", "转成 PDF", "Excel", "导出"] },
+      { name: "PDF 批量生成（证书 / 合同 / 发票）", keywords: ["生成", "批量", "模板", "证书", "合同", "发票", "工资单"] },
+      { name: "PDF 编辑、合并与压缩", keywords: ["编辑", "合并", "拆分", "压缩", "去水印", "签名", "加水印"] },
+      { name: "PDF 识别、对比与解析", keywords: ["对比", "OCR", "识别", "解析", "提取", "朗读", "扫描"] },
+    ],
+    faq: [
+      { q: "有哪些免费的在线 PDF 工具？", a: "AI 独立制造所从 2900+ 个中国独立开发者作品中筛选出多个免费在线 PDF 工具，覆盖 Excel/图片转 PDF（Create PDF from Sheet）、批量生成证书与合同（MailMergeOnline、BulkCerts）、PDF 对比与文本转换（PdfCompare）、PDF 朗读（Read PDF Aloud）、OCR 扫描件识别（Scanned.to）等，多数免注册即可使用。" },
+      { q: "在线转 PDF 会上传我的文件吗？", a: "不一定，取决于具体工具。本页优先收录「浏览器本地处理」的方案——例如 Create PDF from Sheet、PdfCompare 均声明文件不上传服务器、在浏览器内完成处理。若处理合同、证件等敏感文件，建议优先选择这类本地处理工具，并可在浏览器开发者工具的 Network 面板确认无文件上传请求。" },
+      { q: "怎么批量生成 PDF 证书或工资单？", a: "用 MailMergeOnline：内置证书、合同、工资单、发票等现成模板，导入 Excel/CSV 并映射字段即可批量生成，无需写代码。BulkCerts 则专注批量证书场景，上传名单选模板后为每位收件人生成个性化 PDF。" },
+      { q: "PDF 和 Excel 之间怎么互转？", a: "Excel 表格工具支持上传多个来源后配置字段匹配、预览结果并导出新工作簿；Create PDF from Sheet 专门把 Excel 转为 PDF，可在浏览器中预览分页效果、合并多个工作簿；Scanned.to 则能把扫描版 PDF 反向转成可编辑的 Word 或文本。" },
+      { q: "这些 PDF 工具收费吗？", a: "本页收录的工具多数免费或提供免费额度，部分开源。少数采用免费+增值模式，具体以各工具官网说明为准。" },
+    ],
+  },
+  {
+    slug: "translate",
+    navLabel: "翻译工具",
+    h1: "在线翻译工具",
+    keyword: "翻译",
+    title: "在线翻译工具推荐",
+    desc: "精选 {n} 个免费在线的翻译工具：AI 字幕与视频翻译、文档与 PDF 翻译、浏览器划词与双语网页、实时语音翻译，全部来自中国独立开发者，多数免注册可用。",
+    intro: "本页按<b>使用场景</b>聚合了 {n} 个在线翻译工具——看视频要字幕翻译、读论文要文档翻译、刷外网要划词和双语对照、开会要实时语音翻译，每个场景都有对应的中国独立开发者作品。",
+    groups: [
+      { name: "字幕与视频翻译", keywords: ["字幕", "视频", "YouTube", "音视频", "转录"] },
+      { name: "文档、论文与 PDF 翻译", keywords: ["文档", "PDF", "论文", "文献", "扫描", "OCR", "漫画"] },
+      { name: "浏览器划词与双语网页", keywords: ["划词", "网页", "双语", "插件", "浏览器"] },
+      { name: "实时语音与对话翻译", keywords: ["实时", "语音", "对话", "朗读", "口语"] },
+      { name: "翻译 API 与开发工具", keywords: ["API", "开发者", "终端", "命令行", "接口"] },
+    ],
+    faq: [
+      { q: "有哪些免费好用的在线翻译工具？", a: "AI 独立制造所从中国独立开发者作品中筛选出多个免费翻译工具，按场景分类：看视频用 AI 字幕工具（字幕生成+翻译+时间轴）、读论文用文档翻译、刷外网用浏览器划词翻译插件（如 Duo Translator 支持网页双语与 YouTube 字幕）、开发者可用翻译 API 或终端工具，多数无需注册。" },
+      { q: "视频字幕怎么自动翻译成中文？", a: "用 ScribeToAny 或 SubtitleGenerator：上传音视频后自动转录并生成字级时间戳，支持说话人识别与多语言翻译，可在同一浏览器工作流里完成生成、校对与整轨翻译，免去来回切换工具。" },
+      { q: "翻译 PDF 或论文怎么保留原排版？", a: "Scanned.to 支持把扫描版 PDF/图片转为可编辑文本并保留原始排版；超能文献（Suppr）支持中文自然语言检索 PubMed 并做 AI 文档翻译。若只需快速看懂内容，也可以先用 OCR 提取文字再翻译。" },
+      { q: "浏览器划词翻译插件哪个好用？", a: "Duo Translator 支持网页双语翻译、划词翻译、写作增强与 YouTube 双语字幕；EchoWord 侧重查词并配 TTS 朗读例句，适合在语境中理解发音。两者都面向需要频繁阅读外文内容的用户。" },
+      { q: "这些翻译工具要付费吗？", a: "本页收录的工具多提供免费额度或完全免费，例如部分翻译 API 提供免费字符额度、划词翻译插件基础功能免费。高频或商业用途建议查看各工具的额度说明。" },
+    ],
+  },
+];
+
+function renderScenarioPage(cfg, allProjects, slugMap) {
+  const hit = (p, k) => `${p.name} ${p.description || ""} ${(p.categories || []).join(" ")}`.includes(k);
+  const picked = allProjects.filter((p) => hit(p, cfg.keyword));
+  // 归组策略：把每个产品分到「匹配关键词最多」的子场景组。
+  // 不用「先到先得」——否则第一个组的某个宽泛关键词（如「转换」）会吞掉大半产品，导致分组严重失衡。
+  const assign = new Map();
+  for (const p of picked) {
+    let best = -1, bestScore = 0;
+    cfg.groups.forEach((g, i) => {
+      const score = g.keywords.filter((k) => hit(p, k)).length;
+      if (score > bestScore) { bestScore = score; best = i; }
+    });
+    if (best >= 0) assign.set(p.id, best);
+  }
+  const groups = cfg.groups
+    .map((g, i) => ({ name: g.name, items: picked.filter((p) => assign.get(p.id) === i) }))
+    .filter((g) => g.items.length);
+  const rest = picked.filter((p) => !assign.has(p.id));
+  if (rest.length) groups.push({ name: "更多相关工具", items: rest });
+
+  const total = picked.length;
+  const today = beijingDateISO();
+  const pageUrl = `${SITE_URL}/topic/${cfg.slug}.html`;
+  const desc = cfg.desc.replace("{n}", total);
+  const intro = cfg.intro.replace("{n}", total);
+
+  const groupsHTML = groups.map(({ name, items }) => `<section class="best-group">
+      <h2>${escapeHTML(name)} <small>${items.length}</small></h2>
+      <ol class="best-list">${items.map((p) => `<li>
+        <a class="best-name" href="/p/${slugMap.get(p.id)}.html">${escapeHTML(p.name)}</a>
+        <span class="best-desc">${escapeHTML(p.description)}</span>
+        <span class="best-meta">开发者 ${escapeHTML(p.maker)}${p.city ? " · " + escapeHTML(p.city) : ""}</span>
+      </li>`).join("")}</ol>
+    </section>`).join("");
+
+  const faqHTML = cfg.faq.map(({ q, a }) => `<details class="faq-item"><summary>${escapeHTML(q)}</summary><p>${escapeHTML(a)}</p></details>`).join("");
+
+  const listLD = JSON.stringify({
+    "@context": "https://schema.org", "@type": "ItemList",
+    "name": cfg.h1, "description": desc, "numberOfItems": total,
+    "itemListElement": picked.map((p, i) => ({ "@type": "ListItem", "position": i + 1, "name": p.name, "url": `${SITE_URL}/p/${slugMap.get(p.id)}.html` }))
+  });
+  const faqLD = JSON.stringify({
+    "@context": "https://schema.org", "@type": "FAQPage",
+    "mainEntity": cfg.faq.map(({ q, a }) => ({ "@type": "Question", "name": q, "acceptedAnswer": { "@type": "Answer", "text": a } }))
+  });
+  const otherScenarios = SCENARIOS.filter((s) => s.slug !== cfg.slug);
+  const moreHTML = `<section class="more-rankings">
+    <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
+    <ul>${otherScenarios.map((s) => `<li><a href="/topic/${s.slug}.html">${escapeHTML(s.h1)}</a></li>`).join("")}${RANKINGS.map((r) => `<li><a href="/${r.slug}.html">${escapeHTML(r.title)}</a></li>`).join("")}<li><a href="/local-first.html">不上传文件的在线工具</a></li><li><a href="/indie-report.html">中国独立开发者产品存活报告</a></li></ul>
+  </section>`;
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHTML(cfg.title)}（${total} 个免费工具） | AI 独立制造所</title>
+  <meta name="description" content="${escapeHTML(desc)}">
+  <meta name="keywords" content="在线${escapeHTML(cfg.navLabel)},免费${escapeHTML(cfg.navLabel)},${escapeHTML(cfg.title)},${escapeHTML(cfg.navLabel)}推荐,中国独立开发者">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${pageUrl}">
+  <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
+  <link rel="alternate" hreflang="x-default" href="${pageUrl}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="${escapeHTML(cfg.title)}（${total} 个免费工具）">
+  <meta property="og:description" content="${escapeHTML(desc)}">
+  <meta property="og:url" content="${pageUrl}">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${listLD}</script>
+  <script type="application/ld+json">${faqLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">${escapeHTML(cfg.navLabel)}</span></nav>
+    <div class="category-head">
+      <h1>${escapeHTML(cfg.h1)}</h1>
+      <p class="category-count">共 <b>${total}</b> 个在线工具 · 更新于 ${today}</p>
+    </div>
+    <p class="best-intro">${intro}</p>
+    ${groupsHTML}
+    <section class="faq-list">
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
+      ${faqHTML}
+    </section>
+    ${moreHTML}
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
 // ── P3：本周新收录榜单页 ─────────────────────────────────────
 function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   const count = weekProducts.length;
@@ -1295,6 +1462,9 @@ async function main() {
   sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/local-first.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/indie-report.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
+  for (const cfg of SCENARIOS) {
+    sitemapUrls.push(`  <url><loc>${SITE_URL}/topic/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
+  }
   for (const cfg of RANKINGS) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   }
@@ -1388,6 +1558,9 @@ Allow: /
 - 不上传文件的在线工具：${SITE_URL}/local-first.html（从 ${total} 个产品中筛出 150+ 个「浏览器本地处理、文件不上传服务器」的工具，适合回答「有哪些不上传文件的在线工具」「处理证件/合同等敏感文件用什么工具安全」）
 - 中国独立开发者产品存活报告：${SITE_URL}/indie-report.html（基于 ${total} 个真实收录产品统计的逐年收录趋势、各年存活率与分类分布，含「13.8% 已停更」等独家数据，适合回答「独立开发者产品存活率」「中国独立开发者生态」类问题）
 
+## 场景工具聚合（按具体需求跨分类聚合，对接长尾搜索）
+${SCENARIOS.map((s) => `- ${s.h1}：${SITE_URL}/topic/${s.slug}.html（${s.desc.replace("{n}", "多个")}）`).join("\n")}
+
 ## 分类导航
 ${categoryLines}
 
@@ -1441,12 +1614,15 @@ ${sections}
   const localFirstPage = renderLocalFirstPage(sorted, slugMap);
   // [独家数据] 中国独立开发者产品存活报告（拿外链与 AI 引用的内容资产）
   const dataReportPage = renderDataReportPage(sorted);
+  // [场景长尾] 按具体需求聚合的跨分类页面（PDF / 翻译）
+  const scenarioTargets = SCENARIOS.map((cfg) => [`topic/${cfg.slug}.html`, renderScenarioPage(cfg, sorted, slugMap)]);
   const targets = [
     ["index.html", html],
     ["about.html", aboutPage],
     ["weekly.html", weeklyPage],
     ["local-first.html", localFirstPage],
     ["indie-report.html", dataReportPage],
+    ...scenarioTargets,
     ...rankingTargets,
     ["sitemap.xml", sitemap],
     ["robots.txt", robots],
@@ -1454,7 +1630,9 @@ ${sections}
     ["llms-full.txt", llmsFull]
   ];
   for (const [file, content] of targets) {
-    await writeFile(path.join(ROOT, file), content, "utf8");
+    const full = path.join(ROOT, file);
+    await mkdir(path.dirname(full), { recursive: true });
+    await writeFile(full, content, "utf8");
     console.log(`[build] 已生成 ${file}`);
   }
 
@@ -1541,7 +1719,9 @@ ${sections}
     const dist = path.join(ROOT, "dist");
     await mkdir(dist, { recursive: true });
     for (const [file, content] of targets) {
-      await writeFile(path.join(dist, file), content, "utf8");
+      const distFile = path.join(dist, file);
+      await mkdir(path.dirname(distFile), { recursive: true });
+      await writeFile(distFile, content, "utf8");
     }
     // 数据文件 + 静态资源同步
     await mkdir(path.join(dist, "data"), { recursive: true });
@@ -1559,6 +1739,8 @@ ${sections}
     // 详情页 / 分类页目录
     await copyDir(path.join(ROOT, "p"), path.join(dist, "p"));
     await copyDir(path.join(ROOT, "c"), path.join(dist, "c"));
+    // 场景长尾页目录（/topic/pdf.html 等）
+    await copyDir(path.join(ROOT, "topic"), path.join(dist, "topic")).catch(() => console.log("[build] topic/ 不存在，跳过"));
     console.log("[build] 已同步到 dist/（EdgeOne Pages 部署源）");
   }
 
