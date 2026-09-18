@@ -112,7 +112,11 @@ fieldset b { color: var(--muted); font-size: 10px; font-weight: 400; }
 .empty-state { text-align: center; padding: 80px 20px; border: 1px dashed var(--line); }
 .empty-state > span { display: grid; place-items: center; width: 62px; height: 62px; margin: 0 auto 20px; background: var(--red); color: white; font-family: var(--display); font-size: 28px; transform: rotate(-3deg); }
 .empty-state h2 { margin: 0 0 8px; }.empty-state p { color: var(--muted); }.empty-state button { border: 0; border-bottom: 1px solid var(--red); background: transparent; color: var(--red); }
-footer { max-width: 1292px; margin: 0 auto; padding: 25px 34px 45px; border-top: 1px solid var(--line); color: var(--muted); display: flex; justify-content: space-between; font-size: 10px; }
+footer { max-width: 1292px; margin: 0 auto; padding: 25px 34px 45px; border-top: 1px solid var(--line); color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; font-size: 10px; }
+/* 站点定义（GEO）：安静地待在页脚，不打断「进来逛的人」。
+   放在页脚而非首屏是 2026-09-18 的用户反馈；仍保留在首页 DOM 且不隐藏，
+   因为 AI 搜索主要读首页，而 Google 移动优先索引会折价 display:none 的内容。 */
+footer .footer-def { flex: 0 0 100%; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px dashed var(--line); font-size: 11px; line-height: 1.85; color: var(--muted); text-align: left; }
 footer .footer-links { line-height: 1.9; }
 footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
 footer a:hover { color: var(--red); border-bottom-color: var(--red); }

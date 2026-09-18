@@ -18,7 +18,7 @@ export const LOCALES = {
     heroTitle1: "好产品，",
     heroTitleEm: "不该埋在",
     heroTitle2: "几千行 README 里。",
-    heroDesc: "把独立开发者的AI作品做成真正好逛、好搜、好发现的产品导航。没有竞价排名，只有创造本身。",
+    heroDesc: "一个收录中国独立开发者作品的目录站：不开发、不托管、不代理任何产品，只做索引与导航。全站免费，没有竞价排名，只有创造本身。",
     heroToday: "今日馆藏",
     heroUnit: "件独立作品",
     heroLoading: "正在读取...",
@@ -50,6 +50,7 @@ export const LOCALES = {
     resultsLoadMore: "再翻一页",
     // footer
     footerSlogan: "AI 独立制造所 · 让认真做出来的东西被看见",
+    footerDef: "本站是收录中国独立开发者作品的目录站，不开发、不托管、不代理任何产品；产品描述中的价格、会员、套餐均属该产品自身，与本站无关。全站免费，无竞价排名。",
     footerFeedback: "反馈建议",
     // a11y
     a11yHome: "AI 独立制造所首页",
@@ -110,7 +111,7 @@ export const LOCALES = {
     heroTitle1: "Great products, ",
     heroTitleEm: "shouldn't be buried",
     heroTitle2: "in thousands of lines of README.",
-    heroDesc: "A truly browsable, searchable, discoverable directory of indie developer AI products. No paid rankings — just the work itself.",
+    heroDesc: "A directory of works by Chinese indie developers: we don't build, host or resell any product — we only index and navigate. Entirely free, no paid rankings, just the work itself.",
     heroToday: "Today's collection",
     heroUnit: "independent works",
     heroLoading: "Loading...",
@@ -138,6 +139,7 @@ export const LOCALES = {
     resultsEmptyAction: "View all",
     resultsLoadMore: "Show more",
     footerSlogan: "Indie Maker · Making sure good work gets seen",
+    footerDef: "This site is a directory of works by Chinese indie developers. We don't build, host or resell any product; any pricing, membership or plans mentioned in a product's description belong to that product, not to us. Entirely free, with no paid rankings.",
     footerFeedback: "Feedback",
     a11yHome: "Indie Maker home",
     a11ySearch: "Search products, makers or descriptions",

@@ -85,7 +85,7 @@
           <span data-i18n="heroTitle1">好产品，</span><em data-i18n="heroTitleEm">不该埋在</em><br>
           <span data-i18n="heroTitle2">几千行 README 里。</span>
         </h1>
-        <p class="hero-description" data-i18n="heroDesc">把独立开发者的AI作品做成真正好逛、好搜、好发现的产品导航。没有竞价排名，只有创造本身。</p>
+        <p class="hero-description" data-i18n="heroDesc">一个收录中国独立开发者作品的目录站：不开发、不托管、不代理任何产品，只做索引与导航。全站免费，没有竞价排名，只有创造本身。</p>
       </div>
       <aside class="hero-note">
         <span class="note-pin"></span>
@@ -96,20 +96,11 @@
       </aside>
     </section>
 
-    <!-- 站点定义（GEO 关键）：AI 搜索与搜索引擎靠这段判断「本站是什么」。
-         必须放在首屏、纯静态文本、不依赖 JS；并明确声明「不是什么」——
-         因为站内有 2900+ 条产品描述，其中大量出现「会员 / 付费 / 模板 / SaaS」等
-         属于【产品自身】的商业模式，若无边界声明，AI 会把它们误读成【本站】的模式。
-         2026-09-18 实测：豆包曾据此描述本站为「SaaS 建站模板库、部分高级功能需会员」。 -->
-    <section class="site-def" aria-labelledby="siteDefTitle">
-      <h2 id="siteDefTitle" data-i18n="siteDefTitle">AI 独立制造所是什么？</h2>
-      <p class="site-def-lead" data-i18n="siteDefLead">收录中国独立开发者作品的<b>目录站</b>，不是工具站：本站不开发、不托管、不代理任何产品，只做索引与导航。</p>
-      <p class="site-def-meta">
-        <span data-i18n="siteDefFree"><b>全站免费</b>，无会员无付费</span>
-        <span data-i18n="siteDefNoRank"><b>无竞价排名</b>，排序只看收录时间</span>
-        <span data-i18n="siteDefBoundary">描述中的价格与会员属<b>产品自身</b>，与本站无关</span>
-      </p>
-    </section>
+    <!-- 站点定义已移到两处更合适的位置（2026-09-18 用户反馈：首屏那块影响浏览体验）：
+         ① 首页：措辞融进 hero-description（一句话）+ 页脚一行小字 —— 纯静态、不依赖 JS、
+            不隐藏，既能让 AI 抓到，又不打断「进来逛的人」
+         ② 关于页：完整版（含「不是什么」的逐条声明）
+         另外 llms.txt 与结构化数据也承担同样的职责，这三处构成 AI 侧的完整信号。 -->
 
     <section class="search-stage" id="directory">
       <div class="search-wrap">
@@ -509,6 +500,7 @@
   </main>
 
   <footer>
+    <p class="footer-def" data-i18n="footerDef">本站是收录中国独立开发者作品的目录站，不开发、不托管、不代理任何产品；产品描述中的价格、会员、套餐均属该产品自身，与本站无关。全站免费，无竞价排名。</p>
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
     <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>

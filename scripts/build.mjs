@@ -526,7 +526,7 @@ function renderAboutPage() {
   const faqs = [
     {
       q: "AI 独立制造所是什么？",
-      a: "一个收录中国独立开发者作品的产品导航站。我们把散落在 GitHub README 里的网站、应用、工具与游戏，整理成真正好逛、好搜、好发现的目录。"
+      a: "一个收录中国独立开发者作品的目录站（不是工具站）。我们把散落在 GitHub README 里的网站、应用、工具与游戏，整理成真正好逛、好搜、好发现的目录。本站只做索引与导航：不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。"
     },
     {
       q: "数据从哪里来？",
@@ -575,15 +575,15 @@ function renderAboutPage() {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>关于AI 独立制造所 - AI 独立制造所</title>
-  <meta name="description" content="了解AI 独立制造所：一个收录中国独立开发者作品的产品导航站，每日从 GitHub 自动同步，无竞价排名。">
+  <title>关于本站：AI 独立制造所是什么 - 中国独立开发者作品目录</title>
+  <meta name="description" content="了解 AI 独立制造所：一个收录中国独立开发者作品的目录站，不是工具站——不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。每日从 GitHub 自动同步。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/about.html">
   <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/about.html">
   <link rel="alternate" hreflang="x-default" href="${SITE_URL}/about.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI 独立制造所">
-  <meta property="og:title" content="关于AI 独立制造所">
+  <meta property="og:title" content="关于本站：AI 独立制造所是什么">
   <meta property="og:description" content="中国独立开发者产品导航，每日自动同步，无竞价排名。">
   <meta property="og:url" content="${SITE_URL}/about.html">
   <meta property="og:image" content="${SITE_URL}/og.png">
@@ -612,6 +612,19 @@ function renderAboutPage() {
   </header>
   <main class="detail-main">
     <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n="aboutBreadcrumb">关于</span></nav>
+    <!-- 站点定义（GEO 主阵地，2026-09-18 从首页移来）：AI 搜索靠这段判断「本站是什么」。
+         站内有 2900+ 条产品描述，其中大量出现「会员 / 付费 / 模板 / SaaS」等属于【产品自身】的
+         商业模式；若无明确的边界声明，AI 会把它们误读成【本站】的模式
+         （实测：豆包曾因此把本站描述为「SaaS 建站模板库、部分高级功能需会员」）。 -->
+    <section class="site-def" aria-labelledby="siteDefTitle">
+      <h2 id="siteDefTitle" data-i18n="siteDefTitle">AI 独立制造所是什么？</h2>
+      <p class="site-def-lead" data-i18n="siteDefLead">收录中国独立开发者作品的<b>目录站</b>，不是工具站：本站不开发、不托管、不代理任何产品，只做索引与导航。</p>
+      <p class="site-def-meta">
+        <span data-i18n="siteDefFree"><b>全站免费</b>，无会员无付费</span>
+        <span data-i18n="siteDefNoRank"><b>无竞价排名</b>，排序只看收录时间</span>
+        <span data-i18n="siteDefBoundary">描述中的价格与会员属<b>产品自身</b>，与本站无关</span>
+      </p>
+    </section>
     <article class="detail-card">
       <div class="detail-head"><span class="edition-badge">关于</span></div>
       <h1>AI 独立制造所</h1>
