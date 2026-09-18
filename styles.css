@@ -122,18 +122,22 @@ footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid 
 footer a:hover { color: var(--red); border-bottom-color: var(--red); }
 
 /* ── 触控热区扩展（可访问性 / 移动端）───────────────────────────
-   实测 390px 下的可点元素高度：卡片「详情 / 去看看」仅 16px、「重置」18px、
-   页脚链接 17-19px、详情页推荐条目 20px、详情页分类标签 30px ——
-   低于 WCAG 建议的 24px（触控 44px），而这些恰是频率最高的动作
-   （进详情页 / 去官网 / 重置筛选），手机上极易点错。
-   做法：伪元素向外扩命中区，**只扩垂直方向**（横向留 0，避免相邻链接互相抢点击），
-   绝对定位不占布局 —— 视觉与排版完全不变，只是"更容易点中"。
-   实测验证（外探 5px 仍命中）：卡片链接、重置、推荐条目 均 ✅
-   注：伪元素对 display:inline 元素的下半部分不生效（实测页脚链接下探失败），
-       故页脚链接改用 inline-block + padding。 */
+   实测 390px 下的可点元素盒子高度：卡片「详情 / 去看看」仅 16px、「重置」18px、
+   页脚链接 17-19px、详情页推荐条目 20px、分类标签 30px、卡片标题 26px、面包屑 19px
+   —— 低于触控建议的 32px，手机上易点错。
+   两种手法，按元素 display 选：
+     ① 块级 / flex 子项 → position:relative + ::after 外扩（不占布局，视觉零变化）
+     ② inline 元素      → 直接加垂直 padding（不改变行高，但热区随之变大）
+        ⚠️ inline 元素不要用 ::after 外扩：绝对定位包含块是行内盒，会被行盒切割，
+           表现为「上扩成功、下扩失效」（实测页脚链接踩过）
+        ⚠️ 卡片标题也不要改 inline-block —— 会破坏两行截断，故用 padding
+   两种手法都**只扩垂直、横向留 0**，避免相邻链接互相抢点击。 */
 .card-links a, .filter-heading button, .u-name, .detail-tags a { position: relative; }
 .card-links a::after, .filter-heading button::after, .u-name::after, .detail-tags a::after { content: ""; position: absolute; inset: -8px 0; }
+/* inline 元素：垂直 padding 扩热区（页面布局与行高不受影响） */
 footer .footer-links a { display: inline-block; line-height: 1.7; padding: 5px 0; }
+.project-card h2 a { padding: 5px 0; }
+.breadcrumb a { padding: 4px 0; }
 @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 1050px) { .project-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }.hero { padding-left: 3%; padding-right: 3%; }.search-stage { padding-left: 3%; padding-right: 3%; } }
 @media (max-width: 760px) { .site-header { height: 76px; padding: 14px 18px; }.brand-seal { width: 43px; height: 43px; }.brand small, .top-nav a:first-child { display: none; } main { padding: 0 18px 50px; }.hero { min-height: auto; grid-template-columns: 1fr; gap: 25px; padding: 48px 0 35px; }.hero-note { display: none; } h1 { font-size: 44px; }.search-stage { padding: 0 0 22px; }.search-wrap { height: 61px; box-shadow: 4px 4px 0 var(--red); }.search-mark { padding: 0 12px 4px; }.search-wrap input { font-size: 14px; }.search-wrap kbd { display: none; }.clear-search { padding: 0 12px; }.directory-shell { grid-template-columns: 1fr; }.filter-panel { position: static; }.filter-panel fieldset { display: flex; flex-wrap: wrap; gap: 4px 14px; }.filter-panel fieldset label { min-height: 27px; }.source-note { display: none; }.project-grid { grid-template-columns: 1fr; }.project-card { min-height: 215px; }.results-toolbar { margin-top: 4px; } footer { margin: 0 18px; padding-left: 0; padding-right: 0; flex-direction: column; gap: 5px; } }
