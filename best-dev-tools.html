@@ -28,6 +28,31 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"有哪些好用的 AI 编程工具？","acceptedAnswer":{"@type":"Answer","text":"本榜单收录了 hippoxOS（LLM 操作系统）、vibepanel（自托管 AI 编程会话面板，可在浏览器和手机上管理多个 Claude Code 会话）、MOVO（企业级 Agent 平台）、WebCode（浏览器内运行 Claude Code / Codex）、BitFun（开源跨平台桌面 AI Agent）等开发者工具。"}},{"@type":"Question","name":"多个 AI 模型的 API 怎么统一调用？","acceptedAnswer":{"@type":"Answer","text":"可以用 API 中转网关：TeamoRouter 支持一个 key 调用 GPT-6 Astra / Claude / Gemini 等多个模型；TideLink 让已有 OpenAI SDK 代码无需改动即可切换模型；Sub2API 与 XiuRouter 则面向个人到商业规模提供多档方案。"}},{"@type":"Question","name":"独立开发者怎么找产品点子？","acceptedAnswer":{"@type":"Answer","text":"SiteHunter 是面向独立开发者和创业者的市场调研平台，通过数据而非直觉找 SaaS 创业方向；Vibe Coding 首切片 帮助把模糊需求拆成可运行、可验收的核心切片；cc8.cc 则是面向独立开发者的公开曝光榜。"}},{"@type":"Question","name":"中国独立开发者做了哪些开发者工具？","acceptedAnswer":{"@type":"Answer","text":"本站收录的开发工具类产品超过 530 个，覆盖 AI 编程、API 网关、CI/CD、监控运维、安全取证、代码统计等方向，全部来自中国独立开发者的个人或小团队作品。"}},{"@type":"Question","name":"这些开发者工具收费吗？","acceptedAnswer":{"@type":"Answer","text":"本榜单包含免费开源工具与商业工具。例如 hippoxOS、BitFun、mv3migrate、OctoCounts 为开源项目；商业工具多提供免费额度或试用，具体以官网说明为准。"}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI 独立制造所","alternateName":"Indie Maker","url":"https://indiemaker.cn/","logo":"https://indiemaker.cn/favicon.svg","description":"中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script type="module">
+  import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
+  const saved = getSavedLocale();
+  setLocale(saved || browserLocale());
+  const applyInnerI18n = () => {
+    const zh = getCurrentLocale() === "zh";
+    document.documentElement.lang = zh ? "zh-CN" : "en";
+    if (zh) return;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const argAttr = el.getAttribute("data-i18n-arg");
+      const val = argAttr ? t(key, ...argAttr.split("|")) : t(key);
+      if (val !== undefined && val !== null && val !== key) el.textContent = val;
+    });
+    document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
+      el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
+    });
+  };
+  applyInnerI18n();
+  if (!saved) {
+    detectLocaleByIP().then((loc) => {
+      if (loc && loc !== getCurrentLocale()) { setLocale(loc); applyInnerI18n(); }
+    }).catch(() => {});
+  }
+</script>
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -39,10 +64,10 @@
     <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a><a href="/best-indie-games.html">独立游戏精选</a></nav>
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">开发者工具精选</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">开发者工具精选</span></nav>
     <div class="category-head">
       <h1>2026 值得一试的开发者工具精选</h1>
-      <p class="category-count">从中国独立开发者作品中精选 <b>21</b> 个 · 更新于 2026-09-17</p>
+      <p class="category-count">从中国独立开发者作品中精选 <b>21</b> 个 · 更新于 2026-09-18</p>
     </div>
     <p class="best-intro">本榜单由中国独立开发者产品导航「AI 独立制造所」整理。面向开发者与独立创作者，覆盖 <b>AI 编程 Agent 平台</b>、<b>模型 API 网关</b>、<b>调研与曝光</b>、<b>安全与取证</b>、<b>开发辅助资源</b>五类。</p>
     <section class="best-group">
@@ -146,17 +171,17 @@
       </li></ol>
     </section>
     <section class="faq-list">
-      <h2 class="faq-title">常见问题</h2>
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
       <details class="faq-item"><summary>有哪些好用的 AI 编程工具？</summary><p>本榜单收录了 hippoxOS（LLM 操作系统）、vibepanel（自托管 AI 编程会话面板，可在浏览器和手机上管理多个 Claude Code 会话）、MOVO（企业级 Agent 平台）、WebCode（浏览器内运行 Claude Code / Codex）、BitFun（开源跨平台桌面 AI Agent）等开发者工具。</p></details><details class="faq-item"><summary>多个 AI 模型的 API 怎么统一调用？</summary><p>可以用 API 中转网关：TeamoRouter 支持一个 key 调用 GPT-6 Astra / Claude / Gemini 等多个模型；TideLink 让已有 OpenAI SDK 代码无需改动即可切换模型；Sub2API 与 XiuRouter 则面向个人到商业规模提供多档方案。</p></details><details class="faq-item"><summary>独立开发者怎么找产品点子？</summary><p>SiteHunter 是面向独立开发者和创业者的市场调研平台，通过数据而非直觉找 SaaS 创业方向；Vibe Coding 首切片 帮助把模糊需求拆成可运行、可验收的核心切片；cc8.cc 则是面向独立开发者的公开曝光榜。</p></details><details class="faq-item"><summary>中国独立开发者做了哪些开发者工具？</summary><p>本站收录的开发工具类产品超过 530 个，覆盖 AI 编程、API 网关、CI/CD、监控运维、安全取证、代码统计等方向，全部来自中国独立开发者的个人或小团队作品。</p></details><details class="faq-item"><summary>这些开发者工具收费吗？</summary><p>本榜单包含免费开源工具与商业工具。例如 hippoxOS、BitFun、mv3migrate、OctoCounts 为开源项目；商业工具多提供免费额度或试用，具体以官网说明为准。</p></details>
     </section>
     <section class="more-rankings">
-    <h2>更多精选榜单</h2>
+    <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
     <ul><li><a href="/best-ai-tools.html">2026 最值得用的免费 AI 工具精选</a></li><li><a href="/best-indie-games.html">2026 值得一玩的独立游戏精选</a></li><li><a href="/best-free-tools.html">2026 最实用的免费在线工具精选</a></li><li><a href="/best-productivity-tools.html">2026 值得一试的效率工具精选</a></li><li><a href="/best-browser-extensions.html">2026 值得装的浏览器扩展与网页工具精选</a></li></ul>
   </section>
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>

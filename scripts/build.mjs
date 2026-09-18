@@ -53,6 +53,36 @@ const ORGANIZATION_LD = JSON.stringify({
 // Umami 访问统计（隐私友好、无 cookie，全站复用）
 const UMAMI_SCRIPT = '<script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>';
 
+// 内页（详情页 / 分类页 / 榜单页 / 关于页 / weekly）i18n 运行时。
+// 设计：静态 HTML 一律用中文（利于 SEO 抓取与无 JS 场景），JS 就绪后按 locale 替换为英文。
+// 海外默认英文：未手动选择过时用 IP 检测修正（country.is，CN→中文、其他→英文）。
+// 标记：data-i18n="key"｜data-i18n="key" data-i18n-arg="a|b"（多参）｜data-i18n-cat="中文分类名"。
+const INNER_I18N_SCRIPT = `<script type="module">
+  import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
+  const saved = getSavedLocale();
+  setLocale(saved || browserLocale());
+  const applyInnerI18n = () => {
+    const zh = getCurrentLocale() === "zh";
+    document.documentElement.lang = zh ? "zh-CN" : "en";
+    if (zh) return;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const argAttr = el.getAttribute("data-i18n-arg");
+      const val = argAttr ? t(key, ...argAttr.split("|")) : t(key);
+      if (val !== undefined && val !== null && val !== key) el.textContent = val;
+    });
+    document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
+      el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
+    });
+  };
+  applyInnerI18n();
+  if (!saved) {
+    detectLocaleByIP().then((loc) => {
+      if (loc && loc !== getCurrentLocale()) { setLocale(loc); applyInnerI18n(); }
+    }).catch(() => {});
+  }
+</script>`;
+
 // 分类英文 slug 映射（分类页 URL：/c/{slug}.html）
 const CATEGORY_SLUGS = {
   "AI 工具": "ai-tools",
@@ -179,7 +209,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   const primaryCategory = categories[0] || "未分类";
   const catSlug = CATEGORY_SLUGS[primaryCategory] || "uncategorized";
 
-  const breadcrumb = `<a href="/">首页</a><span class="sep">›</span><a href="/c/${catSlug}.html">${escapeHTML(primaryCategory)}</a><span class="sep">›</span><span class="current">${name}</span>`;
+  const breadcrumb = `<a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><a href="/c/${catSlug}.html" data-i18n-cat="${escapeHTML(primaryCategory)}">${escapeHTML(primaryCategory)}</a><span class="sep">›</span><span class="current">${name}</span>`;
   const tags = categories.map((c) => {
     const cs = CATEGORY_SLUGS[c] || "uncategorized";
     return `<a href="/c/${cs}.html">${escapeHTML(c)}</a>`;
@@ -220,7 +250,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   });
 
   const relatedSection = relatedCards
-    ? `<section class="related" id="related"><h2>同分类推荐</h2><div class="related-grid">${relatedCards}</div></section>`
+    ? `<section class="related" id="related"><h2 data-i18n="relatedTitle">同分类推荐</h2><div class="related-grid">${relatedCards}</div></section>`
     : "";
 
   // ── 独有内容模块（P1 SEO：只用真实数据重组，不生成虚构内容）──
@@ -230,7 +260,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   // 模块 1：同作者其他作品
   const sameMaker = (ctx.byMakerIdx?.get(project.maker) || []).filter((x) => x.id !== project.id);
   const sameMakerSection = sameMaker.length
-    ? `<section class="unique-block"><h2>「${escapeHTML(project.maker)}」还做了这些</h2>
+    ? `<section class="unique-block"><h2 data-i18n="sameMakerTitle" data-i18n-arg="${escapeHTML(project.maker)}">「${escapeHTML(project.maker)}」还做了这些</h2>
       <ul class="u-list">${sameMaker.slice(0, MAKER_LIST_MAX).map(miniItem).join("")}</ul>
       ${sameMaker.length > MAKER_LIST_MAX ? `<p class="u-note">该开发者另有 ${sameMaker.length - MAKER_LIST_MAX} 个作品也收录在本站。</p>` : ""}
     </section>`
@@ -239,7 +269,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   // 模块 2：同日收录关联
   const sameDate = (ctx.byDateIdx?.get(project.addedAt) || []).filter((x) => x.id !== project.id);
   const sameDateSection = sameDate.length >= 2
-    ? `<section class="unique-block"><h2>同一批被收录的还有</h2>
+    ? `<section class="unique-block"><h2 data-i18n="sameBatchTitle">同一批被收录的还有</h2>
       <p class="u-note">本批（${project.addedAt}）共收录 <b>${sameDate.length + 1}</b> 个作品</p>
       <ul class="u-list">${sameDate.slice(0, SAME_DATE_LIST_MAX).map(miniItem).join("")}</ul>
       ${sameDate.length > SAME_DATE_LIST_MAX ? `<p class="u-note">同批还有 ${sameDate.length - SAME_DATE_LIST_MAX} 个，<a href="/weekly.html">看本周新收录 →</a></p>` : ""}
@@ -252,20 +282,20 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   const catIdx = primaryCat ? (ctx.indexInCategory?.get(project.id) || {})[primaryCat] : null;
   const inactivePct = catStat ? Math.round((catStat.inactive || 0) / catStat.total * 100) : 0;
   const catInsightSection = catStat
-    ? `<section class="unique-block"><h2>关于「${escapeHTML(primaryCat)}」分类</h2>
+    ? `<section class="unique-block"><h2 data-i18n="catInsightTitle" data-i18n-arg="${escapeHTML(primaryCat)}">关于「${escapeHTML(primaryCat)}」分类</h2>
       <ul class="u-stats">
-        <li><b>${catStat.total}</b><span>共收录</span></li>
-        <li><b>${catStat.online || 0}</b><span>已上线</span></li>
-        <li><b>${catStat.developing || 0}</b><span>开发中</span></li>
-        <li><b>${catStat.inactive || 0}</b><span>已停更</span></li>
+        <li><b>${catStat.total}</b><span data-i18n="catStatTotal">共收录</span></li>
+        <li><b>${catStat.online || 0}</b><span data-i18n="catStatOnline">已上线</span></li>
+        <li><b>${catStat.developing || 0}</b><span data-i18n="catStatDeveloping">开发中</span></li>
+        <li><b>${catStat.inactive || 0}</b><span data-i18n="catStatInactive">已停更</span></li>
       </ul>
       ${catIdx ? `<p>本产品是该分类按收录时间排序的 <b>第 ${catIdx} 个</b>作品；该分类中约 <b>${inactivePct}%</b> 的作品已停更。</p>` : ""}
-      <p class="u-note"><a href="/c/${CATEGORY_SLUGS[primaryCat] || "uncategorized"}.html">浏览「${escapeHTML(primaryCat)}」全部产品 →</a></p>
+      <p class="u-note"><a href="/c/${CATEGORY_SLUGS[primaryCat] || "uncategorized"}.html" data-i18n="browseAllInCat" data-i18n-arg="${escapeHTML(primaryCat)}">浏览「${escapeHTML(primaryCat)}」全部产品 →</a></p>
     </section>`
     : "";
 
   // 模块 4：数据来源与纠错（E-E-A-T 透明度信号）
-  const sourceSection = `<section class="unique-block"><h2>数据来源</h2>
+  const sourceSection = `<section class="unique-block"><h2 data-i18n="dataSourceTitle">数据来源</h2>
     <p>本页信息由 AI 独立制造所每日从开源仓库 <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer</a> 自动同步，本产品收录于 <b>${project.addedAt}</b>。</p>
     <p class="u-note">信息有误或想更新？<a href="mailto:kolbyzhu5@gmail.com">告诉我们</a>，或直接向<a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">上游仓库提交 PR</a>。</p>
   </section>`;
@@ -304,6 +334,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   <script type="application/ld+json">${breadcrumbLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
   ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -323,16 +354,16 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
       <div class="detail-meta"><span><b>开发者</b>${maker}${city}</span><span><b>状态</b>${status}</span></div>
       <div class="detail-tags">${tags}</div>
       <div class="detail-actions">
-        <a class="btn-primary" href="${url}" target="_blank" rel="noreferrer">访问官网 ↗</a>
+        <a class="btn-primary" href="${url}" target="_blank" rel="noreferrer" data-i18n="detailVisitSite">访问官网 ↗</a>
         ${extraLinks}
-        ${relatedCards ? '<a class="btn-ghost" href="#related">看同类产品 ↓</a>' : ""}
+        ${relatedCards ? '<a class="btn-ghost" href="#related" data-i18n="detailMoreLikeThis">看同类产品 ↓</a>' : ""}
       </div>
     </article>
     ${uniqueContent}
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -353,12 +384,12 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   const catNav = allCategories.map(([c, n]) => {
     const cs = CATEGORY_SLUGS[c];
     const active = c === category ? ' class="active"' : "";
-    return `<a href="/c/${cs}.html"${active}>${escapeHTML(c)}（${n}）</a>`;
+    return `<a href="/c/${cs}.html"${active}><span data-i18n-cat="${escapeHTML(c)}">${escapeHTML(c)}</span>（${n}）</a>`;
   }).join("");
   const paginationNav = totalPages > 1 ? `<nav class="pagination" aria-label="分页导航">
-    ${safePage > 1 ? `<a class="page-btn" href="${safePage === 2 ? `/c/${catSlug}.html` : `/c/${catSlug}/${safePage - 1}.html`}">← 上一页</a>` : `<span class="page-btn is-disabled">← 上一页</span>`}
-    <span class="page-info">第 <b>${safePage}</b> / ${totalPages} 页</span>
-    ${safePage < totalPages ? `<a class="page-btn" href="/c/${catSlug}/${safePage + 1}.html">下一页 →</a>` : `<span class="page-btn is-disabled">下一页 →</span>`}
+    ${safePage > 1 ? `<a class="page-btn" href="${safePage === 2 ? `/c/${catSlug}.html` : `/c/${catSlug}/${safePage - 1}.html`}" data-i18n="paginationPrev">← 上一页</a>` : `<span class="page-btn is-disabled" data-i18n="paginationPrev">← 上一页</span>`}
+    <span class="page-info" data-i18n="paginationInfo" data-i18n-arg="${safePage}|${totalPages}">第 <b>${safePage}</b> / ${totalPages} 页</span>
+    ${safePage < totalPages ? `<a class="page-btn" href="/c/${catSlug}/${safePage + 1}.html" data-i18n="paginationNext">下一页 →</a>` : `<span class="page-btn is-disabled" data-i18n="paginationNext">下一页 →</span>`}
   </nav>` : "";
 
   const cards = products.map((p) => {
@@ -422,6 +453,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   <script type="application/ld+json">${collectionLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
   ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -433,18 +465,18 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
     ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">${escapeHTML(category)}</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n-cat="${escapeHTML(category)}">${escapeHTML(category)}</span></nav>
     <div class="category-head">
       <h1>${escapeHTML(category)}</h1>
-      <p class="category-count">共收录 <b>${totalCount}</b> 个产品${safePage > 1 ? `（第 ${safePage} 页）` : ""}</p>
+      <p class="category-count"><span data-i18n="catCountLabel">共收录</span> <b>${totalCount}</b> <span data-i18n="catCountUnit">个产品</span>${safePage > 1 ? `（第 ${safePage} 页）` : ""}</p>
       <nav class="category-nav" aria-label="分类导航">${catNav}</nav>
     </div>
     <div class="category-grid">${cards}</div>
     ${paginationNav}
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -517,6 +549,7 @@ function renderAboutPage() {
   <script type="application/ld+json">${faqLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
   ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -528,7 +561,7 @@ function renderAboutPage() {
     ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">关于</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n="aboutBreadcrumb">关于</span></nav>
     <article class="detail-card">
       <div class="detail-head"><span class="edition-badge">关于</span></div>
       <h1>AI 独立制造所</h1>
@@ -541,13 +574,13 @@ function renderAboutPage() {
       </div>
     </article>
     <section class="faq-list">
-      <h2 class="faq-title">常见问题</h2>
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
       ${faqHTML}
     </section>
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -720,7 +753,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
   // 榜单间互链（帮助用户与爬虫发现全部榜单）
   const otherRankings = RANKINGS.filter((r) => r.slug !== cfg.slug);
   const moreRankingsHTML = `<section class="more-rankings">
-    <h2>更多精选榜单</h2>
+    <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
     <ul>${otherRankings.map((r) => `<li><a href="/${r.slug}.html">${escapeHTML(r.title)}</a></li>`).join("")}</ul>
   </section>`;
 
@@ -766,6 +799,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
   <script type="application/ld+json">${faqLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
   ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -777,7 +811,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
     ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">${escapeHTML(cfg.navLabel)}</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">${escapeHTML(cfg.navLabel)}</span></nav>
     <div class="category-head">
       <h1>${escapeHTML(cfg.title)}</h1>
       <p class="category-count">${cfg.countLabel} <b>${total}</b> 个 · 更新于 ${today}</p>
@@ -785,14 +819,14 @@ function renderRankingPage(cfg, allProjects, slugMap) {
     <p class="best-intro">${cfg.intro}</p>
     ${groupsHTML}
     <section class="faq-list">
-      <h2 class="faq-title">常见问题</h2>
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
       ${faqHTML}
     </section>
     ${moreRankingsHTML}
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -857,6 +891,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   <script type="application/ld+json">${itemListLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
   ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -868,7 +903,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
     ${BEST_TOP_NAV}
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">本周新收录</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n="weeklyBreadcrumb">本周新收录</span></nav>
     <div class="category-head">
       <h1>本周新收录</h1>
       <p class="category-count">${startDate} ~ ${endDate} · 共 <b>${count}</b> 个新作品</p>
@@ -876,8 +911,8 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
     <div class="category-grid">${cards || '<p class="category-count">最近 7 天暂无新收录，请稍后再来。</p>'}</div>
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>

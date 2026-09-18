@@ -28,6 +28,31 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"有哪些免费又好用的在线工具？","acceptedAnswer":{"@type":"Answer","text":"AI 独立制造所精选了 20 个免安装的免费在线工具，涵盖图片转字符画（Image to ASCII）、证件照制作（PicPermit）、PDF 对比与合并、批量生成 PDF、音频调性检测、视频转文字、订阅账单分析、屏幕坏点检测等，全部在浏览器内运行，无需下载软件或注册账号。"}},{"@type":"Question","name":"不装软件能处理图片和 PDF 吗？","acceptedAnswer":{"@type":"Answer","text":"可以。PicPermit 支持 500+ 官方证件照规格与 ICAO 生物识别线辅助；PdfCompare 基于浏览器 WebAssembly 做 PDF 对比与文本转换；MailMergeOnline 内置证书、合同、工资单模板批量生成 PDF。文件均在本地处理，不上传服务器。"}},{"@type":"Question","name":"免费在线工具安全吗？会上传我的文件吗？","acceptedAnswer":{"@type":"Answer","text":"本榜单优先收录「浏览器本地处理」的工具，例如 Image to ASCII、Find Key & BPM 等均声明文件不上传、在浏览器内本地完成处理；部分工具还开源可查代码。涉及敏感文件时建议优先选择这类本地处理工具。"}},{"@type":"Question","name":"怎么查自己有多少自动续费订阅？","acceptedAnswer":{"@type":"Answer","text":"用 Trim 订阅扫雷器：导入支付宝或微信账单，自动识别自动续费项、算出年度订阅总支出与可省金额，帮你在涨价前发现不用的订阅。"}},{"@type":"Question","name":"这些工具收费吗？","acceptedAnswer":{"@type":"Answer","text":"本榜单收录的全部是免费工具（部分开源），无需付费即可使用核心功能。少数可能提供付费增值项，但不影响免费使用。"}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI 独立制造所","alternateName":"Indie Maker","url":"https://indiemaker.cn/","logo":"https://indiemaker.cn/favicon.svg","description":"中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script type="module">
+  import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
+  const saved = getSavedLocale();
+  setLocale(saved || browserLocale());
+  const applyInnerI18n = () => {
+    const zh = getCurrentLocale() === "zh";
+    document.documentElement.lang = zh ? "zh-CN" : "en";
+    if (zh) return;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const argAttr = el.getAttribute("data-i18n-arg");
+      const val = argAttr ? t(key, ...argAttr.split("|")) : t(key);
+      if (val !== undefined && val !== null && val !== key) el.textContent = val;
+    });
+    document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
+      el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
+    });
+  };
+  applyInnerI18n();
+  if (!saved) {
+    detectLocaleByIP().then((loc) => {
+      if (loc && loc !== getCurrentLocale()) { setLocale(loc); applyInnerI18n(); }
+    }).catch(() => {});
+  }
+</script>
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -39,10 +64,10 @@
     <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a><a href="/best-indie-games.html">独立游戏精选</a></nav>
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">免费工具精选</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">免费工具精选</span></nav>
     <div class="category-head">
       <h1>2026 最实用的免费在线工具精选</h1>
-      <p class="category-count">从中国独立开发者作品中精选 <b>20</b> 个 · 更新于 2026-09-17</p>
+      <p class="category-count">从中国独立开发者作品中精选 <b>20</b> 个 · 更新于 2026-09-18</p>
     </div>
     <p class="best-intro">本榜单由中国独立开发者产品导航「AI 独立制造所」整理。收录标准：<b>完全免费</b>、<b>免安装免注册</b>、<b>浏览器内直接运行</b>。适合不想装软件、随手要处理个文件或图片的场景。</p>
     <section class="best-group">
@@ -142,17 +167,17 @@
       </li></ol>
     </section>
     <section class="faq-list">
-      <h2 class="faq-title">常见问题</h2>
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
       <details class="faq-item"><summary>有哪些免费又好用的在线工具？</summary><p>AI 独立制造所精选了 20 个免安装的免费在线工具，涵盖图片转字符画（Image to ASCII）、证件照制作（PicPermit）、PDF 对比与合并、批量生成 PDF、音频调性检测、视频转文字、订阅账单分析、屏幕坏点检测等，全部在浏览器内运行，无需下载软件或注册账号。</p></details><details class="faq-item"><summary>不装软件能处理图片和 PDF 吗？</summary><p>可以。PicPermit 支持 500+ 官方证件照规格与 ICAO 生物识别线辅助；PdfCompare 基于浏览器 WebAssembly 做 PDF 对比与文本转换；MailMergeOnline 内置证书、合同、工资单模板批量生成 PDF。文件均在本地处理，不上传服务器。</p></details><details class="faq-item"><summary>免费在线工具安全吗？会上传我的文件吗？</summary><p>本榜单优先收录「浏览器本地处理」的工具，例如 Image to ASCII、Find Key &amp; BPM 等均声明文件不上传、在浏览器内本地完成处理；部分工具还开源可查代码。涉及敏感文件时建议优先选择这类本地处理工具。</p></details><details class="faq-item"><summary>怎么查自己有多少自动续费订阅？</summary><p>用 Trim 订阅扫雷器：导入支付宝或微信账单，自动识别自动续费项、算出年度订阅总支出与可省金额，帮你在涨价前发现不用的订阅。</p></details><details class="faq-item"><summary>这些工具收费吗？</summary><p>本榜单收录的全部是免费工具（部分开源），无需付费即可使用核心功能。少数可能提供付费增值项，但不影响免费使用。</p></details>
     </section>
     <section class="more-rankings">
-    <h2>更多精选榜单</h2>
+    <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
     <ul><li><a href="/best-ai-tools.html">2026 最值得用的免费 AI 工具精选</a></li><li><a href="/best-indie-games.html">2026 值得一玩的独立游戏精选</a></li><li><a href="/best-dev-tools.html">2026 值得一试的开发者工具精选</a></li><li><a href="/best-productivity-tools.html">2026 值得一试的效率工具精选</a></li><li><a href="/best-browser-extensions.html">2026 值得装的浏览器扩展与网页工具精选</a></li></ul>
   </section>
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>

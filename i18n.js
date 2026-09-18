@@ -56,7 +56,28 @@ export const LOCALES = {
     a11yResults: "产品列表",
     a11yClearSearch: "清空搜索",
     a11yQuickTags: "热门分类",
-    a11yLangToggle: "切换语言"
+    a11yLangToggle: "切换语言",
+    // ── 内页界面文案（详情页 / 分类页 / 榜单页）──
+    cardDetail: "详情",
+    backHome: "首页",
+    relatedTitle: "同分类推荐",
+    paginationPrev: "← 上一页",
+    paginationNext: "下一页 →",
+    detailVisitSite: "访问官网",
+    detailMoreLikeThis: "看同类产品 ↓",
+    dataSourceTitle: "数据来源",
+    sameBatchTitle: "同一批被收录的还有",
+    catStatTotal: "共收录",
+    catStatOnline: "已上线",
+    catStatDeveloping: "开发中",
+    catStatInactive: "已停更",
+    moreRankingsTitle: "更多精选榜单",
+    faqTitle: "常见问题",
+    aboutLink: "关于本站",
+    catCountLabel: "共收录",
+    catCountUnit: "个产品",
+    aboutBreadcrumb: "关于",
+    weeklyBreadcrumb: "本周新收录"
   },
   en: {
     code: "en",
@@ -104,7 +125,28 @@ export const LOCALES = {
     a11yResults: "Product list",
     a11yClearSearch: "Clear search",
     a11yQuickTags: "Popular categories",
-    a11yLangToggle: "Toggle language"
+    a11yLangToggle: "Toggle language",
+    // ── Inner pages (detail / category / ranking) ──
+    cardDetail: "Details",
+    backHome: "Home",
+    relatedTitle: "More in this category",
+    paginationPrev: "← Previous",
+    paginationNext: "Next →",
+    detailVisitSite: "Visit site",
+    detailMoreLikeThis: "Similar products ↓",
+    dataSourceTitle: "Data source",
+    sameBatchTitle: "Also added in the same batch",
+    catStatTotal: "Total",
+    catStatOnline: "Online",
+    catStatDeveloping: "In development",
+    catStatInactive: "Discontinued",
+    moreRankingsTitle: "More curated lists",
+    faqTitle: "FAQ",
+    aboutLink: "About",
+    catCountLabel: "Contains",
+    catCountUnit: "products",
+    aboutBreadcrumb: "About",
+    weeklyBreadcrumb: "This week"
   }
 };
 
@@ -136,7 +178,17 @@ const DYNAMIC = {
     return (map[key] && map[key][currentLocale]) || key;
   },
   // 卡片"去看看"按钮
-  cardVisit: () => (currentLocale === "zh" ? "去看看 ↗" : "Visit ↗")
+  cardVisit: () => (currentLocale === "zh" ? "去看看 ↗" : "Visit ↗"),
+  // ── 内页参数化文案 ──
+  sameMakerTitle: (maker) => (currentLocale === "zh" ? `「${maker}」还做了这些` : `More by ${maker}`),
+  sameBatchNote: (date, n) => (currentLocale === "zh" ? `本批（${date}）共收录 ${n} 个作品` : `${n} works in the same batch (${date})`),
+  catInsightTitle: (cat) => (currentLocale === "zh" ? `关于「${cat}」分类` : `About ${CATEGORY_I18N[cat] || cat}`),
+  browseAllInCat: (cat) => (currentLocale === "zh" ? `浏览「${cat}」全部产品 →` : `Browse all ${CATEGORY_I18N[cat] || cat} →`),
+  paginationInfo: (page, total) => (currentLocale === "zh" ? `第 ${page} / ${total} 页` : `Page ${page} of ${total}`),
+  catCount: (n) => (currentLocale === "zh" ? `共收录 ${n} 个产品` : `${n} products`),
+  catIdxNote: (idx, pct) => (currentLocale === "zh"
+    ? `本产品是该分类按收录时间排序的 第 ${idx} 个 作品；该分类中约 ${pct}% 的作品已停更。`
+    : `Ranked #${idx} by addition time in this category; about ${pct}% of it is discontinued.`)
 };
 
 let currentLocale = "zh";
@@ -191,4 +243,29 @@ export async function detectLocaleByIP() {
     }
   } catch {}
   return null;
+}
+
+// ── 分类名翻译 ────────────────────────────────────────────────
+// 数据源（上游仓库）的分类名是中文，英文界面下需要映射。
+// 注意：这些是「界面标签」，不影响 URL slug（/c/ai-tools.html 等保持英文 kebab-case）。
+const CATEGORY_I18N = {
+  "AI 工具": "AI Tools",
+  "音视频": "Audio & Video",
+  "生活服务": "Lifestyle",
+  "游戏娱乐": "Games",
+  "免费工具": "Free Tools",
+  "效率工具": "Productivity",
+  "浏览器扩展": "Browser Extensions",
+  "社交社区": "Social",
+  "开发工具": "Dev Tools",
+  "教育学习": "Education",
+  "文档办公": "Docs & Office",
+  "图片工具": "Image Tools",
+  "未分类": "Uncategorized"
+};
+
+// 把中文分类名按当前 locale 渲染；中文 locale 原样返回，未知分类原样返回
+export function categoryName(name) {
+  if (currentLocale === "zh") return name;
+  return CATEGORY_I18N[name] || name;
 }

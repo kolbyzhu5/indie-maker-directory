@@ -28,6 +28,31 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"同时订阅多个 AI 套餐怎么管理额度？","acceptedAnswer":{"@type":"Answer","text":"MaxUsage 帮助同时订阅多个 AI 编程套餐的用户充分利用每个套餐额度，根据剩余额度和重置时间给出使用建议；TokenTracker / 纸账 则是 Mac 菜单栏的 Agent 状态工具与本地用量账本，可查看 Claude Code 等工具的用量。"}},{"@type":"Question","name":"有什么工具能帮我专注、改掉拖延？","acceptedAnswer":{"@type":"Answer","text":"Dopastep 把你一直不想动的事拆成小到不用下决心就能开始的第一步，并进入实时专注房与他人同步专注；MoveToZero（iPhone 久坐提醒）通过步数目标和完成记录帮你安排起身走动。"}},{"@type":"Question","name":"知识库和笔记工具推荐哪些？","acceptedAnswer":{"@type":"Answer","text":"NotePP 是 macOS 平台的 Notepad++ 替代方案；Vault Keeper 是 Obsidian 自动运维插件，定时检测断链、孤儿笔记并生成报告；EchoWord 提供查词、划词翻译与 TTS 朗读，在语境中记单词。"}},{"@type":"Question","name":"做自媒体/出海营销有什么效率工具？","acceptedAnswer":{"@type":"Answer","text":"SocialEcho 面向出海企业和跨境卖家，在一个工作区统一管理 11 个海外社交平台；TwiFlux 提供超过 40 个 Twitter 下载与管理工具；Duo Translator 支持网页双语翻译、划词翻译与写作增强。"}},{"@type":"Question","name":"这些效率工具收费吗？","acceptedAnswer":{"@type":"Answer","text":"本榜单以免费或提供免费额度的工具为主，部分是开源项目。商业工具多提供免费试用或基础免费档，具体以官网说明为准。"}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI 独立制造所","alternateName":"Indie Maker","url":"https://indiemaker.cn/","logo":"https://indiemaker.cn/favicon.svg","description":"中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script type="module">
+  import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
+  const saved = getSavedLocale();
+  setLocale(saved || browserLocale());
+  const applyInnerI18n = () => {
+    const zh = getCurrentLocale() === "zh";
+    document.documentElement.lang = zh ? "zh-CN" : "en";
+    if (zh) return;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      const argAttr = el.getAttribute("data-i18n-arg");
+      const val = argAttr ? t(key, ...argAttr.split("|")) : t(key);
+      if (val !== undefined && val !== null && val !== key) el.textContent = val;
+    });
+    document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
+      el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
+    });
+  };
+  applyInnerI18n();
+  if (!saved) {
+    detectLocaleByIP().then((loc) => {
+      if (loc && loc !== getCurrentLocale()) { setLocale(loc); applyInnerI18n(); }
+    }).catch(() => {});
+  }
+</script>
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -39,10 +64,10 @@
     <nav class="top-nav" aria-label="主要导航"><a href="/#directory">逛产品</a><a href="/best-ai-tools.html">AI 工具精选</a><a href="/best-indie-games.html">独立游戏精选</a></nav>
   </header>
   <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/">首页</a><span class="sep">›</span><span class="current">效率工具精选</span></nav>
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">效率工具精选</span></nav>
     <div class="category-head">
       <h1>2026 值得一试的效率工具精选</h1>
-      <p class="category-count">从中国独立开发者作品中精选 <b>16</b> 个 · 更新于 2026-09-17</p>
+      <p class="category-count">从中国独立开发者作品中精选 <b>16</b> 个 · 更新于 2026-09-18</p>
     </div>
     <p class="best-intro">本榜单由中国独立开发者产品导航「AI 独立制造所」整理。面向需要管理多线任务、维护知识库、持续产出的个人。覆盖 <b>AI 会话与用量管理</b>、<b>专注与习惯</b>、<b>笔记与知识</b>、<b>社媒与翻译</b>、<b>学习与创作</b>五类。</p>
     <section class="best-group">
@@ -132,17 +157,17 @@
       </li></ol>
     </section>
     <section class="faq-list">
-      <h2 class="faq-title">常见问题</h2>
+      <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
       <details class="faq-item"><summary>同时订阅多个 AI 套餐怎么管理额度？</summary><p>MaxUsage 帮助同时订阅多个 AI 编程套餐的用户充分利用每个套餐额度，根据剩余额度和重置时间给出使用建议；TokenTracker / 纸账 则是 Mac 菜单栏的 Agent 状态工具与本地用量账本，可查看 Claude Code 等工具的用量。</p></details><details class="faq-item"><summary>有什么工具能帮我专注、改掉拖延？</summary><p>Dopastep 把你一直不想动的事拆成小到不用下决心就能开始的第一步，并进入实时专注房与他人同步专注；MoveToZero（iPhone 久坐提醒）通过步数目标和完成记录帮你安排起身走动。</p></details><details class="faq-item"><summary>知识库和笔记工具推荐哪些？</summary><p>NotePP 是 macOS 平台的 Notepad++ 替代方案；Vault Keeper 是 Obsidian 自动运维插件，定时检测断链、孤儿笔记并生成报告；EchoWord 提供查词、划词翻译与 TTS 朗读，在语境中记单词。</p></details><details class="faq-item"><summary>做自媒体/出海营销有什么效率工具？</summary><p>SocialEcho 面向出海企业和跨境卖家，在一个工作区统一管理 11 个海外社交平台；TwiFlux 提供超过 40 个 Twitter 下载与管理工具；Duo Translator 支持网页双语翻译、划词翻译与写作增强。</p></details><details class="faq-item"><summary>这些效率工具收费吗？</summary><p>本榜单以免费或提供免费额度的工具为主，部分是开源项目。商业工具多提供免费试用或基础免费档，具体以官网说明为准。</p></details>
     </section>
     <section class="more-rankings">
-    <h2>更多精选榜单</h2>
+    <h2 data-i18n="moreRankingsTitle">更多精选榜单</h2>
     <ul><li><a href="/best-ai-tools.html">2026 最值得用的免费 AI 工具精选</a></li><li><a href="/best-indie-games.html">2026 值得一玩的独立游戏精选</a></li><li><a href="/best-free-tools.html">2026 最实用的免费在线工具精选</a></li><li><a href="/best-dev-tools.html">2026 值得一试的开发者工具精选</a></li><li><a href="/best-browser-extensions.html">2026 值得装的浏览器扩展与网页工具精选</a></li></ul>
   </section>
   </main>
   <footer class="detail-footer">
-    <p>AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>

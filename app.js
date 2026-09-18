@@ -1,4 +1,4 @@
-import { LOCALES, t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP } from "./i18n.js";
+import { LOCALES, t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "./i18n.js";
 
 const state = {
   data: null,
@@ -91,11 +91,11 @@ function filteredProjects() {
 
 function cardTemplate(project, index) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
-  const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(tag)}</span>`).join("");
+  const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(categoryName(tag))}</span>`).join("");
   const editionLabel = t(editionKeyMap[project.edition] || "editionMain");
   const slug = state.slugMap.get(project.id);
   const detail = slug
-    ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a></span>`
+    ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">${t("cardDetail")}</a><a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a></span>`
     : `<a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a>`;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${editionLabel}</span><time class="card-date">${project.addedAt}</time></div>
@@ -267,7 +267,7 @@ async function init() {
     document.querySelector("#countGame").textContent = state.data.counts.game;
     document.querySelector("#syncTime").textContent = t("syncTime", new Date(state.data.generatedAt));
     const categories = Object.entries(state.data.categoryCounts).sort((a, b) => b[1] - a[1]).slice(0, 9);
-    elements.quickTags.innerHTML = categories.map(([name, count]) => `<button type="button" data-category="${escapeHTML(name)}">${escapeHTML(name)} <small>${count}</small></button>`).join("");
+    elements.quickTags.innerHTML = categories.map(([name, count]) => `<button type="button" data-category="${escapeHTML(name)}">${escapeHTML(categoryName(name))} <small>${count}</small></button>`).join("");
     render();
     injectItemListJSONLD();
 
