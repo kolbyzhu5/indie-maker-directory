@@ -1,10 +1,13 @@
-# AI 独立制造所 · 全部产品清单（2931）
+# AI 独立制造所 · 全部产品清单（2934）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-09-18（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2474）
+## 大众产品（2475）
+
+- **[SoulCut](https://soulcut-art.vercel.app/)** — 开发者 0xhappyboy · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-18 · [详情页](https://indiemaker.cn/p/soulcut.html)
+  一款为每一帧画面注入灵魂的非线性视频编辑系统，免费使用，内置 15 种滤镜、78 种视觉特效、26 种转场，支持多机位渲染与音视频同轨编辑 - [GitHub 仓库](https://github.com/0xhappyboy/SoulCut)
 
 - **[人人都是OPC](https://opcwiki.net/)** — 开发者 chyf（广州） · 免费工具 · 已上线 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/opc-f19fab.html)
   一人公司（OPC）中文知识库，聚合创业案例、变现教程、工具推荐、政策解读与开源项目
@@ -8405,7 +8408,13 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（132）
+## 独立游戏（134）
+
+- **[Over the Hill Wiki](https://overthehillwiki.com/)** — 开发者 LuKaka · 生活服务 / 游戏娱乐 · 已上线 · 收录 2026-09-18 · [详情页](https://indiemaker.cn/p/over-the-hill-wiki.html)
+  Over the Hill 非官方游戏攻略与资料站，整理游戏玩法、车辆、地图、常见问题和实用指南，方便玩家快速查找相关信息
+
+- **[Steal an Egg Predictor](https://stealaneggpredictor.com/)** — 开发者 LuKaka · 效率工具 / 游戏娱乐 · 已上线 · 收录 2026-09-18 · [详情页](https://indiemaker.cn/p/steal-an-egg-predictor.html)
+  Steal an Egg 非官方玩家工具与攻略站，提供蛋刷新时间预测、蛋和宠物资料以及相关游戏指南，帮助玩家更方便地查询和规划游戏进度
 
 - **[停一刻](https://calm.tradershelf.com/)** — 开发者 the-beating-light-of-the-nail · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/project-d1f01a.html)
   给交易者的三分钟休息站，管不住手的时候按流程走：30 秒安顿 → 60-90 秒小游戏 → 60 秒收尾；十个 30-90 秒小游戏分三类（情绪降温 / 注意力切换 / 规则与冲动，含舒尔特方格、Stroop、Go/No-Go），亏损后想立刻做下一笔时有专门的高风险暂停流程，不显示行情不给建议，记录只存本机，无需注册

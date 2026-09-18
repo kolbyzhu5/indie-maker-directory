@@ -4,29 +4,108 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-18T01:50:34.069Z",
+  "generatedAt": "2026-09-18T02:53:46.503Z",
   "counts": {
-    "total": 2931,
-    "main": 2474,
+    "total": 2934,
+    "main": 2475,
     "programmer": 325,
-    "game": 132,
+    "game": 134,
     "custom": 1
   },
   "categoryCounts": {
-    "免费工具": 453,
+    "音视频": 458,
+    "开发工具": 540,
+    "免费工具": 454,
+    "生活服务": 89,
+    "游戏娱乐": 167,
+    "效率工具": 417,
     "AI 工具": 885,
     "浏览器扩展": 278,
-    "开发工具": 539,
-    "游戏娱乐": 165,
-    "音视频": 457,
     "图片工具": 496,
     "文档办公": 268,
-    "效率工具": 416,
     "教育学习": 159,
-    "社交社区": 112,
-    "生活服务": 88
+    "社交社区": 112
   },
   "projects": [
+    {
+      "id": "main-20260918-0xhappyboy-soulcut",
+      "edition": "main",
+      "addedAt": "2026-09-18",
+      "maker": "0xhappyboy",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0xhappyboy"
+        }
+      ],
+      "name": "SoulCut",
+      "url": "https://soulcut-art.vercel.app/",
+      "status": "online",
+      "description": "一款为每一帧画面注入灵魂的非线性视频编辑系统，免费使用，内置 15 种滤镜、78 种视觉特效、26 种转场，支持多机位渲染与音视频同轨编辑 - [GitHub 仓库](https://github.com/0xhappyboy/SoulCut)",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/0xhappyboy/SoulCut"
+        },
+        {
+          "label": "下载（Windows/macOS/Linux）",
+          "url": "https://github.com/0xhappyboy/SoulCut/releases/latest"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260918-masker99-over-the-hill-wiki",
+      "edition": "game",
+      "addedAt": "2026-09-18",
+      "maker": "LuKaka",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "Over the Hill Wiki",
+      "url": "https://overthehillwiki.com/",
+      "status": "online",
+      "description": "Over the Hill 非官方游戏攻略与资料站，整理游戏玩法、车辆、地图、常见问题和实用指南，方便玩家快速查找相关信息",
+      "extraLinks": [],
+      "categories": [
+        "生活服务",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260918-masker99-steal-an-egg-predictor",
+      "edition": "game",
+      "addedAt": "2026-09-18",
+      "maker": "LuKaka",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "Steal an Egg Predictor",
+      "url": "https://stealaneggpredictor.com/",
+      "status": "online",
+      "description": "Steal an Egg 非官方玩家工具与攻略站，提供蛋刷新时间预测、蛋和宠物资料以及相关游戏指南，帮助玩家更方便地查询和规划游戏进度",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260917-chyf-人人都是opc",
       "edition": "main",
