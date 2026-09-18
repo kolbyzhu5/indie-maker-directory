@@ -13,7 +13,7 @@
 .edition-badge { font-size: 11px; letter-spacing: .1em; color: #fff9ec; background: var(--red); padding: 4px 11px; border-radius: 3px; }
 .detail-head time { font-size: 12px; color: var(--muted); }
 .detail-card h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.15; letter-spacing: -.02em; font-weight: 900; margin: 0 0 18px; }
-.detail-desc { font-size: 16px; line-height: 1.9; color: var(--ink); margin: 0 0 26px; }
+.detail-desc { font-size: 16px; line-height: 1.9; color: var(--ink); margin: 0 0 26px; overflow-wrap: anywhere; }
 .detail-meta { display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 14px; color: var(--muted); padding: 18px 0; border-top: 1px dashed var(--line); border-bottom: 1px dashed var(--line); }
 .detail-meta b { color: var(--ink); font-weight: 700; margin-right: 4px; }
 .detail-tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 26px; }
@@ -90,10 +90,13 @@
 .best-list li { position: relative; padding: 14px 0 14px 40px; border-bottom: 1px dashed var(--line); counter-increment: best; }
 .best-list li:last-child { border-bottom: 0; }
 .best-list li::before { content: counter(best); position: absolute; left: 0; top: 14px; width: 24px; height: 24px; display: grid; place-items: center; background: var(--red); color: #fff9ec; border-radius: 50%; font-size: 12px; font-weight: bold; }
-.best-name { display: inline-block; font-size: 16px; font-weight: 700; color: var(--red-dark); text-decoration: none; border-bottom: 1px solid rgba(107,82,38,.25); }
+/* overflow-wrap: anywhere —— 产品描述里可能出现超长不可断字符串
+   （实测有 97 字符的 URL，如 https://appgallery.huawei.com/app/detail?id=...），
+   浏览器默认不在「单词」内部断行，会把容器一路撑开导致整页横向滚动。 */
+.best-name { display: inline-block; font-size: 16px; font-weight: 700; color: var(--red-dark); text-decoration: none; border-bottom: 1px solid rgba(107,82,38,.25); overflow-wrap: anywhere; }
 .best-name:hover { color: var(--red); border-bottom-color: var(--red); }
-.best-desc { display: block; margin: 6px 0 5px; font-size: 13px; line-height: 1.8; color: var(--ink); }
-.best-meta { display: block; font-size: 11px; color: var(--muted); }
+.best-desc { display: block; margin: 6px 0 5px; font-size: 13px; line-height: 1.8; color: var(--ink); overflow-wrap: anywhere; }
+.best-meta { display: block; font-size: 11px; color: var(--muted); overflow-wrap: anywhere; }
 .unique-block a { color: var(--red-dark); }
 .unique-block a:hover { color: var(--red); }
 
