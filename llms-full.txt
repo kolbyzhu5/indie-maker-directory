@@ -1,10 +1,22 @@
-# AI 独立制造所 · 全部产品清单（2934）
+# AI 独立制造所 · 全部产品清单（2940）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-18（北京时间）
+> 更新时间：2026-09-19（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2475）
+## 大众产品（2479）
+
+- **[Unit Converter for Science](https://www.unitconv.top)** — 开发者 Merrick · 教育学习 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/unit-converter-for-science.html)
+  面向科研、工程与教育的免费多语言单位换算工具，提供公式、换算因子和逐步推导，覆盖 11 类单位
+
+- **[Color Season AI](https://colorseasonai.com)** — 开发者 Aiyi · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/color-season-ai.html)
+  AI 个人色彩季型分析工具，上传一张自拍即得 12 季型判定与专属色板，附带发型、发色、妆容试戴和脸型识别，免费无需注册 - 方法说明
+
+- **[Random Animal Generator](https://randomanimalgen.com/)** — 开发者 Aiyi · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/random-animal-generator.html)
+  随机动物混搭生成器，把真实动物的 11 个身体部位随机拼成虚构生物，可锁定喜欢的部位只换其余、按可爱/恐怖/神话等主题预设生成，自动起名并给出 AI 绘画提示词，每天免费 AI 出图，无需注册
+
+- **[Jev AI](https://jev-ai.pro)** — 开发者 Jev AI · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/jev-ai.html)
+  TypeSafe System One 模型的在线体验，对任意文本提是非题、选择题和评分题，直接返回校准过的概率与置信度，同一模型也可用 API key 调用
 
 - **[SoulCut](https://soulcut-art.vercel.app/)** — 开发者 0xhappyboy · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-18 · [详情页](https://indiemaker.cn/p/soulcut.html)
   一款为每一帧画面注入灵魂的非线性视频编辑系统，免费使用，内置 15 种滤镜、78 种视觉特效、26 种转场，支持多机位渲染与音视频同轨编辑 - GitHub 仓库
@@ -1410,8 +1422,8 @@
 - **[BulkPicTools](https://bulkpictools.com)** — 开发者 kbmjj123 · AI 工具 / 图片工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-06-05 · [详情页](https://indiemaker.cn/p/bulkpictools.html)
   免费浏览器端图片批量处理工具，支持工具链串联（压缩→转格式→裁剪一次完成，无需重复上传），本地 AI 去背景/人脸模糊（WebGPU，无需 API Key），支持 200+ 张图片批量处理，文件不上传服务器。
 
-- **[cv.cm](https://cv.cm)** — 开发者 馒头饭 · AI 工具 / 图片工具 / 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-06-05 · [详情页](https://indiemaker.cn/p/cv-cm.html)
-  免费在线剪贴板，无需注册，粘贴文本/图片/文件秒生成超短链接分享，内置 AI 视频与图像生成（Seedance 2.0）
+- **[cv.cm](https://cv.cm)** — 开发者 馒头饭 · 图片工具 / 文档办公 / 浏览器扩展 · 已上线 · 收录 2026-06-05 · [详情页](https://indiemaker.cn/p/cv-cm.html)
+  浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板
 
 - **[AIGPTImage](https://aigptimage.org)** — 开发者 imsg · AI 工具 / 图片工具 · 已上线 · 收录 2026-06-04 · [详情页](https://indiemaker.cn/p/aigptimage.html)
   基于 GPT Image 2 的私有、生产级 AI 图像工作室
@@ -7431,7 +7443,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（325）
+## 程序员版（327）
+
+- **[Agents Anywhere](https://www.agents-anywhere.com)** — 开发者 t4we fan · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/agents-anywhere.html)
+  跨设备 AI Agent 工作台，在桌面、原生移动端和 Web 访问 Codex、Claude Code 与 DeepSeek Harness，管理多台设备上的会话、文件和终端，MIT 开源，支持自部署
+
+- **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** — 开发者 OrcaReplay 维护者 · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-18 · [详情页](https://indiemaker.cn/p/orcareplay.html)
+  给 AI 编程 Agent 装的「飞行记录仪」，夹在 Agent 和模型厂商之间把提示词、工具调用和原始字节原样录成本地 trace，之后完全离线重放这次运行来复现失败现场，不花一分 token
 
 - **[Birdview](https://qiuner.github.io/birdview/)** — 开发者 Qiuner · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-17 · [详情页](https://indiemaker.cn/p/birdview.html)
   AI 编程 Agent 的架构可视化 Skill，在改代码前生成项目架构图，标出计划触碰的模块、文件及对应源码证据；结果输出为无需部署的独立交互式 HTML，支持 Codex、Claude Code 与 DeepSeek Harness

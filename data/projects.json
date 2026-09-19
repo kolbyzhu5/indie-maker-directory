@@ -4,29 +4,160 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-18T08:13:24.945Z",
+  "generatedAt": "2026-09-19T00:21:24.992Z",
   "counts": {
-    "total": 2934,
-    "main": 2475,
-    "programmer": 325,
+    "total": 2940,
+    "main": 2479,
+    "programmer": 327,
     "game": 134,
     "custom": 1
   },
   "categoryCounts": {
-    "音视频": 458,
-    "开发工具": 540,
-    "免费工具": 454,
+    "教育学习": 160,
+    "免费工具": 457,
+    "AI 工具": 889,
+    "开发工具": 543,
+    "效率工具": 417,
+    "音视频": 457,
     "生活服务": 89,
     "游戏娱乐": 167,
-    "效率工具": 417,
-    "AI 工具": 885,
-    "浏览器扩展": 278,
+    "浏览器扩展": 279,
     "图片工具": 496,
-    "文档办公": 268,
-    "教育学习": 159,
+    "文档办公": 269,
     "社交社区": 112
   },
   "projects": [
+    {
+      "id": "main-20260919-shi891018-unit-converter-for-science",
+      "edition": "main",
+      "addedAt": "2026-09-19",
+      "maker": "Merrick",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shi891018"
+        }
+      ],
+      "name": "Unit Converter for Science",
+      "url": "https://www.unitconv.top",
+      "status": "online",
+      "description": "面向科研、工程与教育的免费多语言单位换算工具，提供公式、换算因子和逐步推导，覆盖 11 类单位",
+      "extraLinks": [],
+      "categories": [
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260919-xq0820-color-season-ai",
+      "edition": "main",
+      "addedAt": "2026-09-19",
+      "maker": "Aiyi",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/XQ0820"
+        }
+      ],
+      "name": "Color Season AI",
+      "url": "https://colorseasonai.com",
+      "status": "online",
+      "description": "AI 个人色彩季型分析工具，上传一张自拍即得 12 季型判定与专属色板，附带发型、发色、妆容试戴和脸型识别，免费无需注册 - [方法说明](https://colorseasonai.com/dashboard)",
+      "extraLinks": [
+        {
+          "label": "方法说明",
+          "url": "https://colorseasonai.com/dashboard"
+        },
+        {
+          "label": "Chrome 插件",
+          "url": "https://colorseasonai.com/color-season-chrome-extension"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260919-xq0820-random-animal-generator",
+      "edition": "main",
+      "addedAt": "2026-09-19",
+      "maker": "Aiyi",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/XQ0820"
+        }
+      ],
+      "name": "Random Animal Generator",
+      "url": "https://randomanimalgen.com/",
+      "status": "online",
+      "description": "随机动物混搭生成器，把真实动物的 11 个身体部位随机拼成虚构生物，可锁定喜欢的部位只换其余、按可爱/恐怖/神话等主题预设生成，自动起名并给出 AI 绘画提示词，每天免费 AI 出图，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260919-weidacn-jev-ai",
+      "edition": "main",
+      "addedAt": "2026-09-19",
+      "maker": "Jev AI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Jev AI",
+      "url": "https://jev-ai.pro",
+      "status": "online",
+      "description": "TypeSafe System One 模型的在线体验，对任意文本提是非题、选择题和评分题，直接返回校准过的概率与置信度，同一模型也可用 API key 调用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260919-t4wefan-agents-anywhere",
+      "edition": "programmer",
+      "addedAt": "2026-09-19",
+      "maker": "t4we fan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/t4wefan"
+        }
+      ],
+      "name": "Agents Anywhere",
+      "url": "https://www.agents-anywhere.com",
+      "status": "online",
+      "description": "跨设备 AI Agent 工作台，在桌面、原生移动端和 Web 访问 Codex、Claude Code 与 DeepSeek Harness，管理多台设备上的会话、文件和终端，MIT 开源，支持自部署",
+      "extraLinks": [
+        {
+          "label": "源码与介绍",
+          "url": "https://github.com/anywhere-labs/Agents-Anywhere"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260918-0xhappyboy-soulcut",
       "edition": "main",
@@ -57,6 +188,34 @@
         "音视频",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260918-continuum-ai-corp-orcareplay",
+      "edition": "programmer",
+      "addedAt": "2026-09-18",
+      "maker": "OrcaReplay 维护者",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Continuum-AI-Corp"
+        }
+      ],
+      "name": "OrcaReplay",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaReplay",
+      "status": "online",
+      "description": "给 AI 编程 Agent 装的「飞行记录仪」，夹在 Agent 和模型厂商之间把提示词、工具调用和原始字节原样录成本地 trace，之后完全离线重放这次运行来复现失败现场，不花一分 token",
+      "extraLinks": [
+        {
+          "label": "安装与使用",
+          "url": "https://github.com/Continuum-AI-Corp/OrcaReplay#readme"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
       ],
       "source": "upstream"
     },
@@ -2744,7 +2903,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260918-0",
+      "id": "custom-20260919-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -16093,14 +16252,17 @@
       "name": "cv.cm",
       "url": "https://cv.cm",
       "status": "online",
-      "description": "免费在线剪贴板，无需注册，粘贴文本/图片/文件秒生成超短链接分享，内置 AI 视频与图像生成（Seedance 2.0）",
-      "extraLinks": [],
+      "description": "浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/mantoufan/cvcm"
+        }
+      ],
       "categories": [
-        "AI 工具",
         "图片工具",
-        "音视频",
-        "效率工具",
-        "免费工具"
+        "文档办公",
+        "浏览器扩展"
       ],
       "source": "upstream"
     },
