@@ -4,29 +4,81 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-19T00:21:24.992Z",
+  "generatedAt": "2026-09-20T00:09:16.349Z",
   "counts": {
-    "total": 2940,
-    "main": 2479,
+    "total": 2942,
+    "main": 2481,
     "programmer": 327,
     "game": 134,
     "custom": 1
   },
   "categoryCounts": {
+    "AI 工具": 891,
+    "图片工具": 497,
+    "免费工具": 458,
+    "文档办公": 270,
     "教育学习": 160,
-    "免费工具": 457,
-    "AI 工具": 889,
     "开发工具": 543,
     "效率工具": 417,
     "音视频": 457,
     "生活服务": 89,
     "游戏娱乐": 167,
     "浏览器扩展": 279,
-    "图片工具": 496,
-    "文档办公": 269,
     "社交社区": 112
   },
   "projects": [
+    {
+      "id": "main-20260919-littlepig-zzf-imagetoimageai",
+      "edition": "main",
+      "addedAt": "2026-09-19",
+      "maker": "littlePig-zzf",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "name": "ImageToImageAI",
+      "url": "https://image-to-image-ai.app",
+      "status": "online",
+      "description": "AI 图生图工具，上传图片并用一句话描述修改需求，即可生成产品图、室内设计、人像、贴纸等新图片；支持 GPT Image 2、Nano Banana 2、Nano Banana Pro 模型，中英双语，可免费试用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260919-estromeglovettgen-coder-musuw",
+      "edition": "main",
+      "addedAt": "2026-09-19",
+      "maker": "Jonie",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/estromeglovettgen-coder"
+        }
+      ],
+      "name": "Musuw",
+      "url": "https://musuw.com/zh",
+      "status": "online",
+      "description": "AI 知识库，把文档、网页和笔记整理成带引用的问答、Wiki 与知识图谱，方便回到原文核对",
+      "extraLinks": [
+        {
+          "label": "实际演示",
+          "url": "https://musuw.com/zh/guides/citation-checks"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260919-shi891018-unit-converter-for-science",
       "edition": "main",
@@ -2903,7 +2955,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260919-0",
+      "id": "custom-20260920-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

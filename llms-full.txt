@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（2940）
+# AI 独立制造所 · 全部产品清单（2942）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-19（北京时间）
+> 更新时间：2026-09-20（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2479）
+## 大众产品（2481）
+
+- **[ImageToImageAI](https://image-to-image-ai.app)** — 开发者 littlePig-zzf · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/imagetoimageai.html)
+  AI 图生图工具，上传图片并用一句话描述修改需求，即可生成产品图、室内设计、人像、贴纸等新图片；支持 GPT Image 2、Nano Banana 2、Nano Banana Pro 模型，中英双语，可免费试用
+
+- **[Musuw](https://musuw.com/zh)** — 开发者 Jonie · AI 工具 / 文档办公 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/musuw.html)
+  AI 知识库，把文档、网页和笔记整理成带引用的问答、Wiki 与知识图谱，方便回到原文核对
 
 - **[Unit Converter for Science](https://www.unitconv.top)** — 开发者 Merrick · 教育学习 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/unit-converter-for-science.html)
   面向科研、工程与教育的免费多语言单位换算工具，提供公式、换算因子和逐步推导，覆盖 11 类单位
