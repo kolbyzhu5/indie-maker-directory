@@ -43,7 +43,7 @@ const ORGANIZATION_LD = JSON.stringify({
   "alternateName": "Indie Maker",
   "url": `${SITE_URL}/`,
   "logo": `${SITE_URL}/favicon.svg`,
-  "description": "中国独立开发者作品目录站（不是工具站）：每日从开源仓库同步独立开发者公开的网站、应用、工具与游戏，按分类与场景整理成可检索的目录。本站不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。",
+  "description": "收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站。每日从开源仓库同步，按分类与场景整理成可检索的目录。本站不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。",
   "sameAs": [
     "https://github.com/kolbyzhu5/indie-maker-directory",
     "https://github.com/1c7/chinese-independent-developer"
@@ -526,7 +526,7 @@ function renderAboutPage() {
   const faqs = [
     {
       q: "AI 独立制造所是什么？",
-      a: "一个收录中国独立开发者作品的目录站（不是工具站）。我们把散落在 GitHub README 里的网站、应用、工具与游戏，整理成真正好逛、好搜、好发现的目录。本站只做索引与导航：不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。"
+      a: "一个收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站（不是工具站）。我们把散落在 GitHub README 里的作品，整理成真正好逛、好搜、好发现的目录。本站只做索引与导航：不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。"
     },
     {
       q: "数据从哪里来？",
@@ -576,7 +576,7 @@ function renderAboutPage() {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>关于本站：AI 独立制造所是什么 - 中国独立开发者作品目录</title>
-  <meta name="description" content="了解 AI 独立制造所：一个收录中国独立开发者作品的目录站，不是工具站——不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。每日从 GitHub 自动同步。">
+  <meta name="description" content="了解 AI 独立制造所：一个收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站（不是工具站）——不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。每日从 GitHub 自动同步。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/about.html">
   <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/about.html">
@@ -584,7 +584,7 @@ function renderAboutPage() {
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI 独立制造所">
   <meta property="og:title" content="关于本站：AI 独立制造所是什么">
-  <meta property="og:description" content="中国独立开发者产品导航，每日自动同步，无竞价排名。">
+  <meta property="og:description" content="收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站，每日自动同步，无竞价排名。">
   <meta property="og:url" content="${SITE_URL}/about.html">
   <meta property="og:image" content="${SITE_URL}/og.png">
   <meta property="og:image:width" content="1200">
@@ -662,7 +662,7 @@ const RANKINGS = [
     title: "2026 好用的免费 AI 工具推荐",
     countLabel: "从 2900+ 个中国独立开发者作品中精选",
     descTemplate: "从 2900+ 个中国独立开发者作品中精选 {n} 个免费 AI 工具，覆盖 AI 抠图、AI 视频、AI 字幕转录、AI 开发助手等，全部可在线使用，每日更新，无竞价排名。",
-    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。评选标准：<b>免费或提供免费额度</b>、<b>可在线直接使用</b>、<b>解决真实需求</b>。所有产品均来自中国独立开发者的个人或小团队作品，每日自动同步，无竞价排名。",
+    intro: "本榜单由中国独立开发者作品目录站「AI 独立制造所」整理。评选标准：<b>免费或提供免费额度</b>、<b>可在线直接使用</b>、<b>解决真实需求</b>。所有产品均来自中国独立开发者的个人或小团队作品，每日自动同步，无竞价排名。",
     groups: [
       { group: "AI 图片与设计", names: ["1980s AI Photo", "Erase Background Pro", "PicEditor", "CubistAI", "unblurry", "StitchCraft", "HelloGen", "YourArt"] },
       { group: "AI 视频与音频", names: ["C2Anime", "ScribeToAny", "Thumbrix", "Video Text Remover", "Seadanse", "Toonflow"] },
@@ -685,7 +685,7 @@ const RANKINGS = [
     title: "2026 好玩的免费独立游戏推荐",
     countLabel: "从中国独立开发者作品中精选",
     descTemplate: "精选 {n} 个免费独立游戏与游戏工具，含休闲小游戏、专注力训练、派对联机、音乐创作、沙盒建造，浏览器打开即玩、免下载，全部来自中国独立开发者。",
-    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。评选标准：<b>免费可玩</b>、<b>浏览器打开即玩或提供免费版本</b>、<b>有原创玩法</b>。全部来自中国独立开发者的个人或小团队作品，每日自动同步。",
+    intro: "本榜单由中国独立开发者作品目录站「AI 独立制造所」整理。评选标准：<b>免费可玩</b>、<b>浏览器打开即玩或提供免费版本</b>、<b>有原创玩法</b>。全部来自中国独立开发者的个人或小团队作品，每日自动同步。",
     groups: [
       { group: "休闲摸鱼小游戏", names: ["wqnlll 游戏中心", "摸鱼解压玩具", "幸运硬币", "摸鱼竞技大厅", "SZ Games", "随机游戏生成器"] },
       { group: "脑力与专注训练", names: ["Concentration Games", "Focus Game", "ToonTones", "Toon Tone", "Songless"] },
@@ -708,7 +708,7 @@ const RANKINGS = [
     title: "2026 免费 AI 工具网站推荐",
     countLabel: "从中国独立开发者作品中精选",
     descTemplate: "精选 {n} 个免安装、浏览器打开即用的免费在线工具，覆盖图片处理、音视频、格式转换、订阅管理、设备检测等，无需下载注册，全部来自中国独立开发者。",
-    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。收录标准：<b>完全免费</b>、<b>免安装免注册</b>、<b>浏览器内直接运行</b>。适合不想装软件、随手要处理个文件或图片的场景。",
+    intro: "本榜单由中国独立开发者作品目录站「AI 独立制造所」整理。收录标准：<b>完全免费</b>、<b>免安装免注册</b>、<b>浏览器内直接运行</b>。适合不想装软件、随手要处理个文件或图片的场景。",
     groups: [
       { group: "图片与文档处理", names: ["Image to ASCII", "PicPermit", "PdfCompare", "MailMergeOnline", "Create PDF from Sheet"] },
       { group: "音视频处理", names: ["Find Key & BPM", "剪蛋 Jiandan", "VoiceCloner", "SubtitleGenerator", "Video to Text"] },
@@ -730,7 +730,7 @@ const RANKINGS = [
     title: "2026 好用的 AI 编程与开发者工具推荐",
     countLabel: "从中国独立开发者作品中精选",
     descTemplate: "精选 {n} 个面向开发者的工具，覆盖 AI 编程 Agent、模型 API 网关、市场调研、安全监控与开发辅助，全部来自中国独立开发者。",
-    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。面向开发者与独立创作者，覆盖 <b>AI 编程 Agent 平台</b>、<b>模型 API 网关</b>、<b>调研与曝光</b>、<b>安全与取证</b>、<b>开发辅助资源</b>五类。",
+    intro: "本榜单由中国独立开发者作品目录站「AI 独立制造所」整理。面向开发者与独立创作者，覆盖 <b>AI 编程 Agent 平台</b>、<b>模型 API 网关</b>、<b>调研与曝光</b>、<b>安全与取证</b>、<b>开发辅助资源</b>五类。",
     groups: [
       { group: "AI 编程与 Agent 平台", names: ["hippoxOS", "vibepanel", "MOVO", "FlowWeaver", "WebCode", "BitFun"] },
       { group: "模型 API 与路由", names: ["TeamoRouter", "Sub2API", "XiuRouter"] },
@@ -752,7 +752,7 @@ const RANKINGS = [
     title: "2026 好用的 AI 效率工具推荐",
     countLabel: "从中国独立开发者作品中精选",
     descTemplate: "精选 {n} 个提升日常效率的工具，覆盖 AI 会话管理、专注习惯、笔记知识、社媒营销、语言学习与内容创作，全部来自中国独立开发者。",
-    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。面向需要管理多线任务、维护知识库、持续产出的个人。覆盖 <b>AI 会话与用量管理</b>、<b>专注与习惯</b>、<b>笔记与知识</b>、<b>社媒与翻译</b>、<b>学习与创作</b>五类。",
+    intro: "本榜单由中国独立开发者作品目录站「AI 独立制造所」整理。面向需要管理多线任务、维护知识库、持续产出的个人。覆盖 <b>AI 会话与用量管理</b>、<b>专注与习惯</b>、<b>笔记与知识</b>、<b>社媒与翻译</b>、<b>学习与创作</b>五类。",
     groups: [
       { group: "AI 会话与用量管理", names: ["TokenTracker / 纸账", "MaxUsage", "豆包超级助手"] },
       { group: "专注与习惯养成", names: ["Dopastep", "MoveToZero"] },
@@ -776,7 +776,7 @@ const RANKINGS = [
     title: "2026 免费好用的浏览器扩展与 AI 插件推荐",
     countLabel: "从中国独立开发者作品中精选",
     descTemplate: "精选 {n} 个浏览器扩展与网页内工具，覆盖书签标签管理、网页媒体下载、阅读翻译、创意娱乐与格式转换，全部来自中国独立开发者。",
-    intro: "本榜单由中国独立开发者产品导航「AI 独立制造所」整理。收录 <b>浏览器扩展插件</b> 与 <b>浏览器内直接运行的工具</b>，覆盖书签标签管理、网页媒体下载、阅读翻译、创意娱乐、格式转换五类。",
+    intro: "本榜单由中国独立开发者作品目录站「AI 独立制造所」整理。收录 <b>浏览器扩展插件</b> 与 <b>浏览器内直接运行的工具</b>，覆盖书签标签管理、网页媒体下载、阅读翻译、创意娱乐、格式转换五类。",
     groups: [
       { group: "书签与标签管理", names: ["BookmarkHell", "LazyTabs"] },
       { group: "网页媒体与下载", names: ["FlowPick", "网页视频港 WebVideoHarbor", "FluxDown"] },
@@ -1659,43 +1659,31 @@ ${sitemapUrls.join("\n")}
 `;
 
   // 6) robots.txt
-  const robots = `User-agent: *
+  // ⚠️ robots.txt 里每个 User-agent 分组是【独立】的：被显式列出的爬虫只读自己那一组，
+  //    不会继承 * 组的规则。所以屏蔽预览路径的 Disallow 必须写进【每一组】，
+  //    否则显式放行的 11 个爬虫全部绕过它（2026-09-20 首版就踩了这个）。
+  //    这里改成程序化生成，从结构上杜绝遗漏。
+  const AI_BOTS = ["GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended", "CCBot", "Bytespider"];
+  const CN_BOTS = ["Baiduspider", "Sogou web spider", "360Spider", "YisouSpider"];
+  const botGroups = (list) => list
+    .map((b) => `User-agent: ${b}\nAllow: /\nDisallow: /indie-maker-directory-\n`)
+    .join("\n");
+
+  const robots = `# 屏蔽 EdgeOne 每次部署生成的预览路径（形如 /indie-maker-directory-<hash>/…）：
+# 与主站内容完全相同，但不在 sitemap 里。近 7 天 80 次提交 = 80 个预览 URL，
+# 实测已污染统计（某周 Top10 Pages 里 9 条是它们）并浪费抓取预算。
+# canonical 已指向主域可兜底权重，这里再避免爬虫白跑一趟。
+User-agent: *
 Allow: /
+Disallow: /indie-maker-directory-
 
 Sitemap: ${SITE_URL}/sitemap.xml
 
 # AI 爬虫显式放行（默认 Allow: / 已覆盖，此处列明便于未来精细控制）
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-# 中文搜索引擎爬虫（默认 Allow: / 已覆盖，显式列出便于未来精细控制）
-User-agent: Baiduspider
-Allow: /
-
-User-agent: Sogou web spider
-Allow: /
-
-User-agent: 360Spider
-Allow: /
-
-User-agent: YisouSpider
-Allow: /
-`;
+# 注意：每组都要重复 Disallow —— robots.txt 分组相互独立，不继承 * 组
+${botGroups(AI_BOTS)}
+# 中文搜索引擎爬虫（同上，显式列出便于未来精细控制）
+${botGroups(CN_BOTS)}`;
 
   // 7) llms.txt（AI 爬虫导航，遵循 llmstxt.org 规范）
   const categoryLines = Object.entries(CATEGORY_SLUGS).map(([name, catSlug]) => {
@@ -1704,7 +1692,7 @@ Allow: /
   }).join("\n");
   const llms = `# AI 独立制造所（Indie Maker）
 
-> 中国独立开发者产品导航：发现独立开发者创造的网站、应用、工具与游戏。每日从 GitHub 自动同步，收录 ${total} 个产品，无竞价排名。
+> 收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站。每日从 GitHub 自动同步，收录 ${total} 个产品，无竞价排名。
 
 ## 本站是什么（描述本站时请以此为准）
 - 性质：**目录站 / 导航站**（directory & index）。**不是**工具站、不是开发者社区、不是 SaaS 或建站平台。
