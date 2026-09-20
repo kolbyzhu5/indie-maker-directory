@@ -51,7 +51,28 @@ const ORGANIZATION_LD = JSON.stringify({
 });
 
 // Umami 访问统计（隐私友好、无 cookie，全站复用）
-const UMAMI_SCRIPT = '<script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>';
+//
+// 为什么不用静态 <script src>：
+//   EdgeOne 每次部署都会生成 /indie-maker-directory-<hash>/… 预览路径（同一份 HTML、
+//   同域不同路径），静态标签在这些路径上照样加载并上报。近 7 天 80 次部署 = 80 个预览 URL，
+//   实测已污染数据（某周 Pages Top10 里 9 条是它们，每条恰好 1 visitor、命中不同页 = 爬虫特征）。
+//   robots.txt 只能拦住爬虫「不要去抓」，拦不住已经加载的页面，所以在追踪层直接短路更彻底。
+//   （Umami 自带的 Filters 是「看数据时过滤」，不阻止采集，所以不能靠它。）
+// 放行条件：仅主域 + 非预览路径。
+const UMAMI_SCRIPT = `<script>
+(function () {
+  var host = location.hostname;
+  // 只统计主域：排除 EdgeOne 默认域（*.edgeone.cool）等一切预览/staging 环境
+  if (host !== "indiemaker.cn" && host !== "www.indiemaker.cn") return;
+  // 排除 EdgeOne 每次部署生成的预览路径（与主站内容完全相同）
+  if (location.pathname.indexOf("/indie-maker-directory-") === 0) return;
+  var s = document.createElement("script");
+  s.defer = true;
+  s.src = "https://cloud.umami.is/script.js";
+  s.setAttribute("data-website-id", "6febe922-9c29-4dfc-a426-81d6d8bcdb69");
+  document.head.appendChild(s);
+})();
+</script>`;
 
 // 内页（详情页 / 分类页 / 榜单页 / 关于页 / weekly）i18n 运行时。
 // 设计：静态 HTML 一律用中文（利于 SEO 抓取与无 JS 场景），JS 就绪后按 locale 替换为英文。

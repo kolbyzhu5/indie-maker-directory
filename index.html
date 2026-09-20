@@ -54,7 +54,20 @@
     ]
   }
   </script>
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script>
+  (function () {
+    var host = location.hostname;
+    // 只统计主域：排除 EdgeOne 默认域（*.edgeone.cool）等一切预览/staging 环境
+    if (host !== "indiemaker.cn" && host !== "www.indiemaker.cn") return;
+    // 排除 EdgeOne 每次部署生成的预览路径（与主站内容完全相同，曾是统计噪音主要来源）
+    if (location.pathname.indexOf("/indie-maker-directory-") === 0) return;
+    var s = document.createElement("script");
+    s.defer = true;
+    s.src = "https://cloud.umami.is/script.js";
+    s.setAttribute("data-website-id", "6febe922-9c29-4dfc-a426-81d6d8bcdb69");
+    document.head.appendChild(s);
+  })();
+  </script>
   <!--SSG_ITEMLIST_START-->
 <script type="application/ld+json" data-seo="itemlist">
   {"@context":"https://schema.org","@type":"ItemList","name":"中国独立开发者产品列表","itemListElement":[{"@type":"ListItem","position":1,"name":"阅古文","url":"https://yueguwen.com"},{"@type":"ListItem","position":2,"name":"NeatCompress","url":"https://yasuo.app"},{"@type":"ListItem","position":3,"name":"Jev Social","url":"https://github.com/socai-io/jev-social"},{"@type":"ListItem","position":4,"name":"codePro-cli","url":"https://codepro.wiki/"},{"@type":"ListItem","position":5,"name":"Grok Canvas","url":"https://github.com/wangxiaosu/grok-canvas"},{"@type":"ListItem","position":6,"name":"考试培训系统","url":"http://43.156.229.191:9527/"},{"@type":"ListItem","position":7,"name":"旧境传说","url":"https://backmir.org/"},{"@type":"ListItem","position":8,"name":"ImageToImageAI","url":"https://image-to-image-ai.app"},{"@type":"ListItem","position":9,"name":"Musuw","url":"https://musuw.com/zh"},{"@type":"ListItem","position":10,"name":"Unit Converter for Science","url":"https://www.unitconv.top"}]}

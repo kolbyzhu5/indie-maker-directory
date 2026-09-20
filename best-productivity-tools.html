@@ -28,7 +28,20 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"2026 好用的 AI 效率工具推荐","description":"精选 16 个提升日常效率的工具，覆盖 AI 会话管理、专注习惯、笔记知识、社媒营销、语言学习与内容创作，全部来自中国独立开发者。","numberOfItems":16,"itemListElement":[{"@type":"ListItem","position":1,"name":"TokenTracker / 纸账","url":"https://indiemaker.cn/p/tokentracker.html"},{"@type":"ListItem","position":2,"name":"MaxUsage","url":"https://indiemaker.cn/p/maxusage.html"},{"@type":"ListItem","position":3,"name":"豆包超级助手","url":"https://indiemaker.cn/p/project-f48ca6.html"},{"@type":"ListItem","position":4,"name":"Dopastep","url":"https://indiemaker.cn/p/dopastep.html"},{"@type":"ListItem","position":5,"name":"MoveToZero","url":"https://indiemaker.cn/p/movetozero.html"},{"@type":"ListItem","position":6,"name":"NotePP","url":"https://indiemaker.cn/p/notepp.html"},{"@type":"ListItem","position":7,"name":"Vault Keeper","url":"https://indiemaker.cn/p/vault-keeper.html"},{"@type":"ListItem","position":8,"name":"EchoWord","url":"https://indiemaker.cn/p/echoword.html"},{"@type":"ListItem","position":9,"name":"SocialEcho","url":"https://indiemaker.cn/p/socialecho.html"},{"@type":"ListItem","position":10,"name":"TwiFlux","url":"https://indiemaker.cn/p/twiflux.html"},{"@type":"ListItem","position":11,"name":"Duo Translator","url":"https://indiemaker.cn/p/duo-translator.html"},{"@type":"ListItem","position":12,"name":"EngABC","url":"https://indiemaker.cn/p/engabc.html"},{"@type":"ListItem","position":13,"name":"AI 小说作家","url":"https://indiemaker.cn/p/ai-395b14.html"},{"@type":"ListItem","position":14,"name":"BokeBox","url":"https://indiemaker.cn/p/bokebox.html"},{"@type":"ListItem","position":15,"name":"CardShopDir","url":"https://indiemaker.cn/p/cardshopdir.html"},{"@type":"ListItem","position":16,"name":"海克斯小秘书","url":"https://indiemaker.cn/p/project-8703d2.html"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"同时订阅多个 AI 套餐怎么管理额度？","acceptedAnswer":{"@type":"Answer","text":"MaxUsage 帮助同时订阅多个 AI 编程套餐的用户充分利用每个套餐额度，根据剩余额度和重置时间给出使用建议；TokenTracker / 纸账 则是 Mac 菜单栏的 Agent 状态工具与本地用量账本，可查看 Claude Code 等工具的用量。"}},{"@type":"Question","name":"有什么工具能帮我专注、改掉拖延？","acceptedAnswer":{"@type":"Answer","text":"Dopastep 把你一直不想动的事拆成小到不用下决心就能开始的第一步，并进入实时专注房与他人同步专注；MoveToZero（iPhone 久坐提醒）通过步数目标和完成记录帮你安排起身走动。"}},{"@type":"Question","name":"知识库和笔记工具推荐哪些？","acceptedAnswer":{"@type":"Answer","text":"NotePP 是 macOS 平台的 Notepad++ 替代方案；Vault Keeper 是 Obsidian 自动运维插件，定时检测断链、孤儿笔记并生成报告；EchoWord 提供查词、划词翻译与 TTS 朗读，在语境中记单词。"}},{"@type":"Question","name":"做自媒体/出海营销有什么效率工具？","acceptedAnswer":{"@type":"Answer","text":"SocialEcho 面向出海企业和跨境卖家，在一个工作区统一管理 11 个海外社交平台；TwiFlux 提供超过 40 个 Twitter 下载与管理工具；Duo Translator 支持网页双语翻译、划词翻译与写作增强。"}},{"@type":"Question","name":"这些效率工具收费吗？","acceptedAnswer":{"@type":"Answer","text":"本榜单以免费或提供免费额度的工具为主，部分是开源项目。商业工具多提供免费试用或基础免费档，具体以官网说明为准。"}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI 独立制造所","alternateName":"Indie Maker","url":"https://indiemaker.cn/","logo":"https://indiemaker.cn/favicon.svg","description":"收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站。每日从开源仓库同步，按分类与场景整理成可检索的目录。本站不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script>
+(function () {
+  var host = location.hostname;
+  // 只统计主域：排除 EdgeOne 默认域（*.edgeone.cool）等一切预览/staging 环境
+  if (host !== "indiemaker.cn" && host !== "www.indiemaker.cn") return;
+  // 排除 EdgeOne 每次部署生成的预览路径（与主站内容完全相同）
+  if (location.pathname.indexOf("/indie-maker-directory-") === 0) return;
+  var s = document.createElement("script");
+  s.defer = true;
+  s.src = "https://cloud.umami.is/script.js";
+  s.setAttribute("data-website-id", "6febe922-9c29-4dfc-a426-81d6d8bcdb69");
+  document.head.appendChild(s);
+})();
+</script>
   <script type="module">
   import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
   const saved = getSavedLocale();

@@ -28,7 +28,20 @@
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What share of Chinese indie developer products are still maintained?","acceptedAnswer":{"@type":"Answer","text":"Across the whole database, roughly {onlinePct}% of products are still live and {inactivePct}% are no longer maintained. The figure moves with age: products first listed in the current year are almost all still active, while older cohorts have naturally lost more of their number."}},{"@type":"Question","name":"Why do older products stop being maintained?","acceptedAnswer":{"@type":"Answer","text":"The same reasons anywhere: the developer moved on, the project merged into something else, the market didn't materialise, or it was a learning project that served its purpose. A non-maintained product isn't a failure — many were deliberately finished rather than abandoned."}},{"@type":"Question","name":"Where does this data come from?","acceptedAnswer":{"@type":"Answer","text":"The open-source repository chinese-independent-developer, which Chinese indie developers submit their work to. Our directory syncs it daily. We count only what appears there — we don't scrape stores or estimate market size."}},{"@type":"Question","name":"Can I reuse this report or its numbers?","acceptedAnswer":{"@type":"Answer","text":"Yes, with attribution. Citing 'AI 独立制造所 (indiemaker.cn) — Chinese indie developer survival report' and linking back is enough. The underlying data is open source."}},{"@type":"Question","name":"How current is this data?","acceptedAnswer":{"@type":"Answer","text":"The dataset is re-synced daily, and the counts on this page are regenerated on every build, so they reflect the latest sync rather than a frozen snapshot."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI 独立制造所","alternateName":"Indie Maker","url":"https://indiemaker.cn/","logo":"https://indiemaker.cn/favicon.svg","description":"收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站。每日从开源仓库同步，按分类与场景整理成可检索的目录。本站不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script>
+(function () {
+  var host = location.hostname;
+  // 只统计主域：排除 EdgeOne 默认域（*.edgeone.cool）等一切预览/staging 环境
+  if (host !== "indiemaker.cn" && host !== "www.indiemaker.cn") return;
+  // 排除 EdgeOne 每次部署生成的预览路径（与主站内容完全相同）
+  if (location.pathname.indexOf("/indie-maker-directory-") === 0) return;
+  var s = document.createElement("script");
+  s.defer = true;
+  s.src = "https://cloud.umami.is/script.js";
+  s.setAttribute("data-website-id", "6febe922-9c29-4dfc-a426-81d6d8bcdb69");
+  document.head.appendChild(s);
+})();
+</script>
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>

@@ -28,7 +28,20 @@
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is this site?","acceptedAnswer":{"@type":"Answer","text":"AI 独立制造所 (Indie Maker) is a directory of works by Chinese indie developers — AI tools, websites, apps and games. We sync from an open-source repository every day, organise everything by category and use case, and make it searchable. We don't build, host or resell any of the products listed; every listing links to the product's own site."}},{"@type":"Question","name":"Is it free? Is there a membership?","acceptedAnswer":{"@type":"Answer","text":"Completely free. There is no membership, no subscription, no paid feature, and no paid ranking. Sorting is by date added or name, and nothing on the site can be bought."}},{"@type":"Question","name":"Why is the site in Chinese if it's for a global audience?","acceptedAnswer":{"@type":"Answer","text":"The products are made by Chinese-speaking developers and the upstream data source is Chinese, so product names and descriptions stay in the original language — we don't machine-translate data. The interface, categories and all editorial pages are available in English."}},{"@type":"Question","name":"I saw a product description mention a membership or a paid plan — is that yours?","acceptedAnswer":{"@type":"Answer","text":"No. Any pricing, membership or paid tier mentioned in a product's description belongs to that product itself. This directory is entirely free and has no membership of any kind."}},{"@type":"Question","name":"How do I get my product listed?","acceptedAnswer":{"@type":"Answer","text":"Submit a pull request to the open-source repository chinese-independent-developer. The directory syncs from it daily, so once your entry is merged it appears here automatically."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI 独立制造所","alternateName":"Indie Maker","url":"https://indiemaker.cn/","logo":"https://indiemaker.cn/favicon.svg","description":"收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站。每日从开源仓库同步，按分类与场景整理成可检索的目录。本站不开发、不托管、不代理任何产品，全站免费、无会员、无竞价排名。","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="6febe922-9c29-4dfc-a426-81d6d8bcdb69"></script>
+  <script>
+(function () {
+  var host = location.hostname;
+  // 只统计主域：排除 EdgeOne 默认域（*.edgeone.cool）等一切预览/staging 环境
+  if (host !== "indiemaker.cn" && host !== "www.indiemaker.cn") return;
+  // 排除 EdgeOne 每次部署生成的预览路径（与主站内容完全相同）
+  if (location.pathname.indexOf("/indie-maker-directory-") === 0) return;
+  var s = document.createElement("script");
+  s.defer = true;
+  s.src = "https://cloud.umami.is/script.js";
+  s.setAttribute("data-website-id", "6febe922-9c29-4dfc-a426-81d6d8bcdb69");
+  document.head.appendChild(s);
+})();
+</script>
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
