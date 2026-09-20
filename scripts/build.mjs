@@ -401,7 +401,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -418,6 +418,8 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   const count = products.length;
   const pagePath = safePage === 1 ? `/c/${catSlug}.html` : `/c/${catSlug}/${safePage}.html`;
   const pageUrl = SITE_URL + pagePath;
+  // 分类页暂无英文对应页（英文版只覆盖首页/榜单/独家/场景共 11 页）→ 不出 hreflang="en"
+  const enUrl = null;
   const pageSuffix = safePage > 1 ? `（第 ${safePage} 页）` : "";
   const catNav = allCategories.map(([c, n]) => {
     const cs = CATEGORY_SLUGS[c];
@@ -471,6 +473,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   <meta name="description" content="AI 独立制造所「${escapeHTML(category)}」分类：共收录 ${totalCount} 个中国独立开发者产品${safePage > 1 ? `，当前第 ${safePage} 页（共 ${totalPages} 页）` : ""}，每日同步更新。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${pageUrl}">
+  ${enUrl ? '<link rel="alternate" hreflang="en" href="' + enUrl + '">' : ""}
   <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
   <link rel="alternate" hreflang="x-default" href="${pageUrl}">
   <meta property="og:type" content="website">
@@ -514,7 +517,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -643,7 +646,7 @@ function renderAboutPage() {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -800,6 +803,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
   const total = groups.reduce((n, g) => n + g.items.length, 0);
   const today = new Date().toISOString().slice(0, 10);
   const pageUrl = `${SITE_URL}/${cfg.slug}.html`;
+  const enUrl = `${SITE_URL}/en/${cfg.slug}.html`;
   const desc = cfg.descTemplate.replace("{n}", total);
 
   const groupsHTML = groups.map(({ group, items }) => `<section class="best-group">
@@ -841,6 +845,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
   <meta name="description" content="${escapeHTML(desc)}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${pageUrl}">
+  ${enUrl ? '<link rel="alternate" hreflang="en" href="' + enUrl + '">' : ""}
   <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
   <link rel="alternate" hreflang="x-default" href="${pageUrl}">
   <meta property="og:type" content="article">
@@ -889,7 +894,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -911,6 +916,7 @@ function renderLocalFirstPage(allProjects, slugMap) {
   const total = picked.length;
   const today = beijingDateISO();
   const pageUrl = `${SITE_URL}/local-first.html`;
+  const enUrl = `${SITE_URL}/en/local-first.html`;
   const title = "不上传文件的在线工具";
   const desc = `精选 ${total} 个不上传文件的在线工具：全部在浏览器内本地运行，文件不经过服务器，覆盖图片处理、PDF 文档、音视频、开发工具等场景，多数无需注册即可使用。适合处理证件、合同等敏感文件。`;
 
@@ -968,6 +974,7 @@ function renderLocalFirstPage(allProjects, slugMap) {
   <meta name="keywords" content="不上传文件的在线工具,浏览器本地处理,本地运算工具,隐私友好工具,免注册在线工具,在线工具不收集数据">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${pageUrl}">
+  ${enUrl ? '<link rel="alternate" hreflang="en" href="' + enUrl + '">' : ""}
   <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
   <link rel="alternate" hreflang="x-default" href="${pageUrl}">
   <meta property="og:type" content="article">
@@ -1014,7 +1021,7 @@ function renderLocalFirstPage(allProjects, slugMap) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1046,6 +1053,7 @@ function renderDataReportPage(allProjects) {
   const onlinePct = ((byStatus.online / total) * 100).toFixed(1);
   const today = beijingDateISO();
   const pageUrl = `${SITE_URL}/indie-report.html`;
+  const enUrl = `${SITE_URL}/en/indie-report.html`;
   const title = "中国独立开发者产品存活报告";
   const latestYear = years[years.length - 1];
   const latestCount = byYear[latestYear] ? byYear[latestYear].total : 0;
@@ -1113,6 +1121,7 @@ function renderDataReportPage(allProjects) {
   <meta name="keywords" content="中国独立开发者,独立开发者产品,独立开发者存活率,独立开发者生态,独立开发者数据报告,独立开发产品统计">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${pageUrl}">
+  ${enUrl ? '<link rel="alternate" hreflang="en" href="' + enUrl + '">' : ""}
   <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
   <link rel="alternate" hreflang="x-default" href="${pageUrl}">
   <meta property="og:type" content="article">
@@ -1193,7 +1202,7 @@ function renderDataReportPage(allProjects) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1252,11 +1261,12 @@ const SCENARIOS = [
   },
 ];
 
-function renderScenarioPage(cfg, allProjects, slugMap) {
+// 场景页归组：把每个产品分到「匹配关键词最多」的子场景组。
+// 不用「先到先得」——否则第一个组的某个宽泛关键词（如「转换」）会吞掉大半产品，导致分组严重失衡。
+// 抽成独立函数是因为中文页与英文页必须归出【完全一致】的分组，不能各写一份。
+function bucketScenario(cfg, allProjects) {
   const hit = (p, k) => `${p.name} ${p.description || ""} ${(p.categories || []).join(" ")}`.includes(k);
   const picked = allProjects.filter((p) => hit(p, cfg.keyword));
-  // 归组策略：把每个产品分到「匹配关键词最多」的子场景组。
-  // 不用「先到先得」——否则第一个组的某个宽泛关键词（如「转换」）会吞掉大半产品，导致分组严重失衡。
   const assign = new Map();
   for (const p of picked) {
     let best = -1, bestScore = 0;
@@ -1271,10 +1281,15 @@ function renderScenarioPage(cfg, allProjects, slugMap) {
     .filter((g) => g.items.length);
   const rest = picked.filter((p) => !assign.has(p.id));
   if (rest.length) groups.push({ name: "更多相关工具", items: rest });
+  return { picked, groups };
+}
 
+function renderScenarioPage(cfg, allProjects, slugMap) {
+  const { picked, groups } = bucketScenario(cfg, allProjects);
   const total = picked.length;
   const today = beijingDateISO();
   const pageUrl = `${SITE_URL}/topic/${cfg.slug}.html`;
+  const enUrl = `${SITE_URL}/en/topic/${cfg.slug}.html`;
   const desc = cfg.desc.replace("{n}", total);
   const intro = cfg.intro.replace("{n}", total);
 
@@ -1314,6 +1329,7 @@ function renderScenarioPage(cfg, allProjects, slugMap) {
   <meta name="keywords" content="在线${escapeHTML(cfg.navLabel)},免费${escapeHTML(cfg.navLabel)},${escapeHTML(cfg.title)},${escapeHTML(cfg.navLabel)}推荐,中国独立开发者">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${pageUrl}">
+  ${enUrl ? '<link rel="alternate" hreflang="en" href="' + enUrl + '">' : ""}
   <link rel="alternate" hreflang="zh-CN" href="${pageUrl}">
   <link rel="alternate" hreflang="x-default" href="${pageUrl}">
   <meta property="og:type" content="article">
@@ -1360,7 +1376,7 @@ function renderScenarioPage(cfg, allProjects, slugMap) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1460,7 +1476,7 @@ function render404Page(allProjects, slugMap) {
   </main>
   <footer class="site-footer detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>`;
@@ -1545,7 +1561,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1637,6 +1653,18 @@ async function main() {
   for (const cfg of RANKINGS) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   }
+  // 英文版页面（/en/*，共 11 页）。slug 与 EN_RANKINGS / EN_SCENARIOS 一一对应
+  // （同名 key 由 RANKINGS / SCENARIOS 驱动），故此处可直接复用。
+  // 只有一个英文首页时收录它，其余 10 页按 slug 逐条列出。
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/en/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/en/local-first.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/en/indie-report.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
+  for (const cfg of RANKINGS) {
+    sitemapUrls.push(`  <url><loc>${SITE_URL}/en/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
+  }
+  for (const cfg of SCENARIOS) {
+    sitemapUrls.push(`  <url><loc>${SITE_URL}/en/topic/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
+  }
   for (const [cat, catSlug] of Object.entries(CATEGORY_SLUGS)) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/c/${catSlug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>`);
     // 分类页分页（第 2 页起，分组逻辑与 categoryEntries 保持一致）
@@ -1711,9 +1739,24 @@ ${botGroups(CN_BOTS)}`;
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
 - 更新时间：${lastmod}（北京时间）
-- 语言：中文 / English（双语切换）
+- 语言：中文（默认主页） / English（独立 URL：${SITE_URL}/en/ ，含 hreflang 互指）
 - 关于页：${SITE_URL}/about.html（站点介绍 + 常见问题 FAQ）
 - 本周新收录：${SITE_URL}/weekly.html（最近 7 天新收录的产品，每日更新）
+
+## English version（英文版，11 个页面）
+英文版与中文版使用同一份数据，界面与编辑内容为英文原创；
+产品名称与描述保留开发者原文（中文）——上游开源仓库没有英文数据，本站不做机器翻译以免费篡改。
+- English home：${SITE_URL}/en/（站点定义、13 个分类概览、入口与 FAQ，适合回答「what is this site」）
+- Best free AI tools：${SITE_URL}/en/best-ai-tools.html
+- Developer tools：${SITE_URL}/en/best-dev-tools.html
+- Free online tools（no install）：${SITE_URL}/en/best-free-tools.html
+- Productivity tools：${SITE_URL}/en/best-productivity-tools.html
+- Browser extensions：${SITE_URL}/en/best-browser-extensions.html
+- Indie games：${SITE_URL}/en/best-indie-games.html
+- Tools that never upload your files：${SITE_URL}/en/local-first.html
+- Survival data report：${SITE_URL}/en/indie-report.html
+- Online PDF tools：${SITE_URL}/en/topic/pdf.html
+- Translation tools：${SITE_URL}/en/topic/translate.html
 
 ## 精选榜单（均含 FAQ 结构化数据，适合回答「推荐类」问题）
 - AI 工具精选：${SITE_URL}/best-ai-tools.html（好用的免费 AI 工具推荐，适合回答「有哪些免费好用的 AI 工具」）
@@ -1787,6 +1830,35 @@ ${sections}
   const scenarioTargets = SCENARIOS.map((cfg) => [`topic/${cfg.slug}.html`, renderScenarioPage(cfg, sorted, slugMap)]);
   // [体验] 自定义 404 页（取代云厂商默认页；noindex，不进 sitemap）
   const notFoundPage = render404Page(sorted, slugMap);
+
+  // ── 英文版页面（/en/*，共 11 页）─────────────────────────────
+  // 上游数据只有中文（README-en.md 等实测 404），所以英文版做的是「英文原创目录层」：
+  // 英文界面 + 英文编辑内容，产品卡片保留开发者原文（中文）并显式标注。
+  // 目的是给英文搜索与英文 AI 一个**可被索引的入口**——此前语言只在浏览器里切换，
+  // Google 抓到的永远是中文 HTML，英文版在搜索引擎眼里不存在。
+  // 详细设计与理由见 scripts/en-pages.mjs 顶部注释。
+  const { buildEnglishPages, englishUrls } = await import("./en-pages.mjs");
+  const byNameForRanking = new Map(sorted.map((p) => [p.name, p]));
+  const enTargets = buildEnglishPages({
+    siteUrl: SITE_URL,
+    umamiScript: UMAMI_SCRIPT,
+    organizationLd: ORGANIZATION_LD,
+    projects: sorted,
+    slugMap,
+    counts,
+    categoryCounts,
+    categorySlugs: CATEGORY_SLUGS,
+    localFirstSignals: LOCAL_FIRST_SIGNALS,
+    rankings: RANKINGS.map((cfg) => ({
+      slug: cfg.slug,
+      groups: cfg.groups
+        .map(({ group, names }) => ({ group, items: names.map((n) => byNameForRanking.get(n)).filter(Boolean) }))
+        .filter((g) => g.items.length)
+    })),
+    scenarios: SCENARIOS.map((cfg) => ({ slug: cfg.slug, groups: bucketScenario(cfg, sorted).groups }))
+  });
+  console.log(`[build] 已生成 ${enTargets.length} 个英文版页面（/en/*）`);
+
   const targets = [
     ["index.html", html],
     ["404.html", notFoundPage],
@@ -1796,6 +1868,7 @@ ${sections}
     ["indie-report.html", dataReportPage],
     ...scenarioTargets,
     ...rankingTargets,
+    ...enTargets,
     ["sitemap.xml", sitemap],
     ["robots.txt", robots],
     ["llms.txt", llms],

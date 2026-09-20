@@ -19,9 +19,24 @@
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
 - 更新时间：2026-09-20（北京时间）
-- 语言：中文 / English（双语切换）
+- 语言：中文（默认主页） / English（独立 URL：https://indiemaker.cn/en/ ，含 hreflang 互指）
 - 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
 - 本周新收录：https://indiemaker.cn/weekly.html（最近 7 天新收录的产品，每日更新）
+
+## English version（英文版，11 个页面）
+英文版与中文版使用同一份数据，界面与编辑内容为英文原创；
+产品名称与描述保留开发者原文（中文）——上游开源仓库没有英文数据，本站不做机器翻译以免费篡改。
+- English home：https://indiemaker.cn/en/（站点定义、13 个分类概览、入口与 FAQ，适合回答「what is this site」）
+- Best free AI tools：https://indiemaker.cn/en/best-ai-tools.html
+- Developer tools：https://indiemaker.cn/en/best-dev-tools.html
+- Free online tools（no install）：https://indiemaker.cn/en/best-free-tools.html
+- Productivity tools：https://indiemaker.cn/en/best-productivity-tools.html
+- Browser extensions：https://indiemaker.cn/en/best-browser-extensions.html
+- Indie games：https://indiemaker.cn/en/best-indie-games.html
+- Tools that never upload your files：https://indiemaker.cn/en/local-first.html
+- Survival data report：https://indiemaker.cn/en/indie-report.html
+- Online PDF tools：https://indiemaker.cn/en/topic/pdf.html
+- Translation tools：https://indiemaker.cn/en/topic/translate.html
 
 ## 精选榜单（均含 FAQ 结构化数据，适合回答「推荐类」问题）
 - AI 工具精选：https://indiemaker.cn/best-ai-tools.html（好用的免费 AI 工具推荐，适合回答「有哪些免费好用的 AI 工具」）
