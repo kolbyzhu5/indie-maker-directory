@@ -303,7 +303,9 @@ function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, z
   <header class="site-header">
     <a class="brand" href="/en/" aria-label="${SITE_NAME} — English home">
       <span class="brand-seal">独立</span>
-      <span><strong>${SITE_NAME} · ${BRAND_EN}</strong><small>Chinese indie developer directory</small></span>
+      <!-- strong 是移动端唯一显示的（.brand small 在窄屏隐藏），且 .brand strong 为 nowrap
+           ——英文品牌名必须短，否则在 390px 下会文本溢出（实测踩过）。 -->
+      <span><strong>${BRAND_EN}</strong><small>${SITE_NAME} · Chinese indie developer directory</small></span>
     </a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="/en/">Directory</a>
@@ -620,19 +622,19 @@ export function buildEnglishPages(ctx) {
 
     <section class="unique-block">
       <h2>Maintenance by cohort</h2>
-      <table class="rw-table">
-        <thead><tr><th>Year first listed</th><th>Products</th><th>Still live</th><th>Not maintained</th><th>Not maintained %</th></tr></thead>
+      <div class="rw-table-wrap"><table class="rw-table">
+        <thead><tr><th>Year</th><th>Products</th><th>Live</th><th>Inactive</th><th>Inactive %</th></tr></thead>
         <tbody>${yearRows}</tbody>
-      </table>
+      </table></div>
       <p class="u-note">The newer the cohort, the higher the share that is still active — a product listed this year has had little time to be abandoned. Read the numbers by row, not across rows.</p>
     </section>
 
     <section class="unique-block">
       <h2>What gets built</h2>
-      <table class="rw-table">
+      <div class="rw-table-wrap"><table class="rw-table">
         <thead><tr><th>Category</th><th>Products</th><th>Share</th></tr></thead>
         <tbody>${catRows2}</tbody>
-      </table>
+      </table></div>
     </section>
 
     <section class="faq-list">

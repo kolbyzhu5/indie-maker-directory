@@ -36,7 +36,9 @@
   <header class="site-header">
     <a class="brand" href="/en/" aria-label="AI 独立制造所 — English home">
       <span class="brand-seal">独立</span>
-      <span><strong>AI 独立制造所 · Indie Maker</strong><small>Chinese indie developer directory</small></span>
+      <!-- strong 是移动端唯一显示的（.brand small 在窄屏隐藏），且 .brand strong 为 nowrap
+           ——英文品牌名必须短，否则在 390px 下会文本溢出（实测踩过）。 -->
+      <span><strong>Indie Maker</strong><small>AI 独立制造所 · Chinese indie developer directory</small></span>
     </a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="/en/">Directory</a>

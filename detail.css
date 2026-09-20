@@ -124,6 +124,12 @@
 .rw-table tr:last-child td { border-bottom: 0; }
 .rw-table a { color: var(--red-dark); text-decoration: none; }
 .rw-table a:hover { border-bottom: 1px solid var(--red); }
+/* 数据表滚动容器（英文版必需）：th 是 white-space:nowrap，而英文表头比中文长得多
+   （"Inactive %" vs "停更率"），在 390px 下会把表格撑到 493px → 整页横向滚动。
+   包一层 overflow-x 容器后，表格在自身内部滚动，不再撑破页面布局。
+   中文页数据表较短，加这层无副作用。 */
+.rw-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.rw-table-wrap .rw-table { margin-top: 0; }
 
 /* ── 自定义 404 页（404.html）── */
 .nf-hero { text-align: center; padding: 26px 0 10px; }
