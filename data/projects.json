@@ -4,29 +4,223 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-20T00:09:16.349Z",
+  "generatedAt": "2026-09-20T12:23:33.212Z",
   "counts": {
-    "total": 2942,
-    "main": 2481,
-    "programmer": 327,
-    "game": 134,
+    "total": 2949,
+    "main": 2483,
+    "programmer": 331,
+    "game": 135,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 891,
-    "图片工具": 497,
-    "免费工具": 458,
-    "文档办公": 270,
-    "教育学习": 160,
-    "开发工具": 543,
-    "效率工具": 417,
-    "音视频": 457,
-    "生活服务": 89,
-    "游戏娱乐": 167,
-    "浏览器扩展": 279,
-    "社交社区": 112
+    "AI 工具": 893,
+    "浏览器扩展": 282,
+    "教育学习": 162,
+    "免费工具": 464,
+    "图片工具": 499,
+    "音视频": 460,
+    "文档办公": 271,
+    "开发工具": 547,
+    "社交社区": 113,
+    "效率工具": 419,
+    "生活服务": 90,
+    "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260920-monsoonw-阅古文",
+      "edition": "main",
+      "addedAt": "2026-09-20",
+      "maker": "monsoonw",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/monsoonw"
+        }
+      ],
+      "name": "阅古文",
+      "url": "https://yueguwen.com",
+      "status": "online",
+      "description": "古籍阅读网站，把注释和译文对照原文逐句排布，并补充必要的历史背景；选中原文或注释可免费调用 AI 翻译与讲解，浏览器打开即用，手机上也能阅读",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260920-ddter-neatcompress",
+      "edition": "main",
+      "addedAt": "2026-09-20",
+      "maker": "DDTer",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/DDTer"
+        }
+      ],
+      "name": "NeatCompress",
+      "url": "https://yasuo.app",
+      "status": "online",
+      "description": "音视频、PDF 和图片的批量压缩工具，用 WebCodecs 硬件加速与 WASM 双引擎在本地处理，文件不上传服务器；支持指定目标大小（微信 25MB/100MB、Discord 10MB/50MB 等）、无损合并、裁剪与转 GIF",
+      "extraLinks": [
+        {
+          "label": "国际站",
+          "url": "https://neatcompress.com"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260920-socai-io-jev-social",
+      "edition": "programmer",
+      "addedAt": "2026-09-20",
+      "maker": "SocAI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/socai-io"
+        }
+      ],
+      "name": "Jev Social",
+      "url": "https://github.com/socai-io/jev-social",
+      "status": "online",
+      "description": "开源、本地优先的社交媒体研究 Agent；Jev 逐步选择搜索、打开帖子与评论、下载视频等操作，socai CLI 在本机真实 Chrome 中执行，并将 Instagram、TikTok、LinkedIn 证据流式整理为带来源链接的研究报告",
+      "extraLinks": [
+        {
+          "label": "在线说明与演示",
+          "url": "https://socai-io.github.io/jev-social/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "浏览器扩展",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260920-noopyjie1-codepro-cli",
+      "edition": "programmer",
+      "addedAt": "2026-09-20",
+      "maker": "noopyjie1",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/noopyjie1"
+        }
+      ],
+      "name": "codePro-cli",
+      "url": "https://codepro.wiki/",
+      "status": "developing",
+      "description": "Codex CLI 桌面工作台，用顶部灵动岛、项目列表和会话卡片整理多个编程会话，官网提供无需登录的网页交互演示",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260920-wangxiaosu-grok-canvas",
+      "edition": "programmer",
+      "addedAt": "2026-09-20",
+      "maker": "KyroX",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wangxiaosu"
+        }
+      ],
+      "name": "Grok Canvas",
+      "url": "https://github.com/wangxiaosu/grok-canvas",
+      "status": "online",
+      "description": "图片与视频创作画布，登录自己的 Grok 账号并使用账号额度，连接参考图迭代画面、接着续生成视频，支持多画布管理，作品保存在本机，MIT 开源",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260920-wuzhaohui1993-考试培训系统",
+      "edition": "programmer",
+      "addedAt": "2026-09-20",
+      "maker": "wuzhaohui",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WuZhaohui1993"
+        }
+      ],
+      "name": "考试培训系统",
+      "url": "http://43.156.229.191:9527/",
+      "status": "online",
+      "description": "开源在线考试与培训系统，支持题库管理、固定或随机组卷、在线作答与成绩查询，将课程学习和考试考核集中在同一平台，需要自行部署",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/WuZhaohui1993/exam-ruoyi-public"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "开发工具",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260920-wizcy-旧境传说",
+      "edition": "game",
+      "addedAt": "2026-09-20",
+      "maker": "wizcy",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wizcy"
+        }
+      ],
+      "name": "旧境传说",
+      "url": "https://backmir.org/",
+      "status": "online",
+      "description": "中文复古单人动作 RPG，提供战士、法师、道士职业、地图探索与 Boss 挑战，可搭配随机装备词缀与套装；Mac/Windows 桌面浏览器游玩，无需注册，进度保存在本机浏览器",
+      "extraLinks": [
+        {
+          "label": "游戏攻略",
+          "url": "https://backmir.org/guide/"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "浏览器扩展",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260919-littlepig-zzf-imagetoimageai",
       "edition": "main",

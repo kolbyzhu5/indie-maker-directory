@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（2942）
+# AI 独立制造所 · 全部产品清单（2949）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-09-20（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2481）
+## 大众产品（2483）
+
+- **[阅古文](https://yueguwen.com)** — 开发者 monsoonw · AI 工具 / 浏览器扩展 / 教育学习 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/project-4fe122.html)
+  古籍阅读网站，把注释和译文对照原文逐句排布，并补充必要的历史背景；选中原文或注释可免费调用 AI 翻译与讲解，浏览器打开即用，手机上也能阅读
+
+- **[NeatCompress](https://yasuo.app)** — 开发者 DDTer · 图片工具 / 音视频 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/neatcompress.html)
+  音视频、PDF 和图片的批量压缩工具，用 WebCodecs 硬件加速与 WASM 双引擎在本地处理，文件不上传服务器；支持指定目标大小（微信 25MB/100MB、Discord 10MB/50MB 等）、无损合并、裁剪与转 GIF
 
 - **[ImageToImageAI](https://image-to-image-ai.app)** — 开发者 littlePig-zzf · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/imagetoimageai.html)
   AI 图生图工具，上传图片并用一句话描述修改需求，即可生成产品图、室内设计、人像、贴纸等新图片；支持 GPT Image 2、Nano Banana 2、Nano Banana Pro 模型，中英双语，可免费试用
@@ -7449,7 +7455,19 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（327）
+## 程序员版（331）
+
+- **[Jev Social](https://github.com/socai-io/jev-social)** — 开发者 SocAI · AI 工具 / 音视频 / 浏览器扩展 / 社交社区 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/jev-social.html)
+  开源、本地优先的社交媒体研究 Agent；Jev 逐步选择搜索、打开帖子与评论、下载视频等操作，socai CLI 在本机真实 Chrome 中执行，并将 Instagram、TikTok、LinkedIn 证据流式整理为带来源链接的研究报告
+
+- **[codePro-cli](https://codepro.wiki/)** — 开发者 noopyjie1 · 开发工具 · 开发中 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/codepro-cli.html)
+  Codex CLI 桌面工作台，用顶部灵动岛、项目列表和会话卡片整理多个编程会话，官网提供无需登录的网页交互演示
+
+- **[Grok Canvas](https://github.com/wangxiaosu/grok-canvas)** — 开发者 KyroX · 图片工具 / 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/grok-canvas.html)
+  图片与视频创作画布，登录自己的 Grok 账号并使用账号额度，连接参考图迭代画面、接着续生成视频，支持多画布管理，作品保存在本机，MIT 开源
+
+- **[考试培训系统](http://43.156.229.191:9527/)** — 开发者 wuzhaohui · 效率工具 / 开发工具 / 教育学习 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/project-07885a.html)
+  开源在线考试与培训系统，支持题库管理、固定或随机组卷、在线作答与成绩查询，将课程学习和考试考核集中在同一平台，需要自行部署
 
 - **[Agents Anywhere](https://www.agents-anywhere.com)** — 开发者 t4we fan · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/agents-anywhere.html)
   跨设备 AI Agent 工作台，在桌面、原生移动端和 Web 访问 Codex、Claude Code 与 DeepSeek Harness，管理多台设备上的会话、文件和终端，MIT 开源，支持自部署
@@ -8432,7 +8450,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（134）
+## 独立游戏（135）
+
+- **[旧境传说](https://backmir.org/)** — 开发者 wizcy · 开发工具 / 浏览器扩展 / 生活服务 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/project-e1930e.html)
+  中文复古单人动作 RPG，提供战士、法师、道士职业、地图探索与 Boss 挑战，可搭配随机装备词缀与套装；Mac/Windows 桌面浏览器游玩，无需注册，进度保存在本机浏览器
 
 - **[Over the Hill Wiki](https://overthehillwiki.com/)** — 开发者 LuKaka · 生活服务 / 游戏娱乐 · 已上线 · 收录 2026-09-18 · [详情页](https://indiemaker.cn/p/over-the-hill-wiki.html)
   Over the Hill 非官方游戏攻略与资料站，整理游戏玩法、车辆、地图、常见问题和实用指南，方便玩家快速查找相关信息
