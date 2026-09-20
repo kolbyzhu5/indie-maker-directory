@@ -52,8 +52,23 @@ jobs:
           git commit -m "chore: sync data and rebuild static site" || echo "Nothing to commit"
           git pull --rebase -X theirs origin main || true
           git push
+      # COS 只是 app.js 的【兜底数据源】（站点本地 data/projects.json 才是主源）。
+      # 它绝不能阻断部署：2026-09-20 一次 COS 连接超时（ConnectTimeoutError）导致本步骤
+      # 失败 → 后续 Deploy to EdgeOne 与 IndexNow 被 skip → 整站发不出去。
+      # 故改为「重试 3 次 + 失败不阻断」，最坏只影响兜底快照的新鲜度。
       - name: Upload snapshot to COS (after build, keeps COS in sync with site)
-        run: node scripts/sync-data.mjs --upload-only
+        continue-on-error: true
+        run: |
+          for i in 1 2 3; do
+            if node scripts/sync-data.mjs --upload-only; then
+              echo "COS 上传成功（第 $i 次尝试）"
+              exit 0
+            fi
+            echo "::warning::COS 上传第 $i 次失败，10 秒后重试"
+            sleep 10
+          done
+          echo "::warning::COS 上传 3 次均失败——已跳过，站点部署不受影响"
+          exit 0
         env:
           COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
           COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
