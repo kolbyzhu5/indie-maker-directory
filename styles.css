@@ -160,21 +160,46 @@ footer .footer-links a { display: inline-block; line-height: 1.7; padding: 5px 0
    背景（2026-09-21 实测）：全量数据里首页占 78% 流量，而 <main> 内除产品卡外
    【零】个站内入口 —— 6 个榜单页 / 2 个独家页 / 2 个场景页 / 13 个分类页
    在首页 body 里根本没有链接（只有 header 2 条 + footer 2 条）。
-   本区块把这 24 个入口集中暴露，是「首页 → 内页」动线修复的主体。
-   条目数用 JS/构建期注入，移动端靠横滑轨道承载，高度不随条目数增长。 */
+   本区块把这些入口集中暴露，是「首页 → 内页」动线修复的主体。
+
+   排版为何改成「每组一行 + 等宽网格」：
+   最初每组是一列 flex-wrap 的内容宽胶囊，结果 6 条断成 3/2/1 三级台阶，
+   右侧还空出三分之一 —— 因为 .hub-groups 当时还是 repeat(3, 1fr) 的三列模板，
+   而分组已从 3 组减到 2 组（漏改的模板残留，是这次「乱」的真正原因）。
+   现在：每组独占一行，标签 84px 定宽在左，胶囊区列数=条目数撑满，
+   行行对齐、右缘齐平，且胶囊等宽 —— 不再有内容宽造成的锯齿。 */
 .hub { margin: 26px 0 0; padding: 20px 24px 22px; background: var(--card); border: 1px solid var(--line); box-shadow: 5px 6px 0 rgba(88,71,40,.06); }
 .hub-head { display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
 .hub-head h2 { margin: 0; font-size: 17px; letter-spacing: .04em; padding-left: 11px; border-left: 4px solid var(--red); }
 .hub-head p { margin: 0; color: var(--muted); font-size: 12px; }
-.hub-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 26px; }
-.hub-group h3 { margin: 0 0 10px; color: var(--muted); font-size: 11px; font-weight: 400; letter-spacing: .18em; }
-.hub-links { display: flex; flex-wrap: wrap; gap: 8px; }
-.hub-links a { display: inline-flex; align-items: baseline; gap: 5px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 3px; background: rgba(255,253,247,.8); color: var(--ink); font-size: 13px; text-decoration: none; transition: .2s ease; }
+.hub-groups { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.hub-group { display: grid; grid-template-columns: 84px minmax(0, 1fr); align-items: start; gap: 14px; }
+/* 标签与首行胶囊的基线对齐靠 padding-top 微调，比 align-items:center 稳（行数变化不影响） */
+.hub-group h3 { margin: 0; padding-top: 9px; color: var(--muted); font-size: 12px; font-weight: 400; letter-spacing: .06em; }
+/* 等宽网格：列数由构建期按本组条目数下发（--hub-cols，见 build.mjs renderHub），
+   所以每组的行数都由自身条目数决定 —— 6 条铺 6 列、5 条铺 5 列，两组都恰好一行，
+   且都顶满左右边界。之前写死 repeat(6,1fr)，5 条的组会空出最后一格，
+   整块右下角缺一块，看起来像没做完（实测对比过）。
+   末尾的 6 是兜底：--hub-cols 万一缺失也不至于退化成单列。 */
+.hub-links { display: grid; grid-template-columns: repeat(var(--hub-cols, 6), minmax(0, 1fr)); gap: 8px; }
+/* 名称靠左、计数靠右 —— 等宽之后用 space-between 把两端顶住，
+   整片读起来像一张对齐的目录表，而不是一堆长短不一的按钮 */
+.hub-links a { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 3px; background: rgba(255,253,247,.8); color: var(--ink); font-size: 13px; text-decoration: none; transition: .2s ease; }
 .hub-links a:hover { color: #fff9ec; background: var(--red); border-color: var(--red); }
-.hub-links a small { color: var(--muted); font-size: 10px; }
+.hub-links a small { flex: 0 0 auto; color: var(--muted); font-size: 10px; }
 .hub-links a:hover small { color: rgba(255,249,236,.82); }
 @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 1050px) { .project-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }.hero { padding-left: 3%; padding-right: 3%; }.search-stage { padding-left: 3%; padding-right: 3%; } }
+/* 导流区断点（实测定的，不要随手改）：
+   6 列要求每格 ≥160px，「开发者工具精选 21」才不折行。
+   可用宽度 = 视口 - 214（main 左右 padding 68 + hub padding 48 + 标签列 84 + 间隙 14），
+   故 6*160+5*8 = 1000 ≤ 视口-214 → 视口需 ≥1214。取 1220 留余量。
+   1220px 以下固定 3 列：两组各占 2 行，仍然对齐（6=3+3，5=3+2）。
+   实测反例：曾在 1050 才降列，结果 1051–1200 段每格只剩 133px，
+   文案折成两行，整块被撑到 218px（1440 下是 181px）。 */
+@media (max-width: 1220px) {
+  .hub-links { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
 @media (max-width: 760px) { .site-header { height: 76px; padding: 14px 18px; }.brand-seal { width: 43px; height: 43px; }.brand small, .top-nav a:first-child { display: none; } main { padding: 0 18px 50px; }.hero { min-height: auto; grid-template-columns: 1fr; gap: 25px; padding: 48px 0 35px; }.hero-note { display: none; } h1 { font-size: 44px; }.search-stage { padding: 0 0 22px; }.search-wrap { height: 61px; box-shadow: 4px 4px 0 var(--red); }.search-mark { padding: 0 12px 4px; }.search-wrap input { font-size: 14px; }.search-wrap kbd { display: none; }.clear-search { padding: 0 12px; }.directory-shell { grid-template-columns: 1fr; }.filter-panel { position: static; }.filter-panel fieldset { display: flex; flex-wrap: wrap; gap: 4px 14px; }.filter-panel fieldset label { min-height: 27px; }.source-note { display: none; }.project-grid { grid-template-columns: 1fr; }.project-card { min-height: 215px; }.results-toolbar { margin-top: 4px; } footer { margin: 0 18px; padding-left: 0; padding-right: 0; flex-direction: column; gap: 5px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
 

@@ -260,7 +260,7 @@ function renderHub(allProjects) {
   const rankLinks = RANKINGS.map(
     (cfg) =>
       `<a href="/${cfg.slug}.html"><span data-i18n-cat="${escapeHTML(cfg.navLabel)}">${escapeHTML(cfg.navLabel)}</span> <small>${rankingCount(cfg)}</small></a>`
-  ).join("");
+  );
 
   // 独家内容页与场景页：计数来自真实数据（不上传工具数 / 场景聚合数）
   // ⚠️ 必须与 renderLocalFirstPage 的命中口径【逐字一致】（同样是 name+description
@@ -277,25 +277,28 @@ function renderHub(allProjects) {
     [`/weekly.html`, "hubWeekly", "本周新收录", ""],
     [`/topic/${SCENARIOS[0].slug}.html`, "hubPdf", "在线 PDF 工具", scenarioCounts[0]],
     [`/topic/${SCENARIOS[1].slug}.html`, "hubTranslate", "在线翻译工具", scenarioCounts[1]]
-  ]
-    .map(
-      ([href, key, label, count]) =>
-        `<a href="${href}"><span data-i18n="${key}">${label}</span>${count === "" ? "" : ` <small>${count}</small>`}</a>`
-    )
-    .join("");
+  ].map(
+    ([href, key, label, count]) =>
+      `<a href="${href}"><span data-i18n="${key}">${label}</span>${count === "" ? "" : ` <small>${count}</small>`}</a>`
+  );
 
   // 13 个分类页【不】放这里，改由全站页脚的 .footer-cats 承担（见 footerCategoryNav）。
   // 理由（2026-09-21 实测）：桌面端把 13 条分类并进本区，整块高 318px，首张产品卡被推到
   // 1100px（超出 900 折叠线）；而分类页要的是「被索引 + 有权重传递」，放页脚能覆盖
   // 全部 3060 个页面（含 2949 个详情页），比只挂在首页强得多，且首页因此回到 ~200px。
+  //
+  // --hub-cols = 本组的条目数（上限 6）：每组独占一行、列数=条目数，两行都顶满左右边界。
+  // 为什么不写死 6 列：本组只有 5 条时会空出最后一格，整块右下角缺一块，看起来像没做完
+  // （实测对比过：5 条铺 6 列有明显空缺，铺 5 列两行都齐平）。列数随条目数走，
+  // 以后增删入口不用再回来对列数。
   return [
-    { key: "hubGroupRank", label: "精选榜单", links: rankLinks },
-    { key: "hubGroupDeep", label: "深度内容", links: deepLinks }
+    { key: "hubGroupRank", label: "精选榜单", items: rankLinks },
+    { key: "hubGroupDeep", label: "深度内容", items: deepLinks }
   ]
     .map(
       (g) => `<div class="hub-group">
         <h3 data-i18n="${g.key}">${g.label}</h3>
-        <div class="hub-links">${g.links}</div>
+        <div class="hub-links" style="--hub-cols:${Math.min(g.items.length, 6)}">${g.items.join("")}</div>
       </div>`
     )
     .join("\n      ");
