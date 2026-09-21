@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（2949）
+# AI 独立制造所 · 全部产品清单（2951）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-09-21（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2483）
+## 大众产品（2485）
+
+- **[MelodyTrace](https://melodytrace.com/)** — 开发者 FlickerMi · 免费工具 · 已上线 · 收录 2026-09-21 · [详情页](https://indiemaker.cn/p/melodytrace.html)
+  MP3 转 MIDI 工具（免费）：把声音，写成可编辑的音符
+
+- **[拼豆猫师傅-拼豆图纸工坊](https://github.com/user-attachments/assets/bbd960f3-3431-4123-a715-12fb1f29957a)** — 开发者 stormbuf · 图片工具 · 已上线 · 收录 2026-09-21 · [详情页](https://indiemaker.cn/p/project-273f38.html)
+  把照片变成拼豆图纸的微信小程序，自动降色并标出每个格子该用哪个色号，转图在手机本地完成、原图不出设备
 
 - **[阅古文](https://yueguwen.com)** — 开发者 monsoonw · AI 工具 / 浏览器扩展 / 教育学习 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/project-4fe122.html)
   古籍阅读网站，把注释和译文对照原文逐句排布，并补充必要的历史背景；选中原文或注释可免费调用 AI 翻译与讲解，浏览器打开即用，手机上也能阅读

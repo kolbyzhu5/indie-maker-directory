@@ -4,20 +4,20 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-21T00:16:51.633Z",
+  "generatedAt": "2026-09-21T07:24:16.190Z",
   "counts": {
-    "total": 2949,
-    "main": 2483,
+    "total": 2951,
+    "main": 2485,
     "programmer": 331,
     "game": 135,
     "custom": 1
   },
   "categoryCounts": {
+    "免费工具": 465,
+    "图片工具": 500,
     "AI 工具": 893,
     "浏览器扩展": 282,
     "教育学习": 162,
-    "免费工具": 464,
-    "图片工具": 499,
     "音视频": 460,
     "文档办公": 271,
     "开发工具": 547,
@@ -27,6 +27,59 @@
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260921-flickermi-melodytrace",
+      "edition": "main",
+      "addedAt": "2026-09-21",
+      "maker": "FlickerMi",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/FlickerMi"
+        },
+        {
+          "label": "博客",
+          "url": "https://notemi.cn"
+        }
+      ],
+      "name": "MelodyTrace",
+      "url": "https://melodytrace.com/",
+      "status": "online",
+      "description": "MP3 转 MIDI 工具（免费）：把声音，写成可编辑的音符",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://melodytrace.com/zh#features"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260921-stormbuf-拼豆猫师傅-拼豆图纸工坊",
+      "edition": "main",
+      "addedAt": "2026-09-21",
+      "maker": "stormbuf",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stormbuf"
+        }
+      ],
+      "name": "拼豆猫师傅-拼豆图纸工坊",
+      "url": "https://github.com/user-attachments/assets/bbd960f3-3431-4123-a715-12fb1f29957a",
+      "status": "online",
+      "description": "把照片变成拼豆图纸的微信小程序，自动降色并标出每个格子该用哪个色号，转图在手机本地完成、原图不出设备",
+      "extraLinks": [],
+      "categories": [
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260920-monsoonw-阅古文",
       "edition": "main",
