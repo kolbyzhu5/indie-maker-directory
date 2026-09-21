@@ -193,6 +193,12 @@ function applyLocale() {
   document.querySelectorAll("[data-i18n-text]").forEach((el) => {
     el.textContent = t(el.getAttribute("data-i18n-text"));
   });
+  // 分类名（含首页频道入口里的榜单名与分类名）：data-i18n-cat 存的是中文原名，
+  // 按当前 locale 经 categoryName() 映射成界面语言。此前 SSR 卡片标签没人处理这层，
+  // 切到英文时分类标签仍是中文，与此处一并修掉。
+  document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
+    el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
+  });
   // 动态重建：需要根据 locale 重绘
   const isZh = getCurrentLocale() === "zh";
   document.documentElement.lang = isZh ? "zh-CN" : "en";

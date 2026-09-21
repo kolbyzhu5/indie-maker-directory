@@ -129,6 +129,26 @@
     <!--SSG_QUICKTAGS_END--></div>
     </section>
 
+    <!-- 频道入口（导流区）：把 6 榜单 + 2 独家页 + 2 场景页 + 13 分类页共 24 个
+         站内入口集中暴露。此前 <main> 里除产品卡外没有任何内页链接，
+         是「78% 流量堵在首页」的直接机械原因。内容由 build.mjs 注入。 -->
+    <section class="hub" aria-labelledby="hubTitle">
+      <div class="hub-head">
+        <h2 id="hubTitle" data-i18n="hubTitle">不知道从哪逛？</h2>
+        <p data-i18n="hubNote">下面这些入口，比翻列表快</p>
+      </div>
+      <div class="hub-groups"><!--SSG_HUB_START-->
+<div class="hub-group">
+        <h3 data-i18n="hubGroupRank">精选榜单</h3>
+        <div class="hub-links"><a href="/best-ai-tools.html"><span data-i18n-cat="AI 工具精选">AI 工具精选</span> <small>33</small></a><a href="/best-indie-games.html"><span data-i18n-cat="独立游戏精选">独立游戏精选</span> <small>27</small></a><a href="/best-free-tools.html"><span data-i18n-cat="免费工具精选">免费工具精选</span> <small>20</small></a><a href="/best-dev-tools.html"><span data-i18n-cat="开发者工具精选">开发者工具精选</span> <small>21</small></a><a href="/best-productivity-tools.html"><span data-i18n-cat="效率工具精选">效率工具精选</span> <small>16</small></a><a href="/best-browser-extensions.html"><span data-i18n-cat="浏览器扩展精选">浏览器扩展精选</span> <small>17</small></a></div>
+      </div>
+      <div class="hub-group">
+        <h3 data-i18n="hubGroupDeep">深度内容</h3>
+        <div class="hub-links"><a href="/local-first.html"><span data-i18n="hubLocalFirst">不上传文件的工具</span> <small>172</small></a><a href="/indie-report.html"><span data-i18n="hubReport">独立开发者存活报告</span></a><a href="/weekly.html"><span data-i18n="hubWeekly">本周新收录</span></a><a href="/topic/pdf.html"><span data-i18n="hubPdf">在线 PDF 工具</span> <small>69</small></a><a href="/topic/translate.html"><span data-i18n="hubTranslate">在线翻译工具</span> <small>63</small></a></div>
+      </div>
+    <!--SSG_HUB_END--></div>
+    </section>
+
     <section class="directory-shell">
       <aside class="filter-panel" data-i18n-attr="aria-label" data-i18n="a11yFilters" aria-label="筛选条件">
         <div class="filter-heading">
@@ -517,6 +537,9 @@
     <p class="footer-def" data-i18n="footerDef">本站是收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站，不开发、不托管、不代理任何产品；产品描述中的价格、会员、套餐均属该产品自身，与本站无关。全站免费，无竞价排名。</p>
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
     <p class="footer-links"><a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <nav class="footer-cats" data-i18n-attr="aria-label" data-i18n="a11yFooterCats" aria-label="按分类浏览">
+      <span data-i18n="footerCatsLabel">分类</span><a href="/c/ai-tools.html" data-i18n-cat="AI 工具">AI 工具</a><a href="/c/uncategorized.html" data-i18n-cat="未分类">未分类</a><a href="/c/dev-tools.html" data-i18n-cat="开发工具">开发工具</a><a href="/c/image-tools.html" data-i18n-cat="图片工具">图片工具</a><a href="/c/free-tools.html" data-i18n-cat="免费工具">免费工具</a><a href="/c/audio-video.html" data-i18n-cat="音视频">音视频</a><a href="/c/productivity.html" data-i18n-cat="效率工具">效率工具</a><a href="/c/browser-extensions.html" data-i18n-cat="浏览器扩展">浏览器扩展</a><a href="/c/docs-office.html" data-i18n-cat="文档办公">文档办公</a><a href="/c/games.html" data-i18n-cat="游戏娱乐">游戏娱乐</a><a href="/c/education.html" data-i18n-cat="教育学习">教育学习</a><a href="/c/social.html" data-i18n-cat="社交社区">社交社区</a><a href="/c/lifestyle.html" data-i18n-cat="生活服务">生活服务</a>
+    </nav>
   </footer>
   <script src="i18n.js" type="module"></script>
   <script src="app.js" type="module"></script>

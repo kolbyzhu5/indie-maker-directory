@@ -389,9 +389,14 @@ export function buildEnglishPages(ctx) {
     })
     .join("");
 
+  // 「Start here」入口列表：必须覆盖全部 6 个英文榜单 + 2 个独家页 + 2 个场景页，
+  // 否则没被列到的英文页在站内就成了孤岛（只靠 sitemap 被发现）。
   const highlights = [
     ["/en/best-ai-tools.html", "Best free AI tools"],
+    ["/en/best-free-tools.html", "Free tools"],
     ["/en/best-dev-tools.html", "Developer tools"],
+    ["/en/best-productivity-tools.html", "Productivity tools"],
+    ["/en/best-browser-extensions.html", "Browser extensions"],
     ["/en/best-indie-games.html", "Indie games"],
     ["/en/local-first.html", "Tools that never upload your files"],
     ["/en/indie-report.html", "Survival data report"],

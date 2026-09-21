@@ -242,6 +242,84 @@ function quickTagTemplate(name, count) {
   return `<button type="button" data-category="${escapeHTML(name)}">${escapeHTML(name)} <small>${count}</small></button>`;
 }
 
+// ── 首页频道入口（导流区）──────────────────────────────────────
+// 为什么需要它：全量 Umami 数据显示首页占 78% 流量，而 <main> 里除 48 张产品卡外
+// 【没有】任何站内内页链接 —— 6 个榜单页、2 个独家页、2 个场景页、13 个分类页
+// 在首页正文里全是孤岛（只有 header 2 条 + footer 2 条）。这不是内容不够，
+// 是「进去之后没有路」。本函数把这 24 个入口渲染进首页。
+//
+// 两个实现细节：
+//  ① 标签同时在构建期写成中文，并带 data-i18n / data-i18n-cat 标记 ——
+//     静态 HTML 里就有可抓取的中文锚文本（爬虫友好），切换语言时由 app.js 换文案。
+//  ② 计数从 RANKINGS / categoryCounts 实时算，不硬编码，永不与页面漂移。
+function renderHub(allProjects) {
+  const byName = new Map(allProjects.map((p) => [p.name, p]));
+  const rankingCount = (cfg) =>
+    cfg.groups.reduce((n, g) => n + g.names.filter((name) => byName.has(name)).length, 0);
+
+  const rankLinks = RANKINGS.map(
+    (cfg) =>
+      `<a href="/${cfg.slug}.html"><span data-i18n-cat="${escapeHTML(cfg.navLabel)}">${escapeHTML(cfg.navLabel)}</span> <small>${rankingCount(cfg)}</small></a>`
+  ).join("");
+
+  // 独家内容页与场景页：计数来自真实数据（不上传工具数 / 场景聚合数）
+  // ⚠️ 必须与 renderLocalFirstPage 的命中口径【逐字一致】（同样是 name+description
+  //    的 includes 匹配，不含 categories），否则首页角标会与目标页数字对不上。
+  const localFirstCount = allProjects.filter((p) =>
+    LOCAL_FIRST_SIGNALS.some((k) => `${p.name} ${p.description || ""}`.includes(k))
+  ).length;
+  const scenarioCounts = SCENARIOS.map(
+    (cfg) => bucketScenario(cfg, allProjects).groups.reduce((n, g) => n + g.items.length, 0)
+  );
+  const deepLinks = [
+    [`/local-first.html`, "hubLocalFirst", "不上传文件的工具", localFirstCount],
+    [`/indie-report.html`, "hubReport", "独立开发者存活报告", ""],
+    [`/weekly.html`, "hubWeekly", "本周新收录", ""],
+    [`/topic/${SCENARIOS[0].slug}.html`, "hubPdf", "在线 PDF 工具", scenarioCounts[0]],
+    [`/topic/${SCENARIOS[1].slug}.html`, "hubTranslate", "在线翻译工具", scenarioCounts[1]]
+  ]
+    .map(
+      ([href, key, label, count]) =>
+        `<a href="${href}"><span data-i18n="${key}">${label}</span>${count === "" ? "" : ` <small>${count}</small>`}</a>`
+    )
+    .join("");
+
+  // 13 个分类页【不】放这里，改由全站页脚的 .footer-cats 承担（见 footerCategoryNav）。
+  // 理由（2026-09-21 实测）：桌面端把 13 条分类并进本区，整块高 318px，首张产品卡被推到
+  // 1100px（超出 900 折叠线）；而分类页要的是「被索引 + 有权重传递」，放页脚能覆盖
+  // 全部 3060 个页面（含 2949 个详情页），比只挂在首页强得多，且首页因此回到 ~200px。
+  return [
+    { key: "hubGroupRank", label: "精选榜单", links: rankLinks },
+    { key: "hubGroupDeep", label: "深度内容", links: deepLinks }
+  ]
+    .map(
+      (g) => `<div class="hub-group">
+        <h3 data-i18n="${g.key}">${g.label}</h3>
+        <div class="hub-links">${g.links}</div>
+      </div>`
+    )
+    .join("\n      ");
+}
+
+// ── 全站页脚分类导航 ───────────────────────────────────────────
+// 「未分类」有 588 个作品（占全站 20%），但 categoryCounts 里没有这个键，
+// 所以首页热门分类胶囊（取 categoryCounts 前 9）永远不含它 —— 这 588 个作品
+// 此前只能靠搜索或 sitemap 触达。这里一并补上。
+function footerCategoryNav(categoryCounts, categorySlugs, uncategorizedCount) {
+  const links = Object.entries(categorySlugs)
+    .map(([name, slug]) => [name, slug, name === "未分类" ? uncategorizedCount : categoryCounts[name] || 0])
+    .filter(([, , count]) => count > 0)
+    .sort((a, b) => b[2] - a[2])
+    .map(
+      ([name, slug, count]) =>
+        `<a href="/c/${slug}.html" data-i18n-cat="${escapeHTML(name)}">${escapeHTML(name)}</a>`
+    )
+    .join("");
+  return `<nav class="footer-cats" data-i18n-attr="aria-label" data-i18n="a11yFooterCats" aria-label="按分类浏览">
+      <span data-i18n="footerCatsLabel">分类</span>${links}
+    </nav>`;
+}
+
 function buildItemListJSONLD(projects) {
   const items = projects.slice(0, 10).map((project, index) => ({
     "@type": "ListItem",
@@ -1648,6 +1726,8 @@ async function main() {
   html = replaceBlock(html, "<!--SSG_PROJECTS_START-->", "<!--SSG_PROJECTS_END-->", cards);
   // 2) 热门分类标签
   html = replaceBlock(html, "<!--SSG_QUICKTAGS_START-->", "<!--SSG_QUICKTAGS_END-->", quickTags);
+  // 2.5) 首页频道入口（导流区）：11 个内页入口 —— 修复「首页 78% 流量无路可走」
+  html = replaceBlock(html, "<!--SSG_HUB_START-->", "<!--SSG_HUB_END-->", renderHub(sorted));
   // 3) ItemList 结构化数据
   html = replaceBlock(html, "<!--SSG_ITEMLIST_START-->", "<!--SSG_ITEMLIST_END-->", itemList);
 
@@ -1880,6 +1960,20 @@ ${sections}
   });
   console.log(`[build] 已生成 ${enTargets.length} 个英文版页面（/en/*）`);
 
+  // ── 全站页脚分类导航 ──────────────────────────────────────────
+  // 为什么放页脚而不是首页导流区：分类页要的是「被索引 + 内链权重」。
+  // 首页导流区只覆盖 1 个页面，页脚覆盖全部 3060 个页面（含 2949 个详情页），
+  // 且首页导流区因此能腾出 100+px 给产品卡（桌面实测 318px → 200px）。
+  // 「未分类」有 588 个作品，但 categoryCounts 里没有这个键，首页热门分类胶囊
+  // 永远不含它 —— 这 588 个作品此前只能靠搜索触达，这里一并补上。
+  const uncategorizedCount = sorted.filter((p) => !p.categories || p.categories.length === 0).length;
+  const footerCatsHTML = footerCategoryNav(categoryCounts, CATEGORY_SLUGS, uncategorizedCount);
+  // 幂等 + 防御：已注入过或页面里没有 </footer> 就原样返回
+  const withFooterCats = (pageHtml) =>
+    pageHtml.includes('class="footer-cats"') || !pageHtml.includes("</footer>")
+      ? pageHtml
+      : pageHtml.replace("</footer>", `  ${footerCatsHTML}\n  </footer>`);
+
   const targets = [
     ["index.html", html],
     ["404.html", notFoundPage],
@@ -1898,7 +1992,10 @@ ${sections}
   for (const [file, content] of targets) {
     const full = path.join(ROOT, file);
     await mkdir(path.dirname(full), { recursive: true });
-    await writeFile(full, content, "utf8");
+    // 英文页已自带 "Browse by category" 分类导航，且那些链接本就指向中文分类页，
+    // 再插一遍中文标签的页脚导航会造成中英混排，故跳过 /en/*。
+    const isZhHtml = file.endsWith(".html") && !file.startsWith("en/");
+    await writeFile(full, isZhHtml ? withFooterCats(content) : content, "utf8");
     console.log(`[build] 已生成 ${file}`);
   }
 
@@ -1926,7 +2023,7 @@ ${sections}
   for (const [cat, catSlug, productsInCat] of categoryEntries) {
     const totalPages = Math.max(1, Math.ceil(productsInCat.length / CATEGORY_PAGE_SIZE));
     for (let page = 1; page <= totalPages; page++) {
-      const html = renderCategoryPage(cat, catSlug, productsInCat, slugMap, allCategoryCounts, page);
+      const html = withFooterCats(renderCategoryPage(cat, catSlug, productsInCat, slugMap, allCategoryCounts, page));
       if (page === 1) {
         await writeFile(path.join(ROOT, "c", `${catSlug}.html`), html, "utf8");
       } else {
@@ -1980,7 +2077,7 @@ ${sections}
     const cat = (p.categories && p.categories[0]) || "未分类";
     const siblings = byPrimaryCategory.get(cat) || [];
     const related = siblings.filter((x) => x.id !== p.id).slice(0, RELATED_COUNT);
-    const page = renderProductPage(p, slug, slugMap, related, uniqueCtx);
+    const page = withFooterCats(renderProductPage(p, slug, slugMap, related, uniqueCtx));
     await writeFile(path.join(ROOT, "p", `${slug}.html`), page, "utf8");
     generatedProducts++;
   }
@@ -1990,10 +2087,13 @@ ${sections}
   if (syncDist) {
     const dist = path.join(ROOT, "dist");
     await mkdir(dist, { recursive: true });
+    // ⚠️ 必须与上方 targets 循环用同一套「是否注入页脚分类导航」的判断，
+    //    否则 dist/（EdgeOne 实际部署源）会与根目录产物不一致。
     for (const [file, content] of targets) {
       const distFile = path.join(dist, file);
       await mkdir(path.dirname(distFile), { recursive: true });
-      await writeFile(distFile, content, "utf8");
+      const isZhHtml = file.endsWith(".html") && !file.startsWith("en/");
+      await writeFile(distFile, isZhHtml ? withFooterCats(content) : content, "utf8");
     }
     // 数据文件 + 静态资源同步
     await mkdir(path.join(dist, "data"), { recursive: true });

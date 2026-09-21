@@ -74,10 +74,19 @@ jobs:
           COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
           COS_REGION: ${{ secrets.COS_REGION }}
+      # ⚠️ 为什么要在部署命令后面接 sed：
+      #   `edgeone makers deploy --json` 会把带 eo_token 的预览地址原样写进日志，
+      #   而本仓库是 public —— 等于每次部署都把一枚「可访问该次预览站」的临时 token
+      #   公开出去（2026-09-21 实测：该 token 约 1 小时过期，事后不可利用，但属持续暴露面）。
+      #   这里只脱敏 token 与预览域名，其余诊断信息全部保留。
+      #   `set -o pipefail` 是必需的：否则 sed 的成功退出码会盖掉部署失败的退出码，
+      #   出现「部署失败但 CI 显示绿灯」的假成功。
       - name: Deploy to EdgeOne Makers (main domain indiemaker.cn)
         run: |
+          set -o pipefail
           npm install -g edgeone@latest
-          edgeone makers deploy dist/ -n indie-maker-directory --json
+          edgeone makers deploy dist/ -n indie-maker-directory --json 2>&1 \
+            | sed -E 's/eo_token=[A-Za-z0-9._-]+/eo_token=***REDACTED***/g; s/[a-z0-9-]+\.edgeone\.(cool|app)/***REDACTED***.edgeone.\1/g'
         env:
           EDGEONE_PAGES_API_TOKEN: ${{ secrets.EDGEONE_PAGES_API_TOKEN }}
           PAGES_SOURCE: skills

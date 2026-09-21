@@ -121,6 +121,17 @@ footer .footer-links { line-height: 1.9; }
 footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
 footer a:hover { color: var(--red); border-bottom-color: var(--red); }
 
+/* ── 页脚分类导航（全站注入，见 build.mjs footerCategoryNav）────────
+   13 个分类页此前只有首页「热门分类胶囊」能间接触达，而胶囊取的是 categoryCounts
+   前 9，永远不含「未分类」—— 那 588 个作品（占全站 20%）只能靠搜索找到。
+   在全部 3060 个页面的页脚注入分类导航：分类页拿到内链权重，588 个未分类作品
+   也回到动线上。footer 在首页是 flex（space-between），故需 flex:0 0 100% 独占一行；
+   在详情页/分类页是 .detail-footer（普通块 + text-align:center），此处统一左对齐。 */
+.footer-cats { flex: 0 0 100%; margin: 10px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); font-size: 11px; line-height: 2.4; text-align: left; }
+.footer-cats > span { margin-right: 9px; color: var(--red-dark); font-weight: 700; letter-spacing: .1em; }
+.footer-cats a { display: inline-block; margin-right: 13px; padding: 4px 0; color: var(--muted); text-decoration: none; white-space: nowrap; }
+.footer-cats a:hover { color: var(--red); }
+
 /* ── 触控热区扩展（可访问性 / 移动端）───────────────────────────
    实测 390px 下的可点元素盒子高度：卡片「详情 / 去看看」仅 16px、「重置」18px、
    页脚链接 17-19px、详情页推荐条目 20px、分类标签 30px、卡片标题 26px、面包屑 19px
@@ -138,6 +149,23 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
 footer .footer-links a { display: inline-block; line-height: 1.7; padding: 5px 0; }
 .project-card h2 a { padding: 5px 0; }
 .breadcrumb a { padding: 4px 0; }
+/* ── 首页导流区（频道入口）──────────────────────────────────────
+   背景（2026-09-21 实测）：全量数据里首页占 78% 流量，而 <main> 内除产品卡外
+   【零】个站内入口 —— 6 个榜单页 / 2 个独家页 / 2 个场景页 / 13 个分类页
+   在首页 body 里根本没有链接（只有 header 2 条 + footer 2 条）。
+   本区块把这 24 个入口集中暴露，是「首页 → 内页」动线修复的主体。
+   条目数用 JS/构建期注入，移动端靠横滑轨道承载，高度不随条目数增长。 */
+.hub { margin: 26px 0 0; padding: 20px 24px 22px; background: var(--card); border: 1px solid var(--line); box-shadow: 5px 6px 0 rgba(88,71,40,.06); }
+.hub-head { display: flex; align-items: baseline; gap: 12px; margin: 0 0 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.hub-head h2 { margin: 0; font-size: 17px; letter-spacing: .04em; padding-left: 11px; border-left: 4px solid var(--red); }
+.hub-head p { margin: 0; color: var(--muted); font-size: 12px; }
+.hub-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 26px; }
+.hub-group h3 { margin: 0 0 10px; color: var(--muted); font-size: 11px; font-weight: 400; letter-spacing: .18em; }
+.hub-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.hub-links a { display: inline-flex; align-items: baseline; gap: 5px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 3px; background: rgba(255,253,247,.8); color: var(--ink); font-size: 13px; text-decoration: none; transition: .2s ease; }
+.hub-links a:hover { color: #fff9ec; background: var(--red); border-color: var(--red); }
+.hub-links a small { color: var(--muted); font-size: 10px; }
+.hub-links a:hover small { color: rgba(255,249,236,.82); }
 @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 1050px) { .project-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }.hero { padding-left: 3%; padding-right: 3%; }.search-stage { padding-left: 3%; padding-right: 3%; } }
 @media (max-width: 760px) { .site-header { height: 76px; padding: 14px 18px; }.brand-seal { width: 43px; height: 43px; }.brand small, .top-nav a:first-child { display: none; } main { padding: 0 18px 50px; }.hero { min-height: auto; grid-template-columns: 1fr; gap: 25px; padding: 48px 0 35px; }.hero-note { display: none; } h1 { font-size: 44px; }.search-stage { padding: 0 0 22px; }.search-wrap { height: 61px; box-shadow: 4px 4px 0 var(--red); }.search-mark { padding: 0 12px 4px; }.search-wrap input { font-size: 14px; }.search-wrap kbd { display: none; }.clear-search { padding: 0 12px; }.directory-shell { grid-template-columns: 1fr; }.filter-panel { position: static; }.filter-panel fieldset { display: flex; flex-wrap: wrap; gap: 4px 14px; }.filter-panel fieldset label { min-height: 27px; }.source-note { display: none; }.project-grid { grid-template-columns: 1fr; }.project-card { min-height: 215px; }.results-toolbar { margin-top: 4px; } footer { margin: 0 18px; padding-left: 0; padding-right: 0; flex-direction: column; gap: 5px; } }
@@ -209,4 +237,26 @@ footer .footer-links a { display: inline-block; line-height: 1.7; padding: 5px 0
   .filter-panel fieldset b { font-size: 11px; }
   .edition-badge { font-size: 11px; }
   footer { font-size: 11px; }
+}
+
+/* ── 移动端：导流区压成单行横滑轨道 ──────────────────────────────
+   11 条入口在 390px 下若换行堆叠会占 250px+，把首张产品卡挤出视口
+   （此前专门优化过「首卡进入 844 视口」）。这里用 display:contents 把三层
+   结构（.hub-groups > .hub-group > .hub-links > a）拍平成一层 flex 子项，
+   整块只占「一行标题 + 一行横滑」，高度恒定、与条目数无关（实测 82px）。 */
+@media (max-width: 760px) {
+  .hub { margin: 12px 0 0; padding: 10px 0 10px 12px; box-shadow: 3px 3px 0 rgba(88,71,40,.06); }
+  .hub-head { margin: 0 0 8px; padding-bottom: 0; border-bottom: 0; }
+  .hub-head h2 { font-size: 14px; padding-left: 8px; border-left-width: 3px; }
+  .hub-head p { display: none; }
+  .hub-groups { display: flex; flex-wrap: nowrap; gap: 7px; overflow-x: auto; padding-right: 12px; scrollbar-width: none; }
+  .hub-groups::-webkit-scrollbar { display: none; }
+  .hub-group, .hub-links { display: contents; }
+  .hub-group h3 { display: none; }
+  .hub-links a { flex: 0 0 auto; padding: 6px 11px; font-size: 12px; }
+  .hub-links a small { font-size: 11px; }
+  /* 页脚分类导航：13 条会折成 4-5 行，行距按 footer-links 的同款手法拉开，
+     避免相邻两行的热区互相抢点击（见上方「触控热区扩展」注释） */
+  .footer-cats { line-height: 3.1; text-align: left; }
+  .footer-cats a { margin-right: 15px; }
 }
