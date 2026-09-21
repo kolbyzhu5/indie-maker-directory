@@ -320,6 +320,29 @@ function footerCategoryNav(categoryCounts, categorySlugs, uncategorizedCount) {
     </nav>`;
 }
 
+// ── 公安备案号（公安部要求：网站底部标注备案号，并链接到官方查询页）─────
+// 2026-09-21 通过，备案号 湘公网安备43010402003127号。
+//
+// 实现方式：不逐个改 12 处 footer 模板，而是拿 ICP 备案锚点做**一次全局替换** ——
+// 全站 12 处（build.mjs 10 处 + index.html 1 处 + en-pages.mjs 1 处）的 ICP 锚点
+// 字符串逐字相同，替换后天然与 ICP 并排；以后新增页面只要沿用同一锚点就自动带上。
+// 图标用官方徽标并本地托管（不依赖对方 CDN 的可用性）；alt="" 是因为紧邻文字已表意。
+const ICP_ANCHOR = '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a>';
+const MPS_ANCHOR =
+  '<a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402003127" target="_blank" rel="noreferrer" class="mps-beian">' +
+  '<img src="/mps-beian.png" alt="" width="16" height="16" decoding="async">湘公网安备43010402003127号</a>';
+
+// 幂等要按【每处】判断，不能按页面判断。
+// 反例：若某页正文里自己写了一句「湘公网安备」，按页面判断会整页跳过注入，
+// 那页页脚就永远挂不上备案号 —— 而这种漏注入不会有任何报错，只能靠肉眼发现。
+// 所以用「ICP 锚点后面不是 '· '」的负向先行断言，只替换尚未注入的那些。
+const ICP_NOT_INJECTED = new RegExp(`${escapeRegExp(ICP_ANCHOR)}(?! · )`, "g");
+
+function injectBeian(pageHtml) {
+  if (!pageHtml.includes(ICP_ANCHOR)) return pageHtml; // 防御：模板若换了锚点就静默跳过，不产出坏链接
+  return pageHtml.replace(ICP_NOT_INJECTED, `${ICP_ANCHOR} · ${MPS_ANCHOR}`);
+}
+
 function buildItemListJSONLD(projects) {
   const items = projects.slice(0, 10).map((project, index) => ({
     "@type": "ListItem",
@@ -1974,6 +1997,17 @@ ${sections}
       ? pageHtml
       : pageHtml.replace("</footer>", `  ${footerCatsHTML}\n  </footer>`);
 
+  // 所有 HTML 产物的统一后处理入口。file 传相对路径（"p/jev-ai.html"、"en/index.html"），
+  // 根目录产物与 dist/ 产物都走这里 —— 集中一处，避免两条写入路径逻辑漂移。
+  //   · 公安备案：全站，含 /en/（备案是站点级法律标注，不因界面语言省略）
+  //   · 页脚分类导航：仅中文页（英文页已自带 "Browse by category" 且指向中文分类页，
+  //     再插一遍中文标签会中英混排）
+  const postProcess = (pageHtml, file) => {
+    if (!file.endsWith(".html")) return pageHtml;
+    const withBeian = injectBeian(pageHtml);
+    return file.startsWith("en/") ? withBeian : withFooterCats(withBeian);
+  };
+
   const targets = [
     ["index.html", html],
     ["404.html", notFoundPage],
@@ -1992,10 +2026,7 @@ ${sections}
   for (const [file, content] of targets) {
     const full = path.join(ROOT, file);
     await mkdir(path.dirname(full), { recursive: true });
-    // 英文页已自带 "Browse by category" 分类导航，且那些链接本就指向中文分类页，
-    // 再插一遍中文标签的页脚导航会造成中英混排，故跳过 /en/*。
-    const isZhHtml = file.endsWith(".html") && !file.startsWith("en/");
-    await writeFile(full, isZhHtml ? withFooterCats(content) : content, "utf8");
+    await writeFile(full, postProcess(content, file), "utf8");
     console.log(`[build] 已生成 ${file}`);
   }
 
@@ -2023,7 +2054,7 @@ ${sections}
   for (const [cat, catSlug, productsInCat] of categoryEntries) {
     const totalPages = Math.max(1, Math.ceil(productsInCat.length / CATEGORY_PAGE_SIZE));
     for (let page = 1; page <= totalPages; page++) {
-      const html = withFooterCats(renderCategoryPage(cat, catSlug, productsInCat, slugMap, allCategoryCounts, page));
+      const html = postProcess(renderCategoryPage(cat, catSlug, productsInCat, slugMap, allCategoryCounts, page), `c/${catSlug}.html`);
       if (page === 1) {
         await writeFile(path.join(ROOT, "c", `${catSlug}.html`), html, "utf8");
       } else {
@@ -2077,7 +2108,7 @@ ${sections}
     const cat = (p.categories && p.categories[0]) || "未分类";
     const siblings = byPrimaryCategory.get(cat) || [];
     const related = siblings.filter((x) => x.id !== p.id).slice(0, RELATED_COUNT);
-    const page = withFooterCats(renderProductPage(p, slug, slugMap, related, uniqueCtx));
+    const page = postProcess(renderProductPage(p, slug, slugMap, related, uniqueCtx), `p/${slug}.html`);
     await writeFile(path.join(ROOT, "p", `${slug}.html`), page, "utf8");
     generatedProducts++;
   }
@@ -2087,21 +2118,20 @@ ${sections}
   if (syncDist) {
     const dist = path.join(ROOT, "dist");
     await mkdir(dist, { recursive: true });
-    // ⚠️ 必须与上方 targets 循环用同一套「是否注入页脚分类导航」的判断，
-    //    否则 dist/（EdgeOne 实际部署源）会与根目录产物不一致。
+    // ⚠️ 必须复用同一个 postProcess，否则 dist/（EdgeOne 实际部署源）会与根目录产物不一致
     for (const [file, content] of targets) {
       const distFile = path.join(dist, file);
       await mkdir(path.dirname(distFile), { recursive: true });
-      const isZhHtml = file.endsWith(".html") && !file.startsWith("en/");
-      await writeFile(distFile, isZhHtml ? withFooterCats(content) : content, "utf8");
+      await writeFile(distFile, postProcess(content, file), "utf8");
     }
     // 数据文件 + 静态资源同步
     await mkdir(path.join(dist, "data"), { recursive: true });
     await copyFile(path.join(ROOT, "data", "projects.json"), path.join(dist, "data", "projects.json"));
     await copyFile(path.join(ROOT, "og.png"), path.join(dist, "og.png")).catch(() => console.log("[build] og.png 不存在，跳过（本地可选资源）"));
     await copyFile(path.join(ROOT, "detail.css"), path.join(dist, "detail.css"));
-    // 运行时静态资源（index.html 直接引用的 JS/CSS/图标，必须与根目录保持一致）
-    for (const asset of ["app.js", "i18n.js", "styles.css", "favicon.svg"]) {
+    // 运行时静态资源（页面直接引用的 JS/CSS/图标，必须与根目录保持一致）
+    // mps-beian.png = 公安备案官方徽标，全站页脚都引用，漏同步会让每个页脚都掉图
+    for (const asset of ["app.js", "i18n.js", "styles.css", "favicon.svg", "mps-beian.png"]) {
       await copyFile(path.join(ROOT, asset), path.join(dist, asset));
     }
     // IndexNow key 验证文件（Bing 站点所有权验证，必须部署到站点根目录）

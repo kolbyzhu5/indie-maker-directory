@@ -132,6 +132,13 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
 .footer-cats a { display: inline-block; margin-right: 13px; padding: 4px 0; color: var(--muted); text-decoration: none; white-space: nowrap; }
 .footer-cats a:hover { color: var(--red); }
 
+/* ── 公安备案徽标（公安部要求：底部标注备案号并链接官方查询页）────────
+   图标用官方徽标（本地托管）。html 里带 width/height 属性，避免掉图或加载中时抖动；
+   文字紧邻图标，故 img 用 alt="" 不重复播报。
+   不改锚点 display，只调图标基线 —— 页脚链接本身已有 inline-block + padding 的
+   触控热区规则（见下方「触控热区扩展」），避免与它抢 display。 */
+.mps-beian img { display: inline-block; width: 16px; height: 16px; margin-right: 4px; vertical-align: -3px; }
+
 /* ── 触控热区扩展（可访问性 / 移动端）───────────────────────────
    实测 390px 下的可点元素盒子高度：卡片「详情 / 去看看」仅 16px、「重置」18px、
    页脚链接 17-19px、详情页推荐条目 20px、分类标签 30px、卡片标题 26px、面包屑 19px
