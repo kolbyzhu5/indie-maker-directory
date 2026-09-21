@@ -97,8 +97,14 @@ jobs:
         run: node scripts/indexnow.mjs
         continue-on-error: true
       - uses: actions/configure-pages@v5
+      # ⚠️ path 必须是 dist/ 而不是 . —— 2026-09-21 实测：上传整仓库会把与站点无关的
+      # 东西一起发布成公开网页，实测以下地址全部 200：
+      #   /docs/现状与待办-2026-09-21.md、/docs/umami/2026-09-21.md（内部流量分析）、
+      #   /README.md、/scripts/*、/tests/*、以及散落在根目录的截图。
+      # dist/ 正是 EdgeOne 的部署源，改成它之后 GitHub Pages 仍是站点的完整镜像
+      # （含 p/ c/ en/ data/ 与运行时资源），只是不再夹带仓库内部文件。
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
       - uses: actions/deploy-pages@v4
         id: deployment
