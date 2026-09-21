@@ -3,6 +3,11 @@
 .workbuddy/
 /preview.png
 /preview-mobile.png
+# 本地排查用的临时截图（不属于站点资源，README 也未引用）。
+# 曾经被 `git add -A` 误提交过一次，共 1.6MB —— 显式 ignore 从根上避免复发。
+/i18n-en.png
+/i18n-zh.png
+/readme-check.png
 *.zip
 node_modules/
 
