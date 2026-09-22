@@ -1,10 +1,28 @@
-# AI 独立制造所 · 全部产品清单（2951）
+# AI 独立制造所 · 全部产品清单（2958）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-21（北京时间）
+> 更新时间：2026-09-22（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2485）
+## 大众产品（2491）
+
+- **[Tancky AI](https://tancky.io/)** — 开发者 tancky777 · AI 工具 / 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/tancky-ai.html)
+  AI 图片合成与照片融合工具（免费），把多张图片拼合、混合成一张，浏览器打开即用
+
+- **[What Can Jev Do](https://whatcanjevdo.com/)** — 开发者 Jammy（上海） · 开发工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/what-can-jev-do.html)
+  Jev 模型的用法与项目收集站，汇总大家用 Jev 做出的实际案例、思路和代码示例
+
+- **[听成文 AI](https://tingchengwen.com)** — 开发者 jian950718 · AI 工具 / 音视频 / 效率工具 / 开发工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/ai-41ccc7.html)
+  本地运行的音视频转写与摘要工具，粘贴 B 站 / 抖音链接或拖入本地文件，生成带时间轴的文稿、SRT / VTT 字幕和 AI 摘要，支持批量处理与说话人区分，文件和结果都不上传云端 — Windows 桌面软件
+
+- **[GKMix](https://gkmix.com)** — 开发者 GK · AI 工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/gkmix.html)
+  海外 VPS、AI 工具订阅与海外支付的实测指南站，每篇都跑真实数据并公开账单，不适合谁会直接写明
+
+- **[MLUE](https://mlue.cn/)** — 开发者 NPH · 未分类 · 已上线 · 收录 2026-09-21 · [详情页](https://indiemaker.cn/p/mlue.html)
+  面向多平台创作者的个人主页与工作台，把链接、作品和联系方式整理成一个可分享页面
+
+- **[SummarizeVideoToText](https://summarizevideototext.com/zh)** — 开发者 犀利豆 · 音视频 / 效率工具 / 浏览器扩展 · 已上线 · 收录 2026-09-21 · [详情页](https://indiemaker.cn/p/summarizevideototext.html)
+  视频转文字工具，粘贴 YouTube、TikTok、Instagram、X 的链接就能拿到带时间戳的章节摘要和完整字幕稿，每句都能点回原视频对应的那一秒，免注册试用 - Chrome 扩展
 
 - **[MelodyTrace](https://melodytrace.com/)** — 开发者 FlickerMi · 免费工具 · 已上线 · 收录 2026-09-21 · [详情页](https://indiemaker.cn/p/melodytrace.html)
   MP3 转 MIDI 工具（免费）：把声音，写成可编辑的音符
@@ -5370,6 +5388,18 @@
 - **[Tiny RDM](https://redis.tinycraft.cc/zh/)** — 开发者 Lykin（广州） · 未分类 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/tiny-rdm.html)
   美观易用、极致轻量的 Redis 桌面客户端
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Lykin（广州） · AI 工具 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/ai-fce5f8.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Lykin（广州） · 开发工具 / 免费工具 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/project-cfdaf5.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Lykin（广州） · 开发工具 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/project-493267.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Lykin（广州） · 浏览器扩展 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/project-4936e7.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[iconce](https://iconce.com)** — 开发者 yesmore（成都） · 未分类 · 已上线 · 收录 2024-01-18 · [详情页](https://indiemaker.cn/p/iconce.html)
   SVG 图标生成器
 
@@ -5387,18 +5417,6 @@
 
 - **[易匹配](https://www.yipipei.com/)** — 开发者 peacefullmind · 文档办公 · 已停止 · 收录 2024-01-05 · [详情页](https://indiemaker.cn/p/project-7b22ee.html)
   面向"表哥表姐"的表格匹配工具, 只需要在网页上点点点, 就可以实现数据匹配, 还可以自定义阈值, 实现模糊匹配.
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 peacefullmind · AI 工具 · 已上线 · 收录 2024-01-05 · [详情页](https://indiemaker.cn/p/ai-0a7ef2.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 peacefullmind · 开发工具 / 免费工具 · 已上线 · 收录 2024-01-05 · [详情页](https://indiemaker.cn/p/project-54f73b.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 peacefullmind · 开发工具 · 已上线 · 收录 2024-01-05 · [详情页](https://indiemaker.cn/p/project-e72f8e.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 peacefullmind · 浏览器扩展 · 已上线 · 收录 2024-01-05 · [详情页](https://indiemaker.cn/p/project-e7340e.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[h5-dooring](https://github.com/MrXujiang/h5-Dooring)** — 开发者 MrXujiang（重庆） · 开发工具 · 已上线 · 收录 2023-12-31 · [详情页](https://indiemaker.cn/p/h5-dooring.html)
   开箱即用的零代码搭建平台, 致力于让页面制作更简单
@@ -8456,7 +8474,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（135）
+## 独立游戏（136）
+
+- **[Steal an Egg Wiki](https://stealanegg.gamehubs.wiki/)** — 开发者 sam ice（深圳） · 未分类 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/steal-an-egg-wiki.html)
+  Steal an Egg 非官方资料与攻略站，整理蛋、宠物、变异、速度、地形和通关进度，方便玩家随时查询
 
 - **[旧境传说](https://backmir.org/)** — 开发者 wizcy · 开发工具 / 浏览器扩展 / 生活服务 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/project-e1930e.html)
   中文复古单人动作 RPG，提供战士、法师、道士职业、地图探索与 Boss 挑战，可搭配随机装备词缀与套装；Mac/Windows 桌面浏览器游玩，无需注册，进度保存在本机浏览器
