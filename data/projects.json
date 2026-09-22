@@ -4,29 +4,152 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-22T00:50:46.133Z",
+  "generatedAt": "2026-09-22T11:21:04.405Z",
   "counts": {
-    "total": 2958,
-    "main": 2491,
+    "total": 2963,
+    "main": 2496,
     "programmer": 331,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 896,
-    "图片工具": 501,
+    "音视频": 464,
+    "AI 工具": 897,
+    "免费工具": 467,
+    "图片工具": 502,
+    "文档办公": 272,
+    "开发工具": 550,
     "浏览器扩展": 284,
-    "免费工具": 466,
-    "开发工具": 549,
-    "音视频": 462,
     "效率工具": 421,
     "教育学习": 162,
-    "文档办公": 271,
     "社交社区": 113,
     "生活服务": 90,
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260922-xiaoyaohou19910610-bit-精选副业",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "xiaoyaohou19910610-bit",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaoyaohou19910610-bit"
+        }
+      ],
+      "name": "精选副业",
+      "url": "https://jingxuan-fuye.pages.dev/",
+      "status": "online",
+      "description": "中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260922-2456868764-jev-guide",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "Jun",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/2456868764"
+        }
+      ],
+      "name": "Jev Guide",
+      "url": "https://jev.guide/",
+      "status": "online",
+      "description": "发现 Jev 的真实应用。从官方发布到真实演示，在一个地方探索 TypeSafe Jev。按行业寻找用例，查看 X 原帖截图，并直接在站内播放原视频",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260922-niubigeo-niubigeo",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "Albert",
+      "city": "美国",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Albert-Weasker/niubigeo"
+        }
+      ],
+      "name": "NiubiGeo",
+      "url": "https://niubigeo.ai/",
+      "status": "online",
+      "description": "NiubiGEO 帮助 AI、SaaS、DevTools 和开源项目检测并提升在 ChatGPT、Perplexity、Google AI 等 AI 搜索与问答场景中的品牌可见度",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://niubigeo.ai/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260922-jimmy0256-reelmuse",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "jimmy0256",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jimmy0256"
+        }
+      ],
+      "name": "ReelMuse",
+      "url": "https://reelmuse.app/ai-dance-generator/",
+      "status": "online",
+      "description": "无需编写提示词，选好舞蹈模板、上传照片即可生成舞蹈视频",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260922-magicapple123-简历通-resumeforge",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "magicapple123",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/magicapple123"
+        }
+      ],
+      "name": "简历通 ResumeForge",
+      "url": "https://magicapple123.github.io/ResumeForge-official/",
+      "status": "online",
+      "description": "本地运行的 AI 求职工作台，简历生成、岗位采集、投递追踪、面试复盘全流程，数据只存本机不上传，Windows 一键启动，开源免费",
+      "extraLinks": [
+        {
+          "label": "查看仓库",
+          "url": "https://github.com/magicapple123/ResumeForge"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260922-tancky777-tancky-ai",
       "edition": "main",
@@ -2113,12 +2236,15 @@
       "name": "热摸爽",
       "url": "https://remoshuang.com/",
       "status": "online",
-      "description": "全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用",
-      "extraLinks": [],
+      "description": "中文全网热点聚合网站，把微博、知乎、今日头条、GitHub Trending、科技和财经等公开榜单整理到一处，提供跨平台热点、正在升温、历史热搜和 RSS",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zjzno1/remoshuang"
+        }
+      ],
       "categories": [
-        "AI 工具",
-        "开发工具",
-        "免费工具"
+        "开发工具"
       ],
       "source": "upstream"
     },
@@ -49018,6 +49144,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20240218-bistutu-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-02-18",
+      "maker": "ThinkStu",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Bistutu"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240218-bistutu-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-02-18",
+      "maker": "ThinkStu",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Bistutu"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240218-bistutu-独立星球",
+      "edition": "main",
+      "addedAt": "2024-02-18",
+      "maker": "ThinkStu",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Bistutu"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240218-bistutu-独立观察",
+      "edition": "main",
+      "addedAt": "2024-02-18",
+      "maker": "ThinkStu",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Bistutu"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20240202-beavailable-apt-sh",
       "edition": "programmer",
       "addedAt": "2024-02-02",
@@ -49124,115 +49359,6 @@
       "description": "美观易用、极致轻量的 Redis 桌面客户端",
       "extraLinks": [],
       "categories": [],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240122-tiny-rdm-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-01-22",
-      "maker": "Lykin",
-      "city": "广州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240122-tiny-rdm-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-01-22",
-      "maker": "Lykin",
-      "city": "广州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240122-tiny-rdm-独立星球",
-      "edition": "main",
-      "addedAt": "2024-01-22",
-      "maker": "Lykin",
-      "city": "广州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240122-tiny-rdm-独立观察",
-      "edition": "main",
-      "addedAt": "2024-01-22",
-      "maker": "Lykin",
-      "city": "广州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/tiny-craft/tiny-rdm"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
-      ],
       "source": "upstream"
     },
     {
