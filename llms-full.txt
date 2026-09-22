@@ -1,10 +1,25 @@
-# AI 独立制造所 · 全部产品清单（2958）
+# AI 独立制造所 · 全部产品清单（2963）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-09-22（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2491）
+## 大众产品（2496）
+
+- **[精选副业](https://jingxuan-fuye.pages.dev/)** — 开发者 xiaoyaohou19910610-bit · 未分类 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/project-20fe73.html)
+  中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口
+
+- **[Jev Guide](https://jev.guide/)** — 开发者 Jun（上海） · 音视频 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/jev-guide.html)
+  发现 Jev 的真实应用。从官方发布到真实演示，在一个地方探索 TypeSafe Jev。按行业寻找用例，查看 X 原帖截图，并直接在站内播放原视频
+
+- **[NiubiGeo](https://niubigeo.ai/)** — 开发者 Albert（美国） · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/niubigeo.html)
+  NiubiGEO 帮助 AI、SaaS、DevTools 和开源项目检测并提升在 ChatGPT、Perplexity、Google AI 等 AI 搜索与问答场景中的品牌可见度
+
+- **[ReelMuse](https://reelmuse.app/ai-dance-generator/)** — 开发者 jimmy0256 · 图片工具 / 音视频 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/reelmuse.html)
+  无需编写提示词，选好舞蹈模板、上传照片即可生成舞蹈视频
+
+- **[简历通 ResumeForge](https://magicapple123.github.io/ResumeForge-official/)** — 开发者 magicapple123 · AI 工具 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/resumeforge.html)
+  本地运行的 AI 求职工作台，简历生成、岗位采集、投递追踪、面试复盘全流程，数据只存本机不上传，Windows 一键启动，开源免费
 
 - **[Tancky AI](https://tancky.io/)** — 开发者 tancky777 · AI 工具 / 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/tancky-ai.html)
   AI 图片合成与照片融合工具（免费），把多张图片拼合、混合成一张，浏览器打开即用
@@ -180,8 +195,8 @@
 - **[ReadGZH](https://readgzh.site/)** — 开发者 sweesama · AI 工具 / 开发工具 / 教育学习 · 已上线 · 收录 2026-09-09 · [详情页](https://indiemaker.cn/p/readgzh.html)
   微信公众号文章 AI 阅读工具，粘贴链接生成便于 AI 读取的页面，另提供 API 与 MCP 接入
 
-- **[热摸爽](https://remoshuang.com/)** — 开发者 zjzno1 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/project-33a01e.html)
-  全网热搜热榜聚合网站，一站查看微博、知乎、抖音、GitHub Trending 等 200+ 公开来源，支持科技、AI、财经等分类、跨平台事件合并和按日期回看历史热点 — 无需注册，打开即用
+- **[热摸爽](https://remoshuang.com/)** — 开发者 zjzno1 · 开发工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/project-33a01e.html)
+  中文全网热点聚合网站，把微博、知乎、今日头条、GitHub Trending、科技和财经等公开榜单整理到一处，提供跨平台热点、正在升温、历史热搜和 RSS
 
 - **[Erase Background Pro](https://erasebgpro.com)** — 开发者 肖戈（深圳） · AI 工具 / 图片工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/erase-background-pro.html)
   AI 一键抠图工具，秒级输出边缘干净的透明 PNG，支持电商人像/发丝细节与 4K 高清，提供批量处理、免费试用与开发者 API，无需注册、免费即用
@@ -5376,6 +5391,18 @@
 - **[流畅阅读-浏览器翻译插件](https://github.com/Bistutu/FluentRead)** — 开发者 ThinkStu（北京） · AI 工具 / 浏览器扩展 / 教育学习 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-b76f03.html)
   有人工智能翻译引擎的浏览器插件，支持 OpenAI、Gemini、通义千问、文心一言、智谱清言等模型，可以为网站提供更加友好的翻译，让所有人都能拥有母语般的阅读体验。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 ThinkStu（北京） · AI 工具 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/ai-c25083.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 ThinkStu（北京） · 开发工具 / 免费工具 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-186ef5.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 ThinkStu（北京） · 开发工具 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-f70cf1.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 ThinkStu（北京） · 浏览器扩展 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-f71171.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[PPResume](https://ppresume.com?utm_source=chinese-independent-developer)** — 开发者 Xiao Hanyu · 文档办公 · 已上线 · 收录 2024-01-31 · [详情页](https://indiemaker.cn/p/ppresume.html)
   基于 LaTeX 的简历制作 Web App，提供极高质量的简历排版和 PDF 输出
 
@@ -5387,18 +5414,6 @@
 
 - **[Tiny RDM](https://redis.tinycraft.cc/zh/)** — 开发者 Lykin（广州） · 未分类 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/tiny-rdm.html)
   美观易用、极致轻量的 Redis 桌面客户端
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Lykin（广州） · AI 工具 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/ai-fce5f8.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Lykin（广州） · 开发工具 / 免费工具 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/project-cfdaf5.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Lykin（广州） · 开发工具 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/project-493267.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Lykin（广州） · 浏览器扩展 · 已上线 · 收录 2024-01-22 · [详情页](https://indiemaker.cn/p/project-4936e7.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[iconce](https://iconce.com)** — 开发者 yesmore（成都） · 未分类 · 已上线 · 收录 2024-01-18 · [详情页](https://indiemaker.cn/p/iconce.html)
   SVG 图标生成器
