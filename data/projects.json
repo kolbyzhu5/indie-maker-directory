@@ -4,29 +4,201 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-21T08:13:01.549Z",
+  "generatedAt": "2026-09-22T00:50:46.133Z",
   "counts": {
-    "total": 2951,
-    "main": 2485,
+    "total": 2958,
+    "main": 2491,
     "programmer": 331,
-    "game": 135,
+    "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "免费工具": 465,
-    "图片工具": 500,
-    "AI 工具": 893,
-    "浏览器扩展": 282,
+    "AI 工具": 896,
+    "图片工具": 501,
+    "浏览器扩展": 284,
+    "免费工具": 466,
+    "开发工具": 549,
+    "音视频": 462,
+    "效率工具": 421,
     "教育学习": 162,
-    "音视频": 460,
     "文档办公": 271,
-    "开发工具": 547,
     "社交社区": 113,
-    "效率工具": 419,
     "生活服务": 90,
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260922-tancky777-tancky-ai",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "tancky777",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tancky777"
+        }
+      ],
+      "name": "Tancky AI",
+      "url": "https://tancky.io/",
+      "status": "online",
+      "description": "AI 图片合成与照片融合工具（免费），把多张图片拼合、混合成一张，浏览器打开即用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260922-chenminjie24-what-can-jev-do",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "Jammy",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenminjie24"
+        }
+      ],
+      "name": "What Can Jev Do",
+      "url": "https://whatcanjevdo.com/",
+      "status": "online",
+      "description": "Jev 模型的用法与项目收集站，汇总大家用 Jev 做出的实际案例、思路和代码示例",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260922-jian950718-听成文-ai",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "jian950718",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jian950718"
+        }
+      ],
+      "name": "听成文 AI",
+      "url": "https://tingchengwen.com",
+      "status": "online",
+      "description": "本地运行的音视频转写与摘要工具，粘贴 B 站 / 抖音链接或拖入本地文件，生成带时间轴的文稿、SRT / VTT 字幕和 AI 摘要，支持批量处理与说话人区分，文件和结果都不上传云端 — Windows 桌面软件",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260922-charlielyo-gkmix",
+      "edition": "main",
+      "addedAt": "2026-09-22",
+      "maker": "GK",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Charlielyo"
+        }
+      ],
+      "name": "GKMix",
+      "url": "https://gkmix.com",
+      "status": "online",
+      "description": "海外 VPS、AI 工具订阅与海外支付的实测指南站，每篇都跑真实数据并公开账单，不适合谁会直接写明",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20260922-steal-an-egg-steal-an-egg-wiki",
+      "edition": "game",
+      "addedAt": "2026-09-22",
+      "maker": "sam ice",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sam-ice-star/steal-an-egg"
+        }
+      ],
+      "name": "Steal an Egg Wiki",
+      "url": "https://stealanegg.gamehubs.wiki/",
+      "status": "online",
+      "description": "Steal an Egg 非官方资料与攻略站，整理蛋、宠物、变异、速度、地形和通关进度，方便玩家随时查询",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260921-bnhp-creater-mlue",
+      "edition": "main",
+      "addedAt": "2026-09-21",
+      "maker": "NPH",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BNHP-creater"
+        }
+      ],
+      "name": "MLUE",
+      "url": "https://mlue.cn/",
+      "status": "online",
+      "description": "面向多平台创作者的个人主页与工作台，把链接、作品和联系方式整理成一个可分享页面",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://mlue.cn/link-in-bio"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260921-diaozxin007-summarizevideototext",
+      "edition": "main",
+      "addedAt": "2026-09-21",
+      "maker": "犀利豆",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/diaozxin007"
+        }
+      ],
+      "name": "SummarizeVideoToText",
+      "url": "https://summarizevideototext.com/zh",
+      "status": "online",
+      "description": "视频转文字工具，粘贴 YouTube、TikTok、Instagram、X 的链接就能拿到带时间戳的章节摘要和完整字幕稿，每句都能点回原视频对应的那一秒，免注册试用 - [Chrome 扩展](https://summarizevideototext.com/zh/chrome-extension)",
+      "extraLinks": [
+        {
+          "label": "Chrome 扩展",
+          "url": "https://summarizevideototext.com/zh/chrome-extension"
+        },
+        {
+          "label": "Obsidian 插件",
+          "url": "https://summarizevideototext.com/zh/obsidian-plugin"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "效率工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260921-flickermi-melodytrace",
       "edition": "main",
@@ -3202,7 +3374,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260921-0",
+      "id": "custom-20260922-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48955,6 +49127,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20240122-tiny-rdm-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-01-22",
+      "maker": "Lykin",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tiny-craft/tiny-rdm"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240122-tiny-rdm-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-01-22",
+      "maker": "Lykin",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tiny-craft/tiny-rdm"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240122-tiny-rdm-独立星球",
+      "edition": "main",
+      "addedAt": "2024-01-22",
+      "maker": "Lykin",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tiny-craft/tiny-rdm"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240122-tiny-rdm-独立观察",
+      "edition": "main",
+      "addedAt": "2024-01-22",
+      "maker": "Lykin",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tiny-craft/tiny-rdm"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20240122-huifer-env-manager",
       "edition": "programmer",
       "addedAt": "2024-01-22",
@@ -49152,115 +49433,6 @@
       "extraLinks": [],
       "categories": [
         "文档办公"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240105-peacefullmind-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-01-05",
-      "maker": "peacefullmind",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/peacefullmind"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240105-peacefullmind-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-01-05",
-      "maker": "peacefullmind",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/peacefullmind"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240105-peacefullmind-独立星球",
-      "edition": "main",
-      "addedAt": "2024-01-05",
-      "maker": "peacefullmind",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/peacefullmind"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240105-peacefullmind-独立观察",
-      "edition": "main",
-      "addedAt": "2024-01-05",
-      "maker": "peacefullmind",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/peacefullmind"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
