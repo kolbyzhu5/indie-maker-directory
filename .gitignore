@@ -8,6 +8,8 @@
 /i18n-en.png
 /i18n-zh.png
 /readme-check.png
+# 网站体验审计的生成物（体积大、属临时产物）
+/output/
 *.zip
 node_modules/
 
