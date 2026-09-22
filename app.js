@@ -103,14 +103,24 @@ function filteredProjects() {
   });
 }
 
+// 外链点击埋点属性。与 scripts/build.mjs 的 outboundAttrs() 必须保持一致，
+// 否则「静态快照卡片」与「JS 重绘卡片」会被记成两套口径。
+// 首页卡片由本文件整体重绘（render() 里 grid.innerHTML = …），所以这里的埋点是主路径，
+// SSR 那份只是首屏快照。声明式属性由追踪器在 document 上做事件委托捕获，动态元素同样有效。
+function outboundAttrs(placement, slug) {
+  const target = slug ? ` data-umami-event-target="${slug}"` : "";
+  return ` data-umami-event="outbound" data-umami-event-placement="${placement}"${target}`;
+}
+
 function cardTemplate(project, index) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
   const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(categoryName(tag))}</span>`).join("");
   const editionLabel = t(editionKeyMap[project.edition] || "editionMain");
   const slug = state.slugMap.get(project.id);
+  const visit = `<a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer"${outboundAttrs("card", slug)}>${t("cardVisit")}</a>`;
   const detail = slug
-    ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">${t("cardDetail")}</a><a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a></span>`
-    : `<a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer">${t("cardVisit")}</a>`;
+    ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">${t("cardDetail")}</a>${visit}</span>`
+    : visit;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${editionLabel}</span><time class="card-date">${project.addedAt}</time></div>
     <h2><a href="${slug ? `/p/${slug}.html` : escapeHTML(project.url)}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${escapeHTML(project.name)}</a></h2>
@@ -245,6 +255,10 @@ function toggleLocale() {
   applyLocale();
   renderLocaleDependent();
   document.documentElement.lang = next === "zh" ? "zh-CN" : "en";
+  // 语言切换量：用来判断英文界面的真实需求强度（站内海外访客占 46%，但「会点切换」才是真需求）。
+  // 这里用命令式而非 data-umami-event：「目标语言」每次点击都在翻转，属性只能写死一个值。
+  // 追踪尚在加载时不报错、也不补发 —— 切语言是低价值事件，丢一两条无妨。
+  window.umami?.track("lang-switch", { to: next });
 }
 
 function bindEvents() {

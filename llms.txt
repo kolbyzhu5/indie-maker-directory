@@ -18,7 +18,7 @@
 - 名称：AI 独立制造所（Indie Maker）
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
-- 更新时间：2026-09-21（北京时间）
+- 更新时间：2026-09-22（北京时间）
 - 语言：中文（默认主页） / English（独立 URL：https://indiemaker.cn/en/ ，含 hreflang 互指）
 - 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
 - 本周新收录：https://indiemaker.cn/weekly.html（最近 7 天新收录的产品，每日更新）

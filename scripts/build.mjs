@@ -220,6 +220,29 @@ function buildSlugMap(projects) {
 }
 // ───────────────────────────────────────────────────────────────
 
+// ── 埋点：外链点击（第 1 类自定义事件）──────────────────────────
+// 为什么必须做：目录站的「用户达成目标」= 点「访问官网」离开本站，而全站外链都是
+// target="_blank"。这一行为在 Umami 里与「没找到东西就走」的跳出**完全无法区分** ——
+// 82.5% 的跳出率因此既可能是健康（都点走了）也可能是病态（都在首页就跑了），
+// 在拿到这个事件之前，跳出率与停留时长都不能作为决策依据。
+// 有了它即可算出真实达成率：outbound(placement=detail) 的会话数 ÷ /p/* 的访问会话数。
+//
+// 为什么用声明式属性，而不是 window.umami.track()：
+//   实测 cloud.umami.is/script.js 在 document 上做的是**事件委托**：
+//     document.addEventListener("click", e => { const a = e.target.closest("[data-umami-event]"); ... })
+//   于是 ① 由 JS 动态生成的元素（首页卡片会被 app.js 整体重绘）照样能被捕获，
+//        ② 不存在「脚本还没加载完 → window.umami undefined」的竞态，不必自己写队列。
+//   另外追踪器对 target="_blank" 的链接**不** preventDefault，原跳转行为不受影响。
+//   额外属性按 data-umami-event-<key> 收集（追踪器正则 /data-umami-event-([\w-_]+)/）。
+//
+// 属性口径（三个 placement，保持低基数便于聚合）：
+//   detail = 详情页主 CTA「访问官网」  card = 列表卡片「去看看」  extra = 详情页附加链接
+//   target = 产品 slug（卡片直跳时用来说明「哪个产品被跳过详情页直接点走」）
+function outboundAttrs(placement, slug) {
+  const target = slug ? ` data-umami-event-target="${slug}"` : "";
+  return ` data-umami-event="outbound" data-umami-event-placement="${placement}"${target}`;
+}
+
 // 与 app.js 的 cardTemplate 保持一致的静态版本（中文快照），含详情页链接
 function cardTemplate(project, index, slugMap) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
@@ -228,7 +251,8 @@ function cardTemplate(project, index, slugMap) {
   const url = escapeHTML(project.url);
   const name = escapeHTML(project.name);
   const slug = slugMap.get(project.id);
-  const detail = slug ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${url}" target="_blank" rel="noreferrer">去看看 ↗</a></span>` : `<a class="visit" href="${url}" target="_blank" rel="noreferrer">去看看 ↗</a>`;
+  const visit = `<a class="visit" href="${url}" target="_blank" rel="noreferrer"${outboundAttrs("card", slug)}>去看看 ↗</a>`;
+  const detail = slug ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a>${visit}</span>` : visit;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${edition}</span><time class="card-date">${project.addedAt}</time></div>
     <h2><a href="${slug ? `/p/${slug}.html` : url}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${name}</a></h2>
@@ -376,7 +400,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
     const cs = CATEGORY_SLUGS[c] || "uncategorized";
     return `<a href="/c/${cs}.html" data-i18n-cat="${escapeHTML(c)}">${escapeHTML(c)}</a>`;
   }).join("");
-  const extraLinks = (project.makerLinks || []).map((l) => `<a class="btn-ghost" href="${escapeHTML(l.url)}" target="_blank" rel="noreferrer">${escapeHTML(l.label)}</a>`).join("");
+  const extraLinks = (project.makerLinks || []).map((l) => `<a class="btn-ghost" href="${escapeHTML(l.url)}" target="_blank" rel="noreferrer"${outboundAttrs("extra", slug)}>${escapeHTML(l.label)}</a>`).join("");
 
   const relatedCards = related.map((p) => {
     const ps = slugMap.get(p.id);
@@ -517,7 +541,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
       <div class="detail-meta"><span><b data-i18n="detailMakerLabel">开发者</b>${maker}${city}</span><span><b data-i18n="detailStatusLabel">状态</b><span data-i18n="${STATUS_I18N_KEY[status] || "statusOnline"}">${status}</span></span></div>
       <div class="detail-tags">${tags}</div>
       <div class="detail-actions">
-        <a class="btn-primary" href="${url}" target="_blank" rel="noreferrer" data-i18n="detailVisitSite">访问官网 ↗</a>
+        <a class="btn-primary" href="${url}" target="_blank" rel="noreferrer" data-i18n="detailVisitSite"${outboundAttrs("detail", slug)}>访问官网 ↗</a>
         ${extraLinks}
         ${relatedCards ? '<a class="btn-ghost" href="#related" data-i18n="detailMoreLikeThis">看同类产品 ↓</a>' : ""}
       </div>
@@ -566,7 +590,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
       <h2><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h2>
       <p>${escapeHTML(p.description)}</p>
       <div class="card-tags">${tags}</div>
-      <div class="card-footer"><span class="maker">${escapeHTML(p.maker)}${city}</span><span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(p.url)}" target="_blank" rel="noreferrer">去看看 ↗</a></span></div>
+      <div class="card-footer"><span class="maker">${escapeHTML(p.maker)}${city}</span><span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(p.url)}" target="_blank" rel="noreferrer"${outboundAttrs("card", slug)}>去看看 ↗</a></span></div>
     </article>`;
   }).join("");
 
@@ -1564,7 +1588,13 @@ function render404Page(allProjects, slugMap) {
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/detail.css">
-  ${UMAMI_SCRIPT}
+  <!-- 404 页【故意不装】Umami 追踪脚本：
+       EdgeOne 对任意未知路径都返回这一页，于是扫描器探测的 /$u、/wp-login.php 之类
+       会全部变成一个「真实访客」，把 Pages 排行与访客数一起稀释。
+       2026-09-22 实测：某日 21 次访问里有 3 次（14%）是 /$u 这种探测。
+       404 页在 Pages 报告里没有分析价值 —— 要监控死链应看 EdgeOne 访问日志，不是 Umami。
+       守卫（UMAMI_SCRIPT 里的路径判断）拦不住它们，因为它们的路径看起来完全正常。
+       INNER_I18N_SCRIPT 保留：404 页也要能切英文。 -->
   ${INNER_I18N_SCRIPT}
 </head>
 <body>
@@ -1619,7 +1649,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
       <h2><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h2>
       <p>${escapeHTML(p.description)}</p>
       <div class="card-tags">${tags}</div>
-      <div class="card-footer"><span class="maker">${escapeHTML(p.maker)}${city}</span><span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(p.url)}" target="_blank" rel="noreferrer">去看看 ↗</a></span></div>
+      <div class="card-footer"><span class="maker">${escapeHTML(p.maker)}${city}</span><span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(p.url)}" target="_blank" rel="noreferrer"${outboundAttrs("card", slug)}>去看看 ↗</a></span></div>
     </article>`;
   }).join("");
 

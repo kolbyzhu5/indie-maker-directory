@@ -18,20 +18,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/detail.css">
-  <script>
-(function () {
-  var host = location.hostname;
-  // 只统计主域：排除 EdgeOne 默认域（*.edgeone.cool）等一切预览/staging 环境
-  if (host !== "indiemaker.cn" && host !== "www.indiemaker.cn") return;
-  // 排除 EdgeOne 每次部署生成的预览路径（与主站内容完全相同）
-  if (location.pathname.indexOf("/indie-maker-directory-") === 0) return;
-  var s = document.createElement("script");
-  s.defer = true;
-  s.src = "https://cloud.umami.is/script.js";
-  s.setAttribute("data-website-id", "6febe922-9c29-4dfc-a426-81d6d8bcdb69");
-  document.head.appendChild(s);
-})();
-</script>
+  <!-- 404 页【故意不装】Umami 追踪脚本：
+       EdgeOne 对任意未知路径都返回这一页，于是扫描器探测的 /$u、/wp-login.php 之类
+       会全部变成一个「真实访客」，把 Pages 排行与访客数一起稀释。
+       2026-09-22 实测：某日 21 次访问里有 3 次（14%）是 /$u 这种探测。
+       404 页在 Pages 报告里没有分析价值 —— 要监控死链应看 EdgeOne 访问日志，不是 Umami。
+       守卫（UMAMI_SCRIPT 里的路径判断）拦不住它们，因为它们的路径看起来完全正常。
+       INNER_I18N_SCRIPT 保留：404 页也要能切英文。 -->
   <script type="module">
   import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
   const saved = getSavedLocale();
