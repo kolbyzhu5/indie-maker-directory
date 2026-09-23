@@ -4,29 +4,107 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-22T13:57:53.266Z",
+  "generatedAt": "2026-09-23T00:33:33.484Z",
   "counts": {
-    "total": 2963,
-    "main": 2496,
+    "total": 2966,
+    "main": 2499,
     "programmer": 331,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "音视频": 464,
-    "AI 工具": 897,
-    "免费工具": 467,
+    "AI 工具": 899,
+    "开发工具": 551,
+    "音视频": 465,
+    "免费工具": 469,
+    "效率工具": 422,
     "图片工具": 502,
     "文档办公": 272,
-    "开发工具": 550,
     "浏览器扩展": 284,
-    "效率工具": 421,
     "教育学习": 162,
     "社交社区": 113,
     "生活服务": 90,
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260923-whattobuildtoday-what-to-build",
+      "edition": "main",
+      "addedAt": "2026-09-23",
+      "maker": "一箭",
+      "city": "杭州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/whattobuildtoday"
+        },
+        {
+          "label": "博客",
+          "url": "https://x.com/zhngcho130830"
+        }
+      ],
+      "name": "What To Build",
+      "url": "https://whattobuild.today/",
+      "status": "online",
+      "description": "独立开发机会发现站，从新上线网站的订单增长、流量趋势和真实搜索需求中，筛选已被市场验证的 SaaS 与 AI 工具方向",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260923-strokmitream-video-to-url",
+      "edition": "main",
+      "addedAt": "2026-09-23",
+      "maker": "StrokMitream",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/StrokMitream"
+        }
+      ],
+      "name": "Video to URL",
+      "url": "https://videotourl.net/",
+      "status": "online",
+      "description": "视频转链接工具（免费），上传视频文件后生成可分享链接，无需注册、无水印，源文件不重新编码",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260923-yvonuk-jev-stockai-trade",
+      "edition": "main",
+      "addedAt": "2026-09-23",
+      "maker": "yvonuk",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yvonuk"
+        },
+        {
+          "label": "推特",
+          "url": "https://x.com/mcwangcn"
+        }
+      ],
+      "name": "Jev.StockAI.Trade",
+      "url": "https://jev.stockai.trade/",
+      "status": "online",
+      "description": "基于 Jev 模型的 AI 选股工具，专注中国 A 股，免费无广告",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260922-xiaoyaohou19910610-bit-精选副业",
       "edition": "main",
@@ -3500,7 +3578,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260922-0",
+      "id": "custom-20260923-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48721,6 +48799,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20240302-h1ddenadm1n-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-03-02",
+      "maker": "H1DDENADM1N",
+      "city": "邯郸",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/H1DDENADM1N"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240302-h1ddenadm1n-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-03-02",
+      "maker": "H1DDENADM1N",
+      "city": "邯郸",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/H1DDENADM1N"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240302-h1ddenadm1n-独立星球",
+      "edition": "main",
+      "addedAt": "2024-03-02",
+      "maker": "H1DDENADM1N",
+      "city": "邯郸",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/H1DDENADM1N"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240302-h1ddenadm1n-独立观察",
+      "edition": "main",
+      "addedAt": "2024-03-02",
+      "maker": "H1DDENADM1N",
+      "city": "邯郸",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/H1DDENADM1N"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20240301-trumandu-toolkit",
       "edition": "main",
       "addedAt": "2024-03-01",
@@ -49140,115 +49327,6 @@
         "AI 工具",
         "浏览器扩展",
         "教育学习"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240218-bistutu-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-02-18",
-      "maker": "ThinkStu",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Bistutu"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240218-bistutu-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-02-18",
-      "maker": "ThinkStu",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Bistutu"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240218-bistutu-独立星球",
-      "edition": "main",
-      "addedAt": "2024-02-18",
-      "maker": "ThinkStu",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Bistutu"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240218-bistutu-独立观察",
-      "edition": "main",
-      "addedAt": "2024-02-18",
-      "maker": "ThinkStu",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Bistutu"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

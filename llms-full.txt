@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（2963）
+# AI 独立制造所 · 全部产品清单（2966）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-22（北京时间）
+> 更新时间：2026-09-23（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2496）
+## 大众产品（2499）
+
+- **[What To Build](https://whattobuild.today/)** — 开发者 一箭（杭州） · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/what-to-build.html)
+  独立开发机会发现站，从新上线网站的订单增长、流量趋势和真实搜索需求中，筛选已被市场验证的 SaaS 与 AI 工具方向
+
+- **[Video to URL](https://videotourl.net/)** — 开发者 StrokMitream · 音视频 / 免费工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/video-to-url.html)
+  视频转链接工具（免费），上传视频文件后生成可分享链接，无需注册、无水印，源文件不重新编码
+
+- **[Jev.StockAI.Trade](https://jev.stockai.trade/)** — 开发者 yvonuk · AI 工具 / 效率工具 / 免费工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/jev-stockai-trade.html)
+  基于 Jev 模型的 AI 选股工具，专注中国 A 股，免费无广告
 
 - **[精选副业](https://jingxuan-fuye.pages.dev/)** — 开发者 xiaoyaohou19910610-bit · 未分类 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/project-20fe73.html)
   中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口
@@ -5337,6 +5346,18 @@
 - **[CapsWriter-Offline-GUI](https://github.com/H1DDENADM1N/CapsWriter-Offline)** — 开发者 H1DDENADM1N（邯郸） · 音视频 / 效率工具 / 开发工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/capswriter-offline-gui.html)
   Windows 端 离线语音输入、中译英、字幕转录；在线多译多、云剪贴板。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 H1DDENADM1N（邯郸） · AI 工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/ai-4d5ea4.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 H1DDENADM1N（邯郸） · 开发工具 / 免费工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/project-3c096f.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 H1DDENADM1N（邯郸） · 开发工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/project-a66ee3.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 H1DDENADM1N（邯郸） · 浏览器扩展 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/project-a67362.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Toolkit](http://toolkit.trumandu.top/)** — 开发者 TrumanDu（西安） · 浏览器扩展 / 免费工具 · 已上线 · 收录 2024-03-01 · [详情页](https://indiemaker.cn/p/toolkit.html)
   极简、插件化的工具集！utools 对标开源版
 
@@ -5390,18 +5411,6 @@
 
 - **[流畅阅读-浏览器翻译插件](https://github.com/Bistutu/FluentRead)** — 开发者 ThinkStu（北京） · AI 工具 / 浏览器扩展 / 教育学习 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-b76f03.html)
   有人工智能翻译引擎的浏览器插件，支持 OpenAI、Gemini、通义千问、文心一言、智谱清言等模型，可以为网站提供更加友好的翻译，让所有人都能拥有母语般的阅读体验。
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 ThinkStu（北京） · AI 工具 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/ai-c25083.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 ThinkStu（北京） · 开发工具 / 免费工具 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-186ef5.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 ThinkStu（北京） · 开发工具 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-f70cf1.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 ThinkStu（北京） · 浏览器扩展 · 已上线 · 收录 2024-02-18 · [详情页](https://indiemaker.cn/p/project-f71171.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[PPResume](https://ppresume.com?utm_source=chinese-independent-developer)** — 开发者 Xiao Hanyu · 文档办公 · 已上线 · 收录 2024-01-31 · [详情页](https://indiemaker.cn/p/ppresume.html)
   基于 LaTeX 的简历制作 Web App，提供极高质量的简历排版和 PDF 输出
