@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（2966）
+# AI 独立制造所 · 全部产品清单（2969）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-23（北京时间）
+> 更新时间：2026-09-24（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2499）
+## 大众产品（2502）
+
+- **[Instagram Transcript](https://ins-transcript.com)** — 开发者 Maaaaph · AI 工具 / 音视频 / 效率工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/instagram-transcript.html)
+  Instagram 视频转文字工具，粘贴 Reel / 视频链接即可免注册提取带时间戳的逐字稿，支持 SRT/VTT 字幕导出、多语种翻译与 AI 爆款钩子提炼，内存即时转录不存源视频
+
+- **[ShortsMonkey](https://www.shortsmonkey.com/)** — 开发者 Linhao Cui · 音视频 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/shortsmonkey.html)
+  YouTube 爆款选题工具，每天发现低订阅频道中播放量远超订阅量的 Shorts 和长视频，按播放量/订阅数比值筛选，帮助创作者寻找内容灵感
+
+- **[本地工作控制台 lwc](https://github.com/aks-666888/local-work-console)** — 开发者 夜猫子小强（XiaoQiangDev） · 效率工具 / 免费工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/lwc.html)
+  无需联网、无需注册，双击单文件即用的本地待办与计划管理台，数据全留在自己电脑
 
 - **[What To Build](https://whattobuild.today/)** — 开发者 一箭（杭州） · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/what-to-build.html)
   独立开发机会发现站，从新上线网站的订单增长、流量趋势和真实搜索需求中，筛选已被市场验证的 SaaS 与 AI 工具方向

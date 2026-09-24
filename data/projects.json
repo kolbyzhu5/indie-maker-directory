@@ -4,20 +4,20 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-23T00:33:33.484Z",
+  "generatedAt": "2026-09-24T00:30:33.490Z",
   "counts": {
-    "total": 2966,
-    "main": 2499,
+    "total": 2969,
+    "main": 2502,
     "programmer": 331,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 899,
+    "AI 工具": 900,
+    "音视频": 467,
+    "效率工具": 424,
+    "免费工具": 470,
     "开发工具": 551,
-    "音视频": 465,
-    "免费工具": 469,
-    "效率工具": 422,
     "图片工具": 502,
     "文档办公": 272,
     "浏览器扩展": 284,
@@ -27,6 +27,75 @@
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260923-maaaaph-instagram-transcript",
+      "edition": "main",
+      "addedAt": "2026-09-23",
+      "maker": "Maaaaph",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Maaaaph"
+        }
+      ],
+      "name": "Instagram Transcript",
+      "url": "https://ins-transcript.com",
+      "status": "online",
+      "description": "Instagram 视频转文字工具，粘贴 Reel / 视频链接即可免注册提取带时间戳的逐字稿，支持 SRT/VTT 字幕导出、多语种翻译与 AI 爆款钩子提炼，内存即时转录不存源视频",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260923-cuilinhao-shortsmonkey",
+      "edition": "main",
+      "addedAt": "2026-09-23",
+      "maker": "Linhao Cui",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuilinhao"
+        }
+      ],
+      "name": "ShortsMonkey",
+      "url": "https://www.shortsmonkey.com/",
+      "status": "online",
+      "description": "YouTube 爆款选题工具，每天发现低订阅频道中播放量远超订阅量的 Shorts 和长视频，按播放量/订阅数比值筛选，帮助创作者寻找内容灵感",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260923-aks-666888-本地工作控制台-lwc",
+      "edition": "main",
+      "addedAt": "2026-09-23",
+      "maker": "夜猫子小强",
+      "city": "XiaoQiangDev",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/aks-666888"
+        }
+      ],
+      "name": "本地工作控制台 lwc",
+      "url": "https://github.com/aks-666888/local-work-console",
+      "status": "online",
+      "description": "无需联网、无需注册，双击单文件即用的本地待办与计划管理台，数据全留在自己电脑",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260923-whattobuildtoday-what-to-build",
       "edition": "main",
@@ -3578,7 +3647,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260923-0",
+      "id": "custom-20260924-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
