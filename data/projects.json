@@ -4,20 +4,20 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-24T00:30:33.490Z",
+  "generatedAt": "2026-09-25T00:33:34.538Z",
   "counts": {
-    "total": 2969,
-    "main": 2502,
-    "programmer": 331,
+    "total": 2973,
+    "main": 2504,
+    "programmer": 333,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 900,
-    "音视频": 467,
+    "音视频": 469,
+    "开发工具": 553,
+    "免费工具": 473,
+    "AI 工具": 901,
     "效率工具": 424,
-    "免费工具": 470,
-    "开发工具": 551,
     "图片工具": 502,
     "文档办公": 272,
     "浏览器扩展": 284,
@@ -27,6 +27,103 @@
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260924-yuxino-mimi",
+      "edition": "main",
+      "addedAt": "2026-09-24",
+      "maker": "Yuxino",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yuxino"
+        }
+      ],
+      "name": "Mimi",
+      "url": "https://mimi.yuxino.cn/",
+      "status": "online",
+      "description": "实时字幕翻译工具，把电脑播放的外语视频、直播声音转成悬浮字幕；免费开源，支持 Apple 芯片 macOS 13+ 和 Windows x64，需要自备云服务 API 凭证",
+      "extraLinks": [
+        {
+          "label": "源码与下载",
+          "url": "https://github.com/yuxino/mimi"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260924-jnmetacode-openshorts-开片",
+      "edition": "main",
+      "addedAt": "2026-09-24",
+      "maker": "jnMetaCode",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "name": "OpenShorts 开片",
+      "url": "https://os.aiolaola.com/",
+      "status": "online",
+      "description": "给一个话题就写脚本、找画面、配音、烧字幕、出成片和发布文案，默认零成本跑通第一条",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260924-erickkkyt-jevapi-io",
+      "edition": "programmer",
+      "addedAt": "2026-09-24",
+      "maker": "KKKK",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/erickkkyt"
+        }
+      ],
+      "name": "JEVAPI.IO",
+      "url": "https://jevapi.io/",
+      "status": "online",
+      "description": "提供免费的 JEV API",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260924-jnmetacode-shellward",
+      "edition": "programmer",
+      "addedAt": "2026-09-24",
+      "maker": "jnMetaCode",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "name": "ShellWard",
+      "url": "https://jnmetacode.github.io/shellward/",
+      "status": "online",
+      "description": "一行命令体检 AI 项目的合规红线（数据出境、硬编码密钥、个人信息暴露），映射到网安法/PIPL/等保2.0 并给出评分，零依赖开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260923-maaaaph-instagram-transcript",
       "edition": "main",
@@ -3647,7 +3744,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260924-0",
+      "id": "custom-20260925-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

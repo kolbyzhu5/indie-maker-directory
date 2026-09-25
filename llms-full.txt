@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（2969）
+# AI 独立制造所 · 全部产品清单（2973）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-24（北京时间）
+> 更新时间：2026-09-25（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2502）
+## 大众产品（2504）
+
+- **[Mimi](https://mimi.yuxino.cn/)** — 开发者 Yuxino · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-24 · [详情页](https://indiemaker.cn/p/mimi.html)
+  实时字幕翻译工具，把电脑播放的外语视频、直播声音转成悬浮字幕；免费开源，支持 Apple 芯片 macOS 13+ 和 Windows x64，需要自备云服务 API 凭证
+
+- **[OpenShorts 开片](https://os.aiolaola.com/)** — 开发者 jnMetaCode · 音视频 · 已上线 · 收录 2026-09-24 · [详情页](https://indiemaker.cn/p/openshorts.html)
+  给一个话题就写脚本、找画面、配音、烧字幕、出成片和发布文案，默认零成本跑通第一条
 
 - **[Instagram Transcript](https://ins-transcript.com)** — 开发者 Maaaaph · AI 工具 / 音视频 / 效率工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/instagram-transcript.html)
   Instagram 视频转文字工具，粘贴 Reel / 视频链接即可免注册提取带时间戳的逐字稿，支持 SRT/VTT 字幕导出、多语种翻译与 AI 爆款钩子提炼，内存即时转录不存源视频
@@ -7512,7 +7518,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（331）
+## 程序员版（333）
+
+- **[JEVAPI.IO](https://jevapi.io/)** — 开发者 KKKK · 开发工具 / 免费工具 · 已上线 · 收录 2026-09-24 · [详情页](https://indiemaker.cn/p/jevapi-io.html)
+  提供免费的 JEV API
+
+- **[ShellWard](https://jnmetacode.github.io/shellward/)** — 开发者 jnMetaCode · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-24 · [详情页](https://indiemaker.cn/p/shellward.html)
+  一行命令体检 AI 项目的合规红线（数据出境、硬编码密钥、个人信息暴露），映射到网安法/PIPL/等保2.0 并给出评分，零依赖开源
 
 - **[Jev Social](https://github.com/socai-io/jev-social)** — 开发者 SocAI · AI 工具 / 音视频 / 浏览器扩展 / 社交社区 / 免费工具 · 已上线 · 收录 2026-09-20 · [详情页](https://indiemaker.cn/p/jev-social.html)
   开源、本地优先的社交媒体研究 Agent；Jev 逐步选择搜索、打开帖子与评论、下载视频等操作，socai CLI 在本机真实 Chrome 中执行，并将 Instagram、TikTok、LinkedIn 证据流式整理为带来源链接的研究报告
