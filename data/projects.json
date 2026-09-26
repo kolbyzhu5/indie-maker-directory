@@ -4,29 +4,126 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-25T00:33:34.538Z",
+  "generatedAt": "2026-09-26T00:37:42.084Z",
   "counts": {
-    "total": 2973,
-    "main": 2504,
-    "programmer": 333,
+    "total": 2981,
+    "main": 2506,
+    "programmer": 339,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
+    "AI 工具": 906,
+    "开发工具": 556,
+    "社交社区": 114,
+    "免费工具": 476,
+    "生活服务": 91,
+    "效率工具": 426,
     "音视频": 469,
-    "开发工具": 553,
-    "免费工具": 473,
-    "AI 工具": 901,
-    "效率工具": 424,
+    "文档办公": 273,
     "图片工具": 502,
-    "文档办公": 272,
     "浏览器扩展": 284,
     "教育学习": 162,
-    "社交社区": 113,
-    "生活服务": 90,
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260926-wzznne-ai-共振",
+      "edition": "main",
+      "addedAt": "2026-09-26",
+      "maker": "WZZNNE",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WZZNNE"
+        }
+      ],
+      "name": "AI 共振",
+      "url": "https://wzznne.github.io/AI-Resonance/",
+      "status": "online",
+      "description": "每日 AI 雷达，把 GitHub、arXiv、Hacker News、社区讨论和 AI 厂商动态排成五个榜单，评分公式公开可查，多平台同时出现的内容自动归组，打开即读无需注册",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/WZZNNE/AI-Resonance"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260925-hwlvipone-weartoday",
+      "edition": "main",
+      "addedAt": "2026-09-25",
+      "maker": "hwlvipone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "name": "WearToday",
+      "url": "https://weartoday.io/",
+      "status": "online",
+      "description": "AI 个人造型师，结合当地天气、当天场合和你衣橱里实际有的衣物给出穿搭建议，并记住你的颜色、版型与搭配偏好；网页版免安装，可免费开始使用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260925-yxcit-yxc-code",
+      "edition": "programmer",
+      "addedAt": "2026-09-25",
+      "maker": "Hao Du",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yxcit"
+        }
+      ],
+      "name": "YXC Code",
+      "url": "https://app.yxcit.com/zh",
+      "status": "online",
+      "description": "iOS 应用源码商城，按分类查看功能、截图和 App Store 链接，比较源码包及商业许可后选择可定制的项目起点；源码付费，支持中英文",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260925-leexunhuan743-syncclipboard-cfserver",
+      "edition": "programmer",
+      "addedAt": "2026-09-25",
+      "maker": "Leexunhuan743",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Leexunhuan743"
+        }
+      ],
+      "name": "SyncClipboard CfServer",
+      "url": "https://github.com/Leexunhuan743/SyncClipboardCfServer",
+      "status": "online",
+      "description": "SyncClipboard 官方服务端的 Cloudflare Workers 复刻实现，官方客户端零改动即可连接，免服务器、按量计费，自带 Web 历史管理界面与回收站",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260924-yuxino-mimi",
       "edition": "main",
@@ -79,6 +176,35 @@
       "source": "upstream"
     },
     {
+      "id": "programmer-20260924-xqliu-orbi",
+      "edition": "programmer",
+      "addedAt": "2026-09-24",
+      "maker": "xqliu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xqliu"
+        }
+      ],
+      "name": "Orbi",
+      "url": "https://orbi.build/zh/?ref=1c7-2609",
+      "status": "online",
+      "description": "自托管的 AI 编程 agent，给 GitHub Issue 打上 `ai-ready` 标签，它在独立 worktree 里写代码、开 PR，再另开一个评审会话对照 Issue 验收项审查，评审通过才合并并打 tag 发版；以 AGPL-3.0 开源，自托管免费，也有托管版 Orbi Cloud",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/orbi-build/orbi"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20260924-erickkkyt-jevapi-io",
       "edition": "programmer",
       "addedAt": "2026-09-24",
@@ -121,6 +247,73 @@
       "categories": [
         "AI 工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260924-jnmetacode-tracelet",
+      "edition": "programmer",
+      "addedAt": "2026-09-24",
+      "maker": "jnMetaCode",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "name": "tracelet",
+      "url": "https://github.com/jnMetaCode/tracelet",
+      "status": "online",
+      "description": "AI Agent 的本地调试器，实时看执行树里的每次 LLM 调用与工具调用，还能把两次运行逐步对齐找出差异",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260924-jnmetacode-engram",
+      "edition": "programmer",
+      "addedAt": "2026-09-24",
+      "maker": "jnMetaCode",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "name": "engram",
+      "url": "https://github.com/jnMetaCode/engram",
+      "status": "online",
+      "description": "索引笔记、PDF、网页，然后用一句话召回，结果精确到 文件:行 和日期，全程不出本机",
+      "extraLinks": [],
+      "categories": [
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260924-jnmetacode-skillet",
+      "edition": "programmer",
+      "addedAt": "2026-09-24",
+      "maker": "jnMetaCode",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jnMetaCode"
+        }
+      ],
+      "name": "skillet",
+      "url": "https://github.com/jnMetaCode/skillet",
+      "status": "online",
+      "description": "Claude 技能的包管理器，搜索、安装、锁版本、分享 SKILL.md，注册表就是仓库里的一个 JSON 文件",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具"
       ],
       "source": "upstream"
     },
@@ -3744,7 +3937,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260925-0",
+      "id": "custom-20260926-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
