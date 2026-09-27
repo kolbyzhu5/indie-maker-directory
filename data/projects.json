@@ -4,19 +4,19 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-26T00:37:42.084Z",
+  "generatedAt": "2026-09-27T00:36:02.258Z",
   "counts": {
-    "total": 2981,
-    "main": 2506,
+    "total": 2982,
+    "main": 2507,
     "programmer": 339,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 906,
+    "AI 工具": 907,
+    "免费工具": 477,
     "开发工具": 556,
     "社交社区": 114,
-    "免费工具": 476,
     "生活服务": 91,
     "效率工具": 426,
     "音视频": 469,
@@ -27,6 +27,29 @@
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260926-klinkmannistref-blip-professional-headshot-ai",
+      "edition": "main",
+      "addedAt": "2026-09-26",
+      "maker": "klinkmannistref-blip",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/klinkmannistref-blip"
+        }
+      ],
+      "name": "Professional-Headshot.ai",
+      "url": "https://professional-headshot.ai/",
+      "status": "online",
+      "description": "AI 职业头像生成器，上传一张自拍，由 AI 自动挑好服装、背景与打光，并筛掉眼镜变形、眼睛和牙齿失真等瑕疵，每个场景只给你 1 张推荐加 2 张备选；无需注册即可免费预览 1 张（带水印），去水印下载与反复修改为一次性付费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260926-wzznne-ai-共振",
       "edition": "main",
@@ -3937,7 +3960,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260926-0",
+      "id": "custom-20260927-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

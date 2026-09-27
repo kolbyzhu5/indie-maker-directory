@@ -1,10 +1,13 @@
-# AI 独立制造所 · 全部产品清单（2981）
+# AI 独立制造所 · 全部产品清单（2982）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-26（北京时间）
+> 更新时间：2026-09-27（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2506）
+## 大众产品（2507）
+
+- **[Professional-Headshot.ai](https://professional-headshot.ai/)** — 开发者 klinkmannistref-blip · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-26 · [详情页](https://indiemaker.cn/p/professional-headshot-ai.html)
+  AI 职业头像生成器，上传一张自拍，由 AI 自动挑好服装、背景与打光，并筛掉眼镜变形、眼睛和牙齿失真等瑕疵，每个场景只给你 1 张推荐加 2 张备选；无需注册即可免费预览 1 张（带水印），去水印下载与反复修改为一次性付费
 
 - **[AI 共振](https://wzznne.github.io/AI-Resonance/)** — 开发者 WZZNNE · AI 工具 / 开发工具 / 社交社区 / 免费工具 · 已上线 · 收录 2026-09-26 · [详情页](https://indiemaker.cn/p/ai-b85e0c.html)
   每日 AI 雷达，把 GitHub、arXiv、Hacker News、社区讨论和 AI 厂商动态排成五个榜单，评分公式公开可查，多平台同时出现的内容自动归组，打开即读无需注册
