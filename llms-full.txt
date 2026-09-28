@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（2982）
+# AI 独立制造所 · 全部产品清单（2987）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-27（北京时间）
+> 更新时间：2026-09-28（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2507）
+## 大众产品（2510）
+
+- **[春林冷知](https://cold.sylveris.top)** — 开发者 Z-Banana · 生活服务 · 已上线 · 收录 2026-09-27 · [详情页](https://indiemaker.cn/p/project-f5a1b2.html)
+  冷静地知道一点没用的东西。每日更新冷知识、冷笑话和废话文学，让你在繁忙的生活中静下心，刷一些带一丝幽默、又有些莫名其妙的知识
+
+- **[Countdown Timer](https://countdown.im/)** — 开发者 openmind · 未分类 · 已上线 · 收录 2026-09-26 · [详情页](https://indiemaker.cn/p/countdown-timer.html)
+  极简全屏倒计时工具，支持按天、小时、分钟设置倒计时，也提供节日与活动倒计时，包括 万圣节、双十一 和 新年 倒计时
+
+- **[Online Ruler](https://ruler.im/)** — 开发者 openmind · 未分类 · 已上线 · 收录 2026-09-26 · [详情页](https://indiemaker.cn/p/online-ruler.html)
+  极简全屏在线尺子工具，除了屏幕尺和直尺外，还支持 量角器、中心象限尺 和 靶心尺
 
 - **[Professional-Headshot.ai](https://professional-headshot.ai/)** — 开发者 klinkmannistref-blip · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-26 · [详情页](https://indiemaker.cn/p/professional-headshot-ai.html)
   AI 职业头像生成器，上传一张自拍，由 AI 自动挑好服装、背景与打光，并筛掉眼镜变形、眼睛和牙齿失真等瑕疵，每个场景只给你 1 张推荐加 2 张备选；无需注册即可免费预览 1 张（带水印），去水印下载与反复修改为一次性付费
@@ -5343,6 +5352,18 @@
 - **[人格九道](https://enneatao.com/)** — 开发者 甘小蔗（重庆） · 未分类 · 已上线 · 收录 2024-03-06 · [详情页](https://indiemaker.cn/p/project-9a4cbe.html)
   人格九道是基于 Enneagram 理论学说的数字化产品，皆在帮助人们实现自我探索的精神需求
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 甘小蔗（重庆） · AI 工具 · 已上线 · 收录 2024-03-06 · [详情页](https://indiemaker.cn/p/ai-daab8b.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 甘小蔗（重庆） · 开发工具 / 免费工具 · 已上线 · 收录 2024-03-06 · [详情页](https://indiemaker.cn/p/project-0e9c30.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 甘小蔗（重庆） · 开发工具 · 已上线 · 收录 2024-03-06 · [详情页](https://indiemaker.cn/p/project-ae77b3.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 甘小蔗（重庆） · 浏览器扩展 · 已上线 · 收录 2024-03-06 · [详情页](https://indiemaker.cn/p/project-ae7c33.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[小狗听听](https://podcast.j20.cc/)** — 开发者 j20cc（武汉） · 音视频 · 已上线 · 收录 2024-03-05 · [详情页](https://indiemaker.cn/p/project-e5527c.html)
   将在线视频转为本地播客的 iOS 应用
 
@@ -5369,18 +5390,6 @@
 
 - **[CapsWriter-Offline-GUI](https://github.com/H1DDENADM1N/CapsWriter-Offline)** — 开发者 H1DDENADM1N（邯郸） · 音视频 / 效率工具 / 开发工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/capswriter-offline-gui.html)
   Windows 端 离线语音输入、中译英、字幕转录；在线多译多、云剪贴板。
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 H1DDENADM1N（邯郸） · AI 工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/ai-4d5ea4.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 H1DDENADM1N（邯郸） · 开发工具 / 免费工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/project-3c096f.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 H1DDENADM1N（邯郸） · 开发工具 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/project-a66ee3.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 H1DDENADM1N（邯郸） · 浏览器扩展 · 已上线 · 收录 2024-03-02 · [详情页](https://indiemaker.cn/p/project-a67362.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Toolkit](http://toolkit.trumandu.top/)** — 开发者 TrumanDu（西安） · 浏览器扩展 / 免费工具 · 已上线 · 收录 2024-03-01 · [详情页](https://indiemaker.cn/p/toolkit.html)
   极简、插件化的工具集！utools 对标开源版
@@ -7527,7 +7536,16 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（339）
+## 程序员版（341）
+
+- **[精酿 BrewReel](https://github.com/Finderchangchang/brewreel)** — 开发者 Finderchangchang · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-27 · [详情页](https://indiemaker.cn/p/brewreel.html)
+  竖版宣传片生成 Agent Skill，写一份产品简报，DeepSeek 等低成本模型只写分镜 JSON，现成 Remotion 组件在本地渲染 1080×1920 成片，内置广告法和 6 个行业的合规校验、代码合成配乐，可装进 Claude Code / Codex，Apache-2.0 开源，目前是预览版
+
+- **[Stella_project](https://github.com/Eternal-Wanderer-Vegetable/Stella_project)** — 开发者 Eternal-Wanderer-Vegetable · AI 工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-09-27 · [详情页](https://indiemaker.cn/p/stella-project.html)
+  可一键部署的 QQ 群拟人化 AI Chat Agent，通过使用极小上下文窗口，原生支持本地小参数语言模型/在线大参数语言模型并节约花费，兼容 Astrbot 插件生态
+
+- **[CourseRaptor](https://github.com/Health-525/courseraptor)** — 开发者 JiangShu · AI 工具 / 开发工具 / 教育学习 · 已上线 · 收录 2026-09-27 · [详情页](https://indiemaker.cn/p/courseraptor.html)
+  一句话查课表、成绩、考试和教务通知的本地校园 AI 助手，终端/网页/QQ 机器人三个入口，登录凭证 AES-256-GCM 加密存本机、零遥测，内置免账号离线演示（虚构数据）先看效果再配置；目前适配南京工业大学，学校适配层开放共建
 
 - **[YXC Code](https://app.yxcit.com/zh)** — 开发者 Hao Du · 未分类 · 已上线 · 收录 2026-09-25 · [详情页](https://indiemaker.cn/p/yxc-code.html)
   iOS 应用源码商城，按分类查看功能、截图和 App Store 链接，比较源码包及商业许可后选择可定制的项目起点；源码付费，支持中英文
@@ -7624,9 +7642,6 @@
 
 - **[FlowWeaver](https://github.com/ckfanzhe/FlowWeaver)** — 开发者 ckfanzhe · AI 工具 / 效率工具 · 已上线 · 收录 2026-08-21 · [详情页](https://indiemaker.cn/p/flowweaver.html)
   基于 Agno 智能体框架的可视化编排工具，画布拖拽搭建流程，支持自然语言创建和编辑工作流，可导出为独立 Python 单文件
-
-- **[Stella_project](https://github.com/Eternal-Wanderer-Vegetable/Stella_project)** — 开发者 Eternal-Wanderer-Vegetable · 开发工具 / 社交社区 · 已上线 · 收录 2026-08-21 · [详情页](https://indiemaker.cn/p/stella-project.html)
-  QQ 群聊机器人，完全本地运行、不外传任何聊天内容，依托本地部署的小参数大语言模型（SLM）和记忆系统实现长期/短期记忆与拟人化聊天
 
 - **[SandBase CLI](https://github.com/sandbaseai/cli)** — 开发者 SandBase · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-08-20 · [详情页](https://indiemaker.cn/p/sandbase-cli.html)
   AI Agent 模型工具 CLI，一条命令为 Claude Code、Codex、Cursor 等 25 个客户端安装本地 MCP，发现并调用 2,000+ AI 模型与 API；运行前可查看参数和价格，运行后可追踪成本 — 开源 TypeScript

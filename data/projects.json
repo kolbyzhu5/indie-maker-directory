@@ -4,29 +4,199 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-27T00:36:02.258Z",
+  "generatedAt": "2026-09-28T00:46:29.325Z",
   "counts": {
-    "total": 2982,
-    "main": 2507,
-    "programmer": 339,
+    "total": 2987,
+    "main": 2510,
+    "programmer": 341,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 907,
-    "免费工具": 477,
-    "开发工具": 556,
-    "社交社区": 114,
-    "生活服务": 91,
+    "生活服务": 92,
+    "AI 工具": 910,
+    "开发工具": 558,
+    "免费工具": 478,
+    "浏览器扩展": 285,
+    "教育学习": 163,
+    "社交社区": 113,
     "效率工具": 426,
     "音视频": 469,
     "文档办公": 273,
     "图片工具": 502,
-    "浏览器扩展": 284,
-    "教育学习": 162,
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "main-20260927-z-banana-春林冷知",
+      "edition": "main",
+      "addedAt": "2026-09-27",
+      "maker": "Z-Banana",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Z-Banana"
+        }
+      ],
+      "name": "春林冷知",
+      "url": "https://cold.sylveris.top",
+      "status": "online",
+      "description": "冷静地知道一点没用的东西。每日更新冷知识、冷笑话和废话文学，让你在繁忙的生活中静下心，刷一些带一丝幽默、又有些莫名其妙的知识",
+      "extraLinks": [],
+      "categories": [
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260927-finderchangchang-精酿-brewreel",
+      "edition": "programmer",
+      "addedAt": "2026-09-27",
+      "maker": "Finderchangchang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Finderchangchang"
+        }
+      ],
+      "name": "精酿 BrewReel",
+      "url": "https://github.com/Finderchangchang/brewreel",
+      "status": "online",
+      "description": "竖版宣传片生成 Agent Skill，写一份产品简报，DeepSeek 等低成本模型只写分镜 JSON，现成 Remotion 组件在本地渲染 1080×1920 成片，内置广告法和 6 个行业的合规校验、代码合成配乐，可装进 Claude Code / Codex，Apache-2.0 开源，目前是预览版",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://brewreel.com"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260927-eternal-wanderer-vegetable-stella-project",
+      "edition": "programmer",
+      "addedAt": "2026-09-27",
+      "maker": "Eternal-Wanderer-Vegetable",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Eternal-Wanderer-Vegetable"
+        }
+      ],
+      "name": "Stella_project",
+      "url": "https://github.com/Eternal-Wanderer-Vegetable/Stella_project",
+      "status": "online",
+      "description": "可一键部署的 QQ 群拟人化 AI Chat Agent，通过使用极小上下文窗口，原生支持本地小参数语言模型/在线大参数语言模型并节约花费，兼容 Astrbot 插件生态",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260927-health-525-courseraptor",
+      "edition": "programmer",
+      "addedAt": "2026-09-27",
+      "maker": "JiangShu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Health-525"
+        }
+      ],
+      "name": "CourseRaptor",
+      "url": "https://github.com/Health-525/courseraptor",
+      "status": "online",
+      "description": "一句话查课表、成绩、考试和教务通知的本地校园 AI 助手，终端/网页/QQ 机器人三个入口，登录凭证 AES-256-GCM 加密存本机、零遥测，内置免账号离线演示（虚构数据）先看效果再配置；目前适配南京工业大学，学校适配层开放共建",
+      "extraLinks": [
+        {
+          "label": "在线落地页",
+          "url": "https://health-525.github.io/courseraptor"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260926-openmindim-countdown-timer",
+      "edition": "main",
+      "addedAt": "2026-09-26",
+      "maker": "openmind",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/openmindim"
+        }
+      ],
+      "name": "Countdown Timer",
+      "url": "https://countdown.im/",
+      "status": "online",
+      "description": "极简全屏倒计时工具，支持按天、小时、分钟设置倒计时，也提供节日与活动倒计时，包括 [万圣节](https://countdown.im/halloween)、[双十一](https://countdown.im/singles-day) 和 [新年](https://countdown.im/new-year) 倒计时",
+      "extraLinks": [
+        {
+          "label": "万圣节",
+          "url": "https://countdown.im/halloween"
+        },
+        {
+          "label": "双十一",
+          "url": "https://countdown.im/singles-day"
+        },
+        {
+          "label": "新年",
+          "url": "https://countdown.im/new-year"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20260926-openmindim-online-ruler",
+      "edition": "main",
+      "addedAt": "2026-09-26",
+      "maker": "openmind",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/openmindim"
+        }
+      ],
+      "name": "Online Ruler",
+      "url": "https://ruler.im/",
+      "status": "online",
+      "description": "极简全屏在线尺子工具，除了屏幕尺和直尺外，还支持 [量角器](https://ruler.im/protractor)、[中心象限尺](https://ruler.im/quadrant) 和 [靶心尺](https://ruler.im/concentric-circle)",
+      "extraLinks": [
+        {
+          "label": "量角器",
+          "url": "https://ruler.im/protractor"
+        },
+        {
+          "label": "中心象限尺",
+          "url": "https://ruler.im/quadrant"
+        },
+        {
+          "label": "靶心尺",
+          "url": "https://ruler.im/concentric-circle"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
     {
       "id": "main-20260926-klinkmannistref-blip-professional-headshot-ai",
       "edition": "main",
@@ -3960,7 +4130,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260927-0",
+      "id": "custom-20260928-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -4869,29 +5039,6 @@
       "categories": [
         "AI 工具",
         "效率工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "programmer-20260821-eternal-wanderer-vegetable-stella-project",
-      "edition": "programmer",
-      "addedAt": "2026-08-21",
-      "maker": "Eternal-Wanderer-Vegetable",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Eternal-Wanderer-Vegetable"
-        }
-      ],
-      "name": "Stella_project",
-      "url": "https://github.com/Eternal-Wanderer-Vegetable/Stella_project",
-      "status": "online",
-      "description": "QQ 群聊机器人，完全本地运行、不外传任何聊天内容，依托本地部署的小参数大语言模型（SLM）和记忆系统实现长期/短期记忆与拟人化聊天",
-      "extraLinks": [],
-      "categories": [
-        "开发工具",
-        "社交社区"
       ],
       "source": "upstream"
     },
@@ -48944,6 +49091,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20240306-甘小蔗-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-03-06",
+      "maker": "甘小蔗",
+      "city": "重庆",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://gxzv.com/"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240306-甘小蔗-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-03-06",
+      "maker": "甘小蔗",
+      "city": "重庆",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://gxzv.com/"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240306-甘小蔗-独立星球",
+      "edition": "main",
+      "addedAt": "2024-03-06",
+      "maker": "甘小蔗",
+      "city": "重庆",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://gxzv.com/"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20240306-甘小蔗-独立观察",
+      "edition": "main",
+      "addedAt": "2024-03-06",
+      "maker": "甘小蔗",
+      "city": "重庆",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://gxzv.com/"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20240305-j20cc-小狗听听",
       "edition": "main",
       "addedAt": "2024-03-05",
@@ -49177,115 +49433,6 @@
         "音视频",
         "效率工具",
         "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240302-h1ddenadm1n-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-03-02",
-      "maker": "H1DDENADM1N",
-      "city": "邯郸",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240302-h1ddenadm1n-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-03-02",
-      "maker": "H1DDENADM1N",
-      "city": "邯郸",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240302-h1ddenadm1n-独立星球",
-      "edition": "main",
-      "addedAt": "2024-03-02",
-      "maker": "H1DDENADM1N",
-      "city": "邯郸",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240302-h1ddenadm1n-独立观察",
-      "edition": "main",
-      "addedAt": "2024-03-02",
-      "maker": "H1DDENADM1N",
-      "city": "邯郸",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/H1DDENADM1N"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
