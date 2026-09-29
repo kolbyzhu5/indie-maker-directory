@@ -1,7 +1,7 @@
-# AI 独立制造所 · 全部产品清单（2987）
+# AI 独立制造所 · 全部产品清单（2989）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-28（北京时间）
+> 更新时间：2026-09-29（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
 ## 大众产品（2510）
@@ -7536,7 +7536,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（341）
+## 程序员版（343）
+
+- **[回声 echo agent](https://echoagent.dev/zh/)** — 开发者 Evan · AI 工具 / 音视频 · 已上线 · 收录 2026-09-29 · [详情页](https://indiemaker.cn/p/echo-agent.html)
+  Mac 上的语音 AI Agent，任何应用里按 Fn+Space 说一句话，交给本机的 Claude Code 或 Codex 在后台执行，语音在本机识别
+
+- **[AgentHop](https://github.com/sdyuyouth/agenthop)** — 开发者 Yuesen · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-28 · [详情页](https://indiemaker.cn/p/agenthop.html)
+  让两个 AI Agent 直接对话的开源工具，一个配对码连上两台没有公网地址的电脑，端到端加密、中继只转发密文，作为 MCP 接进 Claude Code、Codex、Cursor、Gemini CLI 等
 
 - **[精酿 BrewReel](https://github.com/Finderchangchang/brewreel)** — 开发者 Finderchangchang · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-27 · [详情页](https://indiemaker.cn/p/brewreel.html)
   竖版宣传片生成 Agent Skill，写一份产品简报，DeepSeek 等低成本模型只写分镜 JSON，现成 Remotion 组件在本地渲染 1080×1920 成片，内置广告法和 6 个行业的合规校验、代码合成配乐，可装进 Claude Code / Codex，Apache-2.0 开源，目前是预览版

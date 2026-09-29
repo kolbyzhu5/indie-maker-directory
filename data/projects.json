@@ -4,29 +4,75 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-09-28T00:46:29.325Z",
+  "generatedAt": "2026-09-29T01:57:35.166Z",
   "counts": {
-    "total": 2987,
+    "total": 2989,
     "main": 2510,
-    "programmer": 341,
+    "programmer": 343,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
+    "AI 工具": 912,
+    "音视频": 470,
+    "免费工具": 479,
     "生活服务": 92,
-    "AI 工具": 910,
     "开发工具": 558,
-    "免费工具": 478,
     "浏览器扩展": 285,
     "教育学习": 163,
     "社交社区": 113,
     "效率工具": 426,
-    "音视频": 469,
     "文档办公": 273,
     "图片工具": 502,
     "游戏娱乐": 167
   },
   "projects": [
+    {
+      "id": "programmer-20260929-edwinjj1-回声-echo-agent",
+      "edition": "programmer",
+      "addedAt": "2026-09-29",
+      "maker": "Evan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/EdwinjJ1"
+        }
+      ],
+      "name": "回声 echo agent",
+      "url": "https://echoagent.dev/zh/",
+      "status": "online",
+      "description": "Mac 上的语音 AI Agent，任何应用里按 Fn+Space 说一句话，交给本机的 Claude Code 或 Codex 在后台执行，语音在本机识别",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260928-sdyuyouth-agenthop",
+      "edition": "programmer",
+      "addedAt": "2026-09-28",
+      "maker": "Yuesen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sdyuyouth"
+        }
+      ],
+      "name": "AgentHop",
+      "url": "https://github.com/sdyuyouth/agenthop",
+      "status": "online",
+      "description": "让两个 AI Agent 直接对话的开源工具，一个配对码连上两台没有公网地址的电脑，端到端加密、中继只转发密文，作为 MCP 接进 Claude Code、Codex、Cursor、Gemini CLI 等",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20260927-z-banana-春林冷知",
       "edition": "main",
@@ -4130,7 +4176,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20260928-0",
+      "id": "custom-20260929-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
