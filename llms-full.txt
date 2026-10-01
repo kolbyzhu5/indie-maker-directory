@@ -1,10 +1,31 @@
-# AI 独立制造所 · 全部产品清单（3006）
+# AI 独立制造所 · 全部产品清单（3015）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-09-30（北京时间）
+> 更新时间：2026-10-01（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2527）
+## 大众产品（2536）
+
+- **[移民数据](https://yiminshuju.com/?utm_source=github&utm_medium=referral)** — 开发者 xjokerabab · 效率工具 / 免费工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/project-37f345.html)
+  美国绿卡排期每月 8-10 号官方公告全量 15 类别逐格对比（逐格标注较上月前进/倒退），加拿大 EE 447 轮抽签记录，美国审理时间与 23 国政策库，另附 6 国积分自测器；免费、无广告、不做中介
+
+- **[VideoCreate](https://videocreate.org/)** — 开发者 blowxian · 图片工具 / 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/videocreate.html)
+  视频反推提示词（Video to Prompt）工具，上传 60 秒内的 MP4/MOV 参考视频，按时间码切分镜头，逐镜头拆出主体、运镜、动作、光线、风格、声音六项，生成适配 Seedance、Kling 3.0、Wan 2.6、Grok Imagine 的提示词；Google 登录后每天免费分析 5 个视频
+
+- **[Jev AI](https://ai-jev.pro/)** — 开发者 jj2772486-svg · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/jev-ai-7df60e.html)
+  把文本和 JSON 转成带概率的是非、选择与评分判定，用于工单分类、内容审核、意图路由、线索打分等场景；站内 Playground 可直接试跑，也提供 API 与 CSV/TXT/JSONL 批量处理，注册送 5 个额度
+
+- **[Online Tone Generator](https://online-tone-generator.org/)** — 开发者 pandaupup（广州） · 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/online-tone-generator.html)
+  音调与频率生成工具（免费），在浏览器中生成指定频率的音频信号，支持正弦波、方波、三角波、锯齿波、频率调节、左右声道控制和 WAV 导出，并提供 Frequency Sweep、Multiple Tone、Speaker Test、Subwoofer Test 等音频测试工具，音频处理在浏览器本地完成，无需上传文件或安装软件
+
+- **[FPS Tester](https://fpstester.org/)** — 开发者 pandaupup（广州） · 效率工具 / 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/fps-tester.html)
+  浏览器 FPS、帧时间与显示测试工具集（免费），可测试实时 FPS、Frame Time、1% Low、FPS Stability、FPS Drop 和刷新率，并提供 FPS Comparison、Screen Tearing、Motion Blur、Monitor Test、Mouse Polling Rate、Reaction Time 等相关测试工具，用于检查浏览器动画性能、显示效果和游戏输入表现
+
+- **[MidiTake](https://miditake.com/?utm_source=github&utm_medium=referral&utm_campaign=backlink)** — 开发者 muke1838-cloud · 未分类 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/miditake.html)
+  Convert MP3, WAV or video to MIDI in your browser
+
+- **[知识公社](https://taimabenji.github.io/knowledge-commons/)** — 开发者 TaiMaBenJi · 浏览器扩展 / 教育学习 / 免费工具 · 已上线 · 收录 2026-09-29 · [详情页](https://indiemaker.cn/p/project-aa3e80.html)
+  完全离线的免费学习平台，竞赛真题、公考题库、毛选全文、世界技能大赛一站学，断网可用，浏览器打开即学
 
 - **[Claude Imagine](https://claudeimagine.com)** — 开发者 lumian2015 · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-09-29 · [详情页](https://indiemaker.cn/p/claude-imagine.html)
   AI 图片和视频生成工具，网页上直接用，也能作为 MCP 连接器接入 Claude（claude.ai、Claude Desktop、Claude Code）在对话里出图出视频，支持 Nano Banana 2、GPT Image 2.5、Seedream 4.5、Flux 2 Pro 和 Veo 3.1 Fast，注册送免费额度；独立产品，与 Anthropic 无关
@@ -162,7 +183,7 @@
 - **[Random Animal Generator](https://randomanimalgen.com/)** — 开发者 Aiyi · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/random-animal-generator.html)
   随机动物混搭生成器，把真实动物的 11 个身体部位随机拼成虚构生物，可锁定喜欢的部位只换其余、按可爱/恐怖/神话等主题预设生成，自动起名并给出 AI 绘画提示词，每天免费 AI 出图，无需注册
 
-- **[Jev AI](https://jev-ai.pro)** — 开发者 Jev AI · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/jev-ai.html)
+- **[Jev AI](https://jev-ai.pro)** — 开发者 Jev AI · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-19 · [详情页](https://indiemaker.cn/p/jev-ai-f5e0b4.html)
   TypeSafe System One 模型的在线体验，对任意文本提是非题、选择题和评分题，直接返回校准过的概率与置信度，同一模型也可用 API key 调用
 
 - **[SoulCut](https://soulcut-art.vercel.app/)** — 开发者 0xhappyboy · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-18 · [详情页](https://indiemaker.cn/p/soulcut.html)
@@ -786,8 +807,8 @@
 - **[CelebrateYou](https://celebrateyou.app/)** — 开发者 hwlvipone · AI 工具 / 音视频 · 已上线 · 收录 2026-07-26 · [详情页](https://indiemaker.cn/p/celebrateyou.html)
   AI 音乐生成器
 
-- **[cocodot LLM 降智检测](https://probe.cocodot.co)** — 开发者 cocodot2026 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-07-24 · [详情页](https://indiemaker.cn/p/cocodot-llm.html)
-  LLM API「降智/偷换模型」检测（免费）：填入任意 OpenAI 兼容端点的 base_url 和临时 API Key，跑 6 项探针（模型声明、动态题、能力完整性等）生成分项报告；Key 仅用于当次检测、不落库不留存，检测方法开源
+- **[cocodot LLM 降智检测](https://probe.cocodot.co/?utm_source=github&utm_medium=readme&utm_campaign=1c7)** — 开发者 cocodot2026 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-07-24 · [详情页](https://indiemaker.cn/p/cocodot-llm.html)
+  LLM API「降智/偷换模型」检测（免费）：填入任意 OpenAI 兼容端点的 base_url 和临时 API Key，跑 6 项探针（模型声明、动态题、能力完整性等）生成分项报告；Key 仅用于当次检测、不落库不留存，检测方法开源；同一团队还做 OpenAI 兼容的 API 中转 cocodot（支付宝充值）
 
 - **[AI快站模型质量检测](https://docs.aifast.club/model-check/)** — 开发者 KKWANG4444 · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-24 · [详情页](https://indiemaker.cn/p/ai-8dbcb9.html)
   面向 OpenAI Compatible 接口的网页检测工具，输入公开 HTTPS 地址和临时 API Key，可检查模型声明、Token、动态题、SSE 与工具调用并生成分项报告；密钥仅用于当次检测，不写入数据库、缓存或日志
@@ -857,6 +878,12 @@
 
 - **[FLUX 3 Video Generator](https://flux3-video.online)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-07-21 · [详情页](https://indiemaker.cn/p/flux-3-video-generator.html)
   AI 视频生成工作台，支持文字或图片生成视频、参考图及镜头、动作和声音提示，并清晰标注模型可用状态
+
+- **[Hotel Lobby](https://hotellobby.video)** — 开发者 weidacn · AI 工具 / 音视频 / 效率工具 · 已上线 · 收录 2026-07-21 · [详情页](https://indiemaker.cn/p/hotel-lobby.html)
+  一句话生成酒店大堂短片场景的 AI 视频工具，输出以短视频画幅为主，省去剪辑时间
+
+- **[Space Bunny](https://spacebunny.pro)** — 开发者 weidacn · AI 工具 / 音视频 · 已上线 · 收录 2026-07-21 · [详情页](https://indiemaker.cn/p/space-bunny.html)
+  用一句话生成短片场景的 AI 视频工具，在多次生成之间保持同一场景的一致性
 
 - **[EloLin](https://elolin.com)** — 开发者 DevEloLin · 未分类 · 已上线 · 收录 2026-07-21 · [详情页](https://indiemaker.cn/p/elolin.html)
   一个人做的产品工作室主页，一处浏览我做的全部产品，并用同一个账号登录所有产品
