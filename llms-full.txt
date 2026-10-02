@@ -1,10 +1,46 @@
-# AI 独立制造所 · 全部产品清单（3015）
+# AI 独立制造所 · 全部产品清单（3029）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-01（北京时间）
+> 更新时间：2026-10-02（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2536）
+## 大众产品（2548）
+
+- **[Fomrix](https://fomrix.com/)** — 开发者 Wang Hushuai · AI 工具 / 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-02 · [详情页](https://indiemaker.cn/p/fomrix.html)
+  AI 3D 模型生成与查看工具，把参考图片或文字描述转换成可预览、下载的 GLB 模型；另有 STL、GLB、OBJ 查看、GLB 转 STL 和 STL 网格检查工具。生成需要账号和积分，浏览器查看与转换工具可免费使用
+
+- **[Tesla Wrap Generator](https://teslawrapgenerator.com/)** — 开发者 dollarsmaker · 图片工具 · 已上线 · 收录 2026-10-02 · [详情页](https://indiemaker.cn/p/tesla-wrap-generator.html)
+  一句话或一张照片生成特斯拉车衣，自动套用你那台车型年份的官方模板，3D 预览没问题就下载，导入车机 Paint Shop 直接上身
+
+- **[电商卖家 AI 任务模板生成器](https://liunenglabs.xyz/guides/seller-ai-workbench/)** — 开发者 LiuNengAI · AI 工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-02 · [详情页](https://indiemaker.cn/p/ai-9d8bdd.html)
+  免费的商品文案、客服回复和翻译核对提示词生成器；填写已知资料即可复制结构化任务说明，免注册，输入在浏览器本地处理，不调用 AI，也不上传输入
+
+- **[MSL Desktop](https://msl-desktop.pages.dev/)** — 开发者 holobunganan-sketch · AI 工具 / 效率工具 / 开发工具 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/msl-desktop.html)
+  面向医学联络官的 Windows 本地工作台，集中管理专家交流、项目、任务、等待事项和日历，AI 整理建议由用户核对后确认
+
+- **[MVFlow](https://mvflow.ai/)** — 开发者 Sebastian Wu · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/mvflow.html)
+  AI 音乐视频制作工具，上传歌曲即可生成可编辑分镜，逐镜头调整提示词和场景版本，再与原始音频合成音乐视频；也支持照片配人声生成唱歌口型视频
+
+- **[FileOnTap](https://fileontap.com/heic-to-png/)** — 开发者 Shao Zheng · 图片工具 / 文档办公 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/fileontap.html)
+  HEIC 转 PNG 工具（免费），文件全程在浏览器本地转换、不上传服务器，无需注册、无水印；也支持 HEIC 转 JPG、图片压缩、图片转 PDF
+
+- **[AIInviteCode](https://aiinvitecode.com/)** — 开发者 Linky-AIinlink · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/aiinvitecode.html)
+  AI 工具邀请码与推荐码目录，实时更新，代码经过验证
+
+- **[SeshBuddy](https://seshbuddy.huangy.top/)** — 开发者 huangy7（厦门） · AI 工具 / 效率工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/seshbuddy.html)
+  面向 AI 编码工具（Claude Code、Codex、Gemini、Antigravity、WorkBuddy、DSH 等）的桌面会话浏览器与工作台，提供多 CLI 会话统一管理、Tantivy 毫秒级本地全文检索、Monaco 代码并排 Diff 审查与 API 流量穿透检视；基于 Tauri 2 + Rust 构建，100% 本地离线无遥测，开源免费（支持 macOS / Windows）
+
+- **[AI Rap Video](https://ai-rap.video/)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/ai-rap-video.html)
+  上传一张照片、选择一个场景并填上说唱主题，就能生成一段带原创说唱人声和伴奏的短视频
+
+- **[What Makes You Fall](https://whatmakesyoufall.pro)** — 开发者 weidacn · 未分类 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/what-makes-you-fall.html)
+  轻量的恋爱人格测试，回答几道题就能看到自己最容易在什么样的人身上心动，结果页面直接给出性格倾向
+
+- **[llms.txt Generator](https://llmstxtgenerator.dev)** — 开发者 lukuime · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/llms-txt-generator.html)
+  llms.txt 生成器与校验器（免费），填几项站点信息即可生成符合 llmstxt.org 规范的 Markdown 文件，支持从 sitemap.xml 一键导入全部 URL 并自动生成标题；也能粘贴已有文件校验 H1、链接格式与 URL 有效性，并给出 0-100 的 AI 就绪度评分，无需注册
+
+- **[灵感蜂巢 PromptHive](https://www.prompt-hive.net/?utm_source=github&utm_medium=referral)** — 开发者 jw0507 · AI 工具 / 免费工具 · 已上线 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/prompthive.html)
+  中文 AI 提示词库，500+ 结构化模板带变量槽位，按小红书、抖音、B 站、知乎、公众号等平台和创作环节分类，填好变量一键复制，免费可用
 
 - **[移民数据](https://yiminshuju.com/?utm_source=github&utm_medium=referral)** — 开发者 xjokerabab · 效率工具 / 免费工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/project-37f345.html)
   美国绿卡排期每月 8-10 号官方公告全量 15 类别逐格对比（逐格标注较上月前进/倒退），加拿大 EE 447 轮抽签记录，美国审理时间与 23 国政策库，另附 6 国积分自测器；免费、无广告、不做中介
@@ -7614,7 +7650,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（343）
+## 程序员版（345）
+
+- **[Speech Wingman](https://github.com/AmethystineAlpaca/speech-wingman)** — 开发者 AmethystineAlpaca · 音视频 / 效率工具 · 开发中 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/speech-wingman.html)
+  离线 Mac 语音提醒助手，本机识别中英混说并逐条检查自定义规则，悬浮按钮控制监听；沙盒无网络权限，不自动保存录音，Apple Silicon 源码预览需自行构建
+
+- **[onomeo](https://onomeo.com/zh)** — 开发者 Owaid0723666 · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/onomeo.html)
+  兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等 35 个免费模型，免费模型不扣额度（未付费账号每 5 小时 20 次），网页里也能直接对话和画图；Claude、GPT 等大模型需付费；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提
 
 - **[回声 echo agent](https://echoagent.dev/zh/)** — 开发者 Evan · AI 工具 / 音视频 · 已上线 · 收录 2026-09-29 · [详情页](https://indiemaker.cn/p/echo-agent.html)
   Mac 上的语音 AI Agent，任何应用里按 Fn+Space 说一句话，交给本机的 Claude Code 或 Codex 在后台执行，语音在本机识别
