@@ -365,6 +365,26 @@ const MPS_ANCHOR =
 // 所以用「ICP 锚点后面不是 '· '」的负向先行断言，只替换尚未注入的那些。
 const ICP_NOT_INJECTED = new RegExp(`${escapeRegExp(ICP_ANCHOR)}(?! · )`, "g");
 
+// ── 全站 favicon 注入 ────────────────────────────────────────────
+// 实测（2026-10-02）：除手工维护的首页外，全站 4000+ 页面（详情页 / 分类页 / 周报页 /
+// 榜单页 / en 页）都没有声明任何图标。后果有两个，都很隐蔽：
+//   ① 浏览器每次访问都去要 /favicon.ico，拿到 404 —— 白白多一次失败请求；
+//   ② 标签页没有品牌标识，3000+ 页面在用户浏览器里长得一模一样。
+// 这里必须用【绝对路径】：首页用的是相对 `favicon.svg`，在 /weekly/2026-W40.html
+// 这类子目录页会解析成 /weekly/favicon.svg（404）。绝对路径对任何深度都成立。
+const FAVICON_TAG = '<link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any">';
+const VIEWPORT_ANCHOR = '<meta name="viewport" content="width=device-width, initial-scale=1">';
+function injectFavicon(pageHtml) {
+  // 已自声明图标的页面（首页）不重复注入，避免同一页出现两个 icon 声明
+  if (/<link[^>]+rel="[^"]*\bicon\b[^"]*"/.test(pageHtml)) return pageHtml;
+  if (pageHtml.includes(VIEWPORT_ANCHOR)) {
+    return pageHtml.replace(VIEWPORT_ANCHOR, `${VIEWPORT_ANCHOR}\n  ${FAVICON_TAG}`);
+  }
+  // 防御：模板若换了 head 结构，退到 </head> 前插入；两者都没有就原样返回，不产出坏结构
+  if (pageHtml.includes("</head>")) return pageHtml.replace("</head>", `  ${FAVICON_TAG}\n</head>`);
+  return pageHtml;
+}
+
 function injectBeian(pageHtml) {
   if (!pageHtml.includes(ICP_ANCHOR)) return pageHtml; // 防御：模板若换了锚点就静默跳过，不产出坏链接
   return pageHtml.replace(ICP_NOT_INJECTED, `${ICP_ANCHOR} · ${MPS_ANCHOR}`);
@@ -1710,7 +1730,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
     <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current" data-i18n="weeklyBreadcrumb">本周新收录</span></nav>
     <div class="category-head">
       <h1>本周新收录</h1>
-      <p class="category-count">${startDate} ~ ${endDate} · 共 <b>${count}</b> 个新作品</p>
+      <p class="category-count">${startDate} ~ ${endDate} · 共 <b>${count}</b> 个新作品 · <a href="/weekly/">历周归档</a></p>
     </div>
     <div class="category-grid">${cards || '<p class="category-count">最近 7 天暂无新收录，请稍后再来。</p>'}</div>
   </main>
@@ -1721,6 +1741,331 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
 </body>
 </html>
 `;
+}
+
+// ── [SEO] 周报归档 ──────────────────────────────────────────────
+// 为什么需要：/weekly.html 是「滚动最近 7 天」—— URL 固定、内容每周被覆盖。
+// 对搜索引擎而言这是一张永远在变的页面，积累不下任何可收录资产。
+// 归档层为每一周生成永久 URL（/weekly/2026-W40.html），该周过后内容即冻结。
+// 每周 +1 个 URL（一年 52 个），且每个归档页天然内链到当周全部新品的详情页。
+//
+// 无状态：归档内容全部由 addedAt 反推，不依赖任何历史快照 —— 每次 build 全量重建。
+// 过去几周不会再产生新记录，因此重建结果幂等（同一周产出的 HTML 字节级一致）。
+
+function isoWeekKey(dateStr) {
+  const d = new Date(`${dateStr}T00:00:00Z`);
+  const day = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - day);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  const week = Math.ceil(((d - yearStart) / 86400000 + 1) / 7);
+  return `${d.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+}
+
+function isoWeekRange(key) {
+  const [ys, ws] = key.split("-W");
+  const year = Number(ys), week = Number(ws);
+  const jan4 = new Date(Date.UTC(year, 0, 4));
+  const jan4Day = jan4.getUTCDay() || 7;
+  const monday = new Date(Date.UTC(year, 0, 4 - jan4Day + 1 + (week - 1) * 7));
+  const sunday = new Date(monday.getTime() + 6 * 86400000);
+  const fmt = (d) => d.toISOString().slice(0, 10);
+  return { start: fmt(monday), end: fmt(sunday), weekNo: week, year };
+}
+
+function renderWeeklyArchivePage(ctx) {
+  const { key, start, end, weekNo, products, slugMap, prevKey, nextKey,
+          isCurrent, cumulative, prevCumulative, newLastWeek, indexable } = ctx;
+  const count = products.length;
+  const online = products.filter((p) => p.status === "online").length;
+  const developing = products.filter((p) => p.status === "developing").length;
+  const growth = prevCumulative ? ((count / prevCumulative) * 100) : 0;
+
+  const tally = (list, pick) => {
+    const m = new Map();
+    for (const p of list) for (const v of pick(p) || []) m.set(v, (m.get(v) || 0) + 1);
+    return [...m.entries()].sort((a, b) => b[1] - a[1]);
+  };
+  const cats = tally(products, (p) => p.categories).slice(0, 10);
+  const cities = tally(products, (p) => (p.city ? [p.city] : [])).slice(0, 10);
+  const repeatMakers = tally(products, (p) => (p.maker ? [p.maker] : [])).filter(([, n]) => n > 1).slice(0, 8);
+
+  const table = (rows) =>
+    `<table class="rw-table"><thead><tr><th>项目</th><th>数量</th></tr></thead><tbody>${rows}</tbody></table>`;
+
+  // 上游清单存在「批量导入日」（实测：2026-07-15 单日 83 条、2018-03-19 单日 82 条，
+  // 而正常单日上限约 14 条）。这些数字反映的是「同步进清单的日期」，不是当天的真实发布速度。
+  // 不加说明的话，这些周页面会把批量回填说成「本周新增」—— 属过度宣称。
+  // 阈值取「单日 ≥30 条 且 占该周 ≥40%」：约为正常单日上限的 2 倍，足以排除普通的高产日
+  // （实测 2026-W40 单日最多 20 条，不触发，符合预期）。
+  const dayTally = tally(products, (p) => (p.addedAt ? [p.addedAt] : []));
+  const topDay = dayTally[0] || null;
+  const batchNote = topDay && topDay[1] >= 30 && topDay[1] / count >= 0.4
+    ? `<p class="u-note">说明：本周有 ${topDay[1]} 个作品集中在 ${topDay[0]} 单日进入清单，属上游开源清单的批量导入，不能等同于当日的真实发布速度。</p>`
+    : "";
+  const catRows = cats.map(([k, n]) => {
+    const slug = CATEGORY_SLUGS[k];
+    const label = slug ? `<a href="/c/${slug}.html">${escapeHTML(k)}</a>` : escapeHTML(k);
+    return `<tr><td>${label}</td><td>${n}</td></tr>`;
+  }).join("");
+  const cityRows = cities.map(([k, n]) => `<tr><td>${escapeHTML(k)}</td><td>${n}</td></tr>`).join("");
+  const makerRows = repeatMakers.map(([k, n]) => `<tr><td>${escapeHTML(k)}</td><td>${n}</td></tr>`).join("");
+
+  const cards = products.map((p) => {
+    const slug = slugMap.get(p.id);
+    const city = p.city ? ` · ${escapeHTML(p.city)}` : "";
+    const tags = (p.categories || []).slice(0, 3)
+      .map((t) => `<a href="/c/${CATEGORY_SLUGS[t] || "uncategorized"}.html" data-i18n-cat="${escapeHTML(t)}">${escapeHTML(t)}</a>`)
+      .join("");
+    return `<article class="project-card">
+      <div class="card-top"><span class="edition-badge">${EDITION_LABEL[p.edition] || "大众产品"}</span><time class="card-date">${p.addedAt}</time></div>
+      <h3><a href="/p/${slug}.html">${escapeHTML(p.name)}</a></h3>
+      <p>${escapeHTML(p.description)}</p>
+      <div class="card-tags">${tags}</div>
+      <div class="card-footer"><span class="maker">${escapeHTML(p.maker)}${city}</span><span class="card-links"><a class="detail" href="/p/${slug}.html">详情</a><a class="visit" href="${escapeHTML(p.url)}" target="_blank" rel="noreferrer"${outboundAttrs("weekly-archive", slug)}>去看看 ↗</a></span></div>
+    </article>`;
+  }).join("");
+
+  const title = `第 ${weekNo} 周：${count} 个中国独立开发者新产品（${start} ~ ${end}）`;
+  const desc = `${start} 至 ${end}，AI 独立制造所新收录 ${count} 个中国独立开发者产品，累计 ${cumulative} 个。含当周新增的分类与城市分布、完整清单与直达链接。`;
+  const canonical = `${SITE_URL}/weekly/${key}.html`;
+  const itemListLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `第 ${weekNo} 周新收录的中国独立开发者产品`,
+    "numberOfItems": count,
+    "itemListElement": products.slice(0, 30).map((p, i) => ({
+      "@type": "ListItem", "position": i + 1, "name": p.name,
+      "url": `${SITE_URL}/p/${slugMap.get(p.id)}.html`
+    }))
+  });
+  const nav = [
+    prevKey ? `<a href="/weekly/${prevKey}.html">← 第 ${isoWeekRange(prevKey).weekNo} 周</a>` : "",
+    `<a href="/weekly/">全部周报</a>`,
+    nextKey ? `<a href="/weekly/${nextKey}.html">第 ${isoWeekRange(nextKey).weekNo} 周 →</a>` : ""
+  ].filter(Boolean).join(" · ");
+
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${title} - AI 独立制造所</title>
+  <meta name="description" content="${escapeHTML(desc)}">
+  <meta name="robots" content="${indexable ? "index, follow" : "noindex, follow"}">
+  <link rel="canonical" href="${canonical}">
+  <link rel="alternate" hreflang="zh-CN" href="${canonical}">
+  <link rel="alternate" hreflang="x-default" href="${canonical}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="${escapeHTML(title)}">
+  <meta property="og:description" content="${escapeHTML(desc)}">
+  <meta property="og:url" content="${canonical}">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${itemListLD}</script>
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><a href="/weekly/">周报</a><span class="sep">›</span><span class="current">第 ${weekNo} 周</span></nav>
+    <div class="category-head">
+      <h1>中国独立开发者周报 · 第 ${weekNo} 周</h1>
+      <p class="category-count">${start} ~ ${end} · 本周新增 <b>${count}</b> 个作品${isCurrent ? " · 进行中" : ""}</p>
+    </div>
+    <p class="best-intro">这是一份可追溯的周度记录：本周从开源清单同步到 <b>${count}</b> 个中国独立开发者的新产品，覆盖 ${cats.length} 个方向、${cities.length} 个城市。数据每日自动同步，不做人工干预。</p>
+    ${batchNote}
+
+    <section class="rw-stats">
+      <div class="rw-stat"><b>${count}</b><span>本周新增</span></div>
+      <div class="rw-stat"><b>${cumulative.toLocaleString("en-US")}</b><span>累计收录</span></div>
+      <div class="rw-stat"><b>${newLastWeek}</b><span>上周新增</span></div>
+      <div class="rw-stat"><b>${online}</b><span>本周已上线</span></div>
+    </section>
+
+    ${cats.length ? `<section class="unique-block">
+      <h2>本周新增集中在哪些方向</h2>
+      ${table(catRows)}
+    </section>` : ""}
+
+    ${cities.length ? `<section class="unique-block">
+      <h2>这些作品来自哪些城市</h2>
+      ${table(cityRows)}
+    </section>` : ""}
+
+    ${makerRows ? `<section class="unique-block">
+      <h2>本周收录 2 个以上的开发者</h2>
+      ${table(makerRows)}
+    </section>` : ""}
+
+    <section class="unique-block">
+      <h2>本周新收录的 ${count} 个作品</h2>
+      <div class="category-grid">${cards}</div>
+    </section>
+
+    <nav class="more-rankings" aria-label="周报导航">${nav}</nav>
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/weekly.html">本周新收录</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+function renderWeeklyIndexPage(weeks, currentKey, total) {
+  const rows = weeks.map((w) => `<tr>
+      <td><a href="/weekly/${w.key}.html">第 ${w.weekNo} 周</a>${w.key === currentKey ? " · 进行中" : ""}</td>
+      <td>${w.start} ~ ${w.end}</td>
+      <td>${w.count}</td>
+    </tr>`).join("");
+  // 结构化数据：与站内既有模式一致（详情页用 BreadcrumbList、分类页用 CollectionPage）。
+  // ItemList 只列最近 20 周，与分类页同样封顶 —— 329 周全列会让 JSON-LD 膨胀到 20KB+，
+  // 而归档页的价值在「链接可发现性」，不在把 329 条塞进一条 schema。
+  const breadcrumbLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "首页", "item": `${SITE_URL}/` },
+      { "@type": "ListItem", "position": 2, "name": "中国独立开发者周报归档", "item": `${SITE_URL}/weekly/` }
+    ]
+  });
+  const collectionLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "中国独立开发者周报归档",
+    "description": `按周归档的中国独立开发者新产品记录，共 ${weeks.length} 周、累计 ${total} 个作品。`,
+    "url": `${SITE_URL}/weekly/`,
+    "isPartOf": { "@type": "WebSite", "name": "AI 独立制造所", "url": `${SITE_URL}/` },
+    "inLanguage": "zh-CN",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "最近 20 周周报",
+      "numberOfItems": Math.min(20, weeks.length),
+      "itemListElement": weeks.slice(0, 20).map((w, i) => ({
+        "@type": "ListItem", "position": i + 1,
+        "name": `第 ${w.weekNo} 周（${w.start} ~ ${w.end}）`,
+        "url": `${SITE_URL}/weekly/${w.key}.html`
+      }))
+    }
+  });
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中国独立开发者周报归档 - AI 独立制造所</title>
+  <meta name="description" content="按周归档的中国独立开发者新产品记录，共 ${weeks.length} 周、累计 ${total.toLocaleString("en-US")} 个作品。每周一份，永久保留。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${SITE_URL}/weekly/">
+  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/weekly/">
+  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/weekly/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="中国独立开发者周报归档">
+  <meta property="og:description" content="按周归档的中国独立开发者新产品记录，共 ${weeks.length} 周。">
+  <meta property="og:url" content="${SITE_URL}/weekly/">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  <script type="application/ld+json">${breadcrumbLD}</script>
+  <script type="application/ld+json">${collectionLD}</script>
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">周报归档</span></nav>
+    <div class="category-head">
+      <h1>中国独立开发者周报归档</h1>
+      <p class="category-count">共 <b>${weeks.length}</b> 周 · 累计 <b>${total.toLocaleString("en-US")}</b> 个作品</p>
+    </div>
+    <p class="best-intro">每周一份，永久保留。想看最新的，去 <a href="/weekly.html">本周新收录</a>。</p>
+    <section class="unique-block">
+      <h2>全部周报</h2>
+      <table class="rw-table"><thead><tr><th>周</th><th>日期区间</th><th>新增</th></tr></thead><tbody>${rows}</tbody></table>
+    </section>
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/weekly.html">本周新收录</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+// 内容过薄的周不进索引：实测 329 周里有 111 周只有 1–2 个产品（正文不足 10KB）。
+// 它们照常生成（归档体系完整、内部链接不断），但 noindex 且不进 sitemap ——
+// 避免上百个浅页面拉低整站的质量评定。
+const MIN_INDEXABLE_WEEK = 3;
+
+// 生成全部周归档。返回 { pages: [[相对路径, html]], urls: [绝对URL], indexHtml }
+function buildWeeklyArchive(sorted, slugMap) {
+  const groups = new Map();
+  for (const p of sorted) {
+    if (!p.addedAt) continue;
+    const key = isoWeekKey(p.addedAt);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(p);
+  }
+  const keys = [...groups.keys()].sort();
+  const currentKey = isoWeekKey(beijingDateISO());
+  const cumAt = (dateStr) => sorted.filter((p) => p.addedAt && p.addedAt <= dateStr).length;
+
+  const pages = [], urls = [], meta = [];
+  keys.forEach((key, i) => {
+    const products = groups.get(key);
+    const range = isoWeekRange(key);
+    const prevKey = i > 0 ? keys[i - 1] : null;
+    const nextKey = i < keys.length - 1 ? keys[i + 1] : null;
+    const html = renderWeeklyArchivePage({
+      key, ...range, products, slugMap, prevKey, nextKey,
+      isCurrent: key === currentKey,
+      cumulative: cumAt(range.end),
+      prevCumulative: prevKey ? cumAt(isoWeekRange(prevKey).end) : 0,
+      newLastWeek: prevKey ? groups.get(prevKey).length : 0,
+      indexable: products.length >= MIN_INDEXABLE_WEEK
+    });
+    pages.push([`weekly/${key}.html`, html]);
+    if (products.length >= MIN_INDEXABLE_WEEK) urls.push(`${SITE_URL}/weekly/${key}.html`);
+    meta.push({ key, ...range, count: products.length });
+  });
+  const total = keys.reduce((s, k) => s + groups.get(k).length, 0);
+  const indexHtml = renderWeeklyIndexPage(meta.slice().reverse(), currentKey, total);
+  return { pages, urls, indexHtml, weeks: meta.length, currentKey };
 }
 
 // 幂等替换：占位注释区间的 [\s\S]*? 被新内容替换
@@ -1798,10 +2143,19 @@ async function main() {
 
   // 5) sitemap.xml（全量 URL：首页 + 分类 + 产品详情页）
   const lastmod = beijingDateISO();
+  // [SEO] 周报归档：每周一个永久 URL（详见 buildWeeklyArchive 注释）。
+  // 必须在 sitemap 之前生成 —— sitemap 要把这些 URL 一并收录。
+  const weeklyArchive = buildWeeklyArchive(sorted, slugMap);
   const sitemapUrls = [];
   sitemapUrls.push(`  <url><loc>${SITE_URL}/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
+  // 周报归档：每页对应固定的一周，内容冻结后不再变化 → changefreq 用 yearly（不是 daily，
+  // 否则会向爬虫发出「每天在变」的错误信号，正是滚动页 /weekly.html 的老问题）
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly/</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
+  for (const w of weeklyArchive.urls) {
+    sitemapUrls.push(`  <url><loc>${w}</loc><lastmod>${lastmod}</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>`);
+  }
   sitemapUrls.push(`  <url><loc>${SITE_URL}/local-first.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/indie-report.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>`);
   for (const cfg of SCENARIOS) {
@@ -2037,7 +2391,8 @@ ${sections}
   //     再插一遍中文标签会中英混排）
   const postProcess = (pageHtml, file) => {
     if (!file.endsWith(".html")) return pageHtml;
-    const withBeian = injectBeian(pageHtml);
+    const withFavicon = injectFavicon(pageHtml);
+    const withBeian = injectBeian(withFavicon);
     return file.startsWith("en/") ? withBeian : withFooterCats(withBeian);
   };
 
@@ -2046,6 +2401,8 @@ ${sections}
     ["404.html", notFoundPage],
     ["about.html", aboutPage],
     ["weekly.html", weeklyPage],
+    ["weekly/index.html", weeklyArchive.indexHtml],
+    ...weeklyArchive.pages,
     ["local-first.html", localFirstPage],
     ["indie-report.html", dataReportPage],
     ...scenarioTargets,

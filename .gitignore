@@ -18,8 +18,12 @@ node_modules/
 .env.*
 !.env.example
 
-# 部署与构建产物（EdgeOne 部署源 / 详情页 / 分类页，均由 build.mjs 生成）
+# 部署与构建产物（均由 build.mjs 生成，CI 全新检出会重建，无需入库）
 .edgeone/
 dist/
 p/
 c/
+# 周报归档：每周新增 1 页，长期无限增长（首轮 330 页）。内容全部由 data/projects.json
+# 的 addedAt 反推，无状态、可重建，入库只会让仓库无限膨胀。
+# 注意：只忽略目录 /weekly/，根目录的 weekly.html（单文件、每日覆盖）保持跟踪。
+/weekly/
