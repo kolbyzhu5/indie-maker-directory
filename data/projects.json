@@ -4,21 +4,21 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-03T01:12:05.761Z",
+  "generatedAt": "2026-10-03T08:41:23.918Z",
   "counts": {
-    "total": 3032,
-    "main": 2551,
-    "programmer": 345,
+    "total": 3034,
+    "main": 2552,
+    "programmer": 346,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "图片工具": 517,
+    "AI 工具": 934,
+    "图片工具": 518,
+    "免费工具": 501,
+    "效率工具": 438,
+    "开发工具": 565,
     "音视频": 484,
-    "效率工具": 437,
-    "开发工具": 564,
-    "AI 工具": 933,
-    "免费工具": 499,
     "浏览器扩展": 293,
     "文档办公": 277,
     "游戏娱乐": 167,
@@ -27,6 +27,54 @@
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261003-suiyia-kiss-generator",
+      "edition": "main",
+      "addedAt": "2026-10-03",
+      "maker": "Answer",
+      "city": "武汉",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/suiyia"
+        }
+      ],
+      "name": "Kiss Generator",
+      "url": "https://kissgenerator.app",
+      "status": "online",
+      "description": "AI 接吻图片生成工具，上传两张照片合成一张亲吻合照，支持真人照片和动漫角色，登录即送 10 次免费生成",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261003-oisano11-中转塔台-relay-tower",
+      "edition": "programmer",
+      "addedAt": "2026-10-03",
+      "maker": "oisano11",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/oisano11"
+        }
+      ],
+      "name": "中转塔台 Relay Tower",
+      "url": "https://github.com/oisano11/relay-tower",
+      "status": "online",
+      "description": "上游半夜涨价、主调账号出故障时不用盯后台，自动提醒、自动切换，手机 Telegram 一键切线；MIT 开源，Docker 一键部署",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261002-ethansunray-visemory",
       "edition": "main",
