@@ -2517,7 +2517,10 @@ ${sections}
     // 数据文件 + 静态资源同步
     await mkdir(path.join(dist, "data"), { recursive: true });
     await copyFile(path.join(ROOT, "data", "projects.json"), path.join(dist, "data", "projects.json"));
-    await copyFile(path.join(ROOT, "og.png"), path.join(dist, "og.png")).catch(() => console.log("[build] og.png 不存在，跳过（本地可选资源）"));
+    // og.png = 中文分享图；og-en.png = 英文分享图（en-pages.mjs 里 1000+ 英文页的 og:image 硬引用它，缺失会让分享卡片整片 404）
+    for (const og of ["og.png", "og-en.png"]) {
+      await copyFile(path.join(ROOT, og), path.join(dist, og)).catch(() => console.log(`[build][warn] ${og} 缺失 → 未同步到 dist，引用它的页面分享卡片会 404`));
+    }
     await copyFile(path.join(ROOT, "detail.css"), path.join(dist, "detail.css"));
     // 运行时静态资源（页面直接引用的 JS/CSS/图标，必须与根目录保持一致）
     // mps-beian.png = 公安备案官方徽标，全站页脚都引用，漏同步会让每个页脚都掉图
