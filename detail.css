@@ -36,7 +36,12 @@
 .category-head .category-count { font-size: 15px; color: var(--muted); margin-top: 10px; }
 .category-head .category-count b { color: var(--red-dark); font-size: 20px; }
 .category-nav { display: flex; flex-wrap: wrap; gap: 9px; margin: 22px 0 6px; }
-.category-nav a { font-size: 13px; color: var(--muted); text-decoration: none; border: 1px solid var(--line); padding: 6px 14px; border-radius: 3px; background: var(--card); }
+/* ⚠️ nowrap + flex:0 0 auto 是防「chip 内容溢出被邻项盖住」的正面防御，勿删：
+   .category-nav 是 flex 容器，每个 chip 是 flex item。若允许收缩，item 可被压到
+   min-content 以下 → 内部的计数 <small> 会溢出到右侧相邻 chip 底下，视觉上像被裁掉一位
+   （历史 bug：AI Tools 的「934」显示成「93」）。nowrap 让 min-content = max-content，
+   flex:0 0 auto 让放不下时换行而不是压缩。 */
+.category-nav a { font-size: 13px; color: var(--muted); text-decoration: none; border: 1px solid var(--line); padding: 6px 14px; border-radius: 3px; background: var(--card); white-space: nowrap; flex: 0 0 auto; }
 .category-nav a:hover, .category-nav a.active { color: #fff9ec; background: var(--red); border-color: var(--red); }
 .category-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; margin-top: 10px; }
 

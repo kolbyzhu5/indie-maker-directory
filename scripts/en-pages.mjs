@@ -385,7 +385,13 @@ export function buildEnglishPages(ctx) {
     .sort((a, b) => b[1] - a[1])
     .map(([c, n]) => {
       const slug = categorySlugs[c] || "uncategorized";
-      return `<li><a href="/c/${slug}.html"><span class="best-name" style="display:inline;border:0">${EN_CATEGORY[c]}</span></a> <small>${n}</small></li>`;
+      // ⚠️ 结构必须与中文版/分类页一致：<a> 直接做 .category-nav 的子元素，数字放进 <a> 内。
+      // 旧写法 <li><a>名称</a> <small>数字</small></li> 有三个错：
+      //   ① <li> 无 <ul>/<ol> 父元素（无效 HTML）
+      //   ② <li> 作为 flex item 会被收缩，宽度小于内容宽度后，<small> 溢出到相邻 chip 下被覆盖
+      //      → 实测「934」显示成「93」，只有每行最后一个 chip 完整（没人压它）
+      //   ③ <li> 的 ::marker 泄漏成左侧小圆点（list-style: disc）
+      return `<a href="/c/${slug}.html"><span class="best-name" style="border:0">${esc(EN_CATEGORY[c])}</span> <small>${n}</small></a>`;
     })
     .join("");
 
