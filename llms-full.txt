@@ -1,10 +1,13 @@
-# AI 独立制造所 · 全部产品清单（3032）
+# AI 独立制造所 · 全部产品清单（3034）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-10-03（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2551）
+## 大众产品（2552）
+
+- **[Kiss Generator](https://kissgenerator.app)** — 开发者 Answer（武汉） · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/kiss-generator.html)
+  AI 接吻图片生成工具，上传两张照片合成一张亲吻合照，支持真人照片和动漫角色，登录即送 10 次免费生成
 
 - **[Visemory](https://visemory.com/zh-CN)** — 开发者 ethansunray · 图片工具 / 音视频 / 效率工具 / 开发工具 · 已上线 · 收录 2026-10-02 · [详情页](https://indiemaker.cn/p/visemory.html)
   本地素材库搜索工具（macOS 桌面应用），把电脑里的视频、音频和图片建成可搜索的素材库，一个搜索框同时查找台词、画面文字、画面内容、文件名、备注和标签，支持字幕、语义、画面与跨语言搜索，命中结果定位到精确时间码，可预览上下文、收进片段篮并导出带来源信息的素材包
@@ -7659,7 +7662,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（345）
+## 程序员版（346）
+
+- **[中转塔台 Relay Tower](https://github.com/oisano11/relay-tower)** — 开发者 oisano11 · 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/relay-tower.html)
+  上游半夜涨价、主调账号出故障时不用盯后台，自动提醒、自动切换，手机 Telegram 一键切线；MIT 开源，Docker 一键部署
 
 - **[Speech Wingman](https://github.com/AmethystineAlpaca/speech-wingman)** — 开发者 AmethystineAlpaca · 音视频 / 效率工具 · 开发中 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/speech-wingman.html)
   离线 Mac 语音提醒助手，本机识别中英混说并逐条检查自定义规则，悬浮按钮控制监听；沙盒无网络权限，不自动保存录音，Apple Silicon 源码预览需自行构建
