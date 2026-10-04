@@ -21,6 +21,8 @@
 - 更新时间：2026-10-04（北京时间）
 - 语言：中文（默认主页） / English（独立 URL：https://indiemaker.cn/en/ ，含 hreflang 互指）
 - 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
+- 联系方式：https://indiemaker.cn/contact.html（邮箱 kolbyzhu5@gmail.com；提交产品走上游仓库 Pull Request）
+- 隐私政策：https://indiemaker.cn/privacy.html（无注册系统、不收集个人信息、匿名访问统计）
 - 本周新收录：https://indiemaker.cn/weekly.html（最近 7 天新收录的产品，每日更新）
 
 ## English version（英文版，11 个页面）

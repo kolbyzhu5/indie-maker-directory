@@ -570,7 +570,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -686,7 +686,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -815,7 +815,152 @@ function renderAboutPage() {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+// ── 隐私政策页（AdSense 前置条件：可公开访问、真实反映当前数据实践）──────────
+function renderPrivacyPage() {
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隐私政策 - AI 独立制造所</title>
+  <meta name="description" content="AI 独立制造所（indiemaker.cn）隐私政策：本站是无需注册的目录站，不收集个人信息；使用无 Cookie 的 Umami 匿名访问统计；说明第三方服务（EdgeOne Pages、Google Fonts、Google AdSense）的使用方式。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${SITE_URL}/privacy.html">
+  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/privacy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="隐私政策 - AI 独立制造所">
+  <meta property="og:description" content="本站是无需注册的目录站，不收集个人信息；使用无 Cookie 的匿名访问统计。">
+  <meta property="og:url" content="${SITE_URL}/privacy.html">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">隐私政策</span></nav>
+    <article class="detail-card">
+      <div class="detail-head"><span class="edition-badge">隐私政策</span></div>
+      <h1>隐私政策</h1>
+      <p class="detail-desc">生效日期：2026 年 10 月 4 日。本政策描述 AI 独立制造所（indiemaker.cn，下称「本站」）处理信息的方式。本站是一个免费的产品目录站，全程以最简单的方式运作，因此这份政策也很短。</p>
+      <h2 class="faq-q">一、本站是什么</h2>
+      <p class="faq-a">本站只做索引与导航：收录中国独立开发者的产品并链接到产品自己的官网。本站不开发、不托管、不代理任何产品，没有会员系统，没有账号注册，没有任何付费功能，也不涉及任何交易。产品描述中出现的「会员」「付费」「订阅」等字样均属于对应产品自身的商业模式，与本站无关。</p>
+      <h2 class="faq-q">二、我们不收集的信息</h2>
+      <p class="faq-a">本站不要求注册或登录，不收集姓名、电话、地址、身份证件等任何个人身份信息；不提供付费功能，因此不会收集或存储支付信息；不出售、不出租、不与广告商或其他第三方交换任何个人数据。</p>
+      <h2 class="faq-q">三、我们自动收集的信息（匿名访问统计）</h2>
+      <p class="faq-a">为了解哪些页面受欢迎、流量来自哪里，本站使用开源分析工具 Umami 收集匿名的访问统计，包括：访问的页面路径、来源站点（referrer）、浏览器与操作系统类型、屏幕尺寸、大致的地理区域（按 IP 粗略判断，不存储完整 IP）。Umami 不使用 Cookie，不设置跨站跟踪标识，收集的数据无法关联到具体个人。</p>
+      <h2 class="faq-q">四、存储在您浏览器里的数据</h2>
+      <p class="faq-a">本站使用浏览器的本地存储（localStorage）记住您的偏好设置，例如界面语言选择。这些数据只保存在您自己的设备上，不会上传到本站服务器。</p>
+      <h2 class="faq-q">五、第三方服务</h2>
+      <p class="faq-a">本站使用以下第三方服务：① EdgeOne Pages —— 网站托管与 CDN；② Umami —— 前述匿名访问统计；③ Google Fonts —— 字体加载。各服务的处理方式以其自身隐私政策为准。</p>
+      <h2 class="faq-q">六、广告与 Cookie</h2>
+      <p class="faq-a">本站目前或未来可能通过 Google AdSense 展示广告。若您所在地区展示了个性化广告，Google 及其合作伙伴可能使用 Cookie 或类似技术，根据您对本站或其他网站的访问来投放广告。您可以在 Google 广告设置页（adssettings.google.com）关闭个性化广告，或通过浏览器设置清除、拦截 Cookie。</p>
+      <h2 class="faq-q">七、政策变更</h2>
+      <p class="faq-a">若本站的信息处理方式发生变化（例如新增第三方服务），我们会更新本页面并修改生效日期。建议您在提供任何信息前查阅本页。</p>
+      <h2 class="faq-q">八、联系我们</h2>
+      <p class="faq-a">对本政策或本站数据处理方式有任何疑问，请通过<a href="/contact.html">联系我们</a>页面，或直接发送邮件至 <a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a>。</p>
+    </article>
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+  </footer>
+</body>
+</html>
+`;
+}
+
+// ── 联系页（AdSense 前置条件：公开可访问的联系方式）──────────
+function renderContactPage() {
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>联系我们 - AI 独立制造所</title>
+  <meta name="description" content="联系 AI 独立制造所：收录纠错、提交产品、内容与站务问题，请发送邮件至 kolbyzhu5@gmail.com。提交产品也可直接向上游开源仓库 chinese-independent-developer 发 Pull Request。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="${SITE_URL}/contact.html">
+  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/contact.html">
+  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI 独立制造所">
+  <meta property="og:title" content="联系我们 - AI 独立制造所">
+  <meta property="og:description" content="收录纠错、提交产品、站务问题，请联系 kolbyzhu5@gmail.com。">
+  <meta property="og:url" content="${SITE_URL}/contact.html">
+  <meta property="og:image" content="${SITE_URL}/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  ${UMAMI_SCRIPT}
+  ${INNER_I18N_SCRIPT}
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="AI 独立制造所首页">
+      <span class="brand-seal">独立</span>
+      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
+    </a>
+    ${BEST_TOP_NAV}
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">联系我们</span></nav>
+    <article class="detail-card">
+      <div class="detail-head"><span class="edition-badge">联系</span></div>
+      <h1>联系我们</h1>
+      <p class="detail-desc">本站由个人开发者利用业余时间维护，最可靠的联系方式是邮件：</p>
+      <div class="detail-meta">
+        <span><b>邮箱（唯一官方渠道）</b><a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></span>
+        <span><b>站点源码</b><a href="https://github.com/kolbyzhu5/indie-maker-directory" target="_blank" rel="noreferrer">GitHub ↗</a></span>
+        <span><b>备案号</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></span>
+      </div>
+      <h2 class="faq-q">提交我的产品</h2>
+      <p class="faq-a">推荐方式：向数据源开源仓库 <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a> 提交 Pull Request，合并后本站会在下一次每日同步时自动收录，无需邮件申请，也无需付费。</p>
+      <h2 class="faq-q">收录信息纠错</h2>
+      <p class="faq-a">如果某个产品页的信息有误（名称、介绍、链接、开发者信息等），请发邮件并附上该产品页的网址与正确信息，我们会尽快核实修正。</p>
+      <h2 class="faq-q">删除产品收录</h2>
+      <p class="faq-a">若您是产品的开发者或权利人，希望从本站移除某个产品，请发邮件说明产品名称与证明信息（如产品官网、GitHub 仓库归属），核实后我们会移除对应页面。</p>
+      <h2 class="faq-q">其他事项</h2>
+      <p class="faq-a">站务问题、内容合作或其他事项，同样欢迎邮件联系。需要说明的是：本站没有付费收录、没有竞价排名、没有广告位出售（见<a href="/about.html">关于本站</a>）；由于是业余维护，无法承诺固定回复时限，请耐心等待。</p>
+    </article>
+  </main>
+  <footer class="detail-footer">
+    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1063,7 +1208,7 @@ function renderRankingPage(cfg, allProjects, slugMap) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1190,7 +1335,7 @@ function renderLocalFirstPage(allProjects, slugMap) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1371,7 +1516,7 @@ function renderDataReportPage(allProjects) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1545,7 +1690,7 @@ function renderScenarioPage(cfg, allProjects, slugMap) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1651,7 +1796,7 @@ function render404Page(allProjects, slugMap) {
   </main>
   <footer class="site-footer detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>`;
@@ -1736,7 +1881,7 @@ function renderWeeklyPage(weekProducts, slugMap, startDate, endDate) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -1924,7 +2069,7 @@ function renderWeeklyArchivePage(ctx) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/weekly.html">本周新收录</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/weekly.html">本周新收录</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -2020,7 +2165,7 @@ function renderWeeklyIndexPage(weeks, currentKey, total) {
   </main>
   <footer class="detail-footer">
     <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/weekly.html">本周新收录</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/weekly.html">本周新收录</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -2149,6 +2294,8 @@ async function main() {
   const sitemapUrls = [];
   sitemapUrls.push(`  <url><loc>${SITE_URL}/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/privacy.html</loc><lastmod>${lastmod}</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/contact.html</loc><lastmod>${lastmod}</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
   // 周报归档：每页对应固定的一周，内容冻结后不再变化 → changefreq 用 yearly（不是 daily，
   // 否则会向爬虫发出「每天在变」的错误信号，正是滚动页 /weekly.html 的老问题）
@@ -2252,6 +2399,8 @@ ${botGroups(CN_BOTS)}`;
 - 更新时间：${lastmod}（北京时间）
 - 语言：中文（默认主页） / English（独立 URL：${SITE_URL}/en/ ，含 hreflang 互指）
 - 关于页：${SITE_URL}/about.html（站点介绍 + 常见问题 FAQ）
+- 联系方式：${SITE_URL}/contact.html（邮箱 kolbyzhu5@gmail.com；提交产品走上游仓库 Pull Request）
+- 隐私政策：${SITE_URL}/privacy.html（无注册系统、不收集个人信息、匿名访问统计）
 - 本周新收录：${SITE_URL}/weekly.html（最近 7 天新收录的产品，每日更新）
 
 ## English version（英文版，11 个页面）
@@ -2326,6 +2475,9 @@ ${sections}
 
   // 写入根目录（根文件）
   const aboutPage = renderAboutPage();
+  // [AdSense 前置] 隐私政策 + 联系页（2026-10-04，此前两 URL 均 404）
+  const privacyPage = renderPrivacyPage();
+  const contactPage = renderContactPage();
   // [P3] 本周新收录榜单（最近 7 天 addedAt 的产品）
   const weekStart = beijingDateISO(-7);
   const weekEnd = beijingDateISO();
@@ -2400,6 +2552,8 @@ ${sections}
     ["index.html", html],
     ["404.html", notFoundPage],
     ["about.html", aboutPage],
+    ["privacy.html", privacyPage],
+    ["contact.html", contactPage],
     ["weekly.html", weeklyPage],
     ["weekly/index.html", weeklyArchive.indexHtml],
     ...weeklyArchive.pages,
