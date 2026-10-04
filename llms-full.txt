@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（3037）
+# AI 独立制造所 · 全部产品清单（3040）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-10-04（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2555）
+## 大众产品（2557）
+
+- **[今日宜](https://github.com/ljinkai/weekly/issues/386)** — 开发者 今日宜运营团队 · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-04 · [详情页](https://indiemaker.cn/p/project-40a775.html)
+  微信小程序，测星座、双人趣味匹配、周公解梦与周易摇卦体验；目前已开放功能免费，仅供民俗文化与休闲娱乐参考
+
+- **[「自听」MyListen](https://apps.apple.com/cn/app/id6790382144)** — 开发者 Ryan Zhu · AI 工具 / 音视频 / 文档办公 · 已上线 · 收录 2026-10-04 · [详情页](https://indiemaker.cn/p/mylisten.html)
+  把 AI 长文和读书笔记在 iPhone/iPad 本地变成音频节目，支持锁屏播放与断点续听；可试用，完整功能需 App 内解锁，无订阅、无广告
 
 - **[小遥Claw/XiaoyaoClaw](https://www.xiaoyaosai.com/)** — 开发者 dtsola（上海） · AI 工具 / 生活服务 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/claw-xiaoyaoclaw.html)
   AI 私人助理，让每个人的数字生活，都有一座自己说了算的小遥；AI 替你干活、替你记住，把所有小遥产品连成一张网
@@ -7671,10 +7677,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（346）
+## 程序员版（347）
 
 - **[中转塔台 Relay Tower](https://github.com/oisano11/relay-tower)** — 开发者 oisano11 · 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/relay-tower.html)
   上游半夜涨价、主调账号出故障时不用盯后台，自动提醒、自动切换，手机 Telegram 一键切线；MIT 开源，Docker 一键部署
+
+- **[LinkDigest](https://linkdigest.dev/zh)** — 开发者 Jack · AI 工具 / 图片工具 / 音视频 / 文档办公 / 效率工具 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/linkdigest.html)
+  给 AI Agent 用的小红书 / 抖音链接读取器，一次调用把链接变成文字：小红书图文笔记逐图 OCR、视频带时间戳逐字稿和画面文字，可选爆款拆解（引用逐字核对原文）；远程 MCP 一行接入 Claude Code / Cursor / Cherry Studio，也有 REST API；注册送 10 积分，之后按量付费（支持支付宝）；不支持 B站
 
 - **[Speech Wingman](https://github.com/AmethystineAlpaca/speech-wingman)** — 开发者 AmethystineAlpaca · 音视频 / 效率工具 · 开发中 · 收录 2026-10-01 · [详情页](https://indiemaker.cn/p/speech-wingman.html)
   离线 Mac 语音提醒助手，本机识别中英混说并逐条检查自定义规则，悬浮按钮控制监听；沙盒无网络权限，不自动保存录音，Apple Silicon 源码预览需自行构建
