@@ -4,29 +4,115 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-03T09:11:12.425Z",
+  "generatedAt": "2026-10-04T00:38:31.286Z",
   "counts": {
-    "total": 3034,
-    "main": 2552,
+    "total": 3037,
+    "main": 2555,
     "programmer": 346,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 934,
+    "AI 工具": 936,
+    "生活服务": 93,
+    "开发工具": 566,
+    "教育学习": 167,
+    "免费工具": 502,
+    "音视频": 485,
+    "文档办公": 278,
+    "效率工具": 439,
     "图片工具": 518,
-    "免费工具": 501,
-    "效率工具": 438,
-    "开发工具": 565,
-    "音视频": 484,
     "浏览器扩展": 293,
-    "文档办公": 277,
     "游戏娱乐": 167,
-    "教育学习": 166,
-    "生活服务": 92,
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261003-dtsola-小遥claw-xiaoyaoclaw",
+      "edition": "main",
+      "addedAt": "2026-10-03",
+      "maker": "dtsola",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dtsola"
+        },
+        {
+          "label": "博客",
+          "url": "https://www.dtsola.com"
+        }
+      ],
+      "name": "小遥Claw/XiaoyaoClaw",
+      "url": "https://www.xiaoyaosai.com/",
+      "status": "online",
+      "description": "AI 私人助理，让每个人的数字生活，都有一座自己说了算的小遥；AI 替你干活、替你记住，把所有小遥产品连成一张网",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://www.yuque.com/dtsola/wt1gi2"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261003-shanghaiyangming-轻译-lighttranslate",
+      "edition": "main",
+      "addedAt": "2026-10-03",
+      "maker": "Young",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shanghaiyangming"
+        }
+      ],
+      "name": "轻译 · LightTranslate",
+      "url": "https://github.com/shanghaiyangming/lighttranslate",
+      "status": "online",
+      "description": "Windows 划词翻译与英语查词工具，按 Ctrl+Alt+Q 在鼠标旁查看中文译文；MIT 开源，提供安装包，使用自己的 DeepSeek API Key，API 按量计费",
+      "extraLinks": [
+        {
+          "label": "更多介绍与演示",
+          "url": "https://github.com/shanghaiyangming/lighttranslate/blob/main/docs/DEMO.md"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261003-robin25568-videotopdf-app",
+      "edition": "main",
+      "addedAt": "2026-10-03",
+      "maker": "robin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/robin25568"
+        }
+      ],
+      "name": "videotopdf.app",
+      "url": "https://videotopdf.app",
+      "status": "online",
+      "description": "将任意视频转换为带时间戳的高清 PDF、结构化笔记与逐字稿",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "文档办公",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261003-suiyia-kiss-generator",
       "edition": "main",
@@ -5233,7 +5319,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261003-0",
+      "id": "custom-20261004-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
