@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（3034）
+# AI 独立制造所 · 全部产品清单（3037）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-03（北京时间）
+> 更新时间：2026-10-04（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2552）
+## 大众产品（2555）
+
+- **[小遥Claw/XiaoyaoClaw](https://www.xiaoyaosai.com/)** — 开发者 dtsola（上海） · AI 工具 / 生活服务 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/claw-xiaoyaoclaw.html)
+  AI 私人助理，让每个人的数字生活，都有一座自己说了算的小遥；AI 替你干活、替你记住，把所有小遥产品连成一张网
+
+- **[轻译 · LightTranslate](https://github.com/shanghaiyangming/lighttranslate)** — 开发者 Young · AI 工具 / 开发工具 / 教育学习 / 免费工具 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/lighttranslate.html)
+  Windows 划词翻译与英语查词工具，按 Ctrl+Alt+Q 在鼠标旁查看中文译文；MIT 开源，提供安装包，使用自己的 DeepSeek API Key，API 按量计费
+
+- **[videotopdf.app](https://videotopdf.app)** — 开发者 robin · 音视频 / 文档办公 / 效率工具 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/videotopdf-app.html)
+  将任意视频转换为带时间戳的高清 PDF、结构化笔记与逐字稿
 
 - **[Kiss Generator](https://kissgenerator.app)** — 开发者 Answer（武汉） · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-10-03 · [详情页](https://indiemaker.cn/p/kiss-generator.html)
   AI 接吻图片生成工具，上传两张照片合成一张亲吻合照，支持真人照片和动漫角色，登录即送 10 次免费生成
