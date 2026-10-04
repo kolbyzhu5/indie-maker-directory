@@ -4,29 +4,81 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-04T00:38:31.286Z",
+  "generatedAt": "2026-10-04T02:55:16.125Z",
   "counts": {
-    "total": 3037,
-    "main": 2555,
-    "programmer": 346,
+    "total": 3040,
+    "main": 2557,
+    "programmer": 347,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 936,
+    "游戏娱乐": 168,
+    "免费工具": 503,
+    "AI 工具": 938,
+    "音视频": 487,
+    "文档办公": 280,
     "生活服务": 93,
     "开发工具": 566,
     "教育学习": 167,
-    "免费工具": 502,
-    "音视频": 485,
-    "文档办公": 278,
-    "效率工具": 439,
-    "图片工具": 518,
+    "效率工具": 440,
+    "图片工具": 519,
     "浏览器扩展": 293,
-    "游戏娱乐": 167,
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261004-homily-qq-今日宜",
+      "edition": "main",
+      "addedAt": "2026-10-04",
+      "maker": "今日宜运营团队",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/homily-qq"
+        }
+      ],
+      "name": "今日宜",
+      "url": "https://github.com/ljinkai/weekly/issues/386",
+      "status": "online",
+      "description": "微信小程序，测星座、双人趣味匹配、周公解梦与周易摇卦体验；目前已开放功能免费，仅供民俗文化与休闲娱乐参考",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261004-godgod126-自听-mylisten",
+      "edition": "main",
+      "addedAt": "2026-10-04",
+      "maker": "Ryan Zhu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/GODGOD126"
+        }
+      ],
+      "name": "「自听」MyListen",
+      "url": "https://apps.apple.com/cn/app/id6790382144",
+      "status": "online",
+      "description": "把 AI 长文和读书笔记在 iPhone/iPad 本地变成音频节目，支持锁屏播放与断点续听；可试用，完整功能需 App 内解锁，无订阅、无广告",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://mylisten.vibestation.cn/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261003-dtsola-小遥claw-xiaoyaoclaw",
       "edition": "main",
@@ -158,6 +210,37 @@
         "效率工具",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261003-jcaiagent7143-ui-linkdigest",
+      "edition": "programmer",
+      "addedAt": "2026-10-03",
+      "maker": "Jack",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jcaiagent7143-ui"
+        }
+      ],
+      "name": "LinkDigest",
+      "url": "https://linkdigest.dev/zh",
+      "status": "online",
+      "description": "给 AI Agent 用的小红书 / 抖音链接读取器，一次调用把链接变成文字：小红书图文笔记逐图 OCR、视频带时间戳逐字稿和画面文字，可选爆款拆解（引用逐字核对原文）；远程 MCP 一行接入 Claude Code / Cursor / Cherry Studio，也有 REST API；注册送 10 积分，之后按量付费（支持支付宝）；不支持 B站",
+      "extraLinks": [
+        {
+          "label": "开源客户端与接入说明",
+          "url": "https://github.com/jcaiagent7143-ui/linkdigest-mcp"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公",
+        "效率工具"
       ],
       "source": "upstream"
     },
