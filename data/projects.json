@@ -4,29 +4,112 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-04T02:55:16.125Z",
+  "generatedAt": "2026-10-04T14:01:39.827Z",
   "counts": {
-    "total": 3040,
-    "main": 2557,
-    "programmer": 347,
+    "total": 3046,
+    "main": 2562,
+    "programmer": 348,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
+    "开发工具": 568,
+    "免费工具": 506,
     "游戏娱乐": 168,
-    "免费工具": 503,
-    "AI 工具": 938,
-    "音视频": 487,
+    "AI 工具": 939,
+    "音视频": 488,
     "文档办公": 280,
+    "图片工具": 520,
+    "效率工具": 441,
     "生活服务": 93,
-    "开发工具": 566,
     "教育学习": 167,
-    "效率工具": 440,
-    "图片工具": 519,
     "浏览器扩展": 293,
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261004-paidx2006-decisions-api",
+      "edition": "main",
+      "addedAt": "2026-10-04",
+      "maker": "James Parker",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/paidx2006"
+        }
+      ],
+      "name": "Decisions API",
+      "url": "https://decisionapi.net/",
+      "status": "online",
+      "description": "决策模型对比与调用平台，在同一个在线 Playground 里比较 Jev、Laya、Kev、Solar、Span 等多种模型，用「状态 + 问题」的结构一次提出最多 8 个类型化问题，返回带概率的选择、评分与是非判断；Playground 不限量免费，接入后端用统一 REST API 与积分计费",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261004-0603wangxiao-生命之祭-地缘风险沙盘",
+      "edition": "main",
+      "addedAt": "2026-10-04",
+      "maker": "王潇",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0603wangxiao"
+        }
+      ],
+      "name": "生命之祭 · 地缘风险沙盘",
+      "url": "https://0603wangxiao.github.io/geosandbox/",
+      "status": "online",
+      "description": "战争伤亡数据网站，每个数字都标出信源和统计口径，并写明这是「经核实的最低确证数」；已核实事实与推演情景分成两栏，推演一律加标签",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261004-0603wangxiao-三变-六反-知识图谱",
+      "edition": "main",
+      "addedAt": "2026-10-04",
+      "maker": "王潇",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0603wangxiao"
+        }
+      ],
+      "name": "《三变·六反》知识图谱",
+      "url": "https://0603wangxiao.github.io/36wx/kg/",
+      "status": "online",
+      "description": "网页版知识图谱，把一套自创分析框架画成可缩放的节点图，三章、六反、卦象与偈文依序展开，点开每个节点能看到释义和出处；整个图谱是单个 HTML 文件，无任何外部依赖",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261004-0603wangxiao-三变-六反-投资策略图谱",
+      "edition": "main",
+      "addedAt": "2026-10-04",
+      "maker": "王潇",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/0603wangxiao"
+        }
+      ],
+      "name": "三变·六反 · 投资策略图谱",
+      "url": "https://0603wangxiao.github.io/36wx/invest/",
+      "status": "online",
+      "description": "投资研究知识图谱，把同一套分析框架用在投资上的展开，讲的是概念关系与操作次序，不含任何具体标的或买卖建议",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
     {
       "id": "main-20261004-homily-qq-今日宜",
       "edition": "main",
@@ -76,6 +159,64 @@
         "AI 工具",
         "音视频",
         "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261004-hiyufan-求原图",
+      "edition": "main",
+      "addedAt": "2026-10-04",
+      "maker": "hiyufan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hiyufan"
+        }
+      ],
+      "name": "求原图",
+      "url": "https://ynvan.com",
+      "status": "online",
+      "description": "抖音、小红书、快手、B站、YouTube 等 30 多个平台的无水印视频和原图提取，实况图能打包成 iPhone 实况或安卓动态照片，视频可截一段转 GIF 或实况；免费不用登录，MIT 开源",
+      "extraLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hiyufan/shizhen"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261004-lcy362-flint-skills-manager",
+      "edition": "programmer",
+      "addedAt": "2026-10-04",
+      "maker": "SandGrid",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lcy362"
+        },
+        {
+          "label": "博客",
+          "url": "https://lichuanyang.top/"
+        }
+      ],
+      "name": "Flint Skills Manager",
+      "url": "https://flint.lichuanyang.top",
+      "status": "online",
+      "description": "本地优先的 AI Skills 资产管理器，把分散在 Claude Code 等工具里的 skill 收进可版本化的本地资产库，统一去重、打标签、按预设部署到各个 agent，换工具资产也带得走；`npx flint-skills-hub` 即用，支持 macOS / Windows / Linux，MIT 开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
       ],
       "source": "upstream"
     },
