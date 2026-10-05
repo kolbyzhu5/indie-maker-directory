@@ -1,10 +1,25 @@
-# AI 独立制造所 · 全部产品清单（3046）
+# AI 独立制造所 · 全部产品清单（3053）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-10-05（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2562）
+## 大众产品（2567）
+
+- **[问迹 wenjiAI](https://wenjiai.cn)** — 开发者 Ethan Lian（上海） · AI 工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/wenjiai.html)
+  AI 原生创投情报站，按问题找赛道，给出赛道分析、赛道榜单和商业速览，并追踪热点事件与论文，帮创业者和投资人找准方向
+
+- **[InkDoo](https://inkdoo.app/zh)** — 开发者 xianyu110 · AI 工具 / 免费工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/inkdoo.html)
+  贴一篇文章或链接，AI 自动挑出该配图的段落，用同一个手绘小角色画出整套配图，支持上传自己的 IP 形象；注册送免费额度，按张一次性付费
+
+- **[摊账](https://tanzhang-market-kit.hypebeast2k17.chatgpt.site/)** — 开发者 Harry Jia · 免费工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/project-e2b44a.html)
+  面向市集摊主的免费单场经营结余试算网页，扣除售出货品成本、损耗和活动费用后计算结余；无需注册，金额按人民币展示，提供中英文界面
+
+- **[Gas Station Dance](https://gasstationdance.pro)** — 开发者 weidacn · 图片工具 / 音视频 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/gas-station-dance.html)
+  上传一到三张照片生成加油站日落前的潮流短视频，跳舞、自拍、下车三段镜头逐个换上你和朋友的脸，场景与运镜固定不变，输出 10 秒 9:16 无声 MP4；按积分计费
+
+- **[Raindance AI](https://raindance-ai.pro/)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/raindance-ai.html)
+  上传两人各一张照片生成日落码头与海滩的多机位潮流短视频，整段镜头的两位表演者换成你们，保留原始运镜与配音，输出 28 秒 MP4；按积分计费
 
 - **[Decisions API](https://decisionapi.net/)** — 开发者 James Parker · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-04 · [详情页](https://indiemaker.cn/p/decisions-api.html)
   决策模型对比与调用平台，在同一个在线 Playground 里比较 Jev、Laya、Kev、Solar、Span 等多种模型，用「状态 + 问题」的结构一次提出最多 8 个类型化问题，返回带概率的选择、评分与是非判断；Playground 不限量免费，接入后端用统一 REST API 与积分计费
@@ -7692,7 +7707,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（348）
+## 程序员版（350）
+
+- **[AI Code Usage Tray](https://github.com/saime428/ai-code-usage-tray)** — 开发者 saime428 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/ai-code-usage-tray.html)
+  Windows 托盘用量监视器，一处看 Claude Code、Codex、Grok CLI、Antigravity、OpenCode 的 token 用量和金额，Claude、Codex、Grok 的官方额度在贴边悬浮条上常驻显示，另有跨工具的按天、项目、模型用量报表；只读本机会话记录，不上传用量数据，MIT 开源，提供 Windows 安装包
+
+- **[夜观天象 Astrolabe](https://github.com/jaychouchannel/Astrolabe)** — 开发者 jaychouchannel · 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-04 · [详情页](https://indiemaker.cn/p/astrolabe.html)
+  OKX 行情与账户监控面板，实时展示币价、K 线、资金费率和自己持仓的未实现盈亏，行情剧烈波动、资金费率越阈或账户开平仓、权益变动时通过 Telegram 推送提醒；只观测不下单，无任何交易权限，不配 API Key 也能看公开行情 — 需自建 Python 服务，MIT 开源
 
 - **[Flint Skills Manager](https://flint.lichuanyang.top)** — 开发者 SandGrid（北京） · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-04 · [详情页](https://indiemaker.cn/p/flint-skills-manager.html)
   本地优先的 AI Skills 资产管理器，把分散在 Claude Code 等工具里的 skill 收进可版本化的本地资产库，统一去重、打标签、按预设部署到各个 agent，换工具资产也带得走；npx flint-skills-hub 即用，支持 macOS / Windows / Linux，MIT 开源
