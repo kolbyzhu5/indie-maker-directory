@@ -2719,6 +2719,9 @@ ${sections}
   if (syncDist) {
     const dist = path.join(ROOT, "dist");
     await mkdir(dist, { recursive: true });
+    // 先清英文深层页旧产物（targets 循环会重新写入；不清则产品移除后旧 slug 残留）
+    await rm(path.join(dist, "en", "p"), { recursive: true, force: true });
+    await rm(path.join(dist, "en", "c"), { recursive: true, force: true });
     // ⚠️ 必须复用同一个 postProcess，否则 dist/（EdgeOne 实际部署源）会与根目录产物不一致
     for (const [file, content] of targets) {
       const distFile = path.join(dist, file);
@@ -2748,9 +2751,6 @@ ${sections}
     // 先清掉 dist 里的旧详情页/分类页，否则 copyDir 只做合并，陈旧孤儿页会一直留在部署目录
     await rm(path.join(dist, "p"), { recursive: true, force: true });
     await rm(path.join(dist, "c"), { recursive: true, force: true });
-    // 英文深层页同样要清（产品移除后 en/p/ 旧 slug 会残留）
-    await rm(path.join(dist, "en", "p"), { recursive: true, force: true });
-    await rm(path.join(dist, "en", "c"), { recursive: true, force: true });
     await copyDir(path.join(ROOT, "p"), path.join(dist, "p"));
     await copyDir(path.join(ROOT, "c"), path.join(dist, "c"));
     // 场景长尾页目录（/topic/pdf.html 等）
