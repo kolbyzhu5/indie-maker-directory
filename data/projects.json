@@ -4,29 +4,177 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-05T00:55:43.053Z",
+  "generatedAt": "2026-10-05T08:14:51.094Z",
   "counts": {
-    "total": 3046,
-    "main": 2562,
-    "programmer": 348,
+    "total": 3053,
+    "main": 2567,
+    "programmer": 350,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "开发工具": 568,
-    "免费工具": 506,
+    "AI 工具": 943,
+    "免费工具": 510,
+    "图片工具": 522,
+    "音视频": 490,
+    "开发工具": 570,
     "游戏娱乐": 168,
-    "AI 工具": 939,
-    "音视频": 488,
     "文档办公": 280,
-    "图片工具": 520,
-    "效率工具": 441,
+    "效率工具": 442,
     "生活服务": 93,
     "教育学习": 167,
     "浏览器扩展": 293,
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261005-lianyixin-问迹-wenjiai",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "Ethan Lian",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lianyixin"
+        }
+      ],
+      "name": "问迹 wenjiAI",
+      "url": "https://wenjiai.cn",
+      "status": "online",
+      "description": "AI 原生创投情报站，按问题找赛道，给出赛道分析、赛道榜单和商业速览，并追踪热点事件与论文，帮创业者和投资人找准方向",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261005-xianyu110-inkdoo",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "InkDoo",
+      "url": "https://inkdoo.app/zh",
+      "status": "online",
+      "description": "贴一篇文章或链接，AI 自动挑出该配图的段落，用同一个手绘小角色画出整套配图，支持上传自己的 IP 形象；注册送免费额度，按张一次性付费",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/xianyu110/inkdoo-ai-illustration"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261005-thefakearchitectstudio-oss-摊账",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "Harry Jia",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/thefakearchitectstudio-oss"
+        }
+      ],
+      "name": "摊账",
+      "url": "https://tanzhang-market-kit.hypebeast2k17.chatgpt.site/",
+      "status": "online",
+      "description": "面向市集摊主的免费单场经营结余试算网页，扣除售出货品成本、损耗和活动费用后计算结余；无需注册，金额按人民币展示，提供中英文界面",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261005-weidacn-gas-station-dance",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Gas Station Dance",
+      "url": "https://gasstationdance.pro",
+      "status": "online",
+      "description": "上传一到三张照片生成加油站日落前的潮流短视频，跳舞、自拍、下车三段镜头逐个换上你和朋友的脸，场景与运镜固定不变，输出 10 秒 9:16 无声 MP4；按积分计费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261005-weidacn-raindance-ai",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Raindance AI",
+      "url": "https://raindance-ai.pro/",
+      "status": "online",
+      "description": "上传两人各一张照片生成日落码头与海滩的多机位潮流短视频，整段镜头的两位表演者换成你们，保留原始运镜与配音，输出 28 秒 MP4；按积分计费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261005-saime428-ai-code-usage-tray",
+      "edition": "programmer",
+      "addedAt": "2026-10-05",
+      "maker": "saime428",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/saime428"
+        }
+      ],
+      "name": "AI Code Usage Tray",
+      "url": "https://github.com/saime428/ai-code-usage-tray",
+      "status": "online",
+      "description": "Windows 托盘用量监视器，一处看 Claude Code、Codex、Grok CLI、Antigravity、OpenCode 的 token 用量和金额，Claude、Codex、Grok 的官方额度在贴边悬浮条上常驻显示，另有跨工具的按天、项目、模型用量报表；只读本机会话记录，不上传用量数据，MIT 开源，提供 Windows 安装包",
+      "extraLinks": [
+        {
+          "label": "中文说明",
+          "url": "https://github.com/saime428/ai-code-usage-tray/blob/main/README.zh-CN.md"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261004-paidx2006-decisions-api",
       "edition": "main",
@@ -187,6 +335,30 @@
       "categories": [
         "图片工具",
         "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261004-jaychouchannel-夜观天象-astrolabe",
+      "edition": "programmer",
+      "addedAt": "2026-10-04",
+      "maker": "jaychouchannel",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jaychouchannel"
+        }
+      ],
+      "name": "夜观天象 Astrolabe",
+      "url": "https://github.com/jaychouchannel/Astrolabe",
+      "status": "online",
+      "description": "OKX 行情与账户监控面板，实时展示币价、K 线、资金费率和自己持仓的未实现盈亏，行情剧烈波动、资金费率越阈或账户开平仓、权益变动时通过 Telegram 推送提醒；只观测不下单，无任何交易权限，不配 API Key 也能看公开行情 — 需自建 Python 服务，MIT 开源",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "开发工具",
         "免费工具"
       ],
       "source": "upstream"
