@@ -6,13 +6,15 @@
  * README-en.md / README-EN.md / README.en.md / .github/pages/README-En.md 均 404，
  * 仓库里只有 4 个中文文件。站内 2949 个产品的名称与描述也都是中文。
  *
- * ── 因此英文版是「英文原创目录层」，而不是「翻译站」────────────────
+ * ── 因此英文版是「英文原创目录层」+「目录镜像」（2026-10-05 路线升级）──────
  * 做：英文界面 + 英文编辑内容（站点定义 / 榜单说明 / FAQ / 数据报告解读）
- * 不做：机器翻译 2949 条产品数据。三个理由：
- *   ① 会篡改上游数据（此前已向用户承诺不翻译产品数据）
- *   ② 会产出数千个「主体内容相同、仅外壳不同」的页面，近乎重复内容
- *   ③ 英文搜索真正缺的是「一个能被索引且讲清这是什么站」的入口，不是 3000 个副本
- * 产品卡片保留开发者原文（中文），并在页面显式声明这一点。
+ *     + 英文深层页 en/p/ en/c/（用户 2026-10-05 拍板，替代早期「不翻数据」路线）：
+ *   描述用 data/descriptions-en.json（scripts/translate.mjs 机翻，中文原文一字不动）；
+ *   缺翻译条目 fallback 中文原文 + 明确标注；产品名保留原文（66% 本身就是英文）。
+ *   每页带「原文折叠块」保证透明与内容增量，缓解近似重复内容问题。
+ * 早期不翻数据的三个理由（①篡改上游 ②重复内容 ③英文搜索缺的是入口）中：
+ *   ①已由「中文版零改动」消除；③入口已有但海外访客 20% 落在深层中文页才是真痛点；
+ *   ②由原文折叠块 + 英文界面 + 英文导航缓解。
  *
  * ── 为什么必须有独立 URL ─────────────────────────────────
  * 原英文版只在浏览器里（localStorage + JS 切换同一 URL），Google 抓到的永远是
@@ -102,9 +104,9 @@ const esc = (v = "") =>
 const SITE_NAME = "AI 独立制造所";
 const BRAND_EN = "Indie Maker";
 
-// 英文页统一的「产品描述为开发者原文」声明
+// 英文页统一的「描述为机翻」声明（2026-10-05 起英文深层页上线，替代旧「不翻数据」声明）
 const ORIGINAL_LANG_NOTE =
-  "Product names and descriptions are kept in the developers' original Chinese — we don't machine-translate the data. Every listing links to our own product page, which in turn links to the product's official site.";
+  "Product descriptions are machine-translated from the developers' original Chinese (the original text stays untouched on every product's Chinese page). Every listing links to our English product page, which in turn links to the product's official site.";
 
 export const EN_RANKINGS = {
   "best-ai-tools": {
@@ -255,7 +257,7 @@ export const EN_HOME = {
   faq: [
     { q: "What is this site?", a: "AI 独立制造所 (Indie Maker) is a directory of works by Chinese indie developers — AI tools, websites, apps and games. We sync from an open-source repository every day, organise everything by category and use case, and make it searchable. We don't build, host or resell any of the products listed; every listing links to the product's own site." },
     { q: "Is it free? Is there a membership?", a: "Completely free. There is no membership, no subscription, no paid feature, and no paid ranking. Sorting is by date added or name, and nothing on the site can be bought." },
-    { q: "Why is the site in Chinese if it's for a global audience?", a: "The products are made by Chinese-speaking developers and the upstream data source is Chinese, so product names and descriptions stay in the original language — we don't machine-translate data. The interface, categories and all editorial pages are available in English." },
+    { q: "Why is the site in Chinese if it's for a global audience?", a: "The products are made by Chinese-speaking developers and the upstream data source is Chinese. Product descriptions are machine-translated into English for browsing (the original Chinese stays untouched on each product's Chinese page), and product names are kept as the developers wrote them. The interface, categories and all editorial pages are available in English." },
     { q: "I saw a product description mention a membership or a paid plan — is that yours?", a: "No. Any pricing, membership or paid tier mentioned in a product's description belongs to that product itself. This directory is entirely free and has no membership of any kind." },
     { q: "How do I get my product listed?", a: "Submit a pull request to the open-source repository chinese-independent-developer. The directory syncs from it daily, so once your entry is merged it appears here automatically." }
   ]
@@ -327,21 +329,23 @@ ${body}
 }
 
 // 产品列表项（复用中文页完全相同的 CSS 类，保证视觉一致）
-function itemHTML(p, slugMap, groupNameEn) {
+// 链接指向英文详情页（en/p/）；描述优先用机翻英文（descEnMap 由 build.mjs 传入）
+function itemHTML(p, slugMap, groupNameEn, descEnMap) {
   const city = p.city ? ` · ${esc(p.city)}` : "";
+  const d = (descEnMap && descEnMap[p.id]?.descEn) || p.description;
   return `<li>
-        <a class="best-name" href="/p/${slugMap.get(p.id)}.html">${esc(p.name)}</a>
-        <span class="best-desc">${esc(p.description)}</span>
+        <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(p.name)}</a>
+        <span class="best-desc">${esc(d)}</span>
         <span class="best-meta">By ${esc(p.maker)}${city}${groupNameEn ? "" : ""}</span>
       </li>`;
 }
 
-function groupsHTML(groups, slugMap) {
+function groupsHTML(groups, slugMap, descEnMap) {
   return groups
     .map(
       ({ name, items }) => `<section class="best-group">
       <h2>${esc(EN_GROUP[name] || name)} <small>${items.length}</small></h2>
-      <ol class="best-list">${items.map((p) => itemHTML(p, slugMap)).join("")}</ol>
+      <ol class="best-list">${items.map((p) => itemHTML(p, slugMap, "", descEnMap)).join("")}</ol>
     </section>`
     );
 }
@@ -357,7 +361,7 @@ const listLD = (name, desc, items, slugMap, siteUrl) =>
     name,
     description: desc,
     numberOfItems: items.length,
-    itemListElement: items.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.name, url: `${siteUrl}/p/${slugMap.get(p.id)}.html` }))
+    itemListElement: items.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.name, url: `${siteUrl}/en/p/${slugMap.get(p.id)}.html` }))
   });
 
 const faqLD = (faq) =>
@@ -372,7 +376,7 @@ const faqLD = (faq) =>
 // ═══════════════════════════════════════════════════════════
 
 export function buildEnglishPages(ctx) {
-  const { siteUrl, umamiScript, organizationLd, projects, slugMap, counts, categoryCounts, categorySlugs, localFirstSignals, rankings, scenarios } = ctx;
+  const { siteUrl, umamiScript, organizationLd, projects, slugMap, counts, categoryCounts, categorySlugs, localFirstSignals, rankings, scenarios, descEnMap } = ctx;
   const pages = [];
   const total = counts.total;
   const today = new Date().toISOString().slice(0, 10);
@@ -391,7 +395,7 @@ export function buildEnglishPages(ctx) {
       //   ② <li> 作为 flex item 会被收缩，宽度小于内容宽度后，<small> 溢出到相邻 chip 下被覆盖
       //      → 实测「934」显示成「93」，只有每行最后一个 chip 完整（没人压它）
       //   ③ <li> 的 ::marker 泄漏成左侧小圆点（list-style: disc）
-      return `<a href="/c/${slug}.html"><span class="best-name" style="border:0">${esc(EN_CATEGORY[c])}</span> <small>${n}</small></a>`;
+      return `<a href="/en/c/${slug}.html"><span class="best-name" style="border:0">${esc(EN_CATEGORY[c])}</span> <small>${n}</small></a>`;
     })
     .join("");
 
@@ -493,7 +497,7 @@ export function buildEnglishPages(ctx) {
     </div>
     <p class="best-intro">${cfg.intro.replace("{n}", n)}</p>
     <p class="u-note">${esc(ORIGINAL_LANG_NOTE)}</p>
-    ${groupsHTML(groups, slugMap).join("")}
+    ${groupsHTML(groups, slugMap, descEnMap).join("")}
     <section class="faq-list">
       <h2 class="faq-title">Frequently asked questions</h2>
       ${faqHTML(cfg.faq)}
@@ -542,7 +546,7 @@ export function buildEnglishPages(ctx) {
     </div>
     <p class="best-intro">${cfg.intro}</p>
     <p class="u-note">Selection criteria: the tool states that it processes files locally or collects no data; it works without an account; and it solves a real task. ${esc(ORIGINAL_LANG_NOTE)}</p>
-    ${groupsHTML(groups, slugMap).join("")}
+    ${groupsHTML(groups, slugMap, descEnMap).join("")}
     <section class="faq-list">
       <h2 class="faq-title">Frequently asked questions</h2>
       ${faqHTML(cfg.faq)}
@@ -680,7 +684,7 @@ export function buildEnglishPages(ctx) {
     </div>
     <p class="best-intro">${cfg.intro.replace("{n}", n)}</p>
     <p class="u-note">${esc(ORIGINAL_LANG_NOTE)}</p>
-    ${groupsHTML(s.groups, slugMap).join("")}
+    ${groupsHTML(s.groups, slugMap, descEnMap).join("")}
     <section class="faq-list">
       <h2 class="faq-title">Frequently asked questions</h2>
       ${faqHTML(cfg.faq)}
@@ -701,4 +705,231 @@ export function englishUrls(siteUrl) {
     `${siteUrl}/en/indie-report.html`,
     ...Object.keys(EN_SCENARIOS).map((s) => `${siteUrl}/en/topic/${s}.html`)
   ];
+}
+
+// ═══════════════════════════════════════════════════════════
+// 英文深层页：en/p/{slug}.html（每产品）+ en/c/{slug}.html（每分类，含分页）
+// ── 设计（2026-10-05，替代早期「不翻数据」路线）──────────────────
+// 海外访客已占约 20%，但英文用户从 Google 落到 /p/ /c/ 深层页看到的是中文。
+// 本生成器把整个目录镜像成英文静态页：
+//   · 描述用 data/descriptions-en.json 的机翻（中文原文一字不动，只用于英文展示层）
+//   · 缺翻译的条目 fallback 显示中文原文并明确标注
+//   · 产品名保留原文（66% 本身就是英文；中文名是专有名词）
+//   · 每页附「原文折叠块」（details）——透明 + 内容增量，缓解「近似重复内容」顾虑
+// ═══════════════════════════════════════════════════════════
+
+const EN_EDITION = { main: "Indie product", programmer: "Developer tool", game: "Indie game" };
+const EN_STATUS = { online: "Online", developing: "In development", inactive: "Discontinued" };
+const CATEGORY_PAGE_SIZE = 60;
+const RELATED_COUNT = 6;
+
+const MT_NOTE = "Description translated from the developer's original Chinese by machine translation.";
+
+function enItem(p, slugMap, descEnMap) {
+  const city = p.city ? ` · ${esc(p.city)}` : "";
+  const d = descEnMap[p.id]?.descEn || p.description;
+  return `<li>
+        <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(p.name)}</a>
+        <span class="best-desc">${esc(d)}</span>
+        <span class="best-meta">By ${esc(p.maker)}${city}</span>
+      </li>`;
+}
+
+function enStatusChip(p) {
+  return `<span class="u-chip s-${p.status}">${EN_STATUS[p.status] || esc(p.status)}</span>`;
+}
+
+function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
+  const { siteUrl, umamiScript, organizationLd, categorySlugs } = ctx;
+  const name = esc(p.name);
+  const descEn = descEnMap[p.id]?.descEn || "";
+  const hasEn = Boolean(descEn);
+  const shownDesc = hasEn ? descEn : p.description;
+  const shownDescE = esc(shownDesc);
+  const categories = p.categories || [];
+  const primaryCategory = categories[0] || "未分类";
+  const catSlug = categorySlugs[primaryCategory] || "uncategorized";
+  const catEn = EN_CATEGORY[primaryCategory] || "Uncategorized";
+  const outbound = ` data-umami-event="outbound" data-umami-event-placement="en-detail" data-umami-event-target="${slug}"`;
+
+  const breadcrumb = `<a href="/en/">Directory</a><span class="sep">›</span><a href="/en/c/${catSlug}.html">${esc(catEn)}</a><span class="sep">›</span><span class="current">${name}</span>`;
+  const tagLinks = categories
+    .map((c) => `<a href="/en/c/${categorySlugs[c] || "uncategorized"}.html">${esc(EN_CATEGORY[c] || c)}</a>`)
+    .join("");
+  const extraLinks = (p.makerLinks || [])
+    .map((l) => `<a class="btn-ghost" href="${esc(l.url)}" target="_blank" rel="noreferrer"${outbound}>${esc(l.label)}</a>`)
+    .join("");
+
+  const relatedCards = related
+    .map((x) => {
+      const xs = slugMap.get(x.id);
+      const xd = esc(descEnMap[x.id]?.descEn || x.description);
+      return `<article class="project-card">
+      <div class="card-top"><span class="edition-badge">${EN_EDITION[x.edition] || "Indie product"}</span><time class="card-date">${x.addedAt}</time></div>
+      <h2><a href="/en/p/${xs}.html">${esc(x.name)}</a></h2>
+      <p>${xd}</p>
+      <div class="card-footer"><span class="maker">${esc(x.maker)}</span><a class="visit" href="/en/p/${xs}.html">Details ↗</a></div>
+    </article>`;
+    })
+    .join("");
+
+  const softwareApp = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: p.name,
+    description: shownDesc,
+    url: p.url,
+    applicationCategory: catEn,
+    operatingSystem: "Web",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "CNY" },
+    author: { "@type": "Person", name: p.maker },
+    datePublished: p.addedAt,
+    inLanguage: "en"
+  });
+  const breadcrumbLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Directory", item: `${siteUrl}/en/` },
+      { "@type": "ListItem", position: 2, name: catEn, item: `${siteUrl}/en/c/${catSlug}.html` },
+      { "@type": "ListItem", position: 3, name: p.name }
+    ]
+  });
+
+  // 原文折叠块（透明 + 每页真实增量）
+  const originalBlock = /[\u4e00-\u9fff]/.test(p.description)
+    ? `<details class="faq-item"><summary>Original description (Chinese, by the developer)</summary><p>${esc(p.description)}</p></details>`
+    : "";
+
+  const mtNote = hasEn
+    ? `<p class="u-note">${MT_NOTE} <a href="${siteUrl}/p/${slug}.html" hreflang="zh-CN" lang="zh-CN">中文原页 ↗</a></p>`
+    : `<p class="u-note">This entry's English translation is not ready yet — the original Chinese description is shown. <a href="${siteUrl}/p/${slug}.html" hreflang="zh-CN" lang="zh-CN">中文原页 ↗</a></p>`;
+
+  const title = `${p.name} — ${catEn} by Chinese indie developers | Indie Maker`;
+  const metaDesc = shownDesc.length > 300 ? shownDesc.slice(0, 297) + "..." : shownDesc;
+
+  return shell({
+    siteUrl,
+    umamiScript,
+    organizationLd,
+    title,
+    desc: metaDesc,
+    canonical: `${siteUrl}/en/p/${slug}.html`,
+    zhUrl: `${siteUrl}/p/${slug}.html`,
+    jsonLd: [softwareApp, breadcrumbLD],
+    body: `    <nav class="breadcrumb" aria-label="Breadcrumb">${breadcrumb}</nav>
+    <article class="detail-card">
+      <div class="detail-head"><span class="edition-badge">${EN_EDITION[p.edition] || "Indie product"}</span></div>
+      <h1>${name}</h1>
+      <p class="detail-desc">${shownDescE}</p>
+      ${mtNote}
+      <div class="detail-meta">
+        <span><b>Developer</b>${esc(p.maker)}${p.city ? ` · ${esc(p.city)}` : ""}</span>
+        <span><b>Status</b>${enStatusChip(p)}</span>
+        <span><b>Added</b><time>${p.addedAt}</time></span>
+        <span><b>Tags</b>${tagLinks}</span>
+      </div>
+      <p class="detail-actions"><a class="btn-primary" href="${esc(p.url)}" target="_blank" rel="noreferrer"${outbound}>Visit official site ↗</a>${extraLinks}</p>
+    </article>
+    ${originalBlock}
+    ${relatedCards ? `<section class="related" id="related"><h2>Related products</h2><div class="related-grid">${relatedCards}</div></section>` : ""}
+    <section class="unique-block">
+      <h2>About this listing</h2>
+      <p>This page is part of <a href="/en/">Indie Maker</a>, a directory of works by Chinese indie developers. We sync daily from the open-source repository <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer</a>; this product was added on <b>${p.addedAt}</b>.</p>
+      <p class="u-boundary"><b>About pricing</b><span>Any pricing, membership, plans or premium features mentioned in a product's description belong to that product itself, not to this directory. We don't build, host or resell any product — the directory is entirely free.</span></p>
+    </section>`
+  });
+}
+
+function renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, allCats, page, ctx) {
+  const { siteUrl, umamiScript, organizationLd, categorySlugs } = ctx;
+  const catEn = EN_CATEGORY[cat] || "Uncategorized";
+  const totalPages = Math.max(1, Math.ceil(productsInCat.length / CATEGORY_PAGE_SIZE));
+  const slice = productsInCat.slice((page - 1) * CATEGORY_PAGE_SIZE, page * CATEGORY_PAGE_SIZE);
+  const today = new Date().toISOString().slice(0, 10);
+  const zhUrl = page === 1 ? `${siteUrl}/c/${catSlug}.html` : `${siteUrl}/c/${catSlug}/${page}.html`;
+  const canonical = page === 1 ? `${siteUrl}/en/c/${catSlug}.html` : `${siteUrl}/en/c/${catSlug}/${page}.html`;
+
+  // 分类导航（同中文分类页结构：<a> 直接做 flex item）
+  const catNav = allCats
+    .map(([c, n]) => `<a href="/en/c/${categorySlugs[c] || "uncategorized"}.html"><span class="best-name" style="display:inline;border:0">${esc(EN_CATEGORY[c] || c)}</span> <small>${n}</small></a>`)
+    .join("");
+
+  // 分页导航
+  const pageLink = (n) => (n === 1 ? "/en/c/" + catSlug + ".html" : `/en/c/${catSlug}/${n}.html`);
+  let pagination = "";
+  if (totalPages > 1) {
+    const nums = [];
+    for (let n = 1; n <= totalPages; n++) {
+      nums.push(n === page ? `<b class="pg-cur">${n}</b>` : `<a href="${pageLink(n)}">${n}</a>`);
+    }
+    pagination = `<nav class="pagination" aria-label="Pages">${page > 1 ? `<a href="${pageLink(page - 1)}">‹ Prev</a>` : ""}${nums.join(" · ")}${page < totalPages ? `<a href="${pageLink(page + 1)}">Next ›</a>` : ""}</nav>`;
+  }
+
+  const items = slice.map((p) => enItem(p, slugMap, descEnMap)).join("");
+  const listLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${catEn} — Chinese indie developer products`,
+    numberOfItems: productsInCat.length,
+    itemListElement: slice.map((p, i) => ({ "@type": "ListItem", position: (page - 1) * CATEGORY_PAGE_SIZE + i + 1, name: p.name, url: `${siteUrl}/en/p/${slugMap.get(p.id)}.html` }))
+  });
+
+  return shell({
+    siteUrl,
+    umamiScript,
+    organizationLd,
+    title: `${catEn} by Chinese indie developers (${productsInCat.length})${page > 1 ? ` — page ${page}` : ""} | Indie Maker`,
+    desc: `Browse ${productsInCat.length} ${catEn.toLowerCase()} built by Chinese indie developers, with English descriptions, updated daily. Entirely free directory, no paid ranking.${page > 1 ? ` Page ${page} of ${totalPages}.` : ""}`,
+    canonical,
+    zhUrl,
+    jsonLd: [listLD],
+    body: `    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/en/">Directory</a><span class="sep">›</span><span class="current">${esc(catEn)}</span></nav>
+    <div class="category-head">
+      <h1>${esc(catEn)}</h1>
+      <p class="category-count"><b>${productsInCat.length}</b> products${page > 1 ? ` · page ${page} of ${totalPages}` : ""} · updated ${today}</p>
+      <nav class="category-nav" aria-label="Categories">${catNav}</nav>
+    </div>
+    <div class="category-grid"><ol class="best-list">${items}</ol></div>
+    ${pagination}`
+  });
+}
+
+/**
+ * 英文深层页主入口。ctx 额外需要：
+ *   descEnMap: Map/object  id → { descEn, at }
+ *   relatedMap: Map<id, Product[]>（同中文详情页的「同分类推荐」，复用同一份计算）
+ *   primaryCatMap: Map<id, 主分类>（供分类页归组）
+ *   allCats: [分类名, 数量][]（含未分类，降序）
+ * 返回 targets 数组：["en/p/xxx.html", html] + ["en/c/xxx.html" | "en/c/xxx/N.html", html]
+ */
+export function buildEnglishDeepPages(ctx) {
+  const { siteUrl, umamiScript, organizationLd, projects, slugMap, categorySlugs, descEnMap, relatedMap, primaryCatMap, allCats } = ctx;
+  const base = { siteUrl, umamiScript, organizationLd, categorySlugs };
+  const pages = [];
+
+  for (const p of projects) {
+    const slug = slugMap.get(p.id);
+    pages.push([`en/p/${slug}.html`, renderEnProductPage(p, slug, slugMap, relatedMap.get(p.id) || [], descEnMap, base)]);
+  }
+
+  // 分类页（含「未分类」，与中文版同一套归组）
+  const byCat = new Map();
+  for (const p of projects) {
+    const c = primaryCatMap.get(p.id) || "未分类";
+    if (!byCat.has(c)) byCat.set(c, []);
+    byCat.get(c).push(p);
+  }
+  for (const [cat, catSlug] of Object.entries(categorySlugs)) {
+    const productsInCat = cat === "未分类" ? byCat.get("未分类") || [] : byCat.get(cat) || [];
+    const totalPages = Math.max(1, Math.ceil(productsInCat.length / CATEGORY_PAGE_SIZE));
+    for (let page = 1; page <= totalPages; page++) {
+      pages.push([
+        page === 1 ? `en/c/${catSlug}.html` : `en/c/${catSlug}/${page}.html`,
+        renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, allCats, page, base)
+      ]);
+    }
+  }
+
+  return pages;
 }

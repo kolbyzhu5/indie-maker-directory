@@ -519,6 +519,7 @@ function renderProductPage(project, slug, slugMap, related, ctx = {}) {
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/p/${slug}.html">
   <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/p/${slug}.html">
+  <link rel="alternate" hreflang="en" href="${SITE_URL}/en/p/${slug}.html">
   <link rel="alternate" hreflang="x-default" href="${SITE_URL}/p/${slug}.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="AI 独立制造所">
@@ -587,8 +588,9 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
   const count = products.length;
   const pagePath = safePage === 1 ? `/c/${catSlug}.html` : `/c/${catSlug}/${safePage}.html`;
   const pageUrl = SITE_URL + pagePath;
-  // 分类页暂无英文对应页（英文版只覆盖首页/榜单/独家/场景共 11 页）→ 不出 hreflang="en"
-  const enUrl = null;
+  // 英文分类镜像页（en/c/，2026-10-05 上线）→ hreflang 双向声明
+  const enPagePath = safePage === 1 ? `/en/c/${catSlug}.html` : `/en/c/${catSlug}/${safePage}.html`;
+  const enUrl = SITE_URL + enPagePath;
   const pageSuffix = safePage > 1 ? `（第 ${safePage} 页）` : "";
   const catNav = allCategories.map(([c, n]) => {
     const cs = CATEGORY_SLUGS[c];
@@ -2323,6 +2325,21 @@ async function main() {
   for (const cfg of SCENARIOS) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/en/topic/${cfg.slug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
   }
+  // 英文深层页（en/c/ 分类 + en/p/ 详情）：sitemap 镜像中文版全量
+  for (const [cat, catSlug] of Object.entries(CATEGORY_SLUGS)) {
+    sitemapUrls.push(`  <url><loc>${SITE_URL}/en/c/${catSlug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
+    const catCount = cat === "未分类"
+      ? sorted.filter((p) => !p.categories || p.categories.length === 0).length
+      : sorted.filter((p) => (p.categories || []).includes(cat)).length;
+    const catTotalPages = Math.max(1, Math.ceil(catCount / CATEGORY_PAGE_SIZE));
+    for (let page = 2; page <= catTotalPages; page++) {
+      sitemapUrls.push(`  <url><loc>${SITE_URL}/en/c/${catSlug}/${page}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>`);
+    }
+  }
+  for (const p of sorted) {
+    const slug = slugMap.get(p.id);
+    sitemapUrls.push(`  <url><loc>${SITE_URL}/en/p/${slug}.html</loc><lastmod>${p.addedAt}</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>`);
+  }
   for (const [cat, catSlug] of Object.entries(CATEGORY_SLUGS)) {
     sitemapUrls.push(`  <url><loc>${SITE_URL}/c/${catSlug}.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>`);
     // 分类页分页（第 2 页起，分组逻辑与 categoryEntries 保持一致）
@@ -2403,9 +2420,10 @@ ${botGroups(CN_BOTS)}`;
 - 隐私政策：${SITE_URL}/privacy.html（无注册系统、不收集个人信息、匿名访问统计）
 - 本周新收录：${SITE_URL}/weekly.html（最近 7 天新收录的产品，每日更新）
 
-## English version（英文版，11 个页面）
-英文版与中文版使用同一份数据，界面与编辑内容为英文原创；
-产品名称与描述保留开发者原文（中文）——上游开源仓库没有英文数据，本站不做机器翻译以免费篡改。
+## English version（英文版：11 个编辑页 + 全量目录镜像）
+英文版与中文版使用同一份数据：界面与编辑内容为英文原创；产品描述为机器翻译（data/descriptions-en.json，
+中文原页保持开发者原文不动），产品名保留原文（多数本身是英文）。每个产品有英文详情页
+${SITE_URL}/en/p/{slug}.html，每个分类有英文列表页 ${SITE_URL}/en/c/{slug}.html，与中文页 hreflang 双向互指。
 - English home：${SITE_URL}/en/（站点定义、13 个分类概览、入口与 FAQ，适合回答「what is this site」）
 - Best free AI tools：${SITE_URL}/en/best-ai-tools.html
 - Developer tools：${SITE_URL}/en/best-dev-tools.html
@@ -2500,8 +2518,30 @@ ${sections}
   // 目的是给英文搜索与英文 AI 一个**可被索引的入口**——此前语言只在浏览器里切换，
   // Google 抓到的永远是中文 HTML，英文版在搜索引擎眼里不存在。
   // 详细设计与理由见 scripts/en-pages.mjs 顶部注释。
-  const { buildEnglishPages, englishUrls } = await import("./en-pages.mjs");
+  const { buildEnglishPages, englishUrls, buildEnglishDeepPages } = await import("./en-pages.mjs");
   const byNameForRanking = new Map(sorted.map((p) => [p.name, p]));
+  // 英文描述映射（scripts/translate.mjs 生成；缺文件 = 英文深层页降级为中文原文 + 标注）
+  let descEnMap = {};
+  try {
+    descEnMap = JSON.parse(await readFile(path.join(ROOT, "data", "descriptions-en.json"), "utf8"));
+    console.log(`[build] 英文描述映射：${Object.keys(descEnMap).length} 条`);
+  } catch {
+    console.log("[build][warn] data/descriptions-en.json 不存在 → 英文深层页将显示中文原文（先跑 node scripts/translate.mjs）");
+  }
+  // 英文深层页上下文：同分类推荐（与中文详情页同一套计算）+ 主分类归组 + 分类计数
+  const relatedMap = new Map();
+  const primaryCatMap = new Map();
+  for (const p of projects) {
+    const cat = (p.categories && p.categories[0]) || "未分类";
+    primaryCatMap.set(p.id, cat);
+    const siblings = byPrimaryCategory.get(cat) || [];
+    relatedMap.set(p.id, siblings.filter((x) => x.id !== p.id).slice(0, RELATED_COUNT));
+  }
+  const enUncatCount = sorted.filter((p) => !p.categories || p.categories.length === 0).length;
+  const enAllCats = [
+    ...Object.entries(categoryCounts).sort((a, b) => b[1] - a[1]),
+    ["未分类", enUncatCount]
+  ].filter(([c]) => CATEGORY_SLUGS[c]);
   const enTargets = buildEnglishPages({
     siteUrl: SITE_URL,
     umamiScript: UMAMI_SCRIPT,
@@ -2518,9 +2558,26 @@ ${sections}
         .map(({ group, names }) => ({ group, items: names.map((n) => byNameForRanking.get(n)).filter(Boolean) }))
         .filter((g) => g.items.length)
     })),
-    scenarios: SCENARIOS.map((cfg) => ({ slug: cfg.slug, groups: bucketScenario(cfg, sorted).groups }))
+    scenarios: SCENARIOS.map((cfg) => ({ slug: cfg.slug, groups: bucketScenario(cfg, sorted).groups })),
+    descEnMap
   });
   console.log(`[build] 已生成 ${enTargets.length} 个英文版页面（/en/*）`);
+
+  // ── 英文深层页（en/p/ + en/c/）：英文目录镜像 ──────────────────
+  const enDeepTargets = buildEnglishDeepPages({
+    siteUrl: SITE_URL,
+    umamiScript: UMAMI_SCRIPT,
+    organizationLd: ORGANIZATION_LD,
+    projects: sorted,
+    slugMap,
+    categorySlugs: CATEGORY_SLUGS,
+    descEnMap,
+    relatedMap,
+    primaryCatMap,
+    allCats: enAllCats
+  });
+  console.log(`[build] 已生成 ${enDeepTargets.length} 个英文深层页（en/p/ ${sorted.length} + en/c/ 分页）`);
+  enTargets.push(...enDeepTargets);
 
   // ── 全站页脚分类导航 ──────────────────────────────────────────
   // 为什么放页脚而不是首页导流区：分类页要的是「被索引 + 内链权重」。
@@ -2671,6 +2728,8 @@ ${sections}
     // 数据文件 + 静态资源同步
     await mkdir(path.join(dist, "data"), { recursive: true });
     await copyFile(path.join(ROOT, "data", "projects.json"), path.join(dist, "data", "projects.json"));
+    // 英文界面机翻描述（app.js 在英文 locale 下 fetch；缺文件 = 首页英文卡片显示中文原文，静默降级）
+    await copyFile(path.join(ROOT, "data", "descriptions-en.json"), path.join(dist, "data", "descriptions-en.json")).catch(() => console.log("[build][warn] descriptions-en.json 缺失 → 未同步到 dist"));
     // og.png = 中文分享图；og-en.png = 英文分享图（en-pages.mjs 里 1000+ 英文页的 og:image 硬引用它，缺失会让分享卡片整片 404）
     for (const og of ["og.png", "og-en.png"]) {
       await copyFile(path.join(ROOT, og), path.join(dist, og)).catch(() => console.log(`[build][warn] ${og} 缺失 → 未同步到 dist，引用它的页面分享卡片会 404`));
@@ -2689,6 +2748,9 @@ ${sections}
     // 先清掉 dist 里的旧详情页/分类页，否则 copyDir 只做合并，陈旧孤儿页会一直留在部署目录
     await rm(path.join(dist, "p"), { recursive: true, force: true });
     await rm(path.join(dist, "c"), { recursive: true, force: true });
+    // 英文深层页同样要清（产品移除后 en/p/ 旧 slug 会残留）
+    await rm(path.join(dist, "en", "p"), { recursive: true, force: true });
+    await rm(path.join(dist, "en", "c"), { recursive: true, force: true });
     await copyDir(path.join(ROOT, "p"), path.join(dist, "p"));
     await copyDir(path.join(ROOT, "c"), path.join(dist, "c"));
     // 场景长尾页目录（/topic/pdf.html 等）

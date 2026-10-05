@@ -18,16 +18,17 @@
 - 名称：AI 独立制造所（Indie Maker）
 - 一句话：好产品，不该埋在几千行 README 里。
 - 数据源：https://github.com/1c7/chinese-independent-developer
-- 更新时间：2026-10-04（北京时间）
+- 更新时间：2026-10-05（北京时间）
 - 语言：中文（默认主页） / English（独立 URL：https://indiemaker.cn/en/ ，含 hreflang 互指）
 - 关于页：https://indiemaker.cn/about.html（站点介绍 + 常见问题 FAQ）
 - 联系方式：https://indiemaker.cn/contact.html（邮箱 kolbyzhu5@gmail.com；提交产品走上游仓库 Pull Request）
 - 隐私政策：https://indiemaker.cn/privacy.html（无注册系统、不收集个人信息、匿名访问统计）
 - 本周新收录：https://indiemaker.cn/weekly.html（最近 7 天新收录的产品，每日更新）
 
-## English version（英文版，11 个页面）
-英文版与中文版使用同一份数据，界面与编辑内容为英文原创；
-产品名称与描述保留开发者原文（中文）——上游开源仓库没有英文数据，本站不做机器翻译以免费篡改。
+## English version（英文版：11 个编辑页 + 全量目录镜像）
+英文版与中文版使用同一份数据：界面与编辑内容为英文原创；产品描述为机器翻译（data/descriptions-en.json，
+中文原页保持开发者原文不动），产品名保留原文（多数本身是英文）。每个产品有英文详情页
+https://indiemaker.cn/en/p/{slug}.html，每个分类有英文列表页 https://indiemaker.cn/en/c/{slug}.html，与中文页 hreflang 双向互指。
 - English home：https://indiemaker.cn/en/（站点定义、13 个分类概览、入口与 FAQ，适合回答「what is this site」）
 - Best free AI tools：https://indiemaker.cn/en/best-ai-tools.html
 - Developer tools：https://indiemaker.cn/en/best-dev-tools.html

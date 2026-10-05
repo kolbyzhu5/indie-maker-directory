@@ -3,6 +3,7 @@ import { LOCALES, t, setLocale, getCurrentLocale, getSavedLocale, browserLocale,
 const state = {
   data: null,
   slugMap: new Map(), // id -> 详情页 slug（与 scripts/build.mjs 逻辑一致）
+  descEnMap: null,    // id -> { descEn }（英文界面的机翻描述，异步加载）
   query: "",
   edition: "all",
   statuses: new Set(["online", "developing"]),
@@ -112,19 +113,26 @@ function outboundAttrs(placement, slug) {
   return ` data-umami-event="outbound" data-umami-event-placement="${placement}"${target}`;
 }
 
+// 英文界面下详情链接指向英文镜像页（en/p/），中文界面保持 /p/
+function detailHref(slug) {
+  return `${getCurrentLocale() === "en" ? "/en/p" : "/p"}/${slug}.html`;
+}
+
 function cardTemplate(project, index) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
   const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(categoryName(tag))}</span>`).join("");
   const editionLabel = t(editionKeyMap[project.edition] || "editionMain");
   const slug = state.slugMap.get(project.id);
+  // 英文界面 + 已有翻译时显示英文描述（data/descriptions-en.json，异步加载）
+  const desc = (getCurrentLocale() === "en" && state.descEnMap?.[project.id]?.descEn) || project.description;
   const visit = `<a class="visit" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer"${outboundAttrs("card", slug)}>${t("cardVisit")}</a>`;
   const detail = slug
-    ? `<span class="card-links"><a class="detail" href="/p/${slug}.html">${t("cardDetail")}</a>${visit}</span>`
+    ? `<span class="card-links"><a class="detail" href="${detailHref(slug)}">${t("cardDetail")}</a>${visit}</span>`
     : visit;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${editionLabel}</span><time class="card-date">${project.addedAt}</time></div>
-    <h2><a href="${slug ? `/p/${slug}.html` : escapeHTML(project.url)}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${escapeHTML(project.name)}</a></h2>
-    <p>${escapeHTML(project.description)}</p>
+    <h2><a href="${slug ? detailHref(slug) : escapeHTML(project.url)}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${escapeHTML(project.name)}</a></h2>
+    <p>${escapeHTML(desc)}</p>
     <div class="card-tags">${tags}</div>
     <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span>${detail}</div>
   </article>`;
@@ -255,10 +263,22 @@ function toggleLocale() {
   applyLocale();
   renderLocaleDependent();
   document.documentElement.lang = next === "zh" ? "zh-CN" : "en";
+  ensureEnDescriptions();
   // 语言切换量：用来判断英文界面的真实需求强度（站内海外访客占 46%，但「会点切换」才是真需求）。
   // 这里用命令式而非 data-umami-event：「目标语言」每次点击都在翻转，属性只能写死一个值。
   // 追踪尚在加载时不报错、也不补发 —— 切语言是低价值事件，丢一两条无妨。
   window.umami?.track("lang-switch", { to: next });
+}
+
+// 英文界面下的产品描述映射（scripts/translate.mjs 生成的机翻，中文原文不动）。
+// 异步加载：加载完成前卡片显示中文原文，完成后重渲染一次。
+let enDescPromise = null;
+function ensureEnDescriptions() {
+  if (getCurrentLocale() !== "en" || state.descEnMap || enDescPromise) return;
+  enDescPromise = fetch("/data/descriptions-en.json")
+    .then((r) => (r.ok ? r.json() : {}))
+    .then((map) => { state.descEnMap = map; if (getCurrentLocale() === "en") render(); })
+    .catch(() => {}); // 加载失败就保持中文原文，静默降级
 }
 
 function bindEvents() {
@@ -329,6 +349,8 @@ async function init() {
     document.querySelector("#countGame").textContent = state.data.counts.game;
     renderLocaleDependent();
     injectItemListJSONLD();
+    // 初始 locale 已是英文（saved 或浏览器语言）→ 预取英文描述
+    ensureEnDescriptions();
 
     // 数据加载完后再根据 IP 智能切换（仅在用户没手动选过、且当前与 IP 推断不同时）
     if (!saved) {
@@ -337,6 +359,7 @@ async function init() {
         setLocale(ipLocale);
         applyLocale();
         renderLocaleDependent();
+        ensureEnDescriptions();
         try { sessionStorage.setItem("imd.ipDetected", "1"); } catch {}
       }
     }
