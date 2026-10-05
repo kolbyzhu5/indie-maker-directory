@@ -49,6 +49,20 @@ const ORGANIZATION_LD = JSON.stringify({
     "https://github.com/1c7/chinese-independent-developer"
   ]
 });
+// 英文版 Organization（/en/* 专用）：name 用对外英文品牌，中文品牌名降为 alternateName
+const ORGANIZATION_LD_EN = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AI Indie Maker",
+  "alternateName": "AI 独立制造所 · Indie Maker",
+  "url": `${SITE_URL}/en/`,
+  "logo": `${SITE_URL}/favicon.svg`,
+  "description": "A directory of AI tools, websites, apps and games built by Chinese indie developers. Synced daily from an open-source repository, organised by category and use case. We don't build, host or resell any of the products listed — entirely free, no paid ranking.",
+  "sameAs": [
+    "https://github.com/kolbyzhu5/indie-maker-directory",
+    "https://github.com/1c7/chinese-independent-developer"
+  ]
+});
 
 // Umami 访问统计（隐私友好、无 cookie，全站复用）
 //
@@ -2533,6 +2547,17 @@ ${sections}
   } catch {
     console.log("[build][warn] data/descriptions-en.json 不存在 → 英文深层页将显示中文原文（先跑 node scripts/translate.mjs）");
   }
+  // 英文产品名映射（scripts/translate-names.mjs 生成；只改英文展示名，slug/URL 不动）
+  let nameEnMap = {};
+  try {
+    nameEnMap = JSON.parse(await readFile(path.join(ROOT, "data", "names-en.json"), "utf8"));
+    for (const k of Object.keys(nameEnMap)) {
+      if (nameEnMap[k]?.nameEn) nameEnMap[k].nameEn = cleanText(nameEnMap[k].nameEn);
+    }
+    console.log(`[build] 英文产品名映射：${Object.keys(nameEnMap).length} 条（已清洗）`);
+  } catch {
+    console.log("[build][warn] data/names-en.json 不存在 → 英文页产品名保留中文（先跑 node scripts/translate-names.mjs）");
+  }
   // 英文深层页上下文：同分类推荐（与中文详情页同一套计算）+ 主分类归组 + 分类计数
   const relatedMap = new Map();
   const primaryCatMap = new Map();
@@ -2550,7 +2575,7 @@ ${sections}
   const enTargets = buildEnglishPages({
     siteUrl: SITE_URL,
     umamiScript: UMAMI_SCRIPT,
-    organizationLd: ORGANIZATION_LD,
+    organizationLd: ORGANIZATION_LD_EN,
     projects: sorted,
     slugMap,
     counts,
@@ -2564,7 +2589,8 @@ ${sections}
         .filter((g) => g.items.length)
     })),
     scenarios: SCENARIOS.map((cfg) => ({ slug: cfg.slug, groups: bucketScenario(cfg, sorted).groups })),
-    descEnMap
+    descEnMap,
+    nameEnMap
   });
   console.log(`[build] 已生成 ${enTargets.length} 个英文版页面（/en/*）`);
 
@@ -2572,11 +2598,12 @@ ${sections}
   const enDeepTargets = buildEnglishDeepPages({
     siteUrl: SITE_URL,
     umamiScript: UMAMI_SCRIPT,
-    organizationLd: ORGANIZATION_LD,
+    organizationLd: ORGANIZATION_LD_EN,
     projects: sorted,
     slugMap,
     categorySlugs: CATEGORY_SLUGS,
     descEnMap,
+    nameEnMap,
     relatedMap,
     primaryCatMap,
     allCats: enAllCats
@@ -2738,6 +2765,7 @@ ${sections}
     await copyFile(path.join(ROOT, "data", "projects.json"), path.join(dist, "data", "projects.json"));
     // 英文界面机翻描述（app.js 在英文 locale 下 fetch；缺文件 = 首页英文卡片显示中文原文，静默降级）
     await copyFile(path.join(ROOT, "data", "descriptions-en.json"), path.join(dist, "data", "descriptions-en.json")).catch(() => console.log("[build][warn] descriptions-en.json 缺失 → 未同步到 dist"));
+    await copyFile(path.join(ROOT, "data", "names-en.json"), path.join(dist, "data", "names-en.json")).catch(() => console.log("[build][warn] names-en.json 缺失 → 未同步到 dist"));
     // og.png = 中文分享图；og-en.png = 英文分享图（en-pages.mjs 里 1000+ 英文页的 og:image 硬引用它，缺失会让分享卡片整片 404）
     for (const og of ["og.png", "og-en.png"]) {
       await copyFile(path.join(ROOT, og), path.join(dist, og)).catch(() => console.log(`[build][warn] ${og} 缺失 → 未同步到 dist，引用它的页面分享卡片会 404`));

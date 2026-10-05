@@ -103,6 +103,8 @@ const esc = (v = "") =>
 
 const SITE_NAME = "AI 独立制造所";
 const BRAND_EN = "Indie Maker";
+// 对外英文品牌全名（页脚 / <title> / og:site_name 统一用它；中文品牌名只出现在语言切换的中文侧）
+const BRAND_EN_FULL = "AI Indie Maker";
 
 // 英文页统一的「描述为机翻」声明（2026-10-05 起英文深层页上线，替代旧「不翻数据」声明）
 const ORIGINAL_LANG_NOTE =
@@ -245,7 +247,7 @@ export const EN_REPORT = {
     { q: "What share of Chinese indie developer products are still maintained?", a: "Across the whole database, roughly {onlinePct}% of products are still live and {inactivePct}% are no longer maintained. The figure moves with age: products first listed in the current year are almost all still active, while older cohorts have naturally lost more of their number." },
     { q: "Why do older products stop being maintained?", a: "The same reasons anywhere: the developer moved on, the project merged into something else, the market didn't materialise, or it was a learning project that served its purpose. A non-maintained product isn't a failure — many were deliberately finished rather than abandoned." },
     { q: "Where does this data come from?", a: "The open-source repository chinese-independent-developer, which Chinese indie developers submit their work to. Our directory syncs it daily. We count only what appears there — we don't scrape stores or estimate market size." },
-    { q: "Can I reuse this report or its numbers?", a: "Yes, with attribution. Citing 'AI 独立制造所 (indiemaker.cn) — Chinese indie developer survival report' and linking back is enough. The underlying data is open source." },
+    { q: "Can I reuse this report or its numbers?", a: "Yes, with attribution. Citing 'AI Indie Maker (indiemaker.cn) — Chinese indie developer survival report' and linking back is enough. The underlying data is open source." },
     { q: "How current is this data?", a: "The dataset is re-synced daily, and the counts on this page are regenerated on every build, so they reflect the latest sync rather than a frozen snapshot." }
   ]
 };
@@ -255,7 +257,7 @@ export const EN_HOME = {
   desc: "A directory of AI tools, websites, apps and games created by Chinese indie developers. {total} products, updated daily from an open-source repository. No membership, no paid ranking, entirely free.",
   lead: "A directory of AI tools, websites, apps and games created by Chinese indie developers. We don't build, host or resell any product — we only index and navigate. Entirely free, with no paid ranking.",
   faq: [
-    { q: "What is this site?", a: "AI 独立制造所 (Indie Maker) is a directory of works by Chinese indie developers — AI tools, websites, apps and games. We sync from an open-source repository every day, organise everything by category and use case, and make it searchable. We don't build, host or resell any of the products listed; every listing links to the product's own site." },
+    { q: "What is this site?", a: "AI Indie Maker is a directory of works by Chinese indie developers — AI tools, websites, apps and games. We sync from an open-source repository every day, organise everything by category and use case, and make it searchable. We don't build, host or resell any of the products listed; every listing links to the product's own site." },
     { q: "Is it free? Is there a membership?", a: "Completely free. There is no membership, no subscription, no paid feature, and no paid ranking. Sorting is by date added or name, and nothing on the site can be bought." },
     { q: "Why is the site in Chinese if it's for a global audience?", a: "The products are made by Chinese-speaking developers and the upstream data source is Chinese. Product descriptions are machine-translated into English for browsing (the original Chinese stays untouched on each product's Chinese page), and product names are kept as the developers wrote them. The interface, categories and all editorial pages are available in English." },
     { q: "I saw a product description mention a membership or a paid plan — is that yours?", a: "No. Any pricing, membership or paid tier mentioned in a product's description belongs to that product itself. This directory is entirely free and has no membership of any kind." },
@@ -282,7 +284,7 @@ function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, z
   <link rel="alternate" hreflang="zh-CN" href="${zhUrl}">
   <link rel="alternate" hreflang="x-default" href="${zhUrl}">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="${SITE_NAME}">
+  <meta property="og:site_name" content="${BRAND_EN_FULL}">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(desc)}">
   <meta property="og:url" content="${canonical}">
@@ -303,11 +305,11 @@ function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, z
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="/en/" aria-label="${SITE_NAME} — English home">
+    <a class="brand" href="/en/" aria-label="${BRAND_EN_FULL} — English home">
       <span class="brand-seal">独立</span>
       <!-- strong 是移动端唯一显示的（.brand small 在窄屏隐藏），且 .brand strong 为 nowrap
            ——英文品牌名必须短，否则在 390px 下会文本溢出（实测踩过）。 -->
-      <span><strong>${BRAND_EN}</strong><small>${SITE_NAME} · Chinese indie developer directory</small></span>
+      <span><strong>${BRAND_EN}</strong><small>${BRAND_EN_FULL} · Chinese indie developer directory</small></span>
     </a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="/en/">Directory</a>
@@ -320,7 +322,7 @@ function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, z
 ${body}
   </main>
   <footer class="detail-footer">
-    <p>${SITE_NAME} · making sure good work gets seen</p>
+    <p>${BRAND_EN_FULL} · making sure good work gets seen</p>
     <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="${siteUrl}/about.html" hreflang="zh-CN" lang="zh-CN">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
@@ -334,7 +336,7 @@ function itemHTML(p, slugMap, groupNameEn, descEnMap) {
   const city = p.city ? ` · ${esc(p.city)}` : "";
   const d = (descEnMap && descEnMap[p.id]?.descEn) || p.description;
   return `<li>
-        <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(p.name)}</a>
+        <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(enNameOf(p))}</a>
         <span class="best-desc">${esc(d)}</span>
         <span class="best-meta">By ${esc(p.maker)}${city}${groupNameEn ? "" : ""}</span>
       </li>`;
@@ -361,7 +363,7 @@ const listLD = (name, desc, items, slugMap, siteUrl) =>
     name,
     description: desc,
     numberOfItems: items.length,
-    itemListElement: items.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.name, url: `${siteUrl}/en/p/${slugMap.get(p.id)}.html` }))
+    itemListElement: items.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: enNameOf(p), url: `${siteUrl}/en/p/${slugMap.get(p.id)}.html` }))
   });
 
 const faqLD = (faq) =>
@@ -376,6 +378,7 @@ const faqLD = (faq) =>
 // ═══════════════════════════════════════════════════════════
 
 export function buildEnglishPages(ctx) {
+  if (ctx.nameEnMap) nameEnMap = ctx.nameEnMap;
   const { siteUrl, umamiScript, organizationLd, projects, slugMap, counts, categoryCounts, categorySlugs, localFirstSignals, rankings, scenarios, descEnMap } = ctx;
   const pages = [];
   const total = counts.total;
@@ -420,7 +423,7 @@ export function buildEnglishPages(ctx) {
     "en/index.html",
     shell({
       ...base,
-      title: `${SITE_NAME} — ${EN_HOME.title}`,
+      title: `${BRAND_EN_FULL} — ${EN_HOME.title}`,
       desc: homeDesc,
       canonical: `${siteUrl}/en/`,
       zhUrl: `${siteUrl}/`,
@@ -485,7 +488,7 @@ export function buildEnglishPages(ctx) {
       `en/${r.slug}.html`,
       shell({
         ...base,
-        title: `${cfg.title} — ${n} picks | ${SITE_NAME}`,
+        title: `${cfg.title} — ${n} picks | ${BRAND_EN_FULL}`,
         desc,
         canonical: `${siteUrl}/en/${r.slug}.html`,
         zhUrl,
@@ -513,7 +516,7 @@ export function buildEnglishPages(ctx) {
   // ── 3. local-first ──
   {
     const hit = (p) => {
-      const s = `${p.name} ${p.description || ""}`;
+      const s = `${enNameOf(p)} ${p.name} ${p.description || ""}`;
       return localFirstSignals.some((k) => s.includes(k));
     };
     const picked = projects.filter(hit);
@@ -534,7 +537,7 @@ export function buildEnglishPages(ctx) {
       "en/local-first.html",
       shell({
         ...base,
-        title: `${cfg.title} — ${n} tools | ${SITE_NAME}`,
+        title: `${cfg.title} — ${n} tools | ${BRAND_EN_FULL}`,
         desc,
         canonical: `${siteUrl}/en/local-first.html`,
         zhUrl: `${siteUrl}/local-first.html`,
@@ -611,7 +614,7 @@ export function buildEnglishPages(ctx) {
       "en/indie-report.html",
       shell({
         ...base,
-        title: `${cfg.title.replace("{inactive}", inactivePct)} | ${SITE_NAME}`,
+        title: `${cfg.title.replace("{inactive}", inactivePct)} | ${BRAND_EN_FULL}`,
         desc,
         canonical: `${siteUrl}/en/indie-report.html`,
         zhUrl: `${siteUrl}/indie-report.html`,
@@ -672,7 +675,7 @@ export function buildEnglishPages(ctx) {
       `en/topic/${s.slug}.html`,
       shell({
         ...base,
-        title: `${cfg.title} — ${n} tools | ${SITE_NAME}`,
+        title: `${cfg.title} — ${n} tools | ${BRAND_EN_FULL}`,
         desc,
         canonical: `${siteUrl}/en/topic/${s.slug}.html`,
         zhUrl,
@@ -725,11 +728,18 @@ const RELATED_COUNT = 6;
 
 const MT_NOTE = "Description translated from the developer's original Chinese by machine translation.";
 
+// 产品名英文映射（data/names-en.json，scripts/translate-names.mjs 机翻）。
+// ⚠️ 只改英文展示名（卡片/标题/JSON-LD）；slug 与 URL 仍由原始 name 派生，一律不动。
+let nameEnMap = {};
+function enNameOf(p) {
+  return (nameEnMap[p.id] && nameEnMap[p.id].nameEn) || p.name;
+}
+
 function enItem(p, slugMap, descEnMap) {
   const city = p.city ? ` · ${esc(p.city)}` : "";
   const d = descEnMap[p.id]?.descEn || p.description;
   return `<li>
-        <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(p.name)}</a>
+        <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(enNameOf(p))}</a>
         <span class="best-desc">${esc(d)}</span>
         <span class="best-meta">By ${esc(p.maker)}${city}</span>
       </li>`;
@@ -741,7 +751,7 @@ function enStatusChip(p) {
 
 function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
   const { siteUrl, umamiScript, organizationLd, categorySlugs } = ctx;
-  const name = esc(p.name);
+  const name = esc(enNameOf(p));
   const descEn = descEnMap[p.id]?.descEn || "";
   const hasEn = Boolean(descEn);
   const shownDesc = hasEn ? descEn : p.description;
@@ -766,7 +776,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
       const xd = esc(descEnMap[x.id]?.descEn || x.description);
       return `<article class="project-card">
       <div class="card-top"><span class="edition-badge">${EN_EDITION[x.edition] || "Indie product"}</span><time class="card-date">${x.addedAt}</time></div>
-      <h2><a href="/en/p/${xs}.html">${esc(x.name)}</a></h2>
+      <h2><a href="/en/p/${xs}.html">${esc(enNameOf(x))}</a></h2>
       <p>${xd}</p>
       <div class="card-footer"><span class="maker">${esc(x.maker)}</span><a class="visit" href="/en/p/${xs}.html">Details ↗</a></div>
     </article>`;
@@ -776,7 +786,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
   const softwareApp = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: p.name,
+    name: enNameOf(p),
     description: shownDesc,
     url: p.url,
     applicationCategory: catEn,
@@ -792,7 +802,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Directory", item: `${siteUrl}/en/` },
       { "@type": "ListItem", position: 2, name: catEn, item: `${siteUrl}/en/c/${catSlug}.html` },
-      { "@type": "ListItem", position: 3, name: p.name }
+      { "@type": "ListItem", position: 3, name: enNameOf(p) }
     ]
   });
 
@@ -805,7 +815,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
     ? `<p class="u-note">${MT_NOTE} <a href="${siteUrl}/p/${slug}.html" hreflang="zh-CN" lang="zh-CN">中文原页 ↗</a></p>`
     : `<p class="u-note">This entry's English translation is not ready yet — the original Chinese description is shown. <a href="${siteUrl}/p/${slug}.html" hreflang="zh-CN" lang="zh-CN">中文原页 ↗</a></p>`;
 
-  const title = `${p.name} — ${catEn} by Chinese indie developers | Indie Maker`;
+  const title = `${enNameOf(p)} — ${catEn} by Chinese indie developers | Indie Maker`;
   const metaDesc = shownDesc.length > 300 ? shownDesc.slice(0, 297) + "..." : shownDesc;
 
   return shell({
@@ -872,7 +882,7 @@ function renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, a
     "@type": "ItemList",
     name: `${catEn} — Chinese indie developer products`,
     numberOfItems: productsInCat.length,
-    itemListElement: slice.map((p, i) => ({ "@type": "ListItem", position: (page - 1) * CATEGORY_PAGE_SIZE + i + 1, name: p.name, url: `${siteUrl}/en/p/${slugMap.get(p.id)}.html` }))
+    itemListElement: slice.map((p, i) => ({ "@type": "ListItem", position: (page - 1) * CATEGORY_PAGE_SIZE + i + 1, name: enNameOf(p), url: `${siteUrl}/en/p/${slugMap.get(p.id)}.html` }))
   });
 
   return shell({
@@ -904,6 +914,7 @@ function renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, a
  * 返回 targets 数组：["en/p/xxx.html", html] + ["en/c/xxx.html" | "en/c/xxx/N.html", html]
  */
 export function buildEnglishDeepPages(ctx) {
+  if (ctx.nameEnMap) nameEnMap = ctx.nameEnMap;
   const { siteUrl, umamiScript, organizationLd, projects, slugMap, categorySlugs, descEnMap, relatedMap, primaryCatMap, allCats } = ctx;
   const base = { siteUrl, umamiScript, organizationLd, categorySlugs };
   const pages = [];

@@ -4,6 +4,7 @@ const state = {
   data: null,
   slugMap: new Map(), // id -> 详情页 slug（与 scripts/build.mjs 逻辑一致）
   descEnMap: null,    // id -> { descEn }（英文界面的机翻描述，异步加载）
+  nameEnMap: null,    // id -> { nameEn }（英文界面的机翻产品名，异步加载；slug 不变只改展示名）
   query: "",
   edition: "all",
   statuses: new Set(["online", "developing"]),
@@ -94,11 +95,11 @@ function filteredProjects() {
     if (!state.statuses.has(project.status)) return false;
     if (state.category && !project.categories.includes(state.category)) return false;
     if (!words.length) return true;
-    const haystack = normalize([project.name, project.description, project.maker, project.city, ...project.categories].join(" "));
+    const haystack = normalize([project.name, displayName(project), project.description, project.maker, project.city, ...project.categories].join(" "));
     return words.every((word) => haystack.includes(word));
   });
   return list.sort((a, b) => {
-    if (state.sort === "name") return a.name.localeCompare(b.name, getCurrentLocale() === "zh" ? "zh-CN" : "en");
+    if (state.sort === "name") return displayName(a).localeCompare(displayName(b), getCurrentLocale() === "zh" ? "zh-CN" : "en");
     if (state.sort === "maker") return a.maker.localeCompare(b.maker, getCurrentLocale() === "zh" ? "zh-CN" : "en");
     return b.addedAt.localeCompare(a.addedAt);
   });
@@ -118,6 +119,11 @@ function detailHref(slug) {
   return `${getCurrentLocale() === "en" ? "/en/p" : "/p"}/${slug}.html`;
 }
 
+// 英文界面下的展示名（data/names-en.json 机翻；加载完成前回退原始名）
+function displayName(project) {
+  return (getCurrentLocale() === "en" && state.nameEnMap?.[project.id]?.nameEn) || project.name;
+}
+
 function cardTemplate(project, index) {
   const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
   const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(categoryName(tag))}</span>`).join("");
@@ -131,7 +137,7 @@ function cardTemplate(project, index) {
     : visit;
   return `<article class="project-card" style="animation-delay:${Math.min(index, 12) * 22}ms">
     <div class="card-top"><span class="edition-badge">${editionLabel}</span><time class="card-date">${project.addedAt}</time></div>
-    <h2><a href="${slug ? detailHref(slug) : escapeHTML(project.url)}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${escapeHTML(project.name)}</a></h2>
+    <h2><a href="${slug ? detailHref(slug) : escapeHTML(project.url)}"${slug ? "" : ' target="_blank" rel="noreferrer"'}>${escapeHTML(displayName(project))}</a></h2>
     <p>${escapeHTML(desc)}</p>
     <div class="card-tags">${tags}</div>
     <div class="card-footer"><span class="maker">${escapeHTML(project.maker)}${city}</span>${detail}</div>
@@ -179,7 +185,7 @@ function injectItemListJSONLD() {
   const items = state.data.projects.slice(0, 10).map((project, index) => ({
     "@type": "ListItem",
     "position": index + 1,
-    "name": project.name,
+    "name": displayName(project),
     "url": `${SITE_URL}/p/${state.slugMap.get(project.id)}.html`
   }));
   const ld = {
@@ -270,17 +276,22 @@ function toggleLocale() {
   window.umami?.track("lang-switch", { to: next });
 }
 
-// 英文界面下的产品描述映射（scripts/translate.mjs 生成的机翻，中文原文不动）。
+// 英文界面下的描述/产品名映射（scripts/translate*.mjs 生成的机翻，中文原文不动）。
 // 异步加载：加载完成前卡片显示中文原文，完成后重渲染一次。
 let enDescPromise = null;
 function ensureEnDescriptions() {
   if (getCurrentLocale() !== "en" || state.descEnMap || enDescPromise) return;
-  enDescPromise = fetch("/data/descriptions-en.json")
-    .then((r) => (r.ok ? r.json() : {}))
-    .then((map) => {
+  enDescPromise = Promise.all([
+    fetch("/data/descriptions-en.json"),
+    fetch("/data/names-en.json")
+  ])
+    .then(([rDesc, rNames]) => Promise.all([rDesc.ok ? rDesc.json() : {}, rNames.ok ? rNames.json() : {}]))
+    .then(([map, names]) => {
       // 与 project.description 同待遇：翻译文件翻自上游原始数据，可能含 Markdown 残骸，载入时清洗
       for (const k of Object.keys(map)) if (map[k]?.descEn) map[k].descEn = cleanText(map[k].descEn);
+      for (const k of Object.keys(names)) if (names[k]?.nameEn) names[k].nameEn = cleanText(names[k].nameEn);
       state.descEnMap = map;
+      state.nameEnMap = names;
       if (getCurrentLocale() === "en") render();
     })
     .catch(() => {}); // 加载失败就保持中文原文，静默降级
