@@ -277,7 +277,12 @@ function ensureEnDescriptions() {
   if (getCurrentLocale() !== "en" || state.descEnMap || enDescPromise) return;
   enDescPromise = fetch("/data/descriptions-en.json")
     .then((r) => (r.ok ? r.json() : {}))
-    .then((map) => { state.descEnMap = map; if (getCurrentLocale() === "en") render(); })
+    .then((map) => {
+      // 与 project.description 同待遇：翻译文件翻自上游原始数据，可能含 Markdown 残骸，载入时清洗
+      for (const k of Object.keys(map)) if (map[k]?.descEn) map[k].descEn = cleanText(map[k].descEn);
+      state.descEnMap = map;
+      if (getCurrentLocale() === "en") render();
+    })
     .catch(() => {}); // 加载失败就保持中文原文，静默降级
 }
 

@@ -321,7 +321,7 @@ ${body}
   </main>
   <footer class="detail-footer">
     <p>${SITE_NAME} · making sure good work gets seen</p>
-    <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="${siteUrl}/about.html" hreflang="zh-CN" lang="zh-CN">关于本站</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">隐私政策</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="${siteUrl}/about.html" hreflang="zh-CN" lang="zh-CN">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -913,15 +913,13 @@ export function buildEnglishDeepPages(ctx) {
     pages.push([`en/p/${slug}.html`, renderEnProductPage(p, slug, slugMap, relatedMap.get(p.id) || [], descEnMap, base)]);
   }
 
-  // 分类页（含「未分类」，与中文版同一套归组）
-  const byCat = new Map();
-  for (const p of projects) {
-    const c = primaryCatMap.get(p.id) || "未分类";
-    if (!byCat.has(c)) byCat.set(c, []);
-    byCat.get(c).push(p);
-  }
+  // 分类页（含「未分类」）——⚠️ 归组逻辑必须与中文版 categoryEntries 一致：
+  // 按 p.categories.includes(cat) 多归属（一个产品出现在它属于的每个分类），
+  // 不能用 primaryCatMap 单归属——否则分页数比中文版/sitemap 少一半，产生 sitemap 404。
   for (const [cat, catSlug] of Object.entries(categorySlugs)) {
-    const productsInCat = cat === "未分类" ? byCat.get("未分类") || [] : byCat.get(cat) || [];
+    const productsInCat = cat === "未分类"
+      ? projects.filter((p) => !p.categories || p.categories.length === 0)
+      : projects.filter((p) => (p.categories || []).includes(cat));
     const totalPages = Math.max(1, Math.ceil(productsInCat.length / CATEGORY_PAGE_SIZE));
     for (let page = 1; page <= totalPages; page++) {
       pages.push([

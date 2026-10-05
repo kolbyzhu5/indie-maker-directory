@@ -2524,7 +2524,12 @@ ${sections}
   let descEnMap = {};
   try {
     descEnMap = JSON.parse(await readFile(path.join(ROOT, "data", "descriptions-en.json"), "utf8"));
-    console.log(`[build] 英文描述映射：${Object.keys(descEnMap).length} 条`);
+    // ⚠️ 翻译文件是直接翻上游原始数据生成的，绕过了 main() 里的 cleanText 清洗
+    //（实测 64 条含 [text](url) 残骸会原样渲染到 en/p 页面）→ 载入时统一清洗
+    for (const k of Object.keys(descEnMap)) {
+      if (descEnMap[k]?.descEn) descEnMap[k].descEn = cleanText(descEnMap[k].descEn);
+    }
+    console.log(`[build] 英文描述映射：${Object.keys(descEnMap).length} 条（已清洗）`);
   } catch {
     console.log("[build][warn] data/descriptions-en.json 不存在 → 英文深层页将显示中文原文（先跑 node scripts/translate.mjs）");
   }
