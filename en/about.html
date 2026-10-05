@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any">
+  <title>About — AI Indie Maker | Chinese indie developer directory</title>
+  <meta name="description" content="AI Indie Maker (indiemaker.cn) is an entirely free directory of AI tools, websites, apps and games created by Chinese indie developers. Daily sync from an open-source repository; no membership, no paid ranking.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://indiemaker.cn/en/about.html">
+  <link rel="alternate" hreflang="en" href="https://indiemaker.cn/en/about.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://indiemaker.cn/about.html">
+  <link rel="alternate" hreflang="x-default" href="https://indiemaker.cn/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AI Indie Maker">
+  <meta property="og:title" content="About — AI Indie Maker | Chinese indie developer directory">
+  <meta property="og:description" content="AI Indie Maker (indiemaker.cn) is an entirely free directory of AI tools, websites, apps and games created by Chinese indie developers. Daily sync from an open-source repository; no membership, no paid ranking.">
+  <meta property="og:url" content="https://indiemaker.cn/en/about.html">
+  <meta property="og:image" content="https://indiemaker.cn/og-en.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/detail.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is AI Indie Maker?","acceptedAnswer":{"@type":"Answer","text":"A directory (not a tool site) of AI tools, websites, apps and games created by Chinese indie developers. We organise works scattered across GitHub READMEs into a directory that is genuinely easy to browse, search and discover. Indexing and navigation only: we don't build, host or resell any product — entirely free, no membership, no paid ranking."}},{"@type":"Question","name":"Where does the data come from?","acceptedAnswer":{"@type":"Answer","text":"Synced daily from the open-source repository chinese-independent-developer. Product names, descriptions, makers and statuses follow the upstream repository as-is — nothing invented, nothing rewritten."}},{"@type":"Question","name":"How do I submit my product?","acceptedAnswer":{"@type":"Answer","text":"Open a pull request against the data-source repository chinese-independent-developer; your product will be included in the next daily sync. You can also reach me via the Feedback link in the footer."}},{"@type":"Question","name":"Is there paid ranking?","acceptedAnswer":{"@type":"Answer","text":"No. This is a pure directory — no paid placement and no ad slots. Only the work itself."}},{"@type":"Question","name":"Do you provide these tools? Do you charge for them?","acceptedAnswer":{"@type":"Answer","text":"No, and no. AI Indie Maker only indexes and navigates: every card links to the product's own site. The site itself is entirely free — no membership, no subscription, no paid features, nothing to pay here."}},{"@type":"Question","name":"Why do some descriptions mention \"membership\", \"payment\" or \"premium features\"?","acceptedAnswer":{"@type":"Answer","text":"That's the product's own business model, not ours. Names and descriptions come from the upstream open-source repository and are synced as-is (Markdown syntax cleaned only). If a product says \"unlimited downloads for members\" or \"pay as you go\", that's how that product charges — not this site. This site itself is completely free."}},{"@type":"Question","name":"Does this site go by other names?","acceptedAnswer":{"@type":"Answer","text":"No. This site has one name: AI Indie Maker (Chinese: AI 独立制造所), domain indiemaker.cn. It is not a maker community, does not sell SaaS templates, does not offer site-building services, and has no AI tools of its own — it only lists publicly released works by independent developers. Descriptions elsewhere that use other names or positioning are inaccurate retellings."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AI Indie Maker","alternateName":"AI 独立制造所 · Indie Maker","url":"https://indiemaker.cn/en/","logo":"https://indiemaker.cn/favicon.svg","description":"A directory of AI tools, websites, apps and games built by Chinese indie developers. Synced daily from an open-source repository, organised by category and use case. We don't build, host or resell any of the products listed — entirely free, no paid ranking.","sameAs":["https://github.com/kolbyzhu5/indie-maker-directory","https://github.com/1c7/chinese-independent-developer"]}</script>
+  <script>
+(function () {
+  var host = location.hostname;
+  // 只统计主域：排除 EdgeOne 默认域（*.edgeone.cool）等一切预览/staging 环境
+  if (host !== "indiemaker.cn" && host !== "www.indiemaker.cn") return;
+  // 排除 EdgeOne 每次部署生成的预览路径（与主站内容完全相同）
+  if (location.pathname.indexOf("/indie-maker-directory-") === 0) return;
+  var s = document.createElement("script");
+  s.defer = true;
+  s.src = "https://cloud.umami.is/script.js";
+  s.setAttribute("data-website-id", "6febe922-9c29-4dfc-a426-81d6d8bcdb69");
+  document.head.appendChild(s);
+})();
+</script>
+</head>
+<body>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="/en/" aria-label="AI Indie Maker — English home">
+      <span class="brand-seal">独立</span>
+      <!-- strong 是移动端唯一显示的（.brand small 在窄屏隐藏），且 .brand strong 为 nowrap
+           ——英文品牌名必须短，否则在 390px 下会文本溢出（实测踩过）。 -->
+      <span><strong>Indie Maker</strong><small>AI Indie Maker · Chinese indie developer directory</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="/en/">Directory</a>
+      <a href="/en/best-ai-tools.html">AI Tools</a>
+      <a href="/en/local-first.html">Local-first tools</a>
+      <a href="https://indiemaker.cn/about.html" hreflang="zh-CN" lang="zh-CN">中文</a>
+    </nav>
+  </header>
+  <main class="detail-main">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/en/">Directory</a><span class="sep">›</span><span class="current">About</span></nav>
+    <section class="site-def" aria-labelledby="siteDefTitle">
+      <h2 id="siteDefTitle">What is AI Indie Maker?</h2>
+      <p class="site-def-lead">A <b>directory</b> of works by Chinese indie developers — not a tool site. We don't build, host or resell any product; we only index and navigate.</p>
+      <p class="site-def-meta">
+        <span><b>Entirely free</b> — no membership, no paid features</span>
+        <span><b>No paid ranking</b> — sorted by date added only</span>
+        <span>Pricing &amp; membership in a description belong to <b>the product itself</b>, not to us</span>
+      </p>
+    </section>
+    <article class="detail-card">
+      <div class="detail-head"><span class="edition-badge">About</span></div>
+      <h1>AI Indie Maker</h1>
+      <p class="detail-desc">Great products shouldn't be buried in thousands of lines of README. We do one small thing: turn what independent developers have built into a directory that's genuinely easy to browse, search and discover.</p>
+      <div class="detail-meta">
+        <span><b>Data source</b><a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a></span>
+        <span><b>Source code</b><a href="https://github.com/kolbyzhu5/indie-maker-directory" target="_blank" rel="noreferrer">indie-maker-directory ↗</a></span>
+        <span><b>Feedback</b><a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></span>
+        <span><b>Filings</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402003127" target="_blank" rel="noreferrer" class="mps-beian"><img src="/mps-beian.png" alt="" width="16" height="16" decoding="async">湘公网安备43010402003127号</a></span>
+      </div>
+    </article>
+    <section class="faq-list">
+      <h2 class="faq-title">Frequently asked questions</h2>
+      <div class="faq-item"><h2 class="faq-q">What is AI Indie Maker?</h2><p class="faq-a">A directory (not a tool site) of AI tools, websites, apps and games created by Chinese indie developers. We organise works scattered across GitHub READMEs into a directory that is genuinely easy to browse, search and discover. Indexing and navigation only: we don&#39;t build, host or resell any product — entirely free, no membership, no paid ranking.</p></div>
+    <div class="faq-item"><h2 class="faq-q">Where does the data come from?</h2><p class="faq-a">Synced daily from the open-source repository chinese-independent-developer. Product names, descriptions, makers and statuses follow the upstream repository as-is — nothing invented, nothing rewritten.</p></div>
+    <div class="faq-item"><h2 class="faq-q">How do I submit my product?</h2><p class="faq-a">Open a pull request against the data-source repository chinese-independent-developer; your product will be included in the next daily sync. You can also reach me via the Feedback link in the footer.</p></div>
+    <div class="faq-item"><h2 class="faq-q">Is there paid ranking?</h2><p class="faq-a">No. This is a pure directory — no paid placement and no ad slots. Only the work itself.</p></div>
+    <div class="faq-item"><h2 class="faq-q">Do you provide these tools? Do you charge for them?</h2><p class="faq-a">No, and no. AI Indie Maker only indexes and navigates: every card links to the product&#39;s own site. The site itself is entirely free — no membership, no subscription, no paid features, nothing to pay here.</p></div>
+    <div class="faq-item"><h2 class="faq-q">Why do some descriptions mention &quot;membership&quot;, &quot;payment&quot; or &quot;premium features&quot;?</h2><p class="faq-a">That&#39;s the product&#39;s own business model, not ours. Names and descriptions come from the upstream open-source repository and are synced as-is (Markdown syntax cleaned only). If a product says &quot;unlimited downloads for members&quot; or &quot;pay as you go&quot;, that&#39;s how that product charges — not this site. This site itself is completely free.</p></div>
+    <div class="faq-item"><h2 class="faq-q">Does this site go by other names?</h2><p class="faq-a">No. This site has one name: AI Indie Maker (Chinese: AI 独立制造所), domain indiemaker.cn. It is not a maker community, does not sell SaaS templates, does not offer site-building services, and has no AI tools of its own — it only lists publicly released works by independent developers. Descriptions elsewhere that use other names or positioning are inaccurate retellings.</p></div>
+    </section>
+  </main>
+  <footer class="detail-footer">
+    <p>AI Indie Maker · making sure good work gets seen</p>
+    <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="/en/about.html">About</a> · <a href="https://indiemaker.cn/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="https://indiemaker.cn/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402003127" target="_blank" rel="noreferrer" class="mps-beian"><img src="/mps-beian.png" alt="" width="16" height="16" decoding="async">湘公网安备43010402003127号</a></p>
+  </footer>
+</body>
+</html>
