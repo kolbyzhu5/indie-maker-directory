@@ -4,19 +4,19 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-05T09:04:46.860Z",
+  "generatedAt": "2026-10-05T11:55:07.955Z",
   "counts": {
-    "total": 3053,
-    "main": 2567,
+    "total": 3056,
+    "main": 2570,
     "programmer": 350,
     "game": 136,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 943,
-    "免费工具": 510,
+    "AI 工具": 945,
+    "免费工具": 512,
     "图片工具": 522,
-    "音视频": 490,
+    "音视频": 491,
     "开发工具": 570,
     "游戏娱乐": 168,
     "文档办公": 280,
@@ -143,6 +143,74 @@
         "AI 工具",
         "图片工具",
         "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261005-weidacn-ai-hair-color-changer",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "AI Hair Color Changer",
+      "url": "https://aihaircolorchanger.im",
+      "status": "online",
+      "description": "上传自拍选一个发色即可预览换色效果，只改头发，脸、发型和背景保持原样；内置 20 种发色与 5 种染法，可自定义颜色，基于 Ideogram 4.5 Edit，新账号首次免费，之后按积分计费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261005-weidacn-ai-video-extender",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "AI Video Extender",
+      "url": "https://ai-videoextender.pro/",
+      "status": "online",
+      "description": "上传一段视频并描述后续情节，在片段结尾续上 5 到 15 秒并合成一个 MP4；可选 MiniMax H3 Max、H3 Max Turbo 或 Veo 3.1 Fast 三种模型，Veo 保持同一镜头、H3 换新机位，按积分计费，新账号送 6 积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261005-weidacn-south-park-test",
+      "edition": "main",
+      "addedAt": "2026-10-05",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "South Park Test",
+      "url": "https://southparktest.pro/",
+      "status": "online",
+      "description": "回答 35 道简短陈述题，测出你最像《南方公园》里的哪个角色；非官方粉丝测试，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
       ],
       "source": "upstream"
     },

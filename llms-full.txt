@@ -1,10 +1,10 @@
-# AI 独立制造所 · 全部产品清单（3053）
+# AI 独立制造所 · 全部产品清单（3056）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-10-05（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2567）
+## 大众产品（2570）
 
 - **[问迹 wenjiAI](https://wenjiai.cn)** — 开发者 Ethan Lian（上海） · AI 工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/wenjiai.html)
   AI 原生创投情报站，按问题找赛道，给出赛道分析、赛道榜单和商业速览，并追踪热点事件与论文，帮创业者和投资人找准方向
@@ -20,6 +20,15 @@
 
 - **[Raindance AI](https://raindance-ai.pro/)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/raindance-ai.html)
   上传两人各一张照片生成日落码头与海滩的多机位潮流短视频，整段镜头的两位表演者换成你们，保留原始运镜与配音，输出 28 秒 MP4；按积分计费
+
+- **[AI Hair Color Changer](https://aihaircolorchanger.im)** — 开发者 weidacn · AI 工具 / 免费工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/ai-hair-color-changer.html)
+  上传自拍选一个发色即可预览换色效果，只改头发，脸、发型和背景保持原样；内置 20 种发色与 5 种染法，可自定义颜色，基于 Ideogram 4.5 Edit，新账号首次免费，之后按积分计费
+
+- **[AI Video Extender](https://ai-videoextender.pro/)** — 开发者 weidacn · AI 工具 / 音视频 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/ai-video-extender.html)
+  上传一段视频并描述后续情节，在片段结尾续上 5 到 15 秒并合成一个 MP4；可选 MiniMax H3 Max、H3 Max Turbo 或 Veo 3.1 Fast 三种模型，Veo 保持同一镜头、H3 换新机位，按积分计费，新账号送 6 积分
+
+- **[South Park Test](https://southparktest.pro/)** — 开发者 weidacn · 免费工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/south-park-test.html)
+  回答 35 道简短陈述题，测出你最像《南方公园》里的哪个角色；非官方粉丝测试，无需注册
 
 - **[Decisions API](https://decisionapi.net/)** — 开发者 James Parker · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-04 · [详情页](https://indiemaker.cn/p/decisions-api.html)
   决策模型对比与调用平台，在同一个在线 Playground 里比较 Jev、Laya、Kev、Solar、Span 等多种模型，用「状态 + 问题」的结构一次提出最多 8 个类型化问题，返回带概率的选择、评分与是非判断；Playground 不限量免费，接入后端用统一 REST API 与积分计费
