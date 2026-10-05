@@ -12214,5 +12214,17 @@
  "main-20240815-ethan-sunray-perchance-ai": {
   "descEn": "18 AI image generators and 75 Vincentian painting styles available online without registration. Also supports online use of Flux AI, SDXL, SDXL Lightning and SDXL Flash models",
   "at": "2026-10-05"
+ },
+ "main-20261005-weidacn-ai-hair-color-changer": {
+  "descEn": "Upload a selfie and select a hair color to preview the color change effect. Only the hair is changed, and the face, hairstyle and background remain the same. There are 20 built-in hair colors and 5 dyeing methods, and the color can be customized. Based on Ideogram 4.5 Edit, new accounts are free for the first time, and will be charged based on points thereafter.",
+  "at": "2026-10-05"
+ },
+ "main-20261005-weidacn-ai-video-extender": {
+  "descEn": "Upload a video and describe the subsequent plot, add 5 to 15 seconds to the end of the clip and synthesize it into an MP4; you can choose from three models: MiniMax H3 Max, H3 Max Turbo or Veo 3.1 Fast. Veo keeps the same lens and H3 changes to a new camera position. The fee is based on points. New accounts will get 6 points.",
+  "at": "2026-10-05"
+ },
+ "main-20261005-weidacn-south-park-test": {
+  "descEn": "Answer 35 short statement questions to find out which \"South Park\" character you most resemble; unofficial fan test, no registration required",
+  "at": "2026-10-05"
  }
 }
