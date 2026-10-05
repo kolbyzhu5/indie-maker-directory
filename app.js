@@ -223,6 +223,10 @@ function applyLocale() {
   document.querySelectorAll("[data-i18n-cat]").forEach((el) => {
     el.textContent = categoryName(el.getAttribute("data-i18n-cat"));
   });
+  // 页脚「关于本站」：英文界面下指向英文版 About（/en/about.html），中文界面回 /about.html
+  document.querySelectorAll('a[data-i18n="aboutLink"]').forEach((a) => {
+    a.setAttribute("href", getCurrentLocale() === "en" ? "/en/about.html" : "/about.html");
+  });
   // 动态重建：需要根据 locale 重绘
   const isZh = getCurrentLocale() === "zh";
   document.documentElement.lang = isZh ? "zh-CN" : "en";

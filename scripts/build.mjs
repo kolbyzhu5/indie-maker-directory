@@ -96,6 +96,10 @@ const INNER_I18N_SCRIPT = `<script type="module">
   import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
   const saved = getSavedLocale();
   setLocale(saved || browserLocale());
+  // 页面级英文跳转：body[data-en-redirect="/en/..."] 存在且当前为英文时整页跳转
+  //（目前仅 about 页使用 → /en/about.html；英文版是英文原创内容，比 JS 逐段替换更完整）
+  const enRedirect = document.body ? document.body.dataset.enRedirect : null;
+  if (getCurrentLocale() === "en" && enRedirect) { location.replace(enRedirect); }
   const applyInnerI18n = () => {
     const zh = getCurrentLocale() === "zh";
     document.documentElement.lang = zh ? "zh-CN" : "en";
@@ -768,6 +772,7 @@ function renderAboutPage() {
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="${SITE_URL}/about.html">
   <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/about.html">
+  <link rel="alternate" hreflang="en" href="${SITE_URL}/en/about.html">
   <link rel="alternate" hreflang="x-default" href="${SITE_URL}/about.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI 独立制造所">
@@ -789,7 +794,7 @@ function renderAboutPage() {
   ${UMAMI_SCRIPT}
   ${INNER_I18N_SCRIPT}
 </head>
-<body>
+<body data-en-redirect="/en/about.html">
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="/" aria-label="AI 独立制造所首页">
@@ -2331,6 +2336,7 @@ async function main() {
   // （同名 key 由 RANKINGS / SCENARIOS 驱动），故此处可直接复用。
   // 只有一个英文首页时收录它，其余 10 页按 slug 逐条列出。
   sitemapUrls.push(`  <url><loc>${SITE_URL}/en/</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>`);
+  sitemapUrls.push(`  <url><loc>${SITE_URL}/en/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/en/local-first.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/en/indie-report.html</loc><lastmod>${lastmod}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>`);
   for (const cfg of RANKINGS) {

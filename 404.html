@@ -30,6 +30,10 @@
   import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
   const saved = getSavedLocale();
   setLocale(saved || browserLocale());
+  // 页面级英文跳转：body[data-en-redirect="/en/..."] 存在且当前为英文时整页跳转
+  //（目前仅 about 页使用 → /en/about.html；英文版是英文原创内容，比 JS 逐段替换更完整）
+  const enRedirect = document.body ? document.body.dataset.enRedirect : null;
+  if (getCurrentLocale() === "en" && enRedirect) { location.replace(enRedirect); }
   const applyInnerI18n = () => {
     const zh = getCurrentLocale() === "zh";
     document.documentElement.lang = zh ? "zh-CN" : "en";

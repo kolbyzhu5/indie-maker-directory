@@ -9,6 +9,7 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://indiemaker.cn/about.html">
   <link rel="alternate" hreflang="zh-CN" href="https://indiemaker.cn/about.html">
+  <link rel="alternate" hreflang="en" href="https://indiemaker.cn/en/about.html">
   <link rel="alternate" hreflang="x-default" href="https://indiemaker.cn/about.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI 独立制造所">
@@ -45,6 +46,10 @@
   import { t, setLocale, getCurrentLocale, getSavedLocale, browserLocale, detectLocaleByIP, categoryName } from "/i18n.js";
   const saved = getSavedLocale();
   setLocale(saved || browserLocale());
+  // 页面级英文跳转：body[data-en-redirect="/en/..."] 存在且当前为英文时整页跳转
+  //（目前仅 about 页使用 → /en/about.html；英文版是英文原创内容，比 JS 逐段替换更完整）
+  const enRedirect = document.body ? document.body.dataset.enRedirect : null;
+  if (getCurrentLocale() === "en" && enRedirect) { location.replace(enRedirect); }
   const applyInnerI18n = () => {
     const zh = getCurrentLocale() === "zh";
     document.documentElement.lang = zh ? "zh-CN" : "en";
@@ -67,7 +72,7 @@
   }
 </script>
 </head>
-<body>
+<body data-en-redirect="/en/about.html">
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="/" aria-label="AI 独立制造所首页">

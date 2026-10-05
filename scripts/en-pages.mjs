@@ -323,7 +323,7 @@ ${body}
   </main>
   <footer class="detail-footer">
     <p>${BRAND_EN_FULL} · making sure good work gets seen</p>
-    <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="${siteUrl}/about.html" hreflang="zh-CN" lang="zh-CN">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="/en/about.html">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
   </footer>
 </body>
 </html>
@@ -696,6 +696,7 @@ export function buildEnglishPages(ctx) {
     ]);
   }
 
+  pages.push(["en/about.html", renderEnAboutPage(base)]);
   return pages;
 }
 
@@ -703,11 +704,90 @@ export function buildEnglishPages(ctx) {
 export function englishUrls(siteUrl) {
   return [
     `${siteUrl}/en/`,
+    `${siteUrl}/en/about.html`,
     ...Object.keys(EN_RANKINGS).map((s) => `${siteUrl}/en/${s}.html`),
     `${siteUrl}/en/local-first.html`,
     `${siteUrl}/en/indie-report.html`,
     ...Object.keys(EN_SCENARIOS).map((s) => `${siteUrl}/en/topic/${s}.html`)
   ];
+}
+
+// 英文 About 页（/en/about.html）：英文原创内容 + ICP/公安备案（法定标识原样保留）。
+// 与中文 /about.html 是 hreflang 对：中文页对英文访客会自动跳转到这里。
+function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
+  const title = `About — ${BRAND_EN_FULL} | Chinese indie developer directory`;
+  const desc = `${BRAND_EN_FULL} (indiemaker.cn) is an entirely free directory of AI tools, websites, apps and games created by Chinese indie developers. Daily sync from an open-source repository; no membership, no paid ranking.`;
+  const faq = [
+    {
+      q: `What is ${BRAND_EN_FULL}?`,
+      a: "A directory (not a tool site) of AI tools, websites, apps and games created by Chinese indie developers. We organise works scattered across GitHub READMEs into a directory that is genuinely easy to browse, search and discover. Indexing and navigation only: we don't build, host or resell any product — entirely free, no membership, no paid ranking."
+    },
+    {
+      q: "Where does the data come from?",
+      a: "Synced daily from the open-source repository chinese-independent-developer. Product names, descriptions, makers and statuses follow the upstream repository as-is — nothing invented, nothing rewritten."
+    },
+    {
+      q: "How do I submit my product?",
+      a: "Open a pull request against the data-source repository chinese-independent-developer; your product will be included in the next daily sync. You can also reach me via the Feedback link in the footer."
+    },
+    {
+      q: "Is there paid ranking?",
+      a: "No. This is a pure directory — no paid placement and no ad slots. Only the work itself."
+    },
+    {
+      q: "Do you provide these tools? Do you charge for them?",
+      a: `No, and no. ${BRAND_EN_FULL} only indexes and navigates: every card links to the product's own site. The site itself is entirely free — no membership, no subscription, no paid features, nothing to pay here.`
+    },
+    {
+      q: 'Why do some descriptions mention "membership", "payment" or "premium features"?',
+      a: "That's the product's own business model, not ours. Names and descriptions come from the upstream open-source repository and are synced as-is (Markdown syntax cleaned only). If a product says \"unlimited downloads for members\" or \"pay as you go\", that's how that product charges — not this site. This site itself is completely free."
+    },
+    {
+      q: "Does this site go by other names?",
+      a: `No. This site has one name: ${BRAND_EN_FULL} (Chinese: AI 独立制造所), domain indiemaker.cn. It is not a maker community, does not sell SaaS templates, does not offer site-building services, and has no AI tools of its own — it only lists publicly released works by independent developers. Descriptions elsewhere that use other names or positioning are inaccurate retellings.`
+    }
+  ];
+  const faqLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } }))
+  });
+  const body = `    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/en/">Directory</a><span class="sep">›</span><span class="current">About</span></nav>
+    <section class="site-def" aria-labelledby="siteDefTitle">
+      <h2 id="siteDefTitle">What is ${BRAND_EN_FULL}?</h2>
+      <p class="site-def-lead">A <b>directory</b> of works by Chinese indie developers — not a tool site. We don't build, host or resell any product; we only index and navigate.</p>
+      <p class="site-def-meta">
+        <span><b>Entirely free</b> — no membership, no paid features</span>
+        <span><b>No paid ranking</b> — sorted by date added only</span>
+        <span>Pricing &amp; membership in a description belong to <b>the product itself</b>, not to us</span>
+      </p>
+    </section>
+    <article class="detail-card">
+      <div class="detail-head"><span class="edition-badge">About</span></div>
+      <h1>${BRAND_EN_FULL}</h1>
+      <p class="detail-desc">Great products shouldn't be buried in thousands of lines of README. We do one small thing: turn what independent developers have built into a directory that's genuinely easy to browse, search and discover.</p>
+      <div class="detail-meta">
+        <span><b>Data source</b><a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a></span>
+        <span><b>Source code</b><a href="https://github.com/kolbyzhu5/indie-maker-directory" target="_blank" rel="noreferrer">indie-maker-directory ↗</a></span>
+        <span><b>Feedback</b><a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></span>
+        <span><b>Filings</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402003127" target="_blank" rel="noreferrer" class="mps-beian"><img src="/mps-beian.png" alt="" width="16" height="16" decoding="async">湘公网安备43010402003127号</a></span>
+      </div>
+    </article>
+    <section class="faq-list">
+      <h2 class="faq-title">Frequently asked questions</h2>
+      ${faq.map(({ q, a }) => `<div class="faq-item"><h2 class="faq-q">${esc(q)}</h2><p class="faq-a">${esc(a)}</p></div>`).join("\n    ")}
+    </section>`;
+  return shell({
+    siteUrl,
+    umamiScript,
+    organizationLd,
+    title,
+    desc,
+    canonical: `${siteUrl}/en/about.html`,
+    zhUrl: `${siteUrl}/about.html`,
+    jsonLd: [faqLD],
+    body
+  });
 }
 
 // ═══════════════════════════════════════════════════════════
