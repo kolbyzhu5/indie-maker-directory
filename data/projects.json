@@ -4,7 +4,7 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-05T15:38:37.450Z",
+  "generatedAt": "2026-10-06T02:19:18.268Z",
   "counts": {
     "total": 3062,
     "main": 2575,
@@ -3140,7 +3140,7 @@
       "id": "main-20260919-weidacn-jev-ai",
       "edition": "main",
       "addedAt": "2026-09-19",
-      "maker": "Jev AI",
+      "maker": "weidacn",
       "city": "",
       "makerLinks": [
         {
@@ -5937,7 +5937,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261005-0",
+      "id": "custom-20261006-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
