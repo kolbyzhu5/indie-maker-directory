@@ -5,6 +5,7 @@ const state = {
   slugMap: new Map(), // id -> 详情页 slug（与 scripts/build.mjs 逻辑一致）
   descEnMap: null,    // id -> { descEn }（英文界面的机翻描述，异步加载）
   nameEnMap: null,    // id -> { nameEn }（英文界面的机翻产品名，异步加载；slug 不变只改展示名）
+  cityEnMap: null,    // 中文城市/地区名 -> 英文（data/cities-en.json，与 scripts/en-pages.mjs 的 CITY_EN 同源）
   query: "",
   edition: "all",
   statuses: new Set(["online", "developing"]),
@@ -124,8 +125,25 @@ function displayName(project) {
   return (getCurrentLocale() === "en" && state.nameEnMap?.[project.id]?.nameEn) || project.name;
 }
 
+// 英文界面下的城市展示（data/cities-en.json，与 en-pages.mjs 的 CITY_EN 同源）。
+// 已知中国城市→拼音、省份→英文、海外→英文；URL/人名/单字符等脏值 → 空串（隐藏）。非英文界面原样返回。
+const _isGarbageCity = (v) => /^(https?:|mailto:|www\.|github\.com|twitter\.com|xiaoyuzhoufm|okjk\.co)/i.test(String(v).trim()) || /^[@.#]/.test(v) || (v.length <= 1 && !(state.cityEnMap && state.cityEnMap[v]));
+function displayCity(raw) {
+  if (!raw) return "";
+  const v = String(raw).trim();
+  if (!v) return "";
+  if (getCurrentLocale() !== "en") return v;
+  // 映射未加载时先原样返回（加载完成后 render 会重绘），避免误过滤
+  if (!state.cityEnMap) return v;
+  if (_isGarbageCity(v)) return "";
+  if (state.cityEnMap[v]) return state.cityEnMap[v];
+  // 已是纯英文/数字组合 → 规范化首字母大写
+  if (!/[\u4e00-\u9fff]/.test(v) && /^[A-Za-z0-9 .,·&\-']+$/.test(v)) return v.replace(/\b[a-z]/g, (c) => c.toUpperCase());
+  return ""; // 含中文且不在映射表 → 隐藏
+}
+
 function cardTemplate(project, index) {
-  const city = project.city ? ` · ${escapeHTML(project.city)}` : "";
+  const city = displayCity(project.city) ? ` · ${escapeHTML(displayCity(project.city))}` : "";
   const tags = project.categories.slice(0, 3).map((tag) => `<span>${escapeHTML(categoryName(tag))}</span>`).join("");
   const editionLabel = t(editionKeyMap[project.edition] || "editionMain");
   const slug = state.slugMap.get(project.id);
@@ -287,15 +305,17 @@ function ensureEnDescriptions() {
   if (getCurrentLocale() !== "en" || state.descEnMap || enDescPromise) return;
   enDescPromise = Promise.all([
     fetch("/data/descriptions-en.json"),
-    fetch("/data/names-en.json")
+    fetch("/data/names-en.json"),
+    fetch("/data/cities-en.json")
   ])
-    .then(([rDesc, rNames]) => Promise.all([rDesc.ok ? rDesc.json() : {}, rNames.ok ? rNames.json() : {}]))
-    .then(([map, names]) => {
+    .then(([rDesc, rNames, rCity]) => Promise.all([rDesc.ok ? rDesc.json() : {}, rNames.ok ? rNames.json() : {}, rCity.ok ? rCity.json() : {}]))
+    .then(([map, names, cities]) => {
       // 与 project.description 同待遇：翻译文件翻自上游原始数据，可能含 Markdown 残骸，载入时清洗
       for (const k of Object.keys(map)) if (map[k]?.descEn) map[k].descEn = cleanText(map[k].descEn);
       for (const k of Object.keys(names)) if (names[k]?.nameEn) names[k].nameEn = cleanText(names[k].nameEn);
       state.descEnMap = map;
       state.nameEnMap = names;
+      state.cityEnMap = cities;
       if (getCurrentLocale() === "en") render();
     })
     .catch(() => {}); // 加载失败就保持中文原文，静默降级

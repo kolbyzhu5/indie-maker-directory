@@ -306,7 +306,7 @@ function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, z
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="/en/" aria-label="${BRAND_EN_FULL} — English home">
-      <span class="brand-seal">独立</span>
+      <span class="brand-seal">AI</span>
       <!-- strong 是移动端唯一显示的（.brand small 在窄屏隐藏），且 .brand strong 为 nowrap
            ——英文品牌名必须短，否则在 390px 下会文本溢出（实测踩过）。 -->
       <span><strong>${BRAND_EN}</strong><small>${BRAND_EN_FULL} · Chinese indie developer directory</small></span>
@@ -333,7 +333,7 @@ ${body}
 // 产品列表项（复用中文页完全相同的 CSS 类，保证视觉一致）
 // 链接指向英文详情页（en/p/）；描述优先用机翻英文（descEnMap 由 build.mjs 传入）
 function itemHTML(p, slugMap, groupNameEn, descEnMap) {
-  const city = p.city ? ` · ${esc(p.city)}` : "";
+  const city = enCityOf(p.city) ? ` · ${esc(enCityOf(p.city))}` : "";
   const d = (descEnMap && descEnMap[p.id]?.descEn) || p.description;
   return `<li>
         <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(enNameOf(p))}</a>
@@ -346,7 +346,7 @@ function groupsHTML(groups, slugMap, descEnMap) {
   return groups
     .map(
       ({ name, items }) => `<section class="best-group">
-      <h2>${esc(EN_GROUP[name] || name)} <small>${items.length}</small></h2>
+      <h2>${esc(EN_GROUP[name] || EN_CATEGORY[name] || name)} <small>${items.length}</small></h2>
       <ol class="best-list">${items.map((p) => itemHTML(p, slugMap, "", descEnMap)).join("")}</ol>
     </section>`
     );
@@ -815,8 +815,43 @@ function enNameOf(p) {
   return (nameEnMap[p.id] && nameEnMap[p.id].nameEn) || p.name;
 }
 
+// 城市/地区英文化映射（data 里 city 字段极脏：142 种，含 URL、人名、单字符、大小写混乱的英文、省市混合）。
+// 规则：已知中国城市→拼音、省份→英文、海外地名→英文、已英文的规范化；URL/人名/单字符/无意义值 → 返回 ""（隐藏，不显示脏数据）。
+const CITY_EN = {
+  // 直辖市
+  "北京":"Beijing","beijing":"Beijing","BeiJing":"Beijing","上海":"Shanghai","shanghai":"Shanghai","ShangHai":"Shanghai","上海/无锡":"Shanghai & Wuxi","天津":"Tianjin","重庆":"Chongqing","重庆市":"Chongqing",
+  // 一线/新一线
+  "深圳":"Shenzhen","Shenzhen":"Shenzhen","ShenZhen":"Shenzhen","sz":"Shenzhen","广州":"Guangzhou","guangzhou":"Guangzhou","广州市":"Guangzhou","杭州":"Hangzhou","Hangzhou":"Hangzhou","HangZhou":"Hangzhou","成都":"Chengdu","成都/无锡":"Chengdu & Wuxi","武汉":"Wuhan","Wuhan":"Wuhan","wh":"Wuhan","WH":"Wuhan","南京":"Nanjing","苏州":"Suzhou","西安":"Xi'an","长沙":"Changsha","郑州":"Zhengzhou","健哥/郑州":"Zhengzhou",
+  // 省会/地级市
+  "厦门":"Xiamen","福州":"Fuzhou","FuZhou":"Fuzhou","合肥":"Hefei","青岛":"Qingdao","济南":"Jinan","济南市":"Jinan","佛山":"Foshan","佛山市":"Foshan","顺德":"Shunde","东莞":"Dongguan","珠海":"Zhuhai","中山":"Zhongshan","泉州":"Quanzhou","泉州市":"Quanzhou","温州":"Wenzhou","宁波":"Ningbo","台州":"Taizhou","徐州":"Xuzhou","扬州":"Yangzhou","南通":"Nantong","无锡":"Wuxi","常州":"Changzhou","嘉兴":"Jiaxing","金华":"Jinhua","浙江金华":"Jinhua","绍兴":"Shaoxing","湖州":"Huzhou","HuZhou University&上海":"Huzhou & Shanghai","石家庄":"Shijiazhuang","保定":"Baoding","邯郸":"Handan","唐山":"Tangshan","太原":"Taiyuan","大同":"Datong","沈阳":"Shenyang","大连":"Dalian","哈尔滨":"Harbin","长春":"Changchun","吉林":"Jilin","鞍山":"Anshan","南昌":"Nanchang","赣州":"Ganzhou","九江":"Jiujiang","武汉":"Wuhan","襄阳":"Xiangyang","宜昌":"Yichang","荆州":"Jingzhou","衡阳":"Hengyang","岳阳":"Yueyang","常德":"Changde","郴州":"Chenzhou","永州":"Yongzhou","怀化":"Huaihua","娄底":"Loudi","邵阳":"Shaoyang","益阳":"Yiyang","湘潭":"Xiangtan","株洲":"Zhuzhou","绵阳":"Mianyang","德阳":"Deyang","宜宾":"Yibin","南充":"Nanchong","泸州":"Luzhou","乐山":"Leshan","自贡":"Zigong","内江":"Neijiang","广安":"Guang'an","遂宁":"Suining","广元":"Guangyuan","巴中":"Bazhong","达州":"Dazhou","雅安":"Ya'an","眉山":"Meishan","资阳":"Ziyang","攀枝花":"Panzhihua","西昌":"Xichang","昆明":"Kunming","大理":"Dali","丽江":"Lijiang","曲靖":"Qujing","玉溪":"Yuxi","保山":"Baoshan","昭通":"Zhaotong","临沧":"Lincang","云南德宏":"Dehong, Yunnan","贵阳":"Guiyang","遵义":"Zunyi","六盘水":"Liupanshui","安顺":"Anshun","毕节":"Bijie","铜仁":"Tongren","西安":"Xi'an","咸阳":"Xianyang","宝鸡":"Baoji","渭南":"Weinan","延安":"Yan'an","榆林":"Yulin","汉中":"Hanzhong","安康":"Ankang","商洛":"Shangluo","铜川":"Tongchuan","兰州":"Lanzhou","天水":"Tianshui","酒泉":"Jiuquan","张掖":"Zhangye","武威":"Wuwei","庆阳":"Qingyang","平凉":"Pingliang","定西":"Dingxi","陇南":"Longnan","西宁":"Xining","海东":"Haidong","银川":"Yinchuan","石嘴山":"Shizuishan","吴忠":"Wuzhong","固原":"Guyuan","中卫":"Zhongwei","乌鲁木齐":"Urumqi","克拉玛依":"Karamay","吐鲁番":"Turpan","哈密":"Hami","阿克苏":"Aksu","喀什":"Kashgar","和田":"Hotan","伊宁":"Yining","塔城":"Tacheng","阿勒泰":"Altay","库尔勒":"Korla","昌吉":"Changji","博乐":"Bole","阿拉山口":"Alashankou","霍尔果斯":"Khorgos","海口":"Haikou","三亚":"Sanya","三沙":"Sansha","儋州":"Danzhou","南宁":"Nanning","柳州":"Liuzhou","桂林":"Guilin","梧州":"Wuzhou","北海":"Beihai","防城港":"Fangchenggang","钦州":"Qinzhou","贵港":"Guigang","玉林":"Yulin","百色":"Baise","贺州":"Hezhou","河池":"Hechi","来宾":"Laibin","崇左":"Chongzuo","呼和浩特":"Hohhot","包头":"Baotou","乌海":"Wuhai","赤峰":"Chifeng","通辽":"Tongliao","鄂尔多斯":"Ordos","呼伦贝尔":"Hulunbuir","巴彦淖尔":"Bayannur","乌兰察布":"Ulanqab","兴安":"Hinggan","锡林郭勒":"Xilingol","阿拉善":"Alxa","拉萨":"Lhasa","日喀则":"Shigatse","昌都":"Qamdo","林芝":"Nyingchi","山南":"Lhoka","那曲":"Nagqu","阿里":"Ngari","香港":"Hong Kong, China","澳门":"Macao, China","台湾":"Taiwan, China","台北":"Taipei","高雄":"Kaohsiung","台中":"Taichung","台南":"Tainan","新北":"New Taipei","桃园":"Taoyuan","基隆":"Keelung","嘉义":"Chiayi","彰化":"Changhua","南投":"Nantou","云林":"Yunlin","苗栗":"Miaoli","新竹":"Hsinchu","宜兰":"Yilan","花莲":"Hualien","台东":"Taitung","澎湖":"Penghu","金门":"Kinmen","马祖":"Matsu","连江":"Lienchiang",
+  // 省份（开发者常只写省）
+  "广东":"Guangdong","浙江":"Zhejiang","福建":"Fujian","山东":"Shandong","江苏":"Jiangsu","河南":"Henan","河北":"Hebei","湖南":"Hunan","湖北":"Hubei","四川":"Sichuan","安徽":"Anhui","江西":"Jiangxi","辽宁":"Liaoning","山西":"Shanxi","陕西":"Shaanxi","甘肃":"Gansu","青海":"Qinghai","云南":"Yunnan","贵州":"Guizhou","海南":"Hainan","吉林":"Jilin","黑龙江":"Heilongjiang","台湾省":"Taiwan, China","内蒙":"Inner Mongolia","内蒙古":"Inner Mongolia","广西":"Guangxi","宁夏":"Ningxia","新疆":"Xinjiang","西藏":"Tibet",
+  // 海外/港澳台
+  "美国":"United States","纽约":"New York","西雅图":"Seattle","Seattle&上海":"Seattle & Shanghai","柏林":"Berlin","Berlin":"Berlin","新加坡":"Singapore","Singapore":"Singapore","温哥华":"Vancouver","温尼伯":"Winnipeg","Winnipeg":"Winnipeg","墨尔本":"Melbourne","悉尼":"Sydney","澳洲布里斯班":"Brisbane, Australia","澳大利亚":"Australia","德国":"Germany","法國·南特":"Nantes, France","法国":"France","日本":"Japan","东京":"Tokyo","大阪":"Osaka","首尔":"Seoul","韩国":"South Korea","英国":"United Kingdom","伦敦":"London","曼彻斯特":"Manchester","爱丁堡":"Edinburgh","加拿大":"Canada","多伦多":"Toronto","蒙特利尔":"Montreal","渥太华":"Ottawa","马来西亚":"Malaysia","吉隆坡":"Kuala Lumpur","泰国":"Thailand","普吉岛":"Phuket","曼谷":"Bangkok","越南":"Vietnam","胡志明市":"Ho Chi Minh City","河内":"Hanoi","印尼":"Indonesia","雅加达":"Jakarta","巴厘岛":"Bali","菲律宾":"Philippines","马尼拉":"Manila","印度":"India","班加罗尔":"Bengaluru","孟买":"Mumbai","新德里":"New Delhi","迪拜":"Dubai","阿联酋":"United Arab Emirates","沙特":"Saudi Arabia","利雅得":"Riyadh","南非":"South Africa","开普敦":"Cape Town","约翰内斯堡":"Johannesburg","埃及":"Egypt","开罗":"Cairo","肯尼亚":"Kenya","内罗毕":"Nairobi","尼日利亚":"Nigeria","拉各斯":"Lagos","巴西":"Brazil","圣保罗":"São Paulo","里约":"Rio de Janeiro","墨西哥":"Mexico","墨西哥城":"Mexico City","阿根廷":"Argentina","布宜诺斯艾利斯":"Buenos Aires","智利":"Chile","圣地亚哥":"Santiago","哥伦比亚":"Colombia","波哥大":"Bogotá","秘鲁":"Peru","利马":"Lima","新西兰":"New Zealand","奥克兰":"Auckland","惠灵顿":"Wellington","俄罗斯":"Russia","莫斯科":"Moscow","圣彼得堡":"Saint Petersburg","乌克兰":"Ukraine","基辅":"Kyiv","波兰":"Poland","华沙":"Warsaw","捷克":"Czechia","布拉格":"Prague","匈牙利":"Hungary","布达佩斯":"Budapest","罗马尼亚":"Romania","布加勒斯特":"Bucharest","保加利亚":"Bulgaria","索非亚":"Sofia","塞尔维亚":"Serbia","贝尔格莱德":"Belgrade","希腊":"Greece","雅典":"Athens","土耳其":"Turkey","伊斯坦布尔":"Istanbul","安卡拉":"Ankara","以色列":"Israel","特拉维夫":"Tel Aviv","耶路撒冷":"Jerusalem","伊朗":"Iran","德黑兰":"Tehran","伊拉克":"Iraq","巴格达":"Baghdad","巴基斯坦":"Pakistan","卡拉奇":"Karachi","伊斯兰堡":"Islamabad","哈萨克斯坦":"Kazakhstan","阿斯塔纳":"Astana","乌兹别克斯坦":"Uzbekistan","塔什干":"Tashkent","蒙古":"Mongolia","乌兰巴托":"Ulaanbaatar","尼泊尔":"Nepal","加德满都":"Kathmandu","斯里兰卡":"Sri Lanka","科伦坡":"Colombo","孟加拉国":"Bangladesh","达卡":"Dhaka","缅甸":"Myanmar","仰光":"Yangon","柬埔寨":"Cambodia","金边":"Phnom Penh","老挝":"Laos","万象":"Vientiane","文莱":"Brunei","马尔代夫":"Maldives","马累":"Malé","不丹":"Bhutan","廷布":"Thimphu","东帝汶":"Timor-Leste","葡萄牙":"Portugal","里斯本":"Lisbon","波尔图":"Porto","西班牙":"Spain","马德里":"Madrid","巴塞罗那":"Barcelona","瓦伦西亚":"Valencia","意大利":"Italy","罗马":"Rome","米兰":"Milan","那不勒斯":"Naples","都灵":"Turin","佛罗伦萨":"Florence","威尼斯":"Venice","博洛尼亚":"Bologna","荷兰":"Netherlands","阿姆斯特丹":"Amsterdam","鹿特丹":"Rotterdam","海牙":"The Hague","比利时":"Belgium","布鲁塞尔":"Brussels","安特卫普":"Antwerp","卢森堡":"Luxembourg","瑞士":"Switzerland","苏黎世":"Zurich","日内瓦":"Geneva","伯尔尼":"Bern","巴塞尔":"Basel","奥地利":"Austria","维也纳":"Vienna","萨尔茨堡":"Salzburg","因斯布鲁克":"Innsbruck","瑞典":"Sweden","斯德哥尔摩":"Stockholm","哥德堡":"Gothenburg","马尔默":"Malmö","挪威":"Norway","奥斯陆":"Oslo","卑尔根":"Bergen","丹麦":"Denmark","哥本哈根":"Copenhagen","奥胡斯":"Aarhus","芬兰":"Finland","赫尔辛基":"Helsinki","埃斯波":"Espoo","坦佩雷":"Tampere","冰岛":"Iceland","雷克雅未克":"Reykjavík","爱尔兰":"Ireland","都柏林":"Dublin","科克":"Cork","苏格兰":"Scotland","格拉斯哥":"Glasgow","爱丁堡":"Edinburgh","英格兰":"England","利物浦":"Liverpool","伯明翰":"Birmingham","利兹":"Leeds","谢菲尔德":"Sheffield","布里斯托":"Bristol","巴斯":"Bath","牛津":"Oxford","剑桥":"Cambridge","曼彻斯特":"Manchester","纽卡斯尔":"Newcastle","卡迪夫":"Cardiff","威尔士":"Wales","北爱尔兰":"Northern Ireland","贝尔法斯特":"Belfast","马耳他":"Malta","瓦莱塔":"Valletta","塞浦路斯":"Cyprus","尼科西亚":"Nicosia","克里特":"Crete","伊拉克利翁":"Heraklion","罗德岛":"Rhodes","帕特雷":"Patras","塞萨洛尼基":"Thessaloniki","科孚":"Corfu","扎金索斯":"Zakynthos","米科诺斯":"Mykonos","圣托里尼":"Santorini","雅典":"Athens",
+  // 特殊/无意义值 → 隐藏（不显示脏数据）
+  "海外":"Overseas","旅居中":"Nomadic","湾区":"Bay Area","github":"GitHub",
+};
+// 人名/单字符等误填到城市字段的垃圾值 → 隐藏（返回空串，不显示破折号）
+const _HIDDEN_CITY_VALUES = new Set(["潘少","茂茂","健哥","s","S"]);
+// 纯 URL / 邮箱 / 单字符 / 明显非地名的脏值一律隐藏
+const _isGarbageCity = (v) => /^(https?:|mailto:|www\.|github\.com|twitter\.com|xiaoyuzhoufm|okjk\.co)/i.test(String(v).trim()) || /^[@.#]/.test(v) || (v.length <= 1 && !CITY_EN[v]);
+function enCityOf(raw) {
+  if (!raw) return "";
+  const v = String(raw).trim();
+  if (!v) return "";
+  if (_isGarbageCity(v)) return "";
+  if (_HIDDEN_CITY_VALUES.has(v)) return "";
+  if (CITY_EN[v]) return CITY_EN[v];
+  // 已是纯英文/数字/空格/逗号/连字符的组合，规范化首字母大写后返回
+  if (!/[\u4e00-\u9fff]/.test(v) && /^[A-Za-z0-9 .,·&\-']+$/.test(v)) {
+    return v.replace(/\b[a-z]/g, (c) => c.toUpperCase());
+  }
+  // 含中文但不在映射表 → 隐藏（避免英文页露出中文城市名）
+  return "";
+}
+
 function enItem(p, slugMap, descEnMap) {
-  const city = p.city ? ` · ${esc(p.city)}` : "";
+  const city = enCityOf(p.city) ? ` · ${esc(enCityOf(p.city))}` : "";
   const d = descEnMap[p.id]?.descEn || p.description;
   return `<li>
         <a class="best-name" href="/en/p/${slugMap.get(p.id)}.html">${esc(enNameOf(p))}</a>
@@ -867,7 +902,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     name: enNameOf(p),
-    description: shownDesc,
+    description: hasEn ? descEn : `${enNameOf(p)} — a tool by ${p.maker}${enCityOf(p.city) ? `, based in ${enCityOf(p.city)}` : ""}. English translation pending.`,
     url: p.url,
     applicationCategory: catEn,
     operatingSystem: "Web",
@@ -896,7 +931,9 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
     : `<p class="u-note">This entry's English translation is not ready yet — the original Chinese description is shown. <a href="${siteUrl}/p/${slug}.html" hreflang="zh-CN" lang="zh-CN">中文原页 ↗</a></p>`;
 
   const title = `${enNameOf(p)} — ${catEn} by Chinese indie developers | Indie Maker`;
-  const metaDesc = shownDesc.length > 300 ? shownDesc.slice(0, 297) + "..." : shownDesc;
+  const metaDesc = hasEn
+    ? (descEn.length > 300 ? descEn.slice(0, 297) + "..." : descEn)
+    : `${enNameOf(p)} — a ${catEn.toLowerCase()} tool by ${p.maker}. English translation pending.`;
 
   return shell({
     siteUrl,
@@ -914,7 +951,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
       <p class="detail-desc">${shownDescE}</p>
       ${mtNote}
       <div class="detail-meta">
-        <span><b>Developer</b>${esc(p.maker)}${p.city ? ` · ${esc(p.city)}` : ""}</span>
+        <span><b>Developer</b>${esc(p.maker)}${enCityOf(p.city) ? ` · ${esc(enCityOf(p.city))}` : ""}</span>
         <span><b>Status</b>${enStatusChip(p)}</span>
         <span><b>Added</b><time>${p.addedAt}</time></span>
         <span><b>Tags</b>${tagLinks}</span>

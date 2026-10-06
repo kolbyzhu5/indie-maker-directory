@@ -12226,5 +12226,33 @@
  "main-20261005-weidacn-south-park-test": {
   "descEn": "Answer 35 short statement questions to find out which \"South Park\" character you most resemble; unofficial fan test, no registration required",
   "at": "2026-10-05"
+ },
+ "main-20261005-xianyu110-hallowpaws": {
+  "descEn": "Upload a photo of a cat or dog, choose one of the 16 Halloween looks, and it will take about 30 seconds to generate a high-definition cross-dressing photo that retains the breed, coat color, and facial features; free watermark preview without registration. After registration, you can save the high-definition picture. The high-definition package starts at $1.99 for one-time payment without subscription.",
+  "at": "2026-10-05"
+ },
+ "main-20261005-weidacn-attractiveness-test": {
+  "descEn": "Upload a photo, use 478 facial feature points to calculate a symmetry and proportion score from 0 to 100 and explain each item; run in the browser, the photo does not leave the device",
+  "at": "2026-10-05"
+ },
+ "main-20261005-weidacn-flow-ai-video": {
+  "descEn": "Enter text or upload a single image to generate a dynamic video with synchronized sound effects for a few seconds. The picture maintains the style of the original image; models such as Gemini Omni 1.1 Flash are optional, and there is a free quota",
+  "at": "2026-10-05"
+ },
+ "main-20261005-weidacn-unblur-video": {
+  "descEn": "Upload a blurry video, repair the picture caused by hand shake, over-zooming and low-light shooting, and output a clear MP4 with original audio; free preview of the first frame restoration, no need to install software",
+  "at": "2026-10-05"
+ },
+ "main-20261005-weidacn-ai-zombie": {
+  "descEn": "Upload two photos of yourself or your pet to generate a short AI zombie trend video. After the character turns into a zombie, it cuts to the happiest memory shot; the scene and camera movements are fixed, and the fee is based on points.",
+  "at": "2026-10-05"
+ },
+ "programmer-20261005-coffeecoproject-layermap": {
+  "descEn": "Call the relationship map for the code used by the programming agent. One call will chase the caller of a function all the way to the HTTP interface and answer \"Which interfaces will be affected by changing this?\"; use each language's own compiler to parse TypeScript/JavaScript, Go, Python, and Java, and run it completely locally without uploading the code; provide MCP services and plug-ins, which have been included in the official MCP Registry, Apache-2.0 open source",
+  "at": "2026-10-05"
+ },
+ "custom-20261006-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-06"
  }
 }

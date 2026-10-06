@@ -2772,6 +2772,7 @@ ${sections}
     // 英文界面机翻描述（app.js 在英文 locale 下 fetch；缺文件 = 首页英文卡片显示中文原文，静默降级）
     await copyFile(path.join(ROOT, "data", "descriptions-en.json"), path.join(dist, "data", "descriptions-en.json")).catch(() => console.log("[build][warn] descriptions-en.json 缺失 → 未同步到 dist"));
     await copyFile(path.join(ROOT, "data", "names-en.json"), path.join(dist, "data", "names-en.json")).catch(() => console.log("[build][warn] names-en.json 缺失 → 未同步到 dist"));
+    await copyFile(path.join(ROOT, "data", "cities-en.json"), path.join(dist, "data", "cities-en.json")).catch(() => console.log("[build][warn] cities-en.json 缺失 → 未同步到 dist"));
     // og.png = 中文分享图；og-en.png = 英文分享图（en-pages.mjs 里 1000+ 英文页的 og:image 硬引用它，缺失会让分享卡片整片 404）
     for (const og of ["og.png", "og-en.png"]) {
       await copyFile(path.join(ROOT, og), path.join(dist, og)).catch(() => console.log(`[build][warn] ${og} 缺失 → 未同步到 dist，引用它的页面分享卡片会 404`));
