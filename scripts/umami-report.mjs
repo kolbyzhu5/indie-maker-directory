@@ -17,6 +17,10 @@
  *   node scripts/umami-report.mjs                      # 自动选通道，最近 24 小时
  *   node scripts/umami-report.mjs --hours 168           # 最近 7 天
  *   node scripts/umami-report.mjs --from x.json --json  # 离线分析，只输出 JSON
+ *   node scripts/umami-report.mjs --until 2026-10-01T10:00  # 补断档：窗口结束时间钉在指定时刻
+ *
+ * ⚠️ `--hours N` 的窗口「结束时间」是当前时刻 → 直接跑会覆盖当日日报。
+ *    补历史断档必须用 `--until`（文件名按窗口结束日推导），或加 `--json` 只吐 JSON 不写文件。
  */
 
 import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
@@ -39,6 +43,23 @@ const valOf = (f, d) => {
 const JSON_ONLY = hasFlag("--json");
 const FROM = valOf("--from", null);
 const HOURS = Number(valOf("--hours", 24));
+// --until <ISO>：把窗口「结束时间」钉在指定时刻，用于补发生断档的历史日报。
+// 默认 null = 用当前时间（不传时行为与旧版完全一致）。报告文件名按 window.endAt 推导，
+// 所以 `--until 2026-10-01T10:00` 会生成 docs/umami/2026-10-01.md，且环比自动对齐上一份日报。
+const UNTIL_RAW = valOf("--until", null);
+const WINDOW_END = (() => {
+  if (!UNTIL_RAW) return null;
+  const t = new Date(UNTIL_RAW).getTime();
+  if (!Number.isFinite(t)) {
+    console.error(`⚠️  --until 无法解析（${UNTIL_RAW}），已回退为当前时间`);
+    return null;
+  }
+  if (t > Date.now()) {
+    console.error("⚠️  --until 晚于当前时间，已回退为当前时间");
+    return null;
+  }
+  return t;
+})();
 const METRIC_TYPES = ["path", "entry", "exit", "referrer", "domain", "channel", "country", "browser", "device", "os", "title"];
 // 事件/会话通道：用来回答「outbound 比率」与「是否有单会话刷量」，两个问题此前只能靠人工翻接口。
 // 注意 /events 有服务端分页上限（实测 pageSize=2000 会被截断），截断时报告里会标注。
@@ -67,7 +88,7 @@ async function payloadFromCookie() {
   }
   if (!cookie) throw new Error("NO_COOKIE");
 
-  const endAt = Date.now();
+  const endAt = WINDOW_END || Date.now();
   const startAt = endAt - HOURS * 3600 * 1000;
   const qs = `startAt=${startAt}&endAt=${endAt}`;
   const base = `https://cloud.umami.is/api/websites/${WEBSITE_ID}`;
@@ -138,7 +159,7 @@ async function payloadFromApi() {
   }
   if (!auth) throw new Error("BAD_KEY");
 
-  const endAt = Date.now();
+  const endAt = WINDOW_END || Date.now();
   const startAt = endAt - HOURS * 3600 * 1000;
   const range = { startAt, endAt, compare: "prev", timezone: TZ };
 

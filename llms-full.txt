@@ -1,10 +1,25 @@
-# AI 独立制造所 · 全部产品清单（3062）
+# AI 独立制造所 · 全部产品清单（3068）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-06（北京时间）
+> 更新时间：2026-10-07（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2575）
+## 大众产品（2580）
+
+- **[桜幻想 Sakura Fantasy](https://sakura.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 / 生活服务 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/sakura-fantasy.html)
+  浏览器里的 3D 日本河谷，坐小船从晨雾浅滩一路漂到千本鸟居，季节、时辰和天气都能切换，配水声和筝，无需下载和注册
+
+- **[cetxt](https://cetxt.com/)** — 开发者 YehyaKin · AI 工具 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/cetxt.html)
+  llms.txt 中文生成与体检工具，填表单 30 秒生成规范文件，在线体检打分，附 1000 中文大站实测数据
+
+- **[Image to Anime](https://imagetoanime.co/)** — 开发者 Ayden · AI 工具 / 图片工具 / 浏览器扩展 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/image-to-anime.html)
+  浏览器内的 AI 照片转动漫风格工具，照片和插画都能上传，选定风格后保留人物关键特征，生成完可直接下载
+
+- **[高性价比人生指南](https://renshengzhinan.co/)** — 开发者 clarkloveProduct · 生活服务 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/project-53f31a.html)
+  把建议当成一笔笔账来算的实用手册，34 章 650 条覆盖健康急救、金钱法律、工作住房与家庭阶段，每条标注成本、收益和证据等级，支持全文搜索
+
+- **[ioe](https://ioea.xianist.com/)** — 开发者 zhtyyx（上海） · 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/ioe.html)
+  面向零售门店的网页进销存，统一管理商品、库存、收银和会员；托管版提供 14 天试用，之后付费，MIT 开源版可自行部署
 
 - **[问迹 wenjiAI](https://wenjiai.cn)** — 开发者 Ethan Lian（上海） · AI 工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/wenjiai.html)
   AI 原生创投情报站，按问题找赛道，给出赛道分析、赛道榜单和商业速览，并追踪热点事件与论文，帮创业者和投资人找准方向
@@ -240,8 +255,8 @@
 - **[Jev.StockAI.Trade](https://jev.stockai.trade/)** — 开发者 yvonuk · AI 工具 / 效率工具 / 免费工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/jev-stockai-trade.html)
   基于 Jev 模型的 AI 选股工具，专注中国 A 股，免费无广告
 
-- **[精选副业](https://jingxuan-fuye.pages.dev/)** — 开发者 xiaoyaohou19910610-bit · 未分类 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/project-20fe73.html)
-  中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口
+- **[精选副业](https://jingxuan-fuye.pages.dev/)** — 开发者 xiaoyaohou19910610-bit · 免费工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/project-20fe73.html)
+  免费中文副业案例库，可按平台、项目和技能筛选，查看成绩口径、适配条件与原帖入口；附无需登录的副业方向测评
 
 - **[Jev Guide](https://jev.guide/)** — 开发者 Jun（上海） · 音视频 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/jev-guide.html)
   发现 Jev 的真实应用。从官方发布到真实演示，在一个地方探索 TypeSafe Jev。按行业寻找用例，查看 X 原帖截图，并直接在站内播放原视频
@@ -7733,6 +7748,9 @@
 
 ## 程序员版（351）
 
+- **[mu](https://github.com/qybaihe/mu)** — 开发者 qybaihe · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/mu.html)
+  编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 npm i -g mu-agent 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0）
+
 - **[LayerMap](https://github.com/coffeecoproject/layermap)** — 开发者 coffeecoproject · AI 工具 / 开发工具 / 浏览器扩展 / 生活服务 / 免费工具 · 已上线 · 收录 2026-10-05 · [详情页](https://indiemaker.cn/p/layermap.html)
   给编程 Agent 用的代码调用关系地图，一次调用把某个函数的调用方一路追到 HTTP 接口，回答「改这里会影响哪些接口」；用各语言自己的编译器解析 TypeScript/JavaScript、Go、Python、Java，完全本地运行不上传代码；提供 MCP 服务与插件，已收录在官方 MCP Registry，Apache-2.0 开源
 
@@ -8363,9 +8381,6 @@
 - **[SSUI](https://github.com/sunxfancy/SSUI)** — 开发者 西风逍遥游（湾区） · AI 工具 / 图片工具 / 效率工具 · 已上线 · 收录 2025-04-25 · [详情页](https://indiemaker.cn/p/ssui.html)
   基于安全 Python 脚本的 stable diffusion AI 绘图工具，可以根据脚本中函数的类型自动生成 UI 界面，能方便快捷地复现其他用户的工作流
 
-- **[ioe 库存管理系统](https://github.com/zhtyyx/ioe)** — 开发者 zhtyyx（上海） · 效率工具 / 开发工具 · 已上线 · 收录 2025-04-22 · [详情页](https://indiemaker.cn/p/ioe.html)
-  基于 Django 开发的综合性库存管理系统，专为零售商店、小型仓库和商品销售场所设计。系统提供了完整的商品管理、库存跟踪、销售记录、会员管理和数据分析功能，帮助企业高效管理库存和销售流程
-
 - **[beaverhabits](https://github.com/daya0576/beaverhabits)** — 开发者 daya0576（上海） · 效率工具 / 开发工具 · 已上线 · 收录 2025-04-15 · [详情页](https://indiemaker.cn/p/beaverhabits.html)
   无需设定目标的习惯追踪工具。基于 Python 开发的自托管习惯追踪 Web 应用，帮助用户轻松记录和管理日常习惯。它提供适配移动端的直观界面，专注于习惯的持续养成，而非单纯追求目标达成，让养成好习惯变得更自然
 
@@ -8786,7 +8801,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（136）
+## 独立游戏（137）
+
+- **[霓虹天頂 Neon Zenith](https://zenith.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/neon-zenith.html)
+  浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册
 
 - **[Steal an Egg Wiki](https://stealanegg.gamehubs.wiki/)** — 开发者 sam ice（深圳） · 未分类 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/steal-an-egg-wiki.html)
   Steal an Egg 非官方资料与攻略站，整理蛋、宠物、变异、速度、地形和通关进度，方便玩家随时查询

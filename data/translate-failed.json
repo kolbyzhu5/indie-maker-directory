@@ -1,7 +1,42 @@
 [
  {
-  "id": "main-20240815-ethan-sunray-perchance-ai",
-  "name": "Perchance AI",
-  "err": "疑似未翻译（输出仍含中文）"
+  "id": "main-20261006-billpwchan-桜幻想-sakura-fantasy",
+  "name": "桜幻想 Sakura Fantasy",
+  "err": "Cannot read properties of undefined (reading 'replace')"
+ },
+ {
+  "id": "main-20261006-yehyakin-cetxt",
+  "name": "cetxt",
+  "err": "Cannot read properties of undefined (reading 'replace')"
+ },
+ {
+  "id": "main-20261006-ayden-123-image-to-anime",
+  "name": "Image to Anime",
+  "err": "Cannot read properties of undefined (reading 'replace')"
+ },
+ {
+  "id": "main-20261006-clarkloveproduct-高性价比人生指南",
+  "name": "高性价比人生指南",
+  "err": "Cannot read properties of undefined (reading 'replace')"
+ },
+ {
+  "id": "main-20261006-zhtyyx-ioe",
+  "name": "ioe",
+  "err": "Cannot read properties of undefined (reading 'replace')"
+ },
+ {
+  "id": "programmer-20261006-qybaihe-mu",
+  "name": "mu",
+  "err": "Cannot read properties of undefined (reading 'replace')"
+ },
+ {
+  "id": "game-20261006-billpwchan-霓虹天頂-neon-zenith",
+  "name": "霓虹天頂 Neon Zenith",
+  "err": "Cannot read properties of undefined (reading 'replace')"
+ },
+ {
+  "id": "custom-20261007-0",
+  "name": "Toonflow",
+  "err": "Cannot read properties of undefined (reading 'replace')"
  }
 ]

@@ -102,6 +102,7 @@ const GLOSSARY = [
   [/\bMIT is open source\b/gi, "MIT-licensed open source"],
 ];
 function fixTerms(s) {
+  s = String(s == null ? "" : s);
   for (const [re, to] of GLOSSARY) s = s.replace(re, to);
   return s;
 }

@@ -4,29 +4,215 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-06T02:19:18.268Z",
+  "generatedAt": "2026-10-07T01:32:16.062Z",
   "counts": {
-    "total": 3062,
-    "main": 2575,
+    "total": 3068,
+    "main": 2580,
     "programmer": 351,
-    "game": 136,
+    "game": 137,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 948,
-    "免费工具": 516,
-    "图片工具": 526,
+    "浏览器扩展": 298,
+    "生活服务": 96,
+    "AI 工具": 951,
+    "图片工具": 527,
+    "效率工具": 442,
+    "开发工具": 572,
+    "免费工具": 519,
     "音视频": 494,
-    "浏览器扩展": 295,
-    "开发工具": 571,
-    "生活服务": 94,
     "游戏娱乐": 168,
     "文档办公": 280,
-    "效率工具": 442,
     "教育学习": 167,
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261006-billpwchan-桜幻想-sakura-fantasy",
+      "edition": "main",
+      "addedAt": "2026-10-06",
+      "maker": "Bill Chan",
+      "city": "香港",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "name": "桜幻想 Sakura Fantasy",
+      "url": "https://sakura.billpwchan.art",
+      "status": "online",
+      "description": "浏览器里的 3D 日本河谷，坐小船从晨雾浅滩一路漂到千本鸟居，季节、时辰和天气都能切换，配水声和筝，无需下载和注册",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/billpwchan/sakura-fantasy"
+        }
+      ],
+      "categories": [
+        "浏览器扩展",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261006-yehyakin-cetxt",
+      "edition": "main",
+      "addedAt": "2026-10-06",
+      "maker": "YehyaKin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yehyakin"
+        }
+      ],
+      "name": "cetxt",
+      "url": "https://cetxt.com/",
+      "status": "online",
+      "description": "llms.txt 中文生成与体检工具，填表单 30 秒生成规范文件，在线体检打分，附 1000 中文大站实测数据",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/yehyakin/llms-txt-cn"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261006-ayden-123-image-to-anime",
+      "edition": "main",
+      "addedAt": "2026-10-06",
+      "maker": "Ayden",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Ayden-123"
+        }
+      ],
+      "name": "Image to Anime",
+      "url": "https://imagetoanime.co/",
+      "status": "online",
+      "description": "浏览器内的 AI 照片转动漫风格工具，照片和插画都能上传，选定风格后保留人物关键特征，生成完可直接下载",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261006-clarkloveproduct-高性价比人生指南",
+      "edition": "main",
+      "addedAt": "2026-10-06",
+      "maker": "clarkloveProduct",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/clarkloveProduct"
+        }
+      ],
+      "name": "高性价比人生指南",
+      "url": "https://renshengzhinan.co/",
+      "status": "online",
+      "description": "把建议当成一笔笔账来算的实用手册，34 章 650 条覆盖健康急救、金钱法律、工作住房与家庭阶段，每条标注成本、收益和证据等级，支持全文搜索",
+      "extraLinks": [],
+      "categories": [
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261006-zhtyyx-ioe",
+      "edition": "main",
+      "addedAt": "2026-10-06",
+      "maker": "zhtyyx",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhtyyx"
+        }
+      ],
+      "name": "ioe",
+      "url": "https://ioea.xianist.com/",
+      "status": "online",
+      "description": "面向零售门店的网页进销存，统一管理商品、库存、收银和会员；托管版提供 14 天试用，之后付费，MIT 开源版可自行部署",
+      "extraLinks": [
+        {
+          "label": "源码与部署说明",
+          "url": "https://github.com/zhtyyx/ioe"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261006-qybaihe-mu",
+      "edition": "programmer",
+      "addedAt": "2026-10-06",
+      "maker": "qybaihe",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qybaihe"
+        }
+      ],
+      "name": "mu",
+      "url": "https://github.com/qybaihe/mu",
+      "status": "online",
+      "description": "编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 `npm i -g mu-agent` 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0）",
+      "extraLinks": [
+        {
+          "label": "中文说明",
+          "url": "https://github.com/qybaihe/mu/blob/main/docs/readme/README.zh-CN.md"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261006-billpwchan-霓虹天頂-neon-zenith",
+      "edition": "game",
+      "addedAt": "2026-10-06",
+      "maker": "Bill Chan",
+      "city": "香港",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "name": "霓虹天頂 Neon Zenith",
+      "url": "https://zenith.billpwchan.art",
+      "status": "online",
+      "description": "浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/billpwchan/neon-zenith"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261005-lianyixin-问迹-wenjiai",
       "edition": "main",
@@ -2479,9 +2665,16 @@
       "name": "精选副业",
       "url": "https://jingxuan-fuye.pages.dev/",
       "status": "online",
-      "description": "中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口",
-      "extraLinks": [],
-      "categories": [],
+      "description": "免费中文副业案例库，可按平台、项目和技能筛选，查看成绩口径、适配条件与原帖入口；附无需登录的副业方向测评",
+      "extraLinks": [
+        {
+          "label": "方向测评",
+          "url": "https://jingxuan-fuye.pages.dev/tools/sidehustle-check/"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
       "source": "upstream"
     },
     {
@@ -5937,7 +6130,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261006-0",
+      "id": "custom-20261007-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -40394,29 +40587,6 @@
         "AI 工具",
         "图片工具",
         "效率工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "programmer-20250422-zhtyyx-ioe-库存管理系统",
-      "edition": "programmer",
-      "addedAt": "2025-04-22",
-      "maker": "zhtyyx",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhtyyx"
-        }
-      ],
-      "name": "ioe 库存管理系统",
-      "url": "https://github.com/zhtyyx/ioe",
-      "status": "online",
-      "description": "基于 Django 开发的综合性库存管理系统，专为零售商店、小型仓库和商品销售场所设计。系统提供了完整的商品管理、库存跟踪、销售记录、会员管理和数据分析功能，帮助企业高效管理库存和销售流程",
-      "extraLinks": [],
-      "categories": [
-        "效率工具",
-        "开发工具"
       ],
       "source": "upstream"
     },

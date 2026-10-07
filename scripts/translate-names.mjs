@@ -78,7 +78,7 @@ async function translateOne(text) {
 
 // 质量闸：源含 CJK 汉字但输出残留 >50% 汉字 = 未翻译
 function looksUntranslated(src, out) {
-  const cjk = (s) => (s.match(/[\u4e00-\u9fff]/g) || []).length;
+  const cjk = (s) => ((s == null ? "" : String(s)).match(/[\u4e00-\u9fff]/g) || []).length;
   if (cjk(src) === 0) return false;
   return cjk(out) > Math.max(1, cjk(src) * 0.5);
 }

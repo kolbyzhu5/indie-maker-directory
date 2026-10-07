@@ -38,13 +38,23 @@ jobs:
         run: npm test
       - name: Sync upstream directory (no COS upload yet)
         run: node scripts/sync-data.mjs --no-upload
+      # 每日同步上游后，为新增产品补英文翻译（产品名 + 描述）。
+      # 翻译写独立映射文件 data/{names,descriptions}-en.json（不改 projects.json）。
+      # ⚠️ 用 continue-on-error：Google 免费接口在 CI 出口 IP 可能被限流，
+      # 翻译失败不能阻断部署——未翻译的新产品英文页会 fallback 中文，下次 CI 再补。
+      # 脚本有断点续传（已缓存的 id 跳过），只翻新增的，耗时很短。
+      - name: Translate new products (names + descriptions)
+        continue-on-error: true
+        run: |
+          node scripts/translate.mjs || echo "::warning::描述翻译部分失败，未翻译产品英文页 fallback 中文，下次 CI 会补"
+          node scripts/translate-names.mjs || echo "::warning::产品名翻译部分失败，下次 CI 会补"
       - name: Build static site (SSG)
         run: node scripts/build.mjs --sync-dist
       - name: Commit updated data and site
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/projects.json index.html sitemap.xml robots.txt llms.txt llms-full.txt
+          git add data/projects.json data/names-en.json data/descriptions-en.json data/cities-en.json index.html sitemap.xml robots.txt llms.txt llms-full.txt
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
