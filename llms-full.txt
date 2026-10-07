@@ -1,10 +1,13 @@
-# AI 独立制造所 · 全部产品清单（3066）
+# AI 独立制造所 · 全部产品清单（3068）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-06（北京时间）
+> 更新时间：2026-10-07（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2579）
+## 大众产品（2580）
+
+- **[桜幻想 Sakura Fantasy](https://sakura.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 / 生活服务 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/sakura-fantasy.html)
+  浏览器里的 3D 日本河谷，坐小船从晨雾浅滩一路漂到千本鸟居，季节、时辰和天气都能切换，配水声和筝，无需下载和注册
 
 - **[cetxt](https://cetxt.com/)** — 开发者 YehyaKin · AI 工具 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/cetxt.html)
   llms.txt 中文生成与体检工具，填表单 30 秒生成规范文件，在线体检打分，附 1000 中文大站实测数据
@@ -252,8 +255,8 @@
 - **[Jev.StockAI.Trade](https://jev.stockai.trade/)** — 开发者 yvonuk · AI 工具 / 效率工具 / 免费工具 · 已上线 · 收录 2026-09-23 · [详情页](https://indiemaker.cn/p/jev-stockai-trade.html)
   基于 Jev 模型的 AI 选股工具，专注中国 A 股，免费无广告
 
-- **[精选副业](https://jingxuan-fuye.pages.dev/)** — 开发者 xiaoyaohou19910610-bit · 未分类 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/project-20fe73.html)
-  中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口
+- **[精选副业](https://jingxuan-fuye.pages.dev/)** — 开发者 xiaoyaohou19910610-bit · 免费工具 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/project-20fe73.html)
+  免费中文副业案例库，可按平台、项目和技能筛选，查看成绩口径、适配条件与原帖入口；附无需登录的副业方向测评
 
 - **[Jev Guide](https://jev.guide/)** — 开发者 Jun（上海） · 音视频 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/jev-guide.html)
   发现 Jev 的真实应用。从官方发布到真实演示，在一个地方探索 TypeSafe Jev。按行业寻找用例，查看 X 原帖截图，并直接在站内播放原视频
@@ -8798,7 +8801,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（136）
+## 独立游戏（137）
+
+- **[霓虹天頂 Neon Zenith](https://zenith.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/neon-zenith.html)
+  浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册
 
 - **[Steal an Egg Wiki](https://stealanegg.gamehubs.wiki/)** — 开发者 sam ice（深圳） · 未分类 · 已上线 · 收录 2026-09-22 · [详情页](https://indiemaker.cn/p/steal-an-egg-wiki.html)
   Steal an Egg 非官方资料与攻略站，整理蛋、宠物、变异、速度、地形和通关进度，方便玩家随时查询

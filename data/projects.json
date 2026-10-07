@@ -4,22 +4,22 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-06T12:45:00.646Z",
+  "generatedAt": "2026-10-07T01:32:16.062Z",
   "counts": {
-    "total": 3066,
-    "main": 2579,
+    "total": 3068,
+    "main": 2580,
     "programmer": 351,
-    "game": 136,
+    "game": 137,
     "custom": 1
   },
   "categoryCounts": {
+    "浏览器扩展": 298,
+    "生活服务": 96,
     "AI 工具": 951,
     "图片工具": 527,
-    "浏览器扩展": 296,
-    "生活服务": 95,
     "效率工具": 442,
     "开发工具": 572,
-    "免费工具": 518,
+    "免费工具": 519,
     "音视频": 494,
     "游戏娱乐": 168,
     "文档办公": 280,
@@ -27,6 +27,34 @@
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261006-billpwchan-桜幻想-sakura-fantasy",
+      "edition": "main",
+      "addedAt": "2026-10-06",
+      "maker": "Bill Chan",
+      "city": "香港",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "name": "桜幻想 Sakura Fantasy",
+      "url": "https://sakura.billpwchan.art",
+      "status": "online",
+      "description": "浏览器里的 3D 日本河谷，坐小船从晨雾浅滩一路漂到千本鸟居，季节、时辰和天气都能切换，配水声和筝，无需下载和注册",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/billpwchan/sakura-fantasy"
+        }
+      ],
+      "categories": [
+        "浏览器扩展",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261006-yehyakin-cetxt",
       "edition": "main",
@@ -155,6 +183,33 @@
         "AI 工具",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261006-billpwchan-霓虹天頂-neon-zenith",
+      "edition": "game",
+      "addedAt": "2026-10-06",
+      "maker": "Bill Chan",
+      "city": "香港",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "name": "霓虹天頂 Neon Zenith",
+      "url": "https://zenith.billpwchan.art",
+      "status": "online",
+      "description": "浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/billpwchan/neon-zenith"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
       ],
       "source": "upstream"
     },
@@ -2610,9 +2665,16 @@
       "name": "精选副业",
       "url": "https://jingxuan-fuye.pages.dev/",
       "status": "online",
-      "description": "中文副业案例库，把公开的真实项目经历整理成可筛选的案例解读，可按平台、项目和技能查找，并查看成绩口径、适配条件、风险与原文入口",
-      "extraLinks": [],
-      "categories": [],
+      "description": "免费中文副业案例库，可按平台、项目和技能筛选，查看成绩口径、适配条件与原帖入口；附无需登录的副业方向测评",
+      "extraLinks": [
+        {
+          "label": "方向测评",
+          "url": "https://jingxuan-fuye.pages.dev/tools/sidehustle-check/"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
       "source": "upstream"
     },
     {
@@ -6068,7 +6130,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261006-0",
+      "id": "custom-20261007-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
