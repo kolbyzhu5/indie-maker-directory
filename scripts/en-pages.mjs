@@ -323,7 +323,7 @@ ${body}
   </main>
   <footer class="detail-footer">
     <p>${BRAND_EN_FULL} · making sure good work gets seen</p>
-    <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="/en/about.html">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a> · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></p>
+    <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="/en/about.html">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a></p>
   </footer>
 </body>
 </html>
