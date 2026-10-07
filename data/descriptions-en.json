@@ -12286,5 +12286,37 @@
  "custom-20261007-0": {
   "descEn": "Open-source, free AI short-drama factory: full-pipeline automation from novel to script, storyboard and video, with multi-agent collaboration and character consistency, available on all platforms",
   "at": "2026-10-07"
+ },
+ "main-20261007-zx88cvb-addressgen": {
+  "descEn": "Random address generator (free), generates random addresses in the United States and Japan, including zip code and contact information, no registration required, suitable for form testing, cross-border business simulation registration and product demonstrations",
+  "at": "2026-10-07"
+ },
+ "main-20261007-jinglings-macclean": {
+  "descEn": "Mac disk cleaning tool, check the usage of WeChat pictures and videos, find duplicate files, preview and select items one by one before cleaning; scanning and viewing results are free, the full function can be tried for 7 days, cleaning after the trial requires a license, supports macOS 14+",
+  "at": "2026-10-07"
+ },
+ "main-20261007-billpwchan-移-utsuroi": {
+  "descEn": "3D Kyoto machiya and courtyard in the browser, scrolling the page is like a clock, from the courtyard gate before dawn to the koi pond at night, a total of 14 stopping points; the lighting is baked offline using Cycles, mixed by time, the four seasons can be switched, and the sounds are all synthesized in real time, without downloading and registration.",
+  "at": "2026-10-07"
+ },
+ "main-20261007-billpwchan-halcyon": {
+  "descEn": "In the 3D tropical atoll in the browser, you can walk on the beach, dive into the coral reefs, sail out of the lagoon, and fly over 330-meter-high peaks; the waves are real-time FFT, there are 43,000 scanned plants on the island, 36 minutes a day, the weather changes by itself, and the sea will glow at night, no need to download or register",
+  "at": "2026-10-07"
+ },
+ "main-20261007-linky-aiinlink-posegeni": {
+  "descEn": "3D pose reference and creation tool, 870+ pose libraries, poseable human models, multi-angle views, PNG and ControlNet export, no registration required, in-browser operation",
+  "at": "2026-10-07"
+ },
+ "main-20261007-huangy7-lokii": {
+  "descEn": "A sub-millisecond native file real-time search tool specially built for Mac, just like Everything; the bottom layer uses Rust in-memory inverted index, 500,000+ file retrieval delay <10ms, memory resident <100MB, FSEvents real-time senseless monitoring of changes, 100% offline privacy without telemetry - [Client download](https://github.com/huangy7/lokii/releases) · [Source code warehouse](https://github.com/huangy7/lokii)",
+  "at": "2026-10-07"
+ },
+ "programmer-20261007-hongshuo-wang-agent-usage": {
+  "descEn": "Free and open source desktop application to locally view token usage, estimated costs and session records of AI programming tools such as Claude Code and Codex.",
+  "at": "2026-10-07"
+ },
+ "game-20261007-fisher-byte-17-0-football": {
+  "descEn": "English browser football draft game, build a 9-slot lineup to simulate a 17-week season, hit a 17-0 victory, share seeds for daily challenges and compete in the rankings, no registration required",
+  "at": "2026-10-07"
  }
 }

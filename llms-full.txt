@@ -1,10 +1,28 @@
-# AI 独立制造所 · 全部产品清单（3068）
+# AI 独立制造所 · 全部产品清单（3076）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-10-08（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2580）
+## 大众产品（2586）
+
+- **[AddressGen](https://addressgen.net/)** — 开发者 zx88cvb · 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/addressgen.html)
+  随机地址生成器（免费），生成美国和日本的随机地址，含邮编和联系方式，无需注册，适合表单测试、跨境业务模拟注册和产品演示
+
+- **[MacClean](https://thulem.com/)** — 开发者 jinglings · 图片工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/macclean.html)
+  Mac 磁盘清理工具，查看微信图片视频的占用、查找重复文件，清理前逐项预览和选择；扫描与查看结果免费，完整功能可试用 7 天，试用后清理需要许可证，支持 macOS 14+
+
+- **[移ろい Utsuroi](https://utsuroi.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/utsuroi.html)
+  浏览器里的 3D 京都町屋和庭院，滚动页面就是时钟，从天亮前的院门走到夜里的锦鲤池，一共 14 个停留点；光照用 Cycles 离线烘焙、按时辰混合，可切换四季，声音全部实时合成，无需下载和注册
+
+- **[Halcyon](https://halcyon.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 / 生活服务 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/halcyon.html)
+  浏览器里的 3D 热带环礁，可以在沙滩散步、潜进珊瑚礁、开船出泻湖、飞过 330 米高的山峰；海浪是实时 FFT，岛上有 4.3 万株扫描植物，一天 36 分钟，天气自己变，入夜海面会发光，无需下载和注册
+
+- **[Posegeni](https://posegeni.com/)** — 开发者 Linky · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/posegeni.html)
+  3D 姿势参考与制作工具，870+ 姿势库、可摆姿势的人体模型、多角度视图、PNG 和 ControlNet 导出，无需注册，浏览器内即可操作
+
+- **[Lokii](https://lokii.huangy.top/)** — 开发者 huangy7（厦门） · 开发工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/lokii.html)
+  专为 Mac 打造的亚毫秒级原生文件即时搜索工具，像 Everything 一样键入即出；底层采用 Rust 内存倒排索引，50 万+ 文件检索延迟 <10ms，内存常驻 <100MB，FSEvents 实时无感监听变动，100% 离线隐私无遥测 - 客户端下载 · 源码仓库
 
 - **[桜幻想 Sakura Fantasy](https://sakura.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 / 生活服务 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/sakura-fantasy.html)
   浏览器里的 3D 日本河谷，坐小船从晨雾浅滩一路漂到千本鸟居，季节、时辰和天气都能切换，配水声和筝，无需下载和注册
@@ -7746,7 +7764,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（351）
+## 程序员版（352）
+
+- **[Agent Usage](https://github.com/hongshuo-wang/agent-usage-desktop/releases)** — 开发者 Hongshuo Wang（北京） · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/agent-usage.html)
+  免费开源的桌面应用，在本地查看 Claude Code、Codex 等 AI 编程工具的 Token 用量、估算费用和会话记录
 
 - **[mu](https://github.com/qybaihe/mu)** — 开发者 qybaihe · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/mu.html)
   编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 npm i -g mu-agent 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0）
@@ -7773,7 +7794,7 @@
   离线 Mac 语音提醒助手，本机识别中英混说并逐条检查自定义规则，悬浮按钮控制监听；沙盒无网络权限，不自动保存录音，Apple Silicon 源码预览需自行构建
 
 - **[onomeo](https://onomeo.com/zh)** — 开发者 Owaid0723666 · AI 工具 / 免费工具 · 已上线 · 收录 2026-09-30 · [详情页](https://indiemaker.cn/p/onomeo.html)
-  兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等 35 个免费模型，免费模型不扣额度（未付费账号每 5 小时 20 次），网页里也能直接对话和画图；Claude、GPT 等大模型需付费；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提
+  兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等约 30 个免费模型，免费模型按次数计（每个账号每 5 小时 30 次），网页里也能直接对话和画图；Claude、GPT 等大模型按量付费（美元余额，5 美元起充）；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提
 
 - **[回声 echo agent](https://echoagent.dev/zh/)** — 开发者 Evan · AI 工具 / 音视频 · 已上线 · 收录 2026-09-29 · [详情页](https://indiemaker.cn/p/echo-agent.html)
   Mac 上的语音 AI Agent，任何应用里按 Fn+Space 说一句话，交给本机的 Claude Code 或 Codex 在后台执行，语音在本机识别
@@ -8801,7 +8822,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（137）
+## 独立游戏（138）
+
+- **[17-0 Football](https://17-0football.com/)** — 开发者 fisher-byte · 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/17-0-football.html)
+  英文浏览器橄榄球选秀小游戏，组建 9 槽阵容模拟 17 周赛季、冲击 17-0 全胜，每日挑战共用 seed 冲排行榜，无需注册
 
 - **[霓虹天頂 Neon Zenith](https://zenith.billpwchan.art)** — 开发者 Bill Chan（香港） · 浏览器扩展 · 已上线 · 收录 2026-10-06 · [详情页](https://indiemaker.cn/p/neon-zenith.html)
   浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册
