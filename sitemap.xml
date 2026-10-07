@@ -299,6 +299,7 @@
   <url><loc>https://indiemaker.cn/en/c/browser-extensions/3.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/browser-extensions/4.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/browser-extensions/5.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
+  <url><loc>https://indiemaker.cn/en/c/browser-extensions/6.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/social.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://indiemaker.cn/en/c/social/2.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/dev-tools.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -339,6 +340,14 @@
   <url><loc>https://indiemaker.cn/en/c/uncategorized/9.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/uncategorized/10.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/uncategorized/11.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/addressgen.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/macclean.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/utsuroi.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/halcyon.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/posegeni.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/lokii.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/agent-usage.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/17-0-football.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/sakura-fantasy.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/cetxt.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/image-to-anime.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
@@ -3459,6 +3468,7 @@
   <url><loc>https://indiemaker.cn/c/browser-extensions/3.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/browser-extensions/4.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/browser-extensions/5.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/c/browser-extensions/6.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/social.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://indiemaker.cn/c/social/2.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/dev-tools.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -3499,6 +3509,14 @@
   <url><loc>https://indiemaker.cn/c/uncategorized/9.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/uncategorized/10.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/uncategorized/11.html</loc><lastmod>2026-10-07</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/p/addressgen.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/macclean.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/utsuroi.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/halcyon.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/posegeni.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/lokii.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/agent-usage.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/17-0-football.html</loc><lastmod>2026-10-07</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/sakura-fantasy.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/cetxt.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/image-to-anime.html</loc><lastmod>2026-10-06</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
