@@ -12322,5 +12322,69 @@
  "custom-20261008-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-07"
+ },
+ "custom-20261009-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-09"
+ },
+ "main-20261008-stia-mora-公众号发现": {
+  "descEn": "The WeChat public account directory website allows you to filter accounts by field, account type, and update frequency in the past 30 days. Each account comes with an AI content portrait and a rating with original text citations. The article page can jump back to WeChat to read the original text. There are about 180 public accounts selected and divided into categories, covering 5 fields of technology, finance, life, education, media and current affairs. There are also about 9,900 information sources that only include basic information. The Chinese interface is free and no registration is required to browse.",
+  "at": "2026-10-09"
+ },
+ "main-20261008-zizhu-ai-loretypes": {
+  "descEn": "Self-exploration test collection (English), six sets of tests on aura color, Archetype, moral camp, color seasons, spiritual animals, and past lives. Each set has 21 to 24 questions and takes about 3 to 4 minutes to produce complete results. It is free to use without registration; the Archetype results page can generate an AI reflection, and the past life test page is clearly marked as fictional and is for entertainment and self-reflection only.",
+  "at": "2026-10-09"
+ },
+ "main-20261008-udan520-easegen": {
+  "descEn": "The AI ​​image and video creation platform integrates dozens of image and video models such as Seedance 2.5, Kling 3, Veo 3.1, Wan 3.0, GPT Image 2.5, Seedream 5.0, Nano Banana 2, etc. into the same workspace for switching. It supports reference images, first and last frames, and reference video and audio. It also has built-in finished templates such as advertising images, posters, product images, etc.; provides free credits, subscriptions, and point packages.",
+  "at": "2026-10-09"
+ },
+ "main-20261008-icloudza-caplo": {
+  "descEn": "Mac screen recording tool, records click and pointer trajectories during recording, automatically generates zoom-in and follow shots according to the operating rhythm, and can manually add or delete each shot segment; supports 40 cursor styles, click highlighting, multi-track timeline editing, macOS offline speech recognition subtitles, sensitive area coding and chapter cards, exports MP4 / HEVC / ProRes / GIF, materials and projects are only saved locally; requires macOS 15 and above, the source code is open source on GitHub",
+  "at": "2026-10-09"
+ },
+ "main-20261008-sobison-漫阅-manyue": {
+  "descEn": "The iPhone/iPad comic reader can import Venera comic sources (JS source files or source links) for online browsing, search and follow-up. It can also import CBZ, CBR, CB7, ZIP, RAR, 7z, PDF and other local comics from \"File\" for offline reading; supports WebDAV and SMB to access personal network disk NAS, and can connect to Suwayomi / Tachidesk, Komga, Kavita, LANraragi, OPDS library; ¥3 paid download",
+  "at": "2026-10-09"
+ },
+ "main-20261008-zxcholmes-new-site-radar": {
+  "descEn": "The new website radar, which is updated daily, tracks 1.68 million newly registered domain names and has included 16,973 websites that have just been launched and are confirmed to have actual content and pricing pages. Filter by fields such as AI, software, App, video, design, agent, etc. You can also search by registration start and end date range or keywords; browsing and searching are free and no registration is required.",
+  "at": "2026-10-09"
+ },
+ "main-20261008-paidx2006-mistral-large-4": {
+  "descEn": "Online playground and access guide for the Mistral Large 4 model, 1M context, supports text and image input, adjustable inference gear, temperature, maximum output token and JSON output format; the playground is free, and points are charged for exceeding the free limit (points are the US dollar cost of the model × 12,000), non-Mistral official site",
+  "at": "2026-10-09"
+ },
+ "main-20261008-weidacn-kandinsky-6-0": {
+  "descEn": "Enter text or upload a picture to generate an AI video with synchronized audio. You can choose between Lite or Pro models and output 480p or 1080p; the bottom layer runs Kandinsky Lab’s open source Kandinsky 6.0 (MIT protocol, Lite 3B / Pro 29B), an unofficial site. Register to get 1 free video, and you will be charged based on points thereafter.",
+  "at": "2026-10-09"
+ },
+ "main-20261008-weidacn-utopai-x": {
+  "descEn": "Wensheng video tool, focusing on native synchronized audio, will be launched in September 2026. Artificial Analysis Wensheng video ranks second in the audio list (Elo 1150), and ranks first in audio synchronization and physical performance; optional 5/10/15 seconds, 480p or 720p, and H3 Max Turbo Tusheng video optional, 35 welcome points, billed according to points",
+  "at": "2026-10-09"
+ },
+ "main-20261008-weidacn-zombie-ai-trend": {
+  "descEn": "Upload two photos of yourself, a dog or a cat, and generate a 25-second zombie-style MP4 with music. After the character turns into a zombie, it cuts to a warm memory shot; you can choose 9:16 vertical screen or 16:9 horizontal screen, output 720p, 90 points per post (single post is $9.99), and the initial points for a new account are 0",
+  "at": "2026-10-09"
+ },
+ "main-20261008-weidacn-nano-banana-2-1": {
+  "descEn": "Image generation and editing workbench, focusing on Nano Banana 2.1 and 2.1 Pro (Pro is the 7-point 4K preset of the same model), optional 1K/2K/4K, the editing mode supports uploading 1 to 14 reference images; the bottom layer runs the Google Gemini image model, an unofficial site, new accounts will be given 3 points at a time, and the billing is based on points",
+  "at": "2026-10-09"
+ },
+ "main-20261008-surfacex-dev-barcodegen-net": {
+  "descEn": "Online barcode generation tool supports 35 types of barcodes such as Code 128, EAN-13, UPC-A, QR code, Data Matrix, PDF417, etc., can export SVG/PNG/JPG, supports batch import of CSV packaging and ZIP download, and also has barcode label printing and code scanning identification; free, no registration required, no watermark, commercially available, the interface is available in 11 languages ​​including Chinese",
+  "at": "2026-10-09"
+ },
+ "programmer-20261008-zhongquinnking-拾级-shiji": {
+  "descEn": "Packed into the growth consultant skills package of AI assistants such as Claude and Doubao, it covers the three years from filling out your application in high school to three years of employment. 151 Chinese documents cover college entrance examination, university, postgraduate entrance examination, public entrance examination, job search, workplace, thesis, graduate school, study abroad, learning, interpersonal and life, special channels, and 8 resume templates that can be directly filled in; copy the warehouse into the skills directory to use, code MIT, content CC BY-NC-ND open source",
+  "at": "2026-10-09"
+ },
+ "programmer-20261008-zhongquinnking-采诗-caishi": {
+  "descEn": "The Chinese Internet capability package for AI allows assistants such as Claude Code that can run command lines to directly read 33 Chinese platforms (full configuration 40) such as Douyin, Xiaohongshu, Bilibili, Weibo, Zhihu, Official Accounts, Toutiao, etc., and install it with one command; no crawling, no batch processing, all requests go through your own logged-in browser session, read-only",
+  "at": "2026-10-09"
+ },
+ "programmer-20261008-zhongquinnking-夜诵-yesong": {
+  "descEn": "Offline information sentinel, it will be on duty for you even when the terminal is turned off. It will scan hot lists, GitHub updates, new project radars and any web page changes every 6 hours according to the list you made, and save them in the inbox, and the AI ​​will automatically read them the next time it goes online. It is read-only and does not call any large models. It collects zero token costs and macOS can be installed and run automatically with one command.",
+  "at": "2026-10-09"
  }
 }

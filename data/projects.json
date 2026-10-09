@@ -4,29 +4,387 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-08T01:55:38.562Z",
+  "generatedAt": "2026-10-09T02:10:12.096Z",
   "counts": {
-    "total": 3076,
-    "main": 2586,
-    "programmer": 352,
+    "total": 3091,
+    "main": 2598,
+    "programmer": 355,
     "game": 138,
     "custom": 1
   },
   "categoryCounts": {
-    "免费工具": 524,
-    "图片工具": 528,
-    "音视频": 495,
-    "开发工具": 575,
-    "浏览器扩展": 302,
-    "生活服务": 97,
-    "AI 工具": 952,
-    "游戏娱乐": 169,
-    "效率工具": 442,
-    "文档办公": 280,
-    "教育学习": 167,
+    "AI 工具": 961,
+    "教育学习": 170,
+    "生活服务": 99,
+    "免费工具": 532,
+    "游戏娱乐": 170,
+    "图片工具": 533,
+    "音视频": 501,
+    "效率工具": 443,
+    "开发工具": 579,
+    "文档办公": 283,
+    "浏览器扩展": 303,
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261008-stia-mora-公众号发现",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "stia-mora",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stia-mora"
+        }
+      ],
+      "name": "公众号发现",
+      "url": "https://wechat.aim888888.xyz/wechat",
+      "status": "online",
+      "description": "微信公众号目录网站，可按领域、账号类型、近 30 天更新频率筛号，每个号附带 AI 内容画像与带原文引用的评分，文章页可跳回微信阅读原文；精选分好类的公众号约 180 个，覆盖科技、财经、生活、教育、媒体与时政 5 个领域，另有约 9900 个仅收录基础资料的信息源，中文界面、免费、浏览无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "教育学习",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-zizhu-ai-loretypes",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "zizhu-ai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zizhu-ai"
+        }
+      ],
+      "name": "Loretypes",
+      "url": "https://loretypes.com/",
+      "status": "online",
+      "description": "自我探索测验合集（英文），气场颜色、Archetype、道德阵营、色彩季型、灵动物、前世六套测验，每套 21 到 24 题、约 3 到 4 分钟出完整结果，无需注册免费使用；Archetype 结果页可生成一段 AI 反思，前世测验页面明确标注为虚构，仅供娱乐与自我反思",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-udan520-easegen",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "udan520",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/udan520"
+        }
+      ],
+      "name": "EaseGen",
+      "url": "https://easegen.ai/",
+      "status": "online",
+      "description": "AI 图片与视频创作平台，把 Seedance 2.5、Kling 3、Veo 3.1、Wan 3.0、GPT Image 2.5、Seedream 5.0、Nano Banana 2 等数十个图像与视频模型收在同一工作区切换，支持参考图、首尾帧与参考视频音频，另内置广告图、海报、商品图等成品模板；提供免费额度、订阅与积分包",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-icloudza-caplo",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "icloudza",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/icloudza"
+        }
+      ],
+      "name": "Caplo",
+      "url": "https://caplo.app/",
+      "status": "online",
+      "description": "Mac 录屏工具，录制时记录点击与指针轨迹，按操作节奏自动生成推近与跟随镜头，可手动增删每个镜头片段；支持 40 种光标样式、点击高亮、多轨时间线剪辑、macOS 离线语音识别字幕、敏感区域打码与章节卡片，导出 MP4 / HEVC / ProRes / GIF，素材与工程只保存在本机；要求 macOS 15 及以上，源码在 GitHub 开源",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-sobison-漫阅-manyue",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "SoBison",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SoBison"
+        }
+      ],
+      "name": "漫阅 ManYue",
+      "url": "https://apps.apple.com/mo/app/id6753895889",
+      "status": "online",
+      "description": "iPhone / iPad 漫画阅读器，可导入 Venera 漫画源（JS 源文件或源链接）在线浏览、搜索与追更，也能从「文件」导入 CBZ、CBR、CB7、ZIP、RAR、7z、PDF 等本地漫画离线阅读；支持 WebDAV 与 SMB 访问个人网盘 NAS，并能连接 Suwayomi / Tachidesk、Komga、Kavita、LANraragi、OPDS 书库；¥3 付费下载",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-zxcholmes-new-site-radar",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "zxcHolmes",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zxcHolmes"
+        }
+      ],
+      "name": "New Site Radar",
+      "url": "https://newsiteradar.aibit.im/zh/",
+      "status": "online",
+      "description": "每日更新的新站雷达，跟踪 168 万个新注册域名、已收录 16,973 个刚上线并确认有实际内容和定价页的网站，按 AI、软件、App、视频、设计、Agent 等领域筛选，也可按注册起止日期区间或关键词搜索；浏览与搜索免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-paidx2006-mistral-large-4",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "paidx2006",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/paidx2006"
+        }
+      ],
+      "name": "Mistral Large 4",
+      "url": "https://mistrallarge4.com/",
+      "status": "online",
+      "description": "Mistral Large 4 模型的在线 playground 与接入指南，1M 上下文，支持文本与图片输入，可调推理档位、温度、最大输出 token 与 JSON 输出格式；playground 免费，超出免费额度按积分计费（积分为模型美元成本 × 12,000），非 Mistral 官方站点",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-weidacn-kandinsky-6-0",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Kandinsky 6.0",
+      "url": "https://kandinsky6.pro/",
+      "status": "online",
+      "description": "输入文字或上传一张图片生成带同步音频的 AI 视频，可选 Lite 或 Pro 两档模型，输出 480p 或 1080p；底层跑的是 Kandinsky Lab 开源的 Kandinsky 6.0（MIT 协议，Lite 3B / Pro 29B），非官方站点，注册送 1 条免费视频，之后按积分计费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-weidacn-utopai-x",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Utopai X",
+      "url": "https://utopaix.video/",
+      "status": "online",
+      "description": "文生视频工具，主打原生同步音频，2026 年 9 月上架 Artificial Analysis 文生视频带音频榜第2 名（Elo 1150），音频同步与物理表现均排第1；可选 5/10/15 秒、480p 或 720p，另有 H3 Max Turbo 图生视频可选，35 欢迎积分，按积分计费",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-weidacn-zombie-ai-trend",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Zombie AI Trend",
+      "url": "https://zombieaitrend.pro/",
+      "status": "online",
+      "description": "上传本人、狗或猫的两张照片，生成一段 25 秒的僵尸风格带音乐 MP4，人物转身变成僵尸后切到温暖的回忆镜头；可选 9:16竖屏或 16:9 横屏，输出 720p，每条 90 积分（单条 $9.99），新账号初始积分为 0",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-weidacn-nano-banana-2-1",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "nano banana 2.1",
+      "url": "https://nanobanana21.pro/",
+      "status": "online",
+      "description": "图像生成与编辑工作台，主打 Nano Banana 2.1 与 2.1 Pro（Pro 是同模型的 7 积分 4K 预设），可选 1K/2K/4K，编辑模式支持上传 1 到 14 张参考图；底层跑 Google Gemini 图像模型，非官方站点，新账号一次性赠送 3 积分，按积分计费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261008-surfacex-dev-barcodegen-net",
+      "edition": "main",
+      "addedAt": "2026-10-08",
+      "maker": "surfacex-dev",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/surfacex-dev"
+        }
+      ],
+      "name": "barcodegen.net",
+      "url": "https://www.barcodegen.net",
+      "status": "online",
+      "description": "在线条码生成工具，支持 Code 128、EAN-13、UPC-A、二维码、Data Matrix、PDF417 等 35 种条码，可导出 SVG/PNG/JPG，支持批量导入 CSV 打包 ZIP 下载，另有条码标签打印与扫码识别；免费、无需注册、无水印、可商用，界面含中文在内共 11 种语言",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261008-zhongquinnking-拾级-shiji",
+      "edition": "programmer",
+      "addedAt": "2026-10-08",
+      "maker": "ZhongQuinnKing",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZhongQuinnKing"
+        }
+      ],
+      "name": "拾级 Shiji",
+      "url": "https://github.com/ZhongQuinnKing/shiji",
+      "status": "online",
+      "description": "装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，151 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具",
+        "教育学习",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261008-zhongquinnking-采诗-caishi",
+      "edition": "programmer",
+      "addedAt": "2026-10-08",
+      "maker": "ZhongQuinnKing",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZhongQuinnKing"
+        }
+      ],
+      "name": "采诗 Caishi",
+      "url": "https://github.com/ZhongQuinnKing/caishi",
+      "status": "online",
+      "description": "给 AI 用的中文互联网能力包，让 Claude Code 这类能跑命令行的助手直读抖音、小红书、B站、微博、知乎、公众号、头条等 33 个中文平台（满配 40），一条命令装好；不爬虫、不做批量，所有请求都走你自己已登录的浏览器会话，只读",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261008-zhongquinnking-夜诵-yesong",
+      "edition": "programmer",
+      "addedAt": "2026-10-08",
+      "maker": "ZhongQuinnKing",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZhongQuinnKing"
+        }
+      ],
+      "name": "夜诵 Yesong",
+      "url": "https://github.com/ZhongQuinnKing/yesong",
+      "status": "online",
+      "description": "离线信息哨兵，终端关了也替你值守，按你列的清单每 6 小时扫一次热榜、GitHub 动态、新项目雷达与任意网页变化，攒进收件箱，AI 下次上线自动读完；只读、不调用任何大模型，采集零 token 成本，macOS 一条命令装好开机自跑",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261007-zx88cvb-addressgen",
       "edition": "main",
@@ -6348,7 +6706,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261008-0",
+      "id": "custom-20261009-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -10690,7 +11048,7 @@
         }
       ],
       "name": "AI快站模型质量检测",
-      "url": "https://docs.aifast.club/model-check/",
+      "url": "https://docs.aifast.hk/model-check/",
       "status": "online",
       "description": "面向 OpenAI Compatible 接口的网页检测工具，输入公开 HTTPS 地址和临时 API Key，可检查模型声明、Token、动态题、SSE 与工具调用并生成分项报告；密钥仅用于当次检测，不写入数据库、缓存或日志",
       "extraLinks": [],

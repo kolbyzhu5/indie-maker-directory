@@ -1,10 +1,46 @@
-# AI 独立制造所 · 全部产品清单（3076）
+# AI 独立制造所 · 全部产品清单（3091）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-08（北京时间）
+> 更新时间：2026-10-09（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2586）
+## 大众产品（2598）
+
+- **[公众号发现](https://wechat.aim888888.xyz/wechat)** — 开发者 stia-mora · AI 工具 / 教育学习 / 生活服务 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/project-006f85.html)
+  微信公众号目录网站，可按领域、账号类型、近 30 天更新频率筛号，每个号附带 AI 内容画像与带原文引用的评分，文章页可跳回微信阅读原文；精选分好类的公众号约 180 个，覆盖科技、财经、生活、教育、媒体与时政 5 个领域，另有约 9900 个仅收录基础资料的信息源，中文界面、免费、浏览无需注册
+
+- **[Loretypes](https://loretypes.com/)** — 开发者 zizhu-ai · AI 工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/loretypes.html)
+  自我探索测验合集（英文），气场颜色、Archetype、道德阵营、色彩季型、灵动物、前世六套测验，每套 21 到 24 题、约 3 到 4 分钟出完整结果，无需注册免费使用；Archetype 结果页可生成一段 AI 反思，前世测验页面明确标注为虚构，仅供娱乐与自我反思
+
+- **[EaseGen](https://easegen.ai/)** — 开发者 udan520 · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/easegen.html)
+  AI 图片与视频创作平台，把 Seedance 2.5、Kling 3、Veo 3.1、Wan 3.0、GPT Image 2.5、Seedream 5.0、Nano Banana 2 等数十个图像与视频模型收在同一工作区切换，支持参考图、首尾帧与参考视频音频，另内置广告图、海报、商品图等成品模板；提供免费额度、订阅与积分包
+
+- **[Caplo](https://caplo.app/)** — 开发者 icloudza · 音视频 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/caplo.html)
+  Mac 录屏工具，录制时记录点击与指针轨迹，按操作节奏自动生成推近与跟随镜头，可手动增删每个镜头片段；支持 40 种光标样式、点击高亮、多轨时间线剪辑、macOS 离线语音识别字幕、敏感区域打码与章节卡片，导出 MP4 / HEVC / ProRes / GIF，素材与工程只保存在本机；要求 macOS 15 及以上，源码在 GitHub 开源
+
+- **[漫阅 ManYue](https://apps.apple.com/mo/app/id6753895889)** — 开发者 SoBison · 文档办公 / 教育学习 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/manyue.html)
+  iPhone / iPad 漫画阅读器，可导入 Venera 漫画源（JS 源文件或源链接）在线浏览、搜索与追更，也能从「文件」导入 CBZ、CBR、CB7、ZIP、RAR、7z、PDF 等本地漫画离线阅读；支持 WebDAV 与 SMB 访问个人网盘 NAS，并能连接 Suwayomi / Tachidesk、Komga、Kavita、LANraragi、OPDS 书库；¥3 付费下载
+
+- **[New Site Radar](https://newsiteradar.aibit.im/zh/)** — 开发者 zxcHolmes · AI 工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/new-site-radar.html)
+  每日更新的新站雷达，跟踪 168 万个新注册域名、已收录 16,973 个刚上线并确认有实际内容和定价页的网站，按 AI、软件、App、视频、设计、Agent 等领域筛选，也可按注册起止日期区间或关键词搜索；浏览与搜索免费无需注册
+
+- **[Mistral Large 4](https://mistrallarge4.com/)** — 开发者 paidx2006 · 图片工具 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/mistral-large-4.html)
+  Mistral Large 4 模型的在线 playground 与接入指南，1M 上下文，支持文本与图片输入，可调推理档位、温度、最大输出 token 与 JSON 输出格式；playground 免费，超出免费额度按积分计费（积分为模型美元成本 × 12,000），非 Mistral 官方站点
+
+- **[Kandinsky 6.0](https://kandinsky6.pro/)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/kandinsky-6-0.html)
+  输入文字或上传一张图片生成带同步音频的 AI 视频，可选 Lite 或 Pro 两档模型，输出 480p 或 1080p；底层跑的是 Kandinsky Lab 开源的 Kandinsky 6.0（MIT 协议，Lite 3B / Pro 29B），非官方站点，注册送 1 条免费视频，之后按积分计费
+
+- **[Utopai X](https://utopaix.video/)** — 开发者 weidacn · 音视频 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/utopai-x.html)
+  文生视频工具，主打原生同步音频，2026 年 9 月上架 Artificial Analysis 文生视频带音频榜第2 名（Elo 1150），音频同步与物理表现均排第1；可选 5/10/15 秒、480p 或 720p，另有 H3 Max Turbo 图生视频可选，35 欢迎积分，按积分计费
+
+- **[Zombie AI Trend](https://zombieaitrend.pro/)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/zombie-ai-trend.html)
+  上传本人、狗或猫的两张照片，生成一段 25 秒的僵尸风格带音乐 MP4，人物转身变成僵尸后切到温暖的回忆镜头；可选 9:16竖屏或 16:9 横屏，输出 720p，每条 90 积分（单条 $9.99），新账号初始积分为 0
+
+- **[nano banana 2.1](https://nanobanana21.pro/)** — 开发者 weidacn · 图片工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/nano-banana-2-1.html)
+  图像生成与编辑工作台，主打 Nano Banana 2.1 与 2.1 Pro（Pro 是同模型的 7 积分 4K 预设），可选 1K/2K/4K，编辑模式支持上传 1 到 14 张参考图；底层跑 Google Gemini 图像模型，非官方站点，新账号一次性赠送 3 积分，按积分计费
+
+- **[barcodegen.net](https://www.barcodegen.net)** — 开发者 surfacex-dev · 文档办公 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/barcodegen-net.html)
+  在线条码生成工具，支持 Code 128、EAN-13、UPC-A、二维码、Data Matrix、PDF417 等 35 种条码，可导出 SVG/PNG/JPG，支持批量导入 CSV 打包 ZIP 下载，另有条码标签打印与扫码识别；免费、无需注册、无水印、可商用，界面含中文在内共 11 种语言
 
 - **[AddressGen](https://addressgen.net/)** — 开发者 zx88cvb · 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/addressgen.html)
   随机地址生成器（免费），生成美国和日本的随机地址，含邮编和联系方式，无需注册，适合表单测试、跨境业务模拟注册和产品演示
@@ -960,7 +996,7 @@
 - **[cocodot LLM 降智检测](https://probe.cocodot.co/?utm_source=github&utm_medium=readme&utm_campaign=1c7)** — 开发者 cocodot2026 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-07-24 · [详情页](https://indiemaker.cn/p/cocodot-llm.html)
   LLM API「降智/偷换模型」检测（免费）：填入任意 OpenAI 兼容端点的 base_url 和临时 API Key，跑 6 项探针（模型声明、动态题、能力完整性等）生成分项报告；Key 仅用于当次检测、不落库不留存，检测方法开源；同一团队还做 OpenAI 兼容的 API 中转 cocodot（支付宝充值）
 
-- **[AI快站模型质量检测](https://docs.aifast.club/model-check/)** — 开发者 KKWANG4444 · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-24 · [详情页](https://indiemaker.cn/p/ai-8dbcb9.html)
+- **[AI快站模型质量检测](https://docs.aifast.hk/model-check/)** — 开发者 KKWANG4444 · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-24 · [详情页](https://indiemaker.cn/p/ai-8dbcb9.html)
   面向 OpenAI Compatible 接口的网页检测工具，输入公开 HTTPS 地址和临时 API Key，可检查模型声明、Token、动态题、SSE 与工具调用并生成分项报告；密钥仅用于当次检测，不写入数据库、缓存或日志
 
 - **[ky3 Launcher](https://github.com/ky3-studio/ky3-Launcher)** — 开发者 ky3 · 效率工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-07-24 · [详情页](https://indiemaker.cn/p/ky3-launcher.html)
@@ -7764,7 +7800,16 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（352）
+## 程序员版（355）
+
+- **[拾级 Shiji](https://github.com/ZhongQuinnKing/shiji)** — 开发者 ZhongQuinnKing · AI 工具 / 文档办公 / 开发工具 / 教育学习 / 生活服务 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/shiji.html)
+  装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，151 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源
+
+- **[采诗 Caishi](https://github.com/ZhongQuinnKing/caishi)** — 开发者 ZhongQuinnKing · AI 工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/caishi.html)
+  给 AI 用的中文互联网能力包，让 Claude Code 这类能跑命令行的助手直读抖音、小红书、B站、微博、知乎、公众号、头条等 33 个中文平台（满配 40），一条命令装好；不爬虫、不做批量，所有请求都走你自己已登录的浏览器会话，只读
+
+- **[夜诵 Yesong](https://github.com/ZhongQuinnKing/yesong)** — 开发者 ZhongQuinnKing · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/yesong.html)
+  离线信息哨兵，终端关了也替你值守，按你列的清单每 6 小时扫一次热榜、GitHub 动态、新项目雷达与任意网页变化，攒进收件箱，AI 下次上线自动读完；只读、不调用任何大模型，采集零 token 成本，macOS 一条命令装好开机自跑
 
 - **[Agent Usage](https://github.com/hongshuo-wang/agent-usage-desktop/releases)** — 开发者 Hongshuo Wang（北京） · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/agent-usage.html)
   免费开源的桌面应用，在本地查看 Claude Code、Codex 等 AI 编程工具的 Token 用量、估算费用和会话记录
