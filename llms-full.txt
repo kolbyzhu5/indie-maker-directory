@@ -1,10 +1,22 @@
-# AI 独立制造所 · 全部产品清单（3091）
+# AI 独立制造所 · 全部产品清单（3099）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-09（北京时间）
+> 更新时间：2026-10-10（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2598）
+## 大众产品（2602）
+
+- **[九曜印占](https://jiuyaoyinzhan.com)** — 开发者 Vadaski · AI 工具 / 效率工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/project-7c38a5.html)
+  印度占星（吠陀占星）排盘与 AI 解读网站，按天文历计算本命盘、大运与年盘，围绕一个问题可连续追问；出生时间记不准时可用几件人生大事做生辰校准，线索充分时收窄到分钟级；对话只存浏览器本地，简繁中文，排盘免费、AI 解读按点数计费
+
+- **[Genjutsu AI](https://genjutsuai.net/)** — 开发者 CoderLim（北京） · AI 工具 / 音视频 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/genjutsu-ai.html)
+  AI 视频重风格化工具，保留原片段的主体、运动和镜头轨迹，只重写它周围的世界——换场景、换风格、换产品或换道具，上传视频加一句提示词即可
+
+- **[WorthCay](https://worthcay.com)** — 开发者 Cayden（上海） · 免费工具 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/worthcay.html)
+  Coast FIRE 计算器（免费），输入年龄、退休年龄、退休后年支出、当前投资资产与每月投入，算出 Coast FIRE 数字与完整 FIRE 数字；可保存目标并按 Actual vs Goal 跟踪进度，对比「继续投入」与「停止投入让收益复利」两条路径的增长曲线
+
+- **[CoverCay](https://cover.caydock.com)** — 开发者 Cayden（上海） · 音视频 / 免费工具 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/covercay.html)
+  音乐专辑封面搜索下载（免费），基于 iTunes 数据检索专辑封面、歌曲封面与音乐视频封面，支持多国家地区与多种尺寸一键下载或复制
 
 - **[公众号发现](https://wechat.aim888888.xyz/wechat)** — 开发者 stia-mora · AI 工具 / 教育学习 / 生活服务 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/project-006f85.html)
   微信公众号目录网站，可按领域、账号类型、近 30 天更新频率筛号，每个号附带 AI 内容画像与带原文引用的评分，文章页可跳回微信阅读原文；精选分好类的公众号约 180 个，覆盖科技、财经、生活、教育、媒体与时政 5 个领域，另有约 9900 个仅收录基础资料的信息源，中文界面、免费、浏览无需注册
@@ -7800,16 +7812,28 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（355）
+## 程序员版（359）
+
+- **[outline-skill](https://github.com/huangy7/outline-skill)** — 开发者 huangy7（厦门） · AI 工具 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/outline-skill.html)
+  专为 AI 编程智能体（Claude Code、Antigravity、Cursor 等）打造的 Outline 知识库 Agent Skill 与协同工具。遵循 agentskills.io 标准，赋予各类智能体原生读写、检索与智能格式化 Outline 文档的能力；内置排版护栏（自动去除冗余标题、生成标准 Callout 提示块），支持 MCP 与零依赖 Node.js 客户端双引擎架构，完全开源免费
+
+- **[Jet Browser](https://github.com/masakaai/jet-browser)** — 开发者 MASAKA AI · AI 工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/jet-browser.html)
+  给 AI Agent 嵌入的轻量浏览器运行时，一个 Docker 容器运行一个 WPE WebKit 会话，通过有序 JSONL 执行原生鼠标键盘输入、DOM 检查与截图；不绑定模型、账号或托管控制面，Apache-2.0 开源，提供 Codex / Claude Code Skill 与 GitHub Action 验收
+
+- **[LinkAGI](https://api.linktoagi.com/)** — 开发者 LinkAGI · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/linkagi.html)
+  面向开发者的 AI API 聚合服务，提供 OpenAI、Anthropic 与 Gemini 风格的接口；控制台可创建独立 API Key、查看模型价格和调用日志，支持人民币按量计费
 
 - **[拾级 Shiji](https://github.com/ZhongQuinnKing/shiji)** — 开发者 ZhongQuinnKing · AI 工具 / 文档办公 / 开发工具 / 教育学习 / 生活服务 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/shiji.html)
-  装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，151 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源
+  装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，152 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源
 
 - **[采诗 Caishi](https://github.com/ZhongQuinnKing/caishi)** — 开发者 ZhongQuinnKing · AI 工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/caishi.html)
   给 AI 用的中文互联网能力包，让 Claude Code 这类能跑命令行的助手直读抖音、小红书、B站、微博、知乎、公众号、头条等 33 个中文平台（满配 40），一条命令装好；不爬虫、不做批量，所有请求都走你自己已登录的浏览器会话，只读
 
 - **[夜诵 Yesong](https://github.com/ZhongQuinnKing/yesong)** — 开发者 ZhongQuinnKing · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/yesong.html)
   离线信息哨兵，终端关了也替你值守，按你列的清单每 6 小时扫一次热榜、GitHub 动态、新项目雷达与任意网页变化，攒进收件箱，AI 下次上线自动读完；只读、不调用任何大模型，采集零 token 成本，macOS 一条命令装好开机自跑
+
+- **[玉尺 Yuchi](https://github.com/ZhongQuinnKing/yuchi)** — 开发者 ZhongQuinnKing · AI 工具 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/yuchi.html)
+  给中文写作量呼吸的一把尺，文章、诗同等对待：文章看句长节奏、套话与虚词密度、结构推进，诗做逐字平仄标注、近体诗格律检查、818 个词牌给谱对谱，另附十四篇写作教材；命令行（零依赖）、网页、AI 技能包三入口即用，代码 MIT、内容 CC BY-NC-ND 开源
 
 - **[Agent Usage](https://github.com/hongshuo-wang/agent-usage-desktop/releases)** — 开发者 Hongshuo Wang（北京） · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/agent-usage.html)
   免费开源的桌面应用，在本地查看 Claude Code、Codex 等 AI 编程工具的 Token 用量、估算费用和会话记录

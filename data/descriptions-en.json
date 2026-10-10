@@ -12386,5 +12386,41 @@
  "programmer-20261008-zhongquinnking-夜诵-yesong": {
   "descEn": "Offline information sentinel, it will be on duty for you even when the terminal is turned off. It will scan hot lists, GitHub updates, new project radars and any web page changes every 6 hours according to the list you made, and save them in the inbox, and the AI ​​will automatically read them the next time it goes online. It is read-only and does not call any large models. It collects zero token costs and macOS can be installed and run automatically with one command.",
   "at": "2026-10-09"
+ },
+ "main-20261010-vadaski-九曜印占": {
+  "descEn": "Indian astrology (Vedic astrology) ranking and AI interpretation website, calculates the natal chart, fortune and year chart according to the astronomical calendar, and can continuously ask around a question; if the birth time is not accurately remembered, several life events can be used for birth calibration, and when there are sufficient clues, it can be narrowed down to the minute level; the conversation is only saved locally in the browser, in Simplified and Traditional Chinese, the ranking is free, and the AI ​​interpretation is charged by points",
+  "at": "2026-10-10"
+ },
+ "programmer-20261010-huangy7-outline-skill": {
+  "descEn": "Outline knowledge base Agent Skill and collaboration tools specially built for AI programming agents (Claude Code, Antigravity, Cursor, etc.). Following the agentskills.io standard, it gives all types of agents the ability to natively read, write, retrieve and intelligently format Outline documents; it has built-in typesetting guardrails (automatically removes redundant titles and generates standard Callout prompt blocks), supports MCP and zero-dependence Node.js client dual-engine architecture, and is completely open source and free",
+  "at": "2026-10-10"
+ },
+ "main-20261009-coderlim-genjutsu-ai": {
+  "descEn": "AI video re-stylization tool retains the subject, movement and lens trajectory of the original clip, and only rewrites the world around it - change the scene, style, product or props, just upload the video and add a prompt word",
+  "at": "2026-10-10"
+ },
+ "main-20261009-caydock-worthcay": {
+  "descEn": "Coast FIRE calculator (free), input age, retirement age, annual expenses after retirement, current investment assets and monthly investment, calculate Coast FIRE number and complete FIRE number; you can save the goal and track the progress according to Actual vs Goal, compare the growth curve of the two paths of \"continue investing\" and \"stop investing and let the gains compound\"",
+  "at": "2026-10-10"
+ },
+ "main-20261009-caydock-covercay": {
+  "descEn": "Music album cover search and download (free), retrieval of album covers, song covers and music video covers based on iTunes data, supports one-click download or copy in multiple countries, regions and sizes",
+  "at": "2026-10-10"
+ },
+ "programmer-20261009-masakaai-jet-browser": {
+  "descEn": "When running a lightweight browser embedded in the AI ​​Agent, a Docker container runs a WPE WebKit session and performs native mouse and keyboard input, DOM inspection and screenshots through ordered JSONL; it does not bind models, accounts or hosting control planes. Apache-2.0 is open source and provides Codex / Claude Code Skill and GitHub Action acceptance.",
+  "at": "2026-10-10"
+ },
+ "programmer-20261009-16871233-linkagi": {
+  "descEn": "AI API aggregation service for developers, providing OpenAI, Anthropic and Gemini style interfaces; the console can create independent API Keys, view model prices and call logs, and supports RMB pay-as-you-go billing",
+  "at": "2026-10-10"
+ },
+ "programmer-20261008-zhongquinnking-玉尺-yuchi": {
+  "descEn": "A ruler for Chinese writing to breathe, and articles and poems are treated equally: Articles read sentence length rhythm, cliché and function word density, structural advancement, poems are marked with word-by-word oblique and oblique annotation, modern poetry rhythm check, 818 word cards are notated and notated, and 14 writing teaching materials are included; command line (zero dependence), web page, and AI skill package are ready for use, code MIT, content CC BY-NC-ND open source",
+  "at": "2026-10-10"
+ },
+ "custom-20261010-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-10"
  }
 }

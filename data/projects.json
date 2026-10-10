@@ -4,29 +4,227 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-09T02:10:12.096Z",
+  "generatedAt": "2026-10-10T01:45:20.542Z",
   "counts": {
-    "total": 3091,
-    "main": 2598,
-    "programmer": 355,
+    "total": 3099,
+    "main": 2602,
+    "programmer": 359,
     "game": 138,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 961,
+    "AI 工具": 967,
+    "效率工具": 444,
+    "浏览器扩展": 305,
+    "免费工具": 538,
+    "文档办公": 285,
+    "开发工具": 583,
+    "音视频": 503,
     "教育学习": 170,
     "生活服务": 99,
-    "免费工具": 532,
     "游戏娱乐": 170,
     "图片工具": 533,
-    "音视频": 501,
-    "效率工具": 443,
-    "开发工具": 579,
-    "文档办公": 283,
-    "浏览器扩展": 303,
     "社交社区": 113
   },
   "projects": [
+    {
+      "id": "main-20261010-vadaski-九曜印占",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "Vadaski",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vadaski"
+        }
+      ],
+      "name": "九曜印占",
+      "url": "https://jiuyaoyinzhan.com",
+      "status": "online",
+      "description": "印度占星（吠陀占星）排盘与 AI 解读网站，按天文历计算本命盘、大运与年盘，围绕一个问题可连续追问；出生时间记不准时可用几件人生大事做生辰校准，线索充分时收窄到分钟级；对话只存浏览器本地，简繁中文，排盘免费、AI 解读按点数计费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261010-huangy7-outline-skill",
+      "edition": "programmer",
+      "addedAt": "2026-10-10",
+      "maker": "huangy7",
+      "city": "厦门",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huangy7"
+        }
+      ],
+      "name": "outline-skill",
+      "url": "https://github.com/huangy7/outline-skill",
+      "status": "online",
+      "description": "专为 AI 编程智能体（Claude Code、Antigravity、Cursor 等）打造的 Outline 知识库 Agent Skill 与协同工具。遵循 agentskills.io 标准，赋予各类智能体原生读写、检索与智能格式化 Outline 文档的能力；内置排版护栏（自动去除冗余标题、生成标准 Callout 提示块），支持 MCP 与零依赖 Node.js 客户端双引擎架构，完全开源免费",
+      "extraLinks": [
+        {
+          "label": "源码仓库",
+          "url": "https://github.com/huangy7/outline-skill"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261009-coderlim-genjutsu-ai",
+      "edition": "main",
+      "addedAt": "2026-10-09",
+      "maker": "CoderLim",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoderLim"
+        },
+        {
+          "label": "博客",
+          "url": "https://limbuilder.github.io/"
+        }
+      ],
+      "name": "Genjutsu AI",
+      "url": "https://genjutsuai.net/",
+      "status": "online",
+      "description": "AI 视频重风格化工具，保留原片段的主体、运动和镜头轨迹，只重写它周围的世界——换场景、换风格、换产品或换道具，上传视频加一句提示词即可",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://genjutsuai.net/#feature"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261009-caydock-worthcay",
+      "edition": "main",
+      "addedAt": "2026-10-09",
+      "maker": "Cayden",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/caydock"
+        },
+        {
+          "label": "博客",
+          "url": "https://caydock.com"
+        }
+      ],
+      "name": "WorthCay",
+      "url": "https://worthcay.com",
+      "status": "online",
+      "description": "Coast FIRE 计算器（免费），输入年龄、退休年龄、退休后年支出、当前投资资产与每月投入，算出 Coast FIRE 数字与完整 FIRE 数字；可保存目标并按 Actual vs Goal 跟踪进度，对比「继续投入」与「停止投入让收益复利」两条路径的增长曲线",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261009-caydock-covercay",
+      "edition": "main",
+      "addedAt": "2026-10-09",
+      "maker": "Cayden",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/caydock"
+        },
+        {
+          "label": "博客",
+          "url": "https://caydock.com"
+        }
+      ],
+      "name": "CoverCay",
+      "url": "https://cover.caydock.com",
+      "status": "online",
+      "description": "音乐专辑封面搜索下载（免费），基于 iTunes 数据检索专辑封面、歌曲封面与音乐视频封面，支持多国家地区与多种尺寸一键下载或复制",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261009-masakaai-jet-browser",
+      "edition": "programmer",
+      "addedAt": "2026-10-09",
+      "maker": "MASAKA AI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/masakaai"
+        }
+      ],
+      "name": "Jet Browser",
+      "url": "https://github.com/masakaai/jet-browser",
+      "status": "online",
+      "description": "给 AI Agent 嵌入的轻量浏览器运行时，一个 Docker 容器运行一个 WPE WebKit 会话，通过有序 JSONL 执行原生鼠标键盘输入、DOM 检查与截图；不绑定模型、账号或托管控制面，Apache-2.0 开源，提供 Codex / Claude Code Skill 与 GitHub Action 验收",
+      "extraLinks": [
+        {
+          "label": "基准方法与原始数据",
+          "url": "https://github.com/masakaai/jet-browser/blob/main/docs/benchmarks.md"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261009-16871233-linkagi",
+      "edition": "programmer",
+      "addedAt": "2026-10-09",
+      "maker": "LinkAGI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/16871233"
+        }
+      ],
+      "name": "LinkAGI",
+      "url": "https://api.linktoagi.com/",
+      "status": "online",
+      "description": "面向开发者的 AI API 聚合服务，提供 OpenAI、Anthropic 与 Gemini 风格的接口；控制台可创建独立 API Key、查看模型价格和调用日志，支持人民币按量计费",
+      "extraLinks": [
+        {
+          "label": "使用文档",
+          "url": "https://docs.linktoagi.com/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261008-stia-mora-公众号发现",
       "edition": "main",
@@ -327,7 +525,7 @@
       "name": "拾级 Shiji",
       "url": "https://github.com/ZhongQuinnKing/shiji",
       "status": "online",
-      "description": "装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，151 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "description": "装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，152 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -382,6 +580,31 @@
       "categories": [
         "AI 工具",
         "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261008-zhongquinnking-玉尺-yuchi",
+      "edition": "programmer",
+      "addedAt": "2026-10-08",
+      "maker": "ZhongQuinnKing",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZhongQuinnKing"
+        }
+      ],
+      "name": "玉尺 Yuchi",
+      "url": "https://github.com/ZhongQuinnKing/yuchi",
+      "status": "online",
+      "description": "给中文写作量呼吸的一把尺，文章、诗同等对待：文章看句长节奏、套话与虚词密度、结构推进，诗做逐字平仄标注、近体诗格律检查、818 个词牌给谱对谱，另附十四篇写作教材；命令行（零依赖）、网页、AI 技能包三入口即用，代码 MIT、内容 CC BY-NC-ND 开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -6706,7 +6929,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261009-0",
+      "id": "custom-20261010-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
