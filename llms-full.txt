@@ -1,13 +1,46 @@
-# AI 独立制造所 · 全部产品清单（3099）
+# AI 独立制造所 · 全部产品清单（3114）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-10（北京时间）
+> 更新时间：2026-10-11（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2602）
+## 大众产品（2613）
+
+- **[Launchlist](https://launchlist.si)** — 开发者 leo（上海） · AI 工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/launchlist.html)
+  A community-voted weekly launch for AI and superintelligence builders
+
+- **[ClickPulse](https://github.com/endNone/ClickPulse)** — 开发者 Wuhan Zhang · 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/clickpulse.html)
+  免费的离线键鼠活动统计工具，支持 macOS 和 Windows，以键盘热力图、活动日历和迷你悬浮窗口展示输入习惯，数据保存在本机，不记录输入文本
+
+- **[门外谈 Menwai Tan](https://outgate.chat)** — 开发者 fsh114514（江苏） · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/menwai-tan.html)
+  AI 思想家辩论场，把 26 位以上思想家蒸馏成 SKILL.md 人格，可单人对谈也可开圆桌让多位思想家轮流交锋；随口／较真／上头三档控制回答火候，气氛上来自动升级，遇到不懂的梗先联网检索再回答；支持自带 API Key，也留了站内免费通道
+
+- **[Vidu Q4](https://viduq4.org)** — 开发者 weidacn · AI 工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/vidu-q4.html)
+  AI 短片生成器，选已审核的非人类场景预设与固定场景运动即可生成 3–16 秒静音短片，540p 至 4K，无需提示词或上传素材
+
+- **[SynthID Detector](https://synthiddetector.pro)** — 开发者 weidacn · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/synthid-detector.html)
+  SynthID 水印检测工具，上传图片即可读取 Content Credentials 签名状态与 AI 元数据，判断 Google 或 OpenAI 是否写入 SynthID 水印；基础检测免费且无需注册，可选的 AI 视觉分析按张消耗额度
+
+- **[LeanFPS](https://leanfps.com/)** — 开发者 Jamailar · 开发工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/leanfps.html)
+  Windows 游戏优化与帧率测量工具，自动识别运行中的游戏并按游戏与类型配置系统设置，记录平均 FPS、1% low 与会话历史；每项设置可单独撤销，临时会话改动退出后还原，不修改游戏文件与内存、不注入游戏内覆盖层、不关闭 Defender 与防火墙；Rust + egui 开发，免费版含游戏识别、帧率测量和 5 项优化，Pro 早鸟价 $19 一次性（之后 $29）
+
+- **[阿军图解产业](https://ajun-industry.packscena.com/)** — 开发者 JonathanOwenTJ · AI 工具 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/project-c5f15c.html)
+  中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换
+
+- **[ResumePlot AI](https://resumeplot.com/)** — 开发者 JonathanOwenTJ · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/resumeplot-ai.html)
+  中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度
+
+- **[SubAtlas 订阅图谱](https://subatlas.packscena.com/)** — 开发者 JonathanOwenTJ · AI 工具 / 效率工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/subatlas.html)
+  AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅
+
+- **[Rumpelstiltskin AI Video](https://airumpelstiltskin.org)** — 开发者 littlePig-zzf · AI 工具 / 音视频 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/rumpelstiltskin-ai-video.html)
+  AI 换脸跳舞视频生成器，上传一张肖像替换踮脚舞者、或上传两张分别替换舞者与少女，原参考视频的场景、镜头和舞蹈动作保持不变；内置参考舞蹈，无需编写提示词，支持 480P / 720P，输出约 12.7 秒的 MP4 并带原参考音频 — 生成需登录购买积分，$9.90 起一次性付费，无需订阅
 
 - **[九曜印占](https://jiuyaoyinzhan.com)** — 开发者 Vadaski · AI 工具 / 效率工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/project-7c38a5.html)
   印度占星（吠陀占星）排盘与 AI 解读网站，按天文历计算本命盘、大运与年盘，围绕一个问题可连续追问；出生时间记不准时可用几件人生大事做生辰校准，线索充分时收窄到分钟级；对话只存浏览器本地，简繁中文，排盘免费、AI 解读按点数计费
+
+- **[ToolStack](https://tools.mindutil.com/)** — 开发者 yisonlee888 · 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/toolstack.html)
+  免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言
 
 - **[Genjutsu AI](https://genjutsuai.net/)** — 开发者 CoderLim（北京） · AI 工具 / 音视频 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/genjutsu-ai.html)
   AI 视频重风格化工具，保留原片段的主体、运动和镜头轨迹，只重写它周围的世界——换场景、换风格、换产品或换道具，上传视频加一句提示词即可
@@ -7812,10 +7845,19 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（359）
+## 程序员版（362）
+
+- **[梦溪畅谈](https://github.com/MarchBeta2087/mengxi-llm-chat)** — 开发者 MarchBeta2087 · AI 工具 / 效率工具 / 开发工具 / 浏览器扩展 / 社交社区 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/project-34b2a3.html)
+  可自部署的 LLM 聊天 Web 应用，支持多模型与多 API Key 公私双轨管理调度、六维限流、插件系统、对话加密与盲索引搜索、审计日志与可定制界面
+
+- **[PromptHarbor](https://github.com/ylv01/prompt-harbor)** — 开发者 ylv01（深圳） · AI 工具 / 社交社区 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/promptharbor.html)
+  一句话描述任务，根据模型能力与社区反馈推荐最适合的模型。复杂项目可拆分任务并生成跨模型协作提示词，覆盖 Claude Opus 5.5、GPT-6.1 Sol 等
 
 - **[outline-skill](https://github.com/huangy7/outline-skill)** — 开发者 huangy7（厦门） · AI 工具 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/outline-skill.html)
   专为 AI 编程智能体（Claude Code、Antigravity、Cursor 等）打造的 Outline 知识库 Agent Skill 与协同工具。遵循 agentskills.io 标准，赋予各类智能体原生读写、检索与智能格式化 Outline 文档的能力；内置排版护栏（自动去除冗余标题、生成标准 Callout 提示块），支持 MCP 与零依赖 Node.js 客户端双引擎架构，完全开源免费
+
+- **[buffTerm](https://github.com/shaguocgl/buff-term)** — 开发者 shaguocgl · AI 工具 / 效率工具 / 开发工具 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/buffterm.html)
+  AI Agent 加持的 SSH/SFTP 桌面管理工具，自然语言运维服务器；可对外暴露 MCP 服务供其他 AI 工具调用（macOS/Windows，MIT）- 官网
 
 - **[Jet Browser](https://github.com/masakaai/jet-browser)** — 开发者 MASAKA AI · AI 工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/jet-browser.html)
   给 AI Agent 嵌入的轻量浏览器运行时，一个 Docker 容器运行一个 WPE WebKit 会话，通过有序 JSONL 执行原生鼠标键盘输入、DOM 检查与截图；不绑定模型、账号或托管控制面，Apache-2.0 开源，提供 Codex / Claude Code Skill 与 GitHub Action 验收
@@ -8891,7 +8933,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（138）
+## 独立游戏（139）
+
+- **[失控 AI 增量](https://github.com/MarchBeta2087/uncontrolled-ai-incremental)** — 开发者 MarchBeta2087 · AI 工具 / 效率工具 / 游戏娱乐 · 已上线 · 收录 2026-10-10 · [详情页](https://indiemaker.cn/p/ai-92dfa5.html)
+  以"失控 AI 吞掉整个宇宙"为主题的增量游戏，从 UTC 2028-01-01 起步投入研发、加速扩张直至耗尽可观测宇宙的资源，再撕开因果闭环裂缝把时间线回卷到起点，带着时间晶体进入下一周目，周目越来越快
 
 - **[17-0 Football](https://17-0football.com/)** — 开发者 fisher-byte · 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-07 · [详情页](https://indiemaker.cn/p/17-0-football.html)
   英文浏览器橄榄球选秀小游戏，组建 9 槽阵容模拟 17 周赛季、冲击 17-0 全胜，每日挑战共用 seed 冲排行榜，无需注册

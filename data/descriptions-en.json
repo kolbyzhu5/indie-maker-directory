@@ -12422,5 +12422,69 @@
  "custom-20261010-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-10"
+ },
+ "custom-20261011-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-11"
+ },
+ "main-20261010-tangsirongit-launchlist": {
+  "descEn": "A community-voted weekly launch for AI and superintelligence builders",
+  "at": "2026-10-11"
+ },
+ "main-20261010-endnone-clickpulse": {
+  "descEn": "Free offline keyboard and mouse activity statistics tool, supports macOS and Windows, uses keyboard heat map, activity calendar and mini floating window to display input habits. The data is saved locally and does not record input text.",
+  "at": "2026-10-11"
+ },
+ "main-20261010-fsh114514-门外谈-menwai-tan": {
+  "descEn": "The AI ​​thinker debate venue distills more than 26 thinkers into SKILL.md personalities. It can be used for single-person dialogue or round tables for multiple thinkers to take turns to compete; casual/serious/top three levels control the intensity of answers, and the atmosphere will be automatically upgraded. If you encounter something you don’t understand, search online before answering; it supports bringing your own API Key, and also has free channels within the site.",
+  "at": "2026-10-11"
+ },
+ "main-20261010-weidacn-vidu-q4": {
+  "descEn": "AI short video generator, select audited non-human scene presets and fixed scene motion to generate 3–16 second silent short videos, 540p to 4K, without prompts or uploading footage",
+  "at": "2026-10-11"
+ },
+ "main-20261010-weidacn-synthid-detector": {
+  "descEn": "SynthID watermark detection tool, upload an image to read the Content Credentials signature status and AI metadata, and determine whether Google or OpenAI has written the SynthID watermark; the basic detection is free and does not require registration, and the optional AI visual analysis consumes a per-image quota",
+  "at": "2026-10-11"
+ },
+ "main-20261010-jamailar-leanfps": {
+  "descEn": "Windows game optimization and frame rate measurement tool, automatically identifies running games and configures system settings by game and type, recording average FPS, 1% low and session history; each setting can be revoked individually, temporary session changes are restored after exiting, no game files and memory are modified, no in-game overlay is injected, and Defender and firewall are not turned off; developed by Rust + egui, the free version includes game recognition, frame rate measurement and 5 optimizations, Pro early bird price is $19 one-time ($29 later)",
+  "at": "2026-10-11"
+ },
+ "main-20261010-jonathanowentj-阿军图解产业": {
+  "descEn": "Chinese industry illustration knowledge base, 55 free issues of full text covering 7 fields: AI and computing power, semiconductors and electronics, new energy and energy storage, power and equipment, advanced materials, medicine and life sciences, high-end equipment, and 7 special topics; complete high-definition illustrations need to be logged in to redeem",
+  "at": "2026-10-11"
+ },
+ "main-20261010-jonathanowentj-resumeplot-ai": {
+  "descEn": "Chinese-English bilingual AI resume editor, import PDF, DOCX or text and sort out real experiences one by one, adjust the content according to the target position and export searchable PDF; basic editing is free, AI rewriting requires login, free quota included",
+  "at": "2026-10-11"
+ },
+ "main-20261010-jonathanowentj-subatlas-订阅图谱": {
+  "descEn": "AI subscription price comparison database, including 63 products, compares public quotations according to specifications, regions, subscription cycles and delivery methods, retains sources, update times and historical price trends, and supports setting prices and expiration reminders; the site only collects data and does not sell subscriptions",
+  "at": "2026-10-11"
+ },
+ "main-20261010-littlepig-zzf-rumpelstiltskin-ai-video": {
+  "descEn": "AI face-swapping dance video generator, upload one portrait to replace the tiptoe dancer, or upload two portraits to replace the dancer and girl respectively. The scene, lens and dance movements of the original reference video remain unchanged; built-in reference dance, no need to write prompt words, supports 480P / 720P, outputs MP4 of about 12.7 seconds with the original reference audio - generation requires logging in to purchase points, one-time payment starting from $9.90, no subscription required",
+  "at": "2026-10-11"
+ },
+ "main-20261010-yisonlee888-toolstack": {
+  "descEn": "Free online toolbox, a collection of 32 ready-to-use daily gadgets (image compression and cropping, JPG/PNG/WebP/HEIC format conversion, color selection and conversion, QR code and password generation, word count, BMI/tip/discount calculator, etc.), all run locally in the browser, no registration is required, no files are uploaded, and the interface supports 7 languages",
+  "at": "2026-10-11"
+ },
+ "programmer-20261010-marchbeta2087-梦溪畅谈": {
+  "descEn": "A self-deployable LLM chat web application that supports multi-model and multi-API Key public and private dual-track management and scheduling, six-dimensional current limiting, plug-in system, conversation encryption and blind index search, audit logs and customizable interfaces",
+  "at": "2026-10-11"
+ },
+ "programmer-20261010-ylv01-promptharbor": {
+  "descEn": "Describe the task in one sentence and recommend the most suitable model based on model capabilities and community feedback. Complex projects can split tasks and generate cross-model collaboration prompts, covering Claude Opus 5.5, GPT-6.1 Sol, etc.",
+  "at": "2026-10-11"
+ },
+ "programmer-20261010-shaguocgl-buffterm": {
+  "descEn": "SSH/SFTP desktop management tool supported by AI Agent, natural language operation and maintenance server; MCP service can be exposed externally for other AI tools to call (macOS/Windows, MIT) - [Official website](https://shaguocgl.github.io/buff-term-site/)",
+  "at": "2026-10-11"
+ },
+ "game-20261010-marchbeta2087-失控-ai-增量": {
+  "descEn": "An incremental game with the theme of \"Out-of-control AI swallows the entire universe\", it starts to invest in research and development on UTC 2028-01-01, accelerates expansion until it exhausts the resources of the observable universe, then tears open the cracks in the closed causal loop and rolls the timeline back to the starting point, taking the time crystal with it to enter the next week, which is getting faster and faster",
+  "at": "2026-10-11"
  }
 }

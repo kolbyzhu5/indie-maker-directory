@@ -4,29 +4,272 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-10T01:45:20.542Z",
+  "generatedAt": "2026-10-11T01:00:45.055Z",
   "counts": {
-    "total": 3099,
-    "main": 2602,
-    "programmer": 359,
-    "game": 138,
+    "total": 3114,
+    "main": 2613,
+    "programmer": 362,
+    "game": 139,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 967,
-    "效率工具": 444,
-    "浏览器扩展": 305,
-    "免费工具": 538,
-    "文档办公": 285,
-    "开发工具": 583,
-    "音视频": 503,
+    "AI 工具": 979,
+    "效率工具": 449,
+    "开发工具": 588,
+    "免费工具": 545,
+    "图片工具": 535,
+    "游戏娱乐": 172,
+    "文档办公": 286,
+    "音视频": 504,
+    "浏览器扩展": 307,
+    "社交社区": 115,
     "教育学习": 170,
-    "生活服务": 99,
-    "游戏娱乐": 170,
-    "图片工具": 533,
-    "社交社区": 113
+    "生活服务": 99
   },
   "projects": [
+    {
+      "id": "main-20261010-tangsirongit-launchlist",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "leo",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TangSirOnGit"
+        }
+      ],
+      "name": "Launchlist",
+      "url": "https://launchlist.si",
+      "status": "online",
+      "description": "A community-voted weekly launch for AI and superintelligence builders",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-endnone-clickpulse",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "Wuhan Zhang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/endNone"
+        }
+      ],
+      "name": "ClickPulse",
+      "url": "https://github.com/endNone/ClickPulse",
+      "status": "online",
+      "description": "免费的离线键鼠活动统计工具，支持 macOS 和 Windows，以键盘热力图、活动日历和迷你悬浮窗口展示输入习惯，数据保存在本机，不记录输入文本",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-fsh114514-门外谈-menwai-tan",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "fsh114514",
+      "city": "江苏",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fsh114514"
+        }
+      ],
+      "name": "门外谈 Menwai Tan",
+      "url": "https://outgate.chat",
+      "status": "online",
+      "description": "AI 思想家辩论场，把 26 位以上思想家蒸馏成 SKILL.md 人格，可单人对谈也可开圆桌让多位思想家轮流交锋；随口／较真／上头三档控制回答火候，气氛上来自动升级，遇到不懂的梗先联网检索再回答；支持自带 API Key，也留了站内免费通道",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/fsh114514/menwaitan"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-weidacn-vidu-q4",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Vidu Q4",
+      "url": "https://viduq4.org",
+      "status": "online",
+      "description": "AI 短片生成器，选已审核的非人类场景预设与固定场景运动即可生成 3–16 秒静音短片，540p 至 4K，无需提示词或上传素材",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-weidacn-synthid-detector",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "SynthID Detector",
+      "url": "https://synthiddetector.pro",
+      "status": "online",
+      "description": "SynthID 水印检测工具，上传图片即可读取 Content Credentials 签名状态与 AI 元数据，判断 Google 或 OpenAI 是否写入 SynthID 水印；基础检测免费且无需注册，可选的 AI 视觉分析按张消耗额度",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-jamailar-leanfps",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "Jamailar",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jamailar"
+        }
+      ],
+      "name": "LeanFPS",
+      "url": "https://leanfps.com/",
+      "status": "online",
+      "description": "Windows 游戏优化与帧率测量工具，自动识别运行中的游戏并按游戏与类型配置系统设置，记录平均 FPS、1% low 与会话历史；每项设置可单独撤销，临时会话改动退出后还原，不修改游戏文件与内存、不注入游戏内覆盖层、不关闭 Defender 与防火墙；Rust + egui 开发，免费版含游戏识别、帧率测量和 5 项优化，Pro 早鸟价 $19 一次性（之后 $29）",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/Jamailar/leanfps"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-jonathanowentj-阿军图解产业",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "JonathanOwenTJ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "name": "阿军图解产业",
+      "url": "https://ajun-industry.packscena.com/",
+      "status": "online",
+      "description": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-jonathanowentj-resumeplot-ai",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "JonathanOwenTJ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "name": "ResumePlot AI",
+      "url": "https://resumeplot.com/",
+      "status": "online",
+      "description": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-jonathanowentj-subatlas-订阅图谱",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "JonathanOwenTJ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "name": "SubAtlas 订阅图谱",
+      "url": "https://subatlas.packscena.com/",
+      "status": "online",
+      "description": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-littlepig-zzf-rumpelstiltskin-ai-video",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "littlePig-zzf",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/littlePig-zzf"
+        }
+      ],
+      "name": "Rumpelstiltskin AI Video",
+      "url": "https://airumpelstiltskin.org",
+      "status": "online",
+      "description": "AI 换脸跳舞视频生成器，上传一张肖像替换踮脚舞者、或上传两张分别替换舞者与少女，原参考视频的场景、镜头和舞蹈动作保持不变；内置参考舞蹈，无需编写提示词，支持 480P / 720P，输出约 12.7 秒的 MP4 并带原参考音频 — 生成需登录购买积分，$9.90 起一次性付费，无需订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261010-vadaski-九曜印占",
       "edition": "main",
@@ -49,6 +292,84 @@
         "效率工具",
         "浏览器扩展",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-yisonlee888-toolstack",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "yisonlee888",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yisonlee888"
+        }
+      ],
+      "name": "ToolStack",
+      "url": "https://tools.mindutil.com/",
+      "status": "online",
+      "description": "免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261010-marchbeta2087-梦溪畅谈",
+      "edition": "programmer",
+      "addedAt": "2026-10-10",
+      "maker": "MarchBeta2087",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MarchBeta2087"
+        }
+      ],
+      "name": "梦溪畅谈",
+      "url": "https://github.com/MarchBeta2087/mengxi-llm-chat",
+      "status": "online",
+      "description": "可自部署的 LLM 聊天 Web 应用，支持多模型与多 API Key 公私双轨管理调度、六维限流、插件系统、对话加密与盲索引搜索、审计日志与可定制界面",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/MarchBeta2087/mengxi-llm-chat"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "浏览器扩展",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261010-ylv01-promptharbor",
+      "edition": "programmer",
+      "addedAt": "2026-10-10",
+      "maker": "ylv01",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ylv01"
+        }
+      ],
+      "name": "PromptHarbor",
+      "url": "https://github.com/ylv01/prompt-harbor",
+      "status": "online",
+      "description": "一句话描述任务，根据模型能力与社区反馈推荐最适合的模型。复杂项目可拆分任务并生成跨模型协作提示词，覆盖 Claude Opus 5.5、GPT-6.1 Sol 等",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "社交社区"
       ],
       "source": "upstream"
     },
@@ -79,6 +400,64 @@
         "文档办公",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261010-shaguocgl-buffterm",
+      "edition": "programmer",
+      "addedAt": "2026-10-10",
+      "maker": "shaguocgl",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shaguocgl"
+        }
+      ],
+      "name": "buffTerm",
+      "url": "https://github.com/shaguocgl/buff-term",
+      "status": "online",
+      "description": "AI Agent 加持的 SSH/SFTP 桌面管理工具，自然语言运维服务器；可对外暴露 MCP 服务供其他 AI 工具调用（macOS/Windows，MIT）- [官网](https://shaguocgl.github.io/buff-term-site/)",
+      "extraLinks": [
+        {
+          "label": "官网",
+          "url": "https://shaguocgl.github.io/buff-term-site/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261010-marchbeta2087-失控-ai-增量",
+      "edition": "game",
+      "addedAt": "2026-10-10",
+      "maker": "MarchBeta2087",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MarchBeta2087"
+        }
+      ],
+      "name": "失控 AI 增量",
+      "url": "https://github.com/MarchBeta2087/uncontrolled-ai-incremental",
+      "status": "online",
+      "description": "以\"失控 AI 吞掉整个宇宙\"为主题的增量游戏，从 UTC 2028-01-01 起步投入研发、加速扩张直至耗尽可观测宇宙的资源，再撕开因果闭环裂缝把时间线回卷到起点，带着时间晶体进入下一周目，周目越来越快",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/MarchBeta2087/uncontrolled-ai-incremental"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "游戏娱乐"
       ],
       "source": "upstream"
     },
@@ -6929,7 +7308,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261010-0",
+      "id": "custom-20261011-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
