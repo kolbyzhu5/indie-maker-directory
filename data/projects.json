@@ -4,29 +4,243 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-11T01:00:45.055Z",
+  "generatedAt": "2026-10-11T16:16:17.043Z",
   "counts": {
-    "total": 3114,
-    "main": 2613,
-    "programmer": 362,
+    "total": 3122,
+    "main": 2618,
+    "programmer": 365,
     "game": 139,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 979,
-    "效率工具": 449,
-    "开发工具": 588,
-    "免费工具": 545,
-    "图片工具": 535,
+    "AI 工具": 985,
+    "图片工具": 538,
+    "音视频": 506,
+    "浏览器扩展": 308,
+    "开发工具": 591,
+    "免费工具": 548,
+    "文档办公": 288,
+    "效率工具": 450,
     "游戏娱乐": 172,
-    "文档办公": 286,
-    "音视频": 504,
-    "浏览器扩展": 307,
     "社交社区": 115,
     "教育学习": 170,
     "生活服务": 99
   },
   "projects": [
+    {
+      "id": "main-20261011-jamailar-beav",
+      "edition": "main",
+      "addedAt": "2026-10-11",
+      "maker": "Jamailar",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jamailar"
+        }
+      ],
+      "name": "Beav",
+      "url": "https://github.com/Jamailar/Beav",
+      "status": "online",
+      "description": "为不同社媒账号分别整理素材、稿件和长期偏好，让 AI 检索引用资料并辅助写稿；复用带文字变量和参考图的模板，为小红书等平台制作不同选题的图文 — 本地优先 AI 社媒工作台，素材库定位类似面向社媒和 AI 的 Eagle",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/Jamailar/Beav#readme"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261011-ouy35521-beep-ai-burning-bridges",
+      "edition": "main",
+      "addedAt": "2026-10-11",
+      "maker": "ouy35521-beep",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ouy35521-beep"
+        }
+      ],
+      "name": "AI Burning Bridges",
+      "url": "https://aiburningbridges.app",
+      "status": "online",
+      "description": "上传一张人物或角色图片，即可让图中主体出演内置 Drake「Burning Bridges」派对场景的舞蹈视频，模板自带表演动作、场景与配乐；生成前可预览参考表演、选择视频时长并查看扣费，完成后可下载带配乐的 MP4，手机与电脑浏览器都能用 — 可选 Seedance 2.0 Fast / 2.0 / 2.5 三档生成模型（每 12 秒视频分别 17 / 20 / 37 积分），积分包一次性购买、无需订阅；目前仅内置固定表演模板，不支持自定义动作、场景或音乐",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261011-hwlvipone-ai-rumpelstiltskin",
+      "edition": "main",
+      "addedAt": "2026-10-11",
+      "maker": "hwlvipone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "name": "AI Rumpelstiltskin",
+      "url": "https://airumpelstiltskin.io/",
+      "status": "online",
+      "description": "AI 踮脚舞视频生成器，上传一张人物照片（可选第二张用于少女角色）即可生成固定的 9 秒 16:9 横屏视频，支持 480P / 720P / 1080P，无需编写提示词 — 按积分计费（480P 每秒 5 积分、720P 11 积分、1080P 25 积分），$9.99 起一次性付费，无需订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261011-peaceful-world-x-arxiv-hub-论桥",
+      "edition": "main",
+      "addedAt": "2026-10-11",
+      "maker": "Peaceful-World-X",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Peaceful-World-X"
+        }
+      ],
+      "name": "ArXiv Hub · 论桥",
+      "url": "https://arxivhub.github.io/",
+      "status": "online",
+      "description": "输入 arXiv ID 或论文链接，集中跳转到原文、翻译、摘要、代码、引用与学术讨论等常用工具，免去反复复制标题或切换网站；另提供油猴脚本，可在 arXiv 论文页直接调用快捷入口 — 免费开源网页工具",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/Peaceful-World-X/ArXivHub"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261011-pbhhdf-kai-开gptai",
+      "edition": "main",
+      "addedAt": "2026-10-11",
+      "maker": "pbhhdf",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pbhhdf"
+        }
+      ],
+      "name": "KAI · 开gptAI",
+      "url": "https://kaigpt.ai/",
+      "status": "online",
+      "description": "ChatGPT 会员人民币代开服务，可选 Plus、Pro100、Pro200、Pro500 四档，支付宝扫码下单后凭卡密在 kaigpt.pro 兑换页提交一次 ChatGPT Session 自动开通，不索取账号密码或验证码；凭订单号加下单联系方式查询进度，失败订单进人工复核、原路退款；另有免费的 Plus / Pro 套餐选择器；独立第三方，非 OpenAI 官方",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://kaigpt.ai/guide/purchase-and-track"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261011-ls-open-md-to-word",
+      "edition": "programmer",
+      "addedAt": "2026-10-11",
+      "maker": "ls-open",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ls-open"
+        }
+      ],
+      "name": "md-to-word",
+      "url": "https://github.com/ls-open/md-to-word",
+      "status": "online",
+      "description": "专为学术论文与企业研报打造的 Markdown 转 Word 确定性排版引擎与 AI Agent Skill。坚持内容与排版解耦，实现带编号公式绝对居中靠右、学术三线表跨页重复表头、双节独立页码、GB/T 7714-2015 参考文献与三道自动化质量门禁；导出的 docx 固定时间戳保证 Git 字节级一致；原生适配 Claude Code / Cursor / Windsurf，可一句话全流程代办交付",
+      "extraLinks": [
+        {
+          "label": "源码仓库",
+          "url": "https://github.com/ls-open/md-to-word"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261011-gptzzz-gptzzz",
+      "edition": "programmer",
+      "addedAt": "2026-10-11",
+      "maker": "GPTZZZ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/gptzzz"
+        }
+      ],
+      "name": "GPTZZZ",
+      "url": "https://gptzzz.ai/",
+      "status": "online",
+      "description": "AI API 中转站，一个账号、一份余额调用 GPT、Claude、Gemini、DeepSeek、Grok、Qwen、MiMo 共 48 个模型；OpenAI 兼容 Base URL 填 `https://gptzzz.ai/v1`（OpenAI 分组支持 Chat Completions 与 Responses，Codex CLI 可接），Claude 分组走 Claude Messages 接口 `/v1/messages`；支付宝充值 ¥1 = $1、单笔 ¥10 起、按量计费，未用完余额可退；个人运营的独立第三方服务，非模型厂商官方",
+      "extraLinks": [
+        {
+          "label": "接入文档",
+          "url": "https://gptzzz.ai/docs/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261011-gptzzz-openai-compatible-checker",
+      "edition": "programmer",
+      "addedAt": "2026-10-11",
+      "maker": "GPTZZZ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/gptzzz"
+        }
+      ],
+      "name": "openai-compatible-checker",
+      "url": "https://github.com/gptzzz/openai-compatible-checker",
+      "status": "online",
+      "description": "OpenAI 兼容接口体检 CLI，一条命令检查任意中转站、自建网关或本地推理服务的模型列表、SSE 流式与 usage 块、工具调用、JSON 模式、Responses API（决定能否接 Codex）、图片输入、错误格式和首字延迟，输出脱敏的 JSON / Markdown 报告；单文件、只依赖 Python 标准库，也能作为 GitHub Action 定时跑；只检查协议兼容性，不证明模型真伪，MIT 开源",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261010-tangsirongit-launchlist",
       "edition": "main",
@@ -7308,7 +7522,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261011-0",
+      "id": "custom-20261012-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

@@ -12486,5 +12486,41 @@
  "game-20261010-marchbeta2087-失控-ai-增量": {
   "descEn": "An incremental game with the theme of \"Out-of-control AI swallows the entire universe\", it starts to invest in research and development on UTC 2028-01-01, accelerates expansion until it exhausts the resources of the observable universe, then tears open the cracks in the closed causal loop and rolls the timeline back to the starting point, taking the time crystal with it to enter the next week, which is getting faster and faster",
   "at": "2026-10-11"
+ },
+ "main-20261011-jamailar-beav": {
+  "descEn": "Organize materials, manuscripts and long-term preferences for different social media accounts, and let AI retrieve citation materials and assist in writing; reuse templates with text variables and reference images to produce graphics and texts of different topics for platforms such as Xiaohongshu - a local-first AI social media workbench, and the positioning of the material library is similar to Eagle for social media and AI",
+  "at": "2026-10-11"
+ },
+ "main-20261011-ouy35521-beep-ai-burning-bridges": {
+  "descEn": "Upload a picture of a person or character, and the subject in the picture will star in a dance video with a built-in Drake \"Burning Bridges\" party scene. The template comes with performance moves, scenes and soundtracks. Before generation, you can preview the reference performance, select the video duration and check the deduction. After completion, you can download the MP4 with the soundtrack, which can be used on mobile phones and computer browsers - optional Seedance 2.0 Fast / 2.0 / 2.5 three-speed generation model (17 / 20 / 37 per 12 seconds of video respectively) Points), the points package is a one-time purchase, no subscription required; currently only built-in fixed performance templates do not support custom actions, scenes or music",
+  "at": "2026-10-11"
+ },
+ "main-20261011-hwlvipone-ai-rumpelstiltskin": {
+  "descEn": "AI tiptoe dance video generator can generate a fixed 9-second 16:9 horizontal screen video by uploading a photo of a character (optional second one for girl character), supports 480P / 720P / 1080P, no need to write prompt words - billed by points (5 points per second for 480P, 11 points for 720P, 25 points for 1080P), one-time payment starting from $9.99, no subscription required",
+  "at": "2026-10-11"
+ },
+ "main-20261011-peaceful-world-x-arxiv-hub-论桥": {
+  "descEn": "Enter the arXiv ID or paper link to jump to common tools such as the original text, translation, abstract, code, citation, and academic discussion, eliminating the need to repeatedly copy titles or switch websites; an Oil Monkey script is also provided to directly call the shortcut entry on the arXiv paper page - a free open source web tool",
+  "at": "2026-10-11"
+ },
+ "main-20261011-pbhhdf-kai-开gptai": {
+  "descEn": "ChatGPT member RMB issuance service is available in four levels: Plus, Pro100, Pro200, and Pro500. After placing an order with Alipay, scan the QR code and submit the card number on the kaigpt.pro redemption page. The ChatGPT session will be automatically opened without requiring an account password or verification code. Use the order number and order contact information to check the progress. Failed orders will be manually reviewed and refunded in the original way. There is also a free Plus / Pro package selector; an independent third party, not OpenAI official",
+  "at": "2026-10-11"
+ },
+ "programmer-20261011-ls-open-md-to-word": {
+  "descEn": "Markdown to Word deterministic typesetting engine and AI Agent Skill specially built for academic papers and corporate research reports. Adhering to the decoupling of content and typesetting, the numbered formulas are absolutely centered and to the right, academic three-line tables have repeated headers across pages, double sections have independent page numbers, GB/T 7714-2015 references and three automated quality gates; the exported docx fixed timestamp ensures Git byte-level consistency; native adaptation of Claude Code / Cursor / Windsurf enables full-process delivery in one sentence",
+  "at": "2026-10-11"
+ },
+ "programmer-20261011-gptzzz-gptzzz": {
+  "descEn": "AI API transfer station, one account and one balance call GPT, Claude, Gemini, DeepSeek, Grok, Qwen, MiMo, a total of 48 models; OpenAI compatible Base URL fill in `https://gptzzz.ai/v1` (OpenAI group supports Chat Completions and Responses, Codex CLI can be connected), Claude group uses Claude Messages interface `/v1/messages`; Alipay recharge ¥1 = $1, single transaction starts from ¥10, billed by volume, unused balance is refundable; independent third-party service operated by individuals, not official from the model manufacturer",
+  "at": "2026-10-11"
+ },
+ "programmer-20261011-gptzzz-openai-compatible-checker": {
+  "descEn": "OpenAI compatible interface physical examination CLI, one command to check the model list of any transfer station, self-built gateway or local inference service, SSE streaming and usage blocks, tool calls, JSON mode, Responses API (to determine whether it can be connected to Codex), image input, error format and first word delay, output desensitized JSON / Markdown report; single file, only relies on the Python standard library, and can also be used as a GitHub Action Run regularly; only checks protocol compatibility, does not prove the authenticity of the model, MIT open source",
+  "at": "2026-10-11"
+ },
+ "custom-20261012-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-11"
  }
 }
