@@ -337,6 +337,45 @@ function analyze(p) {
   // 长窗口（如 7 天）会混入历史噪音，访问/访客 严重偏离正常时该比率没有意义，宁可不给数
   const ratioUsable = visitsPerVisitor <= 2.5;
 
+  // ── 会话画像 + outbound 双口径（2026-10-08 新增）─────────────
+  // 为什么加：10/6 发现「剔除最大会话」会误伤真实重度用户（该日美国单会话 22 分钟 / 10 浏览 /
+  // 7 个路径 / 9 次 outbound，明显是真人）→ 单一「剔最大会话」口径会系统性【低估】干净比率。
+  // 改为同时给【保守下界（剔除最大会话）】与【上界（不剔除）】，并附最大会话画像，让判读有据可依。
+  const prof = {};
+  const secSeen = {};
+  evList
+    .filter((ev) => String(ev.eventType) === "1")
+    .forEach((ev) => {
+      const k = ev.sessionId;
+      if (!prof[k]) prof[k] = { pv: 0, paths: new Set(), firstAt: ev.createdAt, lastAt: ev.createdAt, dupExtra: 0 };
+      const q = prof[k];
+      q.pv += 1;
+      q.paths.add(ev.urlPath);
+      if (ev.createdAt < q.firstAt) q.firstAt = ev.createdAt;
+      if (ev.createdAt > q.lastAt) q.lastAt = ev.createdAt;
+      // 同会话 + 同 URL + 同秒的重复上报（口径噪声），按会话归集
+      const sk = k + "|" + ev.urlPath + "|" + ev.createdAt;
+      if (secSeen[sk]) q.dupExtra += 1;
+      secSeen[sk] = true;
+    });
+  // 上界口径：不剔除任何会话
+  const obAllRatio = ratioUsable ? +((outboundEv.length / Math.max(s.visits, 1)) * 100).toFixed(0) : null;
+  // 最大 outbound 会话的画像 → 用于判断「该会话像真人还是像自测/自动化」
+  const topProfile = (() => {
+    if (!obTop) return null;
+    const q = prof[obTop[0]];
+    if (!q) return null;
+    const spanMin = Math.max(0, Math.round((new Date(q.lastAt) - new Date(q.firstAt)) / 60000));
+    return {
+      pv: q.pv,
+      distinctPaths: q.paths.size,
+      spanMin,
+      dupExtra: q.dupExtra,
+      // 自测/自动化特征：只碰 1–2 个路径，或单会话跨度 >6 小时（挂着的自测标签页）
+      selfTestSuspect: q.paths.size <= 2 || spanMin > 360
+    };
+  })();
+
   const topSessions = sessList.slice().sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 5);
   const domSession = topSessions[0] || null;
   const domShare = s.pageviews && domSession ? (domSession.views / s.pageviews) * 100 : 0;
@@ -358,8 +397,15 @@ function analyze(p) {
   // 机制：Umami 只认 cookie 里的 sessionId，无共享状态的并行请求每次都新建 session，
   // 于是「并发抓取 / 批量打开链接」在报表里表现为【访客数暴涨】，而不是【浏览数暴涨】。
   // 原告警只盯「单会话占 pageview >50%」，对这种反向噪音完全盲 —— 故补上。
-  const BURST_WINDOW_MS = 5000;
-  const BURST_MIN_SESSIONS = 4;
+  // 2026-10-09 升级为【多尺度】：5 秒窗口只能抓「瞬间并发」，抓不到「中速批量」——
+  // 10/9 实测 22:41:23–22:42:26 共 63 秒内冒出 7 个新会话（US·Android ×5 城市各异 + FR ×2），
+  // 单页落 `/`，是典型的代理池/批量打开，但 5 秒滑窗内最多只凑到 2 个 → 原检测器完全漏报。
+  // 故加第二档 60 秒 / ≥6 个全新会话（本站真人基线仅 7–29 访客/天，60 秒 6 个新会话不可能是自然流量）。
+  const BURST_SCALES = [
+    { windowMs: 5000, minSessions: 4, label: "瞬时" },
+    { windowMs: 60000, minSessions: 6, label: "中速" }
+  ];
+  const BURST_MIN_SESSIONS = BURST_SCALES[0].minSessions;
   const pvEvents = evList
     .filter((e) => String(e.eventType) === "1")
     .slice()
@@ -369,42 +415,89 @@ function analyze(p) {
 
   const burstSessions = new Set();
   const burstClusters = [];
-  for (let i = 0; i < pvEvents.length; i++) {
-    const t0 = new Date(pvEvents[i].createdAt).getTime();
-    const win = pvEvents.filter((e) => {
-      const t = new Date(e.createdAt).getTime();
-      return t >= t0 && t < t0 + BURST_WINDOW_MS;
-    });
-    const ids = [...new Set(win.map((e) => e.sessionId))];
-    const fresh = ids.filter((id) => !burstSessions.has(id));
-    // 只在「本窗口带来了 ≥4 个全新会话」时开启新簇，避免同一簇被反复计入
-    if (fresh.length >= BURST_MIN_SESSIONS) {
-      const meta = fresh.map((id) => sessList.find((x) => x.id === id)).filter(Boolean);
-      burstClusters.push({
-        at: pvEvents[i].createdAt,
-        sessions: fresh.length,
-        events: win.filter((e) => fresh.includes(e.sessionId)).length,
-        countries: [...new Set(meta.map((x) => COUNTRY_LABEL[x.country] || x.country))],
-        devices: [...new Set(meta.map((x) => DEVICE_LABEL[x.device] || x.device))],
-        noCity: meta.filter((x) => !x.city).length,
-        noCityTotal: meta.length,
-        paths: [...new Set(win.filter((e) => fresh.includes(e.sessionId)).map((e) => e.urlPath))].slice(0, 3)
+  for (const scale of BURST_SCALES) {
+    for (let i = 0; i < pvEvents.length; i++) {
+      const t0 = new Date(pvEvents[i].createdAt).getTime();
+      const win = pvEvents.filter((e) => {
+        const t = new Date(e.createdAt).getTime();
+        return t >= t0 && t < t0 + scale.windowMs;
       });
-      fresh.forEach((id) => burstSessions.add(id));
+      const ids = [...new Set(win.map((e) => e.sessionId))];
+      const fresh = ids.filter((id) => !burstSessions.has(id));
+      // 只在「本窗口带来了 ≥minSessions 个全新会话」时开启新簇，避免同一簇被反复计入
+      if (fresh.length >= scale.minSessions) {
+        const meta = fresh.map((id) => sessList.find((x) => x.id === id)).filter(Boolean);
+        const freshEv = win.filter((e) => fresh.includes(e.sessionId));
+        burstClusters.push({
+          scale: scale.label,
+          windowSeconds: scale.windowMs / 1000,
+          at: pvEvents[i].createdAt,
+          sessions: fresh.length,
+          events: freshEv.length,
+          countries: [...new Set(meta.map((x) => COUNTRY_LABEL[x.country] || x.country))],
+          devices: [...new Set(meta.map((x) => DEVICE_LABEL[x.device] || x.device))],
+          multiCountry: new Set(meta.map((x) => x.country)).size > 1,
+          singlePageOnly: fresh.length > 0 && fresh.every((id) => (viewsBySession[id] || 0) <= 1),
+          noCity: meta.filter((x) => !x.city).length,
+          noCityTotal: meta.length,
+          paths: [...new Set(freshEv.map((e) => e.urlPath))].slice(0, 3)
+        });
+        fresh.forEach((id) => burstSessions.add(id));
+      }
     }
   }
   const burstVisitors = burstSessions.size;
   const burstViews = [...burstSessions].reduce((a, id) => a + (viewsBySession[id] || 0), 0);
   const burstVisits = burstVisitors; // 每个爆发簇会话在实测中均为 1 次访问
   const burstShare = s.visitors ? (burstVisitors / s.visitors) * 100 : 0;
+
+  // 2026-10-10 新增：亚阈值「近失」扫描（只报告，不剔除、不影响 detected / clean）。
+  // 实测 10/10 09:58:11–09:58:22 有 6 个 CN 会话（其中 5 个 sessionId 落在 11 秒内）全落 `/`、零停留，
+  // 但 60s 滑窗内最多只凑到 5 个 < 6 → 检测器判「无爆发簇」，报表会写「守卫生效」，属**假阴性**。
+  // 60s/≥4 只作提示用；**不要**直接拿它减访客（会误伤真实的短时小簇，例如同一事件的分享点击）。
+  const NEAR_MISS = { windowMs: 60000, minSessions: 4 };
+  let nearMiss = null;
+  if (!(burstVisitors >= BURST_MIN_SESSIONS)) {
+    for (let i = 0; i < pvEvents.length; i++) {
+      const t0 = new Date(pvEvents[i].createdAt).getTime();
+      const win = pvEvents.filter((e) => {
+        const t = new Date(e.createdAt).getTime();
+        return t >= t0 && t < t0 + NEAR_MISS.windowMs;
+      });
+      const ids = [...new Set(win.map((e) => e.sessionId))];
+      if (ids.length < NEAR_MISS.minSessions) continue;
+      const meta = ids.map((id) => sessList.find((x) => x.id === id)).filter(Boolean);
+      const evs = win.filter((e) => ids.includes(e.sessionId));
+      const cand = {
+        windowSeconds: NEAR_MISS.windowMs / 1000,
+        minSessions: NEAR_MISS.minSessions,
+        at: pvEvents[i].createdAt,
+        sessions: ids.length,
+        events: evs.length,
+        spanSeconds: Math.round(
+          (Math.max(...win.map((e) => new Date(e.createdAt).getTime())) - t0) / 1000
+        ),
+        countries: [...new Set(meta.map((x) => COUNTRY_LABEL[x.country] || x.country))],
+        multiCountry: new Set(meta.map((x) => x.country)).size > 1,
+        singlePageOnly: ids.every((id) => (viewsBySession[id] || 0) <= 1),
+        noCity: meta.filter((x) => !x.city).length,
+        noCityTotal: meta.length,
+        paths: [...new Set(evs.map((e) => e.urlPath))].slice(0, 3)
+      };
+      if (!nearMiss || cand.sessions > nearMiss.sessions) nearMiss = cand;
+    }
+  }
+
   const burst = {
     detected: burstVisitors >= BURST_MIN_SESSIONS,
+    nearMiss,
     clusters: burstClusters.length,
     visitors: burstVisitors,
     visits: burstVisits,
     views: burstViews,
     share: +burstShare.toFixed(1),
-    windowSeconds: BURST_WINDOW_MS / 1000,
+    scales: BURST_SCALES.map((x) => ({ windowSeconds: x.windowMs / 1000, minSessions: x.minSessions, label: x.label })),
+    windowSeconds: BURST_SCALES[0].windowMs / 1000,
     minSessions: BURST_MIN_SESSIONS,
     detail: burstClusters,
     clean: {
@@ -426,7 +519,10 @@ function analyze(p) {
       topSession: obTop ? obTop[0] : null,
       clean: obClean,
       ratioUsable,
-      cleanRatio: ratioUsable ? +((obClean / visitsClean) * 100).toFixed(0) : null
+      cleanRatio: ratioUsable ? +((obClean / visitsClean) * 100).toFixed(0) : null,
+      // 2026-10-08 新增：上界口径（不剔除）与最大会话画像，避免单一剔除口径系统性低估
+      allRatio: obAllRatio,
+      topProfile
     },
     dominated: domSession
       ? {
@@ -508,10 +604,11 @@ function analyze(p) {
 
   // 并发爆发：与「单会话刷量」相反，它抬高的是访客/访问数而非浏览数
   if (events.burst.detected) {
+    const scalesTxt = events.burst.scales.map((x) => `${x.windowSeconds}s/≥${x.minSessions}`).join(" + ");
     note(
       "warn",
-      `并发会话爆发：${events.burst.clusters} 簇 / ${events.burst.visitors} 个会话在 ${events.burst.windowSeconds} 秒窗口内并发` +
-        `（占访客 ${events.burst.share}%）→ 访客/访问数被自动化流量抬高；` +
+      `并发会话爆发：${events.burst.clusters} 簇 / ${events.burst.visitors} 个会话（判据 ${scalesTxt}）` +
+        `占访客 ${events.burst.share}% → 访客/访问数被自动化流量抬高；` +
         `剔除后访客 ${events.burst.clean.visitors} / 访问 ${events.burst.clean.visits} / 浏览 ${events.burst.clean.pageviews}`
     );
   }
@@ -670,6 +767,22 @@ function buildEventsSection(a) {
     lines.push(
       `- 判读：干净比率 **>40% → 跳出以「达成离开」为主**（目录站正常）；**<15% → 内页动线有问题**。样本 <50 次访问时只作参考`
     );
+    if (ob.topProfile) {
+      const tp = ob.topProfile;
+      lines.push(
+        `- **双口径区间**：剔除最大会话 = **${ob.cleanRatio}%**（保守下界）↔ 不剔除 = **${ob.allRatio}%**（上界）。` +
+          `真实值在两者之间，谁更接近取决于最大会话是不是真人`
+      );
+      lines.push(
+        `- 最大会话画像：**${tp.pv}** 浏览 / **${tp.distinctPaths}** 个不同路径 / 跨度 **${tp.spanMin}** 分钟 / 同秒重复多出 ${tp.dupExtra} 条 → ` +
+          (tp.selfTestSuspect
+            ? "**具备自测特征**（路径 ≤2 或跨度 >6h）→ 取剔除口径更接近真实"
+            : "**具备真人特征**（多路径 + 短跨度）→ 取不剔除口径更接近真实")
+      );
+      lines.push(
+        `- ⚠️ 若上表另有「单会话占 pageview ≥30%」告警且该会话与最大 outbound 会话**不是同一个**，浏览/停留口径仍不可用`
+      );
+    }
   } else {
     lines.push("- 本窗口没有 outbound 事件");
   }
@@ -696,14 +809,17 @@ function buildEventsSection(a) {
     lines.push("");
     lines.push("### ⚠️ 并发会话爆发（访客数虚增）");
     lines.push("");
+    const scalesTxt = (b.scales || []).map((x) => `${x.label} ${x.windowSeconds}s/≥${x.minSessions}`).join(" ｜ ");
     lines.push(
-      `- **${b.clusters} 簇 / ${b.visitors} 个独立会话**在 **${b.windowSeconds} 秒**窗口内并发出现，` +
-        `占本窗口访客的 **${b.share}%**（判据：${b.windowSeconds} 秒内 ≥${b.minSessions} 个全新 sessionId）`
+      `- **${b.clusters} 簇 / ${b.visitors} 个独立会话**并发出现，` +
+        `占本窗口访客的 **${b.share}%**（判据：${scalesTxt}）`
     );
-    for (const c of b.detail.slice(0, 5)) {
+    for (const c of b.detail.slice(0, 6)) {
       lines.push(
-        `  - ${new Date(c.at).toLocaleString("zh-CN", { timeZone: TZ })} ｜ ${c.sessions} 会话 / ${c.events} 次浏览` +
+        `  - [${c.scale || "瞬时"}] ${new Date(c.at).toLocaleString("zh-CN", { timeZone: TZ })} ｜ ${c.sessions} 会话 / ${c.events} 次浏览` +
           ` ｜ ${c.countries.join("/")} · ${c.devices.join("/")}` +
+          (c.multiCountry ? " ｜ **跨国家/地区**" : "") +
+          (c.singlePageOnly ? " ｜ **全部仅 1 次浏览**" : "") +
           ` ｜ 无城市级地理 ${c.noCity}/${c.noCityTotal}` +
           ` ｜ 落点 ${c.paths.join(" ")}`
       );
@@ -716,15 +832,33 @@ function buildEventsSection(a) {
         " 并发抓取/批量打开在报表里表现为「访客数暴涨」而非「浏览数暴涨」。（2026-09-25 新增，此前对该形态完全盲）"
     );
     lines.push("- → 本窗口的访客/访问数不可直接当真人量级；请以上面的「剔除后」三行为准");
+  } else if (b && b.nearMiss) {
+    const n = b.nearMiss;
+    lines.push("");
+    lines.push("### ⚠️ 亚阈值并发簇（近失，未达剔除门槛）");
+    lines.push("");
+    lines.push(
+      `- ${new Date(n.at).toLocaleString("zh-CN", { timeZone: TZ })} 起 **${n.spanSeconds} 秒内出现 ${n.sessions} 个全新会话**` +
+        `（判据 ${n.windowSeconds}s/≥${n.minSessions}，剔除门槛为 60s/≥6，**本窗口差 ${6 - n.sessions} 个未触发**）`
+    );
+    lines.push(
+      `  - ${n.countries.join("/")}${n.multiCountry ? " ｜ **跨国家/地区**" : ""}` +
+        (n.singlePageOnly ? " ｜ **全部仅 1 次浏览**" : "") +
+        ` ｜ 无城市级地理 ${n.noCity}/${n.noCityTotal}` +
+        ` ｜ 落点 ${n.paths.join(" ")}`
+    );
+    lines.push("- → **只作提示，未从访客数中剔除**。若连续出现，应下调剔除门槛（改 `BURST_SCALES`）。");
   }
   if (e.dup.extra > 0) {
     lines.push("");
     lines.push("### 同秒重复上报");
     lines.push("");
     lines.push(`- 同会话 + 同 URL + 同秒出现多次 pageview：**${e.dup.groups} 组，多出 ${e.dup.extra} 条**`);
-    lines.push("- 已知成因：`app.js` 的 `syncURL()` 每次筛选/搜索都会 `history.replaceState()`，");
+    lines.push("- 历史成因：`app.js` 的 `syncURL()` 每次筛选/搜索都会 `history.replaceState()`，");
     lines.push("  而 Umami 官方脚本对 `pushState`/`replaceState` 挂钩并上报 pageview（URL 变化即记 1 次）");
-    lines.push("- → 首页一次筛选操作会被记成多次浏览；这是**口径问题，不是站点故障**");
+    lines.push("- **已于 2026-10-11 修复**：`syncURL()` 改为调用 `History.prototype.replaceState`（绕过被挂钩的");
+    lines.push("  实例方法），URL 照常更新但不再触发 pageview；筛选行为改由自定义事件 `site-filter` 上报。");
+    lines.push("- → 若此后仍出现同秒重复，属**新成因**，需要重新排查而非归因于筛选");
   }
   return lines.join("\n");
 }
@@ -818,7 +952,7 @@ if (a.overlap?.material) {
 if (a.events?.available) {
   const ob = a.events.outbound;
   console.log(
-    `outbound ${ob.count} 次 / ${ob.sessions} 会话（剔除最大会话后 ${ob.clean} 次${ob.ratioUsable ? ` ≈ 访问 ${ob.cleanRatio}%` : "，比率不可用"}）｜lang-switch ${a.events.langSwitch}`
+    `outbound ${ob.count} 次 / ${ob.sessions} 会话（剔除最大会话后 ${ob.clean} 次${ob.ratioUsable ? ` ≈ 访问 ${ob.cleanRatio}%` : "，比率不可用"}；不剔除 ${ob.allRatio}%）｜lang-switch ${a.events.langSwitch}`
   );
   if (a.events.dominated && a.events.dominated.share >= 30) {
     console.log(
@@ -827,9 +961,16 @@ if (a.events?.available) {
   }
   const b = a.events.burst;
   if (b && b.detected) {
+    const scalesTxt = (b.scales || []).map((x) => `${x.label}${x.windowSeconds}s/≥${x.minSessions}`).join("+");
     console.log(
-      `⚠️ 并发爆发：${b.clusters} 簇 / ${b.visitors} 会话在 ${b.windowSeconds}s 内并发（占访客 ${b.share}%）→ ` +
+      `⚠️ 并发爆发：${b.clusters} 簇 / ${b.visitors} 会话（判据 ${scalesTxt}，占访客 ${b.share}%）→ ` +
         `剔除后 访客 ${b.clean.visitors} / 访问 ${b.clean.visits} / 浏览 ${b.clean.pageviews}`
+    );
+  } else if (b && b.nearMiss) {
+    const n = b.nearMiss;
+    console.log(
+      `⚠️ 亚阈值簇：${n.spanSeconds}s 内 ${n.sessions} 个新会话（${n.countries.join("/")}，` +
+        `判据 ${n.windowSeconds}s/≥${n.minSessions} 未达剔除门槛 60s/≥6）→ 只提示，未剔除`
     );
   }
 }

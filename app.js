@@ -80,13 +80,34 @@ function readURLState() {
   document.querySelector(`input[name="edition"][value="${state.edition}"]`).checked = true;
 }
 
+// Umami 追踪器会挂钩 history.replaceState/pushState（挂在 history 实例上），
+// URL 一变就上报 1 次 pageview。而搜索框每停顿一次、每次点筛选都会 render() → syncURL()，
+// 于是「筛一下」被当成「换了个页面」反复计数（实测单个搜索框吃掉全窗口 66% 的浏览数，
+// 并污染「多路径 = 真人」这条判据）。加大防抖无效 —— 打字间隔实测 1–11s。
+// 解法：URL 照常更新（筛选结果仍可复制分享），但绕开被挂钩的实例方法，直接调原型上的
+// 原生方法 → Umami 收不到 URL 变化，不再记 pageview。
+// 真正的页面跳转是整页加载，不经过这里，所以不会漏记任何真实 pageview。
 function syncURL() {
   const params = new URLSearchParams();
   if (state.query) params.set("q", state.query);
   if (state.edition !== "all") params.set("edition", state.edition);
   if (state.category) params.set("category", state.category);
   const next = params.size ? `?${params}` : location.pathname;
-  history.replaceState(null, "", next);
+  try {
+    History.prototype.replaceState.call(history, null, "", next);
+  } catch {
+    history.replaceState(null, "", next); // 兜底：宁可多记一次，也不能让 URL 不更新
+  }
+}
+
+// 筛选/搜索不再产生 pageview 后，使用行为改用自定义事件上报，保留信号又不稀释浏览数。
+// 去重：连续输入/连点只算一次（800ms 静默窗）。
+let filterReportTimer;
+function reportFilterUse(kind) {
+  clearTimeout(filterReportTimer);
+  filterReportTimer = setTimeout(() => {
+    try { window.umami?.track?.("site-filter", { kind }); } catch { /* 埋点失败不影响功能 */ }
+  }, 800);
 }
 
 function filteredProjects() {
@@ -325,13 +346,13 @@ function bindEvents() {
   let timer;
   elements.search.addEventListener("input", () => {
     clearTimeout(timer);
-    timer = setTimeout(() => { state.query = elements.search.value.trim(); state.limit = 48; render(); }, 120);
+    timer = setTimeout(() => { state.query = elements.search.value.trim(); state.limit = 48; render(); reportFilterUse("search"); }, 120);
   });
   elements.clear.addEventListener("click", () => { state.query = ""; elements.search.value = ""; elements.search.focus(); render(); });
-  document.querySelectorAll('input[name="edition"]').forEach((input) => input.addEventListener("change", () => { state.edition = input.value; state.limit = 48; render(); }));
-  document.querySelectorAll('input[name="status"]').forEach((input) => input.addEventListener("change", () => { input.checked ? state.statuses.add(input.value) : state.statuses.delete(input.value); state.limit = 48; render(); }));
-  elements.sort.addEventListener("change", () => { state.sort = elements.sort.value; render(); });
-  elements.quickTags.addEventListener("click", (event) => { const button = event.target.closest("button"); if (!button) return; state.category = state.category === button.dataset.category ? "" : button.dataset.category; state.limit = 48; render(); });
+  document.querySelectorAll('input[name="edition"]').forEach((input) => input.addEventListener("change", () => { state.edition = input.value; state.limit = 48; render(); reportFilterUse("edition"); }));
+  document.querySelectorAll('input[name="status"]').forEach((input) => input.addEventListener("change", () => { input.checked ? state.statuses.add(input.value) : state.statuses.delete(input.value); state.limit = 48; render(); reportFilterUse("status"); }));
+  elements.sort.addEventListener("change", () => { state.sort = elements.sort.value; render(); reportFilterUse("sort"); });
+  elements.quickTags.addEventListener("click", (event) => { const button = event.target.closest("button"); if (!button) return; state.category = state.category === button.dataset.category ? "" : button.dataset.category; state.limit = 48; render(); reportFilterUse("category"); });
   elements.loadMore.addEventListener("click", () => { state.limit += 48; render(); });
   document.querySelector("#resetFilters").addEventListener("click", reset);
   document.querySelector("#emptyReset").addEventListener("click", reset);
