@@ -12522,5 +12522,57 @@
  "custom-20261012-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-11"
+ },
+ "main-20261013-maaaaph-smalltown-boy-ai": {
+  "descEn": "AI two-person dance video generator, upload two frontal portrait photos separated on the left and right, let the two protagonists dance fixed 80s synthetic wave dance steps simultaneously, output a 14-second 9:16 vertical screen video (excluding original song audio), no need to write prompt words; one-time payment based on points, 480P / 720P / 1080P respectively 45 / 90 / 180 points, starting from $4.99, no subscription",
+  "at": "2026-10-13"
+ },
+ "main-20261013-hy0619-pdf翻译小助手": {
+  "descEn": "Translate documents with one click, keep the original format of the translation, upload PDF/Word, translate into 20+ languages, preview the first 3 pages for free, then pay if you are satisfied",
+  "at": "2026-10-13"
+ },
+ "main-20261013-yansoul-liveify": {
+  "descEn": "Live photo production and conversion tool, create and save videos or GIFs as Live Photos on iPhone; the web version can preview clips, export GIFs and video screenshots for free, and also supports AI photo animation that is paid by points",
+  "at": "2026-10-13"
+ },
+ "main-20261013-31415959-ai-味体检": {
+  "descEn": "AI smell detector for web articles, pastes the text and outputs a 0-100 score and marks the question sentence one by one, with a deodorizing and rewriting prompt that can be directly used; it runs locally in a browser, and the text is not uploaded. It is free and does not require registration. There is also a 38KB single file offline version that can be downloaded and used by double-clicking.",
+  "at": "2026-10-13"
+ },
+ "main-20261012-zgaobai-momentsift": {
+  "descEn": "AI photo screening, beautification and creation website, group similar photos and mark blur, closed eyes, exposure problems, first select the photos worth keeping, and then enhance, repair, enlarge, remove background or image creation; provides a free trial of 100 photos and 10 AI points, and the paid package starts at $19.90 per month",
+  "at": "2026-10-13"
+ },
+ "main-20261012-howardz27-ccviewer": {
+  "descEn": "Play back the Claude Code session history in the browser, drag in the .jsonl file (or the entire ~/.claude/projects/ folder) and read it like a chat transcript - Markdown rendering, thinking process, tool invocation, token and cost statistics, all processed locally without uploading",
+  "at": "2026-10-13"
+ },
+ "main-20261012-finderchangchang-jev-聊天助手": {
+  "descEn": "Android chat auxiliary decision-making tool. Before replying, read the current chat, judge the other party's intention and risk, draft a candidate reply and fill in the input box with one click. It is up to you whether to send it or not. The domestic version supports QQ, Feishu, X, and WhatsApp. There is also an English overseas version in the same warehouse. It is open source and free, and the model interface uses its own API Key.",
+  "at": "2026-10-13"
+ },
+ "main-20261012-88slash-海螺知物": {
+  "descEn": "Bedtime stories and AI picture book website for children aged 0-6. The stories are graded according to ages 0-2/3-4/5-6 and come with parent reading guidance. AI generates a 3-8 page exclusive picture book with illustrations based on the child's nickname and the truth he wants to tell. English words are embedded in the Chinese story, and the words can be clicked to listen to the pronunciation of the native child's voice. It can be clicked to read, and can be bound and printed.",
+  "at": "2026-10-13"
+ },
+ "main-20261012-sweesama-听说了吗": {
+  "descEn": "AI Information Interpretation Station, two articles a day, starting from original papers, official blogs and release notes, interpreting the latest AI news and papers in Chinese, English and Japanese, with original text links, free and no registration required",
+  "at": "2026-10-13"
+ },
+ "main-20261012-sweesama-favicondl": {
+  "descEn": "Website icon download tool, enter any URL, automatically find the clearest icon (SVG / large size PNG / ICO) of the website and download it with one click. You can also download 100 website icons in batches at one time, free and no registration required",
+  "at": "2026-10-13"
+ },
+ "main-20261012-zeroxu1-translate-picture": {
+  "descEn": "Image and text translation tool. Upload product images and select the target language to generate new images with replaced text for localization of product images - supports JPG / PNG / WebP. The maximum size of a single image is 8 MB. The long side of the resulting image is about 1000 ~ 1900 pixels. Each network is limited to 8 images per day. The processing is completed in the browser tab and will be cleared after refreshing.",
+  "at": "2026-10-13"
+ },
+ "programmer-20261012-dustarcode-makerend": {
+  "descEn": "AI model API transfer platform, one API Key can call GPT, Claude, Gemini, Grok and other dialogue models and Midjourney, Flux, Sora, Veo, Keling and other image and video models, OpenAI compatible interface, pay-as-you-go, supports Alipay/WeChat/USDT recharge, register or contact customer service to receive free test quota",
+  "at": "2026-10-13"
+ },
+ "custom-20261013-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-13"
  }
 }

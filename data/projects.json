@@ -4,29 +4,336 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-12T01:19:57.776Z",
+  "generatedAt": "2026-10-13T03:03:06.797Z",
   "counts": {
-    "total": 3122,
-    "main": 2618,
-    "programmer": 365,
+    "total": 3134,
+    "main": 2629,
+    "programmer": 366,
     "game": 139,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 985,
-    "图片工具": 538,
-    "音视频": 506,
-    "浏览器扩展": 308,
-    "开发工具": 591,
-    "免费工具": 548,
-    "文档办公": 288,
+    "AI 工具": 993,
+    "图片工具": 543,
+    "音视频": 509,
+    "文档办公": 290,
+    "免费工具": 556,
+    "浏览器扩展": 311,
+    "教育学习": 172,
+    "社交社区": 117,
+    "开发工具": 593,
     "效率工具": 450,
     "游戏娱乐": 172,
-    "社交社区": 115,
-    "教育学习": 170,
     "生活服务": 99
   },
   "projects": [
+    {
+      "id": "main-20261013-maaaaph-smalltown-boy-ai",
+      "edition": "main",
+      "addedAt": "2026-10-13",
+      "maker": "Maaaaph",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Maaaaph"
+        }
+      ],
+      "name": "Smalltown Boy AI",
+      "url": "https://smalltownboyai.com/",
+      "status": "online",
+      "description": "AI 双人舞蹈视频生成器，上传两张正面人像照片分居左右，让两位主角同步跳固定的 80 年代合成波舞步，输出 14 秒 9:16 竖屏视频（不含原曲音频），无需编写提示词；按积分一次性付费，480P / 720P / 1080P 分别 45 / 90 / 180 积分，$4.99 起，无订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261013-hy0619-pdf翻译小助手",
+      "edition": "main",
+      "addedAt": "2026-10-13",
+      "maker": "hy0619",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hy0619"
+        }
+      ],
+      "name": "pdf翻译小助手",
+      "url": "https://translate.glance-tech.cn/",
+      "status": "online",
+      "description": "文档一键翻译，译文保留原版式，上传 PDF / Word，翻成 20+ 种语言，前 3 页免费预览，满意再付费",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261013-yansoul-liveify",
+      "edition": "main",
+      "addedAt": "2026-10-13",
+      "maker": "Yansoul",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "name": "Liveify",
+      "url": "https://videolivephoto.com/",
+      "status": "online",
+      "description": "实况照片制作与转换工具，在 iPhone 上将视频或 GIF 制作并保存为 Live Photo；网页版可预览片段、免费导出 GIF 和视频截图，也支持按积分付费的 AI 照片动画",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261013-31415959-ai-味体检",
+      "edition": "main",
+      "addedAt": "2026-10-13",
+      "maker": "31415959",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/31415959"
+        }
+      ],
+      "name": "AI 味体检",
+      "url": "https://31415959.github.io/deai-web/",
+      "status": "online",
+      "description": "网文 AI 味检测器，粘贴正文输出 0-100 评分并逐处标出问题句，附一段可直接用的去味改写 Prompt；纯浏览器本地运行、正文不上传，免费无需注册，另有 38KB 单文件离线版下载双击即用",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/31415959/deai-web"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261012-zgaobai-momentsift",
+      "edition": "main",
+      "addedAt": "2026-10-12",
+      "maker": "AnshengHu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zgaobai"
+        }
+      ],
+      "name": "MomentSift",
+      "url": "https://momentsift.com",
+      "status": "online",
+      "description": "AI 照片筛选、美化与创作网站，将相似照片分组并标记模糊、闭眼、曝光问题，先挑选值得保留的照片，再进行增强、修复、放大、移除背景或图像创作；提供 100 张照片与 10 个 AI 积分的免费试用，付费套餐每月 $19.90 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261012-howardz27-ccviewer",
+      "edition": "main",
+      "addedAt": "2026-10-12",
+      "maker": "howardz27",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/howardz27"
+        }
+      ],
+      "name": "CCViewer",
+      "url": "https://ccviewer.top",
+      "status": "online",
+      "description": "在浏览器里回放 Claude Code 会话历史，拖入 .jsonl 文件（或整个 ~/.claude/projects/ 文件夹）即可像聊天记录一样阅读——Markdown 渲染、思考过程、工具调用、Token 与费用统计，全程本地处理不上传",
+      "extraLinks": [
+        {
+          "label": "查看仓库",
+          "url": "https://github.com/howardz27/ccviewer"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "浏览器扩展",
+        "教育学习",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261012-finderchangchang-jev-聊天助手",
+      "edition": "main",
+      "addedAt": "2026-10-12",
+      "maker": "Finderchangchang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Finderchangchang"
+        }
+      ],
+      "name": "Jev 聊天助手",
+      "url": "https://chatjevs.com",
+      "status": "online",
+      "description": "安卓聊天辅助决策工具，回复前先读当前聊天、判断对方意图和风险、起草候选回复并一键填进输入框，发不发由你；国内版支持 QQ、飞书、X、WhatsApp，同仓库另有英文海外版，开源免费，模型接口用自己的 API Key",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/jev-chat/jev-chat-jarvis"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261012-88slash-海螺知物",
+      "edition": "main",
+      "addedAt": "2026-10-12",
+      "maker": "88slash",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/88slash"
+        }
+      ],
+      "name": "海螺知物",
+      "url": "https://haloweava.com",
+      "status": "online",
+      "description": "0-6 岁儿童睡前故事与 AI 绘本网站，故事按 0-2/3-4/5-6 岁分级并附家长共读引导，AI 按孩子昵称和想讲的道理生成 3-8 页带插画的专属绘本，英文单词嵌进中文故事、点词听母语童声发音，可点读、可装订打印",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261012-sweesama-听说了吗",
+      "edition": "main",
+      "addedAt": "2026-10-12",
+      "maker": "sweesama",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "name": "听说了吗？",
+      "url": "https://anymesgs.com/",
+      "status": "online",
+      "description": "AI 资讯解读站，每天两篇，从原始论文、官方博客和发布说明出发，用中英日三语解读最新 AI 新闻与论文，附原文链接，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261012-sweesama-favicondl",
+      "edition": "main",
+      "addedAt": "2026-10-12",
+      "maker": "sweesama",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sweesama"
+        }
+      ],
+      "name": "favicondl",
+      "url": "https://favicondl.com/zh/",
+      "status": "online",
+      "description": "网站图标下载工具，输入任意网址，自动找出该网站最清晰的图标（SVG / 大尺寸 PNG / ICO）并一键下载，也可一次批量下载 100 个网站的图标，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261012-zeroxu1-translate-picture",
+      "edition": "main",
+      "addedAt": "2026-10-12",
+      "maker": "zeroXu1",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zeroXu1"
+        }
+      ],
+      "name": "Translate Picture",
+      "url": "https://translate-picture.com/",
+      "status": "online",
+      "description": "图片文字翻译工具，上传产品图并选择目标语言，即可生成文字被替换掉的新图，用来做产品图的本地化 — 支持 JPG / PNG / WebP，单张最大 8 MB，结果图长边约 1000 ~ 1900 像素；每个网络每天限 8 张，处理在浏览器标签页内完成，刷新即清除",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261012-dustarcode-makerend",
+      "edition": "programmer",
+      "addedAt": "2026-10-12",
+      "maker": "DustarCode",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/DustarCode"
+        }
+      ],
+      "name": "MakerEnd",
+      "url": "https://makerend.com/console",
+      "status": "online",
+      "description": "AI 模型 API 中转平台，一个 API Key 即可调用 GPT、Claude、Gemini、Grok 等对话模型与 Midjourney、Flux、Sora、Veo、可灵等图像视频模型，OpenAI 兼容接口，按量计费，支持支付宝 / 微信 / USDT 充值，注册或联系客服可领免费测试额度",
+      "extraLinks": [
+        {
+          "label": "价格列表",
+          "url": "https://makerend.com/pricing"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261011-jamailar-beav",
       "edition": "main",
@@ -242,24 +549,72 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261010-tangsirongit-launchlist",
+      "id": "main-20261010-jonathanowentj-阿军图解产业",
       "edition": "main",
       "addedAt": "2026-10-10",
-      "maker": "leo",
-      "city": "上海",
+      "maker": "JonathanOwenTJ",
+      "city": "",
       "makerLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/TangSirOnGit"
+          "url": "https://github.com/JonathanOwenTJ"
         }
       ],
-      "name": "Launchlist",
-      "url": "https://launchlist.si",
+      "name": "阿军图解产业",
+      "url": "https://ajun-industry.packscena.com/",
       "status": "online",
-      "description": "A community-voted weekly launch for AI and superintelligence builders",
+      "description": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
       "extraLinks": [],
       "categories": [
-        "AI 工具"
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-jonathanowentj-resumeplot-ai",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "JonathanOwenTJ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "name": "ResumePlot AI",
+      "url": "https://resumeplot.com/",
+      "status": "online",
+      "description": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-jonathanowentj-subatlas-订阅图谱",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "JonathanOwenTJ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "name": "SubAtlas 订阅图谱",
+      "url": "https://subatlas.packscena.com/",
+      "status": "online",
+      "description": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具"
       ],
       "source": "upstream"
     },
@@ -284,6 +639,28 @@
         "效率工具",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261010-tangsirongit-launchlist",
+      "edition": "main",
+      "addedAt": "2026-10-10",
+      "maker": "leo",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TangSirOnGit"
+        }
+      ],
+      "name": "Launchlist",
+      "url": "https://launchlist.si",
+      "status": "online",
+      "description": "A community-voted weekly launch for AI and superintelligence builders",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
       ],
       "source": "upstream"
     },
@@ -392,72 +769,26 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261010-jonathanowentj-阿军图解产业",
+      "id": "main-20261010-yisonlee888-toolstack",
       "edition": "main",
       "addedAt": "2026-10-10",
-      "maker": "JonathanOwenTJ",
+      "maker": "yisonlee888",
       "city": "",
       "makerLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/JonathanOwenTJ"
+          "url": "https://github.com/yisonlee888"
         }
       ],
-      "name": "阿军图解产业",
-      "url": "https://ajun-industry.packscena.com/",
+      "name": "ToolStack",
+      "url": "https://tools.mindutil.com/",
       "status": "online",
-      "description": "中文产业图解知识库，55 期免费全文涵盖 AI 与算力、半导体与电子、新能源与储能、电力与设备、先进材料、医药与生命科学、高端装备 7 个领域，另设 7 个专题串读；完整高清图解需登录兑换",
+      "description": "免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言",
       "extraLinks": [],
       "categories": [
-        "AI 工具",
+        "图片工具",
+        "浏览器扩展",
         "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20261010-jonathanowentj-resumeplot-ai",
-      "edition": "main",
-      "addedAt": "2026-10-10",
-      "maker": "JonathanOwenTJ",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JonathanOwenTJ"
-        }
-      ],
-      "name": "ResumePlot AI",
-      "url": "https://resumeplot.com/",
-      "status": "online",
-      "description": "中英双语 AI 简历编辑器，导入 PDF、DOCX 或文本后逐条整理真实经历，按目标岗位调整内容并导出可检索 PDF；基础编辑免费，AI 改写需登录，含免费额度",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "文档办公",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20261010-jonathanowentj-subatlas-订阅图谱",
-      "edition": "main",
-      "addedAt": "2026-10-10",
-      "maker": "JonathanOwenTJ",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JonathanOwenTJ"
-        }
-      ],
-      "name": "SubAtlas 订阅图谱",
-      "url": "https://subatlas.packscena.com/",
-      "status": "online",
-      "description": "AI 订阅比价资料库，收录 63 个产品，按规格、地区、订阅周期与交付方式比较公开报价，保留来源、更新时间与历史价格走势，支持设置价格与到期提醒；站点只做资料收录，不销售订阅",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "效率工具"
       ],
       "source": "upstream"
     },
@@ -504,30 +835,6 @@
       "categories": [
         "AI 工具",
         "效率工具",
-        "浏览器扩展",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20261010-yisonlee888-toolstack",
-      "edition": "main",
-      "addedAt": "2026-10-10",
-      "maker": "yisonlee888",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/yisonlee888"
-        }
-      ],
-      "name": "ToolStack",
-      "url": "https://tools.mindutil.com/",
-      "status": "online",
-      "description": "免费在线工具箱，汇集 32 款打开即用的日常小工具（图片压缩与裁剪、JPG/PNG/WebP/HEIC 格式互转、颜色取色与转换、二维码与密码生成、字数统计、BMI/小费/折扣等计算器），全部在浏览器本地运行，无需注册、文件不上传，界面支持 7 种语言",
-      "extraLinks": [],
-      "categories": [
-        "图片工具",
         "浏览器扩展",
         "免费工具"
       ],
@@ -6792,7 +7099,7 @@
         }
       ],
       "name": "HTMLShare",
-      "url": "https://www.htmlshare.page/",
+      "url": "https://hosthtmlfile.com/",
       "status": "online",
       "description": "将静态 HTML 发布为可分享的预览链接，方便快速分享和评审原型页面，无需 Git、生产部署和注册账号",
       "extraLinks": [],
@@ -7522,7 +7829,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261012-0",
+      "id": "custom-20261013-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
