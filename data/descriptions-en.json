@@ -12574,5 +12574,121 @@
  "custom-20261013-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-13"
+ },
+ "main-20261014-fayecat-rulr": {
+  "descEn": "Mac visual automation tool, no programming required, automatically performs various operations and workflows through trigger conditions such as shortcut keys, timing or application events, and supports AI to create automation rules",
+  "at": "2026-10-14"
+ },
+ "main-20261014-kccarlos-discoursecopilot": {
+  "descEn": "Discourse forum AI reading assistant (Chrome plug-in), summarize hundreds of long posts with one click, or let AI search the entire site and give answers with floor references; comes with OpenAI/Claude/DeepSeek and other keys or uses Ollama local model, no server, no statistics, free and open source",
+  "at": "2026-10-14"
+ },
+ "main-20261014-hayden-xiong-像话": {
+  "descEn": "No need to register, it will tell you how a native speaker would say a sentence in English, and then help you read and compare it word by word; you can also speak Chinese when you are stuck in English (iOS / Android, free)",
+  "at": "2026-10-14"
+ },
+ "main-20261014-littlepig-zzf-bulin-47-ai": {
+  "descEn": "AI freestyle video generator, upload a frontal photo of a person to generate a 15-second 9:16 vertical screen performance video in a red light restaurant scene; built-in reference actions, no need to write prompt words, optional Seedance 2.0 / 2.5 and 480p / 720p, download with original reference audio or silent version MP4; generation requires login and purchase points, one-time payment starting from $9.90, no subscription, points deducted will be returned if failed; independent fan tool, and Bulin 47. Kevin Wai has no affiliation or endorsement.",
+  "at": "2026-10-14"
+ },
+ "main-20261014-fpy5627-vedic-astrology-chart": {
+  "descEn": "Vedic astrology ranking tool, enter birth date, time and place, calculate the chart through Swiss Ephemeris, provide planets, houses, Nakshatra, Dasha and D9/Navamsa information and Chinese and English AI interpretation; basic ranking and short AI summary are free, detailed reports and PDF are optional and paid",
+  "at": "2026-10-14"
+ },
+ "main-20261013-ivan666jjj-一个字的一生": {
+  "descEn": "Chinese character glyph evolution query tool. Enter any character to see its complete evolution from Oracle, Xiaozhuan, Traditional to Simplified. It contains 10,249 Xiaozhuan glyphs and 1,425 Oracle bone inscriptions, with medieval fanqie, ancient phonetic construction and \"Shuowen\" interpretation. It is free and does not require registration.",
+  "at": "2026-10-14"
+ },
+ "main-20261013-lzeee-孙哥在线": {
+  "descEn": "Unofficial Sun Yuchen data collection site, reviewing important experiences and public events according to the timeline, including audio and paragraph-by-paragraph transcripts of 146 issues of \"The Revolutionary Road to Wealth Freedom\", and online reading of \"This World is Cruel and Gentle\"; free, no registration required, content will be continuously compiled and updated",
+  "at": "2026-10-14"
+ },
+ "main-20261013-beidahuang-castdub": {
+  "descEn": "AI multi-character dubbing workbench, paste the script to automatically identify the characters and assign voices, adjust the emotions sentence by sentence, and export the finished audio; supports 9 languages ​​including Chinese, English, Japanese and Korean, registration-free trial, free during the open test period",
+  "at": "2026-10-14"
+ },
+ "main-20261013-beidahuang-science-diagram": {
+  "descEn": "AI scientific diagram tool, generates labeled, editable paper/courseware illustrations in one sentence, supports multiple subject templates and exports PNG; free in beta period",
+  "at": "2026-10-14"
+ },
+ "main-20261013-zhoulianbo-spritepixel": {
+  "descEn": "An AI game asset studio for individual and independent game developers. It uses AI to create game sprites, animations, sprite charts and supporting icon sets with consistent styles, and continuously generates and manages them around the same game project.",
+  "at": "2026-10-14"
+ },
+ "main-20261013-juren056-nano-banana-2-1": {
+  "descEn": "AI image generation and reference image editing website that supports the creation of product scenes, fictional character storyboards, and posters with text. The selected model, output settings, and point fees are displayed before submission.",
+  "at": "2026-10-14"
+ },
+ "main-20261013-jamailar-ad-multiplier": {
+  "descEn": "Video ad variation tool, upload existing 4–30 second ads, generate up to 4 visual versions of different characters, clothing, scenes or products, with the option to keep the original audio, download 720p / 1080p MP4 and then manually review and publish; pay by points, no subscription, 4–15 seconds Standard output single point price $9.90",
+  "at": "2026-10-14"
+ },
+ "main-20261013-sunlin-xiaonai-newyougo": {
+  "descEn": "AI picture, video and music creation platform that supports multi-model generation and picture editing; after logging in, you can generate 20 FLUX.1 Schnell pictures for free every day, other models are charged by points",
+  "at": "2026-10-14"
+ },
+ "main-20261013-sunlin-xiaonai-raindance-ai": {
+  "descEn": "AI photo to video conversion tool, you can preview and select a scene template first; Raindance scene can generate a 15-second video with original AI soundtrack, one-time payment based on the number of videos, no subscription",
+  "at": "2026-10-14"
+ },
+ "main-20261013-viggoz-applore": {
+  "descEn": "App icon inspiration library, including 18,000+ App Store/Google Play real App icons and historical versions of each revision, which can be browsed by color, style, and category; it comes with free full-size icon export (no registration required), store screenshot generation, PNG to SVG and other tools. AI-generated icons are paid by points.",
+  "at": "2026-10-14"
+ },
+ "main-20261013-sweesama-3d-太阳系模拟器": {
+  "descEn": "The interactive 3D solar system in the browser can orbit the sun and the eight planets, switch between real distances or real scales, and can also land on the surface of the moon and Mars; free with no ads, no registration required, suitable for classroom demonstrations",
+  "at": "2026-10-14"
+ },
+ "main-20261013-jonathanowentj-logomovo": {
+  "descEn": "Browser Logo design workbench, explore graphics, fonts, colors and layout directions, adjust the design and export SVG or PNG; Studio and AI generation functions require login and valid payment plan, brand color matching and naming information can be publicly browsed",
+  "at": "2026-10-14"
+ },
+ "main-20261013-jonathanowentj-nailmoodlab": {
+  "descEn": "AI manicure design and planning tool, generates downloadable reference images based on color, length and details, and can also use hand photos to preview the style; the AI ​​function requires login, the free plan includes 5 AI operations per month, and there is a paid plan. The preview is not guaranteed to be consistent with the finished product in the salon.",
+  "at": "2026-10-14"
+ },
+ "main-20261013-jonathanowentj-dishvivid": {
+  "descEn": "Restaurant menu and takeout image editor, adjust light, color and cropping in the browser, compare the original image and download JPEG; manual editing does not require an account, and AI editing requires login and available credit. Before publishing, you must check whether the ingredients, portions and presentation are accurate.",
+  "at": "2026-10-14"
+ },
+ "main-20261013-jonathanowentj-packscena": {
+  "descEn": "AI product background and scene map tool, upload 1-3 product photos, select preset, color or scene description, check each photo and export square and vertical PNG; currently a free trial with invitation code, no payment required, public samples can be browsed without registration, AI may change product details",
+  "at": "2026-10-14"
+ },
+ "main-20261013-jonathanowentj-lookscene": {
+  "descEn": "Personal AI photo styling preview tool. Adults can use their own photos to explore hairstyles, outfits and portrait scenes, and then compare the original image download results. Currently, it is a free preview that requires login, invitation code and available points. The official website samples are AI schematics and do not guarantee the actual hairstyle or clothing effects.",
+  "at": "2026-10-14"
+ },
+ "main-20261013-jonathanowentj-ai-lab": {
+  "descEn": "Chinese browser utility tools, mini-games and original comics platform, providing image compression, Markdown to HTML, EPUB reading and other entrances; basic image compression and some samples can be publicly used, complete tools or content according to the entrance requirements to log in and score points",
+  "at": "2026-10-14"
+ },
+ "programmer-20261013-hen9xin-pan-transfer-bot": {
+  "descEn": "Quark/Baidu network disk resource organization tool and AI Agent Skill, paste the sharing link to automatically identify the extraction code, transfer it to your own network disk and archive it by year/month/day, generate new sharing links, purely local generation of supporting copy without the need for large model API; FastAPI + Web interface, Docker one-click deployment, attached SKILL.md can be called by Claude Code, MIT open source",
+  "at": "2026-10-14"
+ },
+ "programmer-20261013-cf12436-ai-saas-go": {
+  "descEn": "AI API transfer station, one Key calls OpenAI, Claude, Gemini, Grok and other models, is compatible with OpenAI Chat Completions and Anthropic Messages protocols, supports native SSE streaming response, pay-as-you-go billing and prompt caching, and the site also has an online graph entrance",
+  "at": "2026-10-14"
+ },
+ "custom-20261014-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-14"
+ },
+ "main-20240814-zane12580-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-14"
+ },
+ "main-20240814-zane12580-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-14"
+ },
+ "main-20240814-zane12580-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-14"
+ },
+ "main-20240814-zane12580-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-14"
  }
 }
