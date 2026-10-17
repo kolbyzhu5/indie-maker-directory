@@ -4,29 +4,1903 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-14T01:13:20.577Z",
+  "generatedAt": "2026-10-17T15:42:30.151Z",
   "counts": {
-    "total": 3158,
-    "main": 2651,
-    "programmer": 368,
-    "game": 139,
+    "total": 3238,
+    "main": 2715,
+    "programmer": 378,
+    "game": 145,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1012,
-    "效率工具": 454,
-    "开发工具": 598,
-    "浏览器扩展": 316,
-    "教育学习": 176,
-    "社交社区": 118,
-    "免费工具": 569,
-    "图片工具": 553,
-    "音视频": 515,
-    "文档办公": 292,
-    "游戏娱乐": 173,
-    "生活服务": 99
+    "AI 工具": 1052,
+    "效率工具": 465,
+    "免费工具": 602,
+    "图片工具": 582,
+    "开发工具": 621,
+    "教育学习": 185,
+    "浏览器扩展": 331,
+    "文档办公": 306,
+    "社交社区": 121,
+    "游戏娱乐": 181,
+    "音视频": 540,
+    "生活服务": 100
   },
   "projects": [
+    {
+      "id": "main-20261017-strzhao-ai-todo",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "strzhao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/strzhao"
+        }
+      ],
+      "name": "AI Todo",
+      "url": "https://github.com/strzhao/ai-todo",
+      "status": "online",
+      "description": "自然语言任务管理，说一句话就改成结构化任务操作，diff 预览、确认后才执行；支持多层嵌套子任务，任务列表可升级为共享项目空间（@成员 + 甘特图）；另提供 JSON 输出的 CLI 供 AI agent 调用，在线版 https://ai-todo.stringzhao.life，开源（MIT）",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-strzhao-拾光-relight",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "strzhao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/strzhao"
+        }
+      ],
+      "name": "拾光 Relight",
+      "url": "https://github.com/strzhao/relight",
+      "status": "online",
+      "description": "本地 AI 照片库，视觉模型在本机给照片打中文美学标签、写一段描述、打质量分，每天选出「每日精选」起标题配短文，macOS 菜单栏 App 自动设成壁纸；推理默认在本机完成，照片和标签不出电脑，开源（MIT）",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-justin3go-blob0",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "Justin3go",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Justin3go"
+        },
+        {
+          "label": "博客",
+          "url": "https://justin3go.com"
+        }
+      ],
+      "name": "Blob0",
+      "url": "https://blob0.com",
+      "status": "online",
+      "description": "macOS 上的 Cloudflare R2 / S3 对象存储客户端，像管理本地文件夹一样上传、下载、整理、预览和分享文件，文件存放在自己的存储账户；支持 Obsidian / Typora 粘贴图片自动上传，内置 CLI 与 Agent Skill；完整功能免费试用 30 天，之后 $16.90 一次性买断，无订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-keith-cy-拉普拉斯的迷你世界",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "Keith",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Keith-CY"
+        }
+      ],
+      "name": "拉普拉斯的迷你世界",
+      "url": "https://world.lapla.si/zh/",
+      "status": "online",
+      "description": "3D 科学科普网站，100 多个能转动、能拆开的交互模型（四季、潮汐、黑洞、蒸汽机、神经网络……），每页写明模型简化了什么，中英双语，免费无广告，内容 CC BY-NC 4.0",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-keith-cy-言-葉",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "Keith",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Keith-CY"
+        }
+      ],
+      "name": "言の葉",
+      "url": "https://japaneseskills.com/",
+      "status": "online",
+      "description": "JLPT 日语学习网站，9,040 个单词、828 条语法、802 个阅读短句，按 N5–N1 筛选，从五十音学起，可标记进度；入门和 N5 免费，N4 以上订阅",
+      "extraLinks": [],
+      "categories": [
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-keith-cy-meshmend",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "Keith",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Keith-CY"
+        }
+      ],
+      "name": "MeshMend",
+      "url": "https://mesh-mend.pages.dev/",
+      "status": "online",
+      "description": "STL 网格检查与修复工具（英文界面），去掉重复面和零面积面、统一法线朝向、可补小的平面破洞，支持 3MF 转 STL，修复前后对比，文件在浏览器本地处理不上传，免费",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-coiggahou2002-vibecv",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "Rory",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Coiggahou2002"
+        }
+      ],
+      "name": "VibeCV",
+      "url": "https://vibecv.com",
+      "status": "online",
+      "description": "聊天写简历的网页工具，讲讲你的经历，AI 整理成规范简历，可导出一页 PDF 或 Word，一句话生成英文版，第一份免费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-bogerhou-fuse-bead-patterns",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "BogerHou",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "name": "Fuse Bead Patterns",
+      "url": "https://fusebeadpatterns.art/",
+      "status": "online",
+      "description": "拼豆图纸制作工具，将自己的图片转换为 Perler／Hama／Artkal S 配色网格，支持逐格编辑、材料统计、PNG／PDF 导出及工程保存；当前免费，无需注册，图片在浏览器内处理",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-tumingke0-layoutkeeper",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "tumingke0",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tumingke0"
+        }
+      ],
+      "name": "LayoutKeeper",
+      "url": "https://github.com/tumingke0/LayoutKeeper",
+      "status": "online",
+      "description": "Mac 外接屏窗口布局恢复工具，拔掉显示器再插回，窗口自动回到原来的位置和桌面（Space），家里公司换着接不同的显示器也行；还能用键盘亮度键直接调外接屏亮度，免费开源",
+      "extraLinks": [
+        {
+          "label": "下载",
+          "url": "https://github.com/tumingke0/LayoutKeeper/releases/latest"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261017-zard0433-source-球场经理",
+      "edition": "game",
+      "addedAt": "2026-10-17",
+      "maker": "zard0433-source",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zard0433-source"
+        }
+      ],
+      "name": "球场经理",
+      "url": "https://courtsidegame.xyz/",
+      "status": "online",
+      "description": "篮球球员抽卡收集与阵容养成的模拟游戏 — 网页版，非盈利个人项目（免费）",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-zhoujungis-nanobrowser",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "zhoujungis",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoujungis"
+        }
+      ],
+      "name": "NanoBrowser",
+      "url": "https://github.com/zhoujungis/NanoBrowser",
+      "status": "online",
+      "description": "轻量桌面浏览器，复用系统已装的 WebView2 引擎，图形界面与无头两个可执行文件都在 4.5 MB 左右，另附一个可通过 MCP 让 AI 工具驱动的无头自动化浏览器；目前提供 Windows 安装包",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-jyjyxt-skillhey",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "jyjyxt",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jyjyxt"
+        }
+      ],
+      "name": "SkillHey",
+      "url": "https://skillhey.com/",
+      "status": "online",
+      "description": "AI Agent 技能市场，按网页与界面、图片、演示文稿、视频、文档等分类浏览，每个技能可先看作品预览与说明再下载安装到已有的 Claude Code、Codex、Cursor 等 Agent，支持中文界面",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-huayanming-displaypilot",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "huayanming",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huayanming"
+        }
+      ],
+      "name": "DisplayPilot",
+      "url": "https://huayanming.github.io/displaypilot/zh-Hans/?src=1c7",
+      "status": "online",
+      "description": "macOS 外接显示器控制台，用 DDC/CI 直接调亮度、音量与输入源；面板不响应 DDC/CI 时自动改用伽马表调光，另含色彩校准（基准只读取一次，反复调节不累积误差）与「先隔离再删除」的开发者缓存清理。付费买断，14 天试用功能完整，不需要注册账号",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-neopanic-glim",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "NeoPanic",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/NeoPanic"
+        }
+      ],
+      "name": "Glim",
+      "url": "https://github.com/NeoPanic/Glim",
+      "status": "online",
+      "description": "免费开源的 Mac 多格式文件查看器，在同一工作区查看 Markdown 图表与公式、PDF、图片、JSON、CSV 和源代码，支持 Apple Silicon 与 Intel",
+      "extraLinks": [
+        {
+          "label": "下载试用",
+          "url": "https://github.com/NeoPanic/Glim/releases/latest"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-anatomy-skill",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Anatomy Skill",
+      "url": "https://anatomyskill.org",
+      "status": "online",
+      "description": "输入一段技术概念描述，生成用等距机械动画讲解其原理的 MP4 视频与可交互 HTML 图，无需安装",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-ozil-goal-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Ozil Goal AI",
+      "url": "https://ozilgoalai.pro",
+      "status": "online",
+      "description": "上传一张授权照片，用 Kling O3 重新生成一段虚构的破门集锦（挑射、突破防守、完成射门），保留你的脸、衣服和鞋，输出 10 秒带观众声的竖屏 MP4，无需提示词或参考视频，$9.99 一条；与厄齐尔、阿森纳及欧冠赛事无关",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-ghost-filter-prank",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Ghost Filter Prank",
+      "url": "https://ghostfilterprank.net",
+      "status": "online",
+      "description": "上传一张自拍生成鬼影从肩后爬出的 10 秒竖屏恐怖视频（带声音），可选「慢慢靠近」或「突然扑脸」两种惊吓，$4.99 一次性付费，无需拍摄或安装",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-seedance-3-0-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Seedance 3.0 AI",
+      "url": "https://seedance3ai.plus",
+      "status": "online",
+      "description": "PlusFrame 工作室的 AI 视频生成站，支持文字、图片与参考素材（图 / 视频 / 音频）转视频并带原生音频，可选 Seedance 2.5 或 Seedance 2.0 的 Mini / Fast / Standard 档，5 到 30 秒、最高 1080p；站名里的 Seedance 3.0 尚未上线、仍处计划中，非官方站点",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-alors-on-danse-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Alors on Danse AI",
+      "url": "https://alorsondanseai.im",
+      "status": "online",
+      "description": "上传两张照片，把你和朋友分别放进白色影棚的键盘位与笔记本位，合成 10 秒双人合奏视频，可选 16:9 横屏或 9:16 竖屏，无需写提示词，$9.99 一条",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-ausar-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Ausar AI",
+      "url": "https://ausarai.com",
+      "status": "online",
+      "description": "一站式 AI 视频与图像生成工作台，可调 Kling 3.0、Veo 3.1、Seedance 2.0、Wan 3.0、Hailuo 2.3、Nano Banana Pro、GPT Image 2、Seedream 5、Grok Imagine 等模型，另有 Motion Control 把 30 秒以内的舞蹈或动作片段迁移到任意角色，以及上传一张照片即可套用的热门舞蹈模板（10 秒、无需提示词）",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-bad-times-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Bad Times AI",
+      "url": "https://badtimesai.net",
+      "status": "online",
+      "description": "上传一张自己的、宠物的或孩子的照片，生成「Bad Times」吵架梗的 10 秒竖屏 MP4（带该梗原声）：宠物版让猫狗站起来指着镜头，人物版走宝宝式指点和摊手，含「等等先别动手」的停顿镜头，$9.99 一条",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-remaker-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Remaker AI",
+      "url": "https://remaker-ai.net",
+      "status": "online",
+      "description": "AI 图像生成、编辑与放大工作台，可选 Nano Banana 2 / 2.1 / Pro、GPT Images 2.5、GPT Image 2、Seedream 5.0、Flux Kontext、Qwen Image 2.0、Grok Imagine 等模型，输出最高 4K，另带放大、去背景、照片滤镜与 Veo 3.1 视频，每次生成前先显示价格；与使用 Remaker 名称的其他产品无关",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-jean-phil-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Jean Phil AI",
+      "url": "https://jeanphilai.pro",
+      "status": "online",
+      "description": "不用上传照片，从巴黎公寓、街舞擂台、美术馆、咖啡馆露台、鬼屋 5 个场景与拳击、Gang Gang 舞、走秀、捻胡子 4 个动作里组合，生成以虚构金发卷胡绅士为主角的 10 秒竖屏视频（带声音），$9.99 一条",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-bulin-47-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Bulin 47 AI",
+      "url": "https://bulin47ai.art",
+      "status": "online",
+      "description": "上传一张照片，把你放进红灯光餐厅外的街头表演机位，生成 10 秒带声竖屏 MP4，$9.99 起；与 Bulin 47、Kevin Wai 及其厂牌无关",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-bulin-47-viral",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Bulin 47 Viral",
+      "url": "https://bulin47viral.org",
+      "status": "online",
+      "description": "上传一张授权照片，用 Kling O3 重新生成一段街头 freestyle 表演场景（含人物、街景与新配的氛围声），不提供源视频也不使用原曲，固定场景、不支持自定义提示词，输出 10 秒竖屏 MP4，$9.99 一条",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-burning-bridges-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "Burning Bridges AI",
+      "url": "https://burningbridgesai.pro",
+      "status": "online",
+      "description": "上传本人加最多两位朋友的照片，生成 10 秒竖屏派对视频：你站在吊灯场景的 C 位挥手举杯、朋友在后面欢呼，带参考片段里的原曲音轨；40 积分一条（$9.99），与 Drake 及其唱片公司无关",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-weidacn-photocraft",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "weidacn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/weidacn"
+        }
+      ],
+      "name": "PhotoCraft",
+      "url": "https://photocraft.my",
+      "status": "online",
+      "description": "开源 Photoshop 替代品 PhotoCraft 的网页版入口与桌面版下载站，纯 Rust 重写，支持图层、蒙版、调整图层、图层样式、文字、矢量、画笔与真实 PSD 文件，编辑在浏览器本地完成，桌面版覆盖 Windows / macOS / Linux；站点另加付费 AI 出图与批量修图（缩放、格式转换、压缩、加水印、重命名，每批前 10 张免费），非官方站点",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-fpy5627-hotel-lobby-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "fpy5627",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fpy5627"
+        }
+      ],
+      "name": "Hotel Lobby AI",
+      "url": "https://aihotellobby.dev",
+      "status": "online",
+      "description": "双人照片视频生成工具，将两张人像照片生成橙色演播室表演视频，支持左右人物位置、可选动作提示、画质选择及 MP4 预览下载；生成需登录并购买积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-vincent-luofeng-lucer-ai-video",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "Vincent",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "name": "Lucer AI Video",
+      "url": "https://lucer.art",
+      "status": "online",
+      "description": "面向创作者的 AI 图像与视频平台，支持文生图、图生图，Michael Jackson、Raindance、Hotel Lobby 等热门视频特效，以及去水印、画质增强、滤镜修复；无需订阅，按积分按次计费，生成失败自动退还",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-vincent-luofeng-screenshot-editor",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "Vincent",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "name": "Screenshot Editor",
+      "url": "https://screenshoteditor.net/",
+      "status": "online",
+      "description": "截图文字编辑工具（免费），本地 OCR 识别文字后擦除或替换，全程在浏览器完成，不上传、不加水印，适合清理截图、海报和商品图",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-vincent-luofeng-personalized-gift",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "Vincent",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "name": "Personalized Gift",
+      "url": "https://personalizedgift.art",
+      "status": "online",
+      "description": "生日、纪念日、圣诞等场合，几分钟做出带对方名字的专属歌曲，再通过专属页面送给对方",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-vincent-luofeng-growing-up-video-maker",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "Vincent",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Vincent-LuoFeng"
+        }
+      ],
+      "name": "Growing Up Video Maker",
+      "url": "https://growingupvideoai.com",
+      "status": "online",
+      "description": "上传从婴儿到现在的照片，生成有故事感转场、可配自己音乐的 AI 成长视频，最长支持 2 分钟",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-bogerhou-quick-get-well",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "BogerHou",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "name": "Quick Get Well",
+      "url": "https://quickgetwell.com/",
+      "status": "online",
+      "description": "英文康复慰问措辞筛选工具，按关系、场景、语气和格式挑选可修改的例句，当前免费且无需注册，附教师纸卡 PDF 和职场关怀措辞练习",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-bogerhou-chinese-gender-predictor",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "BogerHou",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "name": "Chinese Gender Predictor",
+      "url": "https://chinesegenderpredictor.net/",
+      "status": "online",
+      "description": "英文民俗娱乐网站，将公历生日和受孕日期换算为农历年龄与月份后查询传统性别表，另有独立虚岁计算器及免费 A4 / US Letter 派对游戏 PDF；无需注册，日期在浏览器内处理，不能用于医学判断",
+      "extraLinks": [
+        {
+          "label": "计算方法与来源",
+          "url": "https://chinesegenderpredictor.net/how-it-works/"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "浏览器扩展",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-16871233-gemiai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "16871233",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/16871233"
+        }
+      ],
+      "name": "GemiAi",
+      "url": "https://gemiai.cn/",
+      "status": "online",
+      "description": "AI 对话与绘图工作台，可写作、理解文档和图片、根据描述生成或修改图片，也能创建网页；支持网页、微信小程序「AI聊天工具箱」、Android 与 iOS，使用积分及会员计费",
+      "extraLinks": [
+        {
+          "label": "多端入口",
+          "url": "https://gemiai.cn/download"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "文档办公",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-airobushotpot-smalltown-boy-ai",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "airobushotpot",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/airobushotpot"
+        }
+      ],
+      "name": "Smalltown Boy AI",
+      "url": "https://smalltownboyai.app/",
+      "status": "online",
+      "description": "AI 双人舞蹈视频生成工具，上传两张单人照片或一张双人合照（人物、宠物均可），无需写提示词，生成 21 秒 720p 9:16 竖屏视频；生成需登录并购买积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-my19940202-知迹",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "my19940202",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/my19940202"
+        }
+      ],
+      "name": "知迹",
+      "url": "https://zhiji.aizeten.me",
+      "status": "online",
+      "description": "多模型 AI 对话与个人知识图谱，同一段对话可切换模型并延续已有上下文，回答支持多种音色朗读；每次对话后，自动整理摘要、标签与主题关联，方便搜索和查看个人的知识图谱 — Web 应用",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://zhiji.aizeten.me/press-kit"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-louis-cai-indie-radar",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "louis-cai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/louis-cai"
+        },
+        {
+          "label": "博客",
+          "url": "https://louis-cai.github.io"
+        }
+      ],
+      "name": "Indie Radar",
+      "url": "https://radar.everythingisok.top/",
+      "status": "online",
+      "description": "出海与独立开发 90% 降噪情报站，盯紧一手海外创客源，本地 pgvector 向量去重 + 5 轴打分，每天精选 2~4 条高价值工具与真实变现案例，全自用无广告；提供 Telegram 点滴广播与 GitHub 每日 Markdown 归档",
+      "extraLinks": [
+        {
+          "label": "源码与每日归档",
+          "url": "https://github.com/louis-cai/daily-indie-radar"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-wangshan9870-wechat-to-markdown",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "望山",
+      "city": "陕西",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wangshan9870"
+        }
+      ],
+      "name": "WeChat to Markdown",
+      "url": "https://wx2md.com/",
+      "status": "online",
+      "description": "把微信公众号文章一键保存为本地 Markdown，浏览器内处理、不上传正文，可导入 Obsidian / 思源 / Typora；Freemium — Chrome 扩展",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/wangshan9870/wechat-to-markdown"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-yzfly-lightread-轻阅",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "yzfly",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yzfly"
+        }
+      ],
+      "name": "LightRead 轻阅",
+      "url": "https://github.com/yzfly/LightRead/releases/latest",
+      "status": "online",
+      "description": "开源电子书与论文阅读器，支持 EPUB / MOBI / PDF、本地书库、批注与听书，本地阅读无需注册或联网，提供 macOS / Windows / Linux 安装包",
+      "extraLinks": [
+        {
+          "label": "源码与使用说明",
+          "url": "https://github.com/yzfly/LightRead"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "开发工具",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261016-wdhzw-花花记账",
+      "edition": "main",
+      "addedAt": "2026-10-16",
+      "maker": "Huang Zhiwen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wdhzw"
+        }
+      ],
+      "name": "花花记账",
+      "url": "https://apps.apple.com/app/id6801466802",
+      "status": "online",
+      "description": "注重设计与长期记录的 iPhone 生活账本，在本地根据个人记录学习消费习惯，提供分类与下一笔建议，用记账地图回放和月度回顾重温生活；免费下载，部分功能与外观付费",
+      "extraLinks": [],
+      "categories": [
+        "教育学习",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261016-caseycaca-codex-token-bar",
+      "edition": "programmer",
+      "addedAt": "2026-10-16",
+      "maker": "CaseyCACA",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CaseyCACA"
+        }
+      ],
+      "name": "Codex Token Bar",
+      "url": "https://github.com/CaseyCACA/codex-token-bar",
+      "status": "online",
+      "description": "macOS 原生 Codex 用量监控工具，在菜单栏查看剩余额度、重置时间、会话 Token、缓存复用与上下文占用，支持跟随 Codex 桌面宠物移动的额度浮标；本地运行，无需额外 API Key，目前需从源码构建",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261016-tsekaluk-nebutra-sailor",
+      "edition": "programmer",
+      "addedAt": "2026-10-16",
+      "maker": "Tseka Luk",
+      "city": "无锡",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TsekaLuk"
+        }
+      ],
+      "name": "Nebutra Sailor",
+      "url": "https://github.com/Nebutra/Nebutra-Sailor",
+      "status": "online",
+      "description": "源码公开的 SaaS 底座，`npx create-sailor@latest my-app` 一条命令生成 Next.js + Hono 网关、Better Auth 登录、Creem 与微信/支付宝收款、生成式 Postgres RLS 多租户的完整项目，空 .env 本地即可跑通，带 AGENTS.md 和 lint 护栏方便 Claude Code / Codex 接手；生成的项目为 MIT，主仓库 FSL-1.1-ALv2（两年后转 Apache-2.0）",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://nebutra.com/sailor"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261016-bogerhou-ai-browser-games",
+      "edition": "game",
+      "addedAt": "2026-10-16",
+      "maker": "BogerHou",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "name": "AI Browser Games",
+      "url": "https://aibrowsergames.net/",
+      "status": "online",
+      "description": "浏览器游戏发现目录，整理 100 款第三方游戏，支持按操作方式、节奏和人数筛选，其中 4 款附有创作者来源支持的 AI 辅助制作标注",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://aibrowsergames.net/about/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-hezhenghui7338-lumina",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "HeZhenghui",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hezhenghui7338"
+        }
+      ],
+      "name": "Lumina",
+      "url": "https://github.com/hezhenghui7338/Lumina",
+      "status": "online",
+      "description": "本地优先的 AI 伴读器，把长文本按语义切成段落并逐段生成结构化摘要（段标题、要点、待解问题），摘要可溯源回原文，支持 PDF / EPUB / MOBI / AZW3 / DOCX / Markdown 等格式与扫描件本机 OCR，默认走本机 Ollama、也可接云端 API，另带跨书笔记与全局搜索、听文本、古文外语翻译和可选联网问答 — macOS 14+",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "文档办公",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-kaixxrua-aigcnews",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "桜落",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Kaixxrua"
+        }
+      ],
+      "name": "AIGCNEWS",
+      "url": "https://aigcnews.cn/",
+      "status": "online",
+      "description": "AI 项目与资讯检索站，用自然语言找开源项目、比较 Star 增长，集中浏览论文和 X 中文动态，也能通过 MCP 让 Agent 检索；免费使用，部分功能需登录，MCP 有调用额度",
+      "extraLinks": [
+        {
+          "label": "源码与使用说明",
+          "url": "https://github.com/Kaixxrua/AIGCNEWS"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-bogerhou-书径-ebooknest",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "BogerHou",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BogerHou"
+        }
+      ],
+      "name": "书径 EbookNest",
+      "url": "https://ebooknest.store/",
+      "status": "online",
+      "description": "用中文介绍外文非虚构书，结合原书页面预览和专题导读，按兴趣比较书籍、选择阅读方向",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://ebooknest.store/about"
+        }
+      ],
+      "categories": [
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-qiweiii-tovotype",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "Qiwei",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "name": "TovoType",
+      "url": "https://type.tovo.dev",
+      "status": "online",
+      "description": "Mac 语音输入 App，转录和润色全部在本机完成、断网也能用，说完自动整理成文，支持自定义词典、口语转列表/文件路径，还能说关键词展开成预存的整段文字",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-qiweiii-macgrid",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "Qiwei",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "name": "MacGrid",
+      "url": "https://trymacgrid.com",
+      "status": "online",
+      "description": "Mac 多桌面（Spaces）管理 App，把桌面和全屏应用从一条横排排成二维网格，触控板上下左右四向滑动即可跳转，支持拖拽自定义布局，无需关闭 SIP",
+      "extraLinks": [],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-qiweiii-xext",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "Qiwei",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "name": "Xext",
+      "url": "https://chromewebstore.google.com/detail/cgnmmlaajjmbbaeihnlicgpahgjmclhc",
+      "status": "online",
+      "description": "X 网页增强插件，全程本地运行、无需登录 X 或授权，可隐藏侧边栏和推广内容、调整信息流密度与主题，支持收藏帖子和保存搜索，还能用浏览器内置 AI 直接写推文",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-qiweiii-aggressive-memory-saver",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "Qiwei",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qiweiii"
+        }
+      ],
+      "name": "Aggressive Memory Saver",
+      "url": "https://chromewebstore.google.com/detail/aggressive-memory-saver/domkkegggmkeojhljedmhidkhjfcagab",
+      "status": "online",
+      "description": "Chrome 内存优化插件，自动卸载不活跃标签页来释放内存，比 Chrome 自带的内存节省模式更激进、更可控，支持自定义超时和按域名设置规则，并保护固定标签和播放中的标签页",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-amintacccp-githubstarsmanager",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "AmintaCCCP",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AmintaCCCP"
+        }
+      ],
+      "name": "GithubStarsManager",
+      "url": "https://gsm.aminta.top",
+      "status": "online",
+      "description": "GitHub 星标管理桌面应用，AI 自动生成摘要与标签，支持语义搜索和版本更新追踪，数据本地保存、打开即用，支持 Windows / macOS / Linux",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/AmintaCCCP/GithubStarsManager"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-peacoke-the-12-axes",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "Axes Explorer",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Peacoke"
+        }
+      ],
+      "name": "The 12 Axes",
+      "url": "https://12axes.site/",
+      "status": "online",
+      "description": "多维度政治倾向自我反思测试工具，提供 60 题精简版与 288 题完整版，从 12 个独立维度分析政治与社会议题取向，提供意识形态匹配与历史人物参考，纯前端运算、无需注册登录、答题进度与答案完全保存在浏览器；支持英语、西班牙语、葡萄牙语，完全免费",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-movclantian-mastrawork",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "movclantian",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/movclantian"
+        }
+      ],
+      "name": "MastraWork",
+      "url": "https://github.com/movclantian/mastra-desktop",
+      "status": "online",
+      "description": "开源桌面 AI 工作台，把一次 Agent 运行组织成可暂停、可回溯、可交接的任务——改代码、跑命令、调 LSP 是「工程任务」，计划/构建/复查三种模式管权限，主 Agent 还能带专家团队分工协作；模型服务自己配、数据默认留在本机，支持 Windows / macOS / Linux，Apache-2.0 开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261015-zgaobai-ai-hairstyle-fit",
+      "edition": "main",
+      "addedAt": "2026-10-15",
+      "maker": "AnshengHu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zgaobai"
+        }
+      ],
+      "name": "AI Hairstyle Fit",
+      "url": "https://aihairstylefit.com/",
+      "status": "online",
+      "description": "男士 AI 发型预览工具，上传正面照并可选填写偏好，对比新发型与原图，查看日常打理建议并生成理发卡；生成需登录，符合条件且完成验证的新账号可获 10 积分体验一次预览，后续按需购买积分包，无订阅；照片和结果 24 小时后清理",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261015-wd9337812-bbauto",
+      "edition": "programmer",
+      "addedAt": "2026-10-15",
+      "maker": "didi_dev",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wd9337812"
+        }
+      ],
+      "name": "BBAuto",
+      "url": "https://bbauto.top",
+      "status": "online",
+      "description": "面向联盟营销投放者的品牌词投放管理系统，连接品牌词研究、Google Ads 任务创建、访问换参与多联盟归因报表，支持 Agent/MCP 操作；需在自己的 VPS 部署并配置相关账户，按订阅使用，产品闭源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261015-ls-open-claude-tuner",
+      "edition": "programmer",
+      "addedAt": "2026-10-15",
+      "maker": "ls-open",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ls-open"
+        }
+      ],
+      "name": "claude-tuner",
+      "url": "https://github.com/ls-open/claude-tuner",
+      "status": "online",
+      "description": "专为 Claude Code 与 Claude Desktop (macOS) 打造的本地前缀缓存优化与工具精简网关，解决多轮对话缓存击穿（实测 DeepSeek 自动缓存命中率达 95%+）、并发工具顺序错位与 thinking 思考链丢失导致的 400 报错，附原生实时 WebUI 监控看板，零外部依赖，MIT 开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261015-coffeecoproject-smartcompact",
+      "edition": "programmer",
+      "addedAt": "2026-10-15",
+      "maker": "coffeecoproject",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coffeecoproject"
+        }
+      ],
+      "name": "SmartCompact",
+      "url": "https://github.com/coffeecoproject/SmartCompact",
+      "status": "online",
+      "description": "让 Claude Code、Codex、pi 的长会话在做完一件事之后提前压缩上下文，60 个任务实测花费降 44%、代码验收不受影响，本地运行，MIT 开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261015-lintt76-tikway",
+      "edition": "programmer",
+      "addedAt": "2026-10-15",
+      "maker": "time410",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lintt76"
+        }
+      ],
+      "name": "Tikway",
+      "url": "https://tikway.ai/",
+      "status": "online",
+      "description": "面向开发者的多模型 AI API 接入服务，用统一 API Key 按 OpenAI、Anthropic、Gemini 协议配置请求地址，提供模型价格目录、中英文接入与排错教程和 Token 费用计算器，按使用量计费；第三方接入服务，非模型厂商官方",
+      "extraLinks": [
+        {
+          "label": "接入教程",
+          "url": "https://tikway.ai/guides"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261015-lintt76-tikway-api-examples",
+      "edition": "programmer",
+      "addedAt": "2026-10-15",
+      "maker": "time410",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lintt76"
+        }
+      ],
+      "name": "Tikway API Examples",
+      "url": "https://github.com/lintt76/tikway-examples",
+      "status": "online",
+      "description": "Python 标准库调用与 Node.js SSE 流式示例，处理中文跨分块、CRLF、多行 data、流内错误和提前断流，附离线 Token 费用估算工具，无第三方依赖，MIT 开源；真实模型调用按服务价格计费",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261015-ruanqizhen-怀旧游戏合集",
+      "edition": "game",
+      "addedAt": "2026-10-15",
+      "maker": "Qizhen Ruan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ruanqizhen"
+        }
+      ],
+      "name": "怀旧游戏合集",
+      "url": "https://games.qizhen.xyz",
+      "status": "online",
+      "description": "7 款网页小游戏合集，含 Galaga 风格太空射击，浏览器即开即玩",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261015-masker99-abuja-life-game",
+      "edition": "game",
+      "addedAt": "2026-10-15",
+      "maker": "Masker99",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "Abuja Life Game",
+      "url": "https://abujalifegame.com/",
+      "status": "online",
+      "description": "Abuja Life 非官方攻略与工具站（免费），提供新手指南、游戏地点查询、出租车费用估算和预算计算器，并区分 Abuja Life 与 Lagos Life 里同名城市的两个版本，另附官方游戏入口，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-rockythink-copyla",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "石头",
+      "city": "杭州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rockythink"
+        },
+        {
+          "label": "博客",
+          "url": "https://elazer.wang"
+        }
+      ],
+      "name": "Copyla",
+      "url": "https://copyla.elazer.wang",
+      "status": "online",
+      "description": "Mac 剪贴板管理工具，数据完全存在本机、无需账号，支持全文搜索历史、多项按顺序一次贴回、Pinboard 常用片段和本机 OCR，14 天免费试用后 ¥79 买断",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-rockythink-clacklet",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "石头",
+      "city": "杭州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rockythink"
+        },
+        {
+          "label": "博客",
+          "url": "https://elazer.wang"
+        }
+      ],
+      "name": "Clacklet",
+      "url": "https://clacklet.elazer.wang",
+      "status": "online",
+      "description": "Mac 键鼠音效工具，15 套机械键盘/打字机等按键声 + 8 种雨声海浪等环境声 + 打字猫等桌面反馈，不录音不存键入内容，App 内不限时免费试用，¥19.9 买断",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-kuxiaowo-aipet-丛雨桌宠",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "kuxiaowo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "name": "AIpet · 丛雨桌宠",
+      "url": "https://github.com/kuxiaowo/AIpet-Murasame/releases",
+      "status": "online",
+      "description": "Windows AI 桌面伴侣，支持本地或云端对话、语音输入输出、可选屏幕感知和对话记忆；提供免安装 EXE，聊天需配置模型或 API Key，基于 MurasamePet 继续开发",
+      "extraLinks": [
+        {
+          "label": "源码与使用说明",
+          "url": "https://github.com/kuxiaowo/AIpet-Murasame"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "开发工具",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-kuxiaowo-待办清单时间线",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "kuxiaowo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "name": "待办清单时间线",
+      "url": "https://todolist.nethub.wiki/",
+      "status": "online",
+      "description": "学习任务管理网站，用时间线查看截止日期，将任务拖入每日计划，支持习惯管理、ManageBac 作业导入及可选 AI 助手；支持中英文，保存和管理任务需登录 NetHub 账号",
+      "extraLinks": [
+        {
+          "label": "源码与使用说明",
+          "url": "https://github.com/kuxiaowo/To-do-list"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-hurry060215-tech-learnnote",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "hurry",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hurry060215-tech"
+        }
+      ],
+      "name": "LearnNote",
+      "url": "https://hurry060215-tech.github.io/learnnote-assistant/",
+      "status": "online",
+      "description": "本地学习工作台，把视频字幕与 PDF、Markdown 等资料整理为可编辑笔记，保留原文和来源时间点供核对；无需 LearnNote 账号，自选模型，远程 API 费用另计；当前 Windows 可用，macOS/Linux 预览，源码采用 Apache-2.0",
+      "extraLinks": [
+        {
+          "label": "源码与使用说明",
+          "url": "https://github.com/hurry060215-tech/learnnote-assistant"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "文档办公",
+        "效率工具",
+        "开发工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-lenoooin-vidlark",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "lenoooin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lenoooin"
+        }
+      ],
+      "name": "Vidlark",
+      "url": "https://vidlark.ai/",
+      "status": "online",
+      "description": "输入一句话或上传一张照片就能生成视频和图片，Seedance、Kling、Veo、Nano Banana 等 40 多个模型共用一个积分余额，生成前显示价格，失败自动退积分；注册送 100 积分，无需绑卡",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-lenoooin-ai-humanizer",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "lenoooin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lenoooin"
+        }
+      ],
+      "name": "AI Humanizer",
+      "url": "https://ai-humanizer.dev/",
+      "status": "online",
+      "description": "把 ChatGPT、Gemini 写的稿子改成读起来自然的文字，保留原有观点和段落；可选学术、口语、正式等语气和阅读难度，支持英语、西班牙语、葡萄牙语；免注册每天免费 2000 词",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-lenoooin-pumpkinstencil",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "lenoooin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lenoooin"
+        }
+      ],
+      "name": "PumpkinStencil",
+      "url": "https://pumpkinstencil.org/",
+      "status": "online",
+      "description": "150 款原创可打印南瓜雕刻模板，从儿童简笔脸到三色阴影；还能把宠物或家人的照片转成可雕刻的模板，按小、中、大南瓜尺寸导出 PDF，经典模式免费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-lenoooin-raindance-ai-video",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "lenoooin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lenoooin"
+        }
+      ],
+      "name": "Raindance AI Video",
+      "url": "https://raindanceaivideo.com/",
+      "status": "online",
+      "description": "上传一张照片做单人、两张做双人，选 Raindance Original、Pier at Sunset 等模板或自己描述场景，几分钟生成可直接发 TikTok 的潮流短视频；按条付费 $9.90 起，无订阅，失败自动退款",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-lenoooin-rapvideogenerator",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "lenoooin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lenoooin"
+        }
+      ],
+      "name": "RapVideoGenerator",
+      "url": "https://rapvideogenerator.com/",
+      "status": "online",
+      "description": "输入一个主题或自己的歌词，生成两版原创说唱，可选 trap、boom bap、drill、lo-fi 等风格；再加一张正脸自拍，生成对口型的 9:16 说唱视频；第一首 30 秒免费，无需绑卡",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-sunflower225-声笺",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "sunflower225",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sunflower225"
+        }
+      ],
+      "name": "声笺",
+      "url": "https://whisperweb.site/zh/",
+      "status": "online",
+      "description": "浏览器本地语音转文字工具，用 Whisper 模型在本机转写音频和视频，文件不上传服务器；可校对文字和时间轴，导出 TXT/SRT/VTT 字幕，单个文件最长 20 分钟，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "效率工具",
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-sunflower225-sesshu",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "sunflower225",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sunflower225"
+        }
+      ],
+      "name": "Sesshu",
+      "url": "https://sesshu.app/",
+      "status": "online",
+      "description": "面向日本用户的 AI 视频生成网站（日语/英语界面），输入文字或上传图片，即可用 Seedance、Kling、Veo 等模型生成短视频，支持 16:9、9:16、1:1 画幅；需用 Google 账号登录，新用户赠送 48 积分（无需绑卡），之后可月付订阅或购买积分包",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261014-zs19901-calorie-cup",
+      "edition": "main",
+      "addedAt": "2026-10-14",
+      "maker": "zs19901",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zs19901"
+        }
+      ],
+      "name": "Calorie Cup",
+      "url": "https://caloriecup.com/",
+      "status": "online",
+      "description": "星巴克热量计算器（免费），基于 2026 美区菜单，可自由切换杯型、奶、糖浆、浓缩与奶盖，实时看到热量、糖分和咖啡因变化，免注册，同站含中文版",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261014-fayecat-rulr",
       "edition": "main",
@@ -83,17 +1957,12 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261014-hayden-xiong-像话",
+      "id": "main-20261014-km1024kkm-像话",
       "edition": "main",
       "addedAt": "2026-10-14",
-      "maker": "Hayden",
+      "maker": "KM1024KKM",
       "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/hayden-xiong"
-        }
-      ],
+      "makerLinks": [],
       "name": "像话",
       "url": "https://mirrorsay.com",
       "status": "online",
@@ -151,6 +2020,143 @@
         "文档办公",
         "效率工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261014-kuxiaowo-wechat-asr-bridge",
+      "edition": "programmer",
+      "addedAt": "2026-10-14",
+      "maker": "kuxiaowo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "name": "WeChat ASR Bridge",
+      "url": "https://github.com/kuxiaowo/wechat-asr-bridge",
+      "status": "online",
+      "description": "把 Windows 微信语音识别接成兼容 OpenAI 的 ASR 接口，支持 WAV/MP3 和 JSON/文本输出；提供免安装窗口版，可选择音频并复制或保存识别结果；需安装并登录微信 4.1.13.65，音频经微信发送至微信服务端，属于版本限定的实验桥接器",
+      "extraLinks": [
+        {
+          "label": "下载与使用说明",
+          "url": "https://github.com/kuxiaowo/wechat-asr-bridge/releases/tag/v0.2.0"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261014-lenoooin-roblox-gui-maker",
+      "edition": "programmer",
+      "addedAt": "2026-10-14",
+      "maker": "lenoooin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lenoooin"
+        }
+      ],
+      "name": "Roblox GUI Maker",
+      "url": "https://robloxguimaker.dev/",
+      "status": "online",
+      "description": "一句话描述商店、HUD、背包或弹窗，生成最多 4 版 Roblox 游戏界面草图，附组件树和样式变量，桌面端和手机端同时预览，可用插件一键发送到 Roblox Studio；第一个 GUI 免费",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261014-sunflower225-optio",
+      "edition": "programmer",
+      "addedAt": "2026-10-14",
+      "maker": "sunflower225",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sunflower225"
+        }
+      ],
+      "name": "Optio",
+      "url": "https://jevai.website/zh",
+      "status": "online",
+      "description": "类型化决策 API，传入文本或 JSON 和最多 8 个问题，返回带概率的单选、评分或是/否答案，用于工单分诊、模型路由、内容审核和 Agent 工具调用前的风险检查；浏览器 Playground 可免注册试用，注册送 5 额度，之后一次性购买额度包（不订阅、不过期）；独立运营的 Jev 调用网关，与 TypeSafe 无隶属关系，非开源",
+      "extraLinks": [
+        {
+          "label": "文档",
+          "url": "https://jevai.website/docs"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261014-kuxiaowo-ksa-简体中文汉化预览",
+      "edition": "game",
+      "addedAt": "2026-10-14",
+      "maker": "kuxiaowo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "name": "KSA 简体中文汉化预览",
+      "url": "https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.2",
+      "status": "developing",
+      "description": "Kitten Space Agency 的部分简体中文汉化 Mod，提供中文字体、译文和便携启动器，不替换原游戏文件；仅适配游戏 2026.10.13.5602，需 .NET 10 x64 Runtime，未覆盖文本回退英文",
+      "extraLinks": [
+        {
+          "label": "源码与安装说明",
+          "url": "https://github.com/kuxiaowo/KSA-CHINESE"
+        }
+      ],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261014-kuxiaowo-ac-forza-遥测桥",
+      "edition": "game",
+      "addedAt": "2026-10-14",
+      "maker": "kuxiaowo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kuxiaowo"
+        }
+      ],
+      "name": "AC → Forza 遥测桥",
+      "url": "https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge/releases/tag/v1.1.0",
+      "status": "online",
+      "description": "Windows 赛车仪表盘适配工具，读取 Assetto Corsa 1 遥测并转换为 Forza Horizon Dash UDP 格式，让兼容仪表盘显示速度、转速、挡位等数据；提供可直接运行的发布包，需配合原游戏及兼容接收端使用",
+      "extraLinks": [
+        {
+          "label": "源码与使用说明",
+          "url": "https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "游戏娱乐"
       ],
       "source": "upstream"
     },
@@ -8418,7 +10424,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261014-0",
+      "id": "custom-20261017-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -46694,6 +48700,131 @@
       "source": "upstream"
     },
     {
+      "id": "main-20241026-dnevend-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-10-26",
+      "maker": "小学后生",
+      "city": "杭州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Dnevend"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://dnevend.site/"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241026-dnevend-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-10-26",
+      "maker": "小学后生",
+      "city": "杭州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Dnevend"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://dnevend.site/"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241026-dnevend-独立星球",
+      "edition": "main",
+      "addedAt": "2024-10-26",
+      "maker": "小学后生",
+      "city": "杭州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Dnevend"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://dnevend.site/"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241026-dnevend-独立观察",
+      "edition": "main",
+      "addedAt": "2024-10-26",
+      "maker": "小学后生",
+      "city": "杭州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Dnevend"
+        },
+        {
+          "label": "个人主页",
+          "url": "https://dnevend.site/"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20241025-jark006-jarkviewer",
       "edition": "main",
       "addedAt": "2024-10-25",
@@ -48685,115 +50816,6 @@
       "extraLinks": [],
       "categories": [
         "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240814-zane12580-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-08-14",
-      "maker": "zane12580",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240814-zane12580-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-08-14",
-      "maker": "zane12580",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240814-zane12580-独立星球",
-      "edition": "main",
-      "addedAt": "2024-08-14",
-      "maker": "zane12580",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20240814-zane12580-独立观察",
-      "edition": "main",
-      "addedAt": "2024-08-14",
-      "maker": "zane12580",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "即刻",
-          "url": "https://jike.city/zane12580"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
