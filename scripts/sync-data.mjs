@@ -9,7 +9,8 @@ const SITE_URL = "https://indiemaker.cn";
 const SOURCES = [
   { edition: "main", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/README.md" },
   // 2026-09-10 上游整理：2018-2023 旧项目抽到 .github/pages/README-Archive.md（GitHub README 512KB 渲染限制）
-  { edition: "main", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/.github/pages/README-Archive.md" },
+  // 2026-10 中上游将 README-Archive.md 改名为 README-Earlier-Projects.md（10/14 后 404 导致 CI 停更 3 天）
+  { edition: "main", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/.github/pages/README-Earlier-Projects.md" },
   { edition: "programmer", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/.github/pages/README-Programmer-Edition.md" },
   { edition: "game", url: "https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/.github/pages/README-Game.md" }
 ];
