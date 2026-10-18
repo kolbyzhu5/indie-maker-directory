@@ -266,6 +266,10 @@ function applyLocale() {
   document.querySelectorAll('a[data-i18n="aboutLink"]').forEach((a) => {
     a.setAttribute("href", getCurrentLocale() === "en" ? "/en/about.html" : "/about.html");
   });
+  // 首页支持入口随界面语言直达对应 About 支持区，不改变其他页脚或数据逻辑。
+  document.querySelectorAll(".imd-footer .footer-support-link").forEach((a) => {
+    a.setAttribute("href", getCurrentLocale() === "en" ? "/en/about.html#support" : "/about.html#support");
+  });
   // 动态重建：需要根据 locale 重绘
   const isZh = getCurrentLocale() === "zh";
   document.documentElement.lang = isZh ? "zh-CN" : "en";

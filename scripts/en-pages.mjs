@@ -269,7 +269,7 @@ export const EN_HOME = {
 // 页面外壳
 // ═══════════════════════════════════════════════════════════
 
-function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, zhUrl, jsonLd = [], body }) {
+function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, zhUrl, jsonLd = [], body, footer }) {
   const ldTags = [...jsonLd, organizationLd].map((s) => `<script type="application/ld+json">${s}</script>`).join("\n  ");
   return `<!DOCTYPE html>
 <html lang="en">
@@ -321,11 +321,11 @@ function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, z
   <main class="detail-main">
 ${body}
   </main>
-  <footer class="detail-footer">
+  ${footer ?? `<footer class="detail-footer">
     <p>${BRAND_EN_FULL} · making sure good work gets seen</p>
     <p class="footer-support"><a href="/en/about.html#support"><span class="support-heart" aria-hidden="true">♥</span> Support this site</a></p>
     <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="/en/about.html">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a></p>
-  </footer>
+  </footer>`}
 </body>
 </html>
 `;
@@ -387,6 +387,22 @@ export function buildEnglishPages(ctx) {
   const base = { siteUrl, umamiScript, organizationLd };
 
   // ── 1. 英文首页 ──
+  // 仅首页采用极简页脚。12 个分类完整、常显；其他英文内页保持原外壳。
+  const homeCategoryOrder = ["AI 工具", "开发工具", "图片工具", "免费工具", "音视频", "效率工具", "浏览器扩展", "文档办公", "游戏娱乐", "教育学习", "社交社区", "生活服务"];
+  const homeCategoryLinks = homeCategoryOrder
+    .map((name) => `<a href="/en/c/${esc(categorySlugs[name])}.html">${esc(EN_CATEGORY[name])}</a>`)
+    .join("");
+  const homeFooter = `<footer class="imd-footer">
+    <p class="footer-brand"><a href="/en/">AI Indie Maker</a><span>Making sure good work gets seen</span></p>
+    <nav class="footer-navigation" aria-label="Footer navigation">
+      <a href="/en/about.html">About</a>
+      <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a>
+      <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact &amp; Feedback</a>
+      <a href="/" hreflang="zh-CN" lang="zh-CN">中文</a>
+      <a class="footer-support-link" href="/en/about.html#support"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg><span>Support this site</span></a>
+    </nav>
+    <nav class="footer-cats" aria-label="Browse by category"><span>Categories</span>${homeCategoryLinks}</nav>
+  </footer>`;
   const homeDesc = EN_HOME.desc.replace("{total}", total.toLocaleString("en"));
   const catRows = Object.entries(categoryCounts)
     .filter(([c]) => EN_CATEGORY[c])
@@ -428,6 +444,7 @@ export function buildEnglishPages(ctx) {
       desc: homeDesc,
       canonical: `${siteUrl}/en/`,
       zhUrl: `${siteUrl}/`,
+      footer: homeFooter,
       jsonLd: [faqLD(EN_HOME.faq)],
       body: `    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="${siteUrl}/" hreflang="zh-CN" lang="zh-CN">中文版</a><span class="sep">›</span><span class="current">English</span></nav>
     <div class="category-head">

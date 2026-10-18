@@ -50,6 +50,11 @@ export const LOCALES = {
     resultsLoadMore: "再翻一页",
     // footer
     footerSlogan: "AI 独立制造所 · 让认真做出来的东西被看见",
+    footerBrand: "AI 独立制造所",
+    footerTagline: "让认真做出来的东西被看见",
+    footerContact: "联系与反馈",
+    footerSupport: "支持本站",
+    a11yFooterLinks: "页脚导航",
     footerDef: "本站为独立开发者产品目录站，不开发、不托管、不代理任何产品；全站免费，无竞价排名。",
     footerFeedback: "反馈建议",
     // 首页频道入口（导流区）。榜单与分类的名称不走这里，走 CATEGORY_I18N。
@@ -154,6 +159,11 @@ export const LOCALES = {
     resultsEmptyAction: "View all",
     resultsLoadMore: "Show more",
     footerSlogan: "AI Indie Maker · Making sure good work gets seen",
+    footerBrand: "AI Indie Maker",
+    footerTagline: "Making sure good work gets seen",
+    footerContact: "Contact & Feedback",
+    footerSupport: "Support this site",
+    a11yFooterLinks: "Footer navigation",
     footerDef: "A directory of works by Chinese indie developers. We don't build, host or resell any product — entirely free, no paid rankings.",
     footerFeedback: "Feedback",
     // Homepage channel hub. Ranking/category labels come from CATEGORY_I18N instead.
