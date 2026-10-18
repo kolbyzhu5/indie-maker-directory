@@ -25,18 +25,23 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 
-const SITE = process.env.BAIDU_PUSH_SITE || "indiemaker.cn";
+// site 参数必须与站长平台「添加网站」时填写的完全一致（含协议），如 https://indiemaker.cn
+const SITE = (process.env.BAIDU_PUSH_SITE || "https://indiemaker.cn").replace(/\/+$/, "");
 const TOKEN = process.env.BAIDU_PUSH_TOKEN || "";
-const ENDPOINT = `https://data.zz.baidu.com/urls?site=${SITE}&token=${TOKEN}`;
+// 裸域名（indiemaker.cn），用于拼接待推送的页面 URL 前缀
+const SITE_URL = SITE.replace(/^https?:\/\//, "");
+// ⚠️ 端点必须用 http:// —— data.zz.baidu.com 不在百度证书 SAN 内（*.baidu.com 不匹配三级域名），
+// 走 https 会 TLS 握手失败；百度官方文档与站长平台展示的调用地址也是 http://
+const ENDPOINT = `http://data.zz.baidu.com/urls?site=${SITE}&token=${TOKEN}`;
 
 // 核心页：配额永远先给它们
 const CORE_PAGES = [
-  `https://${SITE}/`,
-  `https://${SITE}/about.html`,
-  `https://${SITE}/local-first.html`,
-  `https://${SITE}/indie-report.html`,
-  `https://${SITE}/weekly.html`,
-  `https://${SITE}/en/`,
+  `https://${SITE_URL}/`,
+  `https://${SITE_URL}/about.html`,
+  `https://${SITE_URL}/local-first.html`,
+  `https://${SITE_URL}/indie-report.html`,
+  `https://${SITE_URL}/weekly.html`,
+  `https://${SITE_URL}/en/`,
 ];
 
 function parseArgs(argv) {
@@ -68,6 +73,28 @@ async function submit(urlList) {
   return { status: res.status, text: await res.text() };
 }
 
+/**
+ * 配额自适应提交：百度按天给配额（新站仅 10 条/日），且一批超配额会整批失败（不消耗额度）。
+ * 策略：列表按优先级排列（核心页在前），over quota 时把批次减半重试，把当日配额吃满为止。
+ */
+async function submitAdaptive(urlList) {
+  let list = urlList;
+  let attempts = 0;
+  while (list.length > 0) {
+    const { status, text } = await submit(list);
+    attempts++;
+    if (status === 200) return { status, text, pushed: list.length, attempts };
+    if (status === 400 && /over quota/i.test(text) && list.length > 1) {
+      const next = list.slice(0, Math.ceil(list.length / 2));
+      console.log(`[baidu-push] 当日配额不足（${list.length} 条整批被拒），减半至 ${next.length} 条重试`);
+      list = next;
+      continue;
+    }
+    return { status, text, pushed: 0, attempts };
+  }
+  return { status: 0, text: "empty list", pushed: 0, attempts };
+}
+
 async function main() {
   const opts = parseArgs(process.argv.slice(2));
 
@@ -91,7 +118,7 @@ async function main() {
     const enProducts = all.filter((u) => /indiemaker\.cn\/en\/p\//.test(u)).slice(0, Math.ceil(opts.limit / 4));
     urls = [...CORE_PAGES, ...categoryRoots, ...enCategoryRoots, ...zhProducts, ...enProducts];
     // 去重，且只保留本站 URL
-    urls = [...new Set(urls)].filter((u) => u.startsWith(`https://${SITE}/`));
+    urls = [...new Set(urls)].filter((u) => u.startsWith(`https://${SITE_URL}/`));
   }
 
   console.log(`[baidu-push] site=${SITE} 本次推送 ${urls.length} 条`);
@@ -102,16 +129,16 @@ async function main() {
     return;
   }
 
-  const { status, text } = await submit(urls);
+  const { status, text, pushed, attempts } = await submitAdaptive(urls);
 
   if (status === 200) {
-    // 成功响应示例：{"remain":48,"success":13}
-    console.log(`[baidu-push] ✅ 推送成功（HTTP ${status}）：${text}`);
+    // 成功响应示例：{"remain":9,"success":6}
+    console.log(`[baidu-push] ✅ 推送成功（HTTP ${status}，${attempts} 次尝试实推 ${pushed} 条）：${text}`);
   } else if (status === 401 || status === 403) {
     console.error(`[baidu-push] ❌ HTTP ${status} —— token 无效或站点不匹配，请核对 ziyuan.baidu.com 的 token 与 site 配置：${text}`);
     process.exit(1);
-  } else if (status === 402) {
-    console.error(`[baidu-push] ❌ HTTP 402 —— 当日推送配额已用完，明天再试：${text}`);
+  } else if (status === 402 || (status === 400 && pushed === 0 && attempts > 1)) {
+    console.error(`[baidu-push] ❌ 当日推送配额已用完（配额每日刷新），明天再试：${text}`);
     process.exit(1);
   } else {
     console.error(`[baidu-push] ⚠️ HTTP ${status}：${text}`);
