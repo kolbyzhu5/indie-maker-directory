@@ -726,7 +726,7 @@ function renderAboutPage() {
     },
     {
       q: "如何提交我的产品？",
-      a: "向数据源仓库 chinese-independent-developer 提交 Pull Request，下一次同步时就会收录。也可以点击首页底部的「反馈建议」联系我。"
+      a: "向数据源仓库 chinese-independent-developer 提交 Pull Request，下一次同步时就会收录。也可以点击首页底部的「反馈建议」联系我手工收录。"
     },
     {
       q: "有竞价排名吗？",

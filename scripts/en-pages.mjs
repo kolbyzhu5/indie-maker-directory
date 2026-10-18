@@ -746,7 +746,7 @@ function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
     },
     {
       q: "How do I submit my product?",
-      a: "Open a pull request against the data-source repository chinese-independent-developer; your product will be included in the next daily sync. You can also reach me via the Feedback link in the footer."
+      a: "Open a pull request against the data-source repository chinese-independent-developer; your product will be included in the next daily sync. You can also contact me via the Feedback link in the homepage footer to have your product manually added."
     },
     {
       q: "Is there paid ranking?",
