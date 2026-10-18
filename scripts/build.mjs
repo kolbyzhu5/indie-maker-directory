@@ -832,6 +832,12 @@ function renderAboutPage() {
     <section class="support-note" aria-labelledby="supportTitle">
       <h2 id="supportTitle">支持本站</h2>
       <p>AI 独立制造所免费开放、无广告、无会员、无竞价排名。它不产生收入，但需要持续投入 —— 服务器、域名、站点优化与日常维护，每一项都在消耗成本。如果这个站帮到了你，欢迎自愿赞助，让这件事更长久地做下去。赞助完全自愿，不影响你使用任何功能。</p>
+      <div class="support-action">
+        <a class="support-btn" href="https://afdian.com/a/kolbyzhu" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-6.7-4.35-9.33-8.02C1.1 10.9.67 8.9 1.6 6.6 2.53 4.3 4.6 3.3 6.5 4.35c1.05.58 1.9 1.6 2.5 2.85.6-1.25 1.45-2.27 2.5-2.85 1.9-1.05 3.97-.05 4.9 2.25.93 2.3.5 4.3-1.07 6.4C18.7 16.65 12 21 12 21z"/></svg>
+          <span>在爱发电支持我们</span>
+        </a>
+      </div>
       <p class="support-contact">想支持，或只是想反馈？欢迎邮件联系：<a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></p>
     </section>
     <section class="faq-list">

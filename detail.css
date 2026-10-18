@@ -126,6 +126,12 @@
 .support-contact { font-size: 14px; color: var(--ink); opacity: .82; }
 .support-contact a { color: var(--red); text-decoration: none; font-weight: 600; }
 .support-contact a:hover { text-decoration: underline; }
+/* 爱发电赞助入口：克制块级按钮，红章配色，移动端自适应 */
+.support-action { margin: 18px 0 4px; }
+.support-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--red); color: #fff; font-size: 15px; font-weight: 700; letter-spacing: .02em; padding: 11px 22px; border-radius: 6px; text-decoration: none; box-shadow: 3px 4px 0 rgba(88,71,40,.18); transition: transform .12s ease, box-shadow .12s ease; }
+.support-btn:hover { transform: translate(-1px,-1px); box-shadow: 5px 6px 0 rgba(88,71,40,.22); text-decoration: none; color: #fff; }
+.support-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+@media (max-width: 520px) { .support-btn { display: flex; justify-content: center; width: 100%; } }
 
 /* ── 数据报告页（indie-report.html）：数据卡片 + 数据表 ── */
 .rw-stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin: 26px 0 8px; }

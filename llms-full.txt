@@ -1,37 +1,10 @@
-# AI 独立制造所 · 全部产品清单（3249）
+# AI 独立制造所 · 全部产品清单（3238）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-10-18（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2724）
-
-- **[LayerGrab](https://layergrab.com)** — 开发者 stimQQ · AI 工具 / 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/layergrab.html)
-  AI 图片转图层工具，把一张图拆成可编辑的命名图层并补全被遮挡的背景，可导出 PNG/PSD，也能只提取你指名的一个元素；有 Figma 插件和 Chrome 扩展，网页英文界面，每个账号可免费试用一次
-
-- **[SortLines](https://sortlines.com)** — 开发者 dyordo · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/sortlines.html)
-  文本行处理工具，粘贴文本即可按字母、数字、自然顺序或长度排序行，并支持删除重复行、对比列表、随机打乱、反转与清理关键词列表，浏览器本地处理不上传，免费无需注册
-
-- **[BeadPattern](https://beadpattern.art/)** — 开发者 Peacoke · 图片工具 / 效率工具 / 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/beadpattern.html)
-  拼豆图案与像素画生成工具（免费），照片转 Perler/Hama/Artkal 官方色卡图案并算珠子数，纯前端零上传保护隐私，支持图纸导出与专注拼豆模式
-
-- **[Children's Chore](https://childrenschoreapp.com/)** — 开发者 Linky · 图片工具 / 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/children-s-chore.html)
-  面向 4–14 岁孩子家庭的家务打卡与积分奖励工具（免费），家长安排任务、孩子打卡、家长一键确认得积分换家庭自定奖励，支持重复任务、照片证明、假期暂停与共用平板模式，孩子用 PIN/二维码登录，可打印家务表免注册使用
-
-- **[zippic](https://zippic.app)** — 开发者 KELEN · 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/zippic.html)
-  图片压缩与格式转换工具，支持 JPG/PNG/WebP/AVIF/GIF/JXL 批量处理、共 19 个图片工具，浏览器本地运行不上传，免费无需注册
-
-- **[EOR 雇主服务成本计算器](https://chinaabroadguide.com/eor-cost-calculator/)** — 开发者 Owen Zhang · 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/eor.html)
-  输入员工薪资和雇佣国家，实时对比 Deel、Remote、Playroll 三大 EOR 平台月度总成本（含雇主社保税估算），中文界面，免费无需注册
-
-- **[Textus](https://textus.catvinci.com)** — 开发者 ChengAoShen · AI 工具 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-17 · [详情页](https://indiemaker.cn/p/textus.html)
-  所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux
-
-- **[Calculator365](https://www.calculator-365.com/zh-Hans)** — 开发者 nbbmw · 音视频 / 效率工具 · 已上线 · 收录 2026-10-17 · [详情页](https://indiemaker.cn/p/calculator365.html)
-  多语言在线计算器网站（中英日等 6 种语言），提供 20 多个计算工具，覆盖数学、金融、时间和健身等领域，iOS 支持桌面小组件、输入法、语音播报等功能
-
-- **[IP for AI](https://ipforai.cc/)** — 开发者 xjokerabab · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-17 · [详情页](https://indiemaker.cn/p/ip-for-ai.html)
-  AI 网络环境检测网页，打开即测当前 IPv4 / IPv6 出口的地区、ASN 与代理 / VPN / Tor 信号，并检测 ChatGPT、Claude、Gemini 等服务公开资源的连通性、识别各 AI 厂商实际看到的出口；各维度分开列出、不给单一「纯净度」分数，另提供服务器命令行只读检测
+## 大众产品（2715）
 
 - **[AI Todo](https://github.com/strzhao/ai-todo)** — 开发者 strzhao · AI 工具 / 效率工具 / 免费工具 · 已上线 · 收录 2026-10-17 · [详情页](https://indiemaker.cn/p/ai-todo.html)
   自然语言任务管理，说一句话就改成结构化任务操作，diff 预览、确认后才执行；支持多层嵌套子任务，任务列表可升级为共享项目空间（@成员 + 甘特图）；另提供 JSON 输出的 CLI 供 AI agent 调用，在线版 https://ai-todo.stringzhao.life，开源（MIT）
@@ -5187,18 +5160,6 @@
 - **[TalkingAvatar](https://www.talkingavatar.ai/)** — 开发者 Leo · AI 工具 / 音视频 / 教育学习 · 已上线 · 收录 2024-11-09 · [详情页](https://indiemaker.cn/p/talkingavatar.html)
   一键生成 AI 数字人视频的平台，支持多语言对话、表情动作定制，可快速创建个性化数字分身用于营销、教育等场景
 
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Leo · AI 工具 · 已上线 · 收录 2024-11-09 · [详情页](https://indiemaker.cn/p/ai-2675ed.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Leo · 开发工具 / 免费工具 · 已上线 · 收录 2024-11-09 · [详情页](https://indiemaker.cn/p/project-a10a78.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Leo · 开发工具 · 已上线 · 收录 2024-11-09 · [详情页](https://indiemaker.cn/p/project-4bdc1f.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Leo · 浏览器扩展 · 已上线 · 收录 2024-11-09 · [详情页](https://indiemaker.cn/p/project-4be09f.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
-
 - **[SparkleEasy](https://sparkleeasy.pages.dev/)** — 开发者 94R7（桂林） · 效率工具 / 开发工具 · 已上线 · 收录 2024-11-05 · [详情页](https://indiemaker.cn/p/sparkleeasy.html)
   macOS 开发者的效率工具，一键生成 Sparkle 更新配置，快速管理应用权限，让开发更简单
 
@@ -5225,6 +5186,18 @@
 
 - **[X-Comfort-Browser - 浏览器插件](https://x-comfort-browser.xyz/)** — 开发者 小学后生（杭州） · 效率工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2024-10-26 · [详情页](https://indiemaker.cn/p/x-comfort-browser.html)
   用于浏览内容平台(推特、知乎)时，模糊媒体资源，屏蔽广告。专注信息获取，减少视觉干扰，获得互联网噪音下的注意力主动权，同时避免公共场合出现尴尬的场景。- 开源地址
+
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 小学后生（杭州） · AI 工具 · 已上线 · 收录 2024-10-26 · [详情页](https://indiemaker.cn/p/ai-85b1e6.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 小学后生（杭州） · 开发工具 / 免费工具 · 已上线 · 收录 2024-10-26 · [详情页](https://indiemaker.cn/p/project-dfc8fc.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 小学后生（杭州） · 开发工具 · 已上线 · 收录 2024-10-26 · [详情页](https://indiemaker.cn/p/project-91bc4c.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 小学后生（杭州） · 浏览器扩展 · 已上线 · 收录 2024-10-26 · [详情页](https://indiemaker.cn/p/project-91c0cc.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[jarkViewer](https://github.com/jark006/jarkViewer)** — 开发者 JARK006 · 开发工具 · 已上线 · 收录 2024-10-25 · [详情页](https://indiemaker.cn/p/jarkviewer.html)
   Windows 平台看图软件
@@ -8178,13 +8151,7 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（380）
-
-- **[apimodels.app](https://apimodels.app/zh)** — 开发者 stimQQ · AI 工具 / 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/apimodels-app.html)
-  多模型 AI API 平台，一个 API Key、一套 OpenAI 兼容接口调用 150+ 个图片、视频、语音和大语言模型（GPT Image 2、Nano Banana、Seedance、Kling、Veo、Claude、Gemini、DeepSeek 等），每个模型多条渠道出错自动切换、调用失败不扣费、图片视频任务支持异步回调，价格普遍低于官方价，按量计费无月费；需要写代码调用 API
-
-- **[BeatBrowser](https://github.com/BeatAPI/BeatBrowser)** — 开发者 KKKK · AI 工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/beatbrowser.html)
-  MIT 开源的 Chrome 扩展和本地 MCP 桥接，让 Codex 等 Agent 沿用现有登录态，在后台任务窗口读取网页与准备表单，用户可暂停和接管；需安装 Node.js 工具并手动加载扩展
+## 程序员版（378）
 
 - **[Codex Token Bar](https://github.com/CaseyCACA/codex-token-bar)** — 开发者 CaseyCACA · 效率工具 / 开发工具 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/codex-token-bar.html)
   macOS 原生 Codex 用量监控工具，在菜单栏查看剩余额度、重置时间、会话 Token、缓存复用与上下文占用，支持跟随 Codex 桌面宠物移动的额度浮标；本地运行，无需额外 API Key，目前需从源码构建
