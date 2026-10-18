@@ -126,12 +126,27 @@
 .support-contact { font-size: 14px; color: var(--ink); opacity: .82; }
 .support-contact a { color: var(--red); text-decoration: none; font-weight: 600; }
 .support-contact a:hover { text-decoration: underline; }
-/* 爱发电赞助入口：克制块级按钮，红章配色，移动端自适应 */
-.support-action { margin: 18px 0 4px; }
-.support-btn { display: inline-flex; align-items: center; gap: 8px; background: var(--red); color: #fff; font-size: 15px; font-weight: 700; letter-spacing: .02em; padding: 11px 22px; border-radius: 6px; text-decoration: none; box-shadow: 3px 4px 0 rgba(88,71,40,.18); transition: transform .12s ease, box-shadow .12s ease; }
+/* 赞助双通道卡片：微信赞赏（主）+ 爱发电（辅），红章配色，移动端竖排 */
+.support-cards { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin: 18px 0 6px; }
+.support-card { border: 1px solid var(--line); border-radius: 8px; padding: 18px 18px 20px; background: var(--bg); display: flex; flex-direction: column; }
+.support-card--primary { border: 2px solid var(--red); box-shadow: 3px 4px 0 rgba(88,71,40,.12); }
+.support-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+.support-card-title { font-size: 16px; font-weight: 700; letter-spacing: .02em; margin: 0; color: var(--ink); }
+.support-card-badge { font-size: 12px; font-weight: 700; color: #fff; background: var(--red); padding: 2px 9px; border-radius: 999px; letter-spacing: .02em; white-space: nowrap; }
+.support-card-badge--alt { background: transparent; color: var(--ink); border: 1px solid var(--line); opacity: .8; }
+.support-qr { width: 160px; max-width: 60%; margin: 0 auto 12px; }
+.support-qr img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--line); }
+.support-card-tip { font-size: 13px; line-height: 1.75; color: var(--ink); opacity: .82; margin: 0; text-align: center; }
+.support-card-body { display: flex; flex-direction: column; gap: 12px; justify-content: center; flex: 1; }
+.support-card-desc { font-size: 13px; line-height: 1.75; color: var(--ink); opacity: .82; margin: 0; }
+.support-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: var(--red); color: #fff; font-size: 15px; font-weight: 700; letter-spacing: .02em; padding: 11px 22px; border-radius: 6px; text-decoration: none; box-shadow: 3px 4px 0 rgba(88,71,40,.18); transition: transform .12s ease, box-shadow .12s ease; }
 .support-btn:hover { transform: translate(-1px,-1px); box-shadow: 5px 6px 0 rgba(88,71,40,.22); text-decoration: none; color: #fff; }
 .support-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
-@media (max-width: 520px) { .support-btn { display: flex; justify-content: center; width: 100%; } }
+@media (max-width: 520px) {
+  .support-cards { grid-template-columns: 1fr; }
+  .support-qr { width: 150px; }
+  .support-btn { width: 100%; }
+}
 
 /* ── 数据报告页（indie-report.html）：数据卡片 + 数据表 ── */
 .rw-stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin: 26px 0 8px; }
