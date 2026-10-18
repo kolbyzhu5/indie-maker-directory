@@ -4,29 +4,305 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-18T00:02:45.414Z",
+  "generatedAt": "2026-10-18T06:09:58.563Z",
   "counts": {
-    "total": 3238,
-    "main": 2715,
-    "programmer": 378,
+    "total": 3249,
+    "main": 2724,
+    "programmer": 380,
     "game": 145,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1052,
-    "效率工具": 465,
-    "免费工具": 602,
-    "图片工具": 582,
-    "开发工具": 621,
+    "AI 工具": 1057,
+    "图片工具": 587,
+    "浏览器扩展": 335,
+    "免费工具": 610,
+    "效率工具": 467,
+    "音视频": 542,
+    "开发工具": 624,
+    "文档办公": 307,
     "教育学习": 185,
-    "浏览器扩展": 331,
-    "文档办公": 306,
     "社交社区": 121,
     "游戏娱乐": 181,
-    "音视频": 540,
     "生活服务": 100
   },
   "projects": [
+    {
+      "id": "main-20261018-stimqq-layergrab",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "stimQQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "name": "LayerGrab",
+      "url": "https://layergrab.com",
+      "status": "online",
+      "description": "AI 图片转图层工具，把一张图拆成可编辑的命名图层并补全被遮挡的背景，可导出 PNG/PSD，也能只提取你指名的一个元素；有 Figma 插件和 Chrome 扩展，网页英文界面，每个账号可免费试用一次",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/layergrab/layergrab-plugins"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261018-dyordo-sortlines",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "dyordo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dyordo"
+        }
+      ],
+      "name": "SortLines",
+      "url": "https://sortlines.com",
+      "status": "online",
+      "description": "文本行处理工具，粘贴文本即可按字母、数字、自然顺序或长度排序行，并支持删除重复行、对比列表、随机打乱、反转与清理关键词列表，浏览器本地处理不上传，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261018-peacoke-beadpattern",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "Peacoke",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Peacoke"
+        }
+      ],
+      "name": "BeadPattern",
+      "url": "https://beadpattern.art/",
+      "status": "online",
+      "description": "拼豆图案与像素画生成工具（免费），照片转 Perler/Hama/Artkal 官方色卡图案并算珠子数，纯前端零上传保护隐私，支持图纸导出与专注拼豆模式",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261018-linky-aiinlink-children-s-chore",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "Linky",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "name": "Children's Chore",
+      "url": "https://childrenschoreapp.com/",
+      "status": "online",
+      "description": "面向 4–14 岁孩子家庭的家务打卡与积分奖励工具（免费），家长安排任务、孩子打卡、家长一键确认得积分换家庭自定奖励，支持重复任务、照片证明、假期暂停与共用平板模式，孩子用 PIN/二维码登录，可打印家务表免注册使用",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261018-imkelen-zippic",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "KELEN",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/imkelen"
+        }
+      ],
+      "name": "zippic",
+      "url": "https://zippic.app",
+      "status": "online",
+      "description": "图片压缩与格式转换工具，支持 JPG/PNG/WebP/AVIF/GIF/JXL 批量处理、共 19 个图片工具，浏览器本地运行不上传，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261018-owen-zhang-eor-雇主服务成本计算器",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "Owen Zhang",
+      "city": "",
+      "makerLinks": [],
+      "name": "EOR 雇主服务成本计算器",
+      "url": "https://chinaabroadguide.com/eor-cost-calculator/",
+      "status": "online",
+      "description": "输入员工薪资和雇佣国家，实时对比 Deel、Remote、Playroll 三大 EOR 平台月度总成本（含雇主社保税估算），中文界面，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261018-stimqq-apimodels-app",
+      "edition": "programmer",
+      "addedAt": "2026-10-18",
+      "maker": "stimQQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "name": "apimodels.app",
+      "url": "https://apimodels.app/zh",
+      "status": "online",
+      "description": "多模型 AI API 平台，一个 API Key、一套 OpenAI 兼容接口调用 150+ 个图片、视频、语音和大语言模型（GPT Image 2、Nano Banana、Seedance、Kling、Veo、Claude、Gemini、DeepSeek 等），每个模型多条渠道出错自动切换、调用失败不扣费、图片视频任务支持异步回调，价格普遍低于官方价，按量计费无月费；需要写代码调用 API",
+      "extraLinks": [
+        {
+          "label": "文档",
+          "url": "https://apimodels.app/docs"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261018-erickkkyt-beatbrowser",
+      "edition": "programmer",
+      "addedAt": "2026-10-18",
+      "maker": "KKKK",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/erickkkyt"
+        }
+      ],
+      "name": "BeatBrowser",
+      "url": "https://github.com/BeatAPI/BeatBrowser",
+      "status": "online",
+      "description": "MIT 开源的 Chrome 扩展和本地 MCP 桥接，让 Codex 等 Agent 沿用现有登录态，在后台任务窗口读取网页与准备表单，用户可暂停和接管；需安装 Node.js 工具并手动加载扩展",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-chengaoshen-textus",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "ChengAoShen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ChengAoShen"
+        }
+      ],
+      "name": "Textus",
+      "url": "https://textus.catvinci.com",
+      "status": "online",
+      "description": "所见即所得的 Markdown 编辑器，支持公式、表格和 Mermaid，可选 AI 写作助手逐句给出修改建议，支持 DeepSeek 等 20 多家模型和 Ollama 本地模型；免费开源，无需账号，支持 macOS、Windows、Linux",
+      "extraLinks": [
+        {
+          "label": "下载",
+          "url": "https://github.com/CatVinci-Studio/Textus/releases/latest"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-nbbmw-calculator365",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "nbbmw",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/nbbmw"
+        }
+      ],
+      "name": "Calculator365",
+      "url": "https://www.calculator-365.com/zh-Hans",
+      "status": "online",
+      "description": "多语言在线计算器网站（中英日等 6 种语言），提供 20 多个计算工具，覆盖数学、金融、时间和健身等领域，iOS 支持桌面小组件、输入法、语音播报等功能",
+      "extraLinks": [
+        {
+          "label": "下载地址",
+          "url": "https://apps.apple.com/cn/app/id6448260851"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261017-xjokerabab-ip-for-ai",
+      "edition": "main",
+      "addedAt": "2026-10-17",
+      "maker": "xjokerabab",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xjokerabab"
+        }
+      ],
+      "name": "IP for AI",
+      "url": "https://ipforai.cc/",
+      "status": "online",
+      "description": "AI 网络环境检测网页，打开即测当前 IPv4 / IPv6 出口的地区、ASN 与代理 / VPN / Tor 信号，并检测 ChatGPT、Claude、Gemini 等服务公开资源的连通性、识别各 AI 厂商实际看到的出口；各维度分开列出、不给单一「纯净度」分数，另提供服务器命令行只读检测",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261017-strzhao-ai-todo",
       "edition": "main",
@@ -48408,6 +48684,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20241109-andylearnai-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-11-09",
+      "maker": "Leo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/andylearnai"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241109-andylearnai-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-11-09",
+      "maker": "Leo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/andylearnai"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241109-andylearnai-独立星球",
+      "edition": "main",
+      "addedAt": "2024-11-09",
+      "maker": "Leo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/andylearnai"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241109-andylearnai-独立观察",
+      "edition": "main",
+      "addedAt": "2024-11-09",
+      "maker": "Leo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/andylearnai"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20241105-wtechtec-sparkleeasy",
       "edition": "main",
       "addedAt": "2024-11-05",
@@ -48696,131 +49081,6 @@
         "开发工具",
         "浏览器扩展",
         "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241026-dnevend-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-10-26",
-      "maker": "小学后生",
-      "city": "杭州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Dnevend"
-        },
-        {
-          "label": "个人主页",
-          "url": "https://dnevend.site/"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241026-dnevend-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-10-26",
-      "maker": "小学后生",
-      "city": "杭州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Dnevend"
-        },
-        {
-          "label": "个人主页",
-          "url": "https://dnevend.site/"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241026-dnevend-独立星球",
-      "edition": "main",
-      "addedAt": "2024-10-26",
-      "maker": "小学后生",
-      "city": "杭州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Dnevend"
-        },
-        {
-          "label": "个人主页",
-          "url": "https://dnevend.site/"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241026-dnevend-独立观察",
-      "edition": "main",
-      "addedAt": "2024-10-26",
-      "maker": "小学后生",
-      "city": "杭州",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Dnevend"
-        },
-        {
-          "label": "个人主页",
-          "url": "https://dnevend.site/"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

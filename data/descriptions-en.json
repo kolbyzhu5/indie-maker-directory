@@ -13038,5 +13038,65 @@
  "custom-20261018-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-18"
+ },
+ "main-20261018-stimqq-layergrab": {
+  "descEn": "AI picture to layer tool splits a picture into editable named layers and completes the blocked background. It can export PNG/PSD, and can also extract only one element you named; it has a Figma plug-in and a Chrome extension, a web English interface, and each account can be tried once for free",
+  "at": "2026-10-18"
+ },
+ "main-20261018-dyordo-sortlines": {
+  "descEn": "Text line processing tool. Paste text to sort lines by letters, numbers, natural order or length. It also supports deleting duplicate lines, comparing lists, randomly shuffling, reversing and cleaning keyword lists. It is processed locally in the browser without uploading. It is free and does not require registration.",
+  "at": "2026-10-18"
+ },
+ "main-20261018-peacoke-beadpattern": {
+  "descEn": "Bean pattern and pixel art generation tool (free), convert photos to Perler/Hama/Artkal official color card patterns and count beads, pure front-end zero upload to protect privacy, support drawing export and focus on bean mode",
+  "at": "2026-10-18"
+ },
+ "main-20261018-linky-aiinlink-children-s-chore": {
+  "descEn": "A housework check-in and points reward tool for families with children aged 4-14 (free). Parents can arrange tasks, children check-in, and parents can confirm with one click to earn points in exchange for family-defined rewards. It supports repeated tasks, photo proofs, vacation pauses, and shared tablet mode. Children can log in with a PIN/QR code, and printable chore lists can be used without registration.",
+  "at": "2026-10-18"
+ },
+ "main-20261018-imkelen-zippic": {
+  "descEn": "Image compression and format conversion tool, supports JPG/PNG/WebP/AVIF/GIF/JXL batch processing, a total of 19 image tools, runs locally in the browser without uploading, free and no registration required",
+  "at": "2026-10-18"
+ },
+ "main-20261018-owen-zhang-eor-雇主服务成本计算器": {
+  "descEn": "Enter employee salary and employment country, and compare the total monthly cost (including employer social security tax estimate) of the three major EOR platforms Deel, Remote, and Playroll in real time. Chinese interface, free and no registration required.",
+  "at": "2026-10-18"
+ },
+ "programmer-20261018-stimqq-apimodels-app": {
+  "descEn": "Multi-model AI API platform, one API Key, a set of OpenAI compatible interfaces to call 150+ pictures, videos, speech and large language models (GPT Image 2, Nano Banana, Seedance, Kling, Veo, Claude, Gemini, DeepSeek, etc.), each model automatically switches multiple channels when errors occur, no deductions are made for failed calls, image and video tasks support asynchronous callbacks, the price is generally lower than the official price, and there is no monthly fee for pay-as-you-go billing; you need to write code to call the API",
+  "at": "2026-10-18"
+ },
+ "programmer-20261018-erickkkyt-beatbrowser": {
+  "descEn": "MIT's open source Chrome extension and the local MCP bridge allow Agents such as Codex to use the existing login state to read web pages and prepare forms in the background task window. Users can pause and take over; the Node.js tool needs to be installed and the extension manually loaded.",
+  "at": "2026-10-18"
+ },
+ "main-20261017-chengaoshen-textus": {
+  "descEn": "WYSIWYG Markdown editor supports formulas, tables and Mermaid, optional AI writing assistant gives modification suggestions sentence by sentence, supports more than 20 models such as DeepSeek and Ollama local models; free and open source, no account required, supports macOS, Windows, Linux",
+  "at": "2026-10-18"
+ },
+ "main-20261017-nbbmw-calculator365": {
+  "descEn": "Multilingual online calculator website (6 languages ​​including Chinese, English and Japanese), providing more than 20 calculation tools, covering fields such as mathematics, finance, time and fitness. iOS supports desktop widgets, input methods, voice broadcast and other functions",
+  "at": "2026-10-18"
+ },
+ "main-20261017-xjokerabab-ip-for-ai": {
+  "descEn": "AI network environment detection web page, open it and immediately test the current IPv4/IPv6 export region, ASN and proxy/VPN/Tor signal, and detect the connectivity of public resources such as ChatGPT, Claude, Gemini and other services, and identify the exports actually seen by each AI manufacturer; each dimension is listed separately, no single \"purity\" score is given, and server command line read-only detection is also provided",
+  "at": "2026-10-18"
+ },
+ "main-20241109-andylearnai-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-18"
+ },
+ "main-20241109-andylearnai-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-18"
+ },
+ "main-20241109-andylearnai-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-18"
+ },
+ "main-20241109-andylearnai-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-18"
  }
 }
