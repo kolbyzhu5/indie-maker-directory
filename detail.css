@@ -35,6 +35,7 @@
 .category-head h1 { font-size: clamp(36px, 5.4vw, 60px); letter-spacing: -.02em; font-weight: 900; margin: 0; }
 .category-head .category-count { font-size: 15px; color: var(--muted); margin-top: 10px; }
 .category-head .category-count b { color: var(--red-dark); font-size: 20px; }
+.category-intro { max-width: 760px; margin: 4px 0 6px; padding: 16px 18px; font-size: 15px; line-height: 1.85; color: #4a453c; background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--red); border-radius: 4px; }
 .category-nav { display: flex; flex-wrap: wrap; gap: 9px; margin: 22px 0 6px; }
 /* ⚠️ nowrap + flex:0 0 auto 是防「chip 内容溢出被邻项盖住」的正面防御，勿删：
    .category-nav 是 flex 容器，每个 chip 是 flex item。若允许收缩，item 可被压到
@@ -199,6 +200,7 @@
 
   .category-head { margin-top: 10px; padding: 20px 2px 14px; }
   .category-head h1 { font-size: 27px; }
+  .category-intro { font-size: 14px; line-height: 1.75; padding: 13px 15px; margin-top: 2px; }
   .pagination { gap: 10px; margin: 24px 0 6px; }
   .pagination .page-btn { padding: 8px 14px; }
 

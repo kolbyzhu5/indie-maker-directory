@@ -45,6 +45,23 @@ export const EN_CATEGORY = {
   "未分类": "Uncategorized"
 };
 
+// [SEO] English visible long-tail intros for category pages (first page only). {n} = product count.
+const EN_CATEGORY_INTROS = {
+  "AI 工具": "A collection of {n} AI tools built by Chinese indie developers — AI writing, AI image generation, AI video, background removal, AI coding and more. Most are free and run online with no download required. Looking for the best Chinese AI tools or handy online AI apps? Browse by need right here.",
+  "图片工具": "{n} online image tools made by indie developers — free background removal, image compression, image-to-text, watermark removal, format conversion and more. Upload and go, no software to install. Looking for a good online photo editor? They're all organised by use case below.",
+  "音视频": "{n} audio and video tools from indie developers — online video compression, subtitle generation, video-to-GIF, audio extraction and format conversion. Most are free and run right in your browser. Looking for reliable online media tools? Browse the list here.",
+  "开发工具": "{n} online tools for developers — JSON formatting, regex testing, API debugging, code formatters and encryption utilities. Free to use, no sign-up. Practical programming tools built by indie developers, grouped by function so you can find what you need fast.",
+  "免费工具": "{n} completely free tools from indie developers, covering images, documents, audio and video, productivity and more. Most need no sign-up and run online. Looking for genuinely free, no-strings online utilities? Browse by category and try them out.",
+  "效率工具": "{n} productivity tools from indie developers — to-do lists, notes, time management, pomodoro timers, habit tracking and more. Mostly free and online. Looking for a tool to manage your tasks and goals? Browse the collection here.",
+  "浏览器扩展": "{n} browser extensions and plugins built by indie developers — ad blocking, translation, screenshots, downloading, privacy and more. Works with Chrome and other major browsers. Looking for a lightweight, no-bloat extension? Pick by use case below.",
+  "文档办公": "{n} online office and document tools — PDF conversion, OCR text recognition, document format conversion, spreadsheet utilities and more. Free to use, no Office install needed. Looking for a handy online tool to handle documents? Browse by type here.",
+  "教育学习": "{n} education and learning tools from indie developers — vocabulary memorization, online courses, flashcards, quiz practice, language learning and more. Mostly free to use. Looking for a self-study tool with a twist? Browse the list here.",
+  "社交社区": "{n} social and community products from indie developers — interest communities, chat and making friends, anonymous confessions, group collaboration and more. Find your people. Looking for a niche but warm social app? Take a look here.",
+  "游戏娱乐": "{n} games made by indie developers — casual games, puzzles, strategy, simulation and more. Most are playable online with no download. Looking for something fun and replayable? Pick by genre and start playing.",
+  "生活服务": "{n} lifestyle service tools from indie developers — weather, budgeting and accounting, health reminders, travel calculators, handy utilities and more. Free and built for everyday life. Looking for a small tool that solves a specific daily need? Browse here.",
+  "未分类": "{n} indie developer products not yet sorted into a category — all kinds of practical tools, creative apps and fresh projects. Looking to discover more indie work that hasn't been filed yet? Browse around, or use the category nav above."
+};
+
 // ── 榜单子分组名 中 → 英（34 个）──
 export const EN_GROUP = {
   "AI 图片与设计": "AI Image & Design",
@@ -1065,6 +1082,7 @@ function renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, a
       <p class="category-count"><b>${productsInCat.length}</b> products${page > 1 ? ` · page ${page} of ${totalPages}` : ""} · updated ${today}</p>
       <nav class="category-nav" aria-label="Categories">${catNav}</nav>
     </div>
+    ${page === 1 && EN_CATEGORY_INTROS[cat] ? `<p class="category-intro">${esc(EN_CATEGORY_INTROS[cat].replace("{n}", productsInCat.length))}</p>` : ""}
     <div class="category-grid"><ol class="best-list">${items}</ol></div>
     ${pagination}`
   });
