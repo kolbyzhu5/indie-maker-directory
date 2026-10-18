@@ -112,22 +112,27 @@ fieldset b { color: var(--muted); font-size: 10px; font-weight: 400; }
 .empty-state { text-align: center; padding: 80px 20px; border: 1px dashed var(--line); }
 .empty-state > span { display: grid; place-items: center; width: 62px; height: 62px; margin: 0 auto 20px; background: var(--red); color: white; font-family: var(--display); font-size: 28px; transform: rotate(-3deg); }
 .empty-state h2 { margin: 0 0 8px; }.empty-state p { color: var(--muted); }.empty-state button { border: 0; border-bottom: 1px solid var(--red); background: transparent; color: var(--red); }
-footer { max-width: 1292px; margin: 0 auto; padding: 25px 34px 45px; border-top: 1px solid var(--line); color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; font-size: 11px; }
+footer { max-width: 1292px; margin: 0 auto; padding: 30px 34px 45px; border-top: 1px solid var(--line); color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; font-size: 11px; }
 /* 站点定义（GEO）：一行短免责，安静地收在页脚最底部（2026-10-08 简化改版，
    长版免责声明完整保留在 /about.html）。仍不隐藏：AI 搜索主要读首页，
    而 Google 移动优先索引会折价 display:none 的内容。 */
-footer .footer-def { flex: 0 0 100%; margin: 8px 0 0; font-size: 11px; line-height: 1.85; color: var(--muted); text-align: left; }
-footer .footer-links { line-height: 1.9; }
+footer .footer-def { flex: 0 0 100%; margin: 12px 0 0; font-size: 11px; line-height: 1.85; color: var(--muted); text-align: left; opacity: .88; }
+footer .footer-links { flex: 0 0 100%; margin: 8px 0 0; line-height: 1.9; }
 footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
 footer a:hover { color: var(--red); border-bottom-color: var(--red); }
 
-/* ── 页脚「支持本站」入口：克制红章心形，醒目但不打扰 ─────────
-   中文首页 footer 是 flex(space-between)，需 flex:0 0 100% 独占一行；
-   英文首页是 .detail-footer（普通块），同样左对齐。 */
-.footer-support { flex: 0 0 100%; margin: 6px 0 0; text-align: left; }
+/* 品牌语：页脚第一行左侧，比链接行略大略深，建立层次 */
+footer > p:first-of-type { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .02em; color: var(--ink); opacity: .72; }
+
+/* ── 页脚「支持本站」入口：与品牌语同一行（左品牌 · 右红心），克制醒目 ─────────
+   中文首页 footer 与英文全站 footer 都是 flex(space-between)，
+   margin-left:auto 把入口推到品牌语对面；窄屏（≤640px）折行独占一行。
+   内页（detail.css）不加载本文件，不受影响。 */
+.footer-support { flex: 0 0 auto; margin: 0 0 0 auto; text-align: left; }
 .footer-support a { display: inline-flex; align-items: center; gap: 6px; color: var(--red); font-weight: 600; font-size: 12px; letter-spacing: .02em; border-bottom: 1px solid transparent; }
 .footer-support a:hover { border-bottom-color: var(--red); }
 .footer-support .support-heart { font-size: 13px; line-height: 1; }
+@media (max-width: 640px) { footer .footer-support { flex: 0 0 100%; margin: 4px 0 0; } }
 
 /* ── 页脚分类导航（全站注入，见 build.mjs footerCategoryNav）────────
    13 个分类页此前只有首页「热门分类胶囊」能间接触达，而胶囊取的是 categoryCounts
@@ -135,7 +140,7 @@ footer a:hover { color: var(--red); border-bottom-color: var(--red); }
    2026-10-08 起不含「未分类」（页脚简化）；footer 在首页是 flex（space-between），
    故需 flex:0 0 100% 独占一行；在详情页/分类页是 .detail-footer（普通块 +
    text-align:center），此处统一左对齐。 */
-.footer-cats { flex: 0 0 100%; margin: 10px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); font-size: 11px; line-height: 2.4; text-align: left; }
+.footer-cats { flex: 0 0 100%; margin: 14px 0 0; padding-top: 13px; border-top: 1px dashed var(--line); font-size: 11px; line-height: 2.4; text-align: left; }
 .footer-cats > span { margin-right: 9px; color: var(--red-dark); font-weight: 700; letter-spacing: .1em; }
 .footer-cats a { display: inline-block; margin-right: 13px; padding: 4px 0; color: var(--muted); text-decoration: none; white-space: nowrap; }
 .footer-cats a:hover { color: var(--red); }
