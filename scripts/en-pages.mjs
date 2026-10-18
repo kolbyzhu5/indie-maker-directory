@@ -789,11 +789,11 @@ function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
         </div>
         <div class="support-card">
           <div class="support-card-head">
-            <span class="support-card-badge support-card-badge--alt">Global · PayPal</span>
+            <span class="support-card-badge support-card-badge--alt">Monthly / one-off</span>
             <h3 class="support-card-title">Afdian</h3>
           </div>
           <div class="support-card-body">
-            <p class="support-card-desc">For friends overseas — PayPal and monthly subscriptions supported. Pick a tier when you open the page.</p>
+            <p class="support-card-desc">Supports Alipay and WeChat Pay, one-off or recurring. Pick a tier when you open the page.</p>
             <a class="support-btn" href="https://afdian.com/a/kolbyzhu" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-6.7-4.35-9.33-8.02C1.1 10.9.67 8.9 1.6 6.6 2.53 4.3 4.6 3.3 6.5 4.35c1.05.58 1.9 1.6 2.5 2.85.6-1.25 1.45-2.27 2.5-2.85 1.9-1.05 3.97-.05 4.9 2.25.93 2.3.5 4.3-1.07 6.4C18.7 16.65 12 21 12 21z"/></svg>
               <span>Support us on Afdian</span>

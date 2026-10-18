@@ -845,11 +845,11 @@ function renderAboutPage() {
         </div>
         <div class="support-card">
           <div class="support-card-head">
-            <span class="support-card-badge support-card-badge--alt">海外 · PayPal</span>
+            <span class="support-card-badge support-card-badge--alt">可按月订阅</span>
             <h3 class="support-card-title">爱发电</h3>
           </div>
           <div class="support-card-body">
-            <p class="support-card-desc">适合海外朋友，支持 PayPal 与按月订阅。打开后可选择赞助方案。</p>
+            <p class="support-card-desc">支持支付宝、微信支付，可单次或按月订阅。打开后选择赞助方案即可。</p>
             <a class="support-btn" href="https://afdian.com/a/kolbyzhu" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-6.7-4.35-9.33-8.02C1.1 10.9.67 8.9 1.6 6.6 2.53 4.3 4.6 3.3 6.5 4.35c1.05.58 1.9 1.6 2.5 2.85.6-1.25 1.45-2.27 2.5-2.85 1.9-1.05 3.97-.05 4.9 2.25.93 2.3.5 4.3-1.07 6.4C18.7 16.65 12 21 12 21z"/></svg>
               <span>在爱发电支持我们</span>
