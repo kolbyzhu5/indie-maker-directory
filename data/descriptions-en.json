@@ -13098,5 +13098,33 @@
  "main-20241109-andylearnai-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-10-18"
+ },
+ "main-20261018-makexyf-max-少装一点": {
+  "descEn": "AI plug-in directory, organizes MCP tools, Skills and editor plug-ins according to specific tasks, and provides Chinese usage instructions, access methods and original project links one by one. It has included 124 projects and provides multi-language interfaces such as Chinese and English.",
+  "at": "2026-10-18"
+ },
+ "main-20261018-xiaomingio-weather-trip": {
+  "descEn": "A tool station for filtering travel destinations based on future weather. It supports searching for global cities based on temperature, rainfall, humidity and other conditions, and compares city forecasts through weather maps. It provides Chinese and English interfaces.",
+  "at": "2026-10-18"
+ },
+ "main-20261018-ikeisthere-夸夸跨境": {
+  "descEn": "Free pricing calculator for Chinese Ozon cross-border sellers (no login required, recommended selling price based on category commission, rFBS/FBP logistics charges, exchange rate and target profit) and Chinese practical tutorials; optional multi-store physical examination workbench - Web application",
+  "at": "2026-10-18"
+ },
+ "main-20241124-zebrapixel-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-18"
+ },
+ "main-20241124-zebrapixel-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-18"
+ },
+ "main-20241124-zebrapixel-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-18"
+ },
+ "main-20241124-zebrapixel-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-18"
  }
 }

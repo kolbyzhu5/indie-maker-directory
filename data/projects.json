@@ -4,29 +4,101 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-18T06:09:58.563Z",
+  "generatedAt": "2026-10-18T06:59:01.299Z",
   "counts": {
-    "total": 3249,
-    "main": 2724,
+    "total": 3252,
+    "main": 2727,
     "programmer": 380,
     "game": 145,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1057,
+    "AI 工具": 1058,
+    "浏览器扩展": 336,
+    "生活服务": 101,
+    "免费工具": 611,
     "图片工具": 587,
-    "浏览器扩展": 335,
-    "免费工具": 610,
     "效率工具": 467,
     "音视频": 542,
     "开发工具": 624,
     "文档办公": 307,
     "教育学习": 185,
     "社交社区": 121,
-    "游戏娱乐": 181,
-    "生活服务": 100
+    "游戏娱乐": 181
   },
   "projects": [
+    {
+      "id": "main-20261018-makexyf-max-少装一点",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "makexyf-max",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/makexyf-max"
+        }
+      ],
+      "name": "少装一点",
+      "url": "https://lessaitools.com/",
+      "status": "online",
+      "description": "AI 插件目录，按具体任务整理 MCP 工具、Skills 与编辑器插件，逐项给出中文用途说明、接入方式和原项目链接，已收录 124 个项目，提供中英等多语言界面",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261018-xiaomingio-weather-trip",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "小明",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "name": "Weather Trip",
+      "url": "https://weather-trip.aicake.io",
+      "status": "online",
+      "description": "按未来天气筛选旅行目的地的工具站，支持按温度、降雨、湿度等条件查找全球城市，通过天气地图比较城市预报，提供中英文界面",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/xiaomingio/weather-trip"
+        }
+      ],
+      "categories": [
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261018-ikeisthere-夸夸跨境",
+      "edition": "main",
+      "addedAt": "2026-10-18",
+      "maker": "ikeisthere",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ikeisthere"
+        }
+      ],
+      "name": "夸夸跨境",
+      "url": "https://kuakuakua.com/pricing-calculator/",
+      "status": "online",
+      "description": "面向中国 Ozon 跨境卖家的免费定价计算器（免登录，按类目佣金、rFBS/FBP 物流资费、汇率与目标利润反推建议售价）与中文实操教程；可选多店体检工作台 — Web 应用",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261018-stimqq-layergrab",
       "edition": "main",
@@ -48427,6 +48499,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20241124-zebrapixel-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-11-24",
+      "maker": "zebrapixel",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Twitter",
+          "url": "https://x.com/xdkc2000"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241124-zebrapixel-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-11-24",
+      "maker": "zebrapixel",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Twitter",
+          "url": "https://x.com/xdkc2000"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241124-zebrapixel-独立星球",
+      "edition": "main",
+      "addedAt": "2024-11-24",
+      "maker": "zebrapixel",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Twitter",
+          "url": "https://x.com/xdkc2000"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241124-zebrapixel-独立观察",
+      "edition": "main",
+      "addedAt": "2024-11-24",
+      "maker": "zebrapixel",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Twitter",
+          "url": "https://x.com/xdkc2000"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20241122-jianpingliu-extensionsfox",
       "edition": "main",
       "addedAt": "2024-11-22",
@@ -48680,115 +48861,6 @@
         "AI 工具",
         "音视频",
         "教育学习"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241109-andylearnai-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-11-09",
-      "maker": "Leo",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/andylearnai"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241109-andylearnai-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-11-09",
-      "maker": "Leo",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/andylearnai"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241109-andylearnai-独立星球",
-      "edition": "main",
-      "addedAt": "2024-11-09",
-      "maker": "Leo",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/andylearnai"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241109-andylearnai-独立观察",
-      "edition": "main",
-      "addedAt": "2024-11-09",
-      "maker": "Leo",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/andylearnai"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
