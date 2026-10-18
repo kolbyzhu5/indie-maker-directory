@@ -2822,7 +2822,7 @@ ${sections}
     // IndexNow key 验证文件（Bing 站点所有权验证，必须部署到站点根目录）
     await copyFile(path.join(ROOT, "9082f4b3a3a9450894ffdb0861c74a65.txt"), path.join(dist, "9082f4b3a3a9450894ffdb0861c74a65.txt"));
     // 百度站长平台站点所有权验证文件（内容为校验哈希，验证通过后不可删除，否则所有权失效）
-    await copyFile(path.join(ROOT, "baidu_verify_codeva-oo1s6I4PB8.html"), path.join(dist, "baidu_verify_codeva-oo1s6I4PB8.html"));
+    await copyFile(path.join(ROOT, "baidu_verify_codeva-ZJzX0urKpu.html"), path.join(dist, "baidu_verify_codeva-ZJzX0urKpu.html"));
     // EdgeOne Pages 平台配置（域名级 301：www → 非 www，避免重复内容）
     await copyFile(path.join(ROOT, "edgeone.json"), path.join(dist, "edgeone.json")).catch(() => console.log("[build] edgeone.json 不存在，跳过"));
     // 详情页 / 分类页目录
