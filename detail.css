@@ -118,6 +118,15 @@
 .faq-q::before { content: "Q "; color: var(--red); font-weight: 900; margin-right: 4px; }
 .faq-a { font-size: 15px; line-height: 1.9; color: var(--ink); margin: 0; }
 
+/* ── 关于页「支持本站」区块：克制、低调，与 faq 同体系但更安静 ── */
+.support-note { margin-top: 20px; background: var(--card); border: 1px solid var(--line); box-shadow: 5px 6px 0 rgba(88,71,40,.08); padding: 24px 28px; }
+.support-note h2 { font-size: 20px; letter-spacing: .04em; margin: 0 0 12px; padding-left: 12px; border-left: 4px solid var(--red); }
+.support-note p { font-size: 15px; line-height: 1.9; color: var(--ink); margin: 0 0 12px; }
+.support-note p:last-child { margin-bottom: 0; }
+.support-contact { font-size: 14px; color: var(--ink); opacity: .82; }
+.support-contact a { color: var(--red); text-decoration: none; font-weight: 600; }
+.support-contact a:hover { text-decoration: underline; }
+
 /* ── 数据报告页（indie-report.html）：数据卡片 + 数据表 ── */
 .rw-stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin: 26px 0 8px; }
 .rw-stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 12px; text-align: center; }

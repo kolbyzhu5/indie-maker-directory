@@ -507,10 +507,162 @@ function analyze(p) {
     }
   };
 
+  // 2026-10-14 新增：第四种噪音形态 ——「低互动重复对」。
+  // 实测 10/13 20:46–10/14 01:13 出现 4 组「成对」会话：每组仅 2 个会话、对内间隔恒定 12–13 秒、
+  // 顺序恒定（有城市/1280x800 先 → 无城市/1280x2275 后）、都是 1 次浏览 / 0 自定义事件 / 落 `/`。
+  // 单个会话只占 pageview 6% → 「单会话刷量告警」抓不到；每组只 2 个会话 → 5s/≥4 与 60s/≥6 都抓不到。
+  // 但它贡献了本窗口 8/11 = 73% 的访客与 50% 的浏览 → 会直接把跳出率/停留/浏览访问全部带偏。
+  // 故新增两个**描述性**指标（不参与 detected / clean 剔除，避免误伤真人双设备）：
+  //   ① lowInteraction：低互动会话（≤1 次浏览且 0 个自定义事件）的量与占比
+  //   ② pairPattern：同画像（国家+系统+浏览器+设备）在 30 秒内成对出现的重复次数
+  const LOW_PV_MAX = 1;
+  const PAIR_WINDOW_MS = 30000;
+  const PAIR_MIN_REPEATS = 2;
+  const customBySession = {};
+  evList.filter((e) => e.eventName).forEach((e) => {
+    customBySession[e.sessionId] = (customBySession[e.sessionId] || 0) + 1;
+  });
+  // /sessions 不返回路径，进入页需从该会话最早一条 pageview 反推
+  const firstPathBySession = {};
+  pvEvents.forEach((e) => {
+    if (!(e.sessionId in firstPathBySession)) firstPathBySession[e.sessionId] = e.urlPath || "/";
+  });
+  const lowSessions = sessList
+    .filter((x) => (viewsBySession[x.id] || 0) <= LOW_PV_MAX && !(customBySession[x.id] > 0))
+    .slice()
+    .sort((a, b) => new Date(a.firstAt) - new Date(b.firstAt));
+  const lowViews = lowSessions.reduce((a, x) => a + (viewsBySession[x.id] || 0), 0);
+  const lowInteraction = {
+    sessions: lowSessions.length,
+    share: s.visitors ? +((lowSessions.length / s.visitors) * 100).toFixed(1) : 0,
+    views: lowViews,
+    viewsShare: s.pageviews ? +((lowViews / s.pageviews) * 100).toFixed(1) : 0
+  };
+
+  const sig = (x) => [x.country || "?", x.os || "?", x.browser || "?", x.device || "?"].join("|");
+  const pairGroups = new Map();
+  for (let i = 0; i < lowSessions.length; i++) {
+    const t0 = new Date(lowSessions[i].firstAt).getTime();
+    const inWin = lowSessions.filter((x) => {
+      const t = new Date(x.firstAt).getTime();
+      return t >= t0 && t < t0 + PAIR_WINDOW_MS;
+    });
+    if (inWin.length < 2) continue;
+    const bySig = new Map();
+    for (const x of inWin) {
+      const k = sig(x);
+      if (!bySig.has(k)) bySig.set(k, []);
+      bySig.get(k).push(x);
+    }
+    for (const [k, arr] of bySig) {
+      if (arr.length < 2) continue;
+      const g = pairGroups.get(k) || { signature: k, repeats: 0, sessions: 0, gaps: [], samples: [], paths: new Set() };
+      g.repeats += 1;
+      g.sessions += arr.length;
+      const gaps = arr
+        .slice()
+        .sort((a, b) => new Date(a.firstAt) - new Date(b.firstAt))
+        .map((x) => Math.round((new Date(x.firstAt) - t0) / 1000))
+        .filter((v) => v > 0);
+      g.gaps.push(...gaps);
+      if (g.samples.length < 3) g.samples.push(new Date(arr[0].firstAt).toISOString());
+      arr.forEach((x) => g.paths.add(firstPathBySession[x.id] || "/"));
+      pairGroups.set(k, g);
+    }
+    i += inWin.length - 1; // 同一窗口内同画像只记一次
+  }
+  const pairList = [...pairGroups.values()].filter((g) => g.repeats >= PAIR_MIN_REPEATS).sort((a, b) => b.repeats - a.repeats);
+  const pairPattern = {
+    windowSeconds: PAIR_WINDOW_MS / 1000,
+    minRepeats: PAIR_MIN_REPEATS,
+    triggered: pairList.length > 0,
+    groups: pairList.length,
+    sessions: pairList.reduce((a, g) => a + g.sessions, 0),
+    share: s.visitors ? +((pairList.reduce((a, g) => a + g.sessions, 0) / s.visitors) * 100).toFixed(1) : 0,
+    detail: pairList.map((g) => ({
+      signature: g.signature,
+      repeats: g.repeats,
+      sessions: g.sessions,
+      gapSeconds: g.gaps.length ? [Math.min(...g.gaps), Math.max(...g.gaps)] : [],
+      samples: g.samples,
+      paths: [...g.paths].slice(0, 3)
+    }))
+  };
+
+  // 2026-10-17 新增：第五种噪音形态 ——「同画像簇」（**不限时间窗口**，只看指纹是否逐字一致）。
+  // 实测 10/17 03:50–07:09 共 16 个会话，指纹完全一致（CN·Beijing · Linux · chrome · laptop · 1080x600 · en-US），
+  // 各 1 次浏览 / 0 个自定义事件，落点分散在不同 /p/ 详情页（像抓 sitemap）。
+  // → 现有检测器全部漏掉大半：「低互动重复对」要求 30 秒内成对对，只抓到其中 7 个；
+  //    「并发爆发」要求 5s/≥4 或 60s/≥6，而本簇横跨 3 小时 → 完全抓不到。
+  // 判据：同指纹（国家+城市+系统+浏览器+设备+**屏幕分辨率**+语言）≥4 个低互动会话。
+  //       屏幕分辨率完全相同是最强判据（1080x600 属非主流分辨率）——比单看滑窗稳，且不受时间跨度限制。
+  // ⚠️ 只作提示，不参与 detected / clean 剔除（无法排除「同型号设备的一群人」）。
+  const FP_MIN_SESSIONS = 4;
+  const fpSig = (x) =>
+    [x.country || "?", x.city || "-", x.os || "?", x.browser || "?", x.device || "?", x.screen || "-", x.language || "-"].join("|");
+  const fpGroups = new Map();
+  for (const x of lowSessions) {
+    const k = fpSig(x);
+    const g = fpGroups.get(k) || { signature: k, sessions: 0, firstAt: x.firstAt, lastAt: x.firstAt, paths: new Set() };
+    g.sessions += 1;
+    if (new Date(x.firstAt) < new Date(g.firstAt)) g.firstAt = x.firstAt;
+    if (new Date(x.firstAt) > new Date(g.lastAt)) g.lastAt = x.firstAt;
+    g.paths.add(firstPathBySession[x.id] || "/");
+    fpGroups.set(k, g);
+  }
+  const fpList = [...fpGroups.values()].filter((g) => g.sessions >= FP_MIN_SESSIONS).sort((a, b) => b.sessions - a.sessions);
+  const fpTotal = fpList.reduce((a, g) => a + g.sessions, 0);
+  const fpCluster = {
+    minSessions: FP_MIN_SESSIONS,
+    triggered: fpList.length > 0,
+    groups: fpList.length,
+    sessions: fpTotal,
+    share: s.visitors ? +((fpTotal / s.visitors) * 100).toFixed(1) : 0,
+    detail: fpList.map((g) => ({
+      signature: g.signature,
+      sessions: g.sessions,
+      spanMinutes: Math.round((new Date(g.lastAt) - new Date(g.firstAt)) / 60000),
+      firstAt: g.firstAt,
+      lastAt: g.lastAt,
+      pathCount: g.paths.size,
+      paths: [...g.paths].slice(0, 4)
+    }))
+  };
+
+  // 2026-10-17 新增：utm 归因口径。
+  // 为什么必须单列：2026-10-17 全天 101 条事件 referrerDomain **全为空**，Umami 的 channel 指标
+  // 只认 referrer → 报表里 LLM / Organic / Referral 全 0、100% 记成 Direct。
+  // 但同一天有 8 条事件带 `utm_source=chatgpt.com` → **AI 引用流量真实存在，只是 channel 指标看不见**。
+  // 结论：判 AI 流量必须看 urlQuery 里的 utm，不能只看 channel，否则会把「AI 渠道恢复」误报成「AI 流量归零」。
+  const utmRows = evList.filter((e) => (e.urlQuery || "").includes("utm_"));
+  const utmBySource = {};
+  utmRows.forEach((e) => {
+    const m = (e.urlQuery.match(/utm_source=([^&]+)/) || [])[1] || "(未知)";
+    utmBySource[m] = (utmBySource[m] || 0) + 1;
+  });
+  const utm = {
+    total: utmRows.length,
+    sessions: new Set(utmRows.map((e) => e.sessionId)).size,
+    bySource: utmBySource,
+    paths: [...new Set(utmRows.map((e) => `${e.urlPath}?${e.urlQuery}`))].slice(0, 8)
+  };
+
   const events = {
     available: evList.length > 0,
     truncated: p.eventLimit ? evList.length >= p.eventLimit : false,
     total: evList.length,
+    // 2026-10-16 修正：`total` 是**接口返回的全部事件**（含 pageview + 自定义事件），
+    // 旧版把它标成「自定义事件：共 N 条」→ 系统性虚高（如 10/16 标 25 条、实际自定义仅 3 条）。
+    // 现拆成三个口径：pageviewTotal / customTotal / customNames。
+    pageviewTotal: evList.filter((e) => e.eventType === 1).length,
+    customTotal: evList.filter((e) => e.eventType === 2).length,
+    customNames: evList
+      .filter((e) => e.eventType === 2)
+      .reduce((m, e) => ((m[e.eventName] = (m[e.eventName] || 0) + 1), m), {}),
+    lowInteraction,
+    pairPattern,
+    fpCluster,
+    utm,
     langSwitch: evList.filter((e) => e.eventName === "lang-switch").length,
     outbound: {
       count: outboundEv.length,
@@ -576,8 +728,17 @@ function analyze(p) {
   else if (bounceRate > 0 && bounceRate < 50) note("good", `跳出率 ${bounceRate.toFixed(0)}% —— 健康`);
 
   // 首页占比：噪音偏高时不作正面结论，避免「噪音把首页占比冲低」被误读成内页有承接
+  // 2026-10-17 补充：详情页落地的自动化簇（fpCluster / pairPattern）会把首页占比**人为压到 30% 以下**，
+  // 与「内页动线改善」长得一模一样 → 只要这两类噪音占比 >30%，首页占比一律不给正面结论。
+  const landingNoiseHeavy = (fpCluster.share > 30) || (pairPattern.share > 30);
   if (homeShare > 60) note("warn", `首页占 ${homeShare.toFixed(0)}% —— 流量堵在首页，内页动线是短板`);
-  else if (homeShare > 0 && !noiseMaterial) note("good", `首页占 ${homeShare.toFixed(0)}% —— 内页有承接`);
+  else if (homeShare > 0 && !noiseMaterial && !landingNoiseHeavy) note("good", `首页占 ${homeShare.toFixed(0)}% —— 内页有承接`);
+  else if (homeShare > 0 && landingNoiseHeavy)
+    note(
+      "warn",
+      `首页占 ${homeShare.toFixed(0)}% **不可采信**：${fpCluster.share > 30 ? `同画像簇占访客 ${fpCluster.share}%` : `低互动重复对占访客 ${pairPattern.share}%`}，` +
+        `这些会话几乎全部落在详情页 → 分母被自动化流量抬高，真实首页占比更高`
+    );
   else if (homeShare > 0) note("warn", `首页占 ${homeShare.toFixed(0)}%（噪音偏高，该读数不可直接采信）`);
 
   if (organic > 0) note("good", `自然搜索 ${organic} 人${bing ? `，其中 Bing 系 ${bing} 人` : ""}`);
@@ -677,7 +838,14 @@ ${a.flags.map((f) => `- ${f.lv === "good" ? "✅" : "⚠️"} ${f.t}`).join("\n"
 
 ## 三、流量落点
 
-首页访客 **${a.home.visitors}** 人，占总访客 **${a.home.share}%**${a.noise.material ? "（⚠️ 本窗口噪音偏高，该占比被稀释，宜看会话口径）" : ""}
+首页访客 **${a.home.visitors}** 人，占总访客 **${a.home.share}%**${a.noise.material ? "（⚠️ 本窗口噪音偏高，该占比被稀释，宜看会话口径）" : ""}${
+    a.events.fpCluster && a.events.fpCluster.triggered
+      ? `\n\n> ⚠️ **剔除同画像簇后的真实首页占比**：${a.home.visitors} / ${Math.max(a.totals.visitors - a.events.fpCluster.sessions, 1)} ≈ **${(
+          (a.home.visitors / Math.max(a.totals.visitors - a.events.fpCluster.sessions, 1)) *
+          100
+        ).toFixed(0)}%**（同画像簇 ${a.events.fpCluster.sessions} 个会话几乎全部落在详情页，把分母抬高了 ${a.events.fpCluster.share}%）`
+      : ""
+  }
 
 ### 真实页面（已剔除预览路径）
 
@@ -753,7 +921,38 @@ function buildEventsSection(a) {
   }
   const ob = e.outbound;
   const lines = [];
-  lines.push(`**自定义事件**：共 ${e.total} 条${e.truncated ? "（⚠️ 已达接口分页上限，实际更多）" : ""}，其中 outbound **${ob.count}** 次、lang-switch **${e.langSwitch}** 次`);
+  const names = Object.entries(e.customNames || {})
+    .sort((x, y) => y[1] - x[1])
+    .map(([k, v]) => `${k} ${v}`)
+    .join(" / ");
+  lines.push(
+    `**事件口径（先看 eventType，别把 pageview 当自定义事件）**：接口共返回 **${e.total}** 条事件` +
+      `${e.truncated ? "（⚠️ 已达接口分页上限，实际更多）" : ""}` +
+      ` = pageview **${e.pageviewTotal}** 条（type=1） + 自定义事件 **${e.customTotal}** 条（type=2）`
+  );
+  lines.push("");
+  lines.push(
+    `其中自定义事件明细：${names || "（无）"}。outbound **${ob.count}** 次、lang-switch **${e.langSwitch}** 次。`
+  );
+  lines.push("");
+  lines.push("> ⚠️ 统计 `?q=` / `?category=` 相关事件时**必须先看 `eventType`**：type=2 的 `site-filter` 不是多记 pageview（10/14 踩过坑）。");
+  lines.push("");
+  lines.push("### utm 归因（channel 指标的补充口径，AI 流量必看这一栏）");
+  lines.push("");
+  if (e.utm && e.utm.total > 0) {
+    const srcTxt = Object.entries(e.utm.bySource)
+      .sort((a, b) => b[1] - a[1])
+      .map(([k, v]) => `**${k}** ${v} 条`)
+      .join(" / ");
+    lines.push(`- 本窗口带 utm 的 pageview：**${e.utm.total}** 条，分布在 **${e.utm.sessions}** 个会话 → ${srcTxt}`);
+    e.utm.paths.slice(0, 4).forEach((p) => lines.push(`  - \`${p}\``));
+    lines.push(
+      "- → **有 utm 就说明这条流量是被带过来的（AI 引用 / 站外投放），不是自然直访**。" +
+        "Umami 的 channel 只按 referrer 归类，AI 客户端常带 `noreferrer` → channel 会把它记成 Direct，**LLM=0 不可当「没有 AI 流量」**。"
+    );
+  } else {
+    lines.push("- 本窗口没有带 utm 的 pageview → AI 引用 / 投放类流量确为 0（与 channel 的 LLM=0 互证，**这次是真零**）");
+  }
   lines.push("");
   lines.push("### 外链点击（outbound）");
   lines.push("");
@@ -848,6 +1047,68 @@ function buildEventsSection(a) {
         ` ｜ 落点 ${n.paths.join(" ")}`
     );
     lines.push("- → **只作提示，未从访客数中剔除**。若连续出现，应下调剔除门槛（改 `BURST_SCALES`）。");
+  }
+  if (e.pairPattern && e.pairPattern.triggered) {
+    const pp = e.pairPattern;
+    lines.push("");
+    lines.push("### ⚠️ 低互动重复对（成对出现，单会话刷量告警抓不到）");
+    lines.push("");
+    lines.push(
+      `- **${pp.groups} 组 / ${pp.sessions} 个会话**符合「同画像 + ${pp.windowSeconds} 秒内成对出现 + 每次仅 1 次浏览 + 0 个自定义事件」，` +
+        `占本窗口访客的 **${pp.share}%**（判据：重复 ≥${pp.minRepeats} 次）`
+    );
+    for (const g of pp.detail.slice(0, 6)) {
+      lines.push(
+        `  - ${g.signature.replace(/\|/g, " · ")} ｜ 重复 **${g.repeats}** 次 / ${g.sessions} 会话` +
+          ` ｜ 对内间隔 ${g.gapSeconds.length ? `${g.gapSeconds[0]}–${g.gapSeconds[1]}s` : "-"}` +
+          ` ｜ 落点 ${g.paths.join(" ")}`
+      );
+      if (g.samples.length) lines.push(`    - 样本时刻：${g.samples.map((t) => new Date(t).toLocaleString("zh-CN", { timeZone: TZ })).join(" ｜ ")}`);
+    }
+    lines.push(
+      "- 机制：这类访问**单个会话只占少量 pageview**（躲过「单会话刷量 ≥30%」告警），" +
+        `**每组只 2 个会话**（躲过 5s/≥4 与 60s/≥6 爆发门槛），但累计可占访客大头 → 会把跳出率抬到 90%+、把浏览/访问压到 1.x。`
+    );
+    lines.push("- → **只作提示，未从访客数中剔除**（无法排除「同一人双设备/双窗口」）。若此类占比 >50%，本窗口的**跳出率 / 平均停留 / 浏览访问 / 首页占比均不可用**。");
+    lines.push("- ⚠️ 本检查与上面的「并发爆发」**可能命中同一批会话，两个数字不可相加**。");
+  }
+  if (e.fpCluster && e.fpCluster.triggered) {
+    const fc = e.fpCluster;
+    lines.push("");
+    lines.push("### ⚠️ 同画像簇（指纹逐字一致，不受时间跨度限制）");
+    lines.push("");
+    lines.push(
+      `- **${fc.groups} 组 / ${fc.sessions} 个会话**的低互动会话指纹（国家·城市·系统·浏览器·设备·**屏幕分辨率**·语言）**完全相同**，` +
+        `每组 ≥${fc.minSessions} 个，合计占本窗口访客的 **${fc.share}%**`
+    );
+    for (const g of fc.detail.slice(0, 6)) {
+      lines.push(
+        `  - ${g.signature.replace(/\|/g, " · ")} ｜ **${g.sessions}** 会话` +
+          ` ｜ 跨度 ${g.spanMinutes} 分钟（${new Date(g.firstAt).toLocaleString("zh-CN", { timeZone: TZ })} → ` +
+          `${new Date(g.lastAt).toLocaleString("zh-CN", { timeZone: TZ })}）` +
+          ` ｜ ${g.pathCount} 个不同落点：${g.paths.join(" ")}`
+      );
+    }
+    lines.push(
+      "- 判读：非主流分辨率 + 同语言同系统 + 各仅 1 次浏览 0 个自定义事件 + 落点分散在不同详情页（像在读 sitemap）" +
+        " = 典型「会执行 JS 的爬虫 / 代理池批量抓取」，但**单个会话只贡献 1 次浏览**，所以躲过所有基于 pageview 占比的告警。"
+    );
+    lines.push(
+      "- → **只作提示，未从访客数中剔除**（无法排除「同型号设备的一群人」）。若占比 >50%：**首页占比会被这类详情页落地会话人为压低**，" +
+        "此时**不能用首页占比判断内页动线**，要按「剔除本簇后」重算；跳出率 / 平均停留 / 浏览访问同样不可用。"
+    );
+    lines.push("- ⚠️ 与「并发爆发」「低互动重复对」可能命中同一批会话，**三个数字不可相加**。");
+  }
+  if (e.lowInteraction && e.lowInteraction.sessions > 0) {
+    const li = e.lowInteraction;
+    lines.push("");
+    lines.push("### 低互动会话占比（本窗口比率类指标的「含水分母」）");
+    lines.push("");
+    lines.push(
+      `- 全窗口 **${li.sessions} 个会话**（占访客 **${li.share}%**）为「≤1 次浏览且 0 个自定义事件」（典型：落地即走），` +
+        `贡献浏览 **${li.views}** 次（占 pageview **${li.viewsShare}%**）`
+    );
+    lines.push("- 判读：占比越高，跳出率越被这一类会话主导；**样本 <50 访客时不要据此下趋势结论**。");
   }
   if (e.dup.extra > 0) {
     lines.push("");
@@ -972,5 +1233,34 @@ if (a.events?.available) {
       `⚠️ 亚阈值簇：${n.spanSeconds}s 内 ${n.sessions} 个新会话（${n.countries.join("/")}，` +
         `判据 ${n.windowSeconds}s/≥${n.minSessions} 未达剔除门槛 60s/≥6）→ 只提示，未剔除`
     );
+  }
+  const pp = a.events.pairPattern;
+  if (pp && pp.triggered) {
+    console.log(
+      `⚠️ 低互动重复对：${pp.groups} 组 / ${pp.sessions} 会话（同画像 + ${pp.windowSeconds}s 内成对，占访客 ${pp.share}%）→ ` +
+        `跳出率/停留/浏览访问/首页占比本窗口不可用`
+    );
+    for (const g of pp.detail.slice(0, 3)) {
+      console.log(
+        `    · ${g.signature.replace(/\|/g, " · ")} 重复 ${g.repeats} 次 / ${g.sessions} 会话` +
+          `${g.gapSeconds.length ? `，对内间隔 ${g.gapSeconds[0]}–${g.gapSeconds[1]}s` : ""} ｜ 落点 ${g.paths.join(" ")}`
+      );
+    }
+  }
+  const li = a.events.lowInteraction;
+  if (li && li.sessions > 0) {
+    console.log(`低互动会话（≤1 浏览 + 0 自定义事件）：${li.sessions} 个（占访客 ${li.share}%）／浏览 ${li.views} 次（占 ${li.viewsShare}%）`);
+  }
+  const fc = a.events.fpCluster;
+  if (fc && fc.triggered) {
+    console.log(
+      `⚠️ 同画像簇：${fc.groups} 组 / ${fc.sessions} 会话指纹完全一致（含屏幕分辨率，每组 ≥${fc.minSessions}），占访客 ${fc.share}% → ` +
+        `首页占比会被详情页落地会话人为压低，不可用`
+    );
+    for (const g of fc.detail.slice(0, 3)) {
+      console.log(
+        `    · ${g.signature.replace(/\|/g, " · ")} ${g.sessions} 会话 / 跨度 ${g.spanMinutes}m / ${g.pathCount} 个落点`
+      );
+    }
   }
 }

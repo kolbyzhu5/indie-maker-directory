@@ -826,10 +826,14 @@ function renderAboutPage() {
         <span><b>数据源</b><a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer ↗</a></span>
         <span><b>源码</b><a href="https://github.com/kolbyzhu5/indie-maker-directory" target="_blank" rel="noreferrer">indie-maker-directory ↗</a></span>
         <span><b>反馈建议</b><a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></span>
-        <span><b>支持本站</b><a href="/sponsor.html">自愿赞助 ↗</a></span>
         <span><b>备案</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></span>
       </div>
     </article>
+    <section class="support-note" aria-labelledby="supportTitle">
+      <h2 id="supportTitle">支持本站</h2>
+      <p>AI 独立制造所免费开放、无广告、无会员、无竞价排名。它不产生收入，但需要持续投入 —— 服务器、域名、站点优化与日常维护，每一项都在消耗成本。如果这个站帮到了你，欢迎自愿赞助，让这件事更长久地做下去。赞助完全自愿，不影响你使用任何功能。</p>
+      <p class="support-contact">想支持，或只是想反馈？欢迎邮件联系：<a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></p>
+    </section>
     <section class="faq-list">
       <h2 class="faq-title" data-i18n="faqTitle">常见问题</h2>
       ${faqHTML}
@@ -977,99 +981,6 @@ function renderContactPage() {
       <p class="faq-a">若您是产品的开发者或权利人，希望从本站移除某个产品，请发邮件说明产品名称与证明信息（如产品官网、GitHub 仓库归属），核实后我们会移除对应页面。</p>
       <h2 class="faq-q">其他事项</h2>
       <p class="faq-a">站务问题、内容合作或其他事项，同样欢迎邮件联系。需要说明的是：本站没有付费收录、没有竞价排名、没有广告位出售（见<a href="/about.html">关于本站</a>）；由于是业余维护，无法承诺固定回复时限，请耐心等待。</p>
-    </article>
-  </main>
-  <footer class="detail-footer">
-    <p data-i18n="footerSlogan">AI 独立制造所 · 让认真做出来的东西被看见</p>
-    <p class="footer-links"><a href="/local-first.html">不上传工具</a> · <a href="/indie-report.html">数据报告</a> · <a href="/en/" hreflang="en" lang="en">English</a> · <a href="/about.html" data-i18n="aboutLink">关于本站</a> · <a href="/privacy.html" data-i18n="privacyLink">隐私政策</a> · <a href="/contact.html" data-i18n="contactLink">联系我们</a> · <a href="mailto:kolbyzhu5@gmail.com" data-i18n="footerFeedback">反馈建议</a></p>
-  </footer>
-</body>
-</html>
-`;
-}
-
-// ── 赞助页（接受开发者与团队的自愿赞助，国内微信/支付宝个人收款码）──────────
-// 设计定位：不是「乞讨」，是「信任信号 + 低成本支持通道」。
-// 全站免费、无广告、无会员，靠个人业余时间维护 —— 赞助是让用户/开发者知道
-// 「这个站有人在认真长期维护」，同时给愿意支持的人一个零门槛入口。
-// 早期赞助额大概率个位数，价值在信号而非金额。海外通道（Ko-fi）后续单独加。
-function renderSponsorPage() {
-  return `<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>支持本站 - AI 独立制造所</title>
-  <meta name="description" content="AI 独立制造所是免费的中国独立开发者产品目录站，全站无广告、无会员、无竞价排名。如它帮到了你，欢迎自愿赞助——您的支持将用于网站优化、服务器与域名等运营成本，帮助我们长期稳定地运营下去。微信/支付宝扫码即可，金额随意。">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="${SITE_URL}/sponsor.html">
-  <link rel="alternate" hreflang="zh-CN" href="${SITE_URL}/sponsor.html">
-  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/sponsor.html">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="AI 独立制造所">
-  <meta property="og:title" content="支持本站 - AI 独立制造所">
-  <meta property="og:description" content="全站免费、无广告、无会员。如它帮到了你，欢迎自愿赞助——您的支持将用于网站优化、服务器与域名等运营成本，帮助我们长期稳定地运营下去。">
-  <meta property="og:url" content="${SITE_URL}/sponsor.html">
-  <meta property="og:image" content="${SITE_URL}/og.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:locale" content="zh_CN">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/detail.css">
-  <link rel="stylesheet" href="/sponsor.css">
-  <script type="application/ld+json">${ORGANIZATION_LD}</script>
-  ${UMAMI_SCRIPT}
-  ${INNER_I18N_SCRIPT}
-</head>
-<body>
-  <div class="paper-noise" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="brand" href="/" aria-label="AI 独立制造所首页">
-      <span class="brand-seal">独立</span>
-      <span><strong>AI 独立制造所</strong><small>独立开发者 · AI 工具导航</small></span>
-    </a>
-    ${BEST_TOP_NAV}
-  </header>
-  <main class="detail-main">
-    <nav class="breadcrumb" aria-label="面包屑"><a href="/" data-i18n="backHome">首页</a><span class="sep">›</span><span class="current">支持本站</span></nav>
-    <article class="detail-card sponsor-card">
-      <div class="detail-head"><span class="edition-badge">赞助</span></div>
-      <h1>支持本站</h1>
-      <p class="detail-desc">AI 独立制造所是一个免费开放的中国独立开发者产品目录站，全站<strong>无广告、无会员、无竞价排名</strong>。收录与排序只看产品本身。运营不产生收入，却需要持续投入 —— 服务器、域名、站点优化与日常维护，每一项都在消耗成本。这份支持，是为了让它更稳地长期运行下去。</p>
-
-      <div class="sponsor-lead">
-        <p>如果这个站切实帮到了你 —— 帮你找到一件趁手的工具，或让你少踩一个坑 —— 欢迎自愿赞助。你的支持会用于<strong>网站的持续优化、服务器与带宽、域名及服务续费</strong>等运营成本，让我们能把这件事更长久、更稳定地做下去。金额随意，全凭心意，不赞助也完全不影响你使用本站的任何功能。</p>
-      </div>
-
-      <h2 class="faq-q">扫码赞助（国内）</h2>
-      <p class="faq-a">微信或支付宝扫码即可，<strong>金额随意</strong>（没有「建议金额」，你觉得值多少就给多少）。赞助是完全自愿的，与使用本站的任何功能无关。</p>
-
-      <div class="sponsor-qr-grid" role="group" aria-label="赞助收款码">
-        <figure class="sponsor-qr">
-          <div class="sponsor-qr-img"><img src="/assets/sponsor/wechat-pay.svg" alt="微信收款码" width="220" height="220" loading="lazy"></div>
-          <figcaption>微信支付</figcaption>
-        </figure>
-        <figure class="sponsor-qr">
-          <div class="sponsor-qr-img"><img src="/assets/sponsor/alipay.svg" alt="支付宝收款码" width="220" height="220" loading="lazy"></div>
-          <figcaption>支付宝</figcaption>
-        </figure>
-      </div>
-
-      <h2 class="faq-q">赞助前请知道</h2>
-      <ul class="sponsor-notes">
-        <li><b>这是自愿赞助，不是付费收录。</b>本站没有付费收录、没有竞价排名、没有广告位出售。赞助不会让任何产品获得更靠前的位置 —— 所有收录与排序只看产品本身。</li>
-        <li><b>专款专用，透明可查。</b>所有赞助将全部投入本站的运营与优化：服务器与带宽、域名及服务续费、站点功能迭代与内容维护。我们承诺专款专用，不挪作他用。</li>
-        <li><b>个人收款，手动对账。</b>当前使用个人微信/支付宝收款码，赞助到账后手动核对。赞助规模稳定增长后，会注册主体申请官方商户号，实现自动化对账。</li>
-        <li><b>海外朋友？</b>海外赞助通道正在准备中。目前国内的微信/支付宝已可用，海外通道上线后会在此页补充。</li>
-        <li><b>想反馈而不是赞助？</b>同样欢迎。收录纠错、产品提交、站务建议，都可以走<a href="/contact.html">联系我们</a>页面，或直接邮件 <a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a>。</li>
-      </ul>
-
-      <h2 class="faq-q">你的赞助会去哪</h2>
-      <p class="faq-a">全部用于覆盖本站的持续运营成本 —— <strong>网站优化、服务器与带宽、域名及服务续费、日常内容维护</strong>。它不会让本站商业化，但能让这个免费的目录站运行得更稳、更久。感谢每一位愿意支持的朋友。</p>
     </article>
   </main>
   <footer class="detail-footer">
@@ -2410,7 +2321,6 @@ async function main() {
   sitemapUrls.push(`  <url><loc>${SITE_URL}/about.html</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/privacy.html</loc><lastmod>${lastmod}</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/contact.html</loc><lastmod>${lastmod}</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>`);
-  sitemapUrls.push(`  <url><loc>${SITE_URL}/sponsor.html</loc><lastmod>${lastmod}</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>`);
   sitemapUrls.push(`  <url><loc>${SITE_URL}/weekly.html</loc><lastmod>${lastmod}</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>`);
   // 周报归档：每页对应固定的一周，内容冻结后不再变化 → changefreq 用 yearly（不是 daily，
   // 否则会向爬虫发出「每天在变」的错误信号，正是滚动页 /weekly.html 的老问题）
@@ -2503,6 +2413,11 @@ ${botGroups(AI_BOTS)}
 ${botGroups(CN_BOTS)}`;
 
   // 7) llms.txt（AI 爬虫导航，遵循 llmstxt.org 规范）
+  // 场景页真实条数：SCENARIOS 的 desc 里是 `{n} 个` 模板占位，必须用真实条数替换，
+  // 否则会输出「精选 多个 个」这种残句（2026-10-18 修：之前手工改产物，被每日 CI 重建冲掉）。
+  const scenarioCountsForLlms = SCENARIOS.map(
+    (cfg) => bucketScenario(cfg, sorted).groups.reduce((n, g) => n + g.items.length, 0)
+  );
   const categoryLines = Object.entries(CATEGORY_SLUGS).map(([name, catSlug]) => {
     const count = categoryCounts[name] || 0;
     return `- [${name}](${SITE_URL}/c/${catSlug}.html)：${count} 个产品`;
@@ -2563,7 +2478,7 @@ ${SITE_URL}/en/p/{slug}.html，每个分类有英文列表页 ${SITE_URL}/en/c/{
 - 中国独立开发者产品存活报告：${SITE_URL}/indie-report.html（基于 ${total} 个真实收录产品统计的逐年收录趋势、各年存活率与分类分布，含「13.8% 已停更」等独家数据，适合回答「独立开发者产品存活率」「中国独立开发者生态」类问题）
 
 ## 场景工具聚合（按具体需求跨分类聚合，对接长尾搜索）
-${SCENARIOS.map((s) => `- ${s.h1}：${SITE_URL}/topic/${s.slug}.html（${s.desc.replace("{n}", "多个")}）`).join("\n")}
+${SCENARIOS.map((s, i) => `- ${s.h1}：${SITE_URL}/topic/${s.slug}.html（${s.desc.replace("{n}", String(scenarioCountsForLlms[i]))}）`).join("\n")}
 
 ## 分类导航
 ${categoryLines}
@@ -2610,8 +2525,6 @@ ${sections}
   // [AdSense 前置] 隐私政策 + 联系页（2026-10-04，此前两 URL 均 404）
   const privacyPage = renderPrivacyPage();
   const contactPage = renderContactPage();
-  // [赞助] 接受开发者/团队自愿赞助的落地页（国内微信/支付宝个人收款码）
-  const sponsorPage = renderSponsorPage();
   // [P3] 本周新收录榜单（最近 7 天 addedAt 的产品）
   const weekStart = beijingDateISO(-7);
   const weekEnd = beijingDateISO();
@@ -2743,7 +2656,6 @@ ${sections}
     ["about.html", aboutPage],
     ["privacy.html", privacyPage],
     ["contact.html", contactPage],
-    ["sponsor.html", sponsorPage],
     ["weekly.html", weeklyPage],
     ["weekly/index.html", weeklyArchive.indexHtml],
     ...weeklyArchive.pages,
@@ -2873,9 +2785,6 @@ ${sections}
       await copyFile(path.join(ROOT, og), path.join(dist, og)).catch(() => console.log(`[build][warn] ${og} 缺失 → 未同步到 dist，引用它的页面分享卡片会 404`));
     }
     await copyFile(path.join(ROOT, "detail.css"), path.join(dist, "detail.css"));
-    // 赞助页样式与收款码图片（/sponsor.html 引用；漏同步 = 赞助页样式丢失 + 收款码 404）
-    await copyFile(path.join(ROOT, "sponsor.css"), path.join(dist, "sponsor.css")).catch(() => console.log("[build][warn] sponsor.css 缺失 → 未同步到 dist，赞助页样式会丢失"));
-    await copyDir(path.join(ROOT, "assets", "sponsor"), path.join(dist, "assets", "sponsor")).catch(() => console.log("[build][warn] assets/sponsor/ 缺失 → 未同步到 dist，收款码图会 404"));
     // 运行时静态资源（页面直接引用的 JS/CSS/图标，必须与根目录保持一致）
     // mps-beian.png = 公安备案官方徽标，全站页脚都引用，漏同步会让每个页脚都掉图
     for (const asset of ["app.js", "i18n.js", "styles.css", "favicon.svg", "mps-beian.png"]) {
