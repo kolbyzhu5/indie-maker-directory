@@ -126,8 +126,8 @@
 .support-contact { font-size: 14px; color: var(--ink); opacity: .82; }
 .support-contact a { color: var(--red); text-decoration: none; font-weight: 600; }
 .support-contact a:hover { text-decoration: underline; }
-/* 赞助双通道卡片：微信赞赏（主）+ 爱发电（辅），红章配色，移动端竖排 */
-.support-cards { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; margin: 18px 0 6px; }
+/* 赞助三通道卡片：微信赞赏（主）+ 爱发电 + PayPal（海外），红章配色，窄屏自动降列 */
+.support-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 16px; margin: 18px 0 6px; }
 .support-card { border: 1px solid var(--line); border-radius: 8px; padding: 18px 18px 20px; background: var(--bg); display: flex; flex-direction: column; }
 .support-card--primary { border: 2px solid var(--red); box-shadow: 3px 4px 0 rgba(88,71,40,.12); }
 .support-card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }

@@ -800,6 +800,19 @@ function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
             </a>
           </div>
         </div>
+        <div class="support-card">
+          <div class="support-card-head">
+            <span class="support-card-badge support-card-badge--alt">Global · Direct</span>
+            <h3 class="support-card-title">PayPal</h3>
+          </div>
+          <div class="support-card-body">
+            <p class="support-card-desc">Best for friends overseas: PayPal balance or international cards — open the link, enter any amount, done.</p>
+            <a class="support-btn" href="https://paypal.me/kolbyzhu5" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.2 21.2h-3l2.3-14.4c.1-.5.5-.9 1-.9h6.6c2.9 0 4.8 1.5 4.4 4.3-.4 3-2.5 4.5-5.5 4.5h-2.4c-.5 0-.9.3-1 .8l-.9 5.7z"/></svg>
+              <span>Support via PayPal</span>
+            </a>
+          </div>
+        </div>
       </div>
       <p class="support-contact">Want to support us, or just share feedback? Reach us by email: <a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a></p>
     </section>
