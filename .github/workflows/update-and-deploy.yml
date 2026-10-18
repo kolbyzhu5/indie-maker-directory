@@ -106,6 +106,14 @@ jobs:
       - name: Notify search engines via IndexNow
         run: node scripts/indexnow.mjs
         continue-on-error: true
+      # 百度主动推送（ziyuan.baidu.com 链接提交 API）。
+      # 未配置 BAIDU_PUSH_TOKEN 时脚本自动跳过（exit 0），不影响发布。
+      # token 获取：站长平台验证 indiemaker.cn 后，在「搜索服务 → 链接提交 → API 推送」页复制。
+      - name: Push URLs to Baidu
+        run: node scripts/baidu-push.mjs
+        continue-on-error: true
+        env:
+          BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}
       - uses: actions/configure-pages@v5
       # ⚠️ path 必须是 dist/ 而不是 . —— 2026-09-21 实测：上传整仓库会把与站点无关的
       # 东西一起发布成公开网页，实测以下地址全部 200：
