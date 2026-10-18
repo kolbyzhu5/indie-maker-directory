@@ -323,6 +323,7 @@ ${body}
   </main>
   <footer class="detail-footer">
     <p>${BRAND_EN_FULL} · making sure good work gets seen</p>
+    <p class="footer-support"><a href="/en/about.html#support"><span class="support-heart" aria-hidden="true">♥</span> Support this site</a></p>
     <p class="footer-links"><a href="/en/">Home</a> · <a href="/en/local-first.html">Local-first tools</a> · <a href="/en/indie-report.html">Data report</a> · <a href="/en/about.html">About</a> · <a href="${siteUrl}/privacy.html" hreflang="zh-CN" lang="zh-CN">Privacy Policy</a> · <a href="${siteUrl}/contact.html" hreflang="zh-CN" lang="zh-CN">Contact</a> · <a href="mailto:kolbyzhu5@gmail.com">Feedback</a></p>
   </footer>
 </body>
@@ -773,7 +774,7 @@ function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
         <span><b>Filings</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402003127" target="_blank" rel="noreferrer" class="mps-beian"><img src="/mps-beian.png" alt="" width="16" height="16" decoding="async">湘公网安备43010402003127号</a></span>
       </div>
     </article>
-    <section class="support-note" aria-labelledby="supportTitle">
+    <section class="support-note" id="support" aria-labelledby="supportTitle">
       <h2 id="supportTitle">Support this site</h2>
       <p>AI Indie Maker is free and open — no ads, no membership, no paid ranking. It brings in no revenue, but it still costs money to keep running: servers, domain, site improvements and day-to-day maintenance all add up. If this site has helped you, an optional sponsorship helps keep it going for the long term. Sponsorship is entirely voluntary and never affects your access to any feature.</p>
       <div class="support-cards">

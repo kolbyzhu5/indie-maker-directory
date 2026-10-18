@@ -121,6 +121,14 @@ footer .footer-links { line-height: 1.9; }
 footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
 footer a:hover { color: var(--red); border-bottom-color: var(--red); }
 
+/* ── 页脚「支持本站」入口：克制红章心形，醒目但不打扰 ─────────
+   中文首页 footer 是 flex(space-between)，需 flex:0 0 100% 独占一行；
+   英文首页是 .detail-footer（普通块），同样左对齐。 */
+.footer-support { flex: 0 0 100%; margin: 6px 0 0; text-align: left; }
+.footer-support a { display: inline-flex; align-items: center; gap: 6px; color: var(--red); font-weight: 600; font-size: 12px; letter-spacing: .02em; border-bottom: 1px solid transparent; }
+.footer-support a:hover { border-bottom-color: var(--red); }
+.footer-support .support-heart { font-size: 13px; line-height: 1; }
+
 /* ── 页脚分类导航（全站注入，见 build.mjs footerCategoryNav）────────
    13 个分类页此前只有首页「热门分类胶囊」能间接触达，而胶囊取的是 categoryCounts
    前 9。在全部 3000+ 页面的页脚注入分类导航：分类页拿到内链权重。
