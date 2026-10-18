@@ -306,25 +306,28 @@ footer .footer-links a { display: inline-block; line-height: 1.7; padding: 5px 0
   .footer-cats a { margin-right: 15px; }
 }
 
-/* 首页极简页脚：仅 .imd-footer 生效，不重排详情页或英文编辑页。
-   分类导航完整常显，不删减、不折叠；手机仅自然换行。 */
-footer.imd-footer { display: block; max-width: 1292px; margin: 0 auto; padding: 28px 34px 38px; border-top: 1px solid var(--line); text-align: center; position: relative; z-index: 1; }
-.imd-footer .footer-brand { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 6px 12px; margin: 0; color: var(--ink); font-size: 15px; font-weight: 400; letter-spacing: normal; line-height: 1.6; opacity: 1; }
-.imd-footer .footer-brand a { font-weight: 700; font-size: 15px; letter-spacing: .06em; }
+/* 首页页脚方案 A：品牌靠左、功能靠右，完整分类在下方共用左边界。
+   仅 .imd-footer 生效，中英首页共用；内页维持原布局。
+   分类不删减、不折叠；窄屏自然换行，不缩小字号。 */
+footer.imd-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 18px 28px; max-width: 1360px; margin: 0 auto; padding: 28px 34px; border-top: 1px solid var(--line); text-align: left; position: relative; z-index: 1; }
+.imd-footer .footer-brand { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; min-width: 0; margin: 0; color: var(--ink); font-size: 17px; font-weight: 400; letter-spacing: normal; line-height: 1.5; opacity: 1; }
+.imd-footer .footer-brand a { font-weight: 700; font-size: 17px; letter-spacing: .04em; }
 .imd-footer .footer-brand span { color: var(--muted); font-size: 12px; }
-.imd-footer .footer-navigation { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 22px; margin: 14px 0 0; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; color: #645e53; }
-.imd-footer .footer-navigation > a { display: inline-flex; align-items: center; justify-content: center; min-height: 36px; padding: 4px 0; white-space: nowrap; }
-.imd-footer .footer-navigation > .footer-support-link { gap: 6px; padding: 4px 13px; border: 1px solid rgba(179,41,46,.13); border-radius: 5px; color: var(--red); background: rgba(179,41,46,.035); font-weight: 600; }
-.imd-footer .footer-support-link:hover { background: rgba(179,41,46,.07); }
+.imd-footer .footer-navigation { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px 22px; min-width: 0; margin: 0; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; color: #625d51; }
+.imd-footer .footer-navigation > a { display: inline-flex; align-items: center; justify-content: center; min-height: 36px; padding: 4px 0; color: inherit; white-space: nowrap; }
+.imd-footer .footer-navigation > .footer-support-link { gap: 6px; padding: 4px 13px; border: 1px solid rgba(179,41,46,.42); border-radius: 6px; color: var(--red); background: #fffdf7; font-weight: 600; }
+.imd-footer .footer-support-link:hover { border-color: var(--red); background: #fff3ef; }
 .imd-footer .footer-support-link svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; flex-shrink: 0; }
-.imd-footer .footer-cats { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 3px 18px; margin: 18px 0 0; padding: 14px 0 0; border-top: 1px solid var(--line); font-family: "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 12px; line-height: 1.6; text-align: center; }
-.imd-footer .footer-cats > span { display: inline-flex; align-items: center; min-height: 36px; margin: 0; color: var(--muted); font-size: 11px; font-weight: 500; letter-spacing: normal; }
-.imd-footer .footer-cats a { display: inline-flex; align-items: center; min-height: 36px; margin: 0; padding: 4px 0; }
+.imd-footer .footer-cats { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 4px 20px; min-width: 0; margin: 0; padding: 0; border-top: 0; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 13px; line-height: 1.6; text-align: left; }
+.imd-footer .footer-cats > span { display: inline-flex; align-items: center; min-height: 32px; margin: 0; color: var(--muted); font-size: 12px; font-weight: 500; letter-spacing: normal; }
+.imd-footer .footer-cats a { display: inline-flex; align-items: center; min-height: 32px; margin: 0; padding: 4px 0; color: #625d51; }
+.imd-footer .footer-navigation > a:hover, .imd-footer .footer-cats a:hover { color: var(--red); }
+@media (max-width: 900px) {
+  footer.imd-footer { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .imd-footer .footer-navigation { justify-content: flex-start; }
+}
 @media (max-width: 640px) {
-  footer.imd-footer { padding: 25px 20px 32px; }
-  .imd-footer .footer-brand { gap: 4px; }
-  .imd-footer .footer-brand a, .imd-footer .footer-brand span { flex-basis: 100%; }
-  .imd-footer .footer-brand span { font-size: 11px; }
-  .imd-footer .footer-navigation { margin-top: 12px; column-gap: 18px; }
-  .imd-footer .footer-cats { gap: 3px 17px; margin-top: 15px; padding-top: 12px; }
+  footer.imd-footer { padding: 24px 20px; gap: 14px; }
+  .imd-footer .footer-navigation { column-gap: 18px; }
+  .imd-footer .footer-cats { gap: 4px 17px; }
 }
