@@ -2354,6 +2354,10 @@ async function main() {
   html = html.replace(/<b id="countGame">[^<]*<\/b>/, `<b id="countGame">${counts.game || 0}</b>`);
   html = html.replace(/<time id="syncTime"[^>]*>[^<]*<\/time>/, `<time id="syncTime" data-i18n="heroLoading">更新于 ${generatedDate}</time>`);
   html = html.replace(/<span id="resultCount"[^>]*>[^<]*<\/span>/, `<span id="resultCount" data-i18n="resultsLoading">找到 ${total.toLocaleString("zh-CN")} 件作品</span>`);
+  // [GEO P0] 首页 meta description 的收录数占位符：与 llms.txt 同源（total），避免硬编码过期导致 AI 引用到矛盾数字。
+  // 幂等：build 会把 index.html 写回源目录，占位符 HOMECOUNT 首次替换后即变成数字，
+  // 故用正则同时匹配「HOMECOUNT」或「已注入的数字」，保证每次 build 都能刷新到真实 total。
+  html = html.replace(/(收录\s)(?:HOMECOUNT|\d[\d,]*)(\s*个中国独立开发者创造的 AI 工具)/, `$1${total}$2`);
 
   // 5) sitemap.xml（全量 URL：首页 + 分类 + 产品详情页）
   const lastmod = beijingDateISO();
