@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（3252）
+# AI 独立制造所 · 全部产品清单（3259）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-18（北京时间）
+> 更新时间：2026-10-19（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2727）
+## 大众产品（2729）
+
+- **[WarpNav 曲速导航](https://warpnav.com)** — 开发者 SatoMini · AI 工具 / 图片工具 / 音视频 / 文档办公 / 开发工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/warpnav.html)
+  中文 AI 工具与开源项目导航，按视频、图像、写作、编程等分类整理官方入口，另有 GitHub 开源项目解读、软件下载使用指南和 FFmpeg、API、Token 等技术科普，注明版本和适用条件，免费浏览、另有会员增值服务
+
+- **[aiMakeVideo](https://aimakevideo.com)** — 开发者 tumingguang-svg · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/aimakevideo.html)
+  AI 视频与图片创作工作台，文生视频 / 图生视频 / 图生图在同一处切换，可选 Seedance 2.5、MiniMax H3 等模型；另把 Bulin 47、Hotel Lobby、Rumpelstiltskin 等 10 个热门玩法做成独立模板页，上传一张照片就能出 15 秒竖屏视频、不用写提示词；积分包 $9.9 起也可订阅，注册送 10 积分，9 种语言界面
 
 - **[少装一点](https://lessaitools.com/)** — 开发者 makexyf-max · AI 工具 / 浏览器扩展 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/project-6ac032.html)
   AI 插件目录，按具体任务整理 MCP 工具、Skills 与编辑器插件，逐项给出中文用途说明、接入方式和原项目链接，已收录 124 个项目，提供中英等多语言界面
@@ -8187,7 +8193,22 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（380）
+## 程序员版（385）
+
+- **[MyBooks](https://github.com/PoxenStudio/mybooks)** — 开发者 PoxenStudio（广州） · 文档办公 / 效率工具 / 开发工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/mybooks.html)
+  个人与家庭私有电子书管理服务，基于 Calibre + Vue，支持书单创建分享、WebDAV 同步、epub/azw3/pdf 互转、epub 转有声书与 Podcast 输出，可推送到 Kindle 等设备；Docker 部署
+
+- **[MyDict](https://github.com/PoxenStudio/mydict)** — 开发者 PoxenStudio（广州） · 开发工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/mydict.html)
+  自托管词典服务，Docker 一键部署，可导入 MDict/StarDict/ECDICT 三种格式词典，提供带 Token 鉴权的查询与生词本 API、网页词典、深浅主题和用量统计
+
+- **[MyReader](https://github.com/PoxenStudio/MyReader)** — 开发者 PoxenStudio（广州） · 开发工具 / 教育学习 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/myreader.html)
+  MyBooks 配套的跨平台电子书阅读器，登录自建书库后按分类标签浏览、下载阅读并同步阅读数据，支持 LaTeX 公式与自建词典；提供 macOS/Windows/Linux/Android 安装包
+
+- **[MyNexus](https://github.com/PoxenStudio/MyNexus)** — 开发者 PoxenStudio（广州） · 文档办公 / 效率工具 / 开发工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/mynexus.html)
+  把电子书变成可检索可问答的私有知识库，导入 EPUB/PDF/TXT 后自动解析、分块、向量化并支持 RAG 问答，配套书籍、任务与 Token 管理后台；需自行部署 core-api、worker、web-ui 三个服务
+
+- **[Megaphone](https://github.com/2104178150-ai/megaphone)** — 开发者 2104178150-ai · AI 工具 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/megaphone.html)
+  开源项目发布工具箱，粘贴仓库地址得到 0–100 发布就绪分和最该先改的事，再让 AI 按 Hacker News、V2EX、小红书等 17 个渠道各自的规则准备文案
 
 - **[apimodels.app](https://apimodels.app/zh)** — 开发者 stimQQ · AI 工具 / 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/apimodels-app.html)
   多模型 AI API 平台，一个 API Key、一套 OpenAI 兼容接口调用 150+ 个图片、视频、语音和大语言模型（GPT Image 2、Nano Banana、Seedance、Kling、Veo、Claude、Gemini、DeepSeek 等），每个模型多条渠道出错自动切换、调用失败不扣费、图片视频任务支持异步回调，价格普遍低于官方价，按量计费无月费；需要写代码调用 API

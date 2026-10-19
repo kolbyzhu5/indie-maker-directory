@@ -4,29 +4,205 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-18T14:28:03.878Z",
+  "generatedAt": "2026-10-19T00:12:55.567Z",
   "counts": {
-    "total": 3252,
-    "main": 2727,
-    "programmer": 380,
+    "total": 3259,
+    "main": 2729,
+    "programmer": 385,
     "game": 145,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1058,
+    "AI 工具": 1061,
+    "图片工具": 589,
+    "音视频": 544,
+    "文档办公": 310,
+    "开发工具": 629,
+    "效率工具": 469,
+    "教育学习": 186,
+    "免费工具": 612,
     "浏览器扩展": 336,
     "生活服务": 101,
-    "免费工具": 611,
-    "图片工具": 587,
-    "效率工具": 467,
-    "音视频": 542,
-    "开发工具": 624,
-    "文档办公": 307,
-    "教育学习": 185,
     "社交社区": 121,
     "游戏娱乐": 181
   },
   "projects": [
+    {
+      "id": "main-20261019-satomini-warpnav-曲速导航",
+      "edition": "main",
+      "addedAt": "2026-10-19",
+      "maker": "SatoMini",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SatoMini"
+        }
+      ],
+      "name": "WarpNav 曲速导航",
+      "url": "https://warpnav.com",
+      "status": "online",
+      "description": "中文 AI 工具与开源项目导航，按视频、图像、写作、编程等分类整理官方入口，另有 GitHub 开源项目解读、软件下载使用指南和 FFmpeg、API、Token 等技术科普，注明版本和适用条件，免费浏览、另有会员增值服务",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261019-tumingguang-svg-aimakevideo",
+      "edition": "main",
+      "addedAt": "2026-10-19",
+      "maker": "tumingguang-svg",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tumingguang-svg"
+        }
+      ],
+      "name": "aiMakeVideo",
+      "url": "https://aimakevideo.com",
+      "status": "online",
+      "description": "AI 视频与图片创作工作台，文生视频 / 图生视频 / 图生图在同一处切换，可选 Seedance 2.5、MiniMax H3 等模型；另把 Bulin 47、Hotel Lobby、Rumpelstiltskin 等 10 个热门玩法做成独立模板页，上传一张照片就能出 15 秒竖屏视频、不用写提示词；积分包 $9.9 起也可订阅，注册送 10 积分，9 种语言界面",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-poxenstudio-mybooks",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "PoxenStudio",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PoxenStudio"
+        }
+      ],
+      "name": "MyBooks",
+      "url": "https://github.com/PoxenStudio/mybooks",
+      "status": "online",
+      "description": "个人与家庭私有电子书管理服务，基于 Calibre + Vue，支持书单创建分享、WebDAV 同步、epub/azw3/pdf 互转、epub 转有声书与 Podcast 输出，可推送到 Kindle 等设备；Docker 部署",
+      "extraLinks": [
+        {
+          "label": "官网",
+          "url": "https://www.mybooks.top"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-poxenstudio-mydict",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "PoxenStudio",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PoxenStudio"
+        }
+      ],
+      "name": "MyDict",
+      "url": "https://github.com/PoxenStudio/mydict",
+      "status": "online",
+      "description": "自托管词典服务，Docker 一键部署，可导入 MDict/StarDict/ECDICT 三种格式词典，提供带 Token 鉴权的查询与生词本 API、网页词典、深浅主题和用量统计",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-poxenstudio-myreader",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "PoxenStudio",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PoxenStudio"
+        }
+      ],
+      "name": "MyReader",
+      "url": "https://github.com/PoxenStudio/MyReader",
+      "status": "online",
+      "description": "MyBooks 配套的跨平台电子书阅读器，登录自建书库后按分类标签浏览、下载阅读并同步阅读数据，支持 LaTeX 公式与自建词典；提供 macOS/Windows/Linux/Android 安装包",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-poxenstudio-mynexus",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "PoxenStudio",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PoxenStudio"
+        }
+      ],
+      "name": "MyNexus",
+      "url": "https://github.com/PoxenStudio/MyNexus",
+      "status": "online",
+      "description": "把电子书变成可检索可问答的私有知识库，导入 EPUB/PDF/TXT 后自动解析、分块、向量化并支持 RAG 问答，配套书籍、任务与 Token 管理后台；需自行部署 core-api、worker、web-ui 三个服务",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-2104178150-ai-megaphone",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "2104178150-ai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/2104178150-ai"
+        }
+      ],
+      "name": "Megaphone",
+      "url": "https://github.com/2104178150-ai/megaphone",
+      "status": "online",
+      "description": "开源项目发布工具箱，粘贴仓库地址得到 0–100 发布就绪分和最该先改的事，再让 AI 按 Hacker News、V2EX、小红书等 17 个渠道各自的规则准备文案",
+      "extraLinks": [
+        {
+          "label": "在线检测",
+          "url": "https://2104178150-ai.github.io/megaphone/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261018-makexyf-max-少装一点",
       "edition": "main",
@@ -10772,7 +10948,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261018-0",
+      "id": "custom-20261019-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

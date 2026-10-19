@@ -13126,5 +13126,37 @@
  "main-20241124-zebrapixel-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-10-18"
+ },
+ "main-20261019-satomini-warpnav-曲速导航": {
+  "descEn": "Chinese AI tools and open source project navigation, organized into official portals by video, image, writing, programming, etc., as well as GitHub open source project interpretation, software download and use guides, and technology popularization such as FFmpeg, API, Token, etc., indicating the version and applicable conditions, free browsing, and membership value-added services",
+  "at": "2026-10-19"
+ },
+ "main-20261019-tumingguang-svg-aimakevideo": {
+  "descEn": "AI video and picture creation workbench, Vincent Video / Tu Sheng Video / Tu Sheng Picture can be switched in the same place, optional Seedance 2.5, MiniMax H3 and other models; In addition, 10 popular gameplays such as Bulin 47, Hotel Lobby, Rumpelstiltskin, etc. are made into independent template pages. Upload a photo to create a 15-second vertical screen video without writing prompt words; the point package starts at $9.9 and you can also subscribe, register to get 10 points, 9 language interfaces",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-poxenstudio-mybooks": {
+  "descEn": "Personal and family private e-book management service, based on Caliber + Vue, supports book list creation and sharing, WebDAV synchronization, epub/azw3/pdf mutual conversion, epub to audiobook and podcast output, and can be pushed to Kindle and other devices; Docker deployment",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-poxenstudio-mydict": {
+  "descEn": "Self-hosted dictionary service, one-click deployment with Docker, can import dictionaries in three formats: MDict/StarDict/ECDICT, and provides query and glossary API with token authentication, web dictionary, deep and shallow themes and usage statistics",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-poxenstudio-myreader": {
+  "descEn": "A cross-platform e-book reader for MyBooks. After logging into your self-built library, you can browse by category tags, download and read, and synchronize reading data. It supports LaTeX formulas and self-built dictionaries; it provides macOS/Windows/Linux/Android installation packages.",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-poxenstudio-mynexus": {
+  "descEn": "Turn e-books into a searchable and question-answerable private knowledge base. After importing EPUB/PDF/TXT, it will automatically parse, chunk, vectorize and support RAG Q&A. It is equipped with books, tasks and token management backends; you need to deploy three services: core-api, worker and web-ui.",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-2104178150-ai-megaphone": {
+  "descEn": "Open source project release toolbox, paste the warehouse address to get 0-100 release readiness points and the things that should be changed first, and then let AI prepare the copy according to the respective rules of 17 channels such as Hacker News, V2EX, Xiaohongshu, etc.",
+  "at": "2026-10-19"
+ },
+ "custom-20261019-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-19"
  }
 }
