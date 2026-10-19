@@ -750,6 +750,7 @@ export function englishUrls(siteUrl) {
 // 英文 About 页（/en/about.html）：英文原创内容 + ICP/公安备案（法定标识原样保留）。
 // 与中文 /about.html 是 hreflang 对：中文页对英文访客会自动跳转到这里。
 function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
+  const aboutUpdated = new Date().toISOString().slice(0, 10);
   const title = `About — ${BRAND_EN_FULL} | Chinese indie developer directory`;
   const desc = `${BRAND_EN_FULL} (indiemaker.cn) is an entirely free directory of AI tools, websites, apps and games created by Chinese indie developers. Daily sync from an open-source repository; no membership, no paid ranking.`;
   const faq = [
@@ -808,6 +809,17 @@ function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
         <span><b>Filings</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43010402003127" target="_blank" rel="noreferrer" class="mps-beian"><img src="/mps-beian.png" alt="" width="16" height="16" decoding="async">湘公网安备43010402003127号</a></span>
       </div>
     </article>
+    <section class="author-note" id="about-author" aria-labelledby="authorTitle">
+      <h2 id="authorTitle">About the author</h2>
+      <p class="author-lead">I'm <b>kolbyzhu</b>, operator of ${BRAND_EN_FULL}, an AI indie developer.</p>
+      <p>I built ${BRAND_EN_FULL} because too many great products are buried in GitHub READMEs, unseen — they deserve to be properly organised, found and discovered.</p>
+      <ul class="author-creds">
+        <li><b>OPC practitioner</b> (one-person company / solo operator)</li>
+        <li><b>WorkBuddy Applied Specialist</b></li>
+        <li><b>CodeBuddy Architect</b></li>
+      </ul>
+      <p class="author-meta">Maintained by kolbyzhu, last updated ${aboutUpdated}. Reach me at <a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a> or <a href="https://github.com/kolbyzhu5" target="_blank" rel="noreferrer">GitHub @kolbyzhu5 ↗</a>.</p>
+    </section>
     <section class="support-note" id="support" aria-labelledby="supportTitle">
       <h2 id="supportTitle">Support this site</h2>
       <p>AI Indie Maker is free and open — no ads, no membership, no paid ranking. It brings in no revenue, but it still costs money to keep running: servers, domain, site improvements and day-to-day maintenance all add up. If this site has helped you, an optional sponsorship helps keep it going for the long term. Sponsorship is entirely voluntary and never affects your access to any feature.</p>
@@ -850,7 +862,18 @@ function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
     desc,
     canonical: `${siteUrl}/en/about.html`,
     zhUrl: `${siteUrl}/about.html`,
-    jsonLd: [faqLD],
+    jsonLd: [
+      faqLD,
+      JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "kolbyzhu",
+        "jobTitle": ["Operator of AI Indie Maker", "AI Indie Developer", "OPC Practitioner", "WorkBuddy Applied Specialist", "CodeBuddy Architect"],
+        "email": "kolbyzhu5@gmail.com",
+        "url": "https://github.com/kolbyzhu5",
+        "description": "Creator and maintainer of AI Indie Maker (indiemaker.cn), an AI indie developer."
+      })
+    ],
     body
   });
 }

@@ -734,6 +734,7 @@ function renderCategoryPage(category, catSlug, allProducts, slugMap, allCategori
 
 // ── P2：关于页 + FAQPage ─────────────────────────────────────
 function renderAboutPage() {
+  const aboutUpdated = beijingDateISO();
   const faqs = [
     {
       q: "AI 独立制造所是什么？",
@@ -810,6 +811,15 @@ function renderAboutPage() {
   <link rel="stylesheet" href="/detail.css">
   <script type="application/ld+json">${faqLD}</script>
   <script type="application/ld+json">${ORGANIZATION_LD}</script>
+  <script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "kolbyzhu",
+    "jobTitle": ["AI 独立制造所站长", "AI 独立开发者", "OPC 从业者", "WorkBuddy 应用师", "CodeBuddy 架构师"],
+    "email": "kolbyzhu5@gmail.com",
+    "url": "https://github.com/kolbyzhu5",
+    "description": "AI 独立制造所（indiemaker.cn）的创建与维护者，一名 AI 独立开发者。"
+  })}</script>
   ${UMAMI_SCRIPT}
   ${INNER_I18N_SCRIPT}
 </head>
@@ -848,6 +858,17 @@ function renderAboutPage() {
         <span><b>备案</b><a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2026036319号</a></span>
       </div>
     </article>
+    <section class="author-note" id="about-author" aria-labelledby="authorTitle">
+      <h2 id="authorTitle">关于作者</h2>
+      <p class="author-lead">我是 <b>kolbyzhu</b>，AI 独立制造所站长，一名 AI 独立开发者。</p>
+      <p>做 AI 独立制造所，是因为发现很多好产品埋在 GitHub README 里没人看见——它们值得被认真整理、被搜到、被发现。</p>
+      <ul class="author-creds">
+        <li><b>OPC 从业者</b>（一人公司 / 独立运营）</li>
+        <li><b>WorkBuddy 应用师</b></li>
+        <li><b>CodeBuddy 架构师</b></li>
+      </ul>
+      <p class="author-meta">本页由 kolbyzhu 维护，最后更新于 ${aboutUpdated}。可通过 <a href="mailto:kolbyzhu5@gmail.com">kolbyzhu5@gmail.com</a> 或 <a href="https://github.com/kolbyzhu5" target="_blank" rel="noreferrer">GitHub @kolbyzhu5 ↗</a> 联系我。</p>
+    </section>
     <section class="support-note" id="support" aria-labelledby="supportTitle">
       <h2 id="supportTitle">支持本站</h2>
       <p>AI 独立制造所免费开放、无广告、无会员、无竞价排名。它不产生收入，但需要持续投入 —— 服务器、域名、站点优化与日常维护，每一项都在消耗成本。如果这个站帮到了你，欢迎自愿赞助，让这件事更长久地做下去。赞助完全自愿，不影响你使用任何功能。</p>

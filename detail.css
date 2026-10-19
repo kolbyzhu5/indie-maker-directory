@@ -127,6 +127,18 @@
 .support-contact { font-size: 14px; color: var(--ink); opacity: .82; }
 .support-contact a { color: var(--red); text-decoration: none; font-weight: 600; }
 .support-contact a:hover { text-decoration: underline; }
+/* 关于作者（GEO 权威信号）：红色描边卡片，与站点 detail-card/support-note 风格一致 */
+.author-note { margin-top: 20px; background: var(--card); border: 1px solid var(--line); box-shadow: 5px 6px 0 rgba(88,71,40,.08); padding: 24px 28px; }
+.author-note h2 { font-size: 20px; letter-spacing: .04em; margin: 0 0 12px; padding-left: 12px; border-left: 4px solid var(--red); }
+.author-lead { font-size: 16px; line-height: 1.8; color: var(--ink); margin: 0 0 10px; }
+.author-note p { font-size: 15px; line-height: 1.9; color: var(--ink); margin: 0 0 12px; }
+.author-note p:last-child { margin-bottom: 0; }
+.author-creds { margin: 4px 0 12px; padding-left: 20px; }
+.author-creds li { font-size: 14.5px; line-height: 1.9; color: var(--ink); }
+.author-creds b { color: var(--red); }
+.author-meta { font-size: 14px; color: var(--ink); opacity: .82; }
+.author-meta a { color: var(--red); text-decoration: none; font-weight: 600; }
+.author-meta a:hover { text-decoration: underline; }
 /* 赞助三通道卡片：微信赞赏（主）+ 爱发电 + PayPal（海外），红章配色，窄屏自动降列 */
 .support-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 16px; margin: 18px 0 6px; }
 .support-card { border: 1px solid var(--line); border-radius: 8px; padding: 18px 18px 20px; background: var(--bg); display: flex; flex-direction: column; }
@@ -185,6 +197,9 @@
   .detail-card h1 { font-size: 27px; line-height: 1.25; margin: 0 0 12px; }
   .detail-desc { font-size: 15px; line-height: 1.85; margin: 0 0 18px; }
   .detail-meta { padding: 13px 0; gap: 8px 16px; font-size: 13px; }
+  .author-note { padding: 18px 16px; }
+  .author-lead { font-size: 15px; }
+  .author-creds li { font-size: 14px; }
   .detail-tags { margin: 15px 0 18px; }
   .detail-tags a { padding: 5px 11px; }
   .detail-actions { gap: 10px; }
