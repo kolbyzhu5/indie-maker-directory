@@ -1,10 +1,25 @@
-# AI 独立制造所 · 全部产品清单（3259）
+# AI 独立制造所 · 全部产品清单（3267）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-10-19（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2729）
+## 大众产品（2734）
+
+- **[苏哲AI](https://suzhe.ai)** — 开发者 xinyanghu7 · AI 工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/ai-ff185b.html)
+  ChatGPT 会员开通站，支付宝付款，买卡密后网页自助激活，通常 1–3 分钟到账，订阅类质保 1 个月；另有 Gemini、Super Duolingo 等 AI 会员
+
+- **[AI Anime Generator](https://ai-anime-generator.io/)** — 开发者 犀利豆 · AI 工具 / 图片工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/ai-anime-generator-45f75e.html)
+  AI 动漫绘图网站，输入文字或上传照片生成动漫角色、头像和 Chibi 图片，可选画风与画面比例，提供可直接使用的提示词；英文界面，需 Google 登录，新账号赠送 30 积分（7 天有效），生成按模型扣积分
+
+- **[Speaker](https://speaker.moonunder.app)** — 开发者 Simon · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/speaker.html)
+  macOS 原生语音输入工具，BYOK，语音识别可选豆包、OpenAI、千问，macOS 26 及以上可用 Apple 离线识别，不需要 Key；支持多种文字整理模式，也可以自定义；无账号无服务端，会话记录和个人词库只存在本地；免费开源
+
+- **[Whispek](https://whispek.com)** — 开发者 kevinxding · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/whispek.html)
+  AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS、Linux（.deb 和 AppImage），有免费额度，每 7 天刷新
+
+- **[ToolKnit](https://toolknit.com/)** — 开发者 董子航 · 图片工具 / 音视频 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/toolknit.html)
+  免费、免注册的 PDF、图片、音视频和文本在线工具箱，支持中英文切换；PDF 转图片、图片裁剪等功能在浏览器本地完成，部分工具设有使用额度或文件大小上限
 
 - **[WarpNav 曲速导航](https://warpnav.com)** — 开发者 SatoMini · AI 工具 / 图片工具 / 音视频 / 文档办公 / 开发工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/warpnav.html)
   中文 AI 工具与开源项目导航，按视频、图像、写作、编程等分类整理官方入口，另有 GitHub 开源项目解读、软件下载使用指南和 FFmpeg、API、Token 等技术科普，注明版本和适用条件，免费浏览、另有会员增值服务
@@ -5151,6 +5166,18 @@
 - **[Autoppt](https://autoppt.com)** — 开发者 cuiheng511 · AI 工具 / 文档办公 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/autoppt.html)
   AI 演示文稿生成工具，彻底改变了您创建演示文稿的方式。凭借丰富的模板和强大的功能，让您轻松在几分钟内制作出令人惊叹的演示文稿
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 cuiheng511 · AI 工具 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/ai-7f8e38.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 cuiheng511 · 开发工具 / 免费工具 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/project-e87995.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 cuiheng511 · 开发工具 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/project-a6034d.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 cuiheng511 · 浏览器扩展 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/project-a607cd.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Readest](https://readest.com?utm_source=indiecn&utm_medium=referral&utm_campaign=post)** — 开发者 chrox · 教育学习 / 免费工具 · 已上线 · 收录 2024-12-08 · [详情页](https://indiemaker.cn/p/readest.html)
   阅读软件（极简设计、开源、跨平台）
 
@@ -5174,18 +5201,6 @@
 
 - **[像素画家](https://apps.apple.com/app/pixel-one/id6504689184)** — 开发者 zebrapixel · 图片工具 · 已停止 · 收录 2024-11-24 · [详情页](https://indiemaker.cn/p/project-ae97ce.html)
   简单易用的像素画编辑器
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 zebrapixel · AI 工具 · 已上线 · 收录 2024-11-24 · [详情页](https://indiemaker.cn/p/ai-43aaac.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 zebrapixel · 开发工具 / 免费工具 · 已上线 · 收录 2024-11-24 · [详情页](https://indiemaker.cn/p/project-c150ed.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 zebrapixel · 开发工具 · 已上线 · 收录 2024-11-24 · [详情页](https://indiemaker.cn/p/project-c140d1.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 zebrapixel · 浏览器扩展 · 已上线 · 收录 2024-11-24 · [详情页](https://indiemaker.cn/p/project-c14551.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[ExtensionsFox](https://extensionsfox.store)** — 开发者 jianpingliu · 效率工具 · 已上线 · 收录 2024-11-22 · [详情页](https://indiemaker.cn/p/extensionsfox.html)
   几个 Instagram 自动化运营小工具
@@ -5451,7 +5466,7 @@
 - **[Emoji Spark](https://emojispark.com)** — 开发者 0xJoanne · AI 工具 · 已上线 · 收录 2024-08-27 · [详情页](https://indiemaker.cn/p/emoji-spark.html)
   AI Emoji 搜索工具
 
-- **[AI Anime Generator](https://aianimegen.org)** — 开发者 0xJoanne · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2024-08-25 · [详情页](https://indiemaker.cn/p/ai-anime-generator.html)
+- **[AI Anime Generator](https://aianimegen.org)** — 开发者 0xJoanne · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2024-08-25 · [详情页](https://indiemaker.cn/p/ai-anime-generator-df07ce.html)
   AI 动漫图片生成器（免费）
 
 - **[Text Compare & Merge](https://diffsuite.com)** — 开发者 木木木 · 未分类 · 已上线 · 收录 2024-08-22 · [详情页](https://indiemaker.cn/p/text-compare-merge.html)
@@ -8193,7 +8208,16 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（385）
+## 程序员版（388）
+
+- **[Mackit](https://www.mingcui.cn/mackit/)** — 开发者 virskor（德宏） · 开发工具 · 开发中 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/mackit.html)
+  代码写久了，依赖缓存占满了磁盘？为开发者打造的依赖缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，逐项标示风险，让你安全地把磁盘空间拿回来；每一项都标好风险，删什么由你决定
+
+- **[CatCatCode](https://catcatcode.com/)** — 开发者 星见 · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/catcatcode.html)
+  面向新手的 GPT / Claude API 接入服务，国内直连不用翻墙，注册拿密钥后按教程改 Claude Code / Codex 等即可用；月费 99 / 199 / 299
+
+- **[AI余额管理大师](https://github.com/masterball-w/AI-Balance-Master)** — 开发者 masterball-w · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/ai-b8d7c6.html)
+  Windows 二次元桌宠式 AI 余额/额度/订阅到期提醒工具，DeepSeek、Kimi、硅基流动、OpenRouter 填 API Key 即可用官方接口查余额，ChatGPT、Cursor 等无公开接口的平台手动记录到期日，没数据一律显示“未获取”；数据全本地、Key 系统加密，MIT 开源，Releases 提供免安装 Windows 压缩包（未签名）
 
 - **[MyBooks](https://github.com/PoxenStudio/mybooks)** — 开发者 PoxenStudio（广州） · 文档办公 / 效率工具 / 开发工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/mybooks.html)
   个人与家庭私有电子书管理服务，基于 Calibre + Vue，支持书单创建分享、WebDAV 同步、epub/azw3/pdf 互转、epub 转有声书与 Podcast 输出，可推送到 Kindle 等设备；Docker 部署

@@ -13158,5 +13158,53 @@
  "custom-20261019-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-19"
+ },
+ "main-20261019-xinyanghu7-苏哲ai": {
+  "descEn": "ChatGPT member activation site, pay with Alipay, and activate automatically on the webpage after purchasing the card code. The payment usually takes 1-3 minutes, and the subscription warranty is 1 month; there are also AI members such as Gemini and Super Duolingo.",
+  "at": "2026-10-19"
+ },
+ "main-20261019-diaozxin007-ai-anime-generator": {
+  "descEn": "AI animation drawing website, enter text or upload photos to generate anime characters, avatars and Chibi pictures, select painting style and screen ratio, provide prompt words that can be used directly; English interface, Google login is required, new account will give 30 points (valid for 7 days), points will be deducted according to the model generated",
+  "at": "2026-10-19"
+ },
+ "main-20261019-simonwong-speaker": {
+  "descEn": "macOS native voice input tool, BYOK, voice recognition options are Doubao, OpenAI, Qianwen, macOS 26 and above can be used for Apple offline recognition, no Key is required; supports multiple text organization modes and can also be customized; no account and no server, session records and personal lexicon only exist locally; free and open source",
+  "at": "2026-10-19"
+ },
+ "main-20261019-kevinxding-whispek": {
+  "descEn": "AI voice input desktop application. Press and hold a key to speak. After releasing it, the edited text will appear directly at the cursor of almost any application. It can remove \"um\", \"ah\" and repetitions, and can also perform voice translation. It supports Windows, macOS, and Linux (.deb and AppImage). It has a free quota and is refreshed every 7 days.",
+  "at": "2026-10-19"
+ },
+ "main-20261019-zihangdong-toolknit": {
+  "descEn": "Free, registration-free online toolbox for PDF, pictures, audio, video and text, supporting switching between Chinese and English; functions such as converting PDF to pictures and cropping pictures are completed locally in the browser, and some tools have usage quotas or file size limits.",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-virskor-mackit": {
+  "descEn": "The code has been written for a long time and the dependency cache fills up the disk? A dependency cache cleaning tool built for developers, it scans the reproducible cache left by Xcode, Node, Flutter, Go, Rust, Python and other tools, and marks the risks item by item, allowing you to safely get back the disk space; each item is marked with risks, and it is up to you to decide what to delete.",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-星见-catcatcode": {
+  "descEn": "GPT/Claude API access service for novices, domestic direct connection without having to jump through the firewall, just register and get the key and follow the tutorial to change the Claude Code/Codex, etc. and it will be available; monthly fee is 99/199/299",
+  "at": "2026-10-19"
+ },
+ "programmer-20261019-masterball-w-ai余额管理大师": {
+  "descEn": "Windows two-dimensional desktop favorite AI balance/limit/subscription expiration reminder tool, DeepSeek, Kimi, Silicon Mobile, OpenRouter. Fill in the API Key and use the official interface to check the balance. Platforms without public interfaces such as ChatGPT and Cursor manually record the expiration date. If no data is available, it will display \"not obtained\"; the data is all local, Key system encrypted, MIT open source, Releases provides installation-free Windows compression package (unsigned)",
+  "at": "2026-10-19"
+ },
+ "main-20241210-cuiheng511-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-19"
+ },
+ "main-20241210-cuiheng511-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-19"
+ },
+ "main-20241210-cuiheng511-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-19"
+ },
+ "main-20241210-cuiheng511-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-19"
  }
 }

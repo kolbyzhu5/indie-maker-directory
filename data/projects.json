@@ -4,29 +4,162 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-19T00:12:55.567Z",
+  "generatedAt": "2026-10-19T12:58:48.494Z",
   "counts": {
-    "total": 3259,
-    "main": 2729,
-    "programmer": 385,
+    "total": 3267,
+    "main": 2734,
+    "programmer": 388,
     "game": 145,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1061,
-    "图片工具": 589,
-    "音视频": 544,
-    "文档办公": 310,
-    "开发工具": 629,
-    "效率工具": 469,
+    "AI 工具": 1066,
+    "图片工具": 591,
+    "音视频": 547,
+    "开发工具": 634,
+    "免费工具": 616,
+    "文档办公": 311,
+    "浏览器扩展": 337,
+    "效率工具": 470,
     "教育学习": 186,
-    "免费工具": 612,
-    "浏览器扩展": 336,
     "生活服务": 101,
     "社交社区": 121,
     "游戏娱乐": 181
   },
   "projects": [
+    {
+      "id": "main-20261019-xinyanghu7-苏哲ai",
+      "edition": "main",
+      "addedAt": "2026-10-19",
+      "maker": "xinyanghu7",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xinyanghu7"
+        }
+      ],
+      "name": "苏哲AI",
+      "url": "https://suzhe.ai",
+      "status": "online",
+      "description": "ChatGPT 会员开通站，支付宝付款，买卡密后网页自助激活，通常 1–3 分钟到账，订阅类质保 1 个月；另有 Gemini、Super Duolingo 等 AI 会员",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261019-diaozxin007-ai-anime-generator",
+      "edition": "main",
+      "addedAt": "2026-10-19",
+      "maker": "犀利豆",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/diaozxin007"
+        }
+      ],
+      "name": "AI Anime Generator",
+      "url": "https://ai-anime-generator.io/",
+      "status": "online",
+      "description": "AI 动漫绘图网站，输入文字或上传照片生成动漫角色、头像和 Chibi 图片，可选画风与画面比例，提供可直接使用的提示词；英文界面，需 Google 登录，新账号赠送 30 积分（7 天有效），生成按模型扣积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261019-simonwong-speaker",
+      "edition": "main",
+      "addedAt": "2026-10-19",
+      "maker": "Simon",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/simonwong"
+        },
+        {
+          "label": "博客",
+          "url": "https://simonwong.cn"
+        }
+      ],
+      "name": "Speaker",
+      "url": "https://speaker.moonunder.app",
+      "status": "online",
+      "description": "macOS 原生语音输入工具，BYOK，语音识别可选豆包、OpenAI、千问，macOS 26 及以上可用 Apple 离线识别，不需要 Key；支持多种文字整理模式，也可以自定义；无账号无服务端，会话记录和个人词库只存在本地；免费开源",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/simonwong/speaker"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261019-kevinxding-whispek",
+      "edition": "main",
+      "addedAt": "2026-10-19",
+      "maker": "kevinxding",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kevinxding"
+        },
+        {
+          "label": "推特",
+          "url": "https://x.com/whispek_DingXu"
+        }
+      ],
+      "name": "Whispek",
+      "url": "https://whispek.com",
+      "status": "online",
+      "description": "AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS、Linux（.deb 和 AppImage），有免费额度，每 7 天刷新",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261019-zihangdong-toolknit",
+      "edition": "main",
+      "addedAt": "2026-10-19",
+      "maker": "董子航",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ZihangDong"
+        }
+      ],
+      "name": "ToolKnit",
+      "url": "https://toolknit.com/",
+      "status": "online",
+      "description": "免费、免注册的 PDF、图片、音视频和文本在线工具箱，支持中英文切换；PDF 转图片、图片裁剪等功能在浏览器本地完成，部分工具设有使用额度或文件大小上限",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261019-satomini-warpnav-曲速导航",
       "edition": "main",
@@ -74,6 +207,76 @@
         "AI 工具",
         "图片工具",
         "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-virskor-mackit",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "virskor",
+      "city": "德宏",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/virskor"
+        }
+      ],
+      "name": "Mackit",
+      "url": "https://www.mingcui.cn/mackit/",
+      "status": "developing",
+      "description": "代码写久了，依赖缓存占满了磁盘？为开发者打造的依赖缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，逐项标示风险，让你安全地把磁盘空间拿回来；每一项都标好风险，删什么由你决定",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-星见-catcatcode",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "星见",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "X",
+          "url": "https://x.com/xingjian_ai"
+        }
+      ],
+      "name": "CatCatCode",
+      "url": "https://catcatcode.com/",
+      "status": "online",
+      "description": "面向新手的 GPT / Claude API 接入服务，国内直连不用翻墙，注册拿密钥后按教程改 Claude Code / Codex 等即可用；月费 99 / 199 / 299",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261019-masterball-w-ai余额管理大师",
+      "edition": "programmer",
+      "addedAt": "2026-10-19",
+      "maker": "masterball-w",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/masterball-w"
+        }
+      ],
+      "name": "AI余额管理大师",
+      "url": "https://github.com/masterball-w/AI-Balance-Master",
+      "status": "online",
+      "description": "Windows 二次元桌宠式 AI 余额/额度/订阅到期提醒工具，DeepSeek、Kimi、硅基流动、OpenRouter 填 API Key 即可用官方接口查余额，ChatGPT、Cursor 等无公开接口的平台手动记录到期日，没数据一律显示“未获取”；数据全本地、Key 系统加密，MIT 开源，Releases 提供免安装 Windows 压缩包（未签名）",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -48463,6 +48666,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20241210-cuiheng511-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-12-10",
+      "maker": "cuiheng511",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuiheng511"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241210-cuiheng511-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-12-10",
+      "maker": "cuiheng511",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuiheng511"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241210-cuiheng511-独立星球",
+      "edition": "main",
+      "addedAt": "2024-12-10",
+      "maker": "cuiheng511",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuiheng511"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241210-cuiheng511-独立观察",
+      "edition": "main",
+      "addedAt": "2024-12-10",
+      "maker": "cuiheng511",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuiheng511"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20241208-readest-readest",
       "edition": "main",
       "addedAt": "2024-12-08",
@@ -48671,115 +48983,6 @@
       ],
       "categories": [
         "图片工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241124-zebrapixel-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-11-24",
-      "maker": "zebrapixel",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://x.com/xdkc2000"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241124-zebrapixel-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-11-24",
-      "maker": "zebrapixel",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://x.com/xdkc2000"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241124-zebrapixel-独立星球",
-      "edition": "main",
-      "addedAt": "2024-11-24",
-      "maker": "zebrapixel",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://x.com/xdkc2000"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241124-zebrapixel-独立观察",
-      "edition": "main",
-      "addedAt": "2024-11-24",
-      "maker": "zebrapixel",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Twitter",
-          "url": "https://x.com/xdkc2000"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
