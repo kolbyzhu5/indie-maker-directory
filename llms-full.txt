@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（3267）
+# AI 独立制造所 · 全部产品清单（3272）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-19（北京时间）
+> 更新时间：2026-10-20（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2734）
+## 大众产品（2737）
+
+- **[黯羽轻扬](https://blog.ayqy.net/)** — 开发者 ayqy · AI 工具 / 浏览器扩展 / 教育学习 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/project-8cfc64.html)
+  中文 AI 与软件工程内容网站，提供工程实践文章、AI 知识讲解及课程目录；内容在浏览器内阅读，免费文章可直接看，付费专栏在站内单独标价
+
+- **[SpaceKnife](https://spaceknife.kaltsit.dev/zh/)** — 开发者 DuskXi · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/spaceknife.html)
+  硬盘空间分析工具，用实时树图一眼看出磁盘被什么占满，支持 NTFS 快速扫描、快照对比和限制扫描时的磁盘负载，免费开源，支持 Windows 和 Linux
+
+- **[AI观潮](https://aiguanchao.com/)** — 开发者 ambrosex · AI 工具 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/ai-5cd863.html)
+  AI 新闻精选站，每天从上千个信息源的几千条 AI、科技和时事新闻里挑出值得看的，附中文总结和原文链接；另有早晚两期 AI 日报、热门事件追踪和把多家第三方评测换算到同一尺度的大模型排行榜，网页和 RSS 免费
 
 - **[苏哲AI](https://suzhe.ai)** — 开发者 xinyanghu7 · AI 工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/ai-ff185b.html)
   ChatGPT 会员开通站，支付宝付款，买卡密后网页自助激活，通常 1–3 分钟到账，订阅类质保 1 个月；另有 Gemini、Super Duolingo 等 AI 会员
@@ -8208,7 +8217,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（388）
+## 程序员版（390）
+
+- **[CloudMac](https://cloudmac.dev)** — 开发者 Tony Li · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/cloudmac.html)
+  海外云 Mac 服务商对比索引，收录 30 家、12 个国家和地区的独占 Mac mini、macOS 虚拟机与 Mac 托管，可按机房、远程方式（SSH/VNC/root）、IP 类型和用途（远程开发、iOS 构建、AI Agent 常驻、按天租）筛选，价格取自官网并标注核实日期；免费使用，另有中文服务专区和免费 JSON API
+
+- **[CloudWorth 云划算](https://www.getcloudworth.com/)** — 开发者 HyMaple（多伦多） · 开发工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/cloudworth.html)
+  云服务器/VPS 超卖检测工具，10 秒检测 CPU Steal Time、磁盘虚标与老旧硬件溢价，导出审计报告，支持 11 种语言
 
 - **[Mackit](https://www.mingcui.cn/mackit/)** — 开发者 virskor（德宏） · 开发工具 · 开发中 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/mackit.html)
   代码写久了，依赖缓存占满了磁盘？为开发者打造的依赖缓存清理工具，扫描 Xcode、Node、Flutter、Go、Rust、Python 等工具留下的可再生缓存，逐项标示风险，让你安全地把磁盘空间拿回来；每一项都标好风险，删什么由你决定

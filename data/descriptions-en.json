@@ -13206,5 +13206,29 @@
  "main-20241210-cuiheng511-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-10-19"
+ },
+ "main-20261020-ayqy-黯羽轻扬": {
+  "descEn": "Chinese AI and software engineering content website, providing engineering practice articles, AI knowledge explanations and course catalogs; the content can be read in the browser, free articles can be viewed directly, and paid columns are priced separately on the site",
+  "at": "2026-10-20"
+ },
+ "main-20261020-duskxi-spaceknife": {
+  "descEn": "Hard disk space analysis tool, using real-time tree view to see at a glance what is occupying the disk, supports NTFS quick scan, snapshot comparison and limits the disk load during scan, free and open source, supports Windows and Linux",
+  "at": "2026-10-20"
+ },
+ "main-20261020-ambrosex-ai观潮": {
+  "descEn": "AI News Selection Station selects the worth-watching news from thousands of AI, technology and current affairs news from thousands of information sources every day, with Chinese summaries and original text links; there are also two daily issues of AI in the morning and evening, hot event tracking and large model rankings that convert multiple third-party reviews to the same scale. The web page and RSS are free",
+  "at": "2026-10-20"
+ },
+ "programmer-20261020-astonysh-cloudmac": {
+  "descEn": "Comparative index of overseas cloud Mac service providers, including exclusive Mac mini, macOS virtual machines and Mac hosting from 30 companies and 12 countries and regions. It can be filtered by computer room, remote method (SSH/VNC/root), IP type and purpose (remote development, iOS construction, AI Agent resident, daily rent). The price is taken from the official website and marked with the verification date; it is free to use. There is also a Chinese service area and a free JSON API.",
+  "at": "2026-10-20"
+ },
+ "programmer-20261020-hanyan1822-cloudworth-云划算": {
+  "descEn": "Cloud server/VPS oversold detection tool, detects CPU Steal Time, disk virtual mark and old hardware premium in 10 seconds, exports audit report, supports 11 languages",
+  "at": "2026-10-20"
+ },
+ "custom-20261020-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-20"
  }
 }
