@@ -1,13 +1,28 @@
-# AI 独立制造所 · 全部产品清单（3272）
+# AI 独立制造所 · 全部产品清单（3278）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-20（北京时间）
+> 更新时间：2026-10-21（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2737）
+## 大众产品（2742）
 
-- **[黯羽轻扬](https://blog.ayqy.net/)** — 开发者 ayqy · AI 工具 / 浏览器扩展 / 教育学习 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/project-8cfc64.html)
-  中文 AI 与软件工程内容网站，提供工程实践文章、AI 知识讲解及课程目录；内容在浏览器内阅读，免费文章可直接看，付费专栏在站内单独标价
+- **[DTCStack](https://www.dtcstackhq.com/)** — 开发者 Kevin（China） · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/dtcstack.html)
+  面向 Shopify/DTC 卖家的免费电商工具库，17 个工具覆盖订单利润、广告 ROAS、支付费率、到岸成本、退货、批发定价和商品 SEO，浏览器本地计算、免登录，中英双语
+
+- **[VOXR](https://aizhiz.com/voxr/)** — 开发者 dlxeva · AI 工具 / 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/voxr.html)
+  导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册
+
+- **[AI Doctor Scan](https://aidoctorscan.com/)** — 开发者 blowxian · AI 工具 / 图片工具 / 教育学习 / 生活服务 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/ai-doctor-scan.html)
+  可见症状的照片分诊工具，上传照片并可选填写症状，获得 AI 生成的就医紧急程度提示和简短说明；首次结果免费且无需登录，可追加同一区域的照片复查，支持英语等 7 种语言（暂无中文）；仅供健康教育参考，不构成诊断或替代就医
+
+- **[未寄 · Unsent](https://env-00jy5xxt7kdo-static.normal.cloudstatic.cn)** — 开发者 David-XIa001（武汉） · 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/unsent.html)
+  基于地理坐标的时空信箱与情绪树洞，把未曾寄出的话留在真实物理位置上；支持五维情绪呼吸微光、时空信封倒计时封存、纸飞机善意回音与自带经纬度印章的拍立得海报导出，完全开源免费
+
+- **[知海图书馆](https://www.zhihailib.com)** — 开发者 知海图书馆团队 · 未分类 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/project-6d43b7.html)
+  干净的中文电子书站，可按书名、作者、出版社、ISBN 精确找书，能在线读，没有弹窗广告
+
+- **[ExamParser](https://examparser.com)** — 开发者 Nanshanelectrician · 文档办公 / 教育学习 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/examparser.html)
+  把 Word、PDF 或 Google 文档一键转成 Canvas 可直接导入的题库，免登录、文件用完即删，老师再也不用手动一道道录题
 
 - **[SpaceKnife](https://spaceknife.kaltsit.dev/zh/)** — 开发者 DuskXi · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/spaceknife.html)
   硬盘空间分析工具，用实时树图一眼看出磁盘被什么占满，支持 NTFS 快速扫描、快照对比和限制扫描时的磁盘负载，免费开源，支持 Windows 和 Linux
@@ -1092,11 +1107,11 @@
 - **[CreateForge AI](https://createforgeai.com/)** — 开发者 张波 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-08-24 · [详情页](https://indiemaker.cn/p/createforge-ai.html)
   AI 图像与视频生成工作台，接入 17 个模型，支持 Seedance 2.5、Veo 3.1 等模型的文生图、图生图、文生视频和图生视频，提供积分报价、任务中心与私有媒体库
 
-- **[AI 小说作家](https://github.com/EthanYoQ/AI-Novel-Writer)** — 开发者 EthanYoQ · AI 工具 / 文档办公 / 浏览器扩展 · 已上线 · 收录 2026-08-24 · [详情页](https://indiemaker.cn/p/ai-395b14.html)
-  AI 小说创作桌面应用，把角色、世界观、大纲、写作、审校与修订串成可控流程，写长篇不崩，包含续写仿写其他小说的功能；另有 DeepSeek Harness 插件版本，可用本地模型创作成人向（NSFW）小说
+- **[书童 Pagekin（原 AI 小说作家）](https://github.com/EthanYoQ/AI-Novel-Writer)** — 开发者 EthanYoQ · AI 工具 / 文档办公 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-08-24 · [详情页](https://indiemaker.cn/p/pagekin-ai.html)
+  开源免费的 AI 小说写作桌面软件，将设定、章节蓝图、正文、审稿和定稿放在同一项目，支持拆解仿写、续写和改写，内容由作者确认；提供 Windows/macOS 安装包，可自配 Ollama 或云端模型，另有独立的早期 DeepSeek Harness 插件预览
 
-- **[Invoice Downloader](https://github.com/EthanYoQ/Invoice-Downloader)** — 开发者 EthanYoQ · AI 工具 / 图片工具 / 文档办公 / 浏览器扩展 · 已上线 · 收录 2026-08-24 · [详情页](https://indiemaker.cn/p/invoice-downloader.html)
-  电子发票整理与报销准备桌面应用，从 QQ 或 163 邮箱批量下载发票，也可直接把发票二维码下载成发票，OCR 识别、分类归档并生成报销 Excel 汇总；另有 DeepSeek Harness 插件版本
+- **[InvoiceFlowAI 发票管家](https://github.com/EthanYoQ/Invoice-Downloader)** — 开发者 EthanYoQ · AI 工具 / 图片工具 / 文档办公 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-08-24 · [详情页](https://indiemaker.cn/p/invoiceflowai.html)
+  开源发票整理与报销准备软件，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并导出 Excel，不确定结果留给人工复核；提供 Windows/macOS 桌面版与独立 DeepSeek Harness 插件
 
 - **[轻语输入 / Whisper Input](https://github.com/EthanYoQ/whisper-input)** — 开发者 EthanYoQ · AI 工具 / 音视频 · 已上线 · 收录 2026-08-24 · [详情页](https://indiemaker.cn/p/whisper-input.html)
   中文 AI 语音输入工具，按全局快捷键即可将口述整理为去口头语、正式汇报或邮件格式，支持自动转成英文与自定模型
@@ -5142,6 +5157,18 @@
 - **[八爪鱼收纳](https://www.bzysn.top)** — 开发者 简具科技（杭州） · 效率工具 / 生活服务 · 已停止 · 收录 2024-12-26 · [详情页](https://indiemaker.cn/p/project-d29910.html)
   智能物品管理小程序，帮助您轻松管理家中各类物品，让生活更加井然有序
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 简具科技（杭州） · AI 工具 · 已上线 · 收录 2024-12-26 · [详情页](https://indiemaker.cn/p/ai-4ecc0c.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 简具科技（杭州） · 开发工具 / 免费工具 · 已上线 · 收录 2024-12-26 · [详情页](https://indiemaker.cn/p/project-cda253.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 简具科技（杭州） · 开发工具 · 已上线 · 收录 2024-12-26 · [详情页](https://indiemaker.cn/p/project-9cbfae.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 简具科技（杭州） · 浏览器扩展 · 已上线 · 收录 2024-12-26 · [详情页](https://indiemaker.cn/p/project-9cc42e.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[XShorts](https://xshorts.pro/)** — 开发者 KIAN · AI 工具 / 图片工具 / 音视频 / 效率工具 · 已上线 · 收录 2024-12-24 · [详情页](https://indiemaker.cn/p/xshorts.html)
   一键将优质 Tweet 转换为数字人短视频。定制化声音、AI背景图片，自动化发布。轻松创作内容优质的短视频
 
@@ -5174,18 +5201,6 @@
 
 - **[Autoppt](https://autoppt.com)** — 开发者 cuiheng511 · AI 工具 / 文档办公 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/autoppt.html)
   AI 演示文稿生成工具，彻底改变了您创建演示文稿的方式。凭借丰富的模板和强大的功能，让您轻松在几分钟内制作出令人惊叹的演示文稿
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 cuiheng511 · AI 工具 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/ai-7f8e38.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 cuiheng511 · 开发工具 / 免费工具 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/project-e87995.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 cuiheng511 · 开发工具 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/project-a6034d.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 cuiheng511 · 浏览器扩展 · 已上线 · 收录 2024-12-10 · [详情页](https://indiemaker.cn/p/project-a607cd.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Readest](https://readest.com?utm_source=indiecn&utm_medium=referral&utm_campaign=post)** — 开发者 chrox · 教育学习 / 免费工具 · 已上线 · 收录 2024-12-08 · [详情页](https://indiemaker.cn/p/readest.html)
   阅读软件（极简设计、开源、跨平台）
@@ -8217,7 +8232,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（390）
+## 程序员版（391）
+
+- **[Open Resume](https://github.com/AniChikage/open-resume)** — 开发者 AniChikage · 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/open-resume.html)
+  可自部署的开源简历编辑器，156 款模板全部开放，免费无水印导出 PDF、PNG 和 JSON 备份，支持中文等七种界面语言，数据保存在自己的 SQLite；需 Docker 或 Node.js 24+ 部署，MIT 协议
 
 - **[CloudMac](https://cloudmac.dev)** — 开发者 Tony Li · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/cloudmac.html)
   海外云 Mac 服务商对比索引，收录 30 家、12 个国家和地区的独占 Mac mini、macOS 虚拟机与 Mac 托管，可按机房、远程方式（SSH/VNC/root）、IP 类型和用途（远程开发、iOS 构建、AI Agent 常驻、按天租）筛选，价格取自官网并标注核实日期；免费使用，另有中文服务专区和免费 JSON API

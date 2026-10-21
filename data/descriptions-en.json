@@ -13230,5 +13230,61 @@
  "custom-20261020-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-20"
+ },
+ "main-20261020-kevin0168-dtcstack": {
+  "descEn": "Free e-commerce tool library for Shopify/DTC sellers, 17 tools covering order profit, advertising ROAS, payment rate, landed cost, returns, wholesale pricing and product SEO, browser local calculation, no login required, bilingual in Chinese and English",
+  "at": "2026-10-21"
+ },
+ "main-20261020-dlxeva-voxr": {
+  "descEn": "Import SRT subtitles dubbed by AI, find out the speech speed, pauses and rhythm issues sentence by sentence locally in the browser, organize them into review points that can be reviewed and prompt words for the next TTS redubbing, free and no registration required",
+  "at": "2026-10-21"
+ },
+ "main-20261020-blowxian-ai-doctor-scan": {
+  "descEn": "Photo triage tool with visible symptoms. Upload photos and optionally fill in symptoms to get AI-generated medical emergency prompts and brief descriptions. The first result is free and no login is required. Photo review of the same area can be added. It supports 7 languages ​​including English (no Chinese yet). It is for health education reference only and does not constitute a diagnosis or a substitute for medical treatment.",
+  "at": "2026-10-21"
+ },
+ "main-20261020-david-xia001-未寄-unsent": {
+  "descEn": "The space-time mailbox and emotional tree hole based on geographical coordinates leave unsent words in the real physical location; support five-dimensional emotional breathing glimmer, time-space envelope countdown sealing, paper airplane goodwill echo and polaroid poster export with built-in longitude and latitude stamp, completely open source and free",
+  "at": "2026-10-21"
+ },
+ "main-20261020-知海图书馆团队-知海图书馆": {
+  "descEn": "A clean Chinese e-book site. You can accurately find books by title, author, publisher, and ISBN. You can read them online without pop-up ads.",
+  "at": "2026-10-21"
+ },
+ "main-20261020-nanshanelectrician-examparser": {
+  "descEn": "Convert Word, PDF or Google documents into a question bank that can be directly imported into Canvas with one click. No need to log in. Files are deleted as soon as they are used up. Teachers no longer have to manually record questions one by one.",
+  "at": "2026-10-21"
+ },
+ "programmer-20261020-anichikage-open-resume": {
+  "descEn": "A self-deployable open source resume editor, all 156 templates are open, free watermark-free export to PDF, PNG and JSON backup, supports seven interface languages ​​including Chinese, data is saved in its own SQLite; requires Docker or Node.js 24+ deployment, MIT protocol",
+  "at": "2026-10-21"
+ },
+ "custom-20261021-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-21"
+ },
+ "main-20260824-ethanyoq-书童-pagekin-原-ai-小说作家": {
+  "descEn": "Open source and free AI novel writing desktop software, which puts settings, chapter blueprints, text, review and final draft in the same project, supports disassembly, imitation, continuation and rewriting, and the content is confirmed by the author; it provides a Windows/macOS installation package, which can be configured with Ollama or cloud models, and there is also an independent preview of the early DeepSeek Harness plug-in",
+  "at": "2026-10-21"
+ },
+ "main-20260824-ethanyoq-invoiceflowai-发票管家": {
+  "descEn": "Open source invoice sorting and reimbursement preparation software, which collects PDF/OFD/XML invoices in batches from QQ/163 mailboxes, OCR identification, classification, archiving and export to Excel, leaving uncertain results for manual review; provides Windows/macOS desktop version and independent DeepSeek Harness plug-in",
+  "at": "2026-10-21"
+ },
+ "main-20241226-简具科技-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-21"
+ },
+ "main-20241226-简具科技-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-21"
+ },
+ "main-20241226-简具科技-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-21"
+ },
+ "main-20241226-简具科技-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-21"
  }
 }

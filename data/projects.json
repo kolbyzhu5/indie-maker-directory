@@ -4,51 +4,179 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-20T01:05:34.463Z",
+  "generatedAt": "2026-10-21T00:37:16.617Z",
   "counts": {
-    "total": 3272,
-    "main": 2737,
-    "programmer": 390,
+    "total": 3278,
+    "main": 2742,
+    "programmer": 391,
     "game": 145,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1069,
-    "浏览器扩展": 338,
-    "教育学习": 187,
-    "免费工具": 620,
-    "开发工具": 637,
-    "图片工具": 591,
-    "音视频": 547,
-    "文档办公": 311,
+    "浏览器扩展": 339,
+    "免费工具": 625,
+    "AI 工具": 1070,
+    "音视频": 548,
+    "图片工具": 592,
+    "教育学习": 188,
+    "生活服务": 102,
+    "文档办公": 313,
+    "开发工具": 640,
     "效率工具": 470,
-    "生活服务": 101,
     "社交社区": 121,
     "游戏娱乐": 181
   },
   "projects": [
     {
-      "id": "main-20261020-ayqy-黯羽轻扬",
+      "id": "main-20261020-kevin0168-dtcstack",
       "edition": "main",
       "addedAt": "2026-10-20",
-      "maker": "ayqy",
+      "maker": "Kevin",
+      "city": "China",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kevin0168"
+        }
+      ],
+      "name": "DTCStack",
+      "url": "https://www.dtcstackhq.com/",
+      "status": "online",
+      "description": "面向 Shopify/DTC 卖家的免费电商工具库，17 个工具覆盖订单利润、广告 ROAS、支付费率、到岸成本、退货、批发定价和商品 SEO，浏览器本地计算、免登录，中英双语",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://www.dtcstackhq.com/tools/"
+        }
+      ],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261020-dlxeva-voxr",
+      "edition": "main",
+      "addedAt": "2026-10-20",
+      "maker": "dlxeva",
       "city": "",
       "makerLinks": [
         {
-          "label": "GitHub",
-          "url": "https://github.com/ayqy"
+          "label": "Github",
+          "url": "https://github.com/dlxeva"
+        },
+        {
+          "label": "博客",
+          "url": "https://aizhiz.com/zh/"
         }
       ],
-      "name": "黯羽轻扬",
-      "url": "https://blog.ayqy.net/",
+      "name": "VOXR",
+      "url": "https://aizhiz.com/voxr/",
       "status": "online",
-      "description": "中文 AI 与软件工程内容网站，提供工程实践文章、AI 知识讲解及课程目录；内容在浏览器内阅读，免费文章可直接看，付费专栏在站内单独标价",
+      "description": "导入 AI 配音的 SRT 字幕，在浏览器本地逐句找出语速、停顿和节奏问题，整理成可回看的复核点和交给下一次 TTS 重配的提示词，免费免注册",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://aizhiz.com/zh/posts/2026-07-29-voiceover-review-layer/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261020-blowxian-ai-doctor-scan",
+      "edition": "main",
+      "addedAt": "2026-10-20",
+      "maker": "blowxian",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/blowxian"
+        }
+      ],
+      "name": "AI Doctor Scan",
+      "url": "https://aidoctorscan.com/",
+      "status": "online",
+      "description": "可见症状的照片分诊工具，上传照片并可选填写症状，获得 AI 生成的就医紧急程度提示和简短说明；首次结果免费且无需登录，可追加同一区域的照片复查，支持英语等 7 种语言（暂无中文）；仅供健康教育参考，不构成诊断或替代就医",
       "extraLinks": [],
       "categories": [
         "AI 工具",
-        "浏览器扩展",
+        "图片工具",
         "教育学习",
+        "生活服务",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261020-david-xia001-未寄-unsent",
+      "edition": "main",
+      "addedAt": "2026-10-20",
+      "maker": "David-XIa001",
+      "city": "武汉",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/David-XIa001"
+        }
+      ],
+      "name": "未寄 · Unsent",
+      "url": "https://env-00jy5xxt7kdo-static.normal.cloudstatic.cn",
+      "status": "online",
+      "description": "基于地理坐标的时空信箱与情绪树洞，把未曾寄出的话留在真实物理位置上；支持五维情绪呼吸微光、时空信封倒计时封存、纸飞机善意回音与自带经纬度印章的拍立得海报导出，完全开源免费",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/David-XIa001/unsent"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261020-知海图书馆团队-知海图书馆",
+      "edition": "main",
+      "addedAt": "2026-10-20",
+      "maker": "知海图书馆团队",
+      "city": "",
+      "makerLinks": [],
+      "name": "知海图书馆",
+      "url": "https://www.zhihailib.com",
+      "status": "online",
+      "description": "干净的中文电子书站，可按书名、作者、出版社、ISBN 精确找书，能在线读，没有弹窗广告",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261020-nanshanelectrician-examparser",
+      "edition": "main",
+      "addedAt": "2026-10-20",
+      "maker": "Nanshanelectrician",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Nanshanelectrician"
+        }
+      ],
+      "name": "ExamParser",
+      "url": "https://examparser.com",
+      "status": "online",
+      "description": "把 Word、PDF 或 Google 文档一键转成 Canvas 可直接导入的题库，免登录、文件用完即删，老师再也不用手动一道道录题",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "教育学习"
       ],
       "source": "upstream"
     },
@@ -103,6 +231,30 @@
       "extraLinks": [],
       "categories": [
         "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261020-anichikage-open-resume",
+      "edition": "programmer",
+      "addedAt": "2026-10-20",
+      "maker": "AniChikage",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AniChikage"
+        }
+      ],
+      "name": "Open Resume",
+      "url": "https://github.com/AniChikage/open-resume",
+      "status": "online",
+      "description": "可自部署的开源简历编辑器，156 款模板全部开放，免费无水印导出 PDF、PNG 和 JSON 备份，支持中文等七种界面语言，数据保存在自己的 SQLite；需 Docker 或 Node.js 24+ 部署，MIT 协议",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "开发工具",
         "免费工具"
       ],
       "source": "upstream"
@@ -11277,7 +11429,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261020-0",
+      "id": "custom-20261021-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -11745,7 +11897,7 @@
       "source": "upstream"
     },
     {
-      "id": "main-20260824-ethanyoq-ai-小说作家",
+      "id": "main-20260824-ethanyoq-书童-pagekin-原-ai-小说作家",
       "edition": "main",
       "addedAt": "2026-08-24",
       "maker": "EthanYoQ",
@@ -11756,20 +11908,22 @@
           "url": "https://github.com/EthanYoQ"
         }
       ],
-      "name": "AI 小说作家",
+      "name": "书童 Pagekin（原 AI 小说作家）",
       "url": "https://github.com/EthanYoQ/AI-Novel-Writer",
       "status": "online",
-      "description": "AI 小说创作桌面应用，把角色、世界观、大纲、写作、审校与修订串成可控流程，写长篇不崩，包含续写仿写其他小说的功能；另有 DeepSeek Harness 插件版本，可用本地模型创作成人向（NSFW）小说",
+      "description": "开源免费的 AI 小说写作桌面软件，将设定、章节蓝图、正文、审稿和定稿放在同一项目，支持拆解仿写、续写和改写，内容由作者确认；提供 Windows/macOS 安装包，可自配 Ollama 或云端模型，另有独立的早期 DeepSeek Harness 插件预览",
       "extraLinks": [],
       "categories": [
         "AI 工具",
         "文档办公",
-        "浏览器扩展"
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
       ],
       "source": "upstream"
     },
     {
-      "id": "main-20260824-ethanyoq-invoice-downloader",
+      "id": "main-20260824-ethanyoq-invoiceflowai-发票管家",
       "edition": "main",
       "addedAt": "2026-08-24",
       "maker": "EthanYoQ",
@@ -11780,15 +11934,16 @@
           "url": "https://github.com/EthanYoQ"
         }
       ],
-      "name": "Invoice Downloader",
+      "name": "InvoiceFlowAI 发票管家",
       "url": "https://github.com/EthanYoQ/Invoice-Downloader",
       "status": "online",
-      "description": "电子发票整理与报销准备桌面应用，从 QQ 或 163 邮箱批量下载发票，也可直接把发票二维码下载成发票，OCR 识别、分类归档并生成报销 Excel 汇总；另有 DeepSeek Harness 插件版本",
+      "description": "开源发票整理与报销准备软件，从 QQ/163 邮箱批量收集 PDF/OFD/XML 发票，OCR 识别、分类归档并导出 Excel，不确定结果留给人工复核；提供 Windows/macOS 桌面版与独立 DeepSeek Harness 插件",
       "extraLinks": [],
       "categories": [
         "AI 工具",
         "图片工具",
         "文档办公",
+        "开发工具",
         "浏览器扩展"
       ],
       "source": "upstream"
@@ -48468,6 +48623,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20241226-简具科技-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2024-12-26",
+      "maker": "简具科技",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241226-简具科技-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2024-12-26",
+      "maker": "简具科技",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241226-简具科技-独立星球",
+      "edition": "main",
+      "addedAt": "2024-12-26",
+      "maker": "简具科技",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20241226-简具科技-独立观察",
+      "edition": "main",
+      "addedAt": "2024-12-26",
+      "maker": "简具科技",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20241224-kian-xshorts",
       "edition": "main",
       "addedAt": "2024-12-24",
@@ -48788,115 +49032,6 @@
       "categories": [
         "AI 工具",
         "文档办公"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241210-cuiheng511-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-12-10",
-      "maker": "cuiheng511",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cuiheng511"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241210-cuiheng511-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-12-10",
-      "maker": "cuiheng511",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cuiheng511"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241210-cuiheng511-独立星球",
-      "edition": "main",
-      "addedAt": "2024-12-10",
-      "maker": "cuiheng511",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cuiheng511"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241210-cuiheng511-独立观察",
-      "edition": "main",
-      "addedAt": "2024-12-10",
-      "maker": "cuiheng511",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cuiheng511"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
