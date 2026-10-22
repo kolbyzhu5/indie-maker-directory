@@ -4,29 +4,366 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-21T00:37:16.617Z",
+  "generatedAt": "2026-10-22T00:41:25.173Z",
   "counts": {
-    "total": 3278,
-    "main": 2742,
-    "programmer": 391,
-    "game": 145,
+    "total": 3292,
+    "main": 2753,
+    "programmer": 393,
+    "game": 146,
     "custom": 1
   },
   "categoryCounts": {
-    "浏览器扩展": 339,
-    "免费工具": 625,
-    "AI 工具": 1070,
-    "音视频": 548,
-    "图片工具": 592,
+    "文档办公": 316,
+    "效率工具": 474,
+    "浏览器扩展": 341,
+    "免费工具": 635,
+    "开发工具": 642,
+    "AI 工具": 1074,
+    "图片工具": 595,
+    "音视频": 551,
     "教育学习": 188,
     "生活服务": 102,
-    "文档办公": 313,
-    "开发工具": 640,
-    "效率工具": 470,
     "社交社区": 121,
     "游戏娱乐": 181
   },
   "projects": [
+    {
+      "id": "main-20261021-tusunsun-notebook-generator",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "tusunsun",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tusunsun"
+        }
+      ],
+      "name": "Notebook Generator",
+      "url": "https://www.notebookgenerator.com/zh-CN/",
+      "status": "online",
+      "description": "免费生成可打印的笔记本、手帐、日历 PDF，100 多种内页模板与多种纸张尺寸，可导出对折装订的小册子，无需注册，PDF 在浏览器本地生成",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "效率工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-abyssalyanbin-sliceloft",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "abyssalyanbin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/abyssalyanbin"
+        }
+      ],
+      "name": "SliceLoft",
+      "url": "https://sliceloft.com/",
+      "status": "online",
+      "description": "3D 打印文件工具（免费），全部在浏览器本地运行、不上传文件：把 Bambu Studio / OrcaSlicer 的 3MF 项目按盘或按零件转成 STL，也支持 STL→3MF、OBJ→STL、STEP→STL，在线预览 3MF/STL，还能自定义生成免支撑打印的星形指尖陀螺",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-rosebsnowden-eng-powerstation-size",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "Chen Jie",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rosebsnowden-eng"
+        }
+      ],
+      "name": "PowerStation Size",
+      "url": "https://powerstationsize.com/",
+      "status": "online",
+      "description": "便携储能计算器，按实际负载分别核对容量、持续功率和逆变器浪涌；X-Boost / Power Lifting / SurgePad 等 boost 峰值不能当作冰箱压缩机启动余量，规格从厂商页抄录并标注核对日期，免费开源 — [源码](https://github.com/rosebsnowden-eng/powerstation-size)",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/rosebsnowden-eng/powerstation-size"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-stimqq-flux3max",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "stimQQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "name": "Flux3Max",
+      "url": "https://flux3max.net",
+      "status": "online",
+      "description": "FLUX 3 Max AI 视频生成器，输入一段文字或上传一张图片（也可以给首帧和尾帧两张图），就能生成 5–20 秒带声音的视频，支持 720p / 1080p 和多种画面比例；网页英文界面，Google 登录，新用户可免费生成一次 5 秒视频，之后按秒付费、积分包不订阅不过期",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-enivel-viewhtml",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "Levine",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Enivel"
+        }
+      ],
+      "name": "ViewHTML",
+      "url": "https://viewhtml.app",
+      "status": "online",
+      "description": "HTML 查看器，左边贴 HTML/CSS/JS 右边实时预览，可直接打开本地 .html 文件，适合预览 ChatGPT/Claude/Codex 生成的 HTML；一键分享为链接、二维码、PNG 或 PDF，免注册免费，另有 Claude Code/Codex/Cursor 分享 Skill",
+      "extraLinks": [
+        {
+          "label": "Skill 源码",
+          "url": "https://github.com/Enivel/viewhtml-share-skill"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-enivel-fondo-blanco",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "Levine",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Enivel"
+        }
+      ],
+      "name": "Fondo Blanco",
+      "url": "https://fondoblanco.org",
+      "status": "online",
+      "description": "西班牙语抠图工具，一键去掉照片背景并换成白底，保持原图尺寸，支持 JPG/PNG/WebP，适合 Amazon、Mercado Libre、Shopify 商品图和证件、头像照片，免注册免费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-phaeriswakfu-糖包",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "Phaeris",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/PhaerisWakfu"
+        }
+      ],
+      "name": "糖包",
+      "url": "https://tangbao.phaeris.cn",
+      "status": "online",
+      "description": "自研「能工智人」大模型，永久免费，支持对话和文生图，新模型 tangbao-vme50-flash 已上线",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-wagnyi793797714-tradesniper",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "yi wangyi",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wagnyi793797714"
+        }
+      ],
+      "name": "TradeSniper",
+      "url": "https://x-swap.cn/tradesniper/",
+      "status": "online",
+      "description": "A 股与期货行情站，手机上集合策略与做 T 辅助，方便盯盘和短线操作",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-jayden-tong-myfategpt-紫微命书",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "Jayden-tong",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jayden-tong"
+        }
+      ],
+      "name": "MyFateGPT（紫微命书）",
+      "url": "https://myfategpt.com/",
+      "status": "online",
+      "description": "中文紫微斗数排盘与 AI 白话解读工具，免费查看十二宫命盘和部分试读；完整七章报告一次性 ¥299 / US$39，含 PDF，另有出生时间、农历闰月和排盘差异的简繁体指南",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-fisher-byte-ajaxmodel-release-tracker",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "fisher-byte",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fisher-byte"
+        }
+      ],
+      "name": "AjaxModel Release Tracker",
+      "url": "https://ajaxmodel.dev/",
+      "status": "online",
+      "description": "Ajax 模型发布追踪站，汇总官方来源、发布时间线和本地运行指南，免登录查看；非官方项目，不提供未发布模型的权重下载",
+      "extraLinks": [],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261021-coderwenzi-songfromvideo",
+      "edition": "main",
+      "addedAt": "2026-10-21",
+      "maker": "蚊子",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coderWenzi"
+        }
+      ],
+      "name": "SongFromVideo",
+      "url": "https://songfromvideo.com/",
+      "status": "online",
+      "description": "视频识曲工具，粘贴 TikTok/YouTube/Instagram/Facebook/X 链接或上传音视频就能找出背景音乐，登录后首次识别免费",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261021-reapiai-wan-api",
+      "edition": "programmer",
+      "addedAt": "2026-10-21",
+      "maker": "reAPI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/reAPIAI"
+        }
+      ],
+      "name": "Wan API",
+      "url": "https://wanapi.app/",
+      "status": "online",
+      "description": "Wan 3.0 / Prime / Pro 与 Seedance 2.0 / 2.5 视频模型的 API 中转，按秒计费（480p 每秒 $0.0275，约为官方标价 55%），支持文生视频、首尾帧与多模态参考输入、最长 30 秒且默认带声音，注册后在后台创建 key、充值即可调用",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261021-yeshimin-yeahboot-开源后台脚手架",
+      "edition": "programmer",
+      "addedAt": "2026-10-21",
+      "maker": "叶世民",
+      "city": "温州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yeshimin"
+        },
+        {
+          "label": "博客",
+          "url": "https://blog.yeshimin.com"
+        }
+      ],
+      "name": "Yeahboot 开源后台脚手架",
+      "url": "https://yeahboot.com",
+      "status": "online",
+      "description": "基于 Java/SpringBoot 的开源管理后台脚手架",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261021-ride-a-pet-ride-a-pet-wiki",
+      "edition": "game",
+      "addedAt": "2026-10-21",
+      "maker": "sam ice",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sam-ice-star/ride-a-pet"
+        }
+      ],
+      "name": "Ride a Pet Wiki",
+      "url": "https://ride-a-pet-rblx.wiki/",
+      "status": "online",
+      "description": "Ride a Pet 非官方资料站，整理宠物、蛋、转生、突变、装备和食物，方便玩家随时查询",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
     {
       "id": "main-20261020-kevin0168-dtcstack",
       "edition": "main",
@@ -5471,11 +5808,11 @@
       "name": "mu",
       "url": "https://github.com/qybaihe/mu",
       "status": "online",
-      "description": "编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 `npm i -g mu-agent` 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0）",
+      "description": "带判定内核的开源编码代理，一个小而快的判定模型在 40 个判定点上替大模型做每一轮的例行决定（上下文、命令安全、是否真的完成、提示注入筛查），大模型专心写代码，每次判定都记进本地流水；命令行 `npm i -g mu-agent`，另有 macOS / Windows / Linux 桌面端，MIT 开源（桌面端中来自 AionUi 的文件仍为 Apache-2.0）",
       "extraLinks": [
         {
-          "label": "中文说明",
-          "url": "https://github.com/qybaihe/mu/blob/main/docs/readme/README.zh-CN.md"
+          "label": "中文官网",
+          "url": "https://usemu.dev/"
         }
       ],
       "categories": [
@@ -11429,7 +11766,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261021-0",
+      "id": "custom-20261022-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48242,6 +48579,131 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250113-zijiuok-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-01-13",
+      "maker": "zijiuok",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zijiuok"
+        },
+        {
+          "label": "Twitter/X",
+          "url": "https://x.com/zijiuok"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250113-zijiuok-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-01-13",
+      "maker": "zijiuok",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zijiuok"
+        },
+        {
+          "label": "Twitter/X",
+          "url": "https://x.com/zijiuok"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250113-zijiuok-独立星球",
+      "edition": "main",
+      "addedAt": "2025-01-13",
+      "maker": "zijiuok",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zijiuok"
+        },
+        {
+          "label": "Twitter/X",
+          "url": "https://x.com/zijiuok"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250113-zijiuok-独立观察",
+      "edition": "main",
+      "addedAt": "2025-01-13",
+      "maker": "zijiuok",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zijiuok"
+        },
+        {
+          "label": "Twitter/X",
+          "url": "https://x.com/zijiuok"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250112-seeeeal-仓鼠工具箱",
       "edition": "main",
       "addedAt": "2025-01-12",
@@ -48619,95 +49081,6 @@
       "categories": [
         "效率工具",
         "生活服务"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241226-简具科技-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2024-12-26",
-      "maker": "简具科技",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241226-简具科技-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2024-12-26",
-      "maker": "简具科技",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241226-简具科技-独立星球",
-      "edition": "main",
-      "addedAt": "2024-12-26",
-      "maker": "简具科技",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20241226-简具科技-独立观察",
-      "edition": "main",
-      "addedAt": "2024-12-26",
-      "maker": "简具科技",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
