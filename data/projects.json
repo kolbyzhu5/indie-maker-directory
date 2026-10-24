@@ -4,29 +4,200 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-23T00:40:27.806Z",
+  "generatedAt": "2026-10-24T00:42:15.565Z",
   "counts": {
-    "total": 3315,
-    "main": 2770,
-    "programmer": 395,
-    "game": 150,
+    "total": 3327,
+    "main": 2776,
+    "programmer": 396,
+    "game": 155,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1091,
-    "图片工具": 604,
-    "音视频": 561,
-    "免费工具": 648,
-    "文档办公": 318,
-    "开发工具": 648,
-    "游戏娱乐": 184,
+    "AI 工具": 1096,
+    "开发工具": 651,
+    "图片工具": 607,
+    "音视频": 563,
+    "文档办公": 319,
+    "浏览器扩展": 351,
+    "免费工具": 653,
+    "游戏娱乐": 187,
+    "生活服务": 105,
     "效率工具": 475,
-    "浏览器扩展": 348,
     "教育学习": 189,
-    "生活服务": 103,
     "社交社区": 122
   },
   "projects": [
+    {
+      "id": "main-20261023-owen-teng-companest-伴境",
+      "edition": "main",
+      "addedAt": "2026-10-23",
+      "maker": "Owen Teng · 滕新阳 — 与 Robinson AI Lab 共建",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Owen-Teng"
+        }
+      ],
+      "name": "Companest 伴境",
+      "url": "https://github.com/Owen-Teng/companest",
+      "status": "developing",
+      "description": "Windows AI 工作伙伴应用，通过房间、角色和事项板组织邮件上下文、回复草稿与后续变化；当前可查看虚构数据演示，安装包与源码尚未公开",
+      "extraLinks": [
+        {
+          "label": "邮件预览说明",
+          "url": "https://github.com/Owen-Teng/companest/blob/main/docs/MAIL-FEATURES.zh-CN.md"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261023-zizhu-ai-ai-dance-generator",
+      "edition": "main",
+      "addedAt": "2026-10-23",
+      "maker": "子竹",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zizhu-ai"
+        }
+      ],
+      "name": "AI Dance Generator",
+      "url": "https://danceaigenerator.com",
+      "status": "online",
+      "description": "AI 照片跳舞视频生成器，上传一张照片、选一个舞蹈模板，几分钟得到 9:16 竖屏跳舞视频，可直接发 TikTok/Reels/Shorts；网页英文界面",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261023-xuhaotian29-cell-票号核对台",
+      "edition": "main",
+      "addedAt": "2026-10-23",
+      "maker": "xuhaotian29-cell",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xuhaotian29-cell"
+        }
+      ],
+      "name": "票号核对台",
+      "url": "https://piaoh-offline.xuhaotian29.chatgpt.site/",
+      "status": "online",
+      "description": "跨 Excel/CSV 核对相同发票号码的本地工具，导出原文件、工作表及行号便于复核；离线版 19.9 元一次购买，限量首发，48 小时内人工交付，官网可看合成数据演示",
+      "extraLinks": [],
+      "categories": [
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261023-vincentl998-匠工具箱-takumikit",
+      "edition": "main",
+      "addedAt": "2026-10-23",
+      "maker": "Takumi",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/VincentL998"
+        }
+      ],
+      "name": "匠工具箱 TakumiKit",
+      "url": "https://tools.takumikit.com/zh-cn/",
+      "status": "online",
+      "description": "免费在线工具箱，34 个工具含 AI 抠图、HEIC 转 JPG、音视频格式转换、文字转语音和常用计算器，无需注册，图片和音视频文件在浏览器本地处理不上传，支持简繁英日韩 5 种语言",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261023-potatates-字相",
+      "edition": "main",
+      "addedAt": "2026-10-23",
+      "maker": "potatates",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/potatates"
+        }
+      ],
+      "name": "字相",
+      "url": "https://zixiangfont.com",
+      "status": "online",
+      "description": "收录 237 款可免费商用的简体中文字体，输入任意文字即可在线预览，按笔形、字重等特征找风格相近的字体，最多 4 款并排对比，附授权说明与官方下载链接",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261023-maysunyoung-pixwit",
+      "edition": "main",
+      "addedAt": "2026-10-23",
+      "maker": "maysunyoung",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/maysunyoung"
+        }
+      ],
+      "name": "Pixwit",
+      "url": "https://pixwit.ai",
+      "status": "online",
+      "description": "AI 照片转动图/迷因舞蹈特效生成器，上传一张照片即可生成短视频迷因（如乔丹踮脚、Dime Dime Baby），免费额度可用，进阶功能付费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261023-jonathanowentj-paper-texture",
+      "edition": "main",
+      "addedAt": "2026-10-23",
+      "maker": "JonathanOwenTJ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonathanOwenTJ"
+        }
+      ],
+      "name": "Paper Texture",
+      "url": "https://paper-texture.com/paper-texture-overlay/",
+      "status": "online",
+      "description": "在线纸纹叠加编辑器，手动编辑免费免登录；选择 AI 生成纸面并调整混合模式、透明度和尺寸，预览自己的图片或内置海报",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261023-watreesir-everygen-ai",
       "edition": "main",
@@ -178,6 +349,29 @@
       "source": "upstream"
     },
     {
+      "id": "programmer-20261023-anthonyhann-token-pilot",
+      "edition": "programmer",
+      "addedAt": "2026-10-23",
+      "maker": "anthonyhann",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/anthonyhann"
+        }
+      ],
+      "name": "token-pilot",
+      "url": "https://github.com/anthonyhann/token-pilot",
+      "status": "online",
+      "description": "AI 工具本地账单与预算控制器，一条命令汇总 Claude Code / Codex / Kimi Code 等用量与花费，菜单栏常驻今日费用与预算占比，支持超支通知与打转检测；国产模型自动归一，只读本地日志、数据不出本机 — macOS / Windows",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20261023-zaylora-连镜",
       "edition": "programmer",
       "addedAt": "2026-10-23",
@@ -204,6 +398,106 @@
         "图片工具",
         "音视频",
         "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261023-liujd0326-crazy-cattle-3d",
+      "edition": "game",
+      "addedAt": "2026-10-23",
+      "maker": "liujd0326",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/liujd0326"
+        }
+      ],
+      "name": "Crazy Cattle 3D",
+      "url": "https://crazycattle3d.com/?utm_source=chineseindie.com&utm_medium=referral&utm_campaign=directory",
+      "status": "online",
+      "description": "非官方粉丝站，在浏览器里免费玩这款物理碰碰羊大逃杀，不用注册、不用下载；用坡度和时机把别的羊撞出地图，尽量活到最后。页面上有新版 Sheep Bonk Arena 和经典版，地图包括爱尔兰、冰岛和新西兰，另有 Windows、macOS、Linux 下载和操作说明。不是原作的官方网站，和原作者没有关系",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "浏览器扩展",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261023-多奇-灵感实验室-准时下班模拟器",
+      "edition": "game",
+      "addedAt": "2026-10-23",
+      "maker": "多奇·灵感实验室",
+      "city": "",
+      "makerLinks": [],
+      "name": "准时下班模拟器",
+      "url": "https://portal-test.qidianlingzhi.com/phone/h5/index.html?s=v1.IBoZeJLKTBUw1Syj4p_JnZbDpzegix6WvSUU8VyPDvM_mmqk&c=CgVBUUKp6j",
+      "status": "developing",
+      "description": "办公室躲避小游戏：先拿工牌，按住移动、松手停下，避开老板和同事走到门口。（H5测试版）",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261023-多奇-灵感实验室-躲避二手烟",
+      "edition": "game",
+      "addedAt": "2026-10-23",
+      "maker": "多奇·灵感实验室",
+      "city": "",
+      "makerLinks": [],
+      "name": "躲避二手烟",
+      "url": "https://portal-test.qidianlingzhi.com/phone/h5/index.html?s=v1.fTOgmcoH6ajZp8kanP_KsCyJRQERNKX7dmz00tUKPHOBOcP9&c=smHx8ASuGU",
+      "status": "developing",
+      "description": "画线躲避小游戏：在便利店、公交站等日常场景里画出路线，避开吸烟的人和烟圈。（H5测试版）",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261023-多奇-灵感实验室-喷气飞车",
+      "edition": "game",
+      "addedAt": "2026-10-23",
+      "maker": "多奇·灵感实验室",
+      "city": "",
+      "makerLinks": [],
+      "name": "喷气飞车",
+      "url": "https://portal-test.qidianlingzhi.com/phone/h5/index.html?s=v1.M_x6mP251gHpMC4BSxwl_5mXjR1pAMvhCI_rNDSBWkng7LZH&c=jcZFf2wNe3",
+      "status": "developing",
+      "description": "喷气与翻转赛车小游戏：左半边按住喷射，右半边点击翻转到天花板，挑战当天同一条赛道的距离成绩。（H5测试版）",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261023-zenanythin-aion-2-pets",
+      "edition": "game",
+      "addedAt": "2026-10-23",
+      "maker": "Zen Nin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zenanythin"
+        }
+      ],
+      "name": "AION 2 Pets",
+      "url": "https://aion2pets.app/",
+      "status": "online",
+      "description": "AION 2 宠物收集规划工具，免费免登录，查阅宠物与已记录地图点位，分别估算重复灵魂的 Insight 成本和收集 EXP；手动清单保存在浏览器，支持 JSON 备份与校验合并，地图覆盖不完整，非官方项目",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "生活服务",
         "免费工具"
       ],
       "source": "upstream"
@@ -5665,31 +5959,6 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261008-udan520-easegen",
-      "edition": "main",
-      "addedAt": "2026-10-08",
-      "maker": "udan520",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/udan520"
-        }
-      ],
-      "name": "EaseGen",
-      "url": "https://easegen.ai/",
-      "status": "online",
-      "description": "AI 图片与视频创作平台，把 Seedance 2.5、Kling 3、Veo 3.1、Wan 3.0、GPT Image 2.5、Seedream 5.0、Nano Banana 2 等数十个图像与视频模型收在同一工作区切换，支持参考图、首尾帧与参考视频音频，另内置广告图、海报、商品图等成品模板；提供免费额度、订阅与积分包",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "图片工具",
-        "音视频",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
       "id": "main-20261008-icloudza-caplo",
       "edition": "main",
       "addedAt": "2026-10-08",
@@ -10672,7 +10941,7 @@
       "name": "慧报价",
       "url": "https://www.swqifu.com/",
       "status": "online",
-      "description": "AI 外贸报价工具，产品库一次建好，选品自动按 EXW/FOB/CFR/CIF/DDP 计价（利润率按售价、保险 110% 加成的实务口径），30 秒生成中英双语报价单 PDF，附免费无需注册的报价计算器",
+      "description": "AI 外贸报价工具，产品库一次建好，选品自动按 EXW/FOB/CFR/CIF/DDP 计价（成本加价率、保险 110% 加成的实务口径），30 秒生成中英双语报价单 PDF，附免费无需注册的报价计算器（完整报价与存档需登录）",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -12319,7 +12588,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261023-0",
+      "id": "custom-20261024-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48239,6 +48508,131 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250306-crischr-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-03-06",
+      "maker": "crischr",
+      "city": "成都",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CrisChr"
+        },
+        {
+          "label": "博客",
+          "url": "https://red666.vercel.app/"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250306-crischr-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-03-06",
+      "maker": "crischr",
+      "city": "成都",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CrisChr"
+        },
+        {
+          "label": "博客",
+          "url": "https://red666.vercel.app/"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250306-crischr-独立星球",
+      "edition": "main",
+      "addedAt": "2025-03-06",
+      "maker": "crischr",
+      "city": "成都",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CrisChr"
+        },
+        {
+          "label": "博客",
+          "url": "https://red666.vercel.app/"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250306-crischr-独立观察",
+      "edition": "main",
+      "addedAt": "2025-03-06",
+      "maker": "crischr",
+      "city": "成都",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CrisChr"
+        },
+        {
+          "label": "博客",
+          "url": "https://red666.vercel.app/"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "game-20250305-dragonsweepers-dragonsweeper",
       "edition": "game",
       "addedAt": "2025-03-05",
@@ -48438,115 +48832,6 @@
       "extraLinks": [],
       "categories": [
         "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250226-shensven-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-02-26",
-      "maker": "Sven",
-      "city": "昆明",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/shensven"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250226-shensven-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-02-26",
-      "maker": "Sven",
-      "city": "昆明",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/shensven"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250226-shensven-独立星球",
-      "edition": "main",
-      "addedAt": "2025-02-26",
-      "maker": "Sven",
-      "city": "昆明",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/shensven"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250226-shensven-独立观察",
-      "edition": "main",
-      "addedAt": "2025-02-26",
-      "maker": "Sven",
-      "city": "昆明",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/shensven"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
