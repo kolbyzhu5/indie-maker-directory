@@ -1,10 +1,28 @@
-# AI 独立制造所 · 全部产品清单（3327）
+# AI 独立制造所 · 全部产品清单（3336）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-24（北京时间）
+> 更新时间：2026-10-25（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2776）
+## 大众产品（2783）
+
+- **[MCLQE](https://github.com/yezi-fak/MCLQE)** — 开发者 椰子（潍坊） · 开发工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/mclqe.html)
+  开源的 Minecraft 启动器，自动下载游戏与 Java、支持微软正版登录和离线账号、一键安装 Fabric/Forge 与 Modrinth 模组，Windows 解压即用
+
+- **[seedance 3.0](https://seedance3.si/)** — 开发者 aivideolab12 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/seedance-3-0.html)
+  图片、视频、音频混合输入合成一条视频，并可只替换片中商品或人物、保留原运镜；可切换 Seedance、Kling、Veo 等模型；第三方站点，非字节跳动官方产品
+
+- **[AONIR](https://aonir.com/?utm_source=cnindie&utm_medium=github)** — 开发者 AONIR · AI 工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/aonir.html)
+  ChatGPT 会员充值站，微信支付自助下单，直充到你自己的账号，通常 1–5 分钟到账；Plus ¥168/月，Pro 100、Pro 200 也可自助，无法交付经核实后退款
+
+- **[PalaPili](https://palapili.com/)** — 开发者 Shawn（北京） · AI 工具 / 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/palapili.html)
+  AI 图像和视频创作工具网站，支持快速生成图片、视频，无限画布创作，持续迭代版本树创作
+
+- **[AI Image Combiner](https://ai-image-combiner.com/)** — 开发者 chenaiqifei · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/ai-image-combiner.html)
+  上传 2–5 张照片，用文字把人物、商品或背景组合到同一场景；有同框、家庭合照和商品场景提示词模板，首次免注册免费试用一次，下载无本站水印，之后登录继续使用，更多额度付费
+
+- **[漫匣 Manxia](https://github.com/LexianLix/manxia)** — 开发者 LexianLix · 浏览器扩展 / 教育学习 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/manxia.html)
+  注重书籍质感的 Flutter 漫画阅读器，3D 书架与插件阅读室，支持本地导入和离线阅读
 
 - **[Companest 伴境](https://github.com/Owen-Teng/companest)** — 开发者 Owen Teng · 滕新阳 — 与 Robinson AI Lab 共建 · AI 工具 / 开发工具 · 开发中 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/companest.html)
   Windows AI 工作伙伴应用，通过房间、角色和事项板组织邮件上下文、回复草稿与后续变化；当前可查看虚构数据演示，安装包与源码尚未公开
@@ -144,8 +162,8 @@
 - **[Speaker](https://speaker.moonunder.app)** — 开发者 Simon · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/speaker.html)
   macOS 原生语音输入工具，BYOK，语音识别可选豆包、OpenAI、千问，macOS 26 及以上可用 Apple 离线识别，不需要 Key；支持多种文字整理模式，也可以自定义；无账号无服务端，会话记录和个人词库只存在本地；免费开源
 
-- **[Whispek](https://whispek.com)** — 开发者 kevinxding · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/whispek.html)
-  AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS、Linux（.deb 和 AppImage），有免费额度，每 7 天刷新
+- **[SayDart](https://saydart.com)** — 开发者 kevinxding · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/saydart.html)
+  AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS，有免费额度，每 7 天刷新
 
 - **[ToolKnit](https://toolknit.com/)** — 开发者 董子航 · 图片工具 / 音视频 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-19 · [详情页](https://indiemaker.cn/p/toolknit.html)
   免费、免注册的 PDF、图片、音视频和文本在线工具箱，支持中英文切换；PDF 转图片、图片裁剪等功能在浏览器本地完成，部分工具设有使用额度或文件大小上限
@@ -542,6 +560,9 @@
 
 - **[CoverCay](https://cover.caydock.com)** — 开发者 Cayden（上海） · 音视频 / 免费工具 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/covercay.html)
   音乐专辑封面搜索下载（免费），基于 iTunes 数据检索专辑封面、歌曲封面与音乐视频封面，支持多国家地区与多种尺寸一键下载或复制
+
+- **[FlowCay](https://flowcay.com)** — 开发者 Cayden（上海） · AI 工具 / 效率工具 · 已上线 · 收录 2026-10-09 · [详情页](https://indiemaker.cn/p/flowcay.html)
+  电商 AI 工具导航，精选电商场景的 AI 工具、工作流、Skills 与 MCP，帮卖家和 Agent 找对工具
 
 - **[公众号发现](https://wechat.aim888888.xyz/wechat)** — 开发者 stia-mora · AI 工具 / 教育学习 / 生活服务 / 免费工具 · 已上线 · 收录 2026-10-08 · [详情页](https://indiemaker.cn/p/project-006f85.html)
   微信公众号目录网站，可按领域、账号类型、近 30 天更新频率筛号，每个号附带 AI 内容画像与带原文引用的评分，文章页可跳回微信阅读原文；精选分好类的公众号约 180 个，覆盖科技、财经、生活、教育、媒体与时政 5 个领域，另有约 9900 个仅收录基础资料的信息源，中文界面、免费、浏览无需注册
@@ -5094,6 +5115,18 @@
 - **[OpenTerm](https://apps.apple.com/cn/app/openterm/id1481149807)** — 开发者 7SaiWen（成都） · 开发工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/openterm.html)
   终端模拟器, 口袋里的 Linux
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 7SaiWen（成都） · AI 工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/ai-9026ec.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 7SaiWen（成都） · 开发工具 / 免费工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/project-711e9c.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 7SaiWen（成都） · 开发工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/project-c1446d.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 7SaiWen（成都） · 浏览器扩展 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/project-c148ed.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[SlideBrowser](https://deepthinkapps.com/zh/apps/slide-browser/)** — 开发者 超杰（河南） · 浏览器扩展 · 已停止 · 收录 2025-03-12 · [详情页](https://indiemaker.cn/p/slidebrowser.html)
   轻量的滑动浏览器，给你不一样的浏览器交互体验
 
@@ -5117,18 +5150,6 @@
 
 - **[Formulas AI](https://formulas-ai.vercel.app/)** — 开发者 crischr（成都） · AI 工具 / 文档办公 · 已上线 · 收录 2025-03-06 · [详情页](https://indiemaker.cn/p/formulas-ai.html)
   帮助用户生成 Excel 公式，基于 DeepSeek-V3 的 AI 工具产品（需要用户自己填入key）
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 crischr（成都） · AI 工具 · 已上线 · 收录 2025-03-06 · [详情页](https://indiemaker.cn/p/ai-e05f46.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 crischr（成都） · 开发工具 / 免费工具 · 已上线 · 收录 2025-03-06 · [详情页](https://indiemaker.cn/p/project-035976.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 crischr（成都） · 开发工具 · 已上线 · 收录 2025-03-06 · [详情页](https://indiemaker.cn/p/project-dc84ae.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 crischr（成都） · 浏览器扩展 · 已上线 · 收录 2025-03-06 · [详情页](https://indiemaker.cn/p/project-dc892e.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[mouse-click](https://github.com/zhaoxiaozhao07/mouse-click)** — 开发者 zhaoxiaozhao（杭州） · 开发工具 · 已上线 · 收录 2025-02-28 · [详情页](https://indiemaker.cn/p/mouse-click.html)
   带后台模式的 Windows 自动连点器
@@ -8334,7 +8355,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（396）
+## 程序员版（397）
+
+- **[SeedRouter](https://seedrouter.ai/)** — 开发者 reAPI · 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/seedrouter.html)
+  图像、视频、语言、音频模型聚合到一个 API Key，按次计费，失败请求不计费
 
 - **[token-pilot](https://github.com/anthonyhann/token-pilot)** — 开发者 anthonyhann · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/token-pilot.html)
   AI 工具本地账单与预算控制器，一条命令汇总 Claude Code / Codex / Kimi Code 等用量与花费，菜单栏常驻今日费用与预算占比，支持超支通知与打转检测；国产模型自动归一，只读本地日志、数据不出本机 — macOS / Windows
@@ -9524,7 +9548,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（155）
+## 独立游戏（156）
+
+- **[First Person Boxing](https://firstpersonboxing.net/)** — 开发者 liujd0326 · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/first-person-boxing.html)
+  免费 3D 第一人称拳击网页游戏，从自己的拳套后出拳，可滑步反击，含训练、快速对战和五人生涯，无需下载或注册
 
 - **[Crazy Cattle 3D](https://crazycattle3d.com/?utm_source=chineseindie.com&utm_medium=referral&utm_campaign=directory)** — 开发者 liujd0326 · 开发工具 / 浏览器扩展 / 生活服务 / 免费工具 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/crazy-cattle-3d.html)
   非官方粉丝站，在浏览器里免费玩这款物理碰碰羊大逃杀，不用注册、不用下载；用坡度和时机把别的羊撞出地图，尽量活到最后。页面上有新版 Sheep Bonk Arena 和经典版，地图包括爱尔兰、冰岛和新西兰，另有 Windows、macOS、Linux 下载和操作说明。不是原作的官方网站，和原作者没有关系

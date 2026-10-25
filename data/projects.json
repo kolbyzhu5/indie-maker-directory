@@ -4,29 +4,227 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-24T00:42:15.565Z",
+  "generatedAt": "2026-10-25T00:20:11.987Z",
   "counts": {
-    "total": 3327,
-    "main": 2776,
-    "programmer": 396,
-    "game": 155,
+    "total": 3336,
+    "main": 2783,
+    "programmer": 397,
+    "game": 156,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1096,
-    "开发工具": 651,
-    "图片工具": 607,
-    "音视频": 563,
+    "开发工具": 654,
+    "游戏娱乐": 189,
+    "免费工具": 656,
+    "图片工具": 611,
+    "音视频": 566,
+    "AI 工具": 1100,
+    "浏览器扩展": 352,
+    "教育学习": 190,
     "文档办公": 319,
-    "浏览器扩展": 351,
-    "免费工具": 653,
-    "游戏娱乐": 187,
     "生活服务": 105,
-    "效率工具": 475,
-    "教育学习": 189,
+    "效率工具": 476,
     "社交社区": 122
   },
   "projects": [
+    {
+      "id": "main-20261024-yezi-fak-mclqe",
+      "edition": "main",
+      "addedAt": "2026-10-24",
+      "maker": "椰子",
+      "city": "潍坊",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yezi-fak"
+        }
+      ],
+      "name": "MCLQE",
+      "url": "https://github.com/yezi-fak/MCLQE",
+      "status": "online",
+      "description": "开源的 Minecraft 启动器，自动下载游戏与 Java、支持微软正版登录和离线账号、一键安装 Fabric/Forge 与 Modrinth 模组，Windows 解压即用",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261024-aivideolab12-seedance-3-0",
+      "edition": "main",
+      "addedAt": "2026-10-24",
+      "maker": "aivideolab12",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/aivideolab12"
+        }
+      ],
+      "name": "seedance 3.0",
+      "url": "https://seedance3.si/",
+      "status": "online",
+      "description": "图片、视频、音频混合输入合成一条视频，并可只替换片中商品或人物、保留原运镜；可切换 Seedance、Kling、Veo 等模型；第三方站点，非字节跳动官方产品",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261024-avarce-aonir",
+      "edition": "main",
+      "addedAt": "2026-10-24",
+      "maker": "AONIR",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Avarce"
+        }
+      ],
+      "name": "AONIR",
+      "url": "https://aonir.com/?utm_source=cnindie&utm_medium=github",
+      "status": "online",
+      "description": "ChatGPT 会员充值站，微信支付自助下单，直充到你自己的账号，通常 1–5 分钟到账；Plus ¥168/月，Pro 100、Pro 200 也可自助，无法交付经核实后退款",
+      "extraLinks": [
+        {
+          "label": "代充怎么选：安全与封号说明",
+          "url": "https://github.com/Avarce/gpt-daichong-guide"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261024-shawnhacks-palapili",
+      "edition": "main",
+      "addedAt": "2026-10-24",
+      "maker": "Shawn",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ShawnHacks"
+        }
+      ],
+      "name": "PalaPili",
+      "url": "https://palapili.com/",
+      "status": "online",
+      "description": "AI 图像和视频创作工具网站，支持快速生成图片、视频，无限画布创作，持续迭代版本树创作",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://palapili.com/studio"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261024-chenaiqifei-ai-image-combiner",
+      "edition": "main",
+      "addedAt": "2026-10-24",
+      "maker": "chenaiqifei",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenaiqifei"
+        }
+      ],
+      "name": "AI Image Combiner",
+      "url": "https://ai-image-combiner.com/",
+      "status": "online",
+      "description": "上传 2–5 张照片，用文字把人物、商品或背景组合到同一场景；有同框、家庭合照和商品场景提示词模板，首次免注册免费试用一次，下载无本站水印，之后登录继续使用，更多额度付费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261024-lexianlix-漫匣-manxia",
+      "edition": "main",
+      "addedAt": "2026-10-24",
+      "maker": "LexianLix",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/LexianLix"
+        }
+      ],
+      "name": "漫匣 Manxia",
+      "url": "https://github.com/LexianLix/manxia",
+      "status": "online",
+      "description": "注重书籍质感的 Flutter 漫画阅读器，3D 书架与插件阅读室，支持本地导入和离线阅读",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261024-reapiai-seedrouter",
+      "edition": "programmer",
+      "addedAt": "2026-10-24",
+      "maker": "reAPI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/reAPIAI"
+        }
+      ],
+      "name": "SeedRouter",
+      "url": "https://seedrouter.ai/",
+      "status": "online",
+      "description": "图像、视频、语言、音频模型聚合到一个 API Key，按次计费，失败请求不计费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261024-liujd0326-first-person-boxing",
+      "edition": "game",
+      "addedAt": "2026-10-24",
+      "maker": "liujd0326",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/liujd0326"
+        }
+      ],
+      "name": "First Person Boxing",
+      "url": "https://firstpersonboxing.net/",
+      "status": "online",
+      "description": "免费 3D 第一人称拳击网页游戏，从自己的拳套后出拳，可滑步反击，含训练、快速对战和五人生涯，无需下载或注册",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261023-owen-teng-companest-伴境",
       "edition": "main",
@@ -1568,7 +1766,7 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261019-kevinxding-whispek",
+      "id": "main-20261019-kevinxding-saydart",
       "edition": "main",
       "addedAt": "2026-10-19",
       "maker": "kevinxding",
@@ -1577,16 +1775,12 @@
         {
           "label": "Github",
           "url": "https://github.com/kevinxding"
-        },
-        {
-          "label": "推特",
-          "url": "https://x.com/whispek_DingXu"
         }
       ],
-      "name": "Whispek",
-      "url": "https://whispek.com",
+      "name": "SayDart",
+      "url": "https://saydart.com",
       "status": "online",
-      "description": "AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS、Linux（.deb 和 AppImage），有免费额度，每 7 天刷新",
+      "description": "AI 语音输入桌面应用，按住一个键说话，松开后整理好的文字直接出现在几乎任何应用的光标处，能去掉「嗯」「啊」和重复，还能语音翻译；支持 Windows、macOS，有免费额度，每 7 天刷新",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -5848,6 +6042,33 @@
       "categories": [
         "音视频",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261009-caydock-flowcay",
+      "edition": "main",
+      "addedAt": "2026-10-09",
+      "maker": "Cayden",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/caydock"
+        },
+        {
+          "label": "博客",
+          "url": "https://caydock.com"
+        }
+      ],
+      "name": "FlowCay",
+      "url": "https://flowcay.com",
+      "status": "online",
+      "description": "电商 AI 工具导航，精选电商场景的 AI 工具、工作流、Skills 与 MCP，帮卖家和 Agent 找对工具",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具"
       ],
       "source": "upstream"
     },
@@ -12588,7 +12809,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261024-0",
+      "id": "custom-20261025-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48318,6 +48539,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250313-7saiwen-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-03-13",
+      "maker": "7SaiWen",
+      "city": "成都",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250313-7saiwen-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-03-13",
+      "maker": "7SaiWen",
+      "city": "成都",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250313-7saiwen-独立星球",
+      "edition": "main",
+      "addedAt": "2025-03-13",
+      "maker": "7SaiWen",
+      "city": "成都",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250313-7saiwen-独立观察",
+      "edition": "main",
+      "addedAt": "2025-03-13",
+      "maker": "7SaiWen",
+      "city": "成都",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250312-超杰-slidebrowser",
       "edition": "main",
       "addedAt": "2025-03-12",
@@ -48504,131 +48814,6 @@
       "categories": [
         "AI 工具",
         "文档办公"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250306-crischr-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-03-06",
-      "maker": "crischr",
-      "city": "成都",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/CrisChr"
-        },
-        {
-          "label": "博客",
-          "url": "https://red666.vercel.app/"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250306-crischr-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-03-06",
-      "maker": "crischr",
-      "city": "成都",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/CrisChr"
-        },
-        {
-          "label": "博客",
-          "url": "https://red666.vercel.app/"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250306-crischr-独立星球",
-      "edition": "main",
-      "addedAt": "2025-03-06",
-      "maker": "crischr",
-      "city": "成都",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/CrisChr"
-        },
-        {
-          "label": "博客",
-          "url": "https://red666.vercel.app/"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250306-crischr-独立观察",
-      "edition": "main",
-      "addedAt": "2025-03-06",
-      "maker": "crischr",
-      "city": "成都",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/CrisChr"
-        },
-        {
-          "label": "博客",
-          "url": "https://red666.vercel.app/"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
