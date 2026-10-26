@@ -1,10 +1,37 @@
-# AI 独立制造所 · 全部产品清单（3336）
+# AI 独立制造所 · 全部产品清单（3346）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-25（北京时间）
+> 更新时间：2026-10-26（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2783）
+## 大众产品（2792）
+
+- **[apkgo / apkgo cloud](https://apkgo.baici.tech)** — 开发者 KevinGong2013（上海） · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/apkgo-apkgo-cloud.html)
+  一次上传，并发发布到国内主流安卓应用商店，并支持鸿蒙与 iOS（App Store）上架；开源 CLI（PolyForm Noncommercial）：https://github.com/KevinGong2013/apkgo
+
+- **[ShotTide](https://shottide.com/)** — 开发者 Jianyu Chen · AI 工具 / 图片工具 / 音视频 / 社交社区 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/shottide.html)
+  AI 视频创作工作台，可规划和编辑分镜，生成图片与视频，添加中英文旁白和字幕并导出 MP4。支持中英文界面，适合产品展示、社交短视频和视觉故事
+
+- **[审美工程](https://leenlbma.github.io/aesthetic-engineering/)** — 开发者 LeenMa · AI 工具 / 教育学习 / 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/project-471b7d.html)
+  写给 AIGC 创作者与产品团队的 12 篇开源方法随笔，讨论审美判断怎样被描述、落实和检查，CC BY 4.0，附 llms.txt 方便交给 AI 阅读
+
+- **[Command Reopen](https://commandreopen.com/)** — 开发者 Feng · 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/command-reopen.html)
+  Mac 实用小工具，让原生 Cmd+Tab 切换时恢复最小化窗口，并在窗口全部关闭时重新打开窗口；无需辅助功能和录屏权限，14 天免费试用，$9.99 买断或 $5.99/年
+
+- **[Aitoword](https://aitoword.online/)** — 开发者 259007 · AI 工具 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/aitoword.html)
+  文档转换工具（免费），完全在浏览器本地运行，把 AI 回答、Markdown 文本或 .md / .txt 文件转成可编辑 Word，保留标题、表格和 LaTeX 公式，提供三套排版预设，无需注册登录
+
+- **[Time Overlay](https://timeoverlay.co/)** — 开发者 Yansoul · 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/time-overlay.html)
+  浏览器本地倒计时叠加层生成器，导出透明 PNG 序列或带 alpha 的 WebM，给 OBS、Premiere 和 DaVinci 用，无需上传视频、无需注册
+
+- **[VideoDance](https://videodance.co/)** — 开发者 Yansoul · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/videodance-b0ed42.html)
+  AI 视频和图片生成网站，用文字或参考图生成视频和图片，可选 Seedance、Kling、Veo 等模型
+
+- **[YouTube GIF Comments](https://youtubegifcomments.com/)** — 开发者 Yansoul · 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/youtube-gif-comments.html)
+  浏览器本地的视频转 GIF 和 GIF 压缩工具，附带 YouTube GIF 评论教程，无需注册、不上传文件
+
+- **[DoCube](https://docube.venglyph.com/)** — 开发者 杭州文旭互动科技 · 音视频 / 文档办公 / 教育学习 / 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/docube.html)
+  本地优先的个人知识库，把 PDF、EPUB、网页、Markdown 和视频收进同一库，阅读中完成标注、文档链接、全文搜索与间隔复习；支持 Mac / iPhone / iPad，免费最多 5 篇文档，Pro 一次性买断
 
 - **[MCLQE](https://github.com/yezi-fak/MCLQE)** — 开发者 椰子（潍坊） · 开发工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/mclqe.html)
   开源的 Minecraft 启动器，自动下载游戏与 Java、支持微软正版登录和离线账号、一键安装 Fabric/Forge 与 Modrinth 模组，Windows 解压即用
@@ -3123,7 +3150,7 @@
 - **[MakeTimestamp](https://maketimestamp.com)** — 开发者 reake（上海） · 效率工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-03-06 · [详情页](https://indiemaker.cn/p/maketimestamp.html)
   时间戳转换/计算工具箱（48+），浏览器本地处理，支持秒/毫秒/微秒/纳秒，UTC/本地切换。
 
-- **[Videodance](https://videodance.cc/)** — 开发者 cf12436（深圳） · AI 工具 / 音视频 · 已上线 · 收录 2026-03-06 · [详情页](https://indiemaker.cn/p/videodance.html)
+- **[Videodance](https://videodance.cc/)** — 开发者 cf12436（深圳） · AI 工具 / 音视频 · 已上线 · 收录 2026-03-06 · [详情页](https://indiemaker.cn/p/videodance-03b3e5.html)
   AI 视频生成器，基于 Seedance 2.0，提供原生多镜头叙事、音视频同步和 2K 影院级画质输出。无需任何剪辑经验，即可创作出人物形象一致、对话完美同步的专业电影级视频。
 
 - **[twittetize](https://twittetize.com/)** — 开发者 Albert-Weasker · AI 工具 / 效率工具 · 已上线 · 收录 2026-03-06 · [详情页](https://indiemaker.cn/p/twittetize.html)
@@ -5070,6 +5097,18 @@
 - **[Tool Hut](https://tool-hut.com/)** — 开发者 Duan · 效率工具 · 已停止 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/tool-hut.html)
   工具箱，内页支持文本 DIFF、JSON 序列化、时间戳转换等小工具，让天下没有难用的工具。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Duan · AI 工具 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/ai-85890e.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Duan · 开发工具 / 免费工具 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/project-69d6aa.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Duan · 开发工具 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/project-9896be.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Duan · 浏览器扩展 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/project-989b3e.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[FLUX AI ART](https://fluxaiart.ai/)** — 开发者 Ryan · AI 工具 / 图片工具 · 已上线 · 收录 2025-03-19 · [详情页](https://indiemaker.cn/p/flux-ai-art.html)
   基于 Flux 的图像生成网站
 
@@ -5114,18 +5153,6 @@
 
 - **[OpenTerm](https://apps.apple.com/cn/app/openterm/id1481149807)** — 开发者 7SaiWen（成都） · 开发工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/openterm.html)
   终端模拟器, 口袋里的 Linux
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 7SaiWen（成都） · AI 工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/ai-9026ec.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 7SaiWen（成都） · 开发工具 / 免费工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/project-711e9c.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 7SaiWen（成都） · 开发工具 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/project-c1446d.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 7SaiWen（成都） · 浏览器扩展 · 已上线 · 收录 2025-03-13 · [详情页](https://indiemaker.cn/p/project-c148ed.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[SlideBrowser](https://deepthinkapps.com/zh/apps/slide-browser/)** — 开发者 超杰（河南） · 浏览器扩展 · 已停止 · 收录 2025-03-12 · [详情页](https://indiemaker.cn/p/slidebrowser.html)
   轻量的滑动浏览器，给你不一样的浏览器交互体验
@@ -8357,6 +8384,9 @@
 
 ## 程序员版（397）
 
+- **[Qovia](https://qovia.ai/zh/)** — 开发者 Qovia · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/qovia.html)
+  中文社媒公开数据 API，一个 Key 拿到抖音、小红书、微博、B 站、快手、知乎、淘宝/京东评论等 20 多个平台的帖子、评论、达人资料和热榜，统一 JSON 格式；也可作为 MCP 接入 Claude、Cursor 等 AI 助手，空结果和失败不收费，新用户送 50 次试用
+
 - **[SeedRouter](https://seedrouter.ai/)** — 开发者 reAPI · 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/seedrouter.html)
   图像、视频、语言、音频模型聚合到一个 API Key，按次计费，失败请求不计费
 
@@ -9011,9 +9041,6 @@
 - **[CoderPlan](https://coderplan.ai)** — 开发者 AstroPixelian · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-06-06 · [详情页](https://indiemaker.cn/p/coderplan.html)
   LLM API 中转网关，OpenAI 兼容接口，一行配置接入 Claude Code / Codex CLI / Gemini CLI，新用户免费额度，按量付费，支持支付宝/微信
 
-- **[apkgo](https://github.com/KevinGong2013/apkgo)** — 开发者 KevinGong2013（上海） · 未分类 · 已上线 · 收录 2026-04-30 · [详情页](https://indiemaker.cn/p/apkgo.html)
-  Android APK 多渠道分发 CLI，一条命令并发上传到华为 / 小米 / OPPO / vivo / 荣耀 / 应用宝 / Google Play / Samsung / 蒲公英 / fir.im 等 10+ 应用市场，支持 Web GUI、Go 库调用与上传前后 Shell Hook
-
 - **[toprank](https://github.com/nowork-studio/toprank)** — 开发者 nowork-studio · AI 工具 / 文档办公 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-04-10 · [详情页](https://indiemaker.cn/p/toprank.html)
   开源（MIT）的 Claude Code 插件，提供 9 个 SEO 和 Google Ads 技能。连接 Google Search Console、PageSpeed Insights、Google Ads API，自动重写 meta 标签、生成 JSON-LD 结构化数据，并将修改直接推送到 WordPress/Strapi/Contentful/Ghost。107 stars
 
@@ -9548,7 +9575,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（156）
+## 独立游戏（157）
+
+- **[Choicer Voicer](https://choicervoicer.com/?utm_source=chineseindie.com&utm_medium=referral&utm_campaign=directory)** — 开发者 liujd0326 · 浏览器扩展 / 社交社区 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/choicer-voicer.html)
+  The Choicer Voicer 的第三方社区配音包资源站，提供 Voice Pack、Dub Pack 等素材检索、预览与原始来源链接，附浏览器本地 ZIP 校验和配音包制作工具
 
 - **[First Person Boxing](https://firstpersonboxing.net/)** — 开发者 liujd0326 · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/first-person-boxing.html)
   免费 3D 第一人称拳击网页游戏，从自己的拳套后出拳，可滑步反击，含训练、快速对战和五人生涯，无需下载或注册

@@ -13606,5 +13606,69 @@
  "main-20250313-7saiwen-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-10-25"
+ },
+ "main-20250320-duanduanhh-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-26"
+ },
+ "main-20261025-kevingong2013-apkgo-apkgo-cloud": {
+  "descEn": "Upload once and publish concurrently to domestic mainstream Android app stores, and support listing on Hongmeng and iOS (App Store); open source CLI (PolyForm Noncommercial): https://github.com/KevinGong2013/apkgo",
+  "at": "2026-10-26"
+ },
+ "main-20261025-cjianyu-shottide": {
+  "descEn": "The AI ​​video creation workbench can plan and edit storyboards, generate pictures and videos, add Chinese and English narrations and subtitles, and export MP4. Supports Chinese and English interfaces, suitable for product display, social short videos and visual stories",
+  "at": "2026-10-26"
+ },
+ "main-20261025-leenlbma-审美工程": {
+  "descEn": "12 open source method essays written to AIGC creators and product teams, discussing how aesthetic judgments are described, implemented and checked, CC BY 4.0, attached llms.txt for easy reading by AI",
+  "at": "2026-10-26"
+ },
+ "main-20261025-feng6611-command-reopen": {
+  "descEn": "A practical gadget for Mac that restores the minimized window when switching native Cmd+Tab and reopens the window when all windows are closed; no accessibility or screen recording permissions required, 14-day free trial, $9.99 purchase or $5.99/year",
+  "at": "2026-10-26"
+ },
+ "main-20261025-259007-aitoword": {
+  "descEn": "Document conversion tool (free), runs completely locally in the browser, converts AI answers, Markdown text or .md / .txt files into editable Word, retains titles, tables and LaTeX formulas, and provides three sets of formatting presets, no registration required.",
+  "at": "2026-10-26"
+ },
+ "main-20261025-yansoul-time-overlay": {
+  "descEn": "Browser-native countdown overlay generator, export transparent PNG sequences or WebM with alpha for use with OBS, Premiere and DaVinci, no video uploads, no registration required",
+  "at": "2026-10-26"
+ },
+ "main-20261025-yansoul-videodance": {
+  "descEn": "AI video and picture generation website, using text or reference pictures to generate videos and pictures, optional Seedance, Kling, Veo and other models",
+  "at": "2026-10-26"
+ },
+ "main-20261025-yansoul-youtube-gif-comments": {
+  "descEn": "Browser-native video to GIF and GIF compression tool, comes with YouTube GIF comment tutorial, no registration required, no file upload required",
+  "at": "2026-10-26"
+ },
+ "main-20261025-tripletre-docube": {
+  "descEn": "A local-first personal knowledge base that collects PDF, EPUB, web pages, Markdown and videos into the same library, and completes annotation, document linking, full-text search and interval review during reading; supports Mac / iPhone / iPad, up to 5 documents for free, Pro one-time purchase",
+  "at": "2026-10-26"
+ },
+ "programmer-20261025-qovia-qovia": {
+  "descEn": "Chinese social media public data API, with one key, you can get posts, comments, celebrity information and hot lists from more than 20 platforms such as Douyin, Xiaohongshu, Weibo, Bilibili, Kuaishou, Zhihu, Taobao/JD Reviews, etc., in a unified JSON format; it can also be used as an MCP to access AI assistants such as Claude and Cursor. There is no charge for empty results and failures, and 50 trials are given to new users",
+  "at": "2026-10-26"
+ },
+ "game-20261025-liujd0326-choicer-voicer": {
+  "descEn": "The Choicer Voicer's third-party community dubbing package resource site provides voice pack, dub pack and other material retrieval, preview and original source links, and comes with browser local ZIP verification and dubbing package production tools",
+  "at": "2026-10-26"
+ },
+ "custom-20261026-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-26"
+ },
+ "main-20250320-duanduanhh-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-26"
+ },
+ "main-20250320-duanduanhh-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-26"
+ },
+ "main-20250320-duanduanhh-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-26"
  }
 }

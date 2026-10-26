@@ -4,29 +4,311 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-25T00:20:11.987Z",
+  "generatedAt": "2026-10-26T00:23:36.618Z",
   "counts": {
-    "total": 3336,
-    "main": 2783,
+    "total": 3346,
+    "main": 2792,
     "programmer": 397,
-    "game": 156,
+    "game": 157,
     "custom": 1
   },
   "categoryCounts": {
-    "开发工具": 654,
+    "开发工具": 656,
+    "免费工具": 663,
+    "AI 工具": 1105,
+    "图片工具": 613,
+    "音视频": 571,
+    "社交社区": 124,
+    "教育学习": 192,
+    "文档办公": 321,
+    "浏览器扩展": 356,
     "游戏娱乐": 189,
-    "免费工具": 656,
-    "图片工具": 611,
-    "音视频": 566,
-    "AI 工具": 1100,
-    "浏览器扩展": 352,
-    "教育学习": 190,
-    "文档办公": 319,
     "生活服务": 105,
-    "效率工具": 476,
-    "社交社区": 122
+    "效率工具": 476
   },
   "projects": [
+    {
+      "id": "main-20261025-kevingong2013-apkgo-apkgo-cloud",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "KevinGong2013",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/KevinGong2013"
+        }
+      ],
+      "name": "apkgo / apkgo cloud",
+      "url": "https://apkgo.baici.tech",
+      "status": "online",
+      "description": "一次上传，并发发布到国内主流安卓应用商店，并支持鸿蒙与 iOS（App Store）上架；开源 CLI（PolyForm Noncommercial）：https://github.com/KevinGong2013/apkgo",
+      "extraLinks": [
+        {
+          "label": "上手指南",
+          "url": "https://apkgo.baici.tech/onboarding"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-cjianyu-shottide",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "Jianyu Chen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CJianYu"
+        }
+      ],
+      "name": "ShotTide",
+      "url": "https://shottide.com/",
+      "status": "online",
+      "description": "AI 视频创作工作台，可规划和编辑分镜，生成图片与视频，添加中英文旁白和字幕并导出 MP4。支持中英文界面，适合产品展示、社交短视频和视觉故事",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-leenlbma-审美工程",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "LeenMa",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/leenlbma"
+        }
+      ],
+      "name": "审美工程",
+      "url": "https://leenlbma.github.io/aesthetic-engineering/",
+      "status": "online",
+      "description": "写给 AIGC 创作者与产品团队的 12 篇开源方法随笔，讨论审美判断怎样被描述、落实和检查，CC BY 4.0，附 llms.txt 方便交给 AI 阅读",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/leenlbma/aesthetic-engineering"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-feng6611-command-reopen",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "Feng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Feng6611"
+        }
+      ],
+      "name": "Command Reopen",
+      "url": "https://commandreopen.com/",
+      "status": "online",
+      "description": "Mac 实用小工具，让原生 Cmd+Tab 切换时恢复最小化窗口，并在窗口全部关闭时重新打开窗口；无需辅助功能和录屏权限，14 天免费试用，$9.99 买断或 $5.99/年",
+      "extraLinks": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/us/app/command-reopen-fix-cmd-tab/id6757333924"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-259007-aitoword",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "259007",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/259007"
+        }
+      ],
+      "name": "Aitoword",
+      "url": "https://aitoword.online/",
+      "status": "online",
+      "description": "文档转换工具（免费），完全在浏览器本地运行，把 AI 回答、Markdown 文本或 .md / .txt 文件转成可编辑 Word，保留标题、表格和 LaTeX 公式，提供三套排版预设，无需注册登录",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-yansoul-time-overlay",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "Yansoul",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "name": "Time Overlay",
+      "url": "https://timeoverlay.co/",
+      "status": "online",
+      "description": "浏览器本地倒计时叠加层生成器，导出透明 PNG 序列或带 alpha 的 WebM，给 OBS、Premiere 和 DaVinci 用，无需上传视频、无需注册",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-yansoul-videodance",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "Yansoul",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "name": "VideoDance",
+      "url": "https://videodance.co/",
+      "status": "online",
+      "description": "AI 视频和图片生成网站，用文字或参考图生成视频和图片，可选 Seedance、Kling、Veo 等模型",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-yansoul-youtube-gif-comments",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "Yansoul",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yansoul"
+        }
+      ],
+      "name": "YouTube GIF Comments",
+      "url": "https://youtubegifcomments.com/",
+      "status": "online",
+      "description": "浏览器本地的视频转 GIF 和 GIF 压缩工具，附带 YouTube GIF 评论教程，无需注册、不上传文件",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261025-tripletre-docube",
+      "edition": "main",
+      "addedAt": "2026-10-25",
+      "maker": "杭州文旭互动科技",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/TripleTre"
+        }
+      ],
+      "name": "DoCube",
+      "url": "https://docube.venglyph.com/",
+      "status": "online",
+      "description": "本地优先的个人知识库，把 PDF、EPUB、网页、Markdown 和视频收进同一库，阅读中完成标注、文档链接、全文搜索与间隔复习；支持 Mac / iPhone / iPad，免费最多 5 篇文档，Pro 一次性买断",
+      "extraLinks": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/app/id6470183496"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "文档办公",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261025-qovia-qovia",
+      "edition": "programmer",
+      "addedAt": "2026-10-25",
+      "maker": "Qovia",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/qovia"
+        }
+      ],
+      "name": "Qovia",
+      "url": "https://qovia.ai/zh/",
+      "status": "online",
+      "description": "中文社媒公开数据 API，一个 Key 拿到抖音、小红书、微博、B 站、快手、知乎、淘宝/京东评论等 20 多个平台的帖子、评论、达人资料和热榜，统一 JSON 格式；也可作为 MCP 接入 Claude、Cursor 等 AI 助手，空结果和失败不收费，新用户送 50 次试用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261025-liujd0326-choicer-voicer",
+      "edition": "game",
+      "addedAt": "2026-10-25",
+      "maker": "liujd0326",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/liujd0326"
+        }
+      ],
+      "name": "Choicer Voicer",
+      "url": "https://choicervoicer.com/?utm_source=chineseindie.com&utm_medium=referral&utm_campaign=directory",
+      "status": "online",
+      "description": "The Choicer Voicer 的第三方社区配音包资源站，提供 Voice Pack、Dub Pack 等素材检索、预览与原始来源链接，附浏览器本地 ZIP 校验和配音包制作工具",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261024-yezi-fak-mclqe",
       "edition": "main",
@@ -12809,7 +13091,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261025-0",
+      "id": "custom-20261026-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -28461,26 +28743,6 @@
         "AI 工具",
         "音视频"
       ],
-      "source": "upstream"
-    },
-    {
-      "id": "programmer-20260430-kevingong2013-apkgo",
-      "edition": "programmer",
-      "addedAt": "2026-04-30",
-      "maker": "KevinGong2013",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/KevinGong2013"
-        }
-      ],
-      "name": "apkgo",
-      "url": "https://github.com/KevinGong2013/apkgo",
-      "status": "online",
-      "description": "Android APK 多渠道分发 CLI，一条命令并发上传到华为 / 小米 / OPPO / vivo / 荣耀 / 应用宝 / Google Play / Samsung / 蒲公英 / fir.im 等 10+ 应用市场，支持 Web GUI、Go 库调用与上传前后 Shell Hook",
-      "extraLinks": [],
-      "categories": [],
       "source": "upstream"
     },
     {
@@ -48191,6 +48453,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250320-duanduanhh-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-03-20",
+      "maker": "Duan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/duanduanhh"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250320-duanduanhh-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-03-20",
+      "maker": "Duan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/duanduanhh"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250320-duanduanhh-独立星球",
+      "edition": "main",
+      "addedAt": "2025-03-20",
+      "maker": "Duan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/duanduanhh"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250320-duanduanhh-独立观察",
+      "edition": "main",
+      "addedAt": "2025-03-20",
+      "maker": "Duan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/duanduanhh"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250319-ryan10yu-flux-ai-art",
       "edition": "main",
       "addedAt": "2025-03-19",
@@ -48535,95 +48906,6 @@
       "extraLinks": [],
       "categories": [
         "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250313-7saiwen-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-03-13",
-      "maker": "7SaiWen",
-      "city": "成都",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250313-7saiwen-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-03-13",
-      "maker": "7SaiWen",
-      "city": "成都",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250313-7saiwen-独立星球",
-      "edition": "main",
-      "addedAt": "2025-03-13",
-      "maker": "7SaiWen",
-      "city": "成都",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250313-7saiwen-独立观察",
-      "edition": "main",
-      "addedAt": "2025-03-13",
-      "maker": "7SaiWen",
-      "city": "成都",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
