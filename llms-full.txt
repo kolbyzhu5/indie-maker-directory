@@ -1,10 +1,37 @@
-# AI 独立制造所 · 全部产品清单（3346）
+# AI 独立制造所 · 全部产品清单（3358）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-26（北京时间）
+> 更新时间：2026-10-27（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2792）
+## 大众产品（2798）
+
+- **[Space Simulator Online](https://spacesimulator.online/)** — 开发者 Run Cheng · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/space-simulator-online.html)
+  浏览器 3D 太阳系与太空探索模拟器，基于 NASA/JPL 真实星历与原生 WebGL2/WebGPU 渲染 6,000+ 系外行星、TESS 凌星光变曲线实验室、N 体星系碰撞与 110 个梅西耶深空天体，支持中英等 10 种语言，免费免安装无需注册
+
+- **[ReelMorph](https://reelmorph.app/)** — 开发者 Miracle · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/reelmorph.html)
+  面向内容创作者及普通用户的 AI 照片转视频工具，上传照片并描述想要的动态效果，或选择预设特效，用自己的照片创作热门同款视频
+
+- **[CarWrapDesign](https://carwrapdesign.app/)** — 开发者 Miracle · AI 工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/carwrapdesign.html)
+  帮助车主和汽车爱好者将车衣创意转化为可视化方案，选择支持车型版本，使用免费的浏览器编辑器或 AI 生成器创作图案，在 3D 车辆上比较五种表面效果，并保存、分享、发布或下载设计成果
+
+- **[YIX](https://yix.ai)** — 开发者 Jiguang · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/yix.html)
+  AI 图像与视频创作网站，在同一工作台完成图像生成、视频生成、修图、老照片修复和商品视觉制作；生成按积分付费，提供免费提示词工具，注册不赠送积分
+
+- **[Wave Radar](https://waveradar.us)** — 开发者 hankok · 浏览器扩展 / 社交社区 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/wave-radar.html)
+  美股、A股、港股研究工具，全市场扫描等浪/斐波那契扩展与缠论买卖点，附期权 Gamma 敞口、合理估值、13F 和社区恐惧贪婪指数；免费账号可用全市场筛选器和任意标的的等浪/缠论图
+
+- **[Ideoy](https://ideoy.ai)** — 开发者 zhangwenhao66 · AI 工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/ideoy.html)
+  用一张自拍重制本周热门梗视频模板，AI 生成竖屏短视频；免费增值，仅限成年人，输出内容标注 AI 生成
+
+- **[关津](https://guanjin.app/)** — 开发者 关津 · 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/project-b5b762.html)
+  外贸单证工具站，报关单 PDF 转 Excel、装柜计算、发票装箱单生成、单据核对等 15 个工具，浏览器本地处理，免费无需注册
+
+- **[安星纪工具站](https://anxingjilab.com/)** — 开发者 重庆安星纪科技有限公司 · 图片工具 / 文档办公 / 效率工具 / 开发工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/project-15928f.html)
+  在线处理图片、按 Excel 清单批量改名和核对文件是否收齐；另提供 Windows 截图粘贴存图、剪贴板日记及操作手册生成工具，在线功能需登录开通会员，桌面工具提供 3 天试用、单款 10 元激活
+
+- **[Quick Image Kit](https://quickimagekit.com)** — 开发者 刘峰 · 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/quick-image-kit.html)
+  免费图片处理工具，把图片压缩到指定 KB、裁剪、转换格式，支持 JPG/PNG/WebP，全部在浏览器本地处理，不上传、无需注册
 
 - **[apkgo / apkgo cloud](https://apkgo.baici.tech)** — 开发者 KevinGong2013（上海） · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/apkgo-apkgo-cloud.html)
   一次上传，并发发布到国内主流安卓应用商店，并支持鸿蒙与 iOS（App Store）上架；开源 CLI（PolyForm Noncommercial）：https://github.com/KevinGong2013/apkgo
@@ -38,9 +65,6 @@
 
 - **[seedance 3.0](https://seedance3.si/)** — 开发者 aivideolab12 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/seedance-3-0.html)
   图片、视频、音频混合输入合成一条视频，并可只替换片中商品或人物、保留原运镜；可切换 Seedance、Kling、Veo 等模型；第三方站点，非字节跳动官方产品
-
-- **[AONIR](https://aonir.com/?utm_source=cnindie&utm_medium=github)** — 开发者 AONIR · AI 工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/aonir.html)
-  ChatGPT 会员充值站，微信支付自助下单，直充到你自己的账号，通常 1–5 分钟到账；Plus ¥168/月，Pro 100、Pro 200 也可自助，无法交付经核实后退款
 
 - **[PalaPili](https://palapili.com/)** — 开发者 Shawn（北京） · AI 工具 / 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/palapili.html)
   AI 图像和视频创作工具网站，支持快速生成图片、视频，无限画布创作，持续迭代版本树创作
@@ -80,9 +104,6 @@
 
 - **[巨浪 AI](https://jvlangai.com/)** — 开发者 2EU55 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/ai-8b0f29.html)
   AI 模型/API 报价查询网站（免费），无需登录，可按模型查服务商报价、计费单位和原始来源，区分账户余额与实际费用
-
-- **[xsub.ai](https://xsub.ai)** — 开发者 小李哥 · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/xsub-ai.html)
-  Grok 会员代充，在官方结账页开通到你自己的账号，可开发票对公报销，掉订阅质保
 
 - **[趣站博物馆](https://sitopia.youquhome.com/)** — 开发者 Wenxi闻西 · 游戏娱乐 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/project-7997ca.html)
   英文 Sitopia 取自复合词 Site+Utopia，意为网站乌托邦，在浪漫温馨的游戏世界里沉浸式浏览趣站
@@ -2084,9 +2105,6 @@
 
 - **[HN 每日精选](https://pageslabs.com/zh)** — 开发者 zxcHolmes · 未分类 · 已上线 · 收录 2026-07-06 · [详情页](https://indiemaker.cn/p/hn.html)
   每日更新 Hacker News 热门话题和讨论，支持多语言
-
-- **[GPTGeminiGrok.AI](https://trygrokai.asia/list/#/home)** — 开发者 xianyu110 · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-06 · [详情页](https://indiemaker.cn/p/gptgeminigrok-ai.html)
-  Grok / SuperGrok 为主的 AI 模型服务入口，同时提供 GPTPlus、GeminiPro、ClaudeProMax 账号及 API 中转
 
 - **[Passport Size Photo](https://passportsizephoto.net)** — 开发者 Felix · 图片工具 · 已上线 · 收录 2026-07-06 · [详情页](https://indiemaker.cn/p/passport-size-photo.html)
   证件照制作工具，上传照片后选择国家/证件预设，预览尺寸、背景和人脸裁剪，下载数字文件或 4x6 打印排版
@@ -5070,6 +5088,18 @@
 - **[精准截图](https://puzzledu.com/shot)** — 开发者 zhushen · 未分类 · 已停止 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-f134cb.html)
   智能精准截图工具（更懂内容创作者）
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 zhushen · AI 工具 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/ai-a45ef6.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 zhushen · 开发工具 / 免费工具 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-38746e.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 zhushen · 开发工具 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-ec8159.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 zhushen · 浏览器扩展 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-ec85d9.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[imghunt](https://imghunt.com/)** — 开发者 Yasuomang（杭州） · 图片工具 / 浏览器扩展 · 已上线 · 收录 2025-03-27 · [详情页](https://indiemaker.cn/p/imghunt.html)
   图片下载浏览器扩展，能自动检测、批量下载并转换网页上的各类图片格式，并且支持自定义导出尺寸
 
@@ -5096,18 +5126,6 @@
 
 - **[Tool Hut](https://tool-hut.com/)** — 开发者 Duan · 效率工具 · 已停止 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/tool-hut.html)
   工具箱，内页支持文本 DIFF、JSON 序列化、时间戳转换等小工具，让天下没有难用的工具。
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Duan · AI 工具 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/ai-85890e.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Duan · 开发工具 / 免费工具 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/project-69d6aa.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Duan · 开发工具 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/project-9896be.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Duan · 浏览器扩展 · 已上线 · 收录 2025-03-20 · [详情页](https://indiemaker.cn/p/project-989b3e.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[FLUX AI ART](https://fluxaiart.ai/)** — 开发者 Ryan · AI 工具 / 图片工具 · 已上线 · 收录 2025-03-19 · [详情页](https://indiemaker.cn/p/flux-ai-art.html)
   基于 Flux 的图像生成网站
@@ -8382,7 +8400,16 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（397）
+## 程序员版（403）
+
+- **[GameSkill](https://gameskill.dev/)** — 开发者 Kajian（佛山） · AI 工具 / 图片工具 / 开发工具 / 游戏娱乐 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/gameskill.html)
+  收藏了上百个 game skill，让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具 - 覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-26 更新）。同一个仓库里的多个 skill 合并为一行，data/skills.json 里保留了全部 255 个 skill 的明细
+
+- **[invoice-archiver](https://github.com/cobalt-kite12/invoice-archiver)** — 开发者 cobalt-kite12 · 文档办公 / 开发工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/invoice-archiver.html)
+  邮件发票自动归档命令行工具，从 .eml 或只读 IMAP 取 PDF 发票（含诺诺网链接发票），按「项目-金额-月日」改名、按月归档、按发票号去重并记 CSV 台账；纯 Python 标准库 + pdftotext，MIT 协议
+
+- **[Twinkle Model](https://big-model.smart-agi.com)** — 开发者 Twinkle Model 站长 · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/twinkle-model.html)
+  AI API 中转站，基于 sub2api、官方订阅渠道，OpenAI 兼容，一个 Key 调 GPT/Claude/Grok/GLM/DeepSeek/Kimi，按倍率计费（GPT 0.1 倍起），支付宝 ¥1 起充可开票
 
 - **[Qovia](https://qovia.ai/zh/)** — 开发者 Qovia · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/qovia.html)
   中文社媒公开数据 API，一个 Key 拿到抖音、小红书、微博、B 站、快手、知乎、淘宝/京东评论等 20 多个平台的帖子、评论、达人资料和热榜，统一 JSON 格式；也可作为 MCP 接入 Claude、Cursor 等 AI 助手，空结果和失败不收费，新用户送 50 次试用
@@ -8390,11 +8417,17 @@
 - **[SeedRouter](https://seedrouter.ai/)** — 开发者 reAPI · 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/seedrouter.html)
   图像、视频、语言、音频模型聚合到一个 API Key，按次计费，失败请求不计费
 
+- **[AONIR](https://aonir.com/?utm_source=cnindie&utm_medium=github)** — 开发者 AONIR · AI 工具 · 已上线 · 收录 2026-10-24 · [详情页](https://indiemaker.cn/p/aonir.html)
+  ChatGPT 会员充值站，微信支付自助下单，直充到你自己的账号，通常 1–5 分钟到账；Plus ¥168/月，Pro 100、Pro 200 也可自助，无法交付经核实后退款
+
 - **[token-pilot](https://github.com/anthonyhann/token-pilot)** — 开发者 anthonyhann · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/token-pilot.html)
   AI 工具本地账单与预算控制器，一条命令汇总 Claude Code / Codex / Kimi Code 等用量与花费，菜单栏常驻今日费用与预算占比，支持超支通知与打转检测；国产模型自动归一，只读本地日志、数据不出本机 — macOS / Windows
 
 - **[连镜](https://canvas.vbing.site)** — 开发者 zaylora · AI 工具 / 图片工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/project-ab15f9.html)
   开源 AI 视觉创作工作台，用无限画布把文本、图片、视频、音频生成连成流程，内置 3D 导演台和画布 Agent，对接可灵、即梦、Vidu、Sora 等多家模型，支持 Docker 自部署
+
+- **[xsub.ai](https://xsub.ai)** — 开发者 小李哥 · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-23 · [详情页](https://indiemaker.cn/p/xsub-ai.html)
+  Grok 会员代充，在官方结账页开通到你自己的账号，可开发票对公报销，掉订阅质保
 
 - **[watchdog](https://github.com/chenlz22550/watchdog)** — 开发者 chenlz22550 · 开发工具 · 已上线 · 收录 2026-10-22 · [详情页](https://indiemaker.cn/p/watchdog.html)
   老 Windows 机器上的进程守护工具，被守护程序崩溃、假死或端口不通时自动重启并推送企业微信告警，支持 Win7 / Server 2008 R2，带图形界面，绿色运行，MIT 协议
@@ -9016,6 +9049,9 @@
 
 - **[BOSS直聘爬虫](https://github.com/eatmoreduck/boss-zhipin-scraper)** — 开发者 eatmoreduck（上海） · 浏览器扩展 · 已上线 · 收录 2026-07-06 · [详情页](https://indiemaker.cn/p/boss.html)
   基于 Chrome CDP 直连本地已登录浏览器的 BOSS直聘爬虫，绕过字体反爬拿到明文薪资，自动生成薪资分布、技能词频和求职材料优化提示词
+
+- **[GPTGeminiGrok.AI](https://trygrokai.asia/list/#/home)** — 开发者 xianyu110 · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-06 · [详情页](https://indiemaker.cn/p/gptgeminigrok-ai.html)
+  Grok / SuperGrok 为主的 AI 模型服务入口，同时提供 GPTPlus、GeminiPro、ClaudeProMax 账号及 API 中转
 
 - **[TeamoRouter](https://teamorouter.com)** — 开发者 blammectrappora · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-04 · [详情页](https://indiemaker.cn/p/teamorouter-3e06cb.html)
   AI 编程 API 智能路由网关，一个 Key 接入 Claude/GPT/Gemini/DeepSeek，国内可直连，微信/支付宝充值

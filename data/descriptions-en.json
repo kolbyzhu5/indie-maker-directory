@@ -13670,5 +13670,85 @@
  "main-20250320-duanduanhh-独立星球": {
   "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
   "at": "2026-10-26"
+ },
+ "main-20261026-wudao0123-space-simulator-online": {
+  "descEn": "Browser 3D solar system and space exploration simulator, based on NASA/JPL real ephemeris and native WebGL2/WebGPU rendering 6,000+ exoplanets, TESS transit light curve laboratory, N-body galaxy collision and 110 Messier deep sky objects, supports 10 languages ​​including Chinese and English, free installation and no registration required",
+  "at": "2026-10-27"
+ },
+ "main-20261026-zhoulianbo-reelmorph": {
+  "descEn": "AI photo-to-video tool for content creators and ordinary users. Upload photos and describe the dynamic effects you want, or choose preset special effects to create popular videos of the same style with your own photos.",
+  "at": "2026-10-27"
+ },
+ "main-20261026-zhoulianbo-carwrapdesign": {
+  "descEn": "Help car owners and car enthusiasts turn their car clothing ideas into visual solutions, choose supported model versions, create patterns using the free browser editor or AI generator, compare five surface effects on 3D vehicles, and save, share, publish or download the design",
+  "at": "2026-10-27"
+ },
+ "main-20261026-indielucas-yix": {
+  "descEn": "AI image and video creation website, complete image generation, video generation, photo editing, old photo restoration and product visual production on the same workbench; generation is paid by points, free prompt word tools are provided, and no points will be given for registration",
+  "at": "2026-10-27"
+ },
+ "main-20261026-hankok-wave-radar": {
+  "descEn": "Research tools for U.S. stocks, A-shares, and Hong Kong stocks, full market scan of equal wave/Fibonacci expansion and entanglement buying and selling points, with options Gamma exposure, reasonable valuation, 13F and community fear and greed index; free accounts can use full market filters and equal wave/entanglement charts of any target",
+  "at": "2026-10-27"
+ },
+ "main-20261026-zhangwenhao66-ideoy": {
+  "descEn": "Use a selfie to recreate this week's popular meme video template, AI generates a vertical screen short video; free value-added, only for adults, the output content is marked AI generated",
+  "at": "2026-10-27"
+ },
+ "main-20261026-bjianhang-关津": {
+  "descEn": "Foreign trade document tool station, 15 tools including customs declaration PDF to Excel, container loading calculation, invoice packing list generation, document verification, etc., local processing in the browser, free and no registration required",
+  "at": "2026-10-27"
+ },
+ "main-20261026-monsterjay-安星纪工具站": {
+  "descEn": "Process pictures online, batch rename according to the Excel list and check whether the files have been collected; it also provides tools for Windows screenshots and pasting, clipboard diary and operation manual generation tools. The online function requires logging in to activate the membership. The desktop tool provides a 3-day trial and activation for 10 yuan per item.",
+  "at": "2026-10-27"
+ },
+ "main-20261026-mainliufeng-quick-image-kit": {
+  "descEn": "Free image processing tool, compress images to specified KB, crop, convert formats, support JPG/PNG/WebP, all processed locally in the browser, no uploading, no registration required",
+  "at": "2026-10-27"
+ },
+ "programmer-20261026-gdfsdjj145-gameskill": {
+  "descEn": "It has collected hundreds of game skills, allowing AI programming agents such as Claude Code, Codex, Cursor, and Kimi to become more skilled in game skills (SKILL.md), MCP servers, and supporting tools - covering engines such as Unity / Unreal / Godot / Bevy / Roblox, as well as art assets, pixel styles, sound effects, testing, and reverse engineering. All links are checked for accessibility, stars and license come from the GitHub API (updated 2026-10-26). Multiple skills in the same warehouse are merged into one row, and the details of all 255 skills are retained in data/skills.json",
+  "at": "2026-10-27"
+ },
+ "programmer-20261026-cobalt-kite12-invoice-archiver": {
+  "descEn": "Email invoice automatic archiving command line tool, retrieve PDF invoices (including Nono.com linked invoices) from .eml or read-only IMAP, rename according to \"item-amount-month and day\", archive by month, deduplicate by invoice number and record CSV ledger; pure Python standard library + pdftotext, MIT protocol",
+  "at": "2026-10-27"
+ },
+ "programmer-20261026-twinkle-model-站长-twinkle-model": {
+  "descEn": "AI API transfer station, based on sub2api, official subscription channel, OpenAI compatible, one Key to adjust GPT/Claude/Grok/GLM/DeepSeek/Kimi, billed based on multiple rate (GPT 0.1 times starting), Alipay can be invoiced with a minimum charge of ¥1",
+  "at": "2026-10-27"
+ },
+ "programmer-20261024-avarce-aonir": {
+  "descEn": "ChatGPT member recharge station, self-service ordering with WeChat payment, direct recharge to your own account, usually arrives in 1-5 minutes; Plus ¥168/month, Pro 100, Pro 200 can also be self-service, refunds will be issued after verification if delivery is not possible",
+  "at": "2026-10-27"
+ },
+ "programmer-20261023-li13203140613-xsub-ai": {
+  "descEn": "Grok membership recharge, open your own account on the official checkout page, you can issue invoices and reimburse the public, and the subscription warranty is waived",
+  "at": "2026-10-27"
+ },
+ "custom-20261027-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-27"
+ },
+ "programmer-20260706-xianyu110-gptgeminigrok-ai": {
+  "descEn": "Grok/SuperGrok-based AI model service entrance, also providing GPTPlus, GeminiPro, ClaudeProMax accounts and API transfer",
+  "at": "2026-10-27"
+ },
+ "main-20250328-zhushen12580-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-27"
+ },
+ "main-20250328-zhushen12580-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-27"
+ },
+ "main-20250328-zhushen12580-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-27"
+ },
+ "main-20250328-zhushen12580-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-27"
  }
 }

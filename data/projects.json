@@ -4,29 +4,330 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-26T00:23:36.618Z",
+  "generatedAt": "2026-10-27T01:28:52.133Z",
   "counts": {
-    "total": 3346,
-    "main": 2792,
-    "programmer": 397,
+    "total": 3358,
+    "main": 2798,
+    "programmer": 403,
     "game": 157,
     "custom": 1
   },
   "categoryCounts": {
-    "开发工具": 656,
-    "免费工具": 663,
-    "AI 工具": 1105,
-    "图片工具": 613,
-    "音视频": 571,
-    "社交社区": 124,
+    "浏览器扩展": 361,
+    "免费工具": 670,
+    "AI 工具": 1111,
+    "图片工具": 618,
+    "音视频": 574,
+    "社交社区": 125,
+    "文档办公": 324,
+    "效率工具": 477,
+    "开发工具": 660,
+    "游戏娱乐": 190,
     "教育学习": 192,
-    "文档办公": 321,
-    "浏览器扩展": 356,
-    "游戏娱乐": 189,
-    "生活服务": 105,
-    "效率工具": 476
+    "生活服务": 105
   },
   "projects": [
+    {
+      "id": "main-20261026-wudao0123-space-simulator-online",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "Run Cheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WuDao0123"
+        },
+        {
+          "label": "博客",
+          "url": "https://dev.to/wudao0123"
+        }
+      ],
+      "name": "Space Simulator Online",
+      "url": "https://spacesimulator.online/",
+      "status": "online",
+      "description": "浏览器 3D 太阳系与太空探索模拟器，基于 NASA/JPL 真实星历与原生 WebGL2/WebGPU 渲染 6,000+ 系外行星、TESS 凌星光变曲线实验室、N 体星系碰撞与 110 个梅西耶深空天体，支持中英等 10 种语言，免费免安装无需注册",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://dev.to/wudao0123/building-a-browser-solar-system-explorer-with-nasa-data-and-raw-webgl2-5bkj"
+        }
+      ],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-zhoulianbo-reelmorph",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "Miracle",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "name": "ReelMorph",
+      "url": "https://reelmorph.app/",
+      "status": "online",
+      "description": "面向内容创作者及普通用户的 AI 照片转视频工具，上传照片并描述想要的动态效果，或选择预设特效，用自己的照片创作热门同款视频",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-zhoulianbo-carwrapdesign",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "Miracle",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "name": "CarWrapDesign",
+      "url": "https://carwrapdesign.app/",
+      "status": "online",
+      "description": "帮助车主和汽车爱好者将车衣创意转化为可视化方案，选择支持车型版本，使用免费的浏览器编辑器或 AI 生成器创作图案，在 3D 车辆上比较五种表面效果，并保存、分享、发布或下载设计成果",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-indielucas-yix",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "Jiguang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/indielucas"
+        }
+      ],
+      "name": "YIX",
+      "url": "https://yix.ai",
+      "status": "online",
+      "description": "AI 图像与视频创作网站，在同一工作台完成图像生成、视频生成、修图、老照片修复和商品视觉制作；生成按积分付费，提供免费提示词工具，注册不赠送积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-hankok-wave-radar",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "hankok",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hankok"
+        }
+      ],
+      "name": "Wave Radar",
+      "url": "https://waveradar.us",
+      "status": "online",
+      "description": "美股、A股、港股研究工具，全市场扫描等浪/斐波那契扩展与缠论买卖点，附期权 Gamma 敞口、合理估值、13F 和社区恐惧贪婪指数；免费账号可用全市场筛选器和任意标的的等浪/缠论图",
+      "extraLinks": [
+        {
+          "label": "每日复盘",
+          "url": "https://waveradar.us/zh/daily"
+        }
+      ],
+      "categories": [
+        "浏览器扩展",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-zhangwenhao66-ideoy",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "zhangwenhao66",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhangwenhao66"
+        }
+      ],
+      "name": "Ideoy",
+      "url": "https://ideoy.ai",
+      "status": "online",
+      "description": "用一张自拍重制本周热门梗视频模板，AI 生成竖屏短视频；免费增值，仅限成年人，输出内容标注 AI 生成",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-bjianhang-关津",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "关津",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bjianhang"
+        }
+      ],
+      "name": "关津",
+      "url": "https://guanjin.app/",
+      "status": "online",
+      "description": "外贸单证工具站，报关单 PDF 转 Excel、装柜计算、发票装箱单生成、单据核对等 15 个工具，浏览器本地处理，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-monsterjay-安星纪工具站",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "重庆安星纪科技有限公司",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MonsterJay"
+        }
+      ],
+      "name": "安星纪工具站",
+      "url": "https://anxingjilab.com/",
+      "status": "online",
+      "description": "在线处理图片、按 Excel 清单批量改名和核对文件是否收齐；另提供 Windows 截图粘贴存图、剪贴板日记及操作手册生成工具，在线功能需登录开通会员，桌面工具提供 3 天试用、单款 10 元激活",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261026-mainliufeng-quick-image-kit",
+      "edition": "main",
+      "addedAt": "2026-10-26",
+      "maker": "刘峰",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mainliufeng"
+        }
+      ],
+      "name": "Quick Image Kit",
+      "url": "https://quickimagekit.com",
+      "status": "online",
+      "description": "免费图片处理工具，把图片压缩到指定 KB、裁剪、转换格式，支持 JPG/PNG/WebP，全部在浏览器本地处理，不上传、无需注册",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261026-gdfsdjj145-gameskill",
+      "edition": "programmer",
+      "addedAt": "2026-10-26",
+      "maker": "Kajian",
+      "city": "佛山",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/gdfsdjj145"
+        },
+        {
+          "label": "博客",
+          "url": "https://kajian.dev/"
+        }
+      ],
+      "name": "GameSkill",
+      "url": "https://gameskill.dev/",
+      "status": "online",
+      "description": "收藏了上百个 game skill，让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具 - 覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-26 更新）。同一个仓库里的多个 skill 合并为一行，data/skills.json 里保留了全部 255 个 skill 的明细",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261026-cobalt-kite12-invoice-archiver",
+      "edition": "programmer",
+      "addedAt": "2026-10-26",
+      "maker": "cobalt-kite12",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cobalt-kite12"
+        }
+      ],
+      "name": "invoice-archiver",
+      "url": "https://github.com/cobalt-kite12/invoice-archiver",
+      "status": "online",
+      "description": "邮件发票自动归档命令行工具，从 .eml 或只读 IMAP 取 PDF 发票（含诺诺网链接发票），按「项目-金额-月日」改名、按月归档、按发票号去重并记 CSV 台账；纯 Python 标准库 + pdftotext，MIT 协议",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261026-twinkle-model-站长-twinkle-model",
+      "edition": "programmer",
+      "addedAt": "2026-10-26",
+      "maker": "Twinkle Model 站长",
+      "city": "",
+      "makerLinks": [],
+      "name": "Twinkle Model",
+      "url": "https://big-model.smart-agi.com",
+      "status": "online",
+      "description": "AI API 中转站，基于 sub2api、官方订阅渠道，OpenAI 兼容，一个 Key 调 GPT/Claude/Grok/GLM/DeepSeek/Kimi，按倍率计费（GPT 0.1 倍起），支付宝 ¥1 起充可开票",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261025-kevingong2013-apkgo-apkgo-cloud",
       "edition": "main",
@@ -357,33 +658,6 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261024-avarce-aonir",
-      "edition": "main",
-      "addedAt": "2026-10-24",
-      "maker": "AONIR",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Avarce"
-        }
-      ],
-      "name": "AONIR",
-      "url": "https://aonir.com/?utm_source=cnindie&utm_medium=github",
-      "status": "online",
-      "description": "ChatGPT 会员充值站，微信支付自助下单，直充到你自己的账号，通常 1–5 分钟到账；Plus ¥168/月，Pro 100、Pro 200 也可自助，无法交付经核实后退款",
-      "extraLinks": [
-        {
-          "label": "代充怎么选：安全与封号说明",
-          "url": "https://github.com/Avarce/gpt-daichong-guide"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
       "id": "main-20261024-shawnhacks-palapili",
       "edition": "main",
       "addedAt": "2026-10-24",
@@ -481,6 +755,33 @@
         "图片工具",
         "音视频",
         "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261024-avarce-aonir",
+      "edition": "programmer",
+      "addedAt": "2026-10-24",
+      "maker": "AONIR",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Avarce"
+        }
+      ],
+      "name": "AONIR",
+      "url": "https://aonir.com/?utm_source=cnindie&utm_medium=github",
+      "status": "online",
+      "description": "ChatGPT 会员充值站，微信支付自助下单，直充到你自己的账号，通常 1–5 分钟到账；Plus ¥168/月，Pro 100、Pro 200 也可自助，无法交付经核实后退款",
+      "extraLinks": [
+        {
+          "label": "代充怎么选：安全与封号说明",
+          "url": "https://github.com/Avarce/gpt-daichong-guide"
+        }
+      ],
+      "categories": [
+        "AI 工具"
       ],
       "source": "upstream"
     },
@@ -753,29 +1054,6 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261023-li13203140613-xsub-ai",
-      "edition": "main",
-      "addedAt": "2026-10-23",
-      "maker": "小李哥",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/li13203140613"
-        }
-      ],
-      "name": "xsub.ai",
-      "url": "https://xsub.ai",
-      "status": "online",
-      "description": "Grok 会员代充，在官方结账页开通到你自己的账号，可开发票对公报销，掉订阅质保",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
       "id": "main-20261023-wenxiuncle-趣站博物馆",
       "edition": "main",
       "addedAt": "2026-10-23",
@@ -879,6 +1157,29 @@
         "音视频",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261023-li13203140613-xsub-ai",
+      "edition": "programmer",
+      "addedAt": "2026-10-23",
+      "maker": "小李哥",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/li13203140613"
+        }
+      ],
+      "name": "xsub.ai",
+      "url": "https://xsub.ai",
+      "status": "online",
+      "description": "Grok 会员代充，在官方结账页开通到你自己的账号，可开发票对公报销，掉订阅质保",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
       ],
       "source": "upstream"
     },
@@ -13091,7 +13392,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261026-0",
+      "id": "custom-20261027-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -23890,29 +24191,6 @@
       "source": "upstream"
     },
     {
-      "id": "main-20260706-xianyu110-gptgeminigrok-ai",
-      "edition": "main",
-      "addedAt": "2026-07-06",
-      "maker": "xianyu110",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/xianyu110"
-        }
-      ],
-      "name": "GPTGeminiGrok.AI",
-      "url": "https://trygrokai.asia/list/#/home",
-      "status": "online",
-      "description": "Grok / SuperGrok 为主的 AI 模型服务入口，同时提供 GPTPlus、GeminiPro、ClaudeProMax 账号及 API 中转",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
       "id": "main-20260706-greek-zzf-passport-size-photo",
       "edition": "main",
       "addedAt": "2026-07-06",
@@ -23953,6 +24231,29 @@
       "extraLinks": [],
       "categories": [
         "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20260706-xianyu110-gptgeminigrok-ai",
+      "edition": "programmer",
+      "addedAt": "2026-07-06",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "GPTGeminiGrok.AI",
+      "url": "https://trygrokai.asia/list/#/home",
+      "status": "online",
+      "description": "Grok / SuperGrok 为主的 AI 模型服务入口，同时提供 GPTPlus、GeminiPro、ClaudeProMax 账号及 API 中转",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
       ],
       "source": "upstream"
     },
@@ -48229,6 +48530,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250328-zhushen12580-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-03-28",
+      "maker": "zhushen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhushen12580"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250328-zhushen12580-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-03-28",
+      "maker": "zhushen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhushen12580"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250328-zhushen12580-独立星球",
+      "edition": "main",
+      "addedAt": "2025-03-28",
+      "maker": "zhushen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhushen12580"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250328-zhushen12580-独立观察",
+      "edition": "main",
+      "addedAt": "2025-03-28",
+      "maker": "zhushen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhushen12580"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250327-yasuomang-imghunt",
       "edition": "main",
       "addedAt": "2025-03-27",
@@ -48449,115 +48859,6 @@
       "extraLinks": [],
       "categories": [
         "效率工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250320-duanduanhh-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-03-20",
-      "maker": "Duan",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/duanduanhh"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250320-duanduanhh-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-03-20",
-      "maker": "Duan",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/duanduanhh"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250320-duanduanhh-独立星球",
-      "edition": "main",
-      "addedAt": "2025-03-20",
-      "maker": "Duan",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/duanduanhh"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250320-duanduanhh-独立观察",
-      "edition": "main",
-      "addedAt": "2025-03-20",
-      "maker": "Duan",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/duanduanhh"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
