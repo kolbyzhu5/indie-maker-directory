@@ -1,10 +1,124 @@
-# AI 独立制造所 · 全部产品清单（3358）
+# AI 独立制造所 · 全部产品清单（3401）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-27（北京时间）
+> 更新时间：2026-10-28（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2798）
+## 大众产品（2836）
+
+- **[airapvideo](https://ai-rap-video.asia)** — 开发者 xianyu110 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/airapvideo.html)
+  人声 + 照片生成 9:16 对口型说唱短视频（独立工具，非官方）；一次性积分包 $8.88 起
+
+- **[Alors on Danse AI](https://tryalorsondanse.video)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/alors-on-danse-ai-982d55.html)
+  两张照片生成约 15 秒白棚双人舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Bad Times AI](https://badtimesai.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/bad-times-ai-9bf9af.html)
+  一张照片生成约 15 秒 9:16 争吵/对口型舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[bbywowguy AI](https://bbywowguyai.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/bbywowguy-ai.html)
+  一张照片生成约 10 秒 9:16 quince/concha 梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Burning Bridges AI](https://burningbridgesvideoai.com)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/burning-bridges-ai-390131.html)
+  1–2 张照片生成派对模板短视频，银杯与 Where she at 两套素材（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Cat in the Hat AI](https://catinthehat.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/cat-in-the-hat-ai.html)
+  一张照片生成约 10 秒 9:16 门铃万圣节恶搞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[ChatGPT Millionaire AI](https://chatgptmillionaire.cc)** — 开发者 xianyu110 · AI 工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/chatgpt-millionaire-ai.html)
+  一张自拍生成约 10–13 秒「Get a job.」梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[ChatGTT](https://chatgtt.cc)** — 开发者 xianyu110 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/chatgtt.html)
+  一张照片生成约 10–13 秒 9:16 信用卡拒付梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Cheba Man AI](https://chebamanai.cc)** — 开发者 xianyu110 · AI 工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/cheba-man-ai.html)
+  一张全身照生成约 15–17 秒红色舞台 Tecktonik 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Choosin Texas AI](https://choosintexas.run)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/choosin-texas-ai.html)
+  一张照片生成约 15 秒 9:16 emo 屋顶翻唱短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Chuttamalle Dance AI](https://trychuttamalle.app)** — 开发者 xianyu110 · AI 工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/chuttamalle-dance-ai.html)
+  授权人像生成约 15 秒 9:16 生成式舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[coralineai](https://coralineai.run)** — 开发者 xianyu110 · 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/coralineai.html)
+  一张自拍生成约 10 秒 9:16 纽扣眼人偶变身短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Corpse Bride AI](https://corpsebride.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/corpse-bride-ai.html)
+  一张照片生成约 10 秒 9:16 鬼新娘/新郎墓园共舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Devil Wears Prada AI](https://pradaai.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/devil-wears-prada-ai.html)
+  一张照片生成约 15 秒 9:16 街头造型焕新短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Flying Roadster AI](https://flyingcarai.cc)** — 开发者 xianyu110 · AI 工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/flying-roadster-ai.html)
+  一张自拍生成约 10–12 秒夜坡垂直喷气翻转短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Hotel Lobby AI](https://tryhotellobby.app)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/hotel-lobby-ai-fb7fa7.html)
+  两张照片生成约 15 秒酒店大堂双人短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Hug In Heaven AI](https://huginheaven.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/hug-in-heaven-ai.html)
+  两张照片生成约 12–15 秒天堂楼梯重逢纪念短片，18+（独立纪念工具，非官方）；一次性积分包 $8.88 起
+
+- **[JeanPhilAI](https://jeanphilai.cc)** — 开发者 xianyu110 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/jeanphilai.html)
+  一张照片生成约 12–15 秒金发波波头加小胡子短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Kiss Cam AI](https://coldplayaffairai.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/kiss-cam-ai.html)
+  1–2 张照片生成约 10 秒体育场 kiss-cam 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Raindance AI](https://raindanceai.click)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/raindance-ai-293723.html)
+  两张照片生成约 15 秒码头多镜头短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[RemixMeme](https://remixmeme.com)** — 开发者 xianyu110 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/remixmeme.html)
+  用照片生成舞蹈、宠物和搞笑梗短视频，内置模板直接用（独立工具，非官方）
+
+- **[Rumpelstiltskin Dance AI](https://rumpelstiltskindance.video)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/rumpelstiltskin-dance-ai.html)
+  1–2 张照片生成谷仓踮脚舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[ShanShenBu AI](https://shanshenbuai.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/shanshenbu-ai.html)
+  一张照片生成约 13–15 秒 9:16 闪身步舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Unforgettable Car AI](https://unforgettablecarai.cc)** — 开发者 xianyu110 · AI 工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/unforgettable-car-ai.html)
+  一张自拍生成约 10 秒 9:16 纸牌揭车短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Venom Car AI](https://venomcarai.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/venom-car-ai.html)
+  一张车照片生成约 15 秒黑液车库组装短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[venommakeup AI](https://venommakeup.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/venommakeup-ai.html)
+  一张照片生成约 10 秒 9:16 万圣节半脸黑液短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[Victoria Secret AI](https://victoriasecretai.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/victoria-secret-ai.html)
+  一张照片生成约 10 秒 9:16 天使翅膀走秀短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[White Chicks AI](https://whitechicks.cc)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/white-chicks-ai.html)
+  1–2 张照片生成约 10–12 秒 9:16 夜景敞篷车对唱短视频，支持双人或宠物（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[wywmysweetie AI](https://wywmysweetie.run)** — 开发者 xianyu110 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/wywmysweetie-ai.html)
+  一张照片生成约 13 秒 9:16 jersey-club 舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起
+
+- **[ZombieHug](https://aizombie.app)** — 开发者 xianyu110 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/zombiehug.html)
+  两张照片生成竖屏僵尸爱情故事短视频，多镜头带音效（独立粉丝工具，非官方）；按条付费 $6.99 起
+
+- **[回想册 Idea Rewind](https://indieshade.com/products/recollect/)** — 开发者 影下独作 IndieShade · 图片工具 / 音视频 / 文档办公 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/idea-rewind.html)
+  碎片笔记 App，随手记录文字、照片、录音和视频，用多个收纳箱交叉归类，再以卡片回顾、继续写旧想法；本地记录无需注册，基础功能免费、可选 Pro。iOS 已上线，Android 正在 Google Play 封测
+
+- **[风言写作](https://www.linkwrite.cn)** — 开发者 fengyandefeng（佛山） · 文档办公 / 效率工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/project-a5ce7a.html)
+  面向长篇小说与网文连载的本地写作软件，随正文呈现相关人物与世界观设定，支持设定属性追踪、卷章管理和同一局域网手机续写；书稿保存在自己的电脑，基础创作免费、无需注册
+
+- **[Spaceora](https://spaceora.app/)** — 开发者 Zin · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/spaceora.html)
+  AI 家居与花园设计工具，上传一张房间或庭院照片即可生成室内改造、虚拟布置、景观和后院设计效果，并可根据 USDA 种植区推荐植物；提供免费使用次数，生成结果用于设计构思而非精确施工图
+
+- **[OpenMontage Drama Studio](https://openmontage.dtok.io)** — 开发者 Charlie W · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/openmontage-drama-studio.html)
+  开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署
+
+- **[MacMix](https://macmix.jazminli.com)** — 开发者 Jazmín · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/macmix.html)
+  Mac 菜单栏音量混音器，支持按应用独立调节音量、自定义 EQ 和多设备输出；基础功能免费，高级功能 ¥29.99 一次性买断，代码全部开源（GPL-3.0）
+
+- **[Lumno](https://lumno.kubai.design/)** — 开发者 枯白啃设计 · AI 工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/lumno.html)
+  浏览器命令栏与新标签页扩展，任意网页一个快捷键同时搜索标签页、书签和历史记录，支持拼音搜中文、40+ 网站站内搜索和直接问 ChatGPT/DeepSeek 等 AI；免费开源（GPL-3.0），本地处理无需注册，支持 Chrome / Edge / Firefox
+
+- **[涟漪](https://ripplefocus.github.io/)** — 开发者 tumingke0 · 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/project-9ab9bb.html)
+  安卓上的戒短视频与防沉迷小工具（自己管手或家长管孩子看手机都能用）。自带晚间专注时段与短视频每日时长上限；收紧规则立刻生效，放松规则或卸载得先等 15 分钟～2 小时冷静期或由家长/亲友输入解锁码（支持防卸载、防改系统时间，以及可选的本机无线调试高级保护，杀后台或重启手机都能自己恢复，不影响电话和闹钟）。免费无广告，数据纯本地
+
+- **[DiskWise](https://github.com/DreamOfXM/diskwise)** — 开发者 DreamOfXM · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/diskwise.html)
+  Mac 磁盘清理工具，把整块盘画成一个环，每一段写明是什么、删了会怎样；node_modules、Xcode、Docker 和 AI 工具缓存能按项目列出来，删除只进废纸篓、随时可撤销；免费开源、无订阅、不联网
 
 - **[Space Simulator Online](https://spacesimulator.online/)** — 开发者 Run Cheng · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/space-simulator-online.html)
   浏览器 3D 太阳系与太空探索模拟器，基于 NASA/JPL 真实星历与原生 WebGL2/WebGPU 渲染 6,000+ 系外行星、TESS 凌星光变曲线实验室、N 体星系碰撞与 110 个梅西耶深空天体，支持中英等 10 种语言，免费免安装无需注册
@@ -309,13 +423,13 @@
 - **[Seedance 3.0 AI](https://seedance3ai.plus)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/seedance-3-0-ai.html)
   PlusFrame 工作室的 AI 视频生成站，支持文字、图片与参考素材（图 / 视频 / 音频）转视频并带原生音频，可选 Seedance 2.5 或 Seedance 2.0 的 Mini / Fast / Standard 档，5 到 30 秒、最高 1080p；站名里的 Seedance 3.0 尚未上线、仍处计划中，非官方站点
 
-- **[Alors on Danse AI](https://alorsondanseai.im)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 / 文档办公 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/alors-on-danse-ai.html)
+- **[Alors on Danse AI](https://alorsondanseai.im)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 / 文档办公 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/alors-on-danse-ai-013438.html)
   上传两张照片，把你和朋友分别放进白色影棚的键盘位与笔记本位，合成 10 秒双人合奏视频，可选 16:9 横屏或 9:16 竖屏，无需写提示词，$9.99 一条
 
 - **[Ausar AI](https://ausarai.com)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/ausar-ai.html)
   一站式 AI 视频与图像生成工作台，可调 Kling 3.0、Veo 3.1、Seedance 2.0、Wan 3.0、Hailuo 2.3、Nano Banana Pro、GPT Image 2、Seedream 5、Grok Imagine 等模型，另有 Motion Control 把 30 秒以内的舞蹈或动作片段迁移到任意角色，以及上传一张照片即可套用的热门舞蹈模板（10 秒、无需提示词）
 
-- **[Bad Times AI](https://badtimesai.net)** — 开发者 weidacn · AI 工具 / 图片工具 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/bad-times-ai.html)
+- **[Bad Times AI](https://badtimesai.net)** — 开发者 weidacn · AI 工具 / 图片工具 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/bad-times-ai-46a504.html)
   上传一张自己的、宠物的或孩子的照片，生成「Bad Times」吵架梗的 10 秒竖屏 MP4（带该梗原声）：宠物版让猫狗站起来指着镜头，人物版走宝宝式指点和摊手，含「等等先别动手」的停顿镜头，$9.99 一条
 
 - **[Remaker AI](https://remaker-ai.net)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/remaker-ai.html)
@@ -330,7 +444,7 @@
 - **[Bulin 47 Viral](https://bulin47viral.org)** — 开发者 weidacn · 图片工具 / 音视频 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/bulin-47-viral.html)
   上传一张授权照片，用 Kling O3 重新生成一段街头 freestyle 表演场景（含人物、街景与新配的氛围声），不提供源视频也不使用原曲，固定场景、不支持自定义提示词，输出 10 秒竖屏 MP4，$9.99 一条
 
-- **[Burning Bridges AI](https://burningbridgesai.pro)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/burning-bridges-ai.html)
+- **[Burning Bridges AI](https://burningbridgesai.pro)** — 开发者 weidacn · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/burning-bridges-ai-c2e469.html)
   上传本人加最多两位朋友的照片，生成 10 秒竖屏派对视频：你站在吊灯场景的 C 位挥手举杯、朋友在后面欢呼，带参考片段里的原曲音轨；40 积分一条（$9.99），与 Drake 及其唱片公司无关
 
 - **[PhotoCraft](https://photocraft.my)** — 开发者 weidacn · AI 工具 / 图片工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-16 · [详情页](https://indiemaker.cn/p/photocraft.html)
@@ -4977,6 +5091,18 @@
 - **[Labubu Wallpaper](https://labubuwallpaper.com/)** — 开发者 Bobo Cao（合肥） · 图片工具 / 文档办公 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/labubu-wallpaper-8acba6.html)
   下载 4K Labubu 壁纸，针对 iPhone, 笔记本和移动设备优化
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Bobo Cao（合肥） · AI 工具 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/ai-0734f2.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Bobo Cao（合肥） · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/project-210af5.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Bobo Cao（合肥） · 开发工具 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/project-0825a1.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Bobo Cao（合肥） · 浏览器扩展 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/project-082a20.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Clone UI](https://cloneui.org)** — 开发者 Allen（深圳） · 开发工具 · 已上线 · 收录 2025-05-02 · [详情页](https://indiemaker.cn/p/clone-ui.html)
   Web 网页克隆工具，只需上传网站截图、UI 设计图或网站链接就能还原 80% 前端代码设计
 
@@ -5087,18 +5213,6 @@
 
 - **[精准截图](https://puzzledu.com/shot)** — 开发者 zhushen · 未分类 · 已停止 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-f134cb.html)
   智能精准截图工具（更懂内容创作者）
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 zhushen · AI 工具 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/ai-a45ef6.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 zhushen · 开发工具 / 免费工具 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-38746e.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 zhushen · 开发工具 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-ec8159.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 zhushen · 浏览器扩展 · 已上线 · 收录 2025-03-28 · [详情页](https://indiemaker.cn/p/project-ec85d9.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[imghunt](https://imghunt.com/)** — 开发者 Yasuomang（杭州） · 图片工具 / 浏览器扩展 · 已上线 · 收录 2025-03-27 · [详情页](https://indiemaker.cn/p/imghunt.html)
   图片下载浏览器扩展，能自动检测、批量下载并转换网页上的各类图片格式，并且支持自定义导出尺寸
@@ -8400,7 +8514,22 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（403）
+## 程序员版（408）
+
+- **[Coday](https://github.com/HyperClockUp/Coday)** — 开发者 HyperClockUp · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/coday.html)
+  Windows 桌面工具，让 Devin、Cursor、Windsurf、Kiro 和 VS Code 使用自选的 OpenAI / Claude 兼容接口，支持多源故障转移、跨 IDE 项目规则及 Devin 汉化；提供安装包和中文界面，源码未开放
+
+- **[TeapotRouter](https://teapotrouter.com)** — 开发者 anmutu · AI 工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/teapotrouter.html)
+  按用量计费的 AI 模型网关，一个 Key 双协议通用：Claude Code 设置 ANTHROPIC_BASE_URL、OpenAI SDK 改 base_url 即可接入，价格公开、每笔请求成本可查，支持组织内多发 Key 与用量审计、多上游自动故障转移；名字与 logo 源自 HTTP 彩蛋 418 I'm a teapot
+
+- **[IPClaw](https://metaver.vip/ipclaw)** — 开发者 AI 酋长 Andy（北京） · AI 工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/ipclaw.html)
+  专家 Agent 网络，连接工作 Agent、由真人专家授权的专家 Agent 和已核验的真人专家；Codex、Claude Code、Hermes 等 Agent 遇到需要行业经验或真实资源的问题时，可通过 IPClaw CLI 或公开目录搜索专家 Agent 并先预聊，用户明确同意后才把结构化需求转给真人专家；专家也可入驻，让自己的专家 Agent 回答悬赏问题
+
+- **[iLoveDevTool](https://www.ilovedevtool.com/zh-CN)** — 开发者 leftzzzz666 · 文档办公 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/ilovedevtool.html)
+  不用配环境就能跑 Python、PHP、Java、C++、Go 代码；JSON 一键转 Excel/CSV/YAML/PHP/Python；还有文本对比、正则测试、时间戳转换、Base64、JWT 解析等 40+ 个在线开发工具，全部免费、无需注册，界面支持简体/繁体中文
+
+- **[棱镜 Prism](https://aides-hik.github.io/AI-ssh/)** — 开发者 aides · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/prism.html)
+  SSH 桌面工作台，将终端、SFTP 文件管理和 AI 助手放在同一窗口，支持多服务器巡检和按阶段确认的 Docker / Compose 部署，提供 Windows、macOS、Linux 安装包，无需注册或部署项目后端，AI 使用自配模型服务或本地 Ollama
 
 - **[GameSkill](https://gameskill.dev/)** — 开发者 Kajian（佛山） · AI 工具 / 图片工具 / 开发工具 / 游戏娱乐 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/gameskill.html)
   收藏了上百个 game skill，让 Claude Code、Codex、Cursor、Kimi 等 AI 编程 Agent 更会做游戏的 Skill（SKILL.md）、MCP 服务器和配套工具 - 覆盖 Unity / Unreal / Godot / Bevy / Roblox 等引擎，以及美术资产、像素风格、音效、测试与逆向。所有链接都经过可访问性检查，星数和许可证来自 GitHub API（2026-10-26 更新）。同一个仓库里的多个 skill 合并为一行，data/skills.json 里保留了全部 255 个 skill 的明细

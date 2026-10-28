@@ -4,29 +4,1085 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-27T01:28:52.133Z",
+  "generatedAt": "2026-10-28T01:22:00.386Z",
   "counts": {
-    "total": 3358,
-    "main": 2798,
-    "programmer": 403,
+    "total": 3401,
+    "main": 2836,
+    "programmer": 408,
     "game": 157,
     "custom": 1
   },
   "categoryCounts": {
-    "浏览器扩展": 361,
-    "免费工具": 670,
-    "AI 工具": 1111,
-    "图片工具": 618,
-    "音视频": 574,
+    "图片工具": 644,
+    "音视频": 606,
+    "AI 工具": 1143,
+    "文档办公": 327,
+    "免费工具": 680,
+    "效率工具": 481,
+    "开发工具": 666,
+    "浏览器扩展": 362,
     "社交社区": 125,
-    "文档办公": 324,
-    "效率工具": 477,
-    "开发工具": 660,
     "游戏娱乐": 190,
     "教育学习": 192,
     "生活服务": 105
   },
   "projects": [
+    {
+      "id": "main-20261027-xianyu110-airapvideo",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "airapvideo",
+      "url": "https://ai-rap-video.asia",
+      "status": "online",
+      "description": "人声 + 照片生成 9:16 对口型说唱短视频（独立工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-alors-on-danse-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Alors on Danse AI",
+      "url": "https://tryalorsondanse.video",
+      "status": "online",
+      "description": "两张照片生成约 15 秒白棚双人舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-bad-times-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Bad Times AI",
+      "url": "https://badtimesai.cc",
+      "status": "online",
+      "description": "一张照片生成约 15 秒 9:16 争吵/对口型舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-bbywowguy-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "bbywowguy AI",
+      "url": "https://bbywowguyai.cc",
+      "status": "online",
+      "description": "一张照片生成约 10 秒 9:16 quince/concha 梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-burning-bridges-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Burning Bridges AI",
+      "url": "https://burningbridgesvideoai.com",
+      "status": "online",
+      "description": "1–2 张照片生成派对模板短视频，银杯与 Where she at 两套素材（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-cat-in-the-hat-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Cat in the Hat AI",
+      "url": "https://catinthehat.cc",
+      "status": "online",
+      "description": "一张照片生成约 10 秒 9:16 门铃万圣节恶搞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-chatgpt-millionaire-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "ChatGPT Millionaire AI",
+      "url": "https://chatgptmillionaire.cc",
+      "status": "online",
+      "description": "一张自拍生成约 10–13 秒「Get a job.」梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-chatgtt",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "ChatGTT",
+      "url": "https://chatgtt.cc",
+      "status": "online",
+      "description": "一张照片生成约 10–13 秒 9:16 信用卡拒付梗短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-cheba-man-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Cheba Man AI",
+      "url": "https://chebamanai.cc",
+      "status": "online",
+      "description": "一张全身照生成约 15–17 秒红色舞台 Tecktonik 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-choosin-texas-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Choosin Texas AI",
+      "url": "https://choosintexas.run",
+      "status": "online",
+      "description": "一张照片生成约 15 秒 9:16 emo 屋顶翻唱短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-chuttamalle-dance-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Chuttamalle Dance AI",
+      "url": "https://trychuttamalle.app",
+      "status": "online",
+      "description": "授权人像生成约 15 秒 9:16 生成式舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-coralineai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "coralineai",
+      "url": "https://coralineai.run",
+      "status": "online",
+      "description": "一张自拍生成约 10 秒 9:16 纽扣眼人偶变身短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-corpse-bride-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Corpse Bride AI",
+      "url": "https://corpsebride.cc",
+      "status": "online",
+      "description": "一张照片生成约 10 秒 9:16 鬼新娘/新郎墓园共舞短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-devil-wears-prada-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Devil Wears Prada AI",
+      "url": "https://pradaai.cc",
+      "status": "online",
+      "description": "一张照片生成约 15 秒 9:16 街头造型焕新短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-flying-roadster-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Flying Roadster AI",
+      "url": "https://flyingcarai.cc",
+      "status": "online",
+      "description": "一张自拍生成约 10–12 秒夜坡垂直喷气翻转短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-hotel-lobby-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Hotel Lobby AI",
+      "url": "https://tryhotellobby.app",
+      "status": "online",
+      "description": "两张照片生成约 15 秒酒店大堂双人短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-hug-in-heaven-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Hug In Heaven AI",
+      "url": "https://huginheaven.cc",
+      "status": "online",
+      "description": "两张照片生成约 12–15 秒天堂楼梯重逢纪念短片，18+（独立纪念工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-jeanphilai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "JeanPhilAI",
+      "url": "https://jeanphilai.cc",
+      "status": "online",
+      "description": "一张照片生成约 12–15 秒金发波波头加小胡子短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-kiss-cam-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Kiss Cam AI",
+      "url": "https://coldplayaffairai.cc",
+      "status": "online",
+      "description": "1–2 张照片生成约 10 秒体育场 kiss-cam 短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-raindance-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Raindance AI",
+      "url": "https://raindanceai.click",
+      "status": "online",
+      "description": "两张照片生成约 15 秒码头多镜头短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-remixmeme",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "RemixMeme",
+      "url": "https://remixmeme.com",
+      "status": "online",
+      "description": "用照片生成舞蹈、宠物和搞笑梗短视频，内置模板直接用（独立工具，非官方）",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-rumpelstiltskin-dance-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Rumpelstiltskin Dance AI",
+      "url": "https://rumpelstiltskindance.video",
+      "status": "online",
+      "description": "1–2 张照片生成谷仓踮脚舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-shanshenbu-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "ShanShenBu AI",
+      "url": "https://shanshenbuai.cc",
+      "status": "online",
+      "description": "一张照片生成约 13–15 秒 9:16 闪身步舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-unforgettable-car-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Unforgettable Car AI",
+      "url": "https://unforgettablecarai.cc",
+      "status": "online",
+      "description": "一张自拍生成约 10 秒 9:16 纸牌揭车短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-venom-car-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Venom Car AI",
+      "url": "https://venomcarai.cc",
+      "status": "online",
+      "description": "一张车照片生成约 15 秒黑液车库组装短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-venommakeup-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "venommakeup AI",
+      "url": "https://venommakeup.cc",
+      "status": "online",
+      "description": "一张照片生成约 10 秒 9:16 万圣节半脸黑液短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-victoria-secret-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "Victoria Secret AI",
+      "url": "https://victoriasecretai.cc",
+      "status": "online",
+      "description": "一张照片生成约 10 秒 9:16 天使翅膀走秀短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-white-chicks-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "White Chicks AI",
+      "url": "https://whitechicks.cc",
+      "status": "online",
+      "description": "1–2 张照片生成约 10–12 秒 9:16 夜景敞篷车对唱短视频，支持双人或宠物（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-wywmysweetie-ai",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "wywmysweetie AI",
+      "url": "https://wywmysweetie.run",
+      "status": "online",
+      "description": "一张照片生成约 13 秒 9:16 jersey-club 舞蹈短视频（独立粉丝工具，非官方）；一次性积分包 $8.88 起",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-xianyu110-zombiehug",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "xianyu110",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xianyu110"
+        }
+      ],
+      "name": "ZombieHug",
+      "url": "https://aizombie.app",
+      "status": "online",
+      "description": "两张照片生成竖屏僵尸爱情故事短视频，多镜头带音效（独立粉丝工具，非官方）；按条付费 $6.99 起",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-indieshade-回想册-idea-rewind",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "影下独作 IndieShade",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/indieshade"
+        }
+      ],
+      "name": "回想册 Idea Rewind",
+      "url": "https://indieshade.com/products/recollect/",
+      "status": "online",
+      "description": "碎片笔记 App，随手记录文字、照片、录音和视频，用多个收纳箱交叉归类，再以卡片回顾、继续写旧想法；本地记录无需注册，基础功能免费、可选 Pro。iOS 已上线，Android 正在 Google Play 封测",
+      "extraLinks": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/cn/app/id6806823786"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-fengyandefeng-风言写作",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "fengyandefeng",
+      "city": "佛山",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fengyandefeng"
+        }
+      ],
+      "name": "风言写作",
+      "url": "https://www.linkwrite.cn",
+      "status": "online",
+      "description": "面向长篇小说与网文连载的本地写作软件，随正文呈现相关人物与世界观设定，支持设定属性追踪、卷章管理和同一局域网手机续写；书稿保存在自己的电脑，基础创作免费、无需注册",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-zina26-spaceora",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "Zin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zina26"
+        }
+      ],
+      "name": "Spaceora",
+      "url": "https://spaceora.app/",
+      "status": "online",
+      "description": "AI 家居与花园设计工具，上传一张房间或庭院照片即可生成室内改造、虚拟布置、景观和后院设计效果，并可根据 USDA 种植区推荐植物；提供免费使用次数，生成结果用于设计构思而非精确施工图",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-charliewwdev-openmontage-drama-studio",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "Charlie W",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/charliewwdev"
+        }
+      ],
+      "name": "OpenMontage Drama Studio",
+      "url": "https://openmontage.dtok.io",
+      "status": "online",
+      "description": "开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署",
+      "extraLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/charliewwdev/OpenMontage"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-ljmng7-macmix",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "Jazmín",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ljmng7"
+        }
+      ],
+      "name": "MacMix",
+      "url": "https://macmix.jazminli.com",
+      "status": "online",
+      "description": "Mac 菜单栏音量混音器，支持按应用独立调节音量、自定义 EQ 和多设备输出；基础功能免费，高级功能 ¥29.99 一次性买断，代码全部开源（GPL-3.0）",
+      "extraLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ljmng7/MacMix"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-kubai087-lumno",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "枯白啃设计",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kubai087"
+        }
+      ],
+      "name": "Lumno",
+      "url": "https://lumno.kubai.design/",
+      "status": "online",
+      "description": "浏览器命令栏与新标签页扩展，任意网页一个快捷键同时搜索标签页、书签和历史记录，支持拼音搜中文、40+ 网站站内搜索和直接问 ChatGPT/DeepSeek 等 AI；免费开源（GPL-3.0），本地处理无需注册，支持 Chrome / Edge / Firefox",
+      "extraLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/kubai087/lumno-extension"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-tumingke0-涟漪",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "tumingke0",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tumingke0"
+        }
+      ],
+      "name": "涟漪",
+      "url": "https://ripplefocus.github.io/",
+      "status": "online",
+      "description": "安卓上的戒短视频与防沉迷小工具（自己管手或家长管孩子看手机都能用）。自带晚间专注时段与短视频每日时长上限；收紧规则立刻生效，放松规则或卸载得先等 15 分钟～2 小时冷静期或由家长/亲友输入解锁码（支持防卸载、防改系统时间，以及可选的本机无线调试高级保护，杀后台或重启手机都能自己恢复，不影响电话和闹钟）。免费无广告，数据纯本地",
+      "extraLinks": [
+        {
+          "label": "安装包下载",
+          "url": "https://github.com/ripplefocus/ripplefocus.github.io/releases/latest"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261027-dreamofxm-diskwise",
+      "edition": "main",
+      "addedAt": "2026-10-27",
+      "maker": "DreamOfXM",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/DreamOfXM"
+        }
+      ],
+      "name": "DiskWise",
+      "url": "https://github.com/DreamOfXM/diskwise",
+      "status": "online",
+      "description": "Mac 磁盘清理工具，把整块盘画成一个环，每一段写明是什么、删了会怎样；node_modules、Xcode、Docker 和 AI 工具缓存能按项目列出来，删除只进废纸篓、随时可撤销；免费开源、无订阅、不联网",
+      "extraLinks": [
+        {
+          "label": "App Store",
+          "url": "https://apps.apple.com/cn/app/id6813265402"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261027-hyperclockup-coday",
+      "edition": "programmer",
+      "addedAt": "2026-10-27",
+      "maker": "HyperClockUp",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/HyperClockUp"
+        }
+      ],
+      "name": "Coday",
+      "url": "https://github.com/HyperClockUp/Coday",
+      "status": "online",
+      "description": "Windows 桌面工具，让 Devin、Cursor、Windsurf、Kiro 和 VS Code 使用自选的 OpenAI / Claude 兼容接口，支持多源故障转移、跨 IDE 项目规则及 Devin 汉化；提供安装包和中文界面，源码未开放",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261027-anmutu-teapotrouter",
+      "edition": "programmer",
+      "addedAt": "2026-10-27",
+      "maker": "anmutu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/anmutu"
+        }
+      ],
+      "name": "TeapotRouter",
+      "url": "https://teapotrouter.com",
+      "status": "online",
+      "description": "按用量计费的 AI 模型网关，一个 Key 双协议通用：Claude Code 设置 ANTHROPIC_BASE_URL、OpenAI SDK 改 base_url 即可接入，价格公开、每笔请求成本可查，支持组织内多发 Key 与用量审计、多上游自动故障转移；名字与 logo 源自 HTTP 彩蛋 418 I'm a teapot",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261027-aipmandy-ipclaw",
+      "edition": "programmer",
+      "addedAt": "2026-10-27",
+      "maker": "AI 酋长 Andy",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AIPMAndy"
+        },
+        {
+          "label": "博客",
+          "url": "https://metaver.vip/"
+        }
+      ],
+      "name": "IPClaw",
+      "url": "https://metaver.vip/ipclaw",
+      "status": "online",
+      "description": "专家 Agent 网络，连接工作 Agent、由真人专家授权的专家 Agent 和已核验的真人专家；Codex、Claude Code、Hermes 等 Agent 遇到需要行业经验或真实资源的问题时，可通过 IPClaw CLI 或公开目录搜索专家 Agent 并先预聊，用户明确同意后才把结构化需求转给真人专家；专家也可入驻，让自己的专家 Agent 回答悬赏问题",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261027-leftzzzz-ilovedevtool",
+      "edition": "programmer",
+      "addedAt": "2026-10-27",
+      "maker": "leftzzzz666",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/leftzzzz"
+        }
+      ],
+      "name": "iLoveDevTool",
+      "url": "https://www.ilovedevtool.com/zh-CN",
+      "status": "online",
+      "description": "不用配环境就能跑 Python、PHP、Java、C++、Go 代码；JSON 一键转 Excel/CSV/YAML/PHP/Python；还有文本对比、正则测试、时间戳转换、Base64、JWT 解析等 40+ 个在线开发工具，全部免费、无需注册，界面支持简体/繁体中文",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261027-aides-hik-棱镜-prism",
+      "edition": "programmer",
+      "addedAt": "2026-10-27",
+      "maker": "aides",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/aides-hik"
+        }
+      ],
+      "name": "棱镜 Prism",
+      "url": "https://aides-hik.github.io/AI-ssh/",
+      "status": "online",
+      "description": "SSH 桌面工作台，将终端、SFTP 文件管理和 AI 助手放在同一窗口，支持多服务器巡检和按阶段确认的 Docker / Compose 部署，提供 Windows、macOS、Linux 安装包，无需注册或部署项目后端，AI 使用自配模型服务或本地 Ollama",
+      "extraLinks": [
+        {
+          "label": "项目与教程",
+          "url": "https://github.com/aides-hik/AI-ssh"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261026-wudao0123-space-simulator-online",
       "edition": "main",
@@ -13392,7 +14448,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261027-0",
+      "id": "custom-20261028-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -47524,6 +48580,131 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250506-bo0-bo0-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-05-06",
+      "maker": "Bobo Cao",
+      "city": "合肥",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bo0-bo0"
+        },
+        {
+          "label": "博客",
+          "url": "https://indiepa.ge/bo0bo0"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250506-bo0-bo0-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-05-06",
+      "maker": "Bobo Cao",
+      "city": "合肥",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bo0-bo0"
+        },
+        {
+          "label": "博客",
+          "url": "https://indiepa.ge/bo0bo0"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250506-bo0-bo0-独立星球",
+      "edition": "main",
+      "addedAt": "2025-05-06",
+      "maker": "Bobo Cao",
+      "city": "合肥",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bo0-bo0"
+        },
+        {
+          "label": "博客",
+          "url": "https://indiepa.ge/bo0bo0"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250506-bo0-bo0-独立观察",
+      "edition": "main",
+      "addedAt": "2025-05-06",
+      "maker": "Bobo Cao",
+      "city": "合肥",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bo0-bo0"
+        },
+        {
+          "label": "博客",
+          "url": "https://indiepa.ge/bo0bo0"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "game-20250504-wang1309-funny-shooter-2",
       "edition": "game",
       "addedAt": "2025-05-04",
@@ -48527,115 +49708,6 @@
       "description": "智能精准截图工具（更懂内容创作者）",
       "extraLinks": [],
       "categories": [],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250328-zhushen12580-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-03-28",
-      "maker": "zhushen",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhushen12580"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250328-zhushen12580-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-03-28",
-      "maker": "zhushen",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhushen12580"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250328-zhushen12580-独立星球",
-      "edition": "main",
-      "addedAt": "2025-03-28",
-      "maker": "zhushen",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhushen12580"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250328-zhushen12580-独立观察",
-      "edition": "main",
-      "addedAt": "2025-03-28",
-      "maker": "zhushen",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/zhushen12580"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
-      ],
       "source": "upstream"
     },
     {
