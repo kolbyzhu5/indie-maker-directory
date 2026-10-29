@@ -1,10 +1,31 @@
-# AI 独立制造所 · 全部产品清单（3401）
+# AI 独立制造所 · 全部产品清单（3410）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-28（北京时间）
+> 更新时间：2026-10-29（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2836）
+## 大众产品（2843）
+
+- **[JoJo Characters](https://jojocharacters.com/)** — 开发者 guetyitudabian · 未分类 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/jojo-characters.html)
+  独立的《JOJO的奇妙冒险》人物百科，按部数和作品浏览人物、已有配图与替身资料，支持姓名和别名搜索，附来源及剧情防剧透
+
+- **[ZoopFizz](https://zoopfizz.com/)** — 开发者 Koroo · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/zoopfizz.html)
+  选模板或写提示词，上传照片或输入文字，在同一积分工作区用 Seedance / Veo / Wan 等模型生成 TikTok/Reels 短视频；草稿免费，新验证账号送 100 积分（30 天），月付从 $29.99 起
+
+- **[铝构AI BeamJoin](https://forgepane.com)** — 开发者 Nolan · AI 工具 / 文档办公 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/ai-beamjoin.html)
+  在线铝型材设计工具，用自然语言辅助搭建和修改桌架、工作台、置物架等三维方案，并整理型材切割长度、材料与加工清单，支持 PDF、Excel 导出
+
+- **[Me2Cloud](https://m2c.1ms.dog)** — 开发者 yt1988 · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/me2cloud.html)
+  云服务器延迟测试工具，打开网页就能测你家网络到 AWS、阿里云等 17 家云厂商 361 个区域的延迟、抖动和丢包，买服务器前先挑最快的区域，免费开源无需注册
+
+- **[Make Dime Dime Baby](https://makedimedimebaby.com)** — 开发者 wujieli · 图片工具 / 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/make-dime-dime-baby.html)
+  一张照片生成约 10 秒 9:16 Dime Dime Baby 派对舞蹈短视频，浏览器直接用、不带水印（独立工具，非官方）；新账号 1 条免费，之后 1 条 $9.99、3 条 $24.99
+
+- **[Squishy Paper](https://squishypaper.com/)** — 开发者 Peacoke · 文档办公 / 免费工具 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/squishy-paper.html)
+  免费可打印的纸捏捏（Paper Squishy）手工图纸库，支持 4 种语言，单页包含正反面与剪裁线，可直接下载 PDF 与涂色线稿
+
+- **[ReclipMuse](https://www.reclipmuse.com)** — 开发者 rudy2steiner · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/reclipmuse.html)
+  上传 1–3 张照片，选择 Hotel Lobby、Burning Bridges、Fireline 等效果，生成 5–30 秒 AI 说唱短视频（独立工具，非官方）；一次性积分包 $4.90 起
 
 - **[airapvideo](https://ai-rap-video.asia)** — 开发者 xianyu110 · 图片工具 / 音视频 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/airapvideo.html)
   人声 + 照片生成 9:16 对口型说唱短视频（独立工具，非官方）；一次性积分包 $8.88 起
@@ -132,8 +153,8 @@
 - **[YIX](https://yix.ai)** — 开发者 Jiguang · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/yix.html)
   AI 图像与视频创作网站，在同一工作台完成图像生成、视频生成、修图、老照片修复和商品视觉制作；生成按积分付费，提供免费提示词工具，注册不赠送积分
 
-- **[Wave Radar](https://waveradar.us)** — 开发者 hankok · 浏览器扩展 / 社交社区 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/wave-radar.html)
-  美股、A股、港股研究工具，全市场扫描等浪/斐波那契扩展与缠论买卖点，附期权 Gamma 敞口、合理估值、13F 和社区恐惧贪婪指数；免费账号可用全市场筛选器和任意标的的等浪/缠论图
+- **[Wave Radar](https://waveradar.us)** — 开发者 hankok · 社交社区 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/wave-radar.html)
+  美股、A股、港股研究工具，全市场扫描 75 个技术信号并给出每个信号在 7000 多只股票上的历史胜率，附期权 Gamma 敞口、合理估值、13F 和社区恐惧贪婪指数；免费账号可用全市场筛选器
 
 - **[Ideoy](https://ideoy.ai)** — 开发者 zhangwenhao66 · AI 工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-10-26 · [详情页](https://indiemaker.cn/p/ideoy.html)
   用一张自拍重制本周热门梗视频模板，AI 生成竖屏短视频；免费增值，仅限成年人，输出内容标注 AI 生成
@@ -5067,6 +5088,18 @@
 - **[Addsubtitle](https://addsubtitle.ai/)** — 开发者 Christine（上海） · 音视频 · 已上线 · 收录 2025-05-10 · [详情页](https://indiemaker.cn/p/addsubtitle.html)
   视频一键翻译编辑加字幕，超高效视频处理，精准翻译，还原情感；语音克隆与自然配音；自动字幕生成，高效省时；即时在线编辑
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Christine（上海） · AI 工具 · 已上线 · 收录 2025-05-10 · [详情页](https://indiemaker.cn/p/ai-68bf9d.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Christine（上海） · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-10 · [详情页](https://indiemaker.cn/p/project-397813.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Christine（上海） · 开发工具 · 已上线 · 收录 2025-05-10 · [详情页](https://indiemaker.cn/p/project-37cc8e.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Christine（上海） · 浏览器扩展 · 已上线 · 收录 2025-05-10 · [详情页](https://indiemaker.cn/p/project-37d10e.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[TabBoost（Chrome 扩展）](https://chromewebstore.google.com/detail/tabboost/pnpabkdhbbjmahfnhnfhpgfmhkkeoloe)** — 开发者 samzong(上海): · 效率工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2025-05-09 · [详情页](https://indiemaker.cn/p/tabboost-chrome.html)
   提高浏览器标签效率，灵感来自 Arc 浏览器和开发者的实际体验
 
@@ -5090,18 +5123,6 @@
 
 - **[Labubu Wallpaper](https://labubuwallpaper.com/)** — 开发者 Bobo Cao（合肥） · 图片工具 / 文档办公 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/labubu-wallpaper-8acba6.html)
   下载 4K Labubu 壁纸，针对 iPhone, 笔记本和移动设备优化
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Bobo Cao（合肥） · AI 工具 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/ai-0734f2.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Bobo Cao（合肥） · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/project-210af5.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Bobo Cao（合肥） · 开发工具 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/project-0825a1.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Bobo Cao（合肥） · 浏览器扩展 · 已上线 · 收录 2025-05-06 · [详情页](https://indiemaker.cn/p/project-082a20.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Clone UI](https://cloneui.org)** — 开发者 Allen（深圳） · 开发工具 · 已上线 · 收录 2025-05-02 · [详情页](https://indiemaker.cn/p/clone-ui.html)
   Web 网页克隆工具，只需上传网站截图、UI 设计图或网站链接就能还原 80% 前端代码设计
@@ -8514,7 +8535,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（408）
+## 程序员版（410）
+
+- **[Neat CSV](https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-csv)** — 开发者 小明 · 文档办公 / 免费工具 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/neat-csv.html)
+  VS Code CSV/TSV 编辑器，支持大文件浏览、表格与对齐文本编辑、筛选排序和块编辑，文件在本地处理，免费开源
+
+- **[Neat SQLite](https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-sqlite)** — 开发者 小明 · 文档办公 / 免费工具 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/neat-sqlite.html)
+  VS Code SQLite 编辑器，支持表格编辑、SQL 查询和 CSV 导入导出，跨表修改暂存后通过一个事务统一保存，免费开源
 
 - **[Coday](https://github.com/HyperClockUp/Coday)** — 开发者 HyperClockUp · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/coday.html)
   Windows 桌面工具，让 Devin、Cursor、Windsurf、Kiro 和 VS Code 使用自选的 OpenAI / Claude 兼容接口，支持多源故障转移、跨 IDE 项目规则及 Devin 汉化；提供安装包和中文界面，源码未开放
