@@ -13998,5 +13998,69 @@
  "main-20250510-liuyinjiwen06-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-10-29"
+ },
+ "main-20250513-brice-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-10-30"
+ },
+ "main-20261029-paulfan2200-debug-aivizens": {
+  "descEn": "Chinese AI Daily, read in 5 minutes every day, fixedly dismantling two one-person company (OPC) cases, with the day's AI news and popular open source tools; free, email subscription, each issue also has a separate web page for direct reading",
+  "at": "2026-10-30"
+ },
+ "main-20261029-cena001plus-pixsolo": {
+  "descEn": "Designed for iOS / Android developers, a web tool for taking screenshots on the app store. It can be used immediately after opening the browser without installation.",
+  "at": "2026-10-30"
+ },
+ "main-20261029-zimjin-hd-image-enhancer": {
+  "descEn": "Free AI image quality enhancement tool, enlarge and sharpen blurry photos, no registration required.",
+  "at": "2026-10-30"
+ },
+ "main-20261029-yoan98-馆长-ncurator": {
+  "descEn": "An open source AI office assistant that uses natural language to read, create and edit local DOCX, XLSX and PPTX. It supports viewing file modification differences, PDF reading and local knowledge base retrieval. The software is free and has its own model API Key. Available for Windows and macOS - [Open Source Warehouse](https://github.com/Yoan98/Ncurator)",
+  "at": "2026-10-30"
+ },
+ "main-20261029-goodlettdummett-alt-知周-zhizhou": {
+  "descEn": "The Bazi and Ziwei Dou number ranking website automatically converts true solar time based on the longitude of the place of birth, mean time difference and historical daylight saving time of each place. No need to log in for ranking; it can generate a horoscope report written by AI for free. The first two sections are free to read. The full text is US$9.90. There are both simplified and traditional versions.",
+  "at": "2026-10-30"
+ },
+ "main-20261029-chenmozhe008-闪电全能下载": {
+  "descEn": "Mac download tool, magnets, seeds, web files and YouTube, Bilibili, Douyin, Xiaohongshu videos are placed in one window for downloading. Copy the link and press ⌘V to start. Douyin and Xiaohongshu have no watermarks. Movies can be watched while downloading. Free and open source",
+  "at": "2026-10-30"
+ },
+ "main-20261029-chenmozhe008-小清": {
+  "descEn": "Mac cleaning tool, recognizes the cache of more than 60 editing and AI tools such as Clip, DaVinci, Adobe and Cursor, Claude Code, etc. It only clears the parts that can be automatically reconstructed, leaving projects and conversations untouched. One-click cleanup can be undone. It is free and open source and does not need to be connected to the Internet.",
+  "at": "2026-10-30"
+ },
+ "main-20261029-sirmem-周五追账排序器-friday-invoice-chase-ranker": {
+  "descEn": "Open the webpage and paste the list of outstanding debts, press Current / 1–30 / 31–60 / 60+ to rank the Top 3 items that should be paid this Friday. No registration is required for local operation, free and open source - [Source Code](https://github.com/SirMem/friday-invoice-chase-tool)",
+  "at": "2026-10-30"
+ },
+ "programmer-20261029-xxapi-xxapi": {
+  "descEn": "Claude Code / Codex API transfer station, one account calls Claude (Opus 5.5, Sonnet 5.5, etc.) and GPT (GPT-6.1, GPT-5.6, etc.) models; Claude Code fills in `https://xxapi.ai`, Codex and other OpenAI compatible tools fill in `https://xxapi.ai/v1`; Alipay, WeChat, Stripe recharge ¥1 = $1, balance does not expire, billed based on volume, no monthly fee",
+  "at": "2026-10-30"
+ },
+ "programmer-20261029-yaoyao-ai-trainer-瑶瑶-ai-会员代充": {
+  "descEn": "ChatGPT Plus / Pro, Claude Pro / Max, SuperGrok, Gemini members can recharge in RMB, no overseas credit card is required, Alipay payment is required, and the payment will arrive in an average of 2 minutes after payment; subscription has warranty, membership will be replenished, 24-hour customer service; Plus ¥129/month; independent third party, unofficial",
+  "at": "2026-10-30"
+ },
+ "custom-20261030-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-30"
+ },
+ "main-20250604-rns-flux-1-kontext-image-generator": {
+  "descEn": "AI image generator with contextual understanding, character consistency and local editing",
+  "at": "2026-10-30"
+ },
+ "main-20250513-brice-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-10-30"
+ },
+ "main-20250513-brice-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-10-30"
+ },
+ "main-20250513-brice-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-10-30"
  }
 }

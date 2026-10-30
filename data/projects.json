@@ -4,29 +4,287 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-29T01:47:57.246Z",
+  "generatedAt": "2026-10-30T01:57:41.519Z",
   "counts": {
-    "total": 3410,
-    "main": 2843,
-    "programmer": 410,
+    "total": 3421,
+    "main": 2852,
+    "programmer": 412,
     "game": 157,
     "custom": 1
   },
   "categoryCounts": {
-    "图片工具": 647,
-    "音视频": 609,
-    "免费工具": 686,
-    "AI 工具": 1145,
-    "文档办公": 331,
-    "开发工具": 667,
-    "浏览器扩展": 362,
+    "AI 工具": 1153,
+    "免费工具": 693,
+    "开发工具": 671,
+    "浏览器扩展": 363,
+    "图片工具": 649,
+    "文档办公": 332,
+    "教育学习": 193,
+    "音视频": 610,
     "效率工具": 481,
     "社交社区": 125,
     "游戏娱乐": 190,
-    "教育学习": 192,
     "生活服务": 105
   },
   "projects": [
+    {
+      "id": "main-20261029-paulfan2200-debug-aivizens",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "Paul",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/paulfan2200-debug"
+        }
+      ],
+      "name": "AIVIZENS",
+      "url": "https://aivizens.com/?utm_source=chinese_independent_developer&utm_medium=submission",
+      "status": "online",
+      "description": "中文 AI 日报，每天 5 分钟读完，固定拆解两个一人公司（OPC）案例，附当天 AI 要闻与热门开源工具；免费，邮箱订阅，每期也有独立网页可直接读",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261029-cena001plus-pixsolo",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "cena",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cena001plus"
+        }
+      ],
+      "name": "Pixsolo",
+      "url": "https://www.pixsolo.com/",
+      "status": "online",
+      "description": "为 iOS / Android 开发者设计应用商店上架截图的网页工具，打开浏览器即用、无需安装",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://www.pixsolo.com/"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261029-zimjin-hd-image-enhancer",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "zimjin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zimjin"
+        }
+      ],
+      "name": "HD Image Enhancer",
+      "url": "https://hdimageenhancer.com/",
+      "status": "online",
+      "description": "免费 AI 图片画质增强工具，放大并锐化模糊照片，无需注册即可使用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261029-yoan98-馆长-ncurator",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "Yoan98",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yoan98"
+        }
+      ],
+      "name": "馆长（NCurator）",
+      "url": "https://www.guanzhangai.cn/zh",
+      "status": "online",
+      "description": "用自然语言读取、创建和编辑本地 DOCX、XLSX、PPTX 的开源 AI 办公助手，支持查看文件修改差异、PDF 阅读和本地知识库检索，软件免费、自备模型 API Key，Windows、macOS 可用 — [开源仓库](https://github.com/Yoan98/Ncurator)",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/Yoan98/Ncurator"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261029-goodlettdummett-alt-知周-zhizhou",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "goodlettdummett-alt",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/goodlettdummett-alt"
+        }
+      ],
+      "name": "知周 ZhiZhou",
+      "url": "https://zhizhou.app/",
+      "status": "online",
+      "description": "八字和紫微斗数排盘网站，按出生地经度、均时差和各地历史夏令时自动换算真太阳时，免登录排盘；可免费生成 AI 写的命盘报告，前两节免费读，全文 US$9.90，有简繁两版",
+      "extraLinks": [
+        {
+          "label": "真太阳时换算器",
+          "url": "https://zhizhou.app/true-solar"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261029-chenmozhe008-闪电全能下载",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "沉默者之二",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenmozhe008"
+        }
+      ],
+      "name": "闪电全能下载",
+      "url": "https://github.com/chenmozhe008/shandian-download",
+      "status": "online",
+      "description": "Mac 下载工具，磁力、种子、网页文件和 YouTube、B 站、抖音、小红书视频放在一个窗口下载，复制链接按 ⌘V 即开始，抖音小红书无水印，电影可边下边看，免费开源",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261029-chenmozhe008-小清",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "沉默者之二",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/chenmozhe008"
+        }
+      ],
+      "name": "小清",
+      "url": "https://github.com/chenmozhe008/qingo",
+      "status": "online",
+      "description": "Mac 清理工具，识别剪映、达芬奇、Adobe 和 Cursor、Claude Code 等 60 余款剪辑与 AI 工具的缓存，只清能自动重建的部分、不碰项目和对话，一键清理可撤销，免费开源不联网",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261029-sirmem-周五追账排序器-friday-invoice-chase-ranker",
+      "edition": "main",
+      "addedAt": "2026-10-29",
+      "maker": "SirMem",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SirMem"
+        }
+      ],
+      "name": "周五追账排序器 Friday Invoice Chase Ranker",
+      "url": "https://sirmem.github.io/friday-invoice-chase-tool/",
+      "status": "online",
+      "description": "打开网页粘贴欠款清单，按 Current / 1–30 / 31–60 / 60+ 排出本周五该催的 Top3，本地运行无需注册，免费开源 — [源码](https://github.com/SirMem/friday-invoice-chase-tool)",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/SirMem/friday-invoice-chase-tool"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261029-xxapi-xxapi",
+      "edition": "programmer",
+      "addedAt": "2026-10-29",
+      "maker": "xxapi",
+      "city": "",
+      "makerLinks": [],
+      "name": "xxapi",
+      "url": "https://xxapi.ai/",
+      "status": "online",
+      "description": "Claude Code / Codex API 中转站，一个账号调用 Claude（Opus 5.5、Sonnet 5.5 等）和 GPT（GPT-6.1、GPT-5.6 等）模型；Claude Code 填 `https://xxapi.ai`，Codex 等 OpenAI 兼容工具填 `https://xxapi.ai/v1`；支付宝、微信、Stripe 充值 ¥1 = $1，余额不过期，按量计费，无月费",
+      "extraLinks": [
+        {
+          "label": "中文教程",
+          "url": "https://docs.xxapi.ai/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261029-yaoyao-ai-trainer-瑶瑶-ai-会员代充",
+      "edition": "programmer",
+      "addedAt": "2026-10-29",
+      "maker": "瑶瑶",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yaoyao-ai-trainer"
+        }
+      ],
+      "name": "瑶瑶 AI 会员代充",
+      "url": "https://kw.yaoyao.chat/?utm_source=cnindie&utm_medium=github",
+      "status": "online",
+      "description": "ChatGPT Plus / Pro、Claude Pro / Max、SuperGrok、Gemini 会员人民币代充，不用海外信用卡，支付宝付款，付款后平均 2 分钟到账；订阅有质保、掉会员补，24 小时客服；Plus ¥129/月；独立第三方，非官方",
+      "extraLinks": [
+        {
+          "label": "开通教程",
+          "url": "https://github.com/haiwaihuyonghui-rgb/gpt-chongzhi"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261028-guetyitudabian-jojo-characters",
       "edition": "main",
@@ -4752,7 +5010,7 @@
       "name": "Ausar AI",
       "url": "https://ausarai.com",
       "status": "online",
-      "description": "一站式 AI 视频与图像生成工作台，可调 Kling 3.0、Veo 3.1、Seedance 2.0、Wan 3.0、Hailuo 2.3、Nano Banana Pro、GPT Image 2、Seedream 5、Grok Imagine 等模型，另有 Motion Control 把 30 秒以内的舞蹈或动作片段迁移到任意角色，以及上传一张照片即可套用的热门舞蹈模板（10 秒、无需提示词）",
+      "description": "AI 视频与图像生成工作台，可调 Kling 3.0、Veo 3.1、Seedance 2.0、Wan 3.0、Hailuo 2.3、Nano Banana Pro、GPT Image 2、Seedream 5、Grok Imagine 等模型，另有 Motion Control 把 30 秒以内的舞蹈或动作片段迁移到任意角色，以及上传一张照片即可套用的热门舞蹈模板（10 秒、无需提示词）",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -6518,7 +6776,7 @@
       "name": "SpritePixel",
       "url": "https://spritepixel.com/",
       "status": "online",
-      "description": "一款面向个人和独立游戏开发者的 AI 游戏资产工作室，用 AI 创建风格一致的游戏精灵图、动画、精灵图表和配套图标套装，并围绕同一个游戏项目持续生成与管理",
+      "description": "面向个人和独立游戏开发者的 AI 游戏资产工作室，用 AI 创建风格一致的游戏精灵图、动画、精灵图表和配套图标套装，并围绕同一个游戏项目持续生成与管理",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -11937,7 +12195,7 @@
       "name": "SoulCut",
       "url": "https://soulcut-art.vercel.app/",
       "status": "online",
-      "description": "一款为每一帧画面注入灵魂的非线性视频编辑系统，免费使用，内置 15 种滤镜、78 种视觉特效、26 种转场，支持多机位渲染与音视频同轨编辑 - [GitHub 仓库](https://github.com/0xhappyboy/SoulCut)",
+      "description": "为每一帧画面注入灵魂的非线性视频编辑系统，免费使用，内置 15 种滤镜、78 种视觉特效、26 种转场，支持多机位渲染与音视频同轨编辑 - [GitHub 仓库](https://github.com/0xhappyboy/SoulCut)",
       "extraLinks": [
         {
           "label": "GitHub 仓库",
@@ -12259,7 +12517,7 @@
       "name": "hippoxOS",
       "url": "https://hippoxos.vercel.app/",
       "status": "online",
-      "description": "一款真正意义上的 LLM 操作系统，内置 6 个子系统，统一由自然语言控制：通用对话计算机控制系统、完整的视频编辑系统（自研 NLE 引擎）、金融数据分析系统、地理信息系统、代码编辑系统、3D 沙盒系统",
+      "description": "真正意义上的 LLM 操作系统，内置 6 个子系统，统一由自然语言控制：通用对话计算机控制系统、完整的视频编辑系统（自研 NLE 引擎）、金融数据分析系统、地理信息系统、代码编辑系统、3D 沙盒系统",
       "extraLinks": [
         {
           "label": "GitHub 仓库",
@@ -13263,7 +13521,7 @@
       "name": "Hevzo",
       "url": "https://hevzo.com",
       "status": "online",
-      "description": "一站式的 AI 视频和图片生成平台，集中了主流的视频和图片模型",
+      "description": "AI 视频和图片生成平台，集中了主流的视频和图片模型",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -13744,7 +14002,7 @@
       "name": "PixelArtGame",
       "url": "https://pixelartgame.online/",
       "status": "online",
-      "description": "一款结合了像素艺术与轻松玩法的网页游戏。无需下载安装，打开即可游玩。游戏以复古像素画风为核心，配合轻快的背景音乐，营造出沉浸式的游戏体验。无论是怀旧玩家还是休闲爱好者，都能快速找到属于自己的乐趣",
+      "description": "结合了像素艺术与轻松玩法的网页游戏。无需下载安装，打开即可游玩。游戏以复古像素画风为核心，配合轻快的背景音乐，营造出沉浸式的游戏体验。无论是怀旧玩家还是休闲爱好者，都能快速找到属于自己的乐趣",
       "extraLinks": [],
       "categories": [
         "图片工具",
@@ -14670,7 +14928,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261029-0",
+      "id": "custom-20261030-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -20572,7 +20830,7 @@
       "name": "Fullmira",
       "url": "https://fullmira.com/",
       "status": "online",
-      "description": "一站式 AI 创作平台，整合 GPT、Claude、Gemini 等多个模型，同一界面完成文本、图像、视频和音频生成，内置 100+ 专用工具覆盖写作、图像编辑与视频制作",
+      "description": "AI 创作平台，整合 GPT、Claude、Gemini 等多个模型，同一界面完成文本、图像、视频和音频生成，内置 100+ 专用工具覆盖写作、图像编辑与视频制作",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -23675,7 +23933,7 @@
       "name": "ink-cartridge",
       "url": "https://github.com/BAIGAOa/ink-cartridge",
       "status": "online",
-      "description": "一个终端 UI 库，核心是一个框架无关(此库建立在这个自研的引擎之上)的键盘引擎——用 9 层优先级管道替代传统 if-else 堆叠，让复杂的按键冲突（模态框 > 覆盖层 > 全局快捷键 > 页面绑定）能用声明式 API 直接消解，而不是靠嵌套条件分支硬撑，另外还支持类vim可编程式的组合键。",
+      "description": "终端 UI 库，核心是一个框架无关(此库建立在这个自研的引擎之上)的键盘引擎——用 9 层优先级管道替代传统 if-else 堆叠，让复杂的按键冲突（模态框 > 覆盖层 > 全局快捷键 > 页面绑定）能用声明式 API 直接消解，而不是靠嵌套条件分支硬撑，另外还支持类vim可编程式的组合键。",
       "extraLinks": [],
       "categories": [
         "开发工具"
@@ -24704,7 +24962,7 @@
       "name": "卡网大全 · CardNav",
       "url": "https://cardnav.xyz",
       "status": "online",
-      "description": "一站式 AI 大模型账号购买导航，聚合中转站、卡网、官方订阅比价、模型排行、使用指南和实用工具",
+      "description": "AI 大模型账号购买导航，聚合中转站、卡网、官方订阅比价、模型排行、使用指南和实用工具",
       "extraLinks": [
         {
           "label": "更多介绍",
@@ -24981,7 +25239,7 @@
       "name": "Dramily",
       "url": "https://dramily.com",
       "status": "online",
-      "description": "一站式真人短剧生成工厂",
+      "description": "真人短剧生成工厂",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -26122,7 +26380,7 @@
       "name": "VisioArt",
       "url": "https://visioart.ai",
       "status": "online",
-      "description": "一站式 AI 图片和视频创作平台",
+      "description": "AI 图片和视频创作平台",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -26255,7 +26513,7 @@
       "name": "aniv",
       "url": "https://aniv.ai",
       "status": "online",
-      "description": "一站式 AI 创作工具站，浏览器打开即用：AI 文生图、AI 文生视频、视频画质增强、字幕合成",
+      "description": "AI 创作工具站，浏览器打开即用：AI 文生图、AI 文生视频、视频画质增强、字幕合成",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -29661,7 +29919,7 @@
       "name": "Zuss AI Video Generator",
       "url": "https://www.zuss.ai",
       "status": "online",
-      "description": "一站式 AI 图片与视频生成平台，整合多种先进模型，支持文字生成图片、图片生成视频、图片编辑和多模型创作工作流。",
+      "description": "AI 图片与视频生成平台，整合多种先进模型，支持文字生成图片、图片生成视频、图片编辑和多模型创作工作流",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -30884,7 +31142,7 @@
       "name": "Pdf To MD Converter",
       "url": "http://mdpdf.net/",
       "status": "online",
-      "description": "一款免费的 PDF 转 Markdown 在线转换工具, 快速且精准地把 PDF 文件转换成简洁的 Markdown 格式。",
+      "description": "PDF 转 Markdown 在线转换工具（免费）, 快速且精准地把 PDF 文件转换成简洁的 Markdown 格式。",
       "extraLinks": [],
       "categories": [
         "文档办公",
@@ -33717,7 +33975,7 @@
       "name": "WMHub",
       "url": "https://wmhub.io/",
       "status": "online",
-      "description": "一体化 AI 创作工作空间，支持视频、图像与 3D 生成，帮助团队更快产出高质量媒体资产。",
+      "description": "AI 创作工作空间，支持视频、图像与 3D 生成，帮助团队更快产出高质量媒体资产",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -35488,7 +35746,7 @@
       "name": "fluxchat",
       "url": "https://fluxchat.org/",
       "status": "online",
-      "description": "一站式 AI 功能聚合网站，包含 AI Image、AI Music、AI Video、AI chatbot 等功能",
+      "description": "AI 功能聚合网站，包含 AI Image、AI Music、AI Video、AI chatbot 等功能",
       "extraLinks": [],
       "categories": [
         "AI 工具"
@@ -37509,7 +37767,7 @@
       "name": "nbpro.io",
       "url": "https://nbpro.io/",
       "status": "online",
-      "description": "一站式 AI 图像与视频生成平台，整合了当前领先的图像与视频生成模型，包括 Nano Banana、Nano Banana Pro、sora2 等。平台内置智能提示词优化器，并提供大量真实可参考的生成案例，帮助用户创作高质量内容，生成的图片和视频均不带水印，适用于多种专业与商业场景",
+      "description": "AI 图像与视频生成平台，整合了当前领先的图像与视频生成模型，包括 Nano Banana、Nano Banana Pro、sora2 等。平台内置智能提示词优化器，并提供大量真实可参考的生成案例，帮助用户创作高质量内容，生成的图片和视频均不带水印，适用于多种专业与商业场景",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -39922,7 +40180,7 @@
       "name": "musci",
       "url": "https://musci.io",
       "status": "online",
-      "description": "一站式 music 生成平台",
+      "description": "music 生成平台",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -39965,7 +40223,7 @@
       "name": "nanobana.net",
       "url": "https://github.com/1c7/chinese-independent-developer/issues/url",
       "status": "online",
-      "description": "一站式 AI 图像、视频生成平台网站，集合了目前世界最先进的模型，如：Nano banana、sora2 等",
+      "description": "AI 图像、视频生成平台网站，集合了目前世界最先进的模型，如：Nano banana、sora2 等",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -42588,7 +42846,7 @@
       "name": "Vidgo AI",
       "url": "https://vidgo.ai",
       "status": "online",
-      "description": "一站式的图片，视频生成平台",
+      "description": "图片、视频生成平台",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -43983,7 +44241,7 @@
       "name": "原牛",
       "url": "https://mihoyonb.com",
       "status": "online",
-      "description": "一站式自媒体工具平台",
+      "description": "自媒体工具平台",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
@@ -46556,7 +46814,7 @@
       "name": "Free AI Image Generator",
       "url": "https://ai-image-generator.co",
       "status": "online",
-      "description": "一站式聚合所有主流 AI 图片生成模型，无需登录使用",
+      "description": "聚合所有主流 AI 图片生成模型，无需登录使用",
       "extraLinks": [
         {
           "label": "更多介绍",
@@ -47162,6 +47420,24 @@
       "categories": [
         "AI 工具",
         "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250604-rns-flux-1-kontext-image-generator",
+      "edition": "main",
+      "addedAt": "2025-06-04",
+      "maker": "rns",
+      "city": "",
+      "makerLinks": [],
+      "name": "FLUX.1 Kontext Image Generator",
+      "url": "https://flux1kontextimagegenerator.online/",
+      "status": "online",
+      "description": "具有上下文理解、角色一致性和本地编辑功能的 AI 图像生成器",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
       ],
       "source": "upstream"
     },
@@ -48349,6 +48625,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250513-brice-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-05-13",
+      "maker": "Brice",
+      "city": "南京",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250513-brice-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-05-13",
+      "maker": "Brice",
+      "city": "南京",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250513-brice-独立星球",
+      "edition": "main",
+      "addedAt": "2025-05-13",
+      "maker": "Brice",
+      "city": "南京",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250513-brice-独立观察",
+      "edition": "main",
+      "addedAt": "2025-05-13",
+      "maker": "Brice",
+      "city": "南京",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20250513-masz-ui2vue",
       "edition": "programmer",
       "addedAt": "2025-05-13",
@@ -48577,115 +48942,6 @@
       "extraLinks": [],
       "categories": [
         "音视频"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250510-liuyinjiwen06-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-05-10",
-      "maker": "Christine",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/liuyinjiwen06"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250510-liuyinjiwen06-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-05-10",
-      "maker": "Christine",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/liuyinjiwen06"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250510-liuyinjiwen06-独立星球",
-      "edition": "main",
-      "addedAt": "2025-05-10",
-      "maker": "Christine",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/liuyinjiwen06"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250510-liuyinjiwen06-独立观察",
-      "edition": "main",
-      "addedAt": "2025-05-10",
-      "maker": "Christine",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/liuyinjiwen06"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
@@ -62763,7 +63019,7 @@
       "name": "DSVisual",
       "url": "https://github.com/Sunrisepeak/DSVisual",
       "status": "developing",
-      "description": "一个**数据结构可视化**组件库",
+      "description": "数据结构可视化组件库",
       "extraLinks": [],
       "categories": [],
       "source": "upstream"
