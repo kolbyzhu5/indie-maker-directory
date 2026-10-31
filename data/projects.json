@@ -4,18 +4,18 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-30T01:57:41.519Z",
+  "generatedAt": "2026-10-31T01:35:35.100Z",
   "counts": {
-    "total": 3421,
-    "main": 2852,
-    "programmer": 412,
+    "total": 3429,
+    "main": 2858,
+    "programmer": 414,
     "game": 157,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1153,
-    "免费工具": 693,
-    "开发工具": 671,
+    "免费工具": 697,
+    "开发工具": 673,
+    "AI 工具": 1154,
     "浏览器扩展": 363,
     "图片工具": 649,
     "文档办公": 332,
@@ -27,6 +27,198 @@
     "生活服务": 105
   },
   "projects": [
+    {
+      "id": "main-20261030-yehyakin-ipzor",
+      "edition": "main",
+      "addedAt": "2026-10-30",
+      "maker": "yehyakin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yehyakin"
+        }
+      ],
+      "name": "IPZOR",
+      "url": "https://ipzor.com/",
+      "status": "online",
+      "description": "IP 地址查询与网络检测工具，查公网 IP、大致地区、ASN 和运营网络，还能对比网站出口、DNS、WebRTC 检测结果，每条数据都标明来源，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261030-yehyakin-hkdone-香港办事指南",
+      "edition": "main",
+      "addedAt": "2026-10-30",
+      "maker": "yehyakin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yehyakin"
+        }
+      ],
+      "name": "HKDone 香港办事指南",
+      "url": "https://hkdone.com/",
+      "status": "online",
+      "description": "给内地短期访港用户的办事指南，整理 33 项香港银行开户、电话卡、支付和交通服务的办理条件、所需材料和步骤，没有香港身份证也能提前准备",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261030-yehyakin-vaqira-独立产品收入榜",
+      "edition": "main",
+      "addedAt": "2026-10-30",
+      "maker": "yehyakin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yehyakin"
+        }
+      ],
+      "name": "VAQIRA · 独立产品收入榜",
+      "url": "https://vaqira.com/",
+      "status": "online",
+      "description": "独立开发者真实收入排行榜，每个数字都附创始人公开的原文出处，不估算、不换算，每天更新，数据按 CC BY 4.0 开放下载",
+      "extraLinks": [
+        {
+          "label": "收录规则",
+          "url": "https://vaqira.com/method/"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261030-pydaxing-食愿小灶",
+      "edition": "main",
+      "addedAt": "2026-10-30",
+      "maker": "pydaxing",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pydaxing"
+        }
+      ],
+      "name": "食愿小灶",
+      "url": "https://github.com/pydaxing/shiyuan#readme",
+      "status": "online",
+      "description": "面向两个人或一家人的家庭餐食协作微信小程序，一起选菜、安排每餐、调整备菜用量、整理采购清单；微信搜索「食愿小灶」使用",
+      "extraLinks": [
+        {
+          "label": "更多介绍与小程序码",
+          "url": "https://github.com/pydaxing/shiyuan#readme"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261030-korlynshae-asteriadne",
+      "edition": "main",
+      "addedAt": "2026-10-30",
+      "maker": "KorlynShae",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/KorlynShae"
+        }
+      ],
+      "name": "Asteriadne",
+      "url": "https://korlyn.xyz",
+      "status": "online",
+      "description": "实用网站与在线工具导航，每个网站都实际打开核实过并配有中文介绍和截图，按主题分类浏览，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261030-wlmosv-png-wpaforge",
+      "edition": "main",
+      "addedAt": "2026-10-30",
+      "maker": "wlmosv",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wlmosv-png"
+        }
+      ],
+      "name": "WPAForge",
+      "url": "https://wlmosv.dpdns.org/wpaforge/",
+      "status": "online",
+      "description": "Android 上的 Wi-Fi 网络审计工具，在手机本地逐条试出你自己路由器的 WPA/WPA2 口令，每条候选都真实发起一次关联、以 4-Way Handshake 是否完成为判据而非靠猜，附带 WPS 拆半攻击与离线 .cap/.hc22000 校验",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/wlmosv-png/wpaforge"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261030-alonemonkey-hotrepo",
+      "edition": "programmer",
+      "addedAt": "2026-10-30",
+      "maker": "AloneMonkey",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/AloneMonkey"
+        }
+      ],
+      "name": "HotRepo",
+      "url": "https://hotrepo.ai/zh",
+      "status": "online",
+      "description": "GitHub 热门项目发现网站，提供中英双语 AI 解读，可按日、周、月及历史榜单查看项目，网页版免费浏览、无需登录",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261030-mozzie49-polish-proof",
+      "edition": "programmer",
+      "addedAt": "2026-10-30",
+      "maker": "mozzie49",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mozzie49"
+        }
+      ],
+      "name": "Polish Proof",
+      "url": "https://github.com/mozzie49/polish-proof",
+      "status": "online",
+      "description": "现有网页的视觉润色 Skill，围绕约定的文案、品牌、控件和行为限制修改范围，配套前后截图、保护项检查与交互测试记录；MIT 开源",
+      "extraLinks": [
+        {
+          "label": "演示与使用说明",
+          "url": "https://github.com/mozzie49/polish-proof#same-product-css-only-polish"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261029-paulfan2200-debug-aivizens",
       "edition": "main",
@@ -14928,7 +15120,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261030-0",
+      "id": "custom-20261031-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48434,6 +48626,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250518-worminone-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-05-18",
+      "maker": "worminone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/worminone"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250518-worminone-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-05-18",
+      "maker": "worminone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/worminone"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250518-worminone-独立星球",
+      "edition": "main",
+      "addedAt": "2025-05-18",
+      "maker": "worminone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/worminone"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250518-worminone-独立观察",
+      "edition": "main",
+      "addedAt": "2025-05-18",
+      "maker": "worminone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/worminone"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20250517-weijunext-nexty-dev",
       "edition": "programmer",
       "addedAt": "2025-05-17",
@@ -48621,95 +48922,6 @@
       "extraLinks": [],
       "categories": [
         "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250513-brice-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-05-13",
-      "maker": "Brice",
-      "city": "南京",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250513-brice-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-05-13",
-      "maker": "Brice",
-      "city": "南京",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250513-brice-独立星球",
-      "edition": "main",
-      "addedAt": "2025-05-13",
-      "maker": "Brice",
-      "city": "南京",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250513-brice-独立观察",
-      "edition": "main",
-      "addedAt": "2025-05-13",
-      "maker": "Brice",
-      "city": "南京",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

@@ -1,10 +1,28 @@
-# AI 独立制造所 · 全部产品清单（3421）
+# AI 独立制造所 · 全部产品清单（3429）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-30（北京时间）
+> 更新时间：2026-10-31（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2852）
+## 大众产品（2858）
+
+- **[IPZOR](https://ipzor.com/)** — 开发者 yehyakin · 免费工具 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/ipzor.html)
+  IP 地址查询与网络检测工具，查公网 IP、大致地区、ASN 和运营网络，还能对比网站出口、DNS、WebRTC 检测结果，每条数据都标明来源，免费无需注册
+
+- **[HKDone 香港办事指南](https://hkdone.com/)** — 开发者 yehyakin · 未分类 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/hkdone.html)
+  给内地短期访港用户的办事指南，整理 33 项香港银行开户、电话卡、支付和交通服务的办理条件、所需材料和步骤，没有香港身份证也能提前准备
+
+- **[VAQIRA · 独立产品收入榜](https://vaqira.com/)** — 开发者 yehyakin · 开发工具 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/vaqira.html)
+  独立开发者真实收入排行榜，每个数字都附创始人公开的原文出处，不估算、不换算，每天更新，数据按 CC BY 4.0 开放下载
+
+- **[食愿小灶](https://github.com/pydaxing/shiyuan#readme)** — 开发者 pydaxing · 未分类 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/project-e13413.html)
+  面向两个人或一家人的家庭餐食协作微信小程序，一起选菜、安排每餐、调整备菜用量、整理采购清单；微信搜索「食愿小灶」使用
+
+- **[Asteriadne](https://korlyn.xyz)** — 开发者 KorlynShae · 免费工具 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/asteriadne.html)
+  实用网站与在线工具导航，每个网站都实际打开核实过并配有中文介绍和截图，按主题分类浏览，免费无需注册
+
+- **[WPAForge](https://wlmosv.dpdns.org/wpaforge/)** — 开发者 wlmosv · 未分类 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/wpaforge.html)
+  Android 上的 Wi-Fi 网络审计工具，在手机本地逐条试出你自己路由器的 WPA/WPA2 口令，每条候选都真实发起一次关联、以 4-Way Handshake 是否完成为判据而非靠猜，附带 WPS 拆半攻击与离线 .cap/.hc22000 校验
 
 - **[AIVIZENS](https://aivizens.com/?utm_source=chinese_independent_developer&utm_medium=submission)** — 开发者 Paul · AI 工具 / 免费工具 · 已上线 · 收录 2026-10-29 · [详情页](https://indiemaker.cn/p/aivizens.html)
   中文 AI 日报，每天 5 分钟读完，固定拆解两个一人公司（OPC）案例，附当天 AI 要闻与热门开源工具；免费，邮箱订阅，每期也有独立网页可直接读
@@ -5064,6 +5082,18 @@
 - **[AI Image Editor](https://aiimageeditor.me/)** — 开发者 worminone · AI 工具 / 图片工具 / 教育学习 / 社交社区 / 免费工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/ai-image-editor-ee7bdb.html)
   AI 图片处理工具，支持图片增强、去水印、抠图、风格转换、线稿提取等十余种功能。无需下载软件，无需注册，上传图片即可一键生成专业效果。适用于电商设计、社交内容创作、摄影后期、教育教学等多种场景，让图片编辑变得更智能、更高效、更简单！
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 worminone · AI 工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/ai-742a49.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 worminone · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/project-2ba98f.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 worminone · 开发工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/project-b2676e.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 worminone · 浏览器扩展 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/project-b26bee.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Free Voice Cloning](https://aiclonevoicefree.com/)** — 开发者 apple1413 · 音视频 / 免费工具 · 已上线 · 收录 2025-05-16 · [详情页](https://indiemaker.cn/p/free-voice-cloning.html)
   仅需 5 秒音频样本，即可克隆你的声音 无需登录 免费无限制使用
 
@@ -5087,18 +5117,6 @@
 
 - **[Attractiveness Scale](https://attractivenessscale.com/)** — 开发者 Brice（南京） · AI 工具 · 已上线 · 收录 2025-05-13 · [详情页](https://indiemaker.cn/p/attractiveness-scale.html)
   颜值打分网站（基于 AI）
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Brice（南京） · AI 工具 · 已上线 · 收录 2025-05-13 · [详情页](https://indiemaker.cn/p/ai-263b69.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Brice（南京） · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-13 · [详情页](https://indiemaker.cn/p/project-f4a4c9.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Brice（南京） · 开发工具 · 已上线 · 收录 2025-05-13 · [详情页](https://indiemaker.cn/p/project-00489e.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Brice（南京） · 浏览器扩展 · 已上线 · 收录 2025-05-13 · [详情页](https://indiemaker.cn/p/project-004d1e.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[在线工具箱](https://tools.cmdragon.cn/zh)** — 开发者 cmdragon（广州） · AI 工具 / 效率工具 · 已上线 · 收录 2025-05-12 · [详情页](https://indiemaker.cn/p/project-72825d.html)
   满足各种任务需求的在线工具，强大的AI驱动工具，提升您的工作效率
@@ -8562,7 +8580,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（412）
+## 程序员版（414）
+
+- **[HotRepo](https://hotrepo.ai/zh)** — 开发者 AloneMonkey · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/hotrepo.html)
+  GitHub 热门项目发现网站，提供中英双语 AI 解读，可按日、周、月及历史榜单查看项目，网页版免费浏览、无需登录
+
+- **[Polish Proof](https://github.com/mozzie49/polish-proof)** — 开发者 mozzie49 · 免费工具 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/polish-proof.html)
+  现有网页的视觉润色 Skill，围绕约定的文案、品牌、控件和行为限制修改范围，配套前后截图、保护项检查与交互测试记录；MIT 开源
 
 - **[xxapi](https://xxapi.ai/)** — 开发者 xxapi · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-29 · [详情页](https://indiemaker.cn/p/xxapi.html)
   Claude Code / Codex API 中转站，一个账号调用 Claude（Opus 5.5、Sonnet 5.5 等）和 GPT（GPT-6.1、GPT-5.6 等）模型；Claude Code 填 https://xxapi.ai，Codex 等 OpenAI 兼容工具填 https://xxapi.ai/v1；支付宝、微信、Stripe 充值 ¥1 = $1，余额不过期，按量计费，无月费

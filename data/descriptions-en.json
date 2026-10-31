@@ -14062,5 +14062,33 @@
  "main-20250513-brice-独立星球": {
   "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
   "at": "2026-10-30"
+ },
+ "main-20261030-yehyakin-hkdone-香港办事指南": {
+  "descEn": "A service guide for mainland users visiting Hong Kong for a short period of time, sorting out 33 conditions, required materials and steps for opening bank accounts, phone cards, payments and transportation services in Hong Kong. You can prepare in advance even without a Hong Kong ID card.",
+  "at": "2026-10-31"
+ },
+ "main-20261030-pydaxing-食愿小灶": {
+  "descEn": "A family meal collaboration WeChat Mini Program for two people or a family, where you can choose dishes together, arrange each meal, adjust the amount of food preparation, and organize the purchase list; search \"Shiyuan Xiaozao\" on WeChat to use",
+  "at": "2026-10-31"
+ },
+ "main-20261030-korlynshae-asteriadne": {
+  "descEn": "Practical website and online tool navigation, each website is actually opened and verified and equipped with Chinese introduction and screenshots. Browse by topic, free and no registration required.",
+  "at": "2026-10-31"
+ },
+ "main-20261030-wlmosv-png-wpaforge": {
+  "descEn": "Wi-Fi network audit tool on Android, you can try out your own router's WPA/WPA2 passwords one by one locally on your mobile phone. Each candidate actually initiates an association, using whether the 4-Way Handshake is completed as the criterion instead of relying on guessing. It comes with WPS splitting attack and offline .cap/.hc22000 verification.",
+  "at": "2026-10-31"
+ },
+ "programmer-20261030-alonemonkey-hotrepo": {
+  "descEn": "GitHub is a popular project discovery website that provides bilingual AI interpretation in Chinese and English. You can view projects by day, week, month and historical lists. The web version is free to browse and no login is required.",
+  "at": "2026-10-31"
+ },
+ "programmer-20261030-mozzie49-polish-proof": {
+  "descEn": "Visual polishing skill for existing web pages, focusing on the agreed modification scope of copywriting, branding, controls and behavior restrictions, supporting before and after screenshots, protection item inspection and interactive test records; MIT open source",
+  "at": "2026-10-31"
+ },
+ "custom-20261031-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-10-31"
  }
 }
