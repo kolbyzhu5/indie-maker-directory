@@ -4,29 +4,427 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-10-31T01:35:35.100Z",
+  "generatedAt": "2026-11-01T01:09:44.369Z",
   "counts": {
-    "total": 3429,
-    "main": 2858,
-    "programmer": 414,
+    "total": 3445,
+    "main": 2871,
+    "programmer": 417,
     "game": 157,
     "custom": 1
   },
   "categoryCounts": {
-    "免费工具": 697,
-    "开发工具": 673,
-    "AI 工具": 1154,
-    "浏览器扩展": 363,
-    "图片工具": 649,
-    "文档办公": 332,
-    "教育学习": 193,
-    "音视频": 610,
-    "效率工具": 481,
-    "社交社区": 125,
+    "AI 工具": 1162,
+    "音视频": 614,
+    "开发工具": 676,
+    "社交社区": 126,
+    "浏览器扩展": 366,
+    "免费工具": 706,
+    "效率工具": 483,
+    "文档办公": 333,
+    "教育学习": 194,
+    "图片工具": 652,
     "游戏娱乐": 190,
     "生活服务": 105
   },
   "projects": [
+    {
+      "id": "main-20261101-z4none-kyna-player",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "z4none",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/z4none"
+        }
+      ],
+      "name": "Kyna Player",
+      "url": "https://kyna.fynxlab.com/",
+      "status": "online",
+      "description": "支持 GPU 播放、DLSS 画质增强和 AI 字幕工具的 Windows 视频播放器",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-bosschow-logo-animation-ai",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "kian",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/BossChow"
+        }
+      ],
+      "name": "Logo Animation AI",
+      "url": "https://logoanimationai.com/",
+      "status": "online",
+      "description": "上传静态 Logo，选择动效模板或用文字描述效果，生成用于品牌展示、视频片头和社交媒体的 Logo 动画，无需掌握剪辑或关键帧",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-szj2ys-pic2svg",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "szj2ys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/szj2ys"
+        }
+      ],
+      "name": "Pic2SVG",
+      "url": "https://pic2svg.com/",
+      "status": "online",
+      "description": "Convert uploaded raster images to editable SVG paths with hosted tracing; includes a free browser-local SVG structure checker for files up to 2 MB, with no account or upload",
+      "extraLinks": [
+        {
+          "label": "SVG checker",
+          "url": "https://pic2svg.com/svg-cut-file-checker/"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-szj2ys-big-walk-guide",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "szj2ys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/szj2ys"
+        }
+      ],
+      "name": "Big Walk Guide",
+      "url": "https://thebigwalk.world/en/protocols",
+      "status": "online",
+      "description": "Free unofficial English/Chinese Big Walk guide with a browser signal-code planner, coordinate lookup and puzzle walkthroughs; no registration.",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-wenliabc2007-roam-radio",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "Li Wen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wenliabc2007"
+        }
+      ],
+      "name": "Roam Radio",
+      "url": "https://roamradios.com/",
+      "status": "online",
+      "description": "全球网络电台目录与播放器，按国家、音乐流派、语言或在 3D 地球上找台，浏览器直接收听，每个电台有独立详情页，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-tgchtggn29-bit-湾区-ai-日历",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "湾区AI日历",
+      "city": "广东",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tgchtggn29-bit"
+        }
+      ],
+      "name": "湾区 AI 日历",
+      "url": "https://wqai.ltd/",
+      "status": "online",
+      "description": "粤港澳大湾区 AI 活动与赛事日历，把深圳、广州、中国香港、东莞、珠海的 AI 大会、行业沙龙和黑客松按城市和日期排好，每天核对一次，每场都带主办方与官方报名入口，可一键订阅到手机日历",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-linmoqc-magic-resume",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "LinMoQC",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/LinMoQC"
+        }
+      ],
+      "name": "Magic Resume",
+      "url": "https://www.magic-resume.cn/",
+      "status": "online",
+      "description": "开源 AI 简历工作台，支持实时预览、按目标岗位获取建议，逐条采纳或跳过 AI 修改；提供中英文、可自定义模板及 PDF/JSON 导出，云端版提供免费和付费计划",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/Magic-Resume/Magic-Resume"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-linky-aiinlink-referralcodes-canada",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "Linky",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "name": "ReferralCodes Canada",
+      "url": "https://referralcodescanada.com/",
+      "status": "online",
+      "description": "加拿大推荐码与注册奖励目录，查找、比较并分享各种服务的推荐码，了解奖励详情、资格要求和分享规则，帮助用户在加拿大获取更多优惠",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261031-18841144913-kanacraft-卡娜日语-卡娜英语",
+      "edition": "main",
+      "addedAt": "2026-10-31",
+      "maker": "18841144913",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/18841144913"
+        }
+      ],
+      "name": "KanaCraft 卡娜日语 / 卡娜英语",
+      "url": "https://kanacraft.cn/library",
+      "status": "online",
+      "description": "面向中文用户的日语与英语自学网站，日语从零基础五十音与听写入门，覆盖 JLPT N5–N1 词汇和教材词书，英语用打字、听写、卡片与连连看背单词并带语法知识库，覆盖四六级、考研与雅思托福词库；基础功能免费、会员可选 — 浏览器即可用，适配手机、平板与电脑",
+      "extraLinks": [
+        {
+          "label": "卡娜英语",
+          "url": "https://english.kanacraft.cn/"
+        }
+      ],
+      "categories": [
+        "浏览器扩展",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261031-ceasarxuu-豆门",
+      "edition": "main",
+      "addedAt": "2026-10-31",
+      "maker": "ceasarXuu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ceasarXuu"
+        }
+      ],
+      "name": "豆门",
+      "url": "https://doumen.work/",
+      "status": "online",
+      "description": "面向拼豆爱好者的图纸识别与制作 App，导入现成图纸或照片后核对网格与颜色，编辑导出并记录制作进度；免费、无需注册，支持 iOS / iPadOS 与 Android",
+      "extraLinks": [
+        {
+          "label": "原创图纸与入门教程",
+          "url": "https://doumen.work/blog/beginner-guide/"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261031-dj05305-chanscout",
+      "edition": "main",
+      "addedAt": "2026-10-31",
+      "maker": "Jun Dong",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dj05305"
+        }
+      ],
+      "name": "ChanScout",
+      "url": "https://chanscout.com/",
+      "status": "online",
+      "description": "中文 Telegram 公开资源目录，收录可核验的频道、群组与机器人，支持分类浏览与持续核验，免费使用",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261031-isixe-bgx",
+      "edition": "main",
+      "addedAt": "2026-10-31",
+      "maker": "isixe",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/isixe"
+        }
+      ],
+      "name": "BGX",
+      "url": "https://bgx.itea.dev/",
+      "status": "online",
+      "description": "AI 抠图工具，内置 U2Net / ISNet / BRIA RMBG 等 9 个模型，全部在浏览器本地推理、图片不上传，可导出透明 PNG、白底 JPG 或 WebP，另有 Windows 桌面版可离线使用，免费无需注册",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/isixe/bgx"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261031-isixe-bg2x",
+      "edition": "main",
+      "addedAt": "2026-10-31",
+      "maker": "isixe",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/isixe"
+        }
+      ],
+      "name": "bg2x",
+      "url": "https://bg2x.itea.dev/",
+      "status": "online",
+      "description": "AI 图片无损放大工具，Real-ESRGAN / Swin2SR / Real-CUGAN 共 10 个模型本地推理，最高 4 倍放大、GPU 加速、批量导出 ZIP，图片不上传、首次下载模型后可离线，免费开源",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/isixe/bg2x"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261031-yeefyisok-jev-subtitle-translator",
+      "edition": "programmer",
+      "addedAt": "2026-10-31",
+      "maker": "YeefyisOK",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/YeefyisOK"
+        }
+      ],
+      "name": "jev-subtitle-translator",
+      "url": "https://github.com/GeekLinkDev/jev-subtitle-translator",
+      "status": "online",
+      "description": "开源 SRT 字幕翻译工具，用结构化 LLM 输出（OpenRouter，可选 GPT/Claude/Gemini/DeepSeek 等）翻译字幕，保留每条字幕的序号和时间轴，漏译自动按 ID 重试，并用 Jev 自动质检，提供本地网页界面和 CLI。是 GeekLink 字幕软件开源出来的翻译引擎",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261031-rowink-iris-analytics",
+      "edition": "programmer",
+      "addedAt": "2026-10-31",
+      "maker": "rowink",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/rowink"
+        }
+      ],
+      "name": "Iris Analytics",
+      "url": "https://github.com/rowink/IrisAnalytics",
+      "status": "online",
+      "description": "轻量开源的网站流量分析面板，基于 Cloudflare Pages + Analytics Engine，无需数据库，部署后一条 script 标签即可统计访问数据，支持密码保护、站点白名单和 IP 黑名单过滤，免费自托管",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261031-krisyangdev-motionboard",
+      "edition": "programmer",
+      "addedAt": "2026-10-31",
+      "maker": "Kris Yang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/krisyangdev"
+        }
+      ],
+      "name": "Motionboard",
+      "url": "https://motionboard.app",
+      "status": "online",
+      "description": "发布片镜头配方库，38 个 Apple、Linear 等官方发布片镜头的 HyperFrames 复刻，附 agent skill，npx skills add 一行安装让 Claude Code 做发布片",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261030-yehyakin-ipzor",
       "edition": "main",
@@ -15120,7 +15518,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261031-0",
+      "id": "custom-20261101-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48053,6 +48451,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250530-shawnhacks-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-05-30",
+      "maker": "ShownHacks",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ShawnHacks"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250530-shawnhacks-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-05-30",
+      "maker": "ShownHacks",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ShawnHacks"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250530-shawnhacks-独立星球",
+      "edition": "main",
+      "addedAt": "2025-05-30",
+      "maker": "ShownHacks",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ShawnHacks"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250530-shawnhacks-独立观察",
+      "edition": "main",
+      "addedAt": "2025-05-30",
+      "maker": "ShownHacks",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ShawnHacks"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250529-weight567-transmonkey",
       "edition": "main",
       "addedAt": "2025-05-29",
@@ -48622,115 +49129,6 @@
         "教育学习",
         "社交社区",
         "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250518-worminone-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-05-18",
-      "maker": "worminone",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/worminone"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250518-worminone-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-05-18",
-      "maker": "worminone",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/worminone"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250518-worminone-独立星球",
-      "edition": "main",
-      "addedAt": "2025-05-18",
-      "maker": "worminone",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/worminone"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250518-worminone-独立观察",
-      "edition": "main",
-      "addedAt": "2025-05-18",
-      "maker": "worminone",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/worminone"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

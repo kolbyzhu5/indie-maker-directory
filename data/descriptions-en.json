@@ -14090,5 +14090,97 @@
  "custom-20261031-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-10-31"
+ },
+ "programmer-20261031-krisyangdev-motionboard": {
+  "descEn": "Release lens recipe library, 38 HyperFrames replicas of official release lenses from Apple, Linear, etc., with agent skill, npx skills add one-line installation for Claude Code to make release footage",
+  "at": "2026-11-01"
+ },
+ "main-20261030-yehyakin-ipzor": {
+  "descEn": "IP address query and network detection tool, check public IP, general area, ASN and operating network, and compare website export, DNS, WebRTC detection results, each data is marked with the source, free and no registration required",
+  "at": "2026-11-01"
+ },
+ "main-20261030-yehyakin-vaqira-独立产品收入榜": {
+  "descEn": "The real income ranking list of independent developers. Each number is accompanied by the source of the original text disclosed by the founder. There is no estimate or conversion. It is updated every day. The data is open for download under CC BY 4.0.",
+  "at": "2026-11-01"
+ },
+ "custom-20261101-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-01"
+ },
+ "main-20250530-shawnhacks-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-01"
+ },
+ "main-20250530-shawnhacks-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-01"
+ },
+ "main-20250530-shawnhacks-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-01"
+ },
+ "main-20250530-shawnhacks-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-01"
+ },
+ "main-20261101-z4none-kyna-player": {
+  "descEn": "Windows video player with GPU playback, DLSS quality enhancement, and AI subtitle tools",
+  "at": "2026-11-01"
+ },
+ "main-20261101-bosschow-logo-animation-ai": {
+  "descEn": "Upload a static logo, choose an animation template or describe the effect with text, and generate logo animations for brand display, video titles and social media without mastering editing or keyframes.",
+  "at": "2026-11-01"
+ },
+ "main-20261101-szj2ys-pic2svg": {
+  "descEn": "Convert uploaded raster images to editable SVG paths with hosted tracing; includes a free browser-local SVG structure checker for files up to 2 MB, with no account or upload",
+  "at": "2026-11-01"
+ },
+ "main-20261101-szj2ys-big-walk-guide": {
+  "descEn": "Free unofficial English/Chinese Big Walk guide with a browser signal-code planner, coordinate lookup and puzzle walkthroughs; no registration.",
+  "at": "2026-11-01"
+ },
+ "main-20261101-wenliabc2007-roam-radio": {
+  "descEn": "Global online radio station directory and player. Find stations by country, music genre, language or on the 3D globe. Listen directly through the browser. Each station has its own details page. It’s free and no registration is required.",
+  "at": "2026-11-01"
+ },
+ "main-20261101-tgchtggn29-bit-湾区-ai-日历": {
+  "descEn": "The calendar of AI activities and competitions in the Guangdong-Hong Kong-Macao Greater Bay Area arranges AI conferences, industry salons and hackathons in Shenzhen, Guangzhou, Hong Kong, Dongguan and Zhuhai by city and date. It is checked once a day. Each event has the organizer and official registration portal, and can be subscribed to the mobile calendar with one click.",
+  "at": "2026-11-01"
+ },
+ "main-20261101-linmoqc-magic-resume": {
+  "descEn": "The open source AI resume workbench supports real-time preview, obtaining suggestions based on target positions, and adopting or skipping AI modifications one by one. It provides Chinese and English, customizable templates, and PDF/JSON export. The cloud version provides free and paid plans.",
+  "at": "2026-11-01"
+ },
+ "main-20261101-linky-aiinlink-referralcodes-canada": {
+  "descEn": "Directory of Canadian referral codes and registration rewards. Find, compare and share referral codes for various services. Learn about reward details, eligibility requirements and sharing rules to help users get more discounts in Canada.",
+  "at": "2026-11-01"
+ },
+ "main-20261031-18841144913-kanacraft-卡娜日语-卡娜英语": {
+  "descEn": "A self-study website for Japanese and English for Chinese users. It provides an introduction to Japanese tones and dictation from scratch. It covers JLPT N5-N1 vocabulary and textbooks. English uses typing, dictation, flashcards, and Lianliankan to memorize words with a grammar knowledge base. It covers CET-4 and CET-6, postgraduate entrance examinations, and IELTS TOEFL thesaurus. Basic functions are free and membership is optional. It is available in the browser and is suitable for mobile phones, tablets, and computers.",
+  "at": "2026-11-01"
+ },
+ "main-20261031-ceasarxuu-豆门": {
+  "descEn": "A drawing recognition and production app for Pindou enthusiasts. Import ready-made drawings or photos, check grids and colors, edit and export, and record production progress; free, no registration required, supports iOS / iPadOS and Android",
+  "at": "2026-11-01"
+ },
+ "main-20261031-dj05305-chanscout": {
+  "descEn": "Chinese Telegram public resource directory, including verifiable channels, groups and robots, supports classified browsing and continuous verification, free to use",
+  "at": "2026-11-01"
+ },
+ "main-20261031-isixe-bgx": {
+  "descEn": "AI cutout tool, built-in 9 models such as U2Net / ISNet / BRIA RMBG, all inferred locally in the browser, images are not uploaded, and can export transparent PNG, white background JPG or WebP. There is also a Windows desktop version that can be used offline, free and no registration required.",
+  "at": "2026-11-01"
+ },
+ "main-20261031-isixe-bg2x": {
+  "descEn": "AI image lossless amplification tool, Real-ESRGAN / Swin2SR / Real-CUGAN, local inference for a total of 10 models, up to 4 times amplification, GPU acceleration, batch export to ZIP, images are not uploaded, and the model can be offline after the first download, free and open source",
+  "at": "2026-11-01"
+ },
+ "programmer-20261031-yeefyisok-jev-subtitle-translator": {
+  "descEn": "The open source SRT subtitle translation tool uses structured LLM output (OpenRouter, optional GPT/Claude/Gemini/DeepSeek, etc.) to translate subtitles, retains the serial number and timeline of each subtitle, automatically retries based on ID for missed translations, and uses Jev for automatic quality inspection, providing a local web interface and CLI. It is a translation engine open sourced by GeekLink subtitle software.",
+  "at": "2026-11-01"
+ },
+ "programmer-20261031-rowink-iris-analytics": {
+  "descEn": "A lightweight open source website traffic analysis panel, based on Cloudflare Pages + Analytics Engine, no database required. A script tag after deployment can count access data. It supports password protection, site whitelist and IP blacklist filtering, and is self-hosted for free.",
+  "at": "2026-11-01"
  }
 }

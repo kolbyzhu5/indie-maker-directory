@@ -1,10 +1,49 @@
-# AI 独立制造所 · 全部产品清单（3429）
+# AI 独立制造所 · 全部产品清单（3445）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-10-31（北京时间）
+> 更新时间：2026-11-01（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2858）
+## 大众产品（2871）
+
+- **[Kyna Player](https://kyna.fynxlab.com/)** — 开发者 z4none · AI 工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/kyna-player.html)
+  支持 GPU 播放、DLSS 画质增强和 AI 字幕工具的 Windows 视频播放器
+
+- **[Logo Animation AI](https://logoanimationai.com/)** — 开发者 kian · AI 工具 / 音视频 / 社交社区 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/logo-animation-ai.html)
+  上传静态 Logo，选择动效模板或用文字描述效果，生成用于品牌展示、视频片头和社交媒体的 Logo 动画，无需掌握剪辑或关键帧
+
+- **[Pic2SVG](https://pic2svg.com/)** — 开发者 szj2ys · 未分类 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/pic2svg.html)
+  Convert uploaded raster images to editable SVG paths with hosted tracing; includes a free browser-local SVG structure checker for files up to 2 MB, with no account or upload
+
+- **[Big Walk Guide](https://thebigwalk.world/en/protocols)** — 开发者 szj2ys · 未分类 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/big-walk-guide.html)
+  Free unofficial English/Chinese Big Walk guide with a browser signal-code planner, coordinate lookup and puzzle walkthroughs; no registration.
+
+- **[Roam Radio](https://roamradios.com/)** — 开发者 Li Wen · 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/roam-radio.html)
+  全球网络电台目录与播放器，按国家、音乐流派、语言或在 3D 地球上找台，浏览器直接收听，每个电台有独立详情页，免费无需注册
+
+- **[湾区 AI 日历](https://wqai.ltd/)** — 开发者 湾区AI日历（广东） · AI 工具 / 效率工具 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/ai-3207e9.html)
+  粤港澳大湾区 AI 活动与赛事日历，把深圳、广州、中国香港、东莞、珠海的 AI 大会、行业沙龙和黑客松按城市和日期排好，每天核对一次，每场都带主办方与官方报名入口，可一键订阅到手机日历
+
+- **[Magic Resume](https://www.magic-resume.cn/)** — 开发者 LinMoQC · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/magic-resume.html)
+  开源 AI 简历工作台，支持实时预览、按目标岗位获取建议，逐条采纳或跳过 AI 修改；提供中英文、可自定义模板及 PDF/JSON 导出，云端版提供免费和付费计划
+
+- **[ReferralCodes Canada](https://referralcodescanada.com/)** — 开发者 Linky · 未分类 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/referralcodes-canada.html)
+  加拿大推荐码与注册奖励目录，查找、比较并分享各种服务的推荐码，了解奖励详情、资格要求和分享规则，帮助用户在加拿大获取更多优惠
+
+- **[KanaCraft 卡娜日语 / 卡娜英语](https://kanacraft.cn/library)** — 开发者 18841144913 · 浏览器扩展 / 教育学习 / 免费工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/kanacraft.html)
+  面向中文用户的日语与英语自学网站，日语从零基础五十音与听写入门，覆盖 JLPT N5–N1 词汇和教材词书，英语用打字、听写、卡片与连连看背单词并带语法知识库，覆盖四六级、考研与雅思托福词库；基础功能免费、会员可选 — 浏览器即可用，适配手机、平板与电脑
+
+- **[豆门](https://doumen.work/)** — 开发者 ceasarXuu · 图片工具 / 免费工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/project-0ff039.html)
+  面向拼豆爱好者的图纸识别与制作 App，导入现成图纸或照片后核对网格与颜色，编辑导出并记录制作进度；免费、无需注册，支持 iOS / iPadOS 与 Android
+
+- **[ChanScout](https://chanscout.com/)** — 开发者 Jun Dong · 免费工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/chanscout.html)
+  中文 Telegram 公开资源目录，收录可核验的频道、群组与机器人，支持分类浏览与持续核验，免费使用
+
+- **[BGX](https://bgx.itea.dev/)** — 开发者 isixe · AI 工具 / 图片工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/bgx.html)
+  AI 抠图工具，内置 U2Net / ISNet / BRIA RMBG 等 9 个模型，全部在浏览器本地推理、图片不上传，可导出透明 PNG、白底 JPG 或 WebP，另有 Windows 桌面版可离线使用，免费无需注册
+
+- **[bg2x](https://bg2x.itea.dev/)** — 开发者 isixe · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/bg2x.html)
+  AI 图片无损放大工具，Real-ESRGAN / Swin2SR / Real-CUGAN 共 10 个模型本地推理，最高 4 倍放大、GPU 加速、批量导出 ZIP，图片不上传、首次下载模型后可离线，免费开源
 
 - **[IPZOR](https://ipzor.com/)** — 开发者 yehyakin · 免费工具 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/ipzor.html)
   IP 地址查询与网络检测工具，查公网 IP、大致地区、ASN 和运营网络，还能对比网站出口、DNS、WebRTC 检测结果，每条数据都标明来源，免费无需注册
@@ -5010,6 +5049,18 @@
 - **[SnapReader](https://chromewebstore.google.com/detail/snapreader/mogfnnfmcbchdciddfejbkfgahklegpp)** — 开发者 ShownHacks · 浏览器扩展 / 教育学习 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/snapreader.html)
   立即快速保存在线内容，稍后轻松阅读，SnapReader 是一款轻量级的浏览器扩展，旨在帮助你以最小的阻力捕获在线内容
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 ShownHacks · AI 工具 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/ai-3cc7e2.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 ShownHacks · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/project-602312.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 ShownHacks · 开发工具 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/project-0ab57c.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 ShownHacks · 浏览器扩展 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/project-0ab9fc.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Transmonkey](https://www.transmonkey.ai/)** — 开发者 Charlie（上海） · 未分类 · 已上线 · 收录 2025-05-29 · [详情页](https://indiemaker.cn/p/transmonkey.html)
   所有您所需的翻译工具，一应俱全
 
@@ -5081,18 +5132,6 @@
 
 - **[AI Image Editor](https://aiimageeditor.me/)** — 开发者 worminone · AI 工具 / 图片工具 / 教育学习 / 社交社区 / 免费工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/ai-image-editor-ee7bdb.html)
   AI 图片处理工具，支持图片增强、去水印、抠图、风格转换、线稿提取等十余种功能。无需下载软件，无需注册，上传图片即可一键生成专业效果。适用于电商设计、社交内容创作、摄影后期、教育教学等多种场景，让图片编辑变得更智能、更高效、更简单！
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 worminone · AI 工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/ai-742a49.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 worminone · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/project-2ba98f.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 worminone · 开发工具 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/project-b2676e.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 worminone · 浏览器扩展 · 已上线 · 收录 2025-05-18 · [详情页](https://indiemaker.cn/p/project-b26bee.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Free Voice Cloning](https://aiclonevoicefree.com/)** — 开发者 apple1413 · 音视频 / 免费工具 · 已上线 · 收录 2025-05-16 · [详情页](https://indiemaker.cn/p/free-voice-cloning.html)
   仅需 5 秒音频样本，即可克隆你的声音 无需登录 免费无限制使用
@@ -8580,7 +8619,16 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（414）
+## 程序员版（417）
+
+- **[jev-subtitle-translator](https://github.com/GeekLinkDev/jev-subtitle-translator)** — 开发者 YeefyisOK · AI 工具 / 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/jev-subtitle-translator.html)
+  开源 SRT 字幕翻译工具，用结构化 LLM 输出（OpenRouter，可选 GPT/Claude/Gemini/DeepSeek 等）翻译字幕，保留每条字幕的序号和时间轴，漏译自动按 ID 重试，并用 Jev 自动质检，提供本地网页界面和 CLI。是 GeekLink 字幕软件开源出来的翻译引擎
+
+- **[Iris Analytics](https://github.com/rowink/IrisAnalytics)** — 开发者 rowink · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/iris-analytics.html)
+  轻量开源的网站流量分析面板，基于 Cloudflare Pages + Analytics Engine，无需数据库，部署后一条 script 标签即可统计访问数据，支持密码保护、站点白名单和 IP 黑名单过滤，免费自托管
+
+- **[Motionboard](https://motionboard.app)** — 开发者 Kris Yang · AI 工具 · 已上线 · 收录 2026-10-31 · [详情页](https://indiemaker.cn/p/motionboard.html)
+  发布片镜头配方库，38 个 Apple、Linear 等官方发布片镜头的 HyperFrames 复刻，附 agent skill，npx skills add 一行安装让 Claude Code 做发布片
 
 - **[HotRepo](https://hotrepo.ai/zh)** — 开发者 AloneMonkey · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-30 · [详情页](https://indiemaker.cn/p/hotrepo.html)
   GitHub 热门项目发现网站，提供中英双语 AI 解读，可按日、周、月及历史榜单查看项目，网页版免费浏览、无需登录
