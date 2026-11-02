@@ -1,10 +1,40 @@
-# AI 独立制造所 · 全部产品清单（3452）
+# AI 独立制造所 · 全部产品清单（3464）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-11-02（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2876）
+## 大众产品（2886）
+
+- **[RapMotion](https://rapmotion.app)** — 开发者 fansion（北京） · AI 工具 / 图片工具 / 音视频 / 社交社区 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/rapmotion.html)
+  AI 双人 Rap 视频生成工具。上传两张人物照片并选择预设风格，即可生成两人同台 Rap、带原创歌词与节拍且口型同步的竖屏短视频，适合制作朋友合拍、生日祝福和社交媒体内容；无需写提示词、安装 App 或剪辑视频
+
+- **[Dayfly Mail](https://dayfly.email/zh-CN)** — 开发者 259007 · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/dayfly-mail.html)
+  临时邮箱网站，适合临时接收验证邮件或开发应用时测试收信，免费、无需注册也不用填手机号，有效期 10 分钟、1 小时、24 小时和 3 天可选，邮箱前缀随机生成或自己填写，支持查看文本和 HTML 邮件、用完手动销毁；只收不发、不保存附件
+
+- **[AudioScript 声稿](https://audioscript.looplooptech.com/)** — 开发者 Nico · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/audioscript.html)
+  离线优先的实时同传字幕工具，监听系统声音并在悬浮窗中流式显示原文与译文，音频全程在本机处理，支持 macOS / Windows / Linux，免费开源
+
+- **[QuickPix](https://obelisk.club/quickpix?lang=zh)** — 开发者 Peter Zhang · 图片工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/quickpix.html)
+  Mac 图片压缩与格式转换 App，支持 HEIC 和 RAW，画质可调，图片全程在本机处理不上传，免费下载
+
+- **[QuickVid](https://obelisk.club/quickvid?lang=zh)** — 开发者 Peter Zhang · 音视频 / 社交社区 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/quickvid.html)
+  Mac 视频压缩 App，拖入视频即可压到适合邮件和聊天发送的大小，用 Apple 芯片硬件编码，文件留在本机
+
+- **[饮品咖啡因速查](https://obelisk.club/caffeine-in?lang=zh)** — 开发者 Peter Zhang · 效率工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/project-0c129f.html)
+  咖啡、茶、奶茶、能量饮料和汽水的咖啡因含量对照，附份量、入睡时间和每日上限参考，免费无需注册
+
+- **[ShotMap](https://ixiehao.github.io/ShotMap/zh/)** — 开发者 ixiehao · 音视频 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/shotmap.html)
+  macOS 视频拼图工具，自动或手动选帧，批量导出带时间码的分镜图，视频在本机处理；免费、MIT 开源，macOS 13+
+
+- **[MP4Flow](https://ixiehao.github.io/MP4Flow/)** — 开发者 ixiehao · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/mp4flow.html)
+  macOS 视频处理工具，批量转 MP4、截取片段、裁切画面、旋转和合并；免费、MIT 开源，macOS 13+，需另装 FFmpeg 和 ffprobe
+
+- **[LumaView](https://ixiehao.github.io/LumaView/)** — 开发者 ixiehao · 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/lumaview.html)
+  macOS 轻量看图工具，直接浏览文件夹、缩放旋转、查看 EXIF 和多页 PDF；免费、MIT 开源，macOS 12+，通用版 DMG 约 2.5 MB
+
+- **[Nihongo to Japan](https://www.nihongotojapan.com/zh-cn)** — 开发者 Hsiao-Yi Yang · 文档办公 / 教育学习 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/nihongo-to-japan.html)
+  日语自学网站，从五十音到 JLPT N1，650+ 篇文法解说、191 课自学教材、程度测验与动词变化表，支持简体中文等 9 种界面；核心内容免费无需注册，另有可选支持方案（额外练习与 PDF），网站含广告
 
 - **[TrustBible Bible Word Counter](https://trustbible.org/zh-cn/bible-word-counter/)** — 开发者 Jeff Song · 文档办公 / 免费工具 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/trustbible-bible-word-counter.html)
   KJV 与和合本全文词频统计，输出命中经文、旧约/新约分部计数并支持 CSV 导出；中英双语界面，无需注册，按字面字符匹配、不做神学解释
@@ -5007,6 +5037,18 @@
 - **[Mouse Pro](https://mousepro.app)** — 开发者 Schopenlaam · 音视频 / 教育学习 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/mouse-pro.html)
   鼠标高亮、放大、聚焦、阅读，适用于视频会议屏幕共享、演示和视频教程录制等
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Schopenlaam · AI 工具 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/ai-03eb24.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Schopenlaam · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/project-8394cc.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Schopenlaam · 开发工具 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/project-925b6c.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Schopenlaam · 浏览器扩展 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/project-925fec.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[AI 取名网](https://bbname.cc/)** — 开发者 CodaPrime · AI 工具 / 浏览器扩展 · 已上线 · 收录 2025-06-04 · [详情页](https://indiemaker.cn/p/ai-32de36.html)
   用 AI 帮助宝宝取名服务，依据中国传统命理学为您的宝宝提供最为合适的名字。这款扩展功能融合了八字、生肖、五行以及三才五格等多种传统命理因素，为您的宝宝量身打造吉祥如意的好名字
 
@@ -5063,18 +5105,6 @@
 
 - **[SnapReader](https://chromewebstore.google.com/detail/snapreader/mogfnnfmcbchdciddfejbkfgahklegpp)** — 开发者 ShownHacks · 浏览器扩展 / 教育学习 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/snapreader.html)
   立即快速保存在线内容，稍后轻松阅读，SnapReader 是一款轻量级的浏览器扩展，旨在帮助你以最小的阻力捕获在线内容
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 ShownHacks · AI 工具 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/ai-3cc7e2.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 ShownHacks · 开发工具 / 免费工具 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/project-602312.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 ShownHacks · 开发工具 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/project-0ab57c.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 ShownHacks · 浏览器扩展 · 已上线 · 收录 2025-05-30 · [详情页](https://indiemaker.cn/p/project-0ab9fc.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Transmonkey](https://www.transmonkey.ai/)** — 开发者 Charlie（上海） · 未分类 · 已上线 · 收录 2025-05-29 · [详情页](https://indiemaker.cn/p/transmonkey.html)
   所有您所需的翻译工具，一应俱全
@@ -8634,7 +8664,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（419）
+## 程序员版（420）
+
+- **[Swift 与 App Store 开发者工具](https://obelisk.club/toolkit?lang=zh)** — 开发者 Peter Zhang · 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/swift-app-store.html)
+  iOS / Mac 应用上架前用的免费浏览器工具，Info.plist 检查、ITMS 上传报错查询、隐私政策生成、App Store 链接生成等，无需注册，文件不上传
 
 - **[AudioLens](https://marketplace.visualstudio.com/items?itemName=simzhou.audiolens)** — 开发者 SimZhou · 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-01 · [详情页](https://indiemaker.cn/p/audiolens.html)
   VS Code 音频查看与分析扩展，在本地或 Remote SSH 工作区查看多声道波形、频谱和选区 RMS/峰值，支持原始 PCM 与 Kaldi Ark 中的 WAV 条目，免费、Apache-2.0 开源
@@ -9893,7 +9926,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（157）
+## 独立游戏（158）
+
+- **[Poker Practice Simulator](https://pokerpracticesimulator.com/)** — 开发者 Linky-AIinlink · 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/poker-practice-simulator.html)
+  免费的在线德州扑克练习工具，与电脑对手对局，实时查看胜率、补牌与底池赔率，支持中英文，无需注册
 
 - **[Choicer Voicer](https://choicervoicer.com/?utm_source=chineseindie.com&utm_medium=referral&utm_campaign=directory)** — 开发者 liujd0326 · 浏览器扩展 / 社交社区 · 已上线 · 收录 2026-10-25 · [详情页](https://indiemaker.cn/p/choicer-voicer.html)
   The Choicer Voicer 的第三方社区配音包资源站，提供 Voice Pack、Dub Pack 等素材检索、预览与原始来源链接，附浏览器本地 ZIP 校验和配音包制作工具

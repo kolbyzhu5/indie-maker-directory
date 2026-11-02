@@ -4,29 +4,355 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-02T01:30:08.861Z",
+  "generatedAt": "2026-11-02T13:52:13.310Z",
   "counts": {
-    "total": 3452,
-    "main": 2876,
-    "programmer": 419,
-    "game": 157,
+    "total": 3464,
+    "main": 2886,
+    "programmer": 420,
+    "game": 158,
     "custom": 1
   },
   "categoryCounts": {
-    "文档办公": 335,
-    "免费工具": 712,
-    "AI 工具": 1167,
-    "开发工具": 678,
-    "音视频": 617,
-    "教育学习": 195,
+    "AI 工具": 1168,
+    "图片工具": 656,
+    "音视频": 622,
+    "社交社区": 128,
+    "开发工具": 684,
+    "免费工具": 722,
+    "效率工具": 485,
+    "文档办公": 337,
+    "教育学习": 196,
+    "浏览器扩展": 372,
     "生活服务": 106,
-    "社交社区": 126,
-    "图片工具": 654,
-    "浏览器扩展": 371,
-    "效率工具": 483,
     "游戏娱乐": 190
   },
   "projects": [
+    {
+      "id": "main-20261102-yafanisonya-rapmotion",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "fansion",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yafanisonya"
+        }
+      ],
+      "name": "RapMotion",
+      "url": "https://rapmotion.app",
+      "status": "online",
+      "description": "AI 双人 Rap 视频生成工具。上传两张人物照片并选择预设风格，即可生成两人同台 Rap、带原创歌词与节拍且口型同步的竖屏短视频，适合制作朋友合拍、生日祝福和社交媒体内容；无需写提示词、安装 App 或剪辑视频",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://rapmotion.app"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-259007-dayfly-mail",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "259007",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/259007"
+        }
+      ],
+      "name": "Dayfly Mail",
+      "url": "https://dayfly.email/zh-CN",
+      "status": "online",
+      "description": "临时邮箱网站，适合临时接收验证邮件或开发应用时测试收信，免费、无需注册也不用填手机号，有效期 10 分钟、1 小时、24 小时和 3 天可选，邮箱前缀随机生成或自己填写，支持查看文本和 HTML 邮件、用完手动销毁；只收不发、不保存附件",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-niyongsheng-audioscript-声稿",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "Nico",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/niyongsheng"
+        }
+      ],
+      "name": "AudioScript 声稿",
+      "url": "https://audioscript.looplooptech.com/",
+      "status": "online",
+      "description": "离线优先的实时同传字幕工具，监听系统声音并在悬浮窗中流式显示原文与译文，音频全程在本机处理，支持 macOS / Windows / Linux，免费开源",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/niyongsheng/AudioScript"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-peterzhang0216-quickpix",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "Peter Zhang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        },
+        {
+          "label": "博客",
+          "url": "https://obelisk.club/blog?lang=zh"
+        }
+      ],
+      "name": "QuickPix",
+      "url": "https://obelisk.club/quickpix?lang=zh",
+      "status": "online",
+      "description": "Mac 图片压缩与格式转换 App，支持 HEIC 和 RAW，画质可调，图片全程在本机处理不上传，免费下载",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-peterzhang0216-quickvid",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "Peter Zhang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        },
+        {
+          "label": "博客",
+          "url": "https://obelisk.club/blog?lang=zh"
+        }
+      ],
+      "name": "QuickVid",
+      "url": "https://obelisk.club/quickvid?lang=zh",
+      "status": "online",
+      "description": "Mac 视频压缩 App，拖入视频即可压到适合邮件和聊天发送的大小，用 Apple 芯片硬件编码，文件留在本机",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-peterzhang0216-饮品咖啡因速查",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "Peter Zhang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        },
+        {
+          "label": "博客",
+          "url": "https://obelisk.club/blog?lang=zh"
+        }
+      ],
+      "name": "饮品咖啡因速查",
+      "url": "https://obelisk.club/caffeine-in?lang=zh",
+      "status": "online",
+      "description": "咖啡、茶、奶茶、能量饮料和汽水的咖啡因含量对照，附份量、入睡时间和每日上限参考，免费无需注册",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-ixiehao-shotmap",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "ixiehao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "name": "ShotMap",
+      "url": "https://ixiehao.github.io/ShotMap/zh/",
+      "status": "online",
+      "description": "macOS 视频拼图工具，自动或手动选帧，批量导出带时间码的分镜图，视频在本机处理；免费、MIT 开源，macOS 13+",
+      "extraLinks": [
+        {
+          "label": "源码与下载",
+          "url": "https://github.com/ixiehao/ShotMap"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-ixiehao-mp4flow",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "ixiehao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "name": "MP4Flow",
+      "url": "https://ixiehao.github.io/MP4Flow/",
+      "status": "online",
+      "description": "macOS 视频处理工具，批量转 MP4、截取片段、裁切画面、旋转和合并；免费、MIT 开源，macOS 13+，需另装 FFmpeg 和 ffprobe",
+      "extraLinks": [
+        {
+          "label": "源码与安装说明",
+          "url": "https://github.com/ixiehao/MP4Flow"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-ixiehao-lumaview",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "ixiehao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "name": "LumaView",
+      "url": "https://ixiehao.github.io/LumaView/",
+      "status": "online",
+      "description": "macOS 轻量看图工具，直接浏览文件夹、缩放旋转、查看 EXIF 和多页 PDF；免费、MIT 开源，macOS 12+，通用版 DMG 约 2.5 MB",
+      "extraLinks": [
+        {
+          "label": "源码与下载",
+          "url": "https://github.com/ixiehao/LumaView"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261102-hsiao-yi-yang-nihongo-to-japan",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "Hsiao-Yi Yang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "网站",
+          "url": "https://www.nihongotojapan.com/zh-cn"
+        }
+      ],
+      "name": "Nihongo to Japan",
+      "url": "https://www.nihongotojapan.com/zh-cn",
+      "status": "online",
+      "description": "日语自学网站，从五十音到 JLPT N1，650+ 篇文法解说、191 课自学教材、程度测验与动词变化表，支持简体中文等 9 种界面；核心内容免费无需注册，另有可选支持方案（额外练习与 PDF），网站含广告",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261102-peterzhang0216-swift-与-app-store-开发者工具",
+      "edition": "programmer",
+      "addedAt": "2026-11-02",
+      "maker": "Peter Zhang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/peterzhang0216"
+        }
+      ],
+      "name": "Swift 与 App Store 开发者工具",
+      "url": "https://obelisk.club/toolkit?lang=zh",
+      "status": "online",
+      "description": "iOS / Mac 应用上架前用的免费浏览器工具，Info.plist 检查、ITMS 上传报错查询、隐私政策生成、App Store 链接生成等，无需注册，文件不上传",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261102-linky-aiinlink-poker-practice-simulator",
+      "edition": "game",
+      "addedAt": "2026-11-02",
+      "maker": "Linky-AIinlink",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "name": "Poker Practice Simulator",
+      "url": "https://pokerpracticesimulator.com/",
+      "status": "online",
+      "description": "免费的在线德州扑克练习工具，与电脑对手对局，实时查看胜率、补牌与底池赔率，支持中英文，无需注册",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://pokerpracticesimulator.com/zh/about"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261101-jeff-song-trustbible-bible-word-counter",
       "edition": "main",
@@ -48177,6 +48503,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250606-schopenlaam-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-06-06",
+      "maker": "Schopenlaam",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://schopenlaam.com/"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250606-schopenlaam-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-06-06",
+      "maker": "Schopenlaam",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://schopenlaam.com/"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250606-schopenlaam-独立星球",
+      "edition": "main",
+      "addedAt": "2025-06-06",
+      "maker": "Schopenlaam",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://schopenlaam.com/"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250606-schopenlaam-独立观察",
+      "edition": "main",
+      "addedAt": "2025-06-06",
+      "maker": "Schopenlaam",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "博客",
+          "url": "https://schopenlaam.com/"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250604-codaprime-ai-取名网",
       "edition": "main",
       "addedAt": "2025-06-04",
@@ -48633,115 +49068,6 @@
       "categories": [
         "浏览器扩展",
         "教育学习"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250530-shawnhacks-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-05-30",
-      "maker": "ShownHacks",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250530-shawnhacks-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-05-30",
-      "maker": "ShownHacks",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250530-shawnhacks-独立星球",
-      "edition": "main",
-      "addedAt": "2025-05-30",
-      "maker": "ShownHacks",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250530-shawnhacks-独立观察",
-      "edition": "main",
-      "addedAt": "2025-05-30",
-      "maker": "ShownHacks",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/ShawnHacks"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
