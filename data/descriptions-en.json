@@ -14182,5 +14182,37 @@
  "programmer-20261031-rowink-iris-analytics": {
   "descEn": "A lightweight open source website traffic analysis panel, based on Cloudflare Pages + Analytics Engine, no database required. A script tag after deployment can count access data. It supports password protection, site whitelist and IP blacklist filtering, and is self-hosted for free.",
   "at": "2026-11-01"
+ },
+ "main-20261101-jeff-song-trustbible-bible-word-counter": {
+  "descEn": "KJV and Union Version full-text word frequency statistics, output hit verses, Old Testament/New Testament division counts, and support CSV export; Chinese-English bilingual interface, no registration required, literal character matching, no theological explanation",
+  "at": "2026-11-02"
+ },
+ "main-20261101-xuantingjiang39-旅伴-tripmate": {
+  "descEn": "AI itinerary tool for family travel, organizes editable daily arrangements, transportation and expenses according to destination, budget and travel companions' needs, web and Windows can export PDF; supports web, Windows and Android (Beta), tourists preview the first day, AI generates usage quota",
+  "at": "2026-11-02"
+ },
+ "main-20261101-clarkloveproduct-听笺": {
+  "descEn": "Paste Chinese and English articles or import public account links to automatically extract the key points of AI text. Click to generate a voice. Listen to the key points first and then listen to the original text. It supports double-speed playback, seven-day account recording and cross-device continued listening.",
+  "at": "2026-11-02"
+ },
+ "main-20261101-tumingke0-disconfirmai": {
+  "descEn": "AI investment research and reading platform, look for evidence that may overturn your judgment before drawing conclusions. AI and investment information from public sources are compiled every day, and each article is attached with a link to the original text. You can do research on financial reports and data, and let the radar scan changes regularly according to the conditions you write down. You can also write down your own investment system, as well as the AI ​​100 list and industry map. The reading and investment system is permanently free. Register and get 400 points. No buying or selling advice is provided.",
+  "at": "2026-11-02"
+ },
+ "main-20261101-szj2ys-imgmov-image-prep": {
+  "descEn": "In-browser image preprocessing tool, crop or trim the first frame of AI video to a specified ratio, export JPEG/PNG locally, free, no registration required",
+  "at": "2026-11-02"
+ },
+ "programmer-20261101-simzhou-audiolens": {
+  "descEn": "VS Code audio viewing and analysis extension, view multi-channel waveforms, spectra and selection RMS/peak in local or Remote SSH workspace, supports raw PCM and WAV entries in Kaldi Ark, free, Apache-2.0 open source",
+  "at": "2026-11-02"
+ },
+ "programmer-20261101-oakcoderx-solopup-memory": {
+  "descEn": "DeepSeek Harness native text memory plug-in, saves decisions and work preferences by project/global, records sources, conditions and revisions; MIT public beta version, requires Node 24.9+, DSH >=0.2.1-rc.0 <0.3.0, configured model API can be billed separately",
+  "at": "2026-11-02"
+ },
+ "custom-20261102-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-02"
  }
 }

@@ -4,29 +4,129 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-01T01:09:44.369Z",
+  "generatedAt": "2026-11-02T01:30:08.861Z",
   "counts": {
-    "total": 3445,
-    "main": 2871,
-    "programmer": 417,
+    "total": 3452,
+    "main": 2876,
+    "programmer": 419,
     "game": 157,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1162,
-    "音视频": 614,
-    "开发工具": 676,
+    "文档办公": 335,
+    "免费工具": 712,
+    "AI 工具": 1167,
+    "开发工具": 678,
+    "音视频": 617,
+    "教育学习": 195,
+    "生活服务": 106,
     "社交社区": 126,
-    "浏览器扩展": 366,
-    "免费工具": 706,
+    "图片工具": 654,
+    "浏览器扩展": 371,
     "效率工具": 483,
-    "文档办公": 333,
-    "教育学习": 194,
-    "图片工具": 652,
-    "游戏娱乐": 190,
-    "生活服务": 105
+    "游戏娱乐": 190
   },
   "projects": [
+    {
+      "id": "main-20261101-jeff-song-trustbible-bible-word-counter",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "Jeff Song",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "About",
+          "url": "https://trustbible.org/en/about/"
+        }
+      ],
+      "name": "TrustBible Bible Word Counter",
+      "url": "https://trustbible.org/zh-cn/bible-word-counter/",
+      "status": "online",
+      "description": "KJV 与和合本全文词频统计，输出命中经文、旧约/新约分部计数并支持 CSV 导出；中英双语界面，无需注册，按字面字符匹配、不做神学解释",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-xuantingjiang39-旅伴-tripmate",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "xuantingjiang39",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xuantingjiang39"
+        }
+      ],
+      "name": "旅伴 TripMate",
+      "url": "https://111.230.133.155/",
+      "status": "online",
+      "description": "家庭出游 AI 行程工具，按目的地、预算和同行需求整理可编辑的每日安排、交通与费用，网页和 Windows 可导出 PDF；支持网页、Windows 和安卓（Beta），游客预览第 1 天，AI 生成使用额度",
+      "extraLinks": [
+        {
+          "label": "介绍与下载",
+          "url": "https://github.com/xuantingjiang39/TripMate"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-clarkloveproduct-听笺",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "clarkloveProduct",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/clarkloveProduct"
+        }
+      ],
+      "name": "听笺",
+      "url": "https://tingjian.art/",
+      "status": "online",
+      "description": "粘贴中英文文章或导入公众号链接，自动提炼 AI 文字要点，点击后生成语音，先听重点再听原文，支持倍速播放、七天账号记录和跨设备续听",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-tumingke0-disconfirmai",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "tumingke0",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tumingke0"
+        }
+      ],
+      "name": "DisconfirmAI",
+      "url": "https://disconfirmai.com/zh",
+      "status": "online",
+      "description": "AI 投资研究与阅读平台，下结论前先找可能推翻自己判断的证据。每天整理公开来源的 AI 与投资资讯，每条附原文链接；可以对着财报和数据做研究，让雷达按你写下的条件定时扫描变化，也能写下自己的投资体系，另有 AI 100 榜单和产业地图。阅读和投资体系永久免费，注册送 400 积分，不提供买卖建议",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "教育学习",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261101-z4none-kyna-player",
       "edition": "main",
@@ -42,7 +142,7 @@
       "name": "Kyna Player",
       "url": "https://kyna.fynxlab.com/",
       "status": "online",
-      "description": "支持 GPU 播放、DLSS 画质增强和 AI 字幕工具的 Windows 视频播放器",
+      "description": "Windows 视频播放器，支持 GPU 播放、DLSS 画质增强和 AI 字幕工具",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -90,14 +190,18 @@
       "name": "Pic2SVG",
       "url": "https://pic2svg.com/",
       "status": "online",
-      "description": "Convert uploaded raster images to editable SVG paths with hosted tracing; includes a free browser-local SVG structure checker for files up to 2 MB, with no account or upload",
+      "description": "上传普通图片（JPG/PNG 等），转成可编辑的 SVG 路径，浏览器本地运行、文件不上传，2 MB 以内免费无需注册，另附 SVG 结构检查器",
       "extraLinks": [
         {
           "label": "SVG checker",
           "url": "https://pic2svg.com/svg-cut-file-checker/"
         }
       ],
-      "categories": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
       "source": "upstream"
     },
     {
@@ -115,9 +219,38 @@
       "name": "Big Walk Guide",
       "url": "https://thebigwalk.world/en/protocols",
       "status": "online",
-      "description": "Free unofficial English/Chinese Big Walk guide with a browser signal-code planner, coordinate lookup and puzzle walkthroughs; no registration.",
+      "description": "Big Walk 非官方中英攻略，浏览器内信号码规划器、坐标查询与谜题 walkthrough，免费无需注册",
       "extraLinks": [],
-      "categories": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261101-szj2ys-imgmov-image-prep",
+      "edition": "main",
+      "addedAt": "2026-11-01",
+      "maker": "szj2ys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/szj2ys"
+        }
+      ],
+      "name": "imgmov Image Prep",
+      "url": "https://imgmov.com/resize-image-for-ai-video",
+      "status": "online",
+      "description": "浏览器内图片预处理工具，为 AI 视频首帧裁剪或补边到指定比例，本地导出 JPEG / PNG，免费、无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
       "source": "upstream"
     },
     {
@@ -214,6 +347,59 @@
       "description": "加拿大推荐码与注册奖励目录，查找、比较并分享各种服务的推荐码，了解奖励详情、资格要求和分享规则，帮助用户在加拿大获取更多优惠",
       "extraLinks": [],
       "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261101-simzhou-audiolens",
+      "edition": "programmer",
+      "addedAt": "2026-11-01",
+      "maker": "SimZhou",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SimZhou"
+        }
+      ],
+      "name": "AudioLens",
+      "url": "https://marketplace.visualstudio.com/items?itemName=simzhou.audiolens",
+      "status": "online",
+      "description": "VS Code 音频查看与分析扩展，在本地或 Remote SSH 工作区查看多声道波形、频谱和选区 RMS/峰值，支持原始 PCM 与 Kaldi Ark 中的 WAV 条目，免费、Apache-2.0 开源",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库与演示",
+          "url": "https://github.com/SimZhou/vscode-audiolens"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261101-oakcoderx-solopup-memory",
+      "edition": "programmer",
+      "addedAt": "2026-11-01",
+      "maker": "OakcoderX",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/OakcoderX"
+        }
+      ],
+      "name": "SoloPup Memory",
+      "url": "https://github.com/OakcoderX/solopup-memory",
+      "status": "developing",
+      "description": "DeepSeek Harness 原生文本记忆插件，按项目/全局保存决定与工作偏好，记录出处、条件和修订；MIT 公开测试版，需 Node 24.9+、DSH >=0.2.1-rc.0 <0.3.0，配置的模型 API 可另计费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "浏览器扩展"
+      ],
       "source": "upstream"
     },
     {
@@ -15518,7 +15704,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261101-0",
+      "id": "custom-20261102-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
