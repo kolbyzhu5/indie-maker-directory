@@ -2,6 +2,40 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
+  <!-- [软 404 守卫] EdgeOne 对任意未知路径都返回「首页副本 + HTTP 200」，
+       于是 /pricing、/[reference:2]、/p/opc.html（旧 slug）这类假 URL 既污染统计，
+       又可能被索引成一堆「内容相同、URL 不同」的重复页。
+       本脚本挂在首页 HTML 里自检：当前 pathname 不是首页自身 → 说明拿到的是假页 →
+       ① 归一化（去 [reference:N] / ** / $s / 末尾 ) 这类 AI 回答残留）
+       ② 取首个干净的 /xxx.html 前缀，或把裸 slug 补成 /p/<slug>.html，跳一次
+       ③ 仍无解 → 落到 /404.html（noindex，不再给搜索引擎制造重复内容）
+       ⚠️ 预览部署路径 /indie-maker-directory-* 内容与主站相同，必须放行，不能被判成假页。 -->
+  <script>
+  (function () {
+    try {
+      var p = location.pathname;
+      if (p === "/" || p === "/index.html" || p.indexOf("/indie-maker-directory-") === 0) return;
+      var c = p.replace(/\[reference:[^\]]*\]/g, "")
+               .replace(/\*\*[\s\S]*$/, "")
+               .replace(/\$s/g, "")
+               .replace(/[)\s]+$/, "");
+      var m = c.match(/^(\/.*?\.html)/);
+      var target = m ? m[1] : null;
+      if (!target) {
+        var bare = c.replace(/^\/+/, "").replace(/\/+$/, "");
+        if (/^[a-z0-9][a-z0-9._-]{1,80}$/i.test(bare)) target = "/p/" + bare + ".html";
+      }
+      // 清洗后可能留下空段（如 /p/$s.html → /p/.html）：这种目标不存在，直接判死
+      if (target && (/\/\./.test(target) || /\/\//.test(target))) target = null;
+      if (!target || target === p || sessionStorage.getItem("imd404") === target) {
+        location.replace("/404.html");
+        return;
+      }
+      sessionStorage.setItem("imd404", target);
+      location.replace(target + location.search + location.hash);
+    } catch (e) {}
+  })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="免费又好用的 AI 工具目录站：收录 3452 个中国独立开发者创造的 AI 工具、网站、应用与游戏，涵盖抠图、视频、字幕、写作、效率办公等，每日自动同步，无竞价排名，全站免费无会员。">
   <meta name="keywords" content="免费AI工具,好用的AI工具,AI工具推荐,免费AI工具网站,AI工具网站,AI工具导航,AI工具合集,AI工具大全,中国独立开发者,独立开发者产品,独立开发者作品目录,效率工具,开发工具,免费独立游戏,国产软件">

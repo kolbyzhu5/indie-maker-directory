@@ -1,0 +1,21 @@
+{
+  "note": "旧 slug → 现 slug 对照（源：.edgeone/assets/p 2026-09-15 快照 vs 当前 p/），用于生成 301",
+  "generated": "2026-11-02",
+  "map": {
+    "3d": "3d-bf225d",
+    "ai-0a7ef2": "ai-7f8e38",
+    "ai-anime-generator": "ai-anime-generator-df07ce",
+    "ai-humanizer": "ai-humanizer-7f2f23",
+    "flow-ai-video": "flow-ai-video-eb0b7c",
+    "markdown": "markdown-2280c1",
+    "morse-code": "morse-code-da12b0",
+    "opc": "opc-4ae23a",
+    "pro": "pro-96f1f9",
+    "project-54f73b": "project-e87995",
+    "project-58a384": "project-e87995",
+    "project-e72f8e": "project-a6034d",
+    "project-e7340e": "project-a607cd",
+    "teamorouter": "teamorouter-3e06cb",
+    "video-watermark-remover": "video-watermark-remover-af8df0"
+  }
+}

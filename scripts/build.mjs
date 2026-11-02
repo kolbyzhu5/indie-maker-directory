@@ -2851,6 +2851,8 @@ ${sections}
     await copyFile(path.join(ROOT, "data", "descriptions-en.json"), path.join(dist, "data", "descriptions-en.json")).catch(() => console.log("[build][warn] descriptions-en.json 缺失 → 未同步到 dist"));
     await copyFile(path.join(ROOT, "data", "names-en.json"), path.join(dist, "data", "names-en.json")).catch(() => console.log("[build][warn] names-en.json 缺失 → 未同步到 dist"));
     await copyFile(path.join(ROOT, "data", "cities-en.json"), path.join(dist, "data", "cities-en.json")).catch(() => console.log("[build][warn] cities-en.json 缺失 → 未同步到 dist"));
+    // 旧 slug → 现 slug 对照表（生成 edgeone.json 的 301；每天新增的改名/冲突都可补进来）
+    await copyFile(path.join(ROOT, "data", "slug-history.json"), path.join(dist, "data", "slug-history.json")).catch(() => console.log("[build][warn] slug-history.json 缺失 → 跳过"));
     // og.png = 中文分享图；og-en.png = 英文分享图（en-pages.mjs 里 1000+ 英文页的 og:image 硬引用它，缺失会让分享卡片整片 404）
     for (const og of ["og.png", "og-en.png"]) {
       await copyFile(path.join(ROOT, og), path.join(dist, og)).catch(() => console.log(`[build][warn] ${og} 缺失 → 未同步到 dist，引用它的页面分享卡片会 404`));

@@ -4,6 +4,156 @@
       "source": "$wwwhost",
       "destination": "$host",
       "statusCode": 301
+    },
+    {
+      "source": "/p/3d.html",
+      "destination": "/p/3d-bf225d.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/3d.html",
+      "destination": "/en/p/3d-bf225d.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/ai-0a7ef2.html",
+      "destination": "/p/ai-7f8e38.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/ai-0a7ef2.html",
+      "destination": "/en/p/ai-7f8e38.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/ai-anime-generator.html",
+      "destination": "/p/ai-anime-generator-df07ce.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/ai-anime-generator.html",
+      "destination": "/en/p/ai-anime-generator-df07ce.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/ai-humanizer.html",
+      "destination": "/p/ai-humanizer-7f2f23.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/ai-humanizer.html",
+      "destination": "/en/p/ai-humanizer-7f2f23.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/flow-ai-video.html",
+      "destination": "/p/flow-ai-video-eb0b7c.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/flow-ai-video.html",
+      "destination": "/en/p/flow-ai-video-eb0b7c.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/markdown.html",
+      "destination": "/p/markdown-2280c1.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/markdown.html",
+      "destination": "/en/p/markdown-2280c1.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/morse-code.html",
+      "destination": "/p/morse-code-da12b0.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/morse-code.html",
+      "destination": "/en/p/morse-code-da12b0.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/opc.html",
+      "destination": "/p/opc-4ae23a.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/opc.html",
+      "destination": "/en/p/opc-4ae23a.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/pro.html",
+      "destination": "/p/pro-96f1f9.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/pro.html",
+      "destination": "/en/p/pro-96f1f9.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/project-54f73b.html",
+      "destination": "/p/project-e87995.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/project-54f73b.html",
+      "destination": "/en/p/project-e87995.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/project-58a384.html",
+      "destination": "/p/project-e87995.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/project-58a384.html",
+      "destination": "/en/p/project-e87995.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/project-e72f8e.html",
+      "destination": "/p/project-a6034d.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/project-e72f8e.html",
+      "destination": "/en/p/project-a6034d.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/project-e7340e.html",
+      "destination": "/p/project-a607cd.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/project-e7340e.html",
+      "destination": "/en/p/project-a607cd.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/teamorouter.html",
+      "destination": "/p/teamorouter-3e06cb.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/teamorouter.html",
+      "destination": "/en/p/teamorouter-3e06cb.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/p/video-watermark-remover.html",
+      "destination": "/p/video-watermark-remover-af8df0.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/p/video-watermark-remover.html",
+      "destination": "/en/p/video-watermark-remover-af8df0.html",
+      "statusCode": 301
     }
   ]
 }
