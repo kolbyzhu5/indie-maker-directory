@@ -1,10 +1,13 @@
-# AI 独立制造所 · 全部产品清单（3464）
+# AI 独立制造所 · 全部产品清单（3466）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-02（北京时间）
+> 更新时间：2026-11-03（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2886）
+## 大众产品（2887）
+
+- **[Particle Logo](https://particlelogo.com/zh)** — 开发者 88slash（北京） · 图片工具 / 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/particle-logo.html)
+  Logo 粒子动画在线工具，上传 PNG、SVG、JPG 或 WebP，从 9 种粒子效果里选一种，导出视频、GIF 或零依赖的 HTML 文件、Vue 3 与 React 组件；图片只在浏览器里处理不上传，免费版可预览全部效果，Pro 去水印并提供 4K 视频和透明背景
 
 - **[RapMotion](https://rapmotion.app)** — 开发者 fansion（北京） · AI 工具 / 图片工具 / 音视频 / 社交社区 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/rapmotion.html)
   AI 双人 Rap 视频生成工具。上传两张人物照片并选择预设风格，即可生成两人同台 Rap、带原创歌词与节拍且口型同步的竖屏短视频，适合制作朋友合拍、生日祝福和社交媒体内容；无需写提示词、安装 App 或剪辑视频
@@ -5010,6 +5013,18 @@
 - **[veo3 AI video generator](https://zacose.com/veo3_ai_video_generator)** — 开发者 chasays · AI 工具 / 音视频 / 开发工具 · 已停止 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/veo3-ai-video-generator-f5e00d.html)
   通过 AI 生成的音频和视觉完全同步，效果彻底改变视频的创作，使用VEO 3 AI API解锁视频创建的未来 - 与音频同步的无缝视频生成
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 chasays · AI 工具 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/ai-7fd678.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 chasays · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/project-ba00be.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 chasays · 开发工具 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/project-a7e691.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 chasays · 浏览器扩展 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/project-a7eb11.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Face To Many](https://facetomany.fun/)** — 开发者 dfyfc · AI 工具 / 图片工具 · 已上线 · 收录 2025-06-10 · [详情页](https://indiemaker.cn/p/face-to-many.html)
   用 AI 把您的脸部照片转换成不同的艺术风格，不同种族，不同角色
 
@@ -5036,18 +5051,6 @@
 
 - **[Mouse Pro](https://mousepro.app)** — 开发者 Schopenlaam · 音视频 / 教育学习 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/mouse-pro.html)
   鼠标高亮、放大、聚焦、阅读，适用于视频会议屏幕共享、演示和视频教程录制等
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Schopenlaam · AI 工具 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/ai-03eb24.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Schopenlaam · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/project-8394cc.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Schopenlaam · 开发工具 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/project-925b6c.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Schopenlaam · 浏览器扩展 · 已上线 · 收录 2025-06-06 · [详情页](https://indiemaker.cn/p/project-925fec.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[AI 取名网](https://bbname.cc/)** — 开发者 CodaPrime · AI 工具 / 浏览器扩展 · 已上线 · 收录 2025-06-04 · [详情页](https://indiemaker.cn/p/ai-32de36.html)
   用 AI 帮助宝宝取名服务，依据中国传统命理学为您的宝宝提供最为合适的名字。这款扩展功能融合了八字、生肖、五行以及三才五格等多种传统命理因素，为您的宝宝量身打造吉祥如意的好名字
@@ -8664,7 +8667,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（420）
+## 程序员版（421）
+
+- **[OpenTandem](https://github.com/opentandem/opentandem)** — 开发者 zannezheng · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/opentandem.html)
+  多台电脑上的 AI 编程工具管理工具，用手机指挥 Claude Code、Codex、OpenCode 等 18 个 Agent，任务中途可换 Agent 和模型，还能远程预览电脑上的 localhost；命令行和 Runner 开源（AGPL-3.0）
 
 - **[Swift 与 App Store 开发者工具](https://obelisk.club/toolkit?lang=zh)** — 开发者 Peter Zhang · 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/swift-app-store.html)
   iOS / Mac 应用上架前用的免费浏览器工具，Info.plist 检查、ITMS 上传报错查询、隐私政策生成、App Store 链接生成等，无需注册，文件不上传
@@ -8693,7 +8699,7 @@
 - **[xxapi](https://xxapi.ai/)** — 开发者 xxapi · AI 工具 / 开发工具 · 已上线 · 收录 2026-10-29 · [详情页](https://indiemaker.cn/p/xxapi.html)
   Claude Code / Codex API 中转站，一个账号调用 Claude（Opus 5.5、Sonnet 5.5 等）和 GPT（GPT-6.1、GPT-5.6 等）模型；Claude Code 填 https://xxapi.ai，Codex 等 OpenAI 兼容工具填 https://xxapi.ai/v1；支付宝、微信、Stripe 充值 ¥1 = $1，余额不过期，按量计费，无月费
 
-- **[瑶瑶 AI 会员代充](https://kw.yaoyao.chat/?utm_source=cnindie&utm_medium=github)** — 开发者 瑶瑶 · AI 工具 · 已上线 · 收录 2026-10-29 · [详情页](https://indiemaker.cn/p/ai-df1958.html)
+- **[瑶瑶 AI 会员代充](https://kw.yaoyao.chat/?utm_source=cnindie&utm_medium=github)** — 开发者 瑶瑶 · AI 工具 · 已上线 · 收录 2026-10-29 · [详情页](https://indiemaker.cn/p/ai-fd0235.html)
   ChatGPT Plus / Pro、Claude Pro / Max、SuperGrok、Gemini 会员人民币代充，不用海外信用卡，支付宝付款，付款后平均 2 分钟到账；订阅有质保、掉会员补，24 小时客服；Plus ¥129/月；独立第三方，非官方
 
 - **[Neat CSV](https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-csv)** — 开发者 小明 · 文档办公 / 免费工具 · 已上线 · 收录 2026-10-28 · [详情页](https://indiemaker.cn/p/neat-csv.html)

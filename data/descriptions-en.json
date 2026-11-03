@@ -14278,5 +14278,37 @@
  "main-20250606-schopenlaam-独立星球": {
   "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
   "at": "2026-11-02"
+ },
+ "main-20261102-88slash-particle-logo": {
+  "descEn": "Logo particle animation online tool, upload PNG, SVG, JPG or WebP, choose one of 9 particle effects, export video, GIF or zero-dependency HTML files, Vue 3 and React components; images are only processed in the browser and not uploaded, the free version can preview all effects, Pro removes watermarks and provides 4K video and transparent background",
+  "at": "2026-11-03"
+ },
+ "programmer-20261102-zannezheng-opentandem": {
+  "descEn": "AI programming tool management tool on multiple computers, use your mobile phone to command 18 Agents such as Claude Code, Codex, OpenCode, etc. Agents and models can be changed mid-task, and localhost on the computer can be previewed remotely; the command line and Runner are open source (AGPL-3.0)",
+  "at": "2026-11-03"
+ },
+ "programmer-20261029-yaoyao-chat-瑶瑶-ai-会员代充": {
+  "descEn": "ChatGPT Plus / Pro, Claude Pro / Max, SuperGrok, Gemini members can recharge in RMB, no overseas credit card is required, Alipay payment is required, and the payment will arrive in an average of 2 minutes after payment; subscription has warranty, membership will be replenished, 24-hour customer service; Plus ¥129/month; independent third party, unofficial",
+  "at": "2026-11-03"
+ },
+ "custom-20261103-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-03"
+ },
+ "main-20250612-chasays-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-03"
+ },
+ "main-20250612-chasays-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-03"
+ },
+ "main-20250612-chasays-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-03"
+ },
+ "main-20250612-chasays-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-03"
  }
 }

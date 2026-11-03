@@ -4,29 +4,54 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-02T13:52:13.310Z",
+  "generatedAt": "2026-11-03T03:28:08.984Z",
   "counts": {
-    "total": 3464,
-    "main": 2886,
-    "programmer": 420,
+    "total": 3466,
+    "main": 2887,
+    "programmer": 421,
     "game": 158,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1168,
-    "图片工具": 656,
-    "音视频": 622,
+    "图片工具": 657,
+    "音视频": 623,
+    "浏览器扩展": 373,
+    "免费工具": 724,
+    "AI 工具": 1169,
     "社交社区": 128,
-    "开发工具": 684,
-    "免费工具": 722,
-    "效率工具": 485,
+    "开发工具": 685,
+    "效率工具": 486,
     "文档办公": 337,
     "教育学习": 196,
-    "浏览器扩展": 372,
     "生活服务": 106,
     "游戏娱乐": 190
   },
   "projects": [
+    {
+      "id": "main-20261102-88slash-particle-logo",
+      "edition": "main",
+      "addedAt": "2026-11-02",
+      "maker": "88slash",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/88slash"
+        }
+      ],
+      "name": "Particle Logo",
+      "url": "https://particlelogo.com/zh",
+      "status": "online",
+      "description": "Logo 粒子动画在线工具，上传 PNG、SVG、JPG 或 WebP，从 9 种粒子效果里选一种，导出视频、GIF 或零依赖的 HTML 文件、Vue 3 与 React 组件；图片只在浏览器里处理不上传，免费版可预览全部效果，Pro 去水印并提供 4K 视频和透明背景",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261102-yafanisonya-rapmotion",
       "edition": "main",
@@ -298,6 +323,36 @@
       "categories": [
         "文档办公",
         "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261102-zannezheng-opentandem",
+      "edition": "programmer",
+      "addedAt": "2026-11-02",
+      "maker": "zannezheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zannezheng"
+        }
+      ],
+      "name": "OpenTandem",
+      "url": "https://github.com/opentandem/opentandem",
+      "status": "online",
+      "description": "多台电脑上的 AI 编程工具管理工具，用手机指挥 Claude Code、Codex、OpenCode 等 18 个 Agent，任务中途可换 Agent 和模型，还能远程预览电脑上的 localhost；命令行和 Runner 开源（AGPL-3.0）",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://opentandem.org/zh"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
         "免费工具"
       ],
       "source": "upstream"
@@ -1361,7 +1416,7 @@
       "source": "upstream"
     },
     {
-      "id": "programmer-20261029-yaoyao-ai-trainer-瑶瑶-ai-会员代充",
+      "id": "programmer-20261029-yaoyao-chat-瑶瑶-ai-会员代充",
       "edition": "programmer",
       "addedAt": "2026-10-29",
       "maker": "瑶瑶",
@@ -1369,7 +1424,7 @@
       "makerLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/yaoyao-ai-trainer"
+          "url": "https://github.com/yaoyao-chat"
         }
       ],
       "name": "瑶瑶 AI 会员代充",
@@ -16030,7 +16085,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261102-0",
+      "id": "custom-20261103-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48320,6 +48375,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250612-chasays-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-06-12",
+      "maker": "chasays",
+      "city": "",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250612-chasays-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-06-12",
+      "maker": "chasays",
+      "city": "",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250612-chasays-独立星球",
+      "edition": "main",
+      "addedAt": "2025-06-12",
+      "maker": "chasays",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250612-chasays-独立观察",
+      "edition": "main",
+      "addedAt": "2025-06-12",
+      "maker": "chasays",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250610-dfyfc-face-to-many",
       "edition": "main",
       "addedAt": "2025-06-10",
@@ -48499,115 +48643,6 @@
       "categories": [
         "音视频",
         "教育学习"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250606-schopenlaam-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-06-06",
-      "maker": "Schopenlaam",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "博客",
-          "url": "https://schopenlaam.com/"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250606-schopenlaam-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-06-06",
-      "maker": "Schopenlaam",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "博客",
-          "url": "https://schopenlaam.com/"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250606-schopenlaam-独立星球",
-      "edition": "main",
-      "addedAt": "2025-06-06",
-      "maker": "Schopenlaam",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "博客",
-          "url": "https://schopenlaam.com/"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250606-schopenlaam-独立观察",
-      "edition": "main",
-      "addedAt": "2025-06-06",
-      "maker": "Schopenlaam",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "博客",
-          "url": "https://schopenlaam.com/"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
