@@ -14310,5 +14310,93 @@
  "main-20250612-chasays-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-03"
+ },
+ "game-20261103-bukun678-词不一样就跑步": {
+  "descEn": "A Chinese association web game for two people who share a mobile phone face to face. They each think of related words from the two starting words. After the countdown, they say them at the same time. If they are different, continue to associate until the answers are consistent. There are 60 groups of starting words in three categories. The countdown is 3/5/10 seconds. It is free and does not require downloading or registration.",
+  "at": "2026-11-04"
+ },
+ "game-20261103-flukier1016-人间走一遭": {
+  "descEn": "Chinese life simulation web game, choose one of three reincarnations, live a life in one turn per year, birth year 1950 to 2049 optional; contains 4992 random events, 200 occupations, 75 cities, ink painting style, free, no registration, can be played on mobile phones and computers",
+  "at": "2026-11-04"
+ },
+ "custom-20261104-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-04"
+ },
+ "main-20250619-vladelaina-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-04"
+ },
+ "main-20250619-vladelaina-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-04"
+ },
+ "main-20250619-vladelaina-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-04"
+ },
+ "main-20250619-vladelaina-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-04"
+ },
+ "main-20261104-cuilinhao-soulpaw": {
+  "descEn": "Online AI pet photo tool, upload 1–5 photos of the same pet, choose watercolor, royal or studio style, generate and download an exclusive portrait",
+  "at": "2026-11-04"
+ },
+ "main-20261104-masker99-flyingcar-ai-video": {
+  "descEn": "AI flying car video generation tool, upload car or product photos, select a template to generate a cool flying special effects video",
+  "at": "2026-11-04"
+ },
+ "main-20261104-masker99-12-axes-test": {
+  "descEn": "Online multi-dimensional values ​​test (free), explore your political views and value tendencies by answering questions",
+  "at": "2026-11-04"
+ },
+ "main-20261104-masker99-hackertube-guide": {
+  "descEn": "HackerTube introduction and resource navigation site, providing user guides, FAQs and related project recommendations",
+  "at": "2026-11-04"
+ },
+ "main-20261104-yihui-dev-bizpeel": {
+  "descEn": "A database of overseas products with real revenue, which can be filtered by MRR, revenue in the past 30 days, growth rate and track. Each company has a growth breakdown: where the traffic comes from, what marketing actions are taken, why users pay, suitable for finding overseas business ideas",
+  "at": "2026-11-04"
+ },
+ "main-20261104-liujiacheng-yuexin-picyep": {
+  "descEn": "Upload a reference photo or write a description to generate life-like avatars, ID photos, selfies and pet photos; sign up to get free points, no need to bind a card, paid plans start from $12/month",
+  "at": "2026-11-04"
+ },
+ "programmer-20261104-yihui-dev-skillry": {
+  "descEn": "Agent Skill library, each Skill corresponds to a designed style (such as magazine-like brand story PPT, pixel style promotional video), and is installed into Agents such as Claude Code, Codex, Cursor, etc., and you can follow it to create slides, web pages, pictures and videos without AI flavor; you can see the real finished product before installation",
+  "at": "2026-11-04"
+ },
+ "main-20261103-hwlvipone-hookai": {
+  "descEn": "Upload one or two photos of people and generate a short vertical screen rap video with vocals and beats, 5-15 seconds, no editing required; the sample is free to watch, but registration and points are required for actual production",
+  "at": "2026-11-04"
+ },
+ "main-20261103-fan3cn-bayeschat": {
+  "descEn": "The AI ​​chat client on iPhone/iPad comes with an API Key to connect to any OpenAI/Anthropic compatible model (including native Ollama), and can be linked to a remote MCP server to call tools; conversations and keys are only saved locally, no registration is required, and MCP tools are a one-time buyout",
+  "at": "2026-11-04"
+ },
+ "main-20261103-suiculsi-linger": {
+  "descEn": "macOS local priority private inspiration library, save pictures, web page sources and your own notes, use keywords and filters to retrieve references; supports Apple Silicon, provides a 14-day trial, and then purchases it once",
+  "at": "2026-11-04"
+ },
+ "main-20261103-coderwenzi-clarpex": {
+  "descEn": "AI photo repair tool. Upload blurry, low-definition or old photos to enhance, deblur, enlarge and color. Complete it in the browser. No registration required for daily free quota.",
+  "at": "2026-11-04"
+ },
+ "main-20261103-phinn-kinetmagicdisk": {
+  "descEn": "Mac disk space cleaning app, visually check disk usage, quickly locate large files and clean them safely, local processing does not upload data",
+  "at": "2026-11-04"
+ },
+ "main-20261103-phinn-kinetflashfind": {
+  "descEn": "Mac file search app, locates files by name or content in seconds and supports preview. Local indexing does not upload data.",
+  "at": "2026-11-04"
+ },
+ "main-20261103-phinn-driftdesk": {
+  "descEn": "Mac Focus Atmosphere Sound App, with built-in soundscapes such as rain sounds, white noise, and minimalist desktop components to help focus and relax",
+  "at": "2026-11-04"
+ },
+ "main-20261103-my19940202-绘页": {
+  "descEn": "Generate picture book carousel videos, turn text into vertical screen stories that switch from page to page, more than 30 hand-drawn styles - Web application",
+  "at": "2026-11-04"
  }
 }

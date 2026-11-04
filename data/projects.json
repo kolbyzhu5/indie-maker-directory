@@ -4,29 +4,442 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-03T03:28:08.984Z",
+  "generatedAt": "2026-11-04T02:20:02.918Z",
   "counts": {
-    "total": 3466,
-    "main": 2887,
-    "programmer": 421,
-    "game": 158,
+    "total": 3483,
+    "main": 2901,
+    "programmer": 422,
+    "game": 160,
     "custom": 1
   },
   "categoryCounts": {
-    "图片工具": 657,
-    "音视频": 623,
-    "浏览器扩展": 373,
-    "免费工具": 724,
-    "AI 工具": 1169,
-    "社交社区": 128,
-    "开发工具": 685,
-    "效率工具": 486,
-    "文档办公": 337,
+    "AI 工具": 1174,
+    "图片工具": 663,
+    "音视频": 627,
+    "免费工具": 732,
+    "开发工具": 688,
+    "文档办公": 339,
+    "社交社区": 129,
+    "浏览器扩展": 374,
+    "效率工具": 487,
+    "游戏娱乐": 192,
     "教育学习": 196,
-    "生活服务": 106,
-    "游戏娱乐": 190
+    "生活服务": 106
   },
   "projects": [
+    {
+      "id": "main-20261104-cuilinhao-soulpaw",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Linhao Cui",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuilinhao"
+        }
+      ],
+      "name": "SoulPaw",
+      "url": "https://soulpaw.art/",
+      "status": "online",
+      "description": "在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-masker99-flyingcar-ai-video",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Masker99",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "FlyingCar AI Video",
+      "url": "https://flyingcaraivideo.app/",
+      "status": "online",
+      "description": "AI 飞车视频生成工具，上传汽车或产品照片，选择模板即可生成炫酷的飞行特效视频",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-masker99-12-axes-test",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Masker99",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "12 Axes Test",
+      "url": "https://12axestest.site/",
+      "status": "online",
+      "description": "在线多维价值观测试（免费），通过回答问题探索自己的政治观点与价值观倾向",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-masker99-hackertube-guide",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Masker99",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Masker99"
+        }
+      ],
+      "name": "HackerTube Guide",
+      "url": "https://hackertube.top/",
+      "status": "online",
+      "description": "HackerTube 介绍与资源导航站，提供使用指南、常见问题解答及相关项目推荐",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-yihui-dev-bizpeel",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "熠辉",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yihui-dev"
+        }
+      ],
+      "name": "BizPeel",
+      "url": "https://bizpeel.com/zh/",
+      "status": "online",
+      "description": "有真实收入的海外产品数据库，可按 MRR、近 30 天收入、增长速度和赛道筛选，每家都有增长拆解：流量从哪来、做了哪些营销动作、用户为什么付钱，适合找出海生意点子",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-liujiacheng-yuexin-picyep",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Liujiacheng-yuexin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Liujiacheng-yuexin"
+        }
+      ],
+      "name": "PicYep",
+      "url": "https://picyep.com/zh",
+      "status": "online",
+      "description": "上传一张参考照或写一句描述，生成真人感头像、证件照、自拍与宠物写真；注册送免费积分、无需绑卡，付费计划从 $12/月起",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261104-yihui-dev-skillry",
+      "edition": "programmer",
+      "addedAt": "2026-11-04",
+      "maker": "熠辉",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yihui-dev"
+        }
+      ],
+      "name": "Skillry",
+      "url": "https://skillry.dev/zh/",
+      "status": "online",
+      "description": "Agent Skill 库，每个 Skill 对应一种设计好的风格（如杂志感品牌故事 PPT、像素风宣传片），装进 Claude Code、Codex、Cursor 等 Agent，就能照着做出没有 AI 味的幻灯片、网页、图片和视频；装前可看真实成品",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-hwlvipone-hookai",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "hwlvipone",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hwlvipone"
+        }
+      ],
+      "name": "Hookai",
+      "url": "https://hookai.io/",
+      "status": "online",
+      "description": "上传一张或两张人物照片，生成带人声演唱与节拍的竖屏说唱短视频，5-15 秒，无需剪辑；示例免费观看，实际生成需注册和点数",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-fan3cn-bayeschat",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "fan3cn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fan3cn"
+        }
+      ],
+      "name": "BayesChat",
+      "url": "https://bayeschat.xyz",
+      "status": "online",
+      "description": "iPhone / iPad 上的 AI 聊天客户端，自带 API Key 接任意 OpenAI / Anthropic 兼容模型（含本机 Ollama），可挂远程 MCP 服务器调用工具；对话和 Key 只存本机、无需注册，MCP 工具属一次性买断",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-suiculsi-linger",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "Lucius Miao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/suicuLsi"
+        }
+      ],
+      "name": "Linger",
+      "url": "https://withlinger.com/zh/",
+      "status": "online",
+      "description": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买",
+      "extraLinks": [
+        {
+          "label": "在线体验",
+          "url": "https://withlinger.com/demo/"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-coderwenzi-clarpex",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "Wen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/coderWenzi"
+        }
+      ],
+      "name": "Clarpex",
+      "url": "https://clarpex.ai/",
+      "status": "online",
+      "description": "AI 照片修复工具，上传模糊、低清或老照片即可增强、去模糊、放大与上色，浏览器内完成，每日免费额度无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetmagicdisk",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetMagicDisk",
+      "url": "https://apps.apple.com/cn/app/id6813423397",
+      "status": "online",
+      "description": "Mac 磁盘空间清理 App，可视化查看磁盘占用、快速定位大文件并安全清理，本地处理不上传数据",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6813423397"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetflashfind",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetFlashFind",
+      "url": "https://apps.apple.com/cn/app/id6808698046",
+      "status": "online",
+      "description": "Mac 文件搜索 App，按名称或内容秒级定位文件并支持预览，本地索引不上传数据",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6808698046"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-driftdesk",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "DriftDesk",
+      "url": "https://apps.apple.com/cn/app/id6817377455",
+      "status": "online",
+      "description": "Mac 专注氛围声 App，内置雨声、白噪等声景与极简桌面组件，帮助专注与放松",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6817377455"
+        }
+      ],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-my19940202-绘页",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "my19940202",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/my19940202"
+        }
+      ],
+      "name": "绘页",
+      "url": "https://huiye.org",
+      "status": "online",
+      "description": "生成绘本轮播视频，把文字做成一页一页切换的竖屏故事，30 多种手绘风格 — Web 应用",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://huiye.org/zh/about"
+        }
+      ],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261103-bukun678-词不一样就跑步",
+      "edition": "game",
+      "addedAt": "2026-11-03",
+      "maker": "词不一样就跑步",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bukun678"
+        }
+      ],
+      "name": "词不一样就跑步",
+      "url": "https://glm5.pro/",
+      "status": "online",
+      "description": "两人面对面共用一部手机的中文联想网页小游戏，从两个起始词各想相关词，倒计时后同时说出，不同就继续联想直到答案一致；三类共60组起始词，3/5/10秒倒计时，免费、无需下载或注册",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261103-flukier1016-人间走一遭",
+      "edition": "game",
+      "addedAt": "2026-11-03",
+      "maker": "Leo Lin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/flukier1016"
+        }
+      ],
+      "name": "人间走一遭",
+      "url": "https://cn.zouyizao.com/?from=cid",
+      "status": "online",
+      "description": "中文人生模拟网页游戏，投胎三选一，一年一回合过完一生，出生年份 1950 到 2049 可选；含 4992 个随机事件、200 种职业、75 座城市，水墨画风，免费、免注册，手机电脑都能玩",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261102-88slash-particle-logo",
       "edition": "main",
@@ -4596,7 +5009,7 @@
       "id": "main-20261021-coderwenzi-songfromvideo",
       "edition": "main",
       "addedAt": "2026-10-21",
-      "maker": "蚊子",
+      "maker": "Wen",
       "city": "",
       "makerLinks": [
         {
@@ -15323,7 +15736,7 @@
       "id": "main-20260905-coderwenzi-gemini-omni",
       "edition": "main",
       "addedAt": "2026-09-05",
-      "maker": "coderWenzi",
+      "maker": "Wen",
       "city": "",
       "makerLinks": [
         {
@@ -16085,7 +16498,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261103-0",
+      "id": "custom-20261104-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -18854,7 +19267,7 @@
       "id": "main-20260805-coderwenzi-vidlux-ai",
       "edition": "main",
       "addedAt": "2026-08-05",
-      "maker": "蚊子",
+      "maker": "Wen",
       "city": "",
       "makerLinks": [
         {
@@ -30831,8 +31244,8 @@
       "id": "main-20260515-coderwenzi-gpt-image-2-ai",
       "edition": "main",
       "addedAt": "2026-05-15",
-      "maker": "Poge",
-      "city": "广州",
+      "maker": "Wen",
+      "city": "",
       "makerLinks": [
         {
           "label": "Github",
@@ -48116,6 +48529,131 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250619-vladelaina-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-06-19",
+      "maker": "vladelaina",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/vladelaina"
+        },
+        {
+          "label": "博客",
+          "url": "https://vladelaina.com/blog"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250619-vladelaina-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-06-19",
+      "maker": "vladelaina",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/vladelaina"
+        },
+        {
+          "label": "博客",
+          "url": "https://vladelaina.com/blog"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250619-vladelaina-独立星球",
+      "edition": "main",
+      "addedAt": "2025-06-19",
+      "maker": "vladelaina",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/vladelaina"
+        },
+        {
+          "label": "博客",
+          "url": "https://vladelaina.com/blog"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250619-vladelaina-独立观察",
+      "edition": "main",
+      "addedAt": "2025-06-19",
+      "maker": "vladelaina",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/vladelaina"
+        },
+        {
+          "label": "博客",
+          "url": "https://vladelaina.com/blog"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250618-caron77ai-veo3-ai-video-generator",
       "edition": "main",
       "addedAt": "2025-06-18",
@@ -48371,95 +48909,6 @@
         "AI 工具",
         "音视频",
         "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250612-chasays-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-06-12",
-      "maker": "chasays",
-      "city": "",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250612-chasays-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-06-12",
-      "maker": "chasays",
-      "city": "",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250612-chasays-独立星球",
-      "edition": "main",
-      "addedAt": "2025-06-12",
-      "maker": "chasays",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250612-chasays-独立观察",
-      "edition": "main",
-      "addedAt": "2025-06-12",
-      "maker": "chasays",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

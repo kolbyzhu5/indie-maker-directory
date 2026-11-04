@@ -1,10 +1,52 @@
-# AI 独立制造所 · 全部产品清单（3466）
+# AI 独立制造所 · 全部产品清单（3483）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-03（北京时间）
+> 更新时间：2026-11-04（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2887）
+## 大众产品（2901）
+
+- **[SoulPaw](https://soulpaw.art/)** — 开发者 Linhao Cui · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/soulpaw.html)
+  在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像
+
+- **[FlyingCar AI Video](https://flyingcaraivideo.app/)** — 开发者 Masker99 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/flyingcar-ai-video.html)
+  AI 飞车视频生成工具，上传汽车或产品照片，选择模板即可生成炫酷的飞行特效视频
+
+- **[12 Axes Test](https://12axestest.site/)** — 开发者 Masker99 · 免费工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/12-axes-test.html)
+  在线多维价值观测试（免费），通过回答问题探索自己的政治观点与价值观倾向
+
+- **[HackerTube Guide](https://hackertube.top/)** — 开发者 Masker99 · 未分类 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/hackertube-guide.html)
+  HackerTube 介绍与资源导航站，提供使用指南、常见问题解答及相关项目推荐
+
+- **[BizPeel](https://bizpeel.com/zh/)** — 开发者 熠辉（北京） · 开发工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/bizpeel.html)
+  有真实收入的海外产品数据库，可按 MRR、近 30 天收入、增长速度和赛道筛选，每家都有增长拆解：流量从哪来、做了哪些营销动作、用户为什么付钱，适合找出海生意点子
+
+- **[PicYep](https://picyep.com/zh)** — 开发者 Liujiacheng-yuexin · 免费工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/picyep.html)
+  上传一张参考照或写一句描述，生成真人感头像、证件照、自拍与宠物写真；注册送免费积分、无需绑卡，付费计划从 $12/月起
+
+- **[Hookai](https://hookai.io/)** — 开发者 hwlvipone · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/hookai.html)
+  上传一张或两张人物照片，生成带人声演唱与节拍的竖屏说唱短视频，5-15 秒，无需剪辑；示例免费观看，实际生成需注册和点数
+
+- **[BayesChat](https://bayeschat.xyz)** — 开发者 fan3cn · AI 工具 / 开发工具 / 社交社区 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/bayeschat.html)
+  iPhone / iPad 上的 AI 聊天客户端，自带 API Key 接任意 OpenAI / Anthropic 兼容模型（含本机 Ollama），可挂远程 MCP 服务器调用工具；对话和 Key 只存本机、无需注册，MCP 工具属一次性买断
+
+- **[Linger](https://withlinger.com/zh/)** — 开发者 Lucius Miao · 图片工具 / 文档办公 / 开发工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/linger.html)
+  macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买
+
+- **[Clarpex](https://clarpex.ai/)** — 开发者 Wen · AI 工具 / 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/clarpex.html)
+  AI 照片修复工具，上传模糊、低清或老照片即可增强、去模糊、放大与上色，浏览器内完成，每日免费额度无需注册
+
+- **[KinetMagicDisk](https://apps.apple.com/cn/app/id6813423397)** — 开发者 phinn · 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetmagicdisk.html)
+  Mac 磁盘空间清理 App，可视化查看磁盘占用、快速定位大文件并安全清理，本地处理不上传数据
+
+- **[KinetFlashFind](https://apps.apple.com/cn/app/id6808698046)** — 开发者 phinn · 未分类 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetflashfind.html)
+  Mac 文件搜索 App，按名称或内容秒级定位文件并支持预览，本地索引不上传数据
+
+- **[DriftDesk](https://apps.apple.com/cn/app/id6817377455)** — 开发者 phinn · 效率工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/driftdesk.html)
+  Mac 专注氛围声 App，内置雨声、白噪等声景与极简桌面组件，帮助专注与放松
+
+- **[绘页](https://huiye.org)** — 开发者 my19940202（上海） · 音视频 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/project-0e716f.html)
+  生成绘本轮播视频，把文字做成一页一页切换的竖屏故事，30 多种手绘风格 — Web 应用
 
 - **[Particle Logo](https://particlelogo.com/zh)** — 开发者 88slash（北京） · 图片工具 / 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/particle-logo.html)
   Logo 粒子动画在线工具，上传 PNG、SVG、JPG 或 WebP，从 9 种粒子效果里选一种，导出视频、GIF 或零依赖的 HTML 文件、Vue 3 与 React 组件；图片只在浏览器里处理不上传，免费版可预览全部效果，Pro 去水印并提供 4K 视频和透明背景
@@ -438,7 +480,7 @@
 - **[AjaxModel Release Tracker](https://ajaxmodel.dev/)** — 开发者 fisher-byte · 效率工具 · 已上线 · 收录 2026-10-21 · [详情页](https://indiemaker.cn/p/ajaxmodel-release-tracker.html)
   Ajax 模型发布追踪站，汇总官方来源、发布时间线和本地运行指南，免登录查看；非官方项目，不提供未发布模型的权重下载
 
-- **[SongFromVideo](https://songfromvideo.com/)** — 开发者 蚊子 · 音视频 / 免费工具 · 已上线 · 收录 2026-10-21 · [详情页](https://indiemaker.cn/p/songfromvideo.html)
+- **[SongFromVideo](https://songfromvideo.com/)** — 开发者 Wen · 音视频 / 免费工具 · 已上线 · 收录 2026-10-21 · [详情页](https://indiemaker.cn/p/songfromvideo.html)
   视频识曲工具，粘贴 TikTok/YouTube/Instagram/Facebook/X 链接或上传音视频就能找出背景音乐，登录后首次识别免费
 
 - **[DTCStack](https://www.dtcstackhq.com/)** — 开发者 Kevin（China） · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-20 · [详情页](https://indiemaker.cn/p/dtcstack.html)
@@ -1410,7 +1452,7 @@
 - **[CrossTool](https://crosstool.online/?utm_source=cnindie&utm_medium=github)** — 开发者 863683348 · 图片工具 / 音视频 / 文档办公 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-09-05 · [详情页](https://indiemaker.cn/p/crosstool.html)
   跨境卖家本地隐私工具箱，52 个工具 100% 在浏览器内运行（视频压缩、图片转 PDF、成本计算等），零上传零服务器，面向 Amazon/TikTok Shop/Shopify 卖家，免费无需注册
 
-- **[Gemini Omni](https://geminiomni.video/)** — 开发者 coderWenzi · 音视频 / 免费工具 · 已上线 · 收录 2026-09-05 · [详情页](https://indiemaker.cn/p/gemini-omni-141e3b.html)
+- **[Gemini Omni](https://geminiomni.video/)** — 开发者 Wen · 音视频 / 免费工具 · 已上线 · 收录 2026-09-05 · [详情页](https://indiemaker.cn/p/gemini-omni-141e3b.html)
   免费生成和编辑视频，保持角色一致性，音频同步
 
 - **[HTMLShare](https://hosthtmlfile.com/)** — 开发者 zeroXu1 · 开发工具 · 已上线 · 收录 2026-09-04 · [详情页](https://indiemaker.cn/p/htmlshare.html)
@@ -1734,7 +1776,7 @@
 - **[PigFetch](https://pigfetch.com)** — 开发者 PigFetch Team · 音视频 / 开发工具 · 已上线 · 收录 2026-08-05 · [详情页](https://indiemaker.cn/p/pigfetch.html)
   Windows 视频链接下载工具，粘贴分享链接后可选择可用画质下载到电脑，适合素材留存与本地整理；新用户注册可使用 100 次，会员可无限下载
 
-- **[VidLux AI](https://vidlux.ai/)** — 开发者 蚊子 · AI 工具 / 音视频 · 已上线 · 收录 2026-08-05 · [详情页](https://indiemaker.cn/p/vidlux-ai.html)
+- **[VidLux AI](https://vidlux.ai/)** — 开发者 Wen · AI 工具 / 音视频 · 已上线 · 收录 2026-08-05 · [详情页](https://indiemaker.cn/p/vidlux-ai.html)
   AI 视频生成与编辑平台，支持文生视频、图生视频、参考生视频和视频编辑
 
 - **[AiXian](https://aixian.online)** — 开发者 gf1023456 · AI 工具 / 图片工具 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-08-04 · [详情页](https://indiemaker.cn/p/aixian.html)
@@ -2823,7 +2865,7 @@
 - **[Fancy Font Generator](https://cursivegeneratorai.com/)** — 开发者 peter · 社交社区 / 免费工具 · 已上线 · 收录 2026-05-17 · [详情页](https://indiemaker.cn/p/fancy-font-generator.html)
   花体字体生成工具，输入文字即可生成多种精美字体样式，支持一键复制，适合用于社交昵称、个人简介、签名和装饰文本，无需注册即可使用。
 
-- **[GPT Image 2 AI](https://gptimage2app.com/)** — 开发者 Poge（广州） · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-05-15 · [详情页](https://indiemaker.cn/p/gpt-image-2-ai.html)
+- **[GPT Image 2 AI](https://gptimage2app.com/)** — 开发者 Wen · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-05-15 · [详情页](https://indiemaker.cn/p/gpt-image-2-ai.html)
   AI 图像与视频创作平台
 
 - **[超能文献（Suppr）](http://suppr.wilddata.cn/)** — 开发者 zjg678 · AI 工具 / 文档办公 · 已上线 · 收录 2026-05-15 · [详情页](https://indiemaker.cn/p/suppr.html)
@@ -4980,6 +5022,18 @@
 - **[Catime](https://github.com/vladelaina/Catime)** — 开发者 vladelaina · 效率工具 / 开发工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/catime.html)
   极致轻量的 Windows 倒计时工具，具有番茄工作法功能、透明界面和丰富自定义选项，只需几 MB 内存且几乎不占用 CPU 资源，便可在 Windows 上优雅掌控时间
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 vladelaina · AI 工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/ai-7899cc.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 vladelaina · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/project-1f0361.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 vladelaina · 开发工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/project-e4388f.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 vladelaina · 浏览器扩展 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/project-e43d0f.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Veo3 AI Video Generator](https://veo-3.art)** — 开发者 Caron77 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2025-06-18 · [详情页](https://indiemaker.cn/p/veo3-ai-video-generator-55e353.html)
   支持文本转视频和图像转视频，配备原生音频生成和精准唇形同步，2-5秒完成专业级视频创作。
 
@@ -5012,18 +5066,6 @@
 
 - **[veo3 AI video generator](https://zacose.com/veo3_ai_video_generator)** — 开发者 chasays · AI 工具 / 音视频 / 开发工具 · 已停止 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/veo3-ai-video-generator-f5e00d.html)
   通过 AI 生成的音频和视觉完全同步，效果彻底改变视频的创作，使用VEO 3 AI API解锁视频创建的未来 - 与音频同步的无缝视频生成
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 chasays · AI 工具 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/ai-7fd678.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 chasays · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/project-ba00be.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 chasays · 开发工具 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/project-a7e691.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 chasays · 浏览器扩展 · 已上线 · 收录 2025-06-12 · [详情页](https://indiemaker.cn/p/project-a7eb11.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Face To Many](https://facetomany.fun/)** — 开发者 dfyfc · AI 工具 / 图片工具 · 已上线 · 收录 2025-06-10 · [详情页](https://indiemaker.cn/p/face-to-many.html)
   用 AI 把您的脸部照片转换成不同的艺术风格，不同种族，不同角色
@@ -8667,7 +8709,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（421）
+## 程序员版（422）
+
+- **[Skillry](https://skillry.dev/zh/)** — 开发者 熠辉（北京） · AI 工具 / 图片工具 / 音视频 / 文档办公 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/skillry.html)
+  Agent Skill 库，每个 Skill 对应一种设计好的风格（如杂志感品牌故事 PPT、像素风宣传片），装进 Claude Code、Codex、Cursor 等 Agent，就能照着做出没有 AI 味的幻灯片、网页、图片和视频；装前可看真实成品
 
 - **[OpenTandem](https://github.com/opentandem/opentandem)** — 开发者 zannezheng · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/opentandem.html)
   多台电脑上的 AI 编程工具管理工具，用手机指挥 Claude Code、Codex、OpenCode 等 18 个 Agent，任务中途可换 Agent 和模型，还能远程预览电脑上的 localhost；命令行和 Runner 开源（AGPL-3.0）
@@ -9932,7 +9977,13 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（158）
+## 独立游戏（160）
+
+- **[词不一样就跑步](https://glm5.pro/)** — 开发者 词不一样就跑步 · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/project-0c333c.html)
+  两人面对面共用一部手机的中文联想网页小游戏，从两个起始词各想相关词，倒计时后同时说出，不同就继续联想直到答案一致；三类共60组起始词，3/5/10秒倒计时，免费、无需下载或注册
+
+- **[人间走一遭](https://cn.zouyizao.com/?from=cid)** — 开发者 Leo Lin · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/project-15a961.html)
+  中文人生模拟网页游戏，投胎三选一，一年一回合过完一生，出生年份 1950 到 2049 可选；含 4992 个随机事件、200 种职业、75 座城市，水墨画风，免费、免注册，手机电脑都能玩
 
 - **[Poker Practice Simulator](https://pokerpracticesimulator.com/)** — 开发者 Linky-AIinlink · 免费工具 · 已上线 · 收录 2026-11-02 · [详情页](https://indiemaker.cn/p/poker-practice-simulator.html)
   免费的在线德州扑克练习工具，与电脑对手对局，实时查看胜率、补牌与底池赔率，支持中英文，无需注册
