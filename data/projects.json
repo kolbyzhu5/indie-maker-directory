@@ -4,29 +4,236 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-04T02:20:02.918Z",
+  "generatedAt": "2026-11-05T02:28:44.454Z",
   "counts": {
-    "total": 3483,
-    "main": 2901,
-    "programmer": 422,
+    "total": 3509,
+    "main": 2926,
+    "programmer": 423,
     "game": 160,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1174,
-    "图片工具": 663,
-    "音视频": 627,
-    "免费工具": 732,
-    "开发工具": 688,
-    "文档办公": 339,
+    "免费工具": 739,
+    "AI 工具": 1186,
+    "开发工具": 691,
+    "图片工具": 665,
+    "音视频": 630,
+    "文档办公": 340,
+    "浏览器扩展": 375,
     "社交社区": 129,
-    "浏览器扩展": 374,
-    "效率工具": 487,
+    "效率工具": 491,
+    "生活服务": 108,
     "游戏娱乐": 192,
-    "教育学习": 196,
-    "生活服务": 106
+    "教育学习": 196
   },
   "projects": [
+    {
+      "id": "main-20261105-coatingknowledgehub-涂装知识网站",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "Anthony",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoatingKnowledgeHub"
+        }
+      ],
+      "name": "涂装知识网站",
+      "url": "https://muse.ai/s/tu-zhuang-zhi-shi-wang-zhan-xjf6h2xd3fxfxdxv/M__w8toiRYQ-oNAQlbmG5XnqVvhQwcJugMiT_gZIXQA",
+      "status": "online",
+      "description": "免费涂装知识库，面向工业涂装工程师，涵盖涂装理论、22 条缺陷诊断、涂膜性能要求、28 种检测方法与露点、膜厚、涂布率等车间计算工具，简体中文",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-wujieli0207-mandarin-recall",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "Wujie Li",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wujieli0207"
+        }
+      ],
+      "name": "Mandarin Recall",
+      "url": "https://mandarinrecall.com",
+      "status": "online",
+      "description": "HSK 3.0 词汇站，2025 考纲每个词带拼音、发音和旧新级别对照；间隔重复免费且不用注册，写自己的句子可以得到 AI 反馈",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-macuns-券到卡包",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "mac nie",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/macuns"
+        }
+      ],
+      "name": "券到卡包",
+      "url": "https://www.quandaokabao.com",
+      "status": "online",
+      "description": "微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-air158-题伴",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "air158",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/air158"
+        }
+      ],
+      "name": "题伴",
+      "url": "https://tiban.momoai.pro/app",
+      "status": "online",
+      "description": "中文截图与文字练习助手，粘贴题目或上传截图，查看编程题、选择题、填空及主观题的答案和解析；需登录，新账号赠送 10 次体验，后续按次付费",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://tiban.momoai.pro/"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-maaaaph-ontrend-ai",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Robin Ma",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Maaaaph"
+        }
+      ],
+      "name": "OnTrend AI",
+      "url": "https://ontrendai.com",
+      "status": "online",
+      "description": "趣味 AI 短视频生成工具，面向普通用户与年轻人，无需编写提示词或掌握剪辑，挑选正在流行的爆款模板并上传 1-2 张照片，即可把静态照片变成带原版音乐与动作卡点的 9:16 搞笑短视频",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-bowen-guo-resumeinvited",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Bowen Guo",
+      "city": "",
+      "makerLinks": [],
+      "name": "ResumeInvited",
+      "url": "https://resumeinvited.com/",
+      "status": "online",
+      "description": "英文简历制作工具（免费），支持模板、实时预览和 PDF 或可编辑 Word 导出，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-aloow-live-face-swap",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "Qing Shao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/aloow"
+        }
+      ],
+      "name": "Live Face Swap",
+      "url": "https://live-face-swap.net/",
+      "status": "online",
+      "description": "在浏览器里用摄像头实时试换脸、画面风格和服装造型，录下片段后可直接回看并下载；摄像头预览免费，实时 AI 生成需登录并消耗积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-djyou32-postersheet",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "djyou32",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/djyou32"
+        }
+      ],
+      "name": "PosterSheet",
+      "url": "https://postersheet.com/",
+      "status": "online",
+      "description": "海报打印工具，将图片拆分成多张纸打印，再拼接成大幅海报，用家用打印机制作墙面装饰和活动海报",
+      "extraLinks": [],
+      "categories": [
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261104-suio03-tapemoon",
+      "edition": "main",
+      "addedAt": "2026-11-04",
+      "maker": "suio03",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/suio03"
+        }
+      ],
+      "name": "Tapemoon",
+      "url": "https://tapemoon.com",
+      "status": "online",
+      "description": "AI 音乐视频生成器，上传一首歌（适合 Suno、Udio 生成的 AI 歌曲），自动生成分镜并按人声对齐歌词，渲染前可逐镜修改，可选 Seedance 或 Kling 出 16:9 / 9:16 MV；新用户送免费积分可预览，另有免费的逐字同步歌词视频工具",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261104-cuilinhao-soulpaw",
       "edition": "main",
@@ -157,6 +364,23 @@
       "extraLinks": [],
       "categories": [
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261104-欧克元-chatgpt礼品卡",
+      "edition": "programmer",
+      "addedAt": "2026-11-04",
+      "maker": "欧克元",
+      "city": "",
+      "makerLinks": [],
+      "name": "ChatGPT礼品卡",
+      "url": "https://aicardhub.shop/",
+      "status": "online",
+      "description": "ChatGPT 多面值礼品卡，可直充自己账户",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
       ],
       "source": "upstream"
     },
@@ -365,6 +589,433 @@
       "categories": [
         "效率工具"
       ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetaios",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetAios",
+      "url": "https://apps.apple.com/cn/app/id6809450051",
+      "status": "online",
+      "description": "macOS 本地优先 AI Agent 工作台，多引擎会话、40+ 内置工具、长期记忆，数据全程留在本机，另有同款开源版",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/phinn/KinetAios"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetbrief",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetBrief",
+      "url": "https://apps.apple.com/cn/app/id6782778566",
+      "status": "online",
+      "description": "AI 会议纪要 App，开完会纪要即有，录音转写与要点提取全在本地完成",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6782778566"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetminutes",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetMinutes",
+      "url": "https://apps.apple.com/cn/app/id6813593104",
+      "status": "online",
+      "description": "AI 会议记录 App，开完会纪要即有，本地转写不上传",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6813593104"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetmemory",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetMemory",
+      "url": "https://apps.apple.com/cn/app/id6815923723",
+      "status": "online",
+      "description": "间隔复习 App，按遗忘曲线安排复习，该忘的才忘",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6815923723"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetstudy",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetStudy",
+      "url": "https://apps.apple.com/cn/app/id6797004663",
+      "status": "online",
+      "description": "错题管理 App，错题有人管，家长不用猜",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6797004663"
+        }
+      ],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetmorning",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetMorning",
+      "url": "https://apps.apple.com/cn/app/id6779978181",
+      "status": "online",
+      "description": "远程报平安 App，一声平安远程可见",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6779978181"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-clasp-focus",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "Clasp Focus",
+      "url": "https://apps.apple.com/cn/app/id6820942179",
+      "status": "online",
+      "description": "专注锁机 App，合上盖子就开始专注",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6820942179"
+        }
+      ],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-m5chat",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "M5Chat",
+      "url": "https://apps.apple.com/cn/app/id6820196518",
+      "status": "online",
+      "description": "口袋里的多引擎 AI 助手，一个 App 切换多家大模型",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6820196518"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetfit",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetFit",
+      "url": "https://apps.apple.com/cn/app/id6773755689",
+      "status": "online",
+      "description": "健康管理 App，先把身体打开",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6773755689"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetsoul",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetSoul",
+      "url": "https://apps.apple.com/cn/app/id6780600464",
+      "status": "online",
+      "description": "AI 心理日记，给情绪一个出口",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6780600464"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetrain",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetRain",
+      "url": "https://apps.apple.com/cn/app/id6814033986",
+      "status": "online",
+      "description": "氛围声 App，想下雨就下雨",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6814033986"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinetelf",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetElf",
+      "url": "https://apps.apple.com/cn/app/id6807457522",
+      "status": "online",
+      "description": "口袋宠物精灵，会长大的桌面伙伴",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6807457522"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-kinettask",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "KinetTask",
+      "url": "https://apps.apple.com/us/app/kinettask-private-ai-tasks/id6780944289",
+      "status": "online",
+      "description": "端侧 AI 任务管理器，数据全程本地 SQLite，不上云不建账号",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/us/app/kinettask-private-ai-tasks/id6780944289"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-promptside",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "Promptside",
+      "url": "https://apps.apple.com/us/app/promptside/id6820624868",
+      "status": "online",
+      "description": "AI 短片创作台，一个人就是整个剧组",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/us/app/promptside/id6820624868"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-furchart",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "FurChart",
+      "url": "https://apps.apple.com/us/app/furchart-pet-health-records/id6817339084",
+      "status": "online",
+      "description": "宠物健康记录，毛孩子病历不翻抽屉",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/us/app/furchart-pet-health-records/id6817339084"
+        }
+      ],
+      "categories": [
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261103-phinn-duofolio",
+      "edition": "main",
+      "addedAt": "2026-11-03",
+      "maker": "phinn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/phinn"
+        }
+      ],
+      "name": "DuoFolio",
+      "url": "https://apps.apple.com/cn/app/id6823855712",
+      "status": "online",
+      "description": "为折叠屏而生的书",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://apps.apple.com/cn/app/id6823855712"
+        }
+      ],
+      "categories": [],
       "source": "upstream"
     },
     {
@@ -16498,7 +17149,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261104-0",
+      "id": "custom-20261105-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48116,6 +48767,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250626-rns-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-06-26",
+      "maker": "rns",
+      "city": "",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250626-rns-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-06-26",
+      "maker": "rns",
+      "city": "",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250626-rns-独立星球",
+      "edition": "main",
+      "addedAt": "2025-06-26",
+      "maker": "rns",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250626-rns-独立观察",
+      "edition": "main",
+      "addedAt": "2025-06-26",
+      "maker": "rns",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250625-dt986-amazon-downloader",
       "edition": "main",
       "addedAt": "2025-06-25",
@@ -48525,131 +49265,6 @@
       "categories": [
         "效率工具",
         "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250619-vladelaina-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-06-19",
-      "maker": "vladelaina",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/vladelaina"
-        },
-        {
-          "label": "博客",
-          "url": "https://vladelaina.com/blog"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250619-vladelaina-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-06-19",
-      "maker": "vladelaina",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/vladelaina"
-        },
-        {
-          "label": "博客",
-          "url": "https://vladelaina.com/blog"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250619-vladelaina-独立星球",
-      "edition": "main",
-      "addedAt": "2025-06-19",
-      "maker": "vladelaina",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/vladelaina"
-        },
-        {
-          "label": "博客",
-          "url": "https://vladelaina.com/blog"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250619-vladelaina-独立观察",
-      "edition": "main",
-      "addedAt": "2025-06-19",
-      "maker": "vladelaina",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/vladelaina"
-        },
-        {
-          "label": "博客",
-          "url": "https://vladelaina.com/blog"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

@@ -1,10 +1,37 @@
-# AI 独立制造所 · 全部产品清单（3483）
+# AI 独立制造所 · 全部产品清单（3509）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-04（北京时间）
+> 更新时间：2026-11-05（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2901）
+## 大众产品（2926）
+
+- **[涂装知识网站](https://muse.ai/s/tu-zhuang-zhi-shi-wang-zhan-xjf6h2xd3fxfxdxv/M__w8toiRYQ-oNAQlbmG5XnqVvhQwcJugMiT_gZIXQA)** — 开发者 Anthony · 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/project-1deb26.html)
+  免费涂装知识库，面向工业涂装工程师，涵盖涂装理论、22 条缺陷诊断、涂膜性能要求、28 种检测方法与露点、膜厚、涂布率等车间计算工具，简体中文
+
+- **[Mandarin Recall](https://mandarinrecall.com)** — 开发者 Wujie Li · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/mandarin-recall.html)
+  HSK 3.0 词汇站，2025 考纲每个词带拼音、发音和旧新级别对照；间隔重复免费且不用注册，写自己的句子可以得到 AI 反馈
+
+- **[券到卡包](https://www.quandaokabao.com)** — 开发者 mac nie · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/project-fbdd1c.html)
+  微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发
+
+- **[题伴](https://tiban.momoai.pro/app)** — 开发者 air158 · 开发工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/project-9d98c1.html)
+  中文截图与文字练习助手，粘贴题目或上传截图，查看编程题、选择题、填空及主观题的答案和解析；需登录，新账号赠送 10 次体验，后续按次付费
+
+- **[OnTrend AI](https://ontrendai.com)** — 开发者 Robin Ma · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/ontrend-ai.html)
+  趣味 AI 短视频生成工具，面向普通用户与年轻人，无需编写提示词或掌握剪辑，挑选正在流行的爆款模板并上传 1-2 张照片，即可把静态照片变成带原版音乐与动作卡点的 9:16 搞笑短视频
+
+- **[ResumeInvited](https://resumeinvited.com/)** — 开发者 Bowen Guo · 文档办公 / 免费工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/resumeinvited.html)
+  英文简历制作工具（免费），支持模板、实时预览和 PDF 或可编辑 Word 导出，无需注册
+
+- **[Live Face Swap](https://live-face-swap.net/)** — 开发者 Qing Shao · AI 工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/live-face-swap.html)
+  在浏览器里用摄像头实时试换脸、画面风格和服装造型，录下片段后可直接回看并下载；摄像头预览免费，实时 AI 生成需登录并消耗积分
+
+- **[PosterSheet](https://postersheet.com/)** — 开发者 djyou32 · 图片工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/postersheet.html)
+  海报打印工具，将图片拆分成多张纸打印，再拼接成大幅海报，用家用打印机制作墙面装饰和活动海报
+
+- **[Tapemoon](https://tapemoon.com)** — 开发者 suio03 · AI 工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/tapemoon.html)
+  AI 音乐视频生成器，上传一首歌（适合 Suno、Udio 生成的 AI 歌曲），自动生成分镜并按人声对齐歌词，渲染前可逐镜修改，可选 Seedance 或 Kling 出 16:9 / 9:16 MV；新用户送免费积分可预览，另有免费的逐字同步歌词视频工具
 
 - **[SoulPaw](https://soulpaw.art/)** — 开发者 Linhao Cui · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/soulpaw.html)
   在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像
@@ -44,6 +71,54 @@
 
 - **[DriftDesk](https://apps.apple.com/cn/app/id6817377455)** — 开发者 phinn · 效率工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/driftdesk.html)
   Mac 专注氛围声 App，内置雨声、白噪等声景与极简桌面组件，帮助专注与放松
+
+- **[KinetAios](https://apps.apple.com/cn/app/id6809450051)** — 开发者 phinn · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetaios.html)
+  macOS 本地优先 AI Agent 工作台，多引擎会话、40+ 内置工具、长期记忆，数据全程留在本机，另有同款开源版
+
+- **[KinetBrief](https://apps.apple.com/cn/app/id6782778566)** — 开发者 phinn · AI 工具 / 音视频 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetbrief.html)
+  AI 会议纪要 App，开完会纪要即有，录音转写与要点提取全在本地完成
+
+- **[KinetMinutes](https://apps.apple.com/cn/app/id6813593104)** — 开发者 phinn · AI 工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetminutes.html)
+  AI 会议记录 App，开完会纪要即有，本地转写不上传
+
+- **[KinetMemory](https://apps.apple.com/cn/app/id6815923723)** — 开发者 phinn · 未分类 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetmemory.html)
+  间隔复习 App，按遗忘曲线安排复习，该忘的才忘
+
+- **[KinetStudy](https://apps.apple.com/cn/app/id6797004663)** — 开发者 phinn · 效率工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetstudy.html)
+  错题管理 App，错题有人管，家长不用猜
+
+- **[KinetMorning](https://apps.apple.com/cn/app/id6779978181)** — 开发者 phinn · 未分类 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetmorning.html)
+  远程报平安 App，一声平安远程可见
+
+- **[Clasp Focus](https://apps.apple.com/cn/app/id6820942179)** — 开发者 phinn · 效率工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/clasp-focus.html)
+  专注锁机 App，合上盖子就开始专注
+
+- **[M5Chat](https://apps.apple.com/cn/app/id6820196518)** — 开发者 phinn · AI 工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/m5chat.html)
+  口袋里的多引擎 AI 助手，一个 App 切换多家大模型
+
+- **[KinetFit](https://apps.apple.com/cn/app/id6773755689)** — 开发者 phinn · 效率工具 / 生活服务 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetfit.html)
+  健康管理 App，先把身体打开
+
+- **[KinetSoul](https://apps.apple.com/cn/app/id6780600464)** — 开发者 phinn · AI 工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetsoul.html)
+  AI 心理日记，给情绪一个出口
+
+- **[KinetRain](https://apps.apple.com/cn/app/id6814033986)** — 开发者 phinn · 未分类 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetrain.html)
+  氛围声 App，想下雨就下雨
+
+- **[KinetElf](https://apps.apple.com/cn/app/id6807457522)** — 开发者 phinn · 未分类 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinetelf.html)
+  口袋宠物精灵，会长大的桌面伙伴
+
+- **[KinetTask](https://apps.apple.com/us/app/kinettask-private-ai-tasks/id6780944289)** — 开发者 phinn · AI 工具 / 效率工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/kinettask.html)
+  端侧 AI 任务管理器，数据全程本地 SQLite，不上云不建账号
+
+- **[Promptside](https://apps.apple.com/us/app/promptside/id6820624868)** — 开发者 phinn · AI 工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/promptside.html)
+  AI 短片创作台，一个人就是整个剧组
+
+- **[FurChart](https://apps.apple.com/us/app/furchart-pet-health-records/id6817339084)** — 开发者 phinn · 生活服务 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/furchart.html)
+  宠物健康记录，毛孩子病历不翻抽屉
+
+- **[DuoFolio](https://apps.apple.com/cn/app/id6823855712)** — 开发者 phinn · 未分类 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/duofolio.html)
+  为折叠屏而生的书
 
 - **[绘页](https://huiye.org)** — 开发者 my19940202（上海） · 音视频 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/project-0e716f.html)
   生成绘本轮播视频，把文字做成一页一页切换的竖屏故事，30 多种手绘风格 — Web 应用
@@ -4965,6 +5040,18 @@
 - **[Headcanon 生成器 - 创作同人小说创意](https://headcanongenerator.fun/)** — 开发者 rns · 未分类 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/headcanon.html)
   为您喜爱的角色创作独特的同人小说创意
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 rns · AI 工具 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/ai-527b63.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 rns · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/project-4e8fb4.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 rns · 开发工具 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/project-bbab96.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 rns · 浏览器扩展 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/project-bbb016.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Amazon Downloader](https://www.leawo.org/save-video/)** — 开发者 DT986（深圳） · 音视频 · 已上线 · 收录 2025-06-25 · [详情页](https://indiemaker.cn/p/amazon-downloader.html)
   Amazon 的点播视频下载工具
 
@@ -5021,18 +5108,6 @@
 
 - **[Catime](https://github.com/vladelaina/Catime)** — 开发者 vladelaina · 效率工具 / 开发工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/catime.html)
   极致轻量的 Windows 倒计时工具，具有番茄工作法功能、透明界面和丰富自定义选项，只需几 MB 内存且几乎不占用 CPU 资源，便可在 Windows 上优雅掌控时间
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 vladelaina · AI 工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/ai-7899cc.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 vladelaina · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/project-1f0361.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 vladelaina · 开发工具 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/project-e4388f.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 vladelaina · 浏览器扩展 · 已上线 · 收录 2025-06-19 · [详情页](https://indiemaker.cn/p/project-e43d0f.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Veo3 AI Video Generator](https://veo-3.art)** — 开发者 Caron77 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2025-06-18 · [详情页](https://indiemaker.cn/p/veo3-ai-video-generator-55e353.html)
   支持文本转视频和图像转视频，配备原生音频生成和精准唇形同步，2-5秒完成专业级视频创作。
@@ -6990,7 +7065,7 @@
 - **[G-侠客 | BPC.js](https://g-xiake.com)** — 开发者 MrZenW · 免费工具 · 已上线 · 收录 2023-01-25 · [详情页](https://indiemaker.cn/p/g-bpc-js.html)
   可以生成能够给电波表对时的电磁波的 JS 库，并且用此搭建了一个免费帮大家对时的网站，它可以帮助拥有电波表（如卡西欧）的朋友在没有电波的地方对时
 
-- **[ChatGPT](https://github.com/lencx/ChatGPT)** — 开发者 lencx · AI 工具 / 文档办公 / 开发工具 / 社交社区 · 已上线 · 收录 2023-01-25 · [详情页](https://indiemaker.cn/p/chatgpt.html)
+- **[ChatGPT](https://github.com/lencx/ChatGPT)** — 开发者 lencx · AI 工具 / 文档办公 / 开发工具 / 社交社区 · 已上线 · 收录 2023-01-25 · [详情页](https://indiemaker.cn/p/chatgpt-c7648b.html)
   ChatGPT 跨平台桌面应用，支持 Mac、Windows 和 Linux。主要功能有斜杠指令，系统托盘，快捷键，系统菜单，聊天记录导出（PNG，PDF，Markdown），加载任意网站 URL 作为应用程序窗口（URL 桌面化，可以借助系统 API 做更多有趣的事情）- 更多介绍
 
 - **[游戏存档管理器](https://github.com/mcthesw/game-save-manager)** — 开发者 Sworld（温州） · 效率工具 / 游戏娱乐 · 已上线 · 收录 2023-01-22 · [详情页](https://indiemaker.cn/p/project-dc36a6.html)
@@ -8709,7 +8784,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（422）
+## 程序员版（423）
+
+- **[ChatGPT礼品卡](https://aicardhub.shop/)** — 开发者 欧克元 · AI 工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/chatgpt-d8b780.html)
+  ChatGPT 多面值礼品卡，可直充自己账户
 
 - **[Skillry](https://skillry.dev/zh/)** — 开发者 熠辉（北京） · AI 工具 / 图片工具 / 音视频 / 文档办公 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/skillry.html)
   Agent Skill 库，每个 Skill 对应一种设计好的风格（如杂志感品牌故事 PPT、像素风宣传片），装进 Claude Code、Codex、Cursor 等 Agent，就能照着做出没有 AI 味的幻灯片、网页、图片和视频；装前可看真实成品
