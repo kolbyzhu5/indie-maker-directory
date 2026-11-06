@@ -1,19 +1,37 @@
-# AI 独立制造所 · 全部产品清单（3509）
+# AI 独立制造所 · 全部产品清单（3518）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-05（北京时间）
+> 更新时间：2026-11-06（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2926）
+## 大众产品（2932）
+
+- **[dola](https://dolaai.video/)** — 开发者 bob（深圳） · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/dola.html)
+  AI 视频与图片生成器，用文字、首尾帧或参考图生成短片，Seedance 2.5 最高 1080p，导出不带水印，按次扣额度、无免费试用
+
+- **[CrestGeo](https://crestgeo.com)** — 开发者 sdupig · AI 工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/crestgeo.html)
+  想知道豆包、DeepSeek、Kimi 等 AI 回答问题时会不会提到你的网站或店铺、说得对不对、推荐了谁？输入网址或品牌名/店铺名先看分数，并给出可执行的修改建议
+
+- **[InkByYou](https://inkbyyou.com/)** — 开发者 Jayden-tong · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/inkbyyou.html)
+  AI 纹身设计工具，用文字或参考图生成纹身草图，支持多种风格、AI 修改、线稿提取和上身预览；提供免费预览，高清原创图下载需付费
+
+- **[WordStar 词光](https://www.wordstar.cc)** — 开发者 Jayden-tong · 文档办公 / 教育学习 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/wordstar.html)
+  面向雅思备考者的词汇学习网站，通过插画、英美发音、例句、拼写练习和间隔复习记单词；免费试学 100 词，完整词表文件免费下载，全词库在线学习需会员
+
+- **[TATOOLS](https://tatools.cn/)** — 开发者 leafiy · 开发工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/tatools.html)
+  面向人文社科研究者的中文在线文本分析平台，无需编程即可做词频统计、情感分析与主题建模，按算力点数收费
+
+- **[PDF-Editor](https://wei2hu0.github.io/PDF-Editor/)** — 开发者 JhuoW · 图片工具 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/pdf-editor.html)
+  免费开源的网页 PDF 编辑器，可在浏览器内改文字和图片、批注及合并页面，文件无需上传
+
+- **[OpenMathpix](https://github.com/JhuoW/OpenMathpix/releases/latest)** — 开发者 JhuoW · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/openmathpix.html)
+  Windows 公式截图工具（免费），首次下载模型后可在本机离线将单个公式截图转为 LaTeX
 
 - **[涂装知识网站](https://muse.ai/s/tu-zhuang-zhi-shi-wang-zhan-xjf6h2xd3fxfxdxv/M__w8toiRYQ-oNAQlbmG5XnqVvhQwcJugMiT_gZIXQA)** — 开发者 Anthony · 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/project-1deb26.html)
   免费涂装知识库，面向工业涂装工程师，涵盖涂装理论、22 条缺陷诊断、涂膜性能要求、28 种检测方法与露点、膜厚、涂布率等车间计算工具，简体中文
 
 - **[Mandarin Recall](https://mandarinrecall.com)** — 开发者 Wujie Li · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/mandarin-recall.html)
   HSK 3.0 词汇站，2025 考纲每个词带拼音、发音和旧新级别对照；间隔重复免费且不用注册，写自己的句子可以得到 AI 反馈
-
-- **[券到卡包](https://www.quandaokabao.com)** — 开发者 mac nie · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/project-fbdd1c.html)
-  微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发
 
 - **[题伴](https://tiban.momoai.pro/app)** — 开发者 air158 · 开发工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/project-9d98c1.html)
   中文截图与文字练习助手，粘贴题目或上传截图，查看编程题、选择题、填空及主观题的答案和解析；需登录，新账号赠送 10 次体验，后续按次付费
@@ -1510,7 +1528,7 @@
   AI 图片生成工具，输入文字秒出高清图，集成 Nano Banana 2、Seedream、FLUX.2 等模型，每天有免费额度，另附 AI 头像、卡通化、涂色页、抠图、水印去除等专项工具
 
 - **[法脉 LawPulse](https://lttxzmj.github.io/lawpulse-site/)** — 开发者 lttxzmj · AI 工具 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/lawpulse.html)
-  给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实；数据全在本机不上云。公测期免费。配套开源了 chinese-law-corpus（412 部法律逐条 JSON + 723 件案例，CC0）
+  给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实。公测期免费。配套开源了 chinese-law-corpus（412 部法律逐条 JSON + 723 件案例，CC0）
 
 - **[SiteHunter](https://sitehunter.org)** — 开发者 SiteHunter · 开发工具 · 已上线 · 收录 2026-09-07 · [详情页](https://indiemaker.cn/p/sitehunter.html)
   为独立开发者、创业者打造的市场调研平台。找 saas 创业点子不再靠直觉，SiteHunter 监控了一批真实的流量增长数据，用数据看清哪个赛道正在增长，从一个被验证的市场开始
@@ -5019,6 +5037,18 @@
 - **[SaaSGree](https://saasgree.com)** — 开发者 Dylan Tao（合肥） · 未分类 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/saasgree.html)
   SaaSGree 专为企业间签订各类 SaaS 合同的场景而设计，帮助用户通过专业合同模板快速生成协议，无需高价聘请律师，也避免使用低质量模板带来的法律风险。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Dylan Tao（合肥） · AI 工具 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/ai-7ce600.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Dylan Tao（合肥） · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/project-aecb0a.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Dylan Tao（合肥） · 开发工具 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/project-d9f5ce.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Dylan Tao（合肥） · 浏览器扩展 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/project-d9fa4e.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[AI Instagram Username Generator](https://instagramusername.org/)** — 开发者 hjiayu799 · AI 工具 · 已停止 · 收录 2025-06-28 · [详情页](https://indiemaker.cn/p/ai-instagram-username-generator.html)
   生成用户名的网站，输入关键词并选择风格快速生成创意名称。
 
@@ -5039,18 +5069,6 @@
 
 - **[Headcanon 生成器 - 创作同人小说创意](https://headcanongenerator.fun/)** — 开发者 rns · 未分类 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/headcanon.html)
   为您喜爱的角色创作独特的同人小说创意
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 rns · AI 工具 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/ai-527b63.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 rns · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/project-4e8fb4.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 rns · 开发工具 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/project-bbab96.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 rns · 浏览器扩展 · 已上线 · 收录 2025-06-26 · [详情页](https://indiemaker.cn/p/project-bbb016.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Amazon Downloader](https://www.leawo.org/save-video/)** — 开发者 DT986（深圳） · 音视频 · 已上线 · 收录 2025-06-25 · [详情页](https://indiemaker.cn/p/amazon-downloader.html)
   Amazon 的点播视频下载工具
@@ -8784,7 +8802,16 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（423）
+## 程序员版（426）
+
+- **[gh-pull](https://github.com/shiqicao/gh-pull)** — 开发者 Shiqi Cao · 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/gh-pull.html)
+  免费、MIT 开源的 GitHub CLI 扩展，在本地浏览器中集中查看多个仓库的 PR，保存搜索与分组，查看堆叠 PR 依赖、CI 状态和已解决／总评审线程数
+
+- **[halfsize](https://github.com/YKLovePython/halfsize)** — 开发者 YKLovePython · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/halfsize.html)
+  开源的视频压缩命令行工具（自带本地网页界面），把视频精确压到指定大小（微信 / Discord 20 MB、邮件 20 MB 等），并用 VMAF/SSIM 报告画质损失；一条命令、文件不上传、无需账号，Windows / macOS / Linux 都能用
+
+- **[小羊Plus](https://xiaoyangplus.com/)** — 开发者 王乐 · AI 工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/plus.html)
+  国内 ChatGPT 代充平台，支持使用 Account ID 充值，无需账号密码，无需验证码，可开正规公司发票，充值失败全额退款
 
 - **[ChatGPT礼品卡](https://aicardhub.shop/)** — 开发者 欧克元 · AI 工具 · 已上线 · 收录 2026-11-04 · [详情页](https://indiemaker.cn/p/chatgpt-d8b780.html)
   ChatGPT 多面值礼品卡，可直充自己账户
@@ -9518,8 +9545,8 @@
 - **[microNeo](https://github.com/sollawen/microNeo)** — 开发者 sollawen · 文档办公 / 开发工具 · 已上线 · 收录 2026-06-08 · [详情页](https://indiemaker.cn/p/microneo.html)
   终端 Markdown 编辑器，同窗口渲染+编辑，打开 .md 文件即看到排版效果，点击即可编辑，无需分屏。fork 自 Micro，Go 单二进制，一行命令安装
 
-- **[CoderPlan](https://coderplan.ai)** — 开发者 AstroPixelian · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-06-06 · [详情页](https://indiemaker.cn/p/coderplan.html)
-  LLM API 中转网关，OpenAI 兼容接口，一行配置接入 Claude Code / Codex CLI / Gemini CLI，新用户免费额度，按量付费，支持支付宝/微信
+- **[CoderPlan](https://coderplan.ai)** — 开发者 AstroPixelian · AI 工具 / 文档办公 / 开发工具 · 已上线 · 收录 2026-06-06 · [详情页](https://indiemaker.cn/p/coderplan.html)
+  AI 编程 API 中转站，一个 Key 调 Claude（Opus 5.5、Sonnet 5.5 等）、GPT（GPT-6.1、GPT-5.6 等）、Gemini、Grok、MiniMax 模型，同时服务 Claude Code、Codex CLI、Cursor、Gemini CLI；Claude Code 填 https://api.coderplan.ai，OpenAI 兼容工具填 https://api.coderplan.ai/v1；Stripe 国际卡充值，价格表注册前可查，每笔请求明细（模型 / tokens / 缓存 / 费用）可核对，余额不过期，按量计费无月费；文档部分为中文，英文版进行中
 
 - **[toprank](https://github.com/nowork-studio/toprank)** — 开发者 nowork-studio · AI 工具 / 文档办公 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-04-10 · [详情页](https://indiemaker.cn/p/toprank.html)
   开源（MIT）的 Claude Code 插件，提供 9 个 SEO 和 Google Ads 技能。连接 Google Search Console、PageSpeed Insights、Google Ads API，自动重写 meta 标签、生成 JSON-LD 结构化数据，并将修改直接推送到 WordPress/Strapi/Contentful/Ghost。107 stars

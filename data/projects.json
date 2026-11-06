@@ -4,29 +4,193 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-05T02:28:44.454Z",
+  "generatedAt": "2026-11-06T02:26:43.227Z",
   "counts": {
-    "total": 3509,
-    "main": 2926,
-    "programmer": 423,
+    "total": 3518,
+    "main": 2932,
+    "programmer": 426,
     "game": 160,
     "custom": 1
   },
   "categoryCounts": {
-    "免费工具": 739,
-    "AI 工具": 1186,
-    "开发工具": 691,
-    "图片工具": 665,
-    "音视频": 630,
-    "文档办公": 340,
-    "浏览器扩展": 375,
+    "AI 工具": 1190,
+    "图片工具": 667,
+    "音视频": 632,
+    "免费工具": 744,
+    "文档办公": 343,
+    "教育学习": 197,
+    "开发工具": 694,
+    "浏览器扩展": 377,
     "社交社区": 129,
     "效率工具": 491,
     "生活服务": 108,
-    "游戏娱乐": 192,
-    "教育学习": 196
+    "游戏娱乐": 192
   },
   "projects": [
+    {
+      "id": "main-20261105-bob-dola",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "bob",
+      "city": "深圳",
+      "makerLinks": [],
+      "name": "dola",
+      "url": "https://dolaai.video/",
+      "status": "online",
+      "description": "AI 视频与图片生成器，用文字、首尾帧或参考图生成短片，Seedance 2.5 最高 1080p，导出不带水印，按次扣额度、无免费试用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-sdupig-crestgeo",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "sdupig",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sdupig"
+        }
+      ],
+      "name": "CrestGeo",
+      "url": "https://crestgeo.com",
+      "status": "online",
+      "description": "想知道豆包、DeepSeek、Kimi 等 AI 回答问题时会不会提到你的网站或店铺、说得对不对、推荐了谁？输入网址或品牌名/店铺名先看分数，并给出可执行的修改建议",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-jayden-tong-inkbyyou",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "Jayden-tong",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Jayden-tong"
+        }
+      ],
+      "name": "InkByYou",
+      "url": "https://inkbyyou.com/",
+      "status": "online",
+      "description": "AI 纹身设计工具，用文字或参考图生成纹身草图，支持多种风格、AI 修改、线稿提取和上身预览；提供免费预览，高清原创图下载需付费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-jayden-tong-wordstar-词光",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "Jayden-tong",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Jayden-tong"
+        }
+      ],
+      "name": "WordStar 词光",
+      "url": "https://www.wordstar.cc",
+      "status": "online",
+      "description": "面向雅思备考者的词汇学习网站，通过插画、英美发音、例句、拼写练习和间隔复习记单词；免费试学 100 词，完整词表文件免费下载，全词库在线学习需会员",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-leafiy-tatools",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "leafiy",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/leafiy"
+        }
+      ],
+      "name": "TATOOLS",
+      "url": "https://tatools.cn/",
+      "status": "online",
+      "description": "面向人文社科研究者的中文在线文本分析平台，无需编程即可做词频统计、情感分析与主题建模，按算力点数收费",
+      "extraLinks": [
+        {
+          "label": "更多介绍与教程",
+          "url": "https://tatools.cn/article"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-jhuow-pdf-editor",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "JhuoW",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JhuoW"
+        }
+      ],
+      "name": "PDF-Editor",
+      "url": "https://wei2hu0.github.io/PDF-Editor/",
+      "status": "online",
+      "description": "免费开源的网页 PDF 编辑器，可在浏览器内改文字和图片、批注及合并页面，文件无需上传",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261105-jhuow-openmathpix",
+      "edition": "main",
+      "addedAt": "2026-11-05",
+      "maker": "JhuoW",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JhuoW"
+        }
+      ],
+      "name": "OpenMathpix",
+      "url": "https://github.com/JhuoW/OpenMathpix/releases/latest",
+      "status": "online",
+      "description": "Windows 公式截图工具（免费），首次下载模型后可在本机离线将单个公式截图转为 LaTeX",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261105-coatingknowledgehub-涂装知识网站",
       "edition": "main",
@@ -73,29 +237,6 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261105-macuns-券到卡包",
-      "edition": "main",
-      "addedAt": "2026-11-05",
-      "maker": "mac nie",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/macuns"
-        }
-      ],
-      "name": "券到卡包",
-      "url": "https://www.quandaokabao.com",
-      "status": "online",
-      "description": "微信电子券制作小程序，面向实体店永久免费做优惠券、券包、次卡；顾客领进卡包，到店扫码核销，不用自己开发",
-      "extraLinks": [],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
       "id": "main-20261105-air158-题伴",
       "edition": "main",
       "addedAt": "2026-11-05",
@@ -119,6 +260,81 @@
       ],
       "categories": [
         "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261105-shiqicao-gh-pull",
+      "edition": "programmer",
+      "addedAt": "2026-11-05",
+      "maker": "Shiqi Cao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shiqicao"
+        }
+      ],
+      "name": "gh-pull",
+      "url": "https://github.com/shiqicao/gh-pull",
+      "status": "online",
+      "description": "免费、MIT 开源的 GitHub CLI 扩展，在本地浏览器中集中查看多个仓库的 PR，保存搜索与分组，查看堆叠 PR 依赖、CI 状态和已解决／总评审线程数",
+      "extraLinks": [
+        {
+          "label": "演示视频",
+          "url": "https://youtu.be/4LBga5H5Wwk"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261105-yklovepython-halfsize",
+      "edition": "programmer",
+      "addedAt": "2026-11-05",
+      "maker": "YKLovePython",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/YKLovePython"
+        }
+      ],
+      "name": "halfsize",
+      "url": "https://github.com/YKLovePython/halfsize",
+      "status": "online",
+      "description": "开源的视频压缩命令行工具（自带本地网页界面），把视频精确压到指定大小（微信 / Discord 20 MB、邮件 20 MB 等），并用 VMAF/SSIM 报告画质损失；一条命令、文件不上传、无需账号，Windows / macOS / Linux 都能用",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/YKLovePython/halfsize#readme"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261105-王乐-小羊plus",
+      "edition": "programmer",
+      "addedAt": "2026-11-05",
+      "maker": "王乐",
+      "city": "",
+      "makerLinks": [],
+      "name": "小羊Plus",
+      "url": "https://xiaoyangplus.com/",
+      "status": "online",
+      "description": "国内 ChatGPT 代充平台，支持使用 Account ID 充值，无需账号密码，无需验证码，可开正规公司发票，充值失败全额退款",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
       ],
       "source": "upstream"
     },
@@ -16146,7 +16362,7 @@
       "name": "法脉 LawPulse",
       "url": "https://lttxzmj.github.io/lawpulse-site/",
       "status": "online",
-      "description": "给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实；数据全在本机不上云。公测期免费。配套开源了 [chinese-law-corpus](https://github.com/lttxzmj/chinese-law-corpus)（412 部法律逐条 JSON + 723 件案例，CC0）",
+      "description": "给中国执业律师的本地离线法律研究工具（macOS）：412 部现行法律逐条检索，笔记直接挂在法条下自动成链，AI 合同审查用自己的模型密钥且引用逐条回本地法库核实。公测期免费。配套开源了 [chinese-law-corpus](https://github.com/lttxzmj/chinese-law-corpus)（412 部法律逐条 JSON + 723 件案例，CC0）",
       "extraLinks": [
         {
           "label": "chinese-law-corpus",
@@ -17149,7 +17365,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261105-0",
+      "id": "custom-20261106-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -30367,12 +30583,17 @@
       "name": "CoderPlan",
       "url": "https://coderplan.ai",
       "status": "online",
-      "description": "LLM API 中转网关，OpenAI 兼容接口，一行配置接入 Claude Code / Codex CLI / Gemini CLI，新用户免费额度，按量付费，支持支付宝/微信",
-      "extraLinks": [],
+      "description": "AI 编程 API 中转站，一个 Key 调 Claude（Opus 5.5、Sonnet 5.5 等）、GPT（GPT-6.1、GPT-5.6 等）、Gemini、Grok、MiniMax 模型，同时服务 Claude Code、Codex CLI、Cursor、Gemini CLI；Claude Code 填 `https://api.coderplan.ai`，OpenAI 兼容工具填 `https://api.coderplan.ai/v1`；Stripe 国际卡充值，价格表注册前可查，每笔请求明细（模型 / tokens / 缓存 / 费用）可核对，余额不过期，按量计费无月费；文档部分为中文，英文版进行中",
+      "extraLinks": [
+        {
+          "label": "定价页",
+          "url": "https://coderplan.ai/pricing"
+        }
+      ],
       "categories": [
         "AI 工具",
-        "开发工具",
-        "免费工具"
+        "文档办公",
+        "开发工具"
       ],
       "source": "upstream"
     },
@@ -48626,6 +48847,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250629-dylan-tao-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-06-29",
+      "maker": "Dylan Tao",
+      "city": "合肥",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250629-dylan-tao-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-06-29",
+      "maker": "Dylan Tao",
+      "city": "合肥",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250629-dylan-tao-独立星球",
+      "edition": "main",
+      "addedAt": "2025-06-29",
+      "maker": "Dylan Tao",
+      "city": "合肥",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250629-dylan-tao-独立观察",
+      "edition": "main",
+      "addedAt": "2025-06-29",
+      "maker": "Dylan Tao",
+      "city": "合肥",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250628-hjiayu799-ai-instagram-username-generator",
       "edition": "main",
       "addedAt": "2025-06-28",
@@ -48764,95 +49074,6 @@
       "description": "为您喜爱的角色创作独特的同人小说创意",
       "extraLinks": [],
       "categories": [],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250626-rns-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-06-26",
-      "maker": "rns",
-      "city": "",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250626-rns-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-06-26",
-      "maker": "rns",
-      "city": "",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250626-rns-独立星球",
-      "edition": "main",
-      "addedAt": "2025-06-26",
-      "maker": "rns",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250626-rns-独立观察",
-      "edition": "main",
-      "addedAt": "2025-06-26",
-      "maker": "rns",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
-      ],
       "source": "upstream"
     },
     {

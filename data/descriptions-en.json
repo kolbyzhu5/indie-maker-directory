@@ -14522,5 +14522,65 @@
  "main-20261103-phinn-kinetstudy": {
   "descEn": "Wrong question management app. Someone will take care of wrong questions, so parents don’t have to guess.",
   "at": "2026-11-05"
+ },
+ "main-20261105-bob-dola": {
+  "descEn": "AI video and image generator, use text, first and last frames or reference images to generate short videos, Seedance 2.5 up to 1080p, export without watermark, pay-per-view credit, no free trial",
+  "at": "2026-11-06"
+ },
+ "main-20261105-sdupig-crestgeo": {
+  "descEn": "I would like to know whether AI such as Doubao, DeepSeek, and Kimi will mention your website or store when answering questions, whether it is correct, and who it recommends? Enter the website address or brand name/store name to see the score first and give executable modification suggestions.",
+  "at": "2026-11-06"
+ },
+ "main-20261105-jayden-tong-inkbyyou": {
+  "descEn": "AI tattoo design tool, generates tattoo sketches using text or reference images, supports multiple styles, AI modification, line draft extraction and upper body preview; provides free preview, and downloads of high-definition original images require payment",
+  "at": "2026-11-06"
+ },
+ "main-20261105-jayden-tong-wordstar-词光": {
+  "descEn": "A vocabulary learning website for IELTS preparers, memorizing words through illustrations, British and American pronunciation, example sentences, spelling exercises and spaced review; free trial learning of 100 words, free download of complete vocabulary files, full vocabulary online learning requires membership",
+  "at": "2026-11-06"
+ },
+ "main-20261105-leafiy-tatools": {
+  "descEn": "A Chinese online text analysis platform for researchers in the humanities and social sciences. It can do word frequency statistics, sentiment analysis and topic modeling without programming. It is charged based on computing power points.",
+  "at": "2026-11-06"
+ },
+ "main-20261105-jhuow-pdf-editor": {
+  "descEn": "Free and open source web PDF editor, you can change text and images, annotate and merge pages in the browser, without uploading files.",
+  "at": "2026-11-06"
+ },
+ "main-20261105-jhuow-openmathpix": {
+  "descEn": "Windows formula screenshot tool (free), after downloading the model for the first time, you can convert a single formula screenshot to LaTeX offline on this machine",
+  "at": "2026-11-06"
+ },
+ "programmer-20261105-shiqicao-gh-pull": {
+  "descEn": "Free, MIT open source GitHub CLI extension to centrally view PRs from multiple repositories in a local browser, save searches and groups, and view stacked PR dependencies, CI status, and resolved/total review threads",
+  "at": "2026-11-06"
+ },
+ "programmer-20261105-yklovepython-halfsize": {
+  "descEn": "An open source video compression command line tool (with built-in local web interface), which can accurately compress videos to specified sizes (WeChat/Discord 20 MB, email 20 MB, etc.), and use VMAF/SSIM to report image quality loss; one command, no file upload, no account required, can be used on Windows/macOS/Linux",
+  "at": "2026-11-06"
+ },
+ "programmer-20261105-王乐-小羊plus": {
+  "descEn": "Domestic ChatGPT recharge platform supports recharge using Account ID. No account password or verification code is required. Regular company invoices can be issued. Full refund if recharge fails.",
+  "at": "2026-11-06"
+ },
+ "custom-20261106-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-06"
+ },
+ "main-20250629-dylan-tao-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-06"
+ },
+ "main-20250629-dylan-tao-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-06"
+ },
+ "main-20250629-dylan-tao-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-06"
+ },
+ "main-20250629-dylan-tao-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-06"
  }
 }
