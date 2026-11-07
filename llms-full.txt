@@ -1,10 +1,19 @@
-# AI 独立制造所 · 全部产品清单（3518）
+# AI 独立制造所 · 全部产品清单（3525）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-06（北京时间）
+> 更新时间：2026-11-07（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2932）
+## 大众产品（2935）
+
+- **[妙比特 funnybit](https://funnybit.cn/)** — 开发者 Sphinx-Shawn · AI 工具 / 开发工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/funnybit.html)
+  Vibe Coding 作品与 AI 应用灵感发现平台，汇集独立开发者创作的 AI 应用和实际作品案例，包含官方开发的一些应用，支持分类浏览与作品探索，并提供原创 AI 日报和周报
+
+- **[AllInOneIME](https://allinoneime.com/zh/)** — 开发者 Weijian Zhang · AI 工具 / 社交社区 / 免费工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/allinoneime.html)
+  Mac 输入法，在任何 App 的输入框句首打 @improve、@translate 或 @question 再按回车，就地润色、翻译或提问，选中结果直接上屏，不用复制到聊天窗口；自带 Rime 雾凇拼音，免费，每天 20 次免费 AI，也可以用自己的 Claude / Gemini / DeepSeek key
+
+- **[Pettenderly](https://pettenderly.com/)** — 开发者 Linhao Cui · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/pettenderly.html)
+  在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像
 
 - **[dola](https://dolaai.video/)** — 开发者 bob（深圳） · AI 工具 / 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/dola.html)
   AI 视频与图片生成器，用文字、首尾帧或参考图生成短片，Seedance 2.5 最高 1080p，导出不带水印，按次扣额度、无免费试用
@@ -390,8 +399,8 @@
 - **[Spaceora](https://spaceora.app/)** — 开发者 Zin · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/spaceora.html)
   AI 家居与花园设计工具，上传一张房间或庭院照片即可生成室内改造、虚拟布置、景观和后院设计效果，并可根据 USDA 种植区推荐植物；提供免费使用次数，生成结果用于设计构思而非精确施工图
 
-- **[OpenMontage Drama Studio](https://openmontage.dtok.io)** — 开发者 Charlie W · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/openmontage-drama-studio.html)
-  开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署
+- **[OpenMontage Drama Studio](https://github.com/charliewwdev/OpenMontage)** — 开发者 Charlie W · AI 工具 / 图片工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/openmontage-drama-studio.html)
+  可自己部署的 AI 短剧工作台，剧本→角色→场景→道具→分镜→配音→剪辑一条线走完，角色和场景参考图跨镜头复用保持人物一致；Docker Compose 部署，接任意 OpenAI 兼容大模型，图像视频走 Seedream/Seedance（付费 API）或自己的 ComfyUI，AGPL-3.0 开源
 
 - **[MacMix](https://macmix.jazminli.com)** — 开发者 Jazmín · 开发工具 / 免费工具 · 已上线 · 收录 2026-10-27 · [详情页](https://indiemaker.cn/p/macmix.html)
   Mac 菜单栏音量混音器，支持按应用独立调节音量、自定义 EQ 和多设备输出；基础功能免费，高级功能 ¥29.99 一次性买断，代码全部开源（GPL-3.0）
@@ -5019,6 +5028,18 @@
 - **[Veegen](https://veegen.ai/)** — 开发者 wdh（杭州） · 图片工具 / 音视频 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/veegen.html)
   图片生成视频工具
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 wdh（杭州） · AI 工具 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/ai-f90e83.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 wdh（杭州） · 开发工具 / 免费工具 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/project-164fc2.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 wdh（杭州） · 开发工具 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/project-579fe0.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 wdh（杭州） · 浏览器扩展 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/project-57a45f.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Converters.pro](https://www.converters.pro)** — 开发者 tao（杭州） · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2025-07-02 · [详情页](https://indiemaker.cn/p/converters-pro.html)
   基于 AI 的图片和视频转换网站，可以帮你做背景修复、老照片恢复、虚拟换衣
 
@@ -5036,18 +5057,6 @@
 
 - **[SaaSGree](https://saasgree.com)** — 开发者 Dylan Tao（合肥） · 未分类 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/saasgree.html)
   SaaSGree 专为企业间签订各类 SaaS 合同的场景而设计，帮助用户通过专业合同模板快速生成协议，无需高价聘请律师，也避免使用低质量模板带来的法律风险。
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Dylan Tao（合肥） · AI 工具 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/ai-7ce600.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Dylan Tao（合肥） · 开发工具 / 免费工具 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/project-aecb0a.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Dylan Tao（合肥） · 开发工具 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/project-d9f5ce.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Dylan Tao（合肥） · 浏览器扩展 · 已上线 · 收录 2025-06-29 · [详情页](https://indiemaker.cn/p/project-d9fa4e.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[AI Instagram Username Generator](https://instagramusername.org/)** — 开发者 hjiayu799 · AI 工具 · 已停止 · 收录 2025-06-28 · [详情页](https://indiemaker.cn/p/ai-instagram-username-generator.html)
   生成用户名的网站，输入关键词并选择风格快速生成创意名称。
@@ -8802,7 +8811,16 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（426）
+## 程序员版（429）
+
+- **[ouba-classmate](https://github.com/ouxxyy/ouba-classmate)** — 开发者 欧八同学 · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/ouba-classmate.html)
+  免费、MIT 开源的中文求职与创作 Agent Skills 套件（支持 Claude Code / Codex / Cursor 一行命令安装），覆盖多平台岗位搜索、简历与 JD 可复算匹配评分（内置本地零依赖 MCP Server）、中文经历面试追问与 Offer 前公司证据调查，附 12 个主流求职 Skill 实测公开横评数据
+
+- **[UsageRail](https://usagerail.com/)** — 开发者 supertj · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/usagerail.html)
+  API 计费与限流工具，几行中间件给自己的 API 发 Key、按套餐限流和配额，用量通过你自己的 Stripe 按量扣费；Key 和限额在你的服务进程里校验，请求不经过第三方；每月经它计费 1000 美元以内免费
+
+- **[卖家图片策划 Free](https://github.com/PDBen-Auto/seller-image-brief-free)** — 开发者 PDBen-Auto · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/free.html)
+  电商商品图策划 Agent Skill，将商品资料和有权使用的评论整理成最多三张拍摄与设计任务单，含 FABE、构图、短文案及证据缺口；只做策划不生图，免费使用但非开源，需自备兼容 Agent、模型并承担运行费用
 
 - **[gh-pull](https://github.com/shiqicao/gh-pull)** — 开发者 Shiqi Cao · 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-05 · [详情页](https://indiemaker.cn/p/gh-pull.html)
   免费、MIT 开源的 GitHub CLI 扩展，在本地浏览器中集中查看多个仓库的 PR，保存搜索与分组，查看堆叠 PR 依赖、CI 状态和已解决／总评审线程数
@@ -9132,7 +9150,7 @@
   给 AI Agent 用的交付 MCP，把产品打包成各生态安装包的知识、可评审计划和真实产物串成一条链路——Linux deb/rpm/AppImage 已跑通真实构建和干净容器安装运行验证，Windows/macOS/鸿蒙按契约调度到对应 CI runner 产出；npx -y deliverkit-mcp 一条命令接入 Claude Code、Cursor 等客户端，MIT 开源 TypeScript
 
 - **[TeamoRouter](https://teamorouter.cn)** — 开发者 yangzhou-chaofan · AI 工具 / 开发工具 · 已上线 · 收录 2026-09-08 · [详情页](https://indiemaker.cn/p/teamorouter-960233.html)
-  多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费
+  多模型 AI API 网关，一个 Key 调用 DeepSeek、Kimi、GLM、Qwen、MiniMax、豆包等国产模型，兼容 OpenAI / Anthropic 协议，Claude Code、Codex、CC Switch、Cherry Studio 改 base_url 即用，支持支付宝/微信充值、按量计费
 
 - **[RunWhale](https://github.com/zhiqingchen/RunWhale)** — 开发者 Tony Chen · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-09-06 · [详情页](https://indiemaker.cn/p/runwhale.html)
   基于 DeepSeek Harness 的开源手机 AI 编程工具，描述需求后生成或修改 Web / Expo 项目，并在同一部手机上预览；支持导入 Git 仓库
@@ -9524,7 +9542,7 @@
 - **[GPTGeminiGrok.AI](https://trygrokai.asia/list/#/home)** — 开发者 xianyu110 · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-06 · [详情页](https://indiemaker.cn/p/gptgeminigrok-ai.html)
   Grok / SuperGrok 为主的 AI 模型服务入口，同时提供 GPTPlus、GeminiPro、ClaudeProMax 账号及 API 中转
 
-- **[TeamoRouter](https://teamorouter.com)** — 开发者 blammectrappora · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-04 · [详情页](https://indiemaker.cn/p/teamorouter-3e06cb.html)
+- **[TeamoRouter](https://teamorouter.com)** — 开发者 blammectrappora · AI 工具 / 开发工具 · 已上线 · 收录 2026-07-04 · [详情页](https://indiemaker.cn/p/teamorouter-eddc39.html)
   AI 编程 API 智能路由网关，一个 Key 接入 Claude/GPT/Gemini/DeepSeek，国内可直连，微信/支付宝充值
 
 - **[Appaloft](https://appaloft.com)** — 开发者 nichenqin · AI 工具 / 效率工具 / 开发工具 · 已上线 · 收录 2026-07-04 · [详情页](https://indiemaker.cn/p/appaloft.html)
@@ -10082,7 +10100,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（160）
+## 独立游戏（161）
+
+- **[Parallel Parking Simulator](https://parallelparkingsimulator.com/)** — 开发者 Linky-AIinlink · 免费工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/parallel-parking-simulator.html)
+  侧方停车模拟器（免费），打开网页即可练习打方向、倒车入位和回正，附分步停车指南
 
 - **[词不一样就跑步](https://glm5.pro/)** — 开发者 词不一样就跑步 · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/project-0c333c.html)
   两人面对面共用一部手机的中文联想网页小游戏，从两个起始词各想相关词，倒计时后同时说出，不同就继续联想直到答案一致；三类共60组起始词，3/5/10秒倒计时，免费、无需下载或注册

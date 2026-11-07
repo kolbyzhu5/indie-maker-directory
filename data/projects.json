@@ -4,29 +4,207 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-06T02:26:43.227Z",
+  "generatedAt": "2026-11-07T01:55:35.105Z",
   "counts": {
-    "total": 3518,
-    "main": 2932,
-    "programmer": 426,
-    "game": 160,
+    "total": 3525,
+    "main": 2935,
+    "programmer": 429,
+    "game": 161,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1190,
-    "图片工具": 667,
+    "AI 工具": 1195,
+    "开发工具": 696,
+    "社交社区": 130,
+    "免费工具": 749,
+    "图片工具": 670,
+    "文档办公": 344,
     "音视频": 632,
-    "免费工具": 744,
-    "文档办公": 343,
     "教育学习": 197,
-    "开发工具": 694,
     "浏览器扩展": 377,
-    "社交社区": 129,
     "效率工具": 491,
     "生活服务": 108,
     "游戏娱乐": 192
   },
   "projects": [
+    {
+      "id": "main-20261106-sphinx-shawn-妙比特-funnybit",
+      "edition": "main",
+      "addedAt": "2026-11-06",
+      "maker": "Sphinx-Shawn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Sphinx-Shawn"
+        }
+      ],
+      "name": "妙比特 funnybit",
+      "url": "https://funnybit.cn/",
+      "status": "online",
+      "description": "Vibe Coding 作品与 AI 应用灵感发现平台，汇集独立开发者创作的 AI 应用和实际作品案例，包含官方开发的一些应用，支持分类浏览与作品探索，并提供原创 AI 日报和周报",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261106-allinoneime-allinoneime",
+      "edition": "main",
+      "addedAt": "2026-11-06",
+      "maker": "Weijian Zhang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/MicroZ-LLC/AllInOneIME"
+        }
+      ],
+      "name": "AllInOneIME",
+      "url": "https://allinoneime.com/zh/",
+      "status": "online",
+      "description": "Mac 输入法，在任何 App 的输入框句首打 @improve、@translate 或 @question 再按回车，就地润色、翻译或提问，选中结果直接上屏，不用复制到聊天窗口；自带 Rime 雾凇拼音，免费，每天 20 次免费 AI，也可以用自己的 Claude / Gemini / DeepSeek key",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261106-cuilinhao-pettenderly",
+      "edition": "main",
+      "addedAt": "2026-11-06",
+      "maker": "Linhao Cui",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cuilinhao"
+        }
+      ],
+      "name": "Pettenderly",
+      "url": "https://pettenderly.com/",
+      "status": "online",
+      "description": "在线 AI 宠物写真工具，上传 1–5 张同一只宠物的照片，选择水彩、皇家或影棚风格，生成并下载一幅专属画像",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261106-ouxxyy-ouba-classmate",
+      "edition": "programmer",
+      "addedAt": "2026-11-06",
+      "maker": "欧八同学",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ouxxyy"
+        }
+      ],
+      "name": "ouba-classmate",
+      "url": "https://github.com/ouxxyy/ouba-classmate",
+      "status": "online",
+      "description": "免费、MIT 开源的中文求职与创作 Agent Skills 套件（支持 Claude Code / Codex / Cursor 一行命令安装），覆盖多平台岗位搜索、简历与 JD 可复算匹配评分（内置本地零依赖 MCP Server）、中文经历面试追问与 Offer 前公司证据调查，附 12 个主流求职 Skill 实测公开横评数据",
+      "extraLinks": [
+        {
+          "label": "横评报告与在线数据页",
+          "url": "https://ouxxyy.github.io/ouba-classmate/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261106-supertj-usagerail",
+      "edition": "programmer",
+      "addedAt": "2026-11-06",
+      "maker": "supertj",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/supertj"
+        }
+      ],
+      "name": "UsageRail",
+      "url": "https://usagerail.com/",
+      "status": "online",
+      "description": "API 计费与限流工具，几行中间件给自己的 API 发 Key、按套餐限流和配额，用量通过你自己的 Stripe 按量扣费；Key 和限额在你的服务进程里校验，请求不经过第三方；每月经它计费 1000 美元以内免费",
+      "extraLinks": [
+        {
+          "label": "文档",
+          "url": "https://usagerail.com/docs"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261106-pdben-auto-卖家图片策划-free",
+      "edition": "programmer",
+      "addedAt": "2026-11-06",
+      "maker": "PDBen-Auto",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/PDBen-Auto"
+        }
+      ],
+      "name": "卖家图片策划 Free",
+      "url": "https://github.com/PDBen-Auto/seller-image-brief-free",
+      "status": "online",
+      "description": "电商商品图策划 Agent Skill，将商品资料和有权使用的评论整理成最多三张拍摄与设计任务单，含 FABE、构图、短文案及证据缺口；只做策划不生图，免费使用但非开源，需自备兼容 Agent、模型并承担运行费用",
+      "extraLinks": [
+        {
+          "label": "说明与合成教学案例",
+          "url": "https://pdben-auto.github.io/seller-image-brief-free/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261106-linky-aiinlink-parallel-parking-simulator",
+      "edition": "game",
+      "addedAt": "2026-11-06",
+      "maker": "Linky-AIinlink",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "name": "Parallel Parking Simulator",
+      "url": "https://parallelparkingsimulator.com/",
+      "status": "online",
+      "description": "侧方停车模拟器（免费），打开网页即可练习打方向、倒车入位和回正，附分步停车指南",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261105-bob-dola",
       "edition": "main",
@@ -3743,17 +3921,18 @@
         }
       ],
       "name": "OpenMontage Drama Studio",
-      "url": "https://openmontage.dtok.io",
+      "url": "https://github.com/charliewwdev/OpenMontage",
       "status": "online",
-      "description": "开源 AI 短剧与短视频工坊，一句话灵感依次走完剧本、角色、场景、道具、分镜、配音、剪辑 7 个环节，也可用内置电商带货模板做广告片；无需登录可浏览灵感墙和示例，生成需登录并填写自己的模型 Key（Seedream / Seedance 为付费 API），AGPL-3.0 开源、支持 Docker 自部署",
+      "description": "可自己部署的 AI 短剧工作台，剧本→角色→场景→道具→分镜→配音→剪辑一条线走完，角色和场景参考图跨镜头复用保持人物一致；Docker Compose 部署，接任意 OpenAI 兼容大模型，图像视频走 Seedream/Seedance（付费 API）或自己的 ComfyUI，AGPL-3.0 开源",
       "extraLinks": [
         {
-          "label": "Github",
-          "url": "https://github.com/charliewwdev/OpenMontage"
+          "label": "在线体验",
+          "url": "https://openmontage.dtok.io"
         }
       ],
       "categories": [
         "AI 工具",
+        "图片工具",
         "音视频",
         "开发工具",
         "免费工具"
@@ -16243,11 +16422,11 @@
       "name": "TeamoRouter",
       "url": "https://teamorouter.cn",
       "status": "online",
-      "description": "多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费",
+      "description": "多模型 AI API 网关，一个 Key 调用 DeepSeek、Kimi、GLM、Qwen、MiniMax、豆包等国产模型，兼容 OpenAI / Anthropic 协议，Claude Code、Codex、CC Switch、Cherry Studio 改 base_url 即用，支持支付宝/微信充值、按量计费",
       "extraLinks": [
         {
-          "label": "Astra + Codex 配置教程",
-          "url": "https://teamorouter.cn/blogs/gpt-6-astra-codex-cursor-setup"
+          "label": "接入文档",
+          "url": "https://teamorouter.cn/zh/docs/api-integration"
         }
       ],
       "categories": [
@@ -17365,7 +17544,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261106-0",
+      "id": "custom-20261107-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -28316,7 +28495,7 @@
       "source": "upstream"
     },
     {
-      "id": "programmer-20260704-teamorouter-teamorouter",
+      "id": "programmer-20260704-blammectrappora-teamorouter",
       "edition": "programmer",
       "addedAt": "2026-07-04",
       "maker": "blammectrappora",
@@ -28324,7 +28503,7 @@
       "makerLinks": [
         {
           "label": "Github",
-          "url": "https://github.com/teamorouter"
+          "url": "https://github.com/blammectrappora"
         }
       ],
       "name": "TeamoRouter",
@@ -48593,6 +48772,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250703-wdh-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-07-03",
+      "maker": "wdh",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250703-wdh-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-07-03",
+      "maker": "wdh",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250703-wdh-独立星球",
+      "edition": "main",
+      "addedAt": "2025-07-03",
+      "maker": "wdh",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250703-wdh-独立观察",
+      "edition": "main",
+      "addedAt": "2025-07-03",
+      "maker": "wdh",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "game-20250703-jsonchao-growagarden-calculator",
       "edition": "game",
       "addedAt": "2025-07-03",
@@ -48844,95 +49112,6 @@
       "description": "SaaSGree 专为企业间签订各类 SaaS 合同的场景而设计，帮助用户通过专业合同模板快速生成协议，无需高价聘请律师，也避免使用低质量模板带来的法律风险。",
       "extraLinks": [],
       "categories": [],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250629-dylan-tao-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-06-29",
-      "maker": "Dylan Tao",
-      "city": "合肥",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250629-dylan-tao-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-06-29",
-      "maker": "Dylan Tao",
-      "city": "合肥",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250629-dylan-tao-独立星球",
-      "edition": "main",
-      "addedAt": "2025-06-29",
-      "maker": "Dylan Tao",
-      "city": "合肥",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250629-dylan-tao-独立观察",
-      "edition": "main",
-      "addedAt": "2025-06-29",
-      "maker": "Dylan Tao",
-      "city": "合肥",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
-      ],
       "source": "upstream"
     },
     {

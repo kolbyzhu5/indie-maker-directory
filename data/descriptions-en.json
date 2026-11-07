@@ -14582,5 +14582,57 @@
  "main-20250629-dylan-tao-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-06"
+ },
+ "main-20261106-sphinx-shawn-妙比特-funnybit": {
+  "descEn": "Vibe Coding works and AI application inspiration discovery platform, collects AI applications and actual work cases created by independent developers, including some officially developed applications, supports category browsing and work exploration, and provides original AI daily and weekly reports",
+  "at": "2026-11-07"
+ },
+ "main-20261106-allinoneime-allinoneime": {
+  "descEn": "Mac input method, type @improve, @translate or @question at the beginning of the sentence in the input box of any app and press Enter to polish, translate or ask questions on the spot. The selected results are displayed directly on the screen without copying to the chat window; it comes with Rime Rime Pinyin, free, 20 free AI times per day, you can also use your own Claude / Gemini / DeepSeek key",
+  "at": "2026-11-07"
+ },
+ "main-20261106-cuilinhao-pettenderly": {
+  "descEn": "Online AI pet photo tool, upload 1–5 photos of the same pet, choose watercolor, royal or studio style, generate and download an exclusive portrait",
+  "at": "2026-11-07"
+ },
+ "programmer-20261106-ouxxyy-ouba-classmate": {
+  "descEn": "Free, MIT open-source Chinese job search and creation Agent Skills suite (supports Claude Code / Codex / Cursor one-line command installation), covering multi-platform job search, resume and JD recalculated matching scores (built-in local zero-dependency MCP Server), Chinese experience interview questioning and pre-offer company evidence investigation, with 12 mainstream job search skills measured in public Hengping data",
+  "at": "2026-11-07"
+ },
+ "programmer-20261106-supertj-usagerail": {
+  "descEn": "API billing and current limiting tool, a few lines of middleware send keys to your API, limit traffic and quotas according to packages, and the usage is deducted by your own Stripe; the key and quota are verified in your service process, and the request does not go through a third party; monthly billing is free within 1,000 US dollars.",
+  "at": "2026-11-07"
+ },
+ "programmer-20261106-pdben-auto-卖家图片策划-free": {
+  "descEn": "E-commerce product picture planning Agent Skill, organizes product information and authorized comments into up to three shooting and design tasks, including FABE, composition, short copy and evidence gaps; it only does planning but does not produce pictures. It is free to use but not open source. You need to prepare your own compatible Agent, model and bear the running costs.",
+  "at": "2026-11-07"
+ },
+ "game-20261106-linky-aiinlink-parallel-parking-simulator": {
+  "descEn": "Side parking simulator (free), open the web page to practice turning, reversing into position and backing up, with step-by-step parking guide",
+  "at": "2026-11-07"
+ },
+ "custom-20261107-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-07"
+ },
+ "programmer-20260704-blammectrappora-teamorouter": {
+  "descEn": "AI programming API intelligent routing gateway, one Key to access Claude/GPT/Gemini/DeepSeek, direct connection in China, WeChat/Alipay recharge",
+  "at": "2026-11-07"
+ },
+ "main-20250703-wdh-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-07"
+ },
+ "main-20250703-wdh-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-07"
+ },
+ "main-20250703-wdh-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-07"
+ },
+ "main-20250703-wdh-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-07"
  }
 }
