@@ -14634,5 +14634,17 @@
  "main-20250703-wdh-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-07"
+ },
+ "programmer-20261107-harrison-ming-chuhai-skills": {
+  "descEn": "MIT's open source overseas e-commerce Agent Skills (available with Claude Code / Codex / Cursor, `npx skills add` one-line installation), disassembles the store age, product price range, new release rhythm, theme application and policy consistency of any public Shopify independent station, marks the evidence level for each conclusion, and outputs Chinese PDF reports and product CSV; read-only public data, no API key required",
+  "at": "2026-11-08"
+ },
+ "programmer-20261107-harrison-ming-moveset": {
+  "descEn": "Overseas e-commerce Agent Skill store, each Skill states which agents it is adapted to, which ones have been tested, which ones are not connected to the Internet, and which files are read; the free version can be obtained by logging in, and the Pro version is paid (one-time, includes 12 months of updates, and will be refunded within 14 days if it does not work). Community Skills that have passed automatic review are also included",
+  "at": "2026-11-08"
+ },
+ "custom-20261108-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-08"
  }
 }
