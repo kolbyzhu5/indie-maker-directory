@@ -4,29 +4,200 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-08T01:26:24.219Z",
+  "generatedAt": "2026-11-09T01:43:59.915Z",
   "counts": {
-    "total": 3527,
-    "main": 2935,
-    "programmer": 431,
-    "game": 161,
+    "total": 3535,
+    "main": 2941,
+    "programmer": 432,
+    "game": 162,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1197,
-    "文档办公": 345,
-    "开发工具": 697,
-    "免费工具": 751,
+    "音视频": 633,
+    "免费工具": 758,
+    "开发工具": 698,
+    "AI 工具": 1199,
+    "文档办公": 347,
+    "教育学习": 198,
     "社交社区": 131,
     "图片工具": 670,
-    "音视频": 632,
-    "教育学习": 197,
     "浏览器扩展": 377,
     "效率工具": 491,
     "生活服务": 108,
     "游戏娱乐": 192
   },
   "projects": [
+    {
+      "id": "main-20261108-jackma-investortube",
+      "edition": "main",
+      "addedAt": "2026-11-08",
+      "maker": "JackMa",
+      "city": "",
+      "makerLinks": [],
+      "name": "InvestorTube",
+      "url": "https://www.investortube.org/",
+      "status": "online",
+      "description": "投资人物访谈视频索引，整理 YouTube 与 B站上的投资人访谈、演讲和对谈，可按投资流派、人物、平台和时长筛选，中文界面，免费无需注册（独立整理，不构成投资建议）",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261108-quven1990-出海找需求",
+      "edition": "main",
+      "addedAt": "2026-11-08",
+      "maker": "quven1990",
+      "city": "",
+      "makerLinks": [],
+      "name": "出海找需求",
+      "url": "https://zhaoxuqiu.online/",
+      "status": "online",
+      "description": "面向独立开发者的海外产品机会研究站，可免费浏览需求概况、美国月搜和关键词难度，并用图文指南和虚构样板练习需求验证。完整研究报告按份付费",
+      "extraLinks": [
+        {
+          "label": "研究方法",
+          "url": "https://zhaoxuqiu.online/methodology"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261108-craftboat-职页-keenpage",
+      "edition": "main",
+      "addedAt": "2026-11-08",
+      "maker": "craftboat",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/craftboat"
+        }
+      ],
+      "name": "职页 KeenPage",
+      "url": "https://keenpage.com/zh",
+      "status": "online",
+      "description": "按职业找 AI 提示词卡，输入职业（已收录 2,054 个）、选一项工作、点选补一句，就拼好能直接发给任何 AI 的提示词，附结果示例；免费、不用注册，中英双语",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261108-shuxiachai-学术成果商业化评估系统",
+      "edition": "main",
+      "addedAt": "2026-11-08",
+      "maker": "Jingbo Chai",
+      "city": "悉尼",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/shuxiachai"
+        }
+      ],
+      "name": "学术成果商业化评估系统",
+      "url": "https://academic-commercialization-agent.up.railway.app/samples",
+      "status": "online",
+      "description": "科研成果转化初筛工具，输入一篇论文或研究方向，生成带引用的技术成熟度、专利和市场报告，MIT 开源。示例报告打开就能看，无需注册；跑新分析需自备模型和搜索 Key",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261108-parallelpan-红果短剧批量下载",
+      "edition": "main",
+      "addedAt": "2026-11-08",
+      "maker": "parallelpan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/parallelpan"
+        }
+      ],
+      "name": "红果短剧批量下载",
+      "url": "https://guoshi.app",
+      "status": "online",
+      "description": "粘贴短剧分享链接，云端解析整部剧集并批量下载到电脑，可按集取直链或一次生成整剧 ZIP；1000 集约 85 秒完成，按实际取件集数计费、无需安装客户端",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261108-daniel-zhang-athena-reader",
+      "edition": "main",
+      "addedAt": "2026-11-08",
+      "maker": "Daniel Zhang",
+      "city": "",
+      "makerLinks": [],
+      "name": "Athena Reader",
+      "url": "https://athena-reader.com/",
+      "status": "online",
+      "description": "自带书的免费 EPUB/PDF 阅读器：朗读、笔记、带出处的 AI 问答，多端同步，离线也能读",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261108-xiaomingio-neat-md",
+      "edition": "programmer",
+      "addedAt": "2026-11-08",
+      "maker": "小明",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/xiaomingio"
+        }
+      ],
+      "name": "Neat MD",
+      "url": "https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-md",
+      "status": "online",
+      "description": "VS Code Markdown 编辑器，支持边写边预览、源码与预览并排显示、表格编辑、Mermaid 图表和 KaTeX 公式，免费开源",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/xiaomingio/neat-md"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261108-planj-azeroth-survivors-构筑计算器",
+      "edition": "game",
+      "addedAt": "2026-11-08",
+      "maker": "PlanJ",
+      "city": "Weiqi Jiang",
+      "makerLinks": [],
+      "name": "Azeroth Survivors 构筑计算器",
+      "url": "https://azerothsurvivors.app/build-calculator/",
+      "status": "online",
+      "description": "面向 Azeroth Survivors 玩家的非官方构筑规划工具，搭配天赋、技能和装备，生成可继续编辑的分享链接或导出 PNG；核心规划功能免费，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "programmer-20261107-harrison-ming-chuhai-skills",
       "edition": "programmer",
@@ -1508,7 +1679,7 @@
       "name": "词不一样就跑步",
       "url": "https://glm5.pro/",
       "status": "online",
-      "description": "两人面对面共用一部手机的中文联想网页小游戏，从两个起始词各想相关词，倒计时后同时说出，不同就继续联想直到答案一致；三类共60组起始词，3/5/10秒倒计时，免费、无需下载或注册",
+      "description": "支持两人远程参与的中文联想网页小游戏，各用一部手机，根据两个起始词独立输入相关词，双方提交后一起揭晓，不同自动进入下一轮，相同生成共同结果与足迹海报；三类共60组起始词，可选321倒数，也可共用一部手机，免费、无需下载或注册",
       "extraLinks": [],
       "categories": [
         "游戏娱乐",
@@ -17598,7 +17769,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261108-0",
+      "id": "custom-20261109-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48645,6 +48816,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250707-sk-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-07-07",
+      "maker": "sk",
+      "city": "广州",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250707-sk-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-07-07",
+      "maker": "sk",
+      "city": "广州",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250707-sk-独立星球",
+      "edition": "main",
+      "addedAt": "2025-07-07",
+      "maker": "sk",
+      "city": "广州",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250707-sk-独立观察",
+      "edition": "main",
+      "addedAt": "2025-07-07",
+      "maker": "sk",
+      "city": "广州",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250706-shawnhacks-gemlink-app",
       "edition": "main",
       "addedAt": "2025-07-06",
@@ -48822,95 +49082,6 @@
       "categories": [
         "图片工具",
         "音视频"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250703-wdh-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-07-03",
-      "maker": "wdh",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250703-wdh-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-07-03",
-      "maker": "wdh",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250703-wdh-独立星球",
-      "edition": "main",
-      "addedAt": "2025-07-03",
-      "maker": "wdh",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250703-wdh-独立观察",
-      "edition": "main",
-      "addedAt": "2025-07-03",
-      "maker": "wdh",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

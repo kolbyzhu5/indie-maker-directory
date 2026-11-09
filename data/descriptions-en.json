@@ -14646,5 +14646,57 @@
  "custom-20261108-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-11-08"
+ },
+ "main-20261108-jackma-investortube": {
+  "descEn": "An index of investor interview videos, which organizes investor interviews, speeches and dialogues on YouTube and Bilibili. It can be filtered by investment genre, person, platform and duration. Chinese interface, free and no registration required (independently organized, does not constitute investment advice)",
+  "at": "2026-11-09"
+ },
+ "main-20261108-quven1990-出海找需求": {
+  "descEn": "An overseas product opportunity research station for independent developers. You can browse demand profiles, US monthly searches and keyword difficulty for free, and practice demand verification with graphic guides and fictional samples. Full research report pay per copy",
+  "at": "2026-11-09"
+ },
+ "main-20261108-craftboat-职页-keenpage": {
+  "descEn": "Find AI prompt word cards by occupation, enter the occupation (2,054 have been included), select a job, click to add a sentence, and spell the prompt words that can be sent directly to any AI, with result examples; free, no registration required, bilingual in Chinese and English",
+  "at": "2026-11-09"
+ },
+ "main-20261108-shuxiachai-学术成果商业化评估系统": {
+  "descEn": "A preliminary screening tool for the transformation of scientific research results. Enter a paper or research direction and generate technology maturity, patent and market reports with citations. It is open source from MIT. You can view the sample report by opening it, no registration is required; you need to prepare your own model and search key to run new analysis.",
+  "at": "2026-11-09"
+ },
+ "main-20261108-parallelpan-红果短剧批量下载": {
+  "descEn": "Paste the sharing link of the short drama, the cloud will analyze the entire drama and download it to the computer in batches. Direct links can be obtained by episode or ZIP of the entire drama can be generated at one time; 1000 episodes will be completed in about 85 seconds, and billing will be based on the actual number of episodes retrieved. No client installation is required.",
+  "at": "2026-11-09"
+ },
+ "main-20261108-daniel-zhang-athena-reader": {
+  "descEn": "Free EPUB/PDF reader with its own book: reading aloud, taking notes, AI Q&A with sources, multi-device synchronization, and can be read offline",
+  "at": "2026-11-09"
+ },
+ "programmer-20261108-xiaomingio-neat-md": {
+  "descEn": "VS Code Markdown editor supports previewing while writing, side-by-side display of source code and preview, table editing, Mermaid charts and KaTeX formulas, free and open source",
+  "at": "2026-11-09"
+ },
+ "game-20261108-planj-azeroth-survivors-构筑计算器": {
+  "descEn": "An unofficial build planning tool for Azeroth Survivors players, matching talents, skills and equipment, generating shareable links or exporting PNGs that can be edited continuously; core planning functions are free and no registration is required",
+  "at": "2026-11-09"
+ },
+ "custom-20261109-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-09"
+ },
+ "main-20250707-sk-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-09"
+ },
+ "main-20250707-sk-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-09"
+ },
+ "main-20250707-sk-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-09"
+ },
+ "main-20250707-sk-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-09"
  }
 }

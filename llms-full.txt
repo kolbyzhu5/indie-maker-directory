@@ -1,10 +1,28 @@
-# AI 独立制造所 · 全部产品清单（3527）
+# AI 独立制造所 · 全部产品清单（3535）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-08（北京时间）
+> 更新时间：2026-11-09（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2935）
+## 大众产品（2941）
+
+- **[InvestorTube](https://www.investortube.org/)** — 开发者 JackMa · 音视频 / 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/investortube.html)
+  投资人物访谈视频索引，整理 YouTube 与 B站上的投资人访谈、演讲和对谈，可按投资流派、人物、平台和时长筛选，中文界面，免费无需注册（独立整理，不构成投资建议）
+
+- **[出海找需求](https://zhaoxuqiu.online/)** — 开发者 quven1990 · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/project-8dd667.html)
+  面向独立开发者的海外产品机会研究站，可免费浏览需求概况、美国月搜和关键词难度，并用图文指南和虚构样板练习需求验证。完整研究报告按份付费
+
+- **[职页 KeenPage](https://keenpage.com/zh)** — 开发者 craftboat · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/keenpage.html)
+  按职业找 AI 提示词卡，输入职业（已收录 2,054 个）、选一项工作、点选补一句，就拼好能直接发给任何 AI 的提示词，附结果示例；免费、不用注册，中英双语
+
+- **[学术成果商业化评估系统](https://academic-commercialization-agent.up.railway.app/samples)** — 开发者 Jingbo Chai（悉尼） · 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/project-32eb6a.html)
+  科研成果转化初筛工具，输入一篇论文或研究方向，生成带引用的技术成熟度、专利和市场报告，MIT 开源。示例报告打开就能看，无需注册；跑新分析需自备模型和搜索 Key
+
+- **[红果短剧批量下载](https://guoshi.app)** — 开发者 parallelpan · 未分类 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/project-b0a69f.html)
+  粘贴短剧分享链接，云端解析整部剧集并批量下载到电脑，可按集取直链或一次生成整剧 ZIP；1000 集约 85 秒完成，按实际取件集数计费、无需安装客户端
+
+- **[Athena Reader](https://athena-reader.com/)** — 开发者 Daniel Zhang · AI 工具 / 文档办公 / 教育学习 / 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/athena-reader.html)
+  自带书的免费 EPUB/PDF 阅读器：朗读、笔记、带出处的 AI 问答，多端同步，离线也能读
 
 - **[妙比特 funnybit](https://funnybit.cn/)** — 开发者 Sphinx-Shawn · AI 工具 / 开发工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/funnybit.html)
   Vibe Coding 作品与 AI 应用灵感发现平台，汇集独立开发者创作的 AI 应用和实际作品案例，包含官方开发的一些应用，支持分类浏览与作品探索，并提供原创 AI 日报和周报
@@ -5004,6 +5022,18 @@
 - **[摸鱼地图](https://moyumap.com/)** — 开发者 sk（广州） · 生活服务 · 已停止 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-d50050.html)
   记录和可视化大家"摸鱼"次数的趣味网站。包括摸鱼区域热力图，摸鱼排行榜，看看今天谁在一起摸鱼。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 sk（广州） · AI 工具 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/ai-1eef5c.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 sk（广州） · 开发工具 / 免费工具 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-d1d5de.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 sk（广州） · 开发工具 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-dc5ff1.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 sk（广州） · 浏览器扩展 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-dc6471.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Gemlink.app](https://gemlink.app)** — 开发者 ShawnHacks（北京） · 教育学习 / 社交社区 · 已上线 · 收录 2025-07-06 · [详情页](https://indiemaker.cn/p/gemlink-app.html)
   集内容收集、整理与社交分享于一体的平台。可以作为“稍后阅读”替代使用。旨在解决信息过载、跨平台内容割裂和深度阅读缺失的问题，打造“个性化互联网精华库与思想交流空间”
 
@@ -5027,18 +5057,6 @@
 
 - **[Veegen](https://veegen.ai/)** — 开发者 wdh（杭州） · 图片工具 / 音视频 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/veegen.html)
   图片生成视频工具
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 wdh（杭州） · AI 工具 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/ai-f90e83.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 wdh（杭州） · 开发工具 / 免费工具 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/project-164fc2.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 wdh（杭州） · 开发工具 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/project-579fe0.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 wdh（杭州） · 浏览器扩展 · 已上线 · 收录 2025-07-03 · [详情页](https://indiemaker.cn/p/project-57a45f.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Converters.pro](https://www.converters.pro)** — 开发者 tao（杭州） · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2025-07-02 · [详情页](https://indiemaker.cn/p/converters-pro.html)
   基于 AI 的图片和视频转换网站，可以帮你做背景修复、老照片恢复、虚拟换衣
@@ -8811,7 +8829,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（431）
+## 程序员版（432）
+
+- **[Neat MD](https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-md)** — 开发者 小明 · 文档办公 / 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/neat-md.html)
+  VS Code Markdown 编辑器，支持边写边预览、源码与预览并排显示、表格编辑、Mermaid 图表和 KaTeX 公式，免费开源
 
 - **[chuhai-skills](https://github.com/harrison-ming/chuhai-skills)** — 开发者 Harrison · AI 工具 / 文档办公 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-07 · [详情页](https://indiemaker.cn/p/chuhai-skills.html)
   MIT 开源的出海电商 Agent Skills（Claude Code / Codex / Cursor 可用，npx skills add 一行安装），拆解任意公开 Shopify 独立站的店龄、商品价格带、上新节奏、主题应用与政策一致性，每条结论标注证据等级，输出中文 PDF 报告和商品 CSV；只读公开数据，无需 API key
@@ -10106,13 +10127,16 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（161）
+## 独立游戏（162）
+
+- **[Azeroth Survivors 构筑计算器](https://azerothsurvivors.app/build-calculator/)** — 开发者 PlanJ（Weiqi Jiang） · 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/azeroth-survivors.html)
+  面向 Azeroth Survivors 玩家的非官方构筑规划工具，搭配天赋、技能和装备，生成可继续编辑的分享链接或导出 PNG；核心规划功能免费，无需注册
 
 - **[Parallel Parking Simulator](https://parallelparkingsimulator.com/)** — 开发者 Linky-AIinlink · 免费工具 · 已上线 · 收录 2026-11-06 · [详情页](https://indiemaker.cn/p/parallel-parking-simulator.html)
   侧方停车模拟器（免费），打开网页即可练习打方向、倒车入位和回正，附分步停车指南
 
 - **[词不一样就跑步](https://glm5.pro/)** — 开发者 词不一样就跑步 · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/project-0c333c.html)
-  两人面对面共用一部手机的中文联想网页小游戏，从两个起始词各想相关词，倒计时后同时说出，不同就继续联想直到答案一致；三类共60组起始词，3/5/10秒倒计时，免费、无需下载或注册
+  支持两人远程参与的中文联想网页小游戏，各用一部手机，根据两个起始词独立输入相关词，双方提交后一起揭晓，不同自动进入下一轮，相同生成共同结果与足迹海报；三类共60组起始词，可选321倒数，也可共用一部手机，免费、无需下载或注册
 
 - **[人间走一遭](https://cn.zouyizao.com/?from=cid)** — 开发者 Leo Lin · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/project-15a961.html)
   中文人生模拟网页游戏，投胎三选一，一年一回合过完一生，出生年份 1950 到 2049 可选；含 4992 个随机事件、200 种职业、75 座城市，水墨画风，免费、免注册，手机电脑都能玩
