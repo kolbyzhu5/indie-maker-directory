@@ -4,29 +4,313 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-09T01:43:59.915Z",
+  "generatedAt": "2026-11-10T04:06:58.968Z",
   "counts": {
-    "total": 3535,
-    "main": 2941,
+    "total": 3546,
+    "main": 2952,
     "programmer": 432,
     "game": 162,
     "custom": 1
   },
   "categoryCounts": {
-    "音视频": 633,
-    "免费工具": 758,
-    "开发工具": 698,
-    "AI 工具": 1199,
+    "AI 工具": 1204,
+    "免费工具": 766,
+    "浏览器扩展": 379,
+    "音视频": 637,
+    "开发工具": 701,
+    "图片工具": 671,
+    "教育学习": 199,
+    "社交社区": 133,
     "文档办公": 347,
-    "教育学习": 198,
-    "社交社区": 131,
-    "图片工具": 670,
-    "浏览器扩展": 377,
     "效率工具": 491,
     "生活服务": 108,
     "游戏娱乐": 192
   },
   "projects": [
+    {
+      "id": "main-20261110-samuel-shek-models-rank-模型榜",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "Samuel Shek",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Samuel-Shek"
+        }
+      ],
+      "name": "Models Rank 模型榜",
+      "url": "https://modelsrank.org/",
+      "status": "online",
+      "description": "AI 大模型榜单，汇总 Artificial Analysis 等第三方公开评测，把能力分、单任务成本和速度放在一张表里比较，每个模型有标注来源的详情页，每周更新，中英双语",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-jeffgao222-课伴",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "高剑辉",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jeffgao222"
+        }
+      ],
+      "name": "课伴",
+      "url": "https://apps.apple.com/cn/app/id6790702626",
+      "status": "online",
+      "description": "面向独立家教的 iOS App，学生档案、排课、课时包、收款与 AI 起草家长反馈一条线，本地优先，免费可管约 5 名学生",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-nextjson-nextjson",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "NextJSON",
+      "city": "多伦多",
+      "makerLinks": [
+        {
+          "label": "网站",
+          "url": "https://nextjson.com/"
+        }
+      ],
+      "name": "NextJSON",
+      "url": "https://nextjson.com/",
+      "status": "online",
+      "description": "免费 JSON 工具箱，可解析嵌套/转义的 JSON 字符串、格式化与查看、对比两份 JSON、生成 JSON Schema，全部在浏览器里运行，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-billpwchan-知音",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "Bill Chan",
+      "city": "香港",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "name": "知音",
+      "url": "https://zhiyin.billpwchan.art/card?ref=1c7",
+      "status": "online",
+      "description": "贴网易云「我喜欢的音乐」或 QQ 音乐主页的分享链接，不用登录，Claude 给你的口味起个名字、锐评一句，再按每首歌点喜欢的月份画成一张能分享的唱片；用 YouTube Music 的话还是一个每周更新的私人电台，每首歌都说为什么选它",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/billpwchan/zhiyin"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-hellotaotao-typealoud",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "Tao Wang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hellotaotao"
+        }
+      ],
+      "name": "TypeAloud",
+      "url": "https://typealoud.app/zh",
+      "status": "online",
+      "description": "Mac/Windows 语音输入工具，在任意应用里按住快捷键说话、松手文字就出现在光标处，用千问 Qwen3-ASR 在本机转写，中英混说也能识别；免费开源，本地转写无需注册或 API Key",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/hellotaotao/typealoud"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-clapclip-clapclip-ai",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "ClapClip",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ClapClip"
+        }
+      ],
+      "name": "ClapClip AI",
+      "url": "https://www.clapclip.net/",
+      "status": "online",
+      "description": "在自己的 Windows 10/11 电脑上给照片和长视频换脸，4 个模型可选，实时预览，NVIDIA/AMD/Intel 显卡加速，素材不上传；安装和预览免费，导出需订阅",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261109-torres-ok-jlpt",
+      "edition": "main",
+      "addedAt": "2026-11-09",
+      "maker": "Torres",
+      "city": "",
+      "makerLinks": [],
+      "name": "OK JLPT",
+      "url": "https://okjlpt.com/zh-Hans",
+      "status": "online",
+      "description": "日语能力考试（JLPT）练习网站，N5–N1 按年份整理的 104 套整卷练习（2010–2026），带听力音频，在线作答、交卷自动估分并给出中文解析；另有免费的[估分计算器](https://okjlpt.com/zh-Hans/tools/score)和助词、动词变形练习。N5、N4 全部免费，N3–N1 各一套免费，其余需会员",
+      "extraLinks": [
+        {
+          "label": "估分计算器",
+          "url": "https://okjlpt.com/zh-Hans/tools/score"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261109-bellefly-god-the-jury",
+      "edition": "main",
+      "addedAt": "2026-11-09",
+      "maker": "bellefly-god",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bellefly-god"
+        }
+      ],
+      "name": "THE JURY",
+      "url": "https://jury.pagecleans.com",
+      "status": "online",
+      "description": "匿名困境盲投裁决社区，发私人两难陌生人盲投，满 30 票且单项严格过半才结案生成可分享裁决卡，浏览和投稿无需注册",
+      "extraLinks": [],
+      "categories": [
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261109-bellefly-god-ouryearbook",
+      "edition": "main",
+      "addedAt": "2026-11-09",
+      "maker": "bellefly-god",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bellefly-god"
+        }
+      ],
+      "name": "OurYearbook",
+      "url": "https://ouryearbook.pagecleans.com",
+      "status": "online",
+      "description": "同学共同书写的线上班级纪念册，回忆由不同同学补充各自视角，设定日期才解锁的未来信件，隐私优先仅开放示例班",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261109-lingki1-lingki-ai",
+      "edition": "main",
+      "addedAt": "2026-11-09",
+      "maker": "lingki1",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lingki1"
+        }
+      ],
+      "name": "Lingki AI",
+      "url": "https://lingki.info/app?utm_source=chinese-indie-dev&utm_medium=list&utm_campaign=lingki-ai-2026-11",
+      "status": "online",
+      "description": "网页版 AI 角色扮演聊天，兼容酒馆（SillyTavern）V2/V3 角色卡导入导出，聊天记录存在自己浏览器里；自带模型 API Key 免费，内置模型按 token 付费",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://lingki.info/ai"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "浏览器扩展",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261109-nicoinvest-投资导航",
+      "edition": "main",
+      "addedAt": "2026-11-09",
+      "maker": "nicoinvest",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "网站",
+          "url": "https://invest-nav.com/"
+        }
+      ],
+      "name": "投资导航",
+      "url": "https://invest-nav.com/",
+      "status": "online",
+      "description": "专为大陆用户写的投资理财实操教程站。怎么投资美股（券商开户、入金、买 ETF）、怎么投资加密货币（交易所注册、买币、出入金和安全）、怎么开通香港银行卡、CRS 税务怎么理解，以及大陆用户投资理财相关的方方面面，都会在教程里配实操截图一步步讲清楚。网站还有多款免费投资工具：[QDII 额度宝](https://invest-nav.com/tools/qdii-quota/)（每天更新 QDII 基金申购额度）、[ETF 对比](https://invest-nav.com/tools/etf/compare/)、[定投计算器](https://invest-nav.com/tools/dca-calculator/)",
+      "extraLinks": [
+        {
+          "label": "QDII 额度宝",
+          "url": "https://invest-nav.com/tools/qdii-quota/"
+        },
+        {
+          "label": "ETF 对比",
+          "url": "https://invest-nav.com/tools/etf/compare/"
+        },
+        {
+          "label": "定投计算器",
+          "url": "https://invest-nav.com/tools/dca-calculator/"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261108-jackma-investortube",
       "edition": "main",
@@ -17769,7 +18053,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261109-0",
+      "id": "custom-20261110-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48389,6 +48673,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250716-jameshuang22-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-07-16",
+      "maker": "james（武汉）- [Github]",
+      "city": "https://github.com/JamesHuang22",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JamesHuang22"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250716-jameshuang22-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-07-16",
+      "maker": "james（武汉）- [Github]",
+      "city": "https://github.com/JamesHuang22",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JamesHuang22"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250716-jameshuang22-独立星球",
+      "edition": "main",
+      "addedAt": "2025-07-16",
+      "maker": "james（武汉）- [Github]",
+      "city": "https://github.com/JamesHuang22",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JamesHuang22"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250716-jameshuang22-独立观察",
+      "edition": "main",
+      "addedAt": "2025-07-16",
+      "maker": "james（武汉）- [Github]",
+      "city": "https://github.com/JamesHuang22",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JamesHuang22"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250714-heyjude-tmpmail",
       "edition": "main",
       "addedAt": "2025-07-14",
@@ -48812,95 +49205,6 @@
       "extraLinks": [],
       "categories": [
         "生活服务"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250707-sk-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-07-07",
-      "maker": "sk",
-      "city": "广州",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250707-sk-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-07-07",
-      "maker": "sk",
-      "city": "广州",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250707-sk-独立星球",
-      "edition": "main",
-      "addedAt": "2025-07-07",
-      "maker": "sk",
-      "city": "广州",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250707-sk-独立观察",
-      "edition": "main",
-      "addedAt": "2025-07-07",
-      "maker": "sk",
-      "city": "广州",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

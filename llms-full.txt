@@ -1,10 +1,43 @@
-# AI 独立制造所 · 全部产品清单（3535）
+# AI 独立制造所 · 全部产品清单（3546）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-09（北京时间）
+> 更新时间：2026-11-10（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2941）
+## 大众产品（2952）
+
+- **[Models Rank 模型榜](https://modelsrank.org/)** — 开发者 Samuel Shek · AI 工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/models-rank.html)
+  AI 大模型榜单，汇总 Artificial Analysis 等第三方公开评测，把能力分、单任务成本和速度放在一张表里比较，每个模型有标注来源的详情页，每周更新，中英双语
+
+- **[课伴](https://apps.apple.com/cn/app/id6790702626)** — 开发者 高剑辉 · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/project-296634.html)
+  面向独立家教的 iOS App，学生档案、排课、课时包、收款与 AI 起草家长反馈一条线，本地优先，免费可管约 5 名学生
+
+- **[NextJSON](https://nextjson.com/)** — 开发者 NextJSON（多伦多） · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/nextjson.html)
+  免费 JSON 工具箱，可解析嵌套/转义的 JSON 字符串、格式化与查看、对比两份 JSON、生成 JSON Schema，全部在浏览器里运行，无需注册
+
+- **[知音](https://zhiyin.billpwchan.art/card?ref=1c7)** — 开发者 Bill Chan（香港） · AI 工具 / 音视频 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/project-f65c19.html)
+  贴网易云「我喜欢的音乐」或 QQ 音乐主页的分享链接，不用登录，Claude 给你的口味起个名字、锐评一句，再按每首歌点喜欢的月份画成一张能分享的唱片；用 YouTube Music 的话还是一个每周更新的私人电台，每首歌都说为什么选它
+
+- **[TypeAloud](https://typealoud.app/zh)** — 开发者 Tao Wang · 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/typealoud.html)
+  Mac/Windows 语音输入工具，在任意应用里按住快捷键说话、松手文字就出现在光标处，用千问 Qwen3-ASR 在本机转写，中英混说也能识别；免费开源，本地转写无需注册或 API Key
+
+- **[ClapClip AI](https://www.clapclip.net/)** — 开发者 ClapClip · AI 工具 / 图片工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/clapclip-ai.html)
+  在自己的 Windows 10/11 电脑上给照片和长视频换脸，4 个模型可选，实时预览，NVIDIA/AMD/Intel 显卡加速，素材不上传；安装和预览免费，导出需订阅
+
+- **[OK JLPT](https://okjlpt.com/zh-Hans)** — 开发者 Torres · 音视频 / 教育学习 / 免费工具 · 已上线 · 收录 2026-11-09 · [详情页](https://indiemaker.cn/p/ok-jlpt.html)
+  日语能力考试（JLPT）练习网站，N5–N1 按年份整理的 104 套整卷练习（2010–2026），带听力音频，在线作答、交卷自动估分并给出中文解析；另有免费的估分计算器和助词、动词变形练习。N5、N4 全部免费，N3–N1 各一套免费，其余需会员
+
+- **[THE JURY](https://jury.pagecleans.com)** — 开发者 bellefly-god · 社交社区 / 免费工具 · 已上线 · 收录 2026-11-09 · [详情页](https://indiemaker.cn/p/the-jury.html)
+  匿名困境盲投裁决社区，发私人两难陌生人盲投，满 30 票且单项严格过半才结案生成可分享裁决卡，浏览和投稿无需注册
+
+- **[OurYearbook](https://ouryearbook.pagecleans.com)** — 开发者 bellefly-god · 未分类 · 已上线 · 收录 2026-11-09 · [详情页](https://indiemaker.cn/p/ouryearbook.html)
+  同学共同书写的线上班级纪念册，回忆由不同同学补充各自视角，设定日期才解锁的未来信件，隐私优先仅开放示例班
+
+- **[Lingki AI](https://lingki.info/app?utm_source=chinese-indie-dev&utm_medium=list&utm_campaign=lingki-ai-2026-11)** — 开发者 lingki1 · AI 工具 / 开发工具 / 浏览器扩展 / 社交社区 / 免费工具 · 已上线 · 收录 2026-11-09 · [详情页](https://indiemaker.cn/p/lingki-ai.html)
+  网页版 AI 角色扮演聊天，兼容酒馆（SillyTavern）V2/V3 角色卡导入导出，聊天记录存在自己浏览器里；自带模型 API Key 免费，内置模型按 token 付费
+
+- **[投资导航](https://invest-nav.com/)** — 开发者 nicoinvest · 免费工具 · 已上线 · 收录 2026-11-09 · [详情页](https://indiemaker.cn/p/project-2b8c3e.html)
+  专为大陆用户写的投资理财实操教程站。怎么投资美股（券商开户、入金、买 ETF）、怎么投资加密货币（交易所注册、买币、出入金和安全）、怎么开通香港银行卡、CRS 税务怎么理解，以及大陆用户投资理财相关的方方面面，都会在教程里配实操截图一步步讲清楚。网站还有多款免费投资工具：QDII 额度宝（每天更新 QDII 基金申购额度）、ETF 对比、定投计算器
 
 - **[InvestorTube](https://www.investortube.org/)** — 开发者 JackMa · 音视频 / 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/investortube.html)
   投资人物访谈视频索引，整理 YouTube 与 B站上的投资人访谈、演讲和对谈，可按投资流派、人物、平台和时长筛选，中文界面，免费无需注册（独立整理，不构成投资建议）
@@ -4968,6 +5001,18 @@
 - **[去留助手AI](https://www.huiguo.info/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · AI 工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/ai-550c0e.html)
   专为海外留学生和海外发展的华人打造的智能决策辅助工具。通过 AI 大模型分析，根据每个人不同的情况，评估“回国发展”与“留在海外”两种路径的优劣，助力做出更明智的职业与人生选择。并且能通过大数据分析，智能计算与同龄人平均水平的位置。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · AI 工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/ai-dc32e1.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · 开发工具 / 免费工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/project-c05213.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · 开发工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/project-344f2a.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · 浏览器扩展 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/project-3453aa.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[TmpMail](https://www.tmpmail.online)** — 开发者 heyjude（上海） · 免费工具 · 已上线 · 收录 2025-07-14 · [详情页](https://indiemaker.cn/p/tmpmail.html)
   免费临时邮箱TmpMail
 
@@ -5021,18 +5066,6 @@
 
 - **[摸鱼地图](https://moyumap.com/)** — 开发者 sk（广州） · 生活服务 · 已停止 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-d50050.html)
   记录和可视化大家"摸鱼"次数的趣味网站。包括摸鱼区域热力图，摸鱼排行榜，看看今天谁在一起摸鱼。
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 sk（广州） · AI 工具 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/ai-1eef5c.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 sk（广州） · 开发工具 / 免费工具 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-d1d5de.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 sk（广州） · 开发工具 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-dc5ff1.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 sk（广州） · 浏览器扩展 · 已上线 · 收录 2025-07-07 · [详情页](https://indiemaker.cn/p/project-dc6471.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Gemlink.app](https://gemlink.app)** — 开发者 ShawnHacks（北京） · 教育学习 / 社交社区 · 已上线 · 收录 2025-07-06 · [详情页](https://indiemaker.cn/p/gemlink-app.html)
   集内容收集、整理与社交分享于一体的平台。可以作为“稍后阅读”替代使用。旨在解决信息过载、跨平台内容割裂和深度阅读缺失的问题，打造“个性化互联网精华库与思想交流空间”

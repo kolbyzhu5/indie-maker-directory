@@ -14698,5 +14698,69 @@
  "main-20250707-sk-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-09"
+ },
+ "main-20250716-jameshuang22-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-10"
+ },
+ "main-20261110-samuel-shek-models-rank-模型榜": {
+  "descEn": "The list of large AI models summarizes third-party public reviews such as Artificial Analysis, and compares ability scores, single task costs and speeds in one table. Each model has a details page with the source marked, updated weekly, bilingual in Chinese and English.",
+  "at": "2026-11-10"
+ },
+ "main-20261110-jeffgao222-课伴": {
+  "descEn": "An iOS app for independent tutors, with one line for student files, class schedules, lesson packs, payment and AI drafting of parent feedback, local priority, free and can manage about 5 students",
+  "at": "2026-11-10"
+ },
+ "main-20261110-nextjson-nextjson": {
+  "descEn": "Free JSON toolbox that can parse nested/escaped JSON strings, format and view, compare two JSONs, and generate JSON Schema, all running in the browser, no registration required",
+  "at": "2026-11-10"
+ },
+ "main-20261110-billpwchan-知音": {
+  "descEn": "Post a sharing link to NetEase Cloud's \"My Favorite Music\" or QQ Music's homepage. No need to log in. Claude gives your taste a name, a sharp comment, and then draws a shareable record based on the month you clicked on each song. If you use YouTube Music, it is still a private radio station that is updated every week, and each song says why you chose it.",
+  "at": "2026-11-10"
+ },
+ "main-20261110-hellotaotao-typealoud": {
+  "descEn": "Mac/Windows voice input tool. Press and hold the shortcut key to speak in any application, and the text will appear at the cursor when you release it. Use Qianwen Qwen3-ASR to transcribe locally, and it can also recognize mixed Chinese and English; free and open source, no registration or API Key is required for local transliteration.",
+  "at": "2026-11-10"
+ },
+ "main-20261110-clapclip-clapclip-ai": {
+  "descEn": "Change the face of photos and long videos on your own Windows 10/11 computer, 4 models are available, real-time preview, NVIDIA/AMD/Intel graphics card acceleration, materials are not uploaded; installation and preview are free, export requires a subscription",
+  "at": "2026-11-10"
+ },
+ "main-20261109-torres-ok-jlpt": {
+  "descEn": "Japanese Language Proficiency Test (JLPT) practice website, N5-N1, 104 sets of whole paper exercises organized by year (2010-2026), with listening audio, online answering, automatic score evaluation and Chinese analysis; there is also a free [score calculator] (https://okjlpt.com/zh-Hans/tools/score) and particles and verb conjugation exercises. N5 and N4 are all free, and each set of N3-N1 is free. The rest require membership.",
+  "at": "2026-11-10"
+ },
+ "main-20261109-bellefly-god-the-jury": {
+  "descEn": "Anonymous dilemma blind voting and ruling community. Send private dilemmas to strangers for blind voting. A shareable ruling card will be generated only when 30 votes are reached and more than half of each item is completed. There is no need to register to browse and submit.",
+  "at": "2026-11-10"
+ },
+ "main-20261109-bellefly-god-ouryearbook": {
+  "descEn": "An online class memory book jointly written by classmates. Memories are added by different classmates from their own perspectives. Future letters are unlocked only after setting a date. Privacy is prioritized and only open to sample classes.",
+  "at": "2026-11-10"
+ },
+ "main-20261109-lingki1-lingki-ai": {
+  "descEn": "The web version of AI role-playing chat is compatible with SillyTavern V2/V3 character card import and export, and the chat records are stored in your own browser; the built-in model API Key is free, and the built-in model is paid by token.",
+  "at": "2026-11-10"
+ },
+ "main-20261109-nicoinvest-投资导航": {
+  "descEn": "A practical tutorial site on investment and financial management specially written for mainland users. How to invest in U.S. stocks (opening a brokerage account, depositing funds, buying ETFs), how to invest in cryptocurrency (exchange registration, buying coins, deposits and withdrawals, and security), how to open a Hong Kong bank card, how to understand CRS tax, and all aspects related to investment and financial management for mainland users will be explained step by step in the tutorial with practical screenshots. The website also has a number of free investment tools: [QDII Quota](https://invest-nav.com/tools/qdii-quota/) (QDII fund subscription quota is updated every day), [ETF Comparison](https://invest-nav.com/tools/etf/compare/), [Fixed Investment Calculator](https://invest-nav.com/tools/dca-calculator/)",
+  "at": "2026-11-10"
+ },
+ "custom-20261110-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-10"
+ },
+ "main-20250716-jameshuang22-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-10"
+ },
+ "main-20250716-jameshuang22-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-10"
+ },
+ "main-20250716-jameshuang22-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-10"
  }
 }
