@@ -14762,5 +14762,53 @@
  "main-20250716-jameshuang22-独立星球": {
   "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
   "at": "2026-11-10"
+ },
+ "main-20261110-lyingjack-flydesk-飞桌": {
+  "descEn": "Remote desktop software, enter the device ID and access code on your mobile phone to connect to your computer, supports touch, keyboard operation, device management with the same account and cloud collection; ordinary single-person connection is free, including VIP paid rights - [Download](https://desk.flychat.work/downloads) · [Developer Introduction and Experience Recruitment](https://zhuanlan.zhihu.com/p/2103291767672026342)",
+  "at": "2026-11-11"
+ },
+ "main-20261110-pamelaaaaa1218-wmfree": {
+  "descEn": "Web page image watermark removal tool. You can repair, code or crop by smearing or selecting in the browser. Local processing does not require uploading. It can be used immediately after opening. No registration is required.",
+  "at": "2026-11-11"
+ },
+ "main-20261110-jiangqizheng-earlylore": {
+  "descEn": "Product research website, write down your ideas or paste the URL, compare the competition, pricing and customer acquisition with real online software before deciding whether to start; the traffic is estimated, available for free, and provides a Chinese and Japanese interface",
+  "at": "2026-11-11"
+ },
+ "main-20261110-kiya0908-lyrics-to-song-ai": {
+  "descEn": "AI lyrics-to-song tool turns your written lyrics into a complete song with vocals, selectable styles, and generates multiple versions for comparison at one time",
+  "at": "2026-11-11"
+ },
+ "main-20261110-wujieli0207-emoteloop": {
+  "descEn": "AI Twitch emote generator, write a sentence or upload a selfie, and get a 512px GIF with a transparent background and infinite loop in about 20 seconds. The actions are generated according to the description. It is not a preset animation for static emoticons.",
+  "at": "2026-11-11"
+ },
+ "programmer-20261110-eternal-wanderer-vegetable-ligamina": {
+  "descEn": "Let Koishi, NoneBot, and AstrBot's chatbot plugins run as-is in their respective native frameworks and be used by any bot framework or AI programming assistant through a unified MCP-like interface. Rust Core oversees an isolated Host process for each framework; plugins retain their own command parsing, middleware, permissions, and storage",
+  "at": "2026-11-11"
+ },
+ "programmer-20261110-victor-zzh-hopbase": {
+  "descEn": "Multi-model AI API gateway, a Base URL calls Claude / GPT / Gemini / DeepSeek / Qianwen and other text models, as well as image and video models such as Seedream, Seedance, Keling, etc.; compatible with OpenAI, Anthropic, Gemini three interface formats, Claude Code / Codex can be used by changing the base_url and key, billed by volume",
+  "at": "2026-11-11"
+ },
+ "custom-20261111-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-11"
+ },
+ "main-20250721-fanison-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-11"
+ },
+ "main-20250721-fanison-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-11"
+ },
+ "main-20250721-fanison-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-11"
+ },
+ "main-20250721-fanison-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-11"
  }
 }

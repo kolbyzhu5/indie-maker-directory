@@ -4,29 +4,157 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-10T04:06:58.968Z",
+  "generatedAt": "2026-11-11T01:56:23.354Z",
   "counts": {
-    "total": 3546,
-    "main": 2952,
-    "programmer": 432,
+    "total": 3553,
+    "main": 2957,
+    "programmer": 434,
     "game": 162,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1204,
-    "免费工具": 766,
-    "浏览器扩展": 379,
-    "音视频": 637,
-    "开发工具": 701,
-    "图片工具": 671,
+    "效率工具": 492,
+    "开发工具": 704,
+    "免费工具": 769,
+    "图片工具": 673,
+    "浏览器扩展": 381,
+    "AI 工具": 1208,
+    "音视频": 638,
+    "社交社区": 134,
     "教育学习": 199,
-    "社交社区": 133,
     "文档办公": 347,
-    "效率工具": 491,
     "生活服务": 108,
     "游戏娱乐": 192
   },
   "projects": [
+    {
+      "id": "main-20261110-lyingjack-flydesk-飞桌",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "FlyDesk 飞桌开发团队",
+      "city": "成都",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lyingjack"
+        }
+      ],
+      "name": "FlyDesk 飞桌",
+      "url": "https://desk.flychat.work/",
+      "status": "online",
+      "description": "远程桌面软件，在手机上输入设备 ID 与访问码连接自己的电脑，支持触控、键盘操作、同账号设备管理和云收藏；普通单人连接免费，含 VIP 付费权益 - [下载](https://desk.flychat.work/downloads) · [开发方介绍与体验招募](https://zhuanlan.zhihu.com/p/2103291767672026342)",
+      "extraLinks": [
+        {
+          "label": "下载",
+          "url": "https://desk.flychat.work/downloads"
+        },
+        {
+          "label": "开发方介绍与体验招募",
+          "url": "https://zhuanlan.zhihu.com/p/2103291767672026342"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-pamelaaaaa1218-wmfree",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "Pamela",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/pamelaaaaa1218"
+        }
+      ],
+      "name": "wmfree",
+      "url": "https://wmfree.com/",
+      "status": "online",
+      "description": "网页图片去水印工具，在浏览器里涂抹或框选即可修复、打码或裁剪，本地处理不上传，打开即用、无需注册",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/pamelaaaaa1218/watermark-remover"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-jiangqizheng-earlylore",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "Kai Jiang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jiangqizheng"
+        }
+      ],
+      "name": "EarlyLore",
+      "url": "https://earlylore.com",
+      "status": "online",
+      "description": "产品调研网站，写下想法或粘贴网址，对照真实在线软件看竞争、定价和获客后再决定是否动手；流量为估算，免费可用，提供中日文界面",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-kiya0908-lyrics-to-song-ai",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "kiya0908",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kiya0908"
+        }
+      ],
+      "name": "Lyrics to Song AI",
+      "url": "https://lyricstosongai.org",
+      "status": "online",
+      "description": "AI 歌词成曲工具，把你写好的歌词做成带人声的完整歌曲，可选风格并一次生成多个版本对比",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261110-wujieli0207-emoteloop",
+      "edition": "main",
+      "addedAt": "2026-11-10",
+      "maker": "Wujie Li",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wujieli0207"
+        }
+      ],
+      "name": "EmoteLoop",
+      "url": "https://emoteloop.com/",
+      "status": "online",
+      "description": "AI Twitch emote 生成器，写一句话或上传一张自拍，大约 20 秒得到透明背景、无限循环的 512px GIF，动作按描述生成，不是给静态表情套预设动画",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261110-samuel-shek-models-rank-模型榜",
       "edition": "main",
@@ -175,6 +303,61 @@
         "音视频",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261110-eternal-wanderer-vegetable-ligamina",
+      "edition": "programmer",
+      "addedAt": "2026-11-10",
+      "maker": "Eternal-Wanderer-Vegetable",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Eternal-Wanderer-Vegetable"
+        }
+      ],
+      "name": "Ligamina",
+      "url": "https://github.com/Eternal-Wanderer-Vegetable/Ligamina",
+      "status": "developing",
+      "description": "让 Koishi、NoneBot 和 AstrBot 的聊天机器人插件以原样在各自的原生框架中运行，并通过统一的类 MCP 接口供任意 bot 框架或 AI 编程助手使用。Rust Core 为每个框架监督一个隔离的 Host 进程；插件保留自己的命令解析、中间件、权限与存储",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "浏览器扩展",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261110-victor-zzh-hopbase",
+      "edition": "programmer",
+      "addedAt": "2026-11-10",
+      "maker": "Victor",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/victor-zzh"
+        }
+      ],
+      "name": "HopBase",
+      "url": "https://hop-base.com",
+      "status": "online",
+      "description": "多模型 AI API 网关，一个 Base URL 调用 Claude / GPT / Gemini / DeepSeek / 千问等文本模型，以及 Seedream、Seedance、可灵等图片和视频模型；兼容 OpenAI、Anthropic、Gemini 三种接口格式，Claude Code / Codex 改 base_url 和 key 即可使用，按量计费",
+      "extraLinks": [
+        {
+          "label": "接入文档",
+          "url": "https://hop-base.com/zh-cn/docs"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "开发工具"
       ],
       "source": "upstream"
     },
@@ -7369,7 +7552,7 @@
         }
       ],
       "name": "夸夸跨境",
-      "url": "https://kuakuakua.com/pricing-calculator/",
+      "url": "https://kuakuakua.com/tools/pricing-calculator/",
       "status": "online",
       "description": "面向中国 Ozon 跨境卖家的免费定价计算器（免登录，按类目佣金、rFBS/FBP 物流资费、汇率与目标利润反推建议售价）与中文实操教程；可选多店体检工作台 — Web 应用",
       "extraLinks": [],
@@ -18053,7 +18236,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261110-0",
+      "id": "custom-20261111-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48480,6 +48663,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250721-fanison-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-07-21",
+      "maker": "fanison",
+      "city": "北京",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250721-fanison-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-07-21",
+      "maker": "fanison",
+      "city": "北京",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250721-fanison-独立星球",
+      "edition": "main",
+      "addedAt": "2025-07-21",
+      "maker": "fanison",
+      "city": "北京",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250721-fanison-独立观察",
+      "edition": "main",
+      "addedAt": "2025-07-21",
+      "maker": "fanison",
+      "city": "北京",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250719-patrick-怼怼侠",
       "edition": "main",
       "addedAt": "2025-07-19",
@@ -48669,115 +48941,6 @@
       "extraLinks": [],
       "categories": [
         "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250716-jameshuang22-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-07-16",
-      "maker": "james（武汉）- [Github]",
-      "city": "https://github.com/JamesHuang22",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JamesHuang22"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250716-jameshuang22-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-07-16",
-      "maker": "james（武汉）- [Github]",
-      "city": "https://github.com/JamesHuang22",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JamesHuang22"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250716-jameshuang22-独立星球",
-      "edition": "main",
-      "addedAt": "2025-07-16",
-      "maker": "james（武汉）- [Github]",
-      "city": "https://github.com/JamesHuang22",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JamesHuang22"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250716-jameshuang22-独立观察",
-      "edition": "main",
-      "addedAt": "2025-07-16",
-      "maker": "james（武汉）- [Github]",
-      "city": "https://github.com/JamesHuang22",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/JamesHuang22"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

@@ -1,10 +1,25 @@
-# AI 独立制造所 · 全部产品清单（3546）
+# AI 独立制造所 · 全部产品清单（3553）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-10（北京时间）
+> 更新时间：2026-11-11（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2952）
+## 大众产品（2957）
+
+- **[FlyDesk 飞桌](https://desk.flychat.work/)** — 开发者 FlyDesk 飞桌开发团队（成都） · 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/flydesk.html)
+  远程桌面软件，在手机上输入设备 ID 与访问码连接自己的电脑，支持触控、键盘操作、同账号设备管理和云收藏；普通单人连接免费，含 VIP 付费权益 - 下载 · 开发方介绍与体验招募
+
+- **[wmfree](https://wmfree.com/)** — 开发者 Pamela · 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/wmfree.html)
+  网页图片去水印工具，在浏览器里涂抹或框选即可修复、打码或裁剪，本地处理不上传，打开即用、无需注册
+
+- **[EarlyLore](https://earlylore.com)** — 开发者 Kai Jiang · 免费工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/earlylore.html)
+  产品调研网站，写下想法或粘贴网址，对照真实在线软件看竞争、定价和获客后再决定是否动手；流量为估算，免费可用，提供中日文界面
+
+- **[Lyrics to Song AI](https://lyricstosongai.org)** — 开发者 kiya0908 · AI 工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/lyrics-to-song-ai.html)
+  AI 歌词成曲工具，把你写好的歌词做成带人声的完整歌曲，可选风格并一次生成多个版本对比
+
+- **[EmoteLoop](https://emoteloop.com/)** — 开发者 Wujie Li · AI 工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/emoteloop.html)
+  AI Twitch emote 生成器，写一句话或上传一张自拍，大约 20 秒得到透明背景、无限循环的 512px GIF，动作按描述生成，不是给静态表情套预设动画
 
 - **[Models Rank 模型榜](https://modelsrank.org/)** — 开发者 Samuel Shek · AI 工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/models-rank.html)
   AI 大模型榜单，汇总 Artificial Analysis 等第三方公开评测，把能力分、单任务成本和速度放在一张表里比较，每个模型有标注来源的详情页，每周更新，中英双语
@@ -687,7 +702,7 @@
 - **[Weather Trip](https://weather-trip.aicake.io)** — 开发者 小明 · 生活服务 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/weather-trip.html)
   按未来天气筛选旅行目的地的工具站，支持按温度、降雨、湿度等条件查找全球城市，通过天气地图比较城市预报，提供中英文界面
 
-- **[夸夸跨境](https://kuakuakua.com/pricing-calculator/)** — 开发者 ikeisthere · 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/project-0e326e.html)
+- **[夸夸跨境](https://kuakuakua.com/tools/pricing-calculator/)** — 开发者 ikeisthere · 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/project-0e326e.html)
   面向中国 Ozon 跨境卖家的免费定价计算器（免登录，按类目佣金、rFBS/FBP 物流资费、汇率与目标利润反推建议售价）与中文实操教程；可选多店体检工作台 — Web 应用
 
 - **[LayerGrab](https://layergrab.com)** — 开发者 stimQQ · AI 工具 / 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-10-18 · [详情页](https://indiemaker.cn/p/layergrab.html)
@@ -4974,6 +4989,18 @@
 - **[photo color changer](https://photocolorchanger.com/)** — 开发者 fanison（北京） · 图片工具 / 免费工具 · 已上线 · 收录 2025-07-21 · [详情页](https://indiemaker.cn/p/photo-color-changer.html)
   免费在线更改图像颜色，简化图像类型的处理流程。只需使用直观的颜色选择器选择目标区域（前景或背景），然后选择新的颜色即可
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 fanison（北京） · AI 工具 · 已上线 · 收录 2025-07-21 · [详情页](https://indiemaker.cn/p/ai-cc4290.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 fanison（北京） · 开发工具 / 免费工具 · 已上线 · 收录 2025-07-21 · [详情页](https://indiemaker.cn/p/project-eecc61.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 fanison（北京） · 开发工具 · 已上线 · 收录 2025-07-21 · [详情页](https://indiemaker.cn/p/project-4051d0.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 fanison（北京） · 浏览器扩展 · 已上线 · 收录 2025-07-21 · [详情页](https://indiemaker.cn/p/project-405650.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[怼怼侠](https://www.duiduixia.com/)** — 开发者 Patrick（顺德） · AI 工具 · 已上线 · 收录 2025-07-19 · [详情页](https://indiemaker.cn/p/project-6237a9.html)
   小网站，用 AI 帮你优雅回怼阴阳怪气，不带脏话
 
@@ -5000,18 +5027,6 @@
 
 - **[去留助手AI](https://www.huiguo.info/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · AI 工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/ai-550c0e.html)
   专为海外留学生和海外发展的华人打造的智能决策辅助工具。通过 AI 大模型分析，根据每个人不同的情况，评估“回国发展”与“留在海外”两种路径的优劣，助力做出更明智的职业与人生选择。并且能通过大数据分析，智能计算与同龄人平均水平的位置。
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · AI 工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/ai-dc32e1.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · 开发工具 / 免费工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/project-c05213.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · 开发工具 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/project-344f2a.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 james（武汉）- [Github]（https://github.com/JamesHuang22） · 浏览器扩展 · 已上线 · 收录 2025-07-16 · [详情页](https://indiemaker.cn/p/project-3453aa.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[TmpMail](https://www.tmpmail.online)** — 开发者 heyjude（上海） · 免费工具 · 已上线 · 收录 2025-07-14 · [详情页](https://indiemaker.cn/p/tmpmail.html)
   免费临时邮箱TmpMail
@@ -8862,7 +8877,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（432）
+## 程序员版（434）
+
+- **[Ligamina](https://github.com/Eternal-Wanderer-Vegetable/Ligamina)** — 开发者 Eternal-Wanderer-Vegetable · AI 工具 / 开发工具 / 浏览器扩展 / 社交社区 · 开发中 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/ligamina.html)
+  让 Koishi、NoneBot 和 AstrBot 的聊天机器人插件以原样在各自的原生框架中运行，并通过统一的类 MCP 接口供任意 bot 框架或 AI 编程助手使用。Rust Core 为每个框架监督一个隔离的 Host 进程；插件保留自己的命令解析、中间件、权限与存储
+
+- **[HopBase](https://hop-base.com)** — 开发者 Victor · AI 工具 / 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-11-10 · [详情页](https://indiemaker.cn/p/hopbase.html)
+  多模型 AI API 网关，一个 Base URL 调用 Claude / GPT / Gemini / DeepSeek / 千问等文本模型，以及 Seedream、Seedance、可灵等图片和视频模型；兼容 OpenAI、Anthropic、Gemini 三种接口格式，Claude Code / Codex 改 base_url 和 key 即可使用，按量计费
 
 - **[Neat MD](https://marketplace.visualstudio.com/items?itemName=xiaomingio.neat-md)** — 开发者 小明 · 文档办公 / 免费工具 · 已上线 · 收录 2026-11-08 · [详情页](https://indiemaker.cn/p/neat-md.html)
   VS Code Markdown 编辑器，支持边写边预览、源码与预览并排显示、表格编辑、Mermaid 图表和 KaTeX 公式，免费开源
