@@ -14810,5 +14810,161 @@
  "main-20250721-fanison-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-11"
+ },
+ "main-20261111-opie-studio-vvid": {
+  "descEn": "A web application for the Tesla car browser. Add YouTube, Bilibili, and Douyin links to the media library on your mobile phone. You can play it by opening the same account in the car browser without installing the app.",
+  "at": "2026-11-12"
+ },
+ "programmer-20261111-kaying-ai-kayingcode": {
+  "descEn": "An open source AI Agent Harness optimized for game development. Describe how to play and let the Agent write code, run preview and trial verification on the same desktop workbench, and build and release it through TapTap Maker.",
+  "at": "2026-11-12"
+ },
+ "programmer-20261111-tw93-mole": {
+  "descEn": "Open source Mac and Windows command line cleaning tool, `brew install mole` or `scoop install mole`. After installation, use `mo` to clean cache and residues, uninstall apps, analyze disks, and view system status.",
+  "at": "2026-11-12"
+ },
+ "game-20261111-vibes-college-vibes-college": {
+  "descEn": "IELTS preparation game, you can play it by opening your mobile browser without downloading; you can play listening, reading, vocabulary, and grammar level by level on a map. If you get stuck, look at the tips and ask the AI ​​English teacher; the first chapter is free, you can play it by registering.",
+  "at": "2026-11-12"
+ },
+ "custom-20261112-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-12"
+ },
+ "main-20250728-monsoonw-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-12"
+ },
+ "main-20250728-monsoonw-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-12"
+ },
+ "main-20250728-monsoonw-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-12"
+ },
+ "main-20250728-monsoonw-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-12"
+ },
+ "main-20261112-borongzheng-sketch-aman-machine": {
+  "descEn": "Send a bottle sample or drawing to inquire about bottle blowing machines and molds - molds for bottle caps, cosmetic jars, bottles, and PET bottle preforms, which can be equipped with our machines or your existing machines; English site, serving more than 100 countries since 2007",
+  "at": "2026-11-12"
+ },
+ "main-20261112-borongzheng-sketch-aman-machinery": {
+  "descEn": "Send a drawing or part to inquire about assembly machines and packaging automation equipment - assembly lines for bottle caps, pump heads, cosmetic packaging, medical parts, pens and electrical devices; English site",
+  "at": "2026-11-12"
+ },
+ "main-20261112-borongzheng-sketch-aman-灌装包装机": {
+  "descEn": "English website for choosing filling machines, capping machines, labeling machines, and packaging machines, from desktop stand-alone machines to entire lines. Inquiries based on your products and output",
+  "at": "2026-11-12"
+ },
+ "main-20261112-borongzheng-sketch-aman-pack": {
+  "descEn": "Cosmetics packaging English website, bottle caps, pump heads, bottles, you can choose standard styles, add logo according to your color, or make according to your design",
+  "at": "2026-11-12"
+ },
+ "main-20261112-borongzheng-sketch-cncman": {
+  "descEn": "English website for jewelry ring engraving machine AM30, fiber laser marking machine, CO2 laser cutting machine and CNC engraving machine. It is for shops and small workshops. You can inquire after sending your request.",
+  "at": "2026-11-12"
+ },
+ "main-20261112-livis-套餐雷达": {
+  "descEn": "Domestic AI programming/Agent subscription package comparison station, which summarizes the prices, quotas and inventory status of each package. Try to attach the official source and verification date to each item. It is free to check.",
+  "at": "2026-11-12"
+ },
+ "main-20261112-square-face-studio-square-face-generator": {
+  "descEn": "Nine free avatar widgets are placed on one website: square face, oval face, 8-bit pixel icon, full-body pixel villain, pixel cat, Q version character. It can also be printed into paper squares. Each part can be changed in color. Save it as a PNG without watermark and no need to register.",
+  "at": "2026-11-12"
+ },
+ "main-20261112-linky-aiinlink-digital-love-letters": {
+  "descEn": "Digital love letter service (free), choose one of nine templates, write your feelings and seal them, then send a private link. The recipient can tap the seal to read it, no registration required.",
+  "at": "2026-11-12"
+ },
+ "main-20261112-guiyumin-finchgram": {
+  "descEn": "Open source macOS Telegram third-party client, written in Rust + Slint, supports multiple accounts and MCP (AI tool access)",
+  "at": "2026-11-12"
+ },
+ "main-20261112-ouxxyy-欧八面试陪练": {
+  "descEn": "Chinese voice and text AI interview training website, combining the JD of the target position and personal real experience, first practicing 1-2 minutes of self-introduction, and then using three experience questions to conduct continuous questioning, quoting five-dimensional comments from the original words, and comparing initial and repeated answers; built-in practice library for AI products, back-end R&D, data analysis and other positions, the platform is free and MIT open source, you need to prepare your own Bailian API Key",
+  "at": "2026-11-12"
+ },
+ "main-20261112-binbin7418-dotcom-pitchreel": {
+  "descEn": "Turn a text resume into a vertical oral video resume, with explanations and subtitles, and an AI readiness score before submission.",
+  "at": "2026-11-12"
+ },
+ "main-20261112-binbin7418-dotcom-emailcheck": {
+  "descEn": "Screen the invalid addresses in the email list in batches, and select those that will bounce back before sending the email. Free single check",
+  "at": "2026-11-12"
+ },
+ "main-20261112-binbin7418-dotcom-starlight-stories": {
+  "descEn": "Customize a bedtime storybook for your child, generate a PDF with illustrations and read aloud audio",
+  "at": "2026-11-12"
+ },
+ "main-20261112-binbin7418-dotcom-snapduo": {
+  "descEn": "Two photos are combined into one hot meme photo in the same frame. Free preview. If you are satisfied, you can unlock the high definition.",
+  "at": "2026-11-12"
+ },
+ "main-20261112-binbin7418-dotcom-paperstage": {
+  "descEn": "Turn a photo into a few seconds of paper-style walking animation, with built-in soundtrack",
+  "at": "2026-11-12"
+ },
+ "main-20261112-ollivander23-cbz-reader": {
+  "descEn": "Free online CBZ comic reader, you can read books when you open a webpage, and you can also convert CBZ to PDF; no registration is required, the file is only processed locally, and the cached page can be read offline and converted after one visit.",
+  "at": "2026-11-12"
+ },
+ "programmer-20261112-findskills-skill": {
+  "descEn": "A market for finding skills for AI assistants, search by task, copy the skills authorized by the author and install them on Claude Code, Codex or Cursor with just one command, bilingual in Chinese and English, free to browse",
+  "at": "2026-11-12"
+ },
+ "programmer-20261112-1528960014-kejike-api中转站": {
+  "descEn": "AI API transfer service, OpenAI compatible interface calls GPT, Claude, Gemini, DeepSeek, Grok, Kimi, GLM seven types of models, provides Codex access documents and console usage bills",
+  "at": "2026-11-12"
+ },
+ "programmer-20261112-ouxxyy-jd-resume-match": {
+  "descEn": "The Chinese resume and JD can be recalculated and matched with the physical examination tool and the local MCP Server. The original line number (L1..Ln) of the resume is bound to the JD of the target position one by one to check for evidence gaps. The matching score is recalculated through the deterministic Python formula and the single-file HTML physical examination report is exported. Zero network upload, MIT open source",
+  "at": "2026-11-12"
+ },
+ "programmer-20261112-ouxxyy-job-search": {
+  "descEn": "Cross-platform recruitment screening Agent Skill, search the five major platforms of BOSS Direct Recruitment, Liepin, Maimai, Zhaopin Recruitment, and 51555 according to the confirmation conditions. After deduplication and cleaning, generate HTML, Excel and JSON delivery shortlists with original links and filtering basis, MIT open source",
+  "at": "2026-11-12"
+ },
+ "programmer-20261112-ouxxyy-sherlock-company": {
+  "descEn": "The Agent Skill is used to back-check the company’s evidence before accepting an offer. It organizes public company information and employee evaluations into four-state files: confirmed, clues, conflicting statements, and unknown. It proactively checks for three types of early warnings: inconsistent contract subjects and hidden overtime, and outputs a single file offline HTML verification list. MIT open source",
+  "at": "2026-11-12"
+ },
+ "programmer-20261112-ouxxyy-mbai": {
+  "descEn": "Work task AI irreplaceable index assessment tool, disassembles daily job tasks and completes AI replacement risk self-assessment based on contribution evidence, outputs structured transformation recommendations and offline reports, supports command line and Claude Code calls",
+  "at": "2026-11-12"
+ },
+ "main-20261111-no1guangming-minglist": {
+  "descEn": "An overseas privacy classified information platform with pure serverless architecture. Use Cloudflare edge nodes to implement two-way anonymous email relay, focusing on local transactions in 24 overseas cities, preventing crawlers and not exposing real mailboxes",
+  "at": "2026-11-12"
+ },
+ "main-20261111-masker99-ai-rap-video": {
+  "descEn": "AI rap video generation tool, uses AI to transform photos into interesting Rap-style short videos, suitable for social media sharing",
+  "at": "2026-11-12"
+ },
+ "main-20261111-aibanlv-aibanlv-bot": {
+  "descEn": "Windows/macOS desktop AI companion, supports transparent suspended 3D images, text and voice communication, can be connected to Harness, Codex and other tools to process tasks; supports self-prepared model keys or the use of platform points",
+  "at": "2026-11-12"
+ },
+ "main-20261111-crafthwj-origrab": {
+  "descEn": "List all the images on the current webpage, mark the size and format, check the box and package it into a ZIP download with one click; no registration or uploading is required, the entire process is completed locally in the browser, free of charge",
+  "at": "2026-11-12"
+ },
+ "main-20261111-88slash-neewp": {
+  "descEn": "Global independent product real revenue radar, tracking 1,058 products every day, using only verifiable real numbers (TrustMRR Stripe measured sales, Latka, Indie Hackers and App Store lists), monetization list + growth list dismantling monetization models and traffic sources, bilingual in Chinese and English, updated daily",
+  "at": "2026-11-12"
+ },
+ "main-20261111-neichen-time-foo": {
+  "descEn": "View the current time and day/night divisions around the world on 3D Earth. You can compare multiple cities, convert time zones, and convert Unix timestamps; it’s free, no ads, no registration required, and supports 8 languages.",
+  "at": "2026-11-12"
+ },
+ "main-20261111-tw93-mole": {
+  "descEn": "The native cleaning tool on Mac and Windows can clean the residual garbage on the computer, uninstall the apps together with the residuals, and see who is occupying the disk space. It will list everything for you to confirm before deleting it, and you can buy it all in one go.",
+  "at": "2026-11-12"
+ },
+ "main-20261111-tw93-pake": {
+  "descEn": "Turn frequently used websites into desktop apps on Mac, Windows and Linux. Just pick one from the gallery or paste the URL to generate it. It has its own icon and window. No need to install Node.js or Rust. Make 2 for free and buy them all at once.",
+  "at": "2026-11-12"
  }
 }
