@@ -4,29 +4,509 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-12T02:59:03.565Z",
+  "generatedAt": "2026-11-13T02:37:33.387Z",
   "counts": {
-    "total": 3587,
-    "main": 2982,
-    "programmer": 442,
-    "game": 163,
+    "total": 3609,
+    "main": 2999,
+    "programmer": 445,
+    "game": 165,
     "custom": 1
   },
   "categoryCounts": {
-    "效率工具": 494,
-    "AI 工具": 1221,
-    "开发工具": 714,
-    "免费工具": 786,
-    "图片工具": 678,
+    "浏览器扩展": 389,
+    "免费工具": 799,
+    "AI 工具": 1230,
+    "图片工具": 686,
+    "开发工具": 719,
+    "效率工具": 495,
+    "音视频": 645,
+    "文档办公": 355,
+    "游戏娱乐": 196,
+    "生活服务": 110,
     "教育学习": 202,
-    "音视频": 643,
-    "文档办公": 353,
-    "社交社区": 135,
-    "浏览器扩展": 384,
-    "游戏娱乐": 194,
-    "生活服务": 109
+    "社交社区": 136
   },
   "projects": [
+    {
+      "id": "main-20261113-autoresearch-免费科研计划工具",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "AutoResearch",
+      "city": "",
+      "makerLinks": [],
+      "name": "免费科研计划工具",
+      "url": "https://autoresearch.me/zh/research-plan/",
+      "status": "online",
+      "description": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-aiyo407-seekphoto",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "aiyo407",
+      "city": "广州",
+      "makerLinks": [],
+      "name": "SeekPhoto",
+      "url": "https://www.seekphoto.cn",
+      "status": "online",
+      "description": "Windows 本地 AI 搜图工具，用一句中文描述（如「海滩日落」「孩子笑脸」）就能在几万张照片里找到那张，还能以图搜图、搜照片上的文字；照片和 AI 都在自己电脑上跑、不上传云端，直接在原有文件夹建索引，免费版永久可用，Pro 一次性买断",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-antonailog-国内ai活动追踪",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "阿東",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/antonailog"
+        }
+      ],
+      "name": "国内AI活动追踪",
+      "url": "https://antonailog.com/more/ai-events/",
+      "status": "online",
+      "description": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-gessov-的开发者-gessov",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "gessov 的开发者",
+      "city": "",
+      "makerLinks": [],
+      "name": "gessov",
+      "url": "https://apps.apple.com/cn/app/id6815108797",
+      "status": "online",
+      "description": "英英词汇 iPhone app，先读英文例句理解语境，再看全英文解释，不给中文释义；无需注册，进度只存在手机上",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://gessov.com"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-lhq1363511234-inspace",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "lhq1363511234",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lhq1363511234"
+        }
+      ],
+      "name": "inspace",
+      "url": "https://opctoai.com/inspace",
+      "status": "online",
+      "description": "地点攻略与故事网站，按地点查阅内容，并用一个空间链接分享攻略和记录",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://gist.github.com/lhq1363511234/fa7deee0b07eb516ddd03f4fd6b8cce1"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-coderlim-ai-photo-editor",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "CoderLim",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CoderLim"
+        },
+        {
+          "label": "博客",
+          "url": "https://limbuilder.hashnode.dev/"
+        }
+      ],
+      "name": "AI Photo Editor",
+      "url": "https://getaiphotoeditor.com/",
+      "status": "online",
+      "description": "免费在线 AI 图片编辑器，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261113-bebincas-github加速器",
+      "edition": "programmer",
+      "addedAt": "2026-11-13",
+      "maker": "bebincas",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/bebincas"
+        }
+      ],
+      "name": "Github加速器",
+      "url": "https://github.com/bebincas/IPOptimize",
+      "status": "online",
+      "description": "免费开源 Windows 本地工具，通过优选 IP 来加速 GitHub 和 Cloudflare CDN 网站（非 VPN）",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261113-antonailog-skills",
+      "edition": "programmer",
+      "addedAt": "2026-11-13",
+      "maker": "阿東",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/antonailog"
+        }
+      ],
+      "name": "skills",
+      "url": "https://github.com/antonailog/skills",
+      "status": "online",
+      "description": "Claude Code / Codex 用的 Agent Skill 合集，做调研报告、播客笔记、公众号和小红书稿、生图 prompt 和新 Skill，每个附一个真实跑过的例子",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261113-卡站-kazhan-卡站-ai-会员选购助手",
+      "edition": "programmer",
+      "addedAt": "2026-11-13",
+      "maker": "卡站 KAZHAN",
+      "city": "",
+      "makerLinks": [],
+      "name": "卡站 AI 会员选购助手",
+      "url": "https://kazhan.store/choose?utm_source=github_chinese_independent_developer&utm_campaign=launch_20261113",
+      "status": "online",
+      "description": "AI 会员选购与比价网站，按平台和预算筛选套餐，支持最多 3 件商家报价同屏对比，选购比价免费且无需注册",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261113-tiyinet-萌宠出征",
+      "edition": "game",
+      "addedAt": "2026-11-13",
+      "maker": "芽朵软件",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/tiyinet"
+        }
+      ],
+      "name": "萌宠出征",
+      "url": "https://www.mcleyuan.com/cz/index.html",
+      "status": "online",
+      "description": "Windows 桌面宠物割草游戏，养 16 种猫狗鸟龟躲虫群打 40 关，通关 5 关宠物住进桌面，全程离线免费无广告",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-fxxqq-造梦橱窗",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "frank",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fxxqq"
+        }
+      ],
+      "name": "造梦橱窗",
+      "url": "https://zm94.com/",
+      "status": "online",
+      "description": "独立开发者作品收录榜，免费投稿网站、小程序、软件，按每周数据打分选出精选作品上榜展示",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wujm12138-ai秒记账",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "wujm12138",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wujm12138"
+        }
+      ],
+      "name": "AI秒记账",
+      "url": "https://gist.githubusercontent.com/wujm12138/1cad024149ad8528c03a4286dcffcb58/raw/a097ee5ce7d86bf9b005d657c24d14fc53c8d8b4/ai-miaojizhang.jpg",
+      "status": "online",
+      "description": "给经常出差、先替公司垫钱的人用的微信小程序。每趟出差单开一个账本，路上说一句或传张票就能记一笔，回来按趟导出 Excel",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wanderzil-splitimage",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "Tom Wang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "name": "SplitImage",
+      "url": "https://splitimage.io",
+      "status": "online",
+      "description": "浏览器图片分割工具，支持宫格、对半和切条，可预览后下载，图片在本地处理",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wanderzil-bulk-image-editor",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "Tom Wang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "name": "Bulk Image Editor",
+      "url": "https://bulkimage.io",
+      "status": "online",
+      "description": "浏览器批量图片编辑工具，支持裁剪、缩放、压缩、格式转换、水印和重命名，图片在本地处理",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wanderzil-batch-image-crop",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "Tom Wang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "name": "Batch Image Crop",
+      "url": "https://batchimagecrop.com",
+      "status": "online",
+      "description": "浏览器批量裁剪工具，可按比例、像素、形状或社媒预设裁剪并预览，支持打包 ZIP 下载，图片在本地处理",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wanderzil-canmetry",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "Tom Wang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "name": "Canmetry",
+      "url": "https://canmetry.com",
+      "status": "online",
+      "description": "CAN / CAN FD 日志查看器，支持 BLF、MF4、ASC 文件、DBC 解码、过滤、曲线绘制及 CSV 导出；本地查看无需安装软件，云项目和团队工作区需登录",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wanderzil-bulk-image-download",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "Tom Wang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/WanderZil"
+        }
+      ],
+      "name": "Bulk Image Download",
+      "url": "https://bulkimagedownload.com",
+      "status": "online",
+      "description": "网页图片提取工具，粘贴链接后可预览并批量下载，也可打包为 ZIP，无需安装扩展",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-fermatmind-费马测试-fermatmind",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "费马测试",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fermatmind"
+        }
+      ],
+      "name": "费马测试（FermatMind）",
+      "url": "https://fermatmind.com/",
+      "status": "online",
+      "description": "在线人格与职业兴趣测评网站，无需注册即可体验 MBTI、大五人格和霍兰德职业兴趣测试，并结合结果查看职业档案、比较职业方向",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-cena001plus-builderoom",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "cena001plus",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cena001plus"
+        }
+      ],
+      "name": "Builderoom",
+      "url": "https://www.builderoom.com/zh-CN",
+      "status": "online",
+      "description": "独立开发者作品展台，用一句话描述需求就能找到软件，发布作品只需贴一个链接，AI 自动整理介绍与分类，免费提交、不卖排名",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wenjianzhang70-dot-photosway",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "张文健",
+      "city": "东莞",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wenjianzhang70-dot"
+        }
+      ],
+      "name": "PhotoSway",
+      "url": "https://photosway.com/",
+      "status": "online",
+      "description": "AI 照片变视频工具站，上传一张宠物照片，套用 Car Alarm、OIIA 猫等爆款跳舞模板做成短视频，附 15 篇分步教程；生成功能正在等候名单中",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261112-wenjianzhang70-dot-reroll-odds",
+      "edition": "main",
+      "addedAt": "2026-11-12",
+      "maker": "张文健",
+      "city": "东莞",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wenjianzhang70-dot"
+        }
+      ],
+      "name": "Reroll Odds",
+      "url": "https://rerollodds.com/",
+      "status": "online",
+      "description": "抽卡保底计算器，输入抽数算出金概率与期望抽数，覆盖 Clover RPG、怪物猎人 Outlanders、碧蓝普罗米亚、Epic Seven 等游戏",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261112-borongzheng-sketch-aman-machine",
       "edition": "main",
@@ -542,6 +1022,29 @@
       "categories": [
         "AI 工具",
         "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261112-bei666qi-pan-404世界",
+      "edition": "game",
+      "addedAt": "2026-11-12",
+      "maker": "bei666qi-pan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bei666qi-pan"
+        }
+      ],
+      "name": "404世界",
+      "url": "https://versecraft.cn/",
+      "status": "online",
+      "description": "AI 互动小说网站，可进入喜欢的小说参与剧情、改变结局；用一句话一键成书，创作自己的小说，包括二创同人；还可将喜欢的角色拉进同一个聊天群，让他们互相聊天，体验好感度等互动机制",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "社交社区"
       ],
       "source": "upstream"
     },
@@ -19075,7 +19578,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261112-0",
+      "id": "custom-20261113-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -48465,6 +48968,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250813-ethan-sunray-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-08-13",
+      "maker": "Ethan Sunray",
+      "city": "",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250813-ethan-sunray-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-08-13",
+      "maker": "Ethan Sunray",
+      "city": "",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250813-ethan-sunray-独立星球",
+      "edition": "main",
+      "addedAt": "2025-08-13",
+      "maker": "Ethan Sunray",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250813-ethan-sunray-独立观察",
+      "edition": "main",
+      "addedAt": "2025-08-13",
+      "maker": "Ethan Sunray",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250812-chenminjie24-promptark",
       "edition": "main",
       "addedAt": "2025-08-12",
@@ -49122,95 +49714,6 @@
       "extraLinks": [],
       "categories": [
         "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250728-monsoonw-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-07-28",
-      "maker": "monsoonw",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250728-monsoonw-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-07-28",
-      "maker": "monsoonw",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250728-monsoonw-独立星球",
-      "edition": "main",
-      "addedAt": "2025-07-28",
-      "maker": "monsoonw",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250728-monsoonw-独立观察",
-      "edition": "main",
-      "addedAt": "2025-07-28",
-      "maker": "monsoonw",
-      "city": "杭州",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
