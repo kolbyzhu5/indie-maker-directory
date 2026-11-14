@@ -4,42 +4,158 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-13T02:37:33.387Z",
+  "generatedAt": "2026-11-14T02:26:50.455Z",
   "counts": {
-    "total": 3609,
-    "main": 2999,
-    "programmer": 445,
-    "game": 165,
+    "total": 3616,
+    "main": 3004,
+    "programmer": 446,
+    "game": 166,
     "custom": 1
   },
   "categoryCounts": {
-    "浏览器扩展": 389,
-    "免费工具": 799,
-    "AI 工具": 1230,
-    "图片工具": 686,
-    "开发工具": 719,
-    "效率工具": 495,
-    "音视频": 645,
-    "文档办公": 355,
-    "游戏娱乐": 196,
+    "浏览器扩展": 392,
+    "免费工具": 804,
+    "音视频": 648,
+    "教育学习": 203,
+    "AI 工具": 1233,
+    "效率工具": 497,
+    "图片工具": 687,
+    "文档办公": 357,
+    "开发工具": 720,
+    "游戏娱乐": 197,
     "生活服务": 110,
-    "教育学习": 202,
     "社交社区": 136
   },
   "projects": [
     {
-      "id": "main-20261113-autoresearch-免费科研计划工具",
+      "id": "main-20261113-leontloveless-shortdramakit",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "leontloveless",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/leontloveless"
+        }
+      ],
+      "name": "ShortDramaKit",
+      "url": "https://shortdramakit.com",
+      "status": "online",
+      "description": "短剧片单工具，在 Chrome 侧边栏保存剧目链接、标签和备注，支持 CSV 导出与 JSON 备份。本地片单免费、无需注册；受支持的联网采集和下载按任务消耗积分",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-315fang-雅思爱我",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "315fang",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/315fang"
+        }
+      ],
+      "name": "雅思爱我",
+      "url": "https://yasilove.me",
+      "status": "online",
+      "description": "雅思和四六级背单词网站，一屏只放一个词：英美音标、中文核心义、一句记忆钩子和雅思语境例句；每天按计划学新词，到期自动复习，答错的词进错词本；另有名人演讲逐句精听，字幕里的生词点一下就能查。打开即用，登录同一邮箱可多端同步",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-joelpillar1-topsaas",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "Joelpillar1",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Joelpillar1"
+        }
+      ],
+      "name": "TopSAAS",
+      "url": "https://topsaas.space/",
+      "status": "online",
+      "description": "SaaS 产品与 AI 工具导航目录，支持免费提交产品，可按 AI、效率、营销、设计等分类浏览、对比和发现热门新品",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-yoking-chan-tunenoodle",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "Yoking Chan",
+      "city": "广州",
+      "makerLinks": [],
+      "name": "Tunenoodle",
+      "url": "https://tunenoodle.com",
+      "status": "online",
+      "description": "AI 音乐生成网站，写一句描述、填歌词或哼一段旋律就能生成歌曲，另有 30+ 个免注册的浏览器音频工具（音频转 MIDI、BPM 测速、和弦分析）",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-kanlac-tutti",
+      "edition": "main",
+      "addedAt": "2026-11-13",
+      "maker": "Kan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kanlac"
+        }
+      ],
+      "name": "Tutti",
+      "url": "https://tutti-studio.com",
+      "status": "online",
+      "description": "乐谱 PDF 转 MusicXML 工具，直接读取 Sibelius 等打谱软件导出 PDF 里的音符数据，而不是靠图像识别，转完可在 MuseScore、Dorico、Sibelius 里继续编辑，每周 5 页免费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261113-autoresearch-autoresearch",
       "edition": "main",
       "addedAt": "2026-11-13",
       "maker": "AutoResearch",
       "city": "",
       "makerLinks": [],
-      "name": "免费科研计划工具",
-      "url": "https://autoresearch.me/zh/research-plan/",
+      "name": "AutoResearch",
+      "url": "https://autoresearch.me/zh/",
       "status": "online",
-      "description": "无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据",
+      "description": "浏览器端 AI 科研系统，将文献探索、科研想法、模型实现、GPU 实验与论文写作连在同一流程。完整系统目前为内测：需在官网提交申请，经管理员审核通过后，按邮件引导设置密码并登录；获批成员获赠 5,000 初始 credits。官方说明内测期间免费，但这是有限额度，不是无限免费；后续方案已在价格页预览，具体价格尚未公布",
       "extraLinks": [],
       "categories": [
+        "AI 工具",
+        "文档办公",
+        "效率工具",
         "浏览器扩展",
         "免费工具"
       ],
@@ -164,6 +280,34 @@
       "source": "upstream"
     },
     {
+      "id": "programmer-20261113-shadowdragons-vsux",
+      "edition": "programmer",
+      "addedAt": "2026-11-13",
+      "maker": "Junexus",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shadowDragons"
+        }
+      ],
+      "name": "vsux",
+      "url": "https://vsux.sphrag.com/",
+      "status": "developing",
+      "description": "原生 Mac 轻量编辑器，按项目组织分屏终端、文件、Git 变更、常用命令与后台服务；免费、MIT 开源，支持中英文，需要 macOS 14+ 与 Apple Silicon，目前为 v0.1.2 预发布版",
+      "extraLinks": [
+        {
+          "label": "源码与下载",
+          "url": "https://github.com/shadowDragons/vsux"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20261113-bebincas-github加速器",
       "edition": "programmer",
       "addedAt": "2026-11-13",
@@ -225,6 +369,26 @@
       "extraLinks": [],
       "categories": [
         "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261113-omogglegame-com-团队-omoggle-game",
+      "edition": "game",
+      "addedAt": "2026-11-13",
+      "maker": "omogglegame.com 团队",
+      "city": "",
+      "makerLinks": [],
+      "name": "Omoggle Game",
+      "url": "https://omogglegame.com/",
+      "status": "online",
+      "description": "浏览器 1v1 \"mog battle\" 镜头对战游戏，先做一次端侧 PSL 面部评分（对称、协调、下颌、皮肤、眼角倾斜，模型在浏览器本地运行、画面不上传），再随机匹配陌生人进行 15 秒开镜头对决，观众投票定胜负并计入 ELO 天梯；基础对战、私人房间和天梯免费且无需注册，可选 VIP（$4.99/月或 $12.99 买断）提供优先队列和性别/地区筛选；实时视频匹配仅限 18 岁以上",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展",
+        "游戏娱乐",
         "免费工具"
       ],
       "source": "upstream"
@@ -19578,7 +19742,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261113-0",
+      "id": "custom-20261114-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

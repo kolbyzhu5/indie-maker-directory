@@ -15074,5 +15074,41 @@
  "main-20261112-wanderzil-batch-image-crop": {
   "descEn": "Browser batch cropping tool, which can be cropped and previewed according to proportion, pixels, shapes or social media presets. It supports packaged ZIP download and the images are processed locally.",
   "at": "2026-11-13"
+ },
+ "main-20261113-leontloveless-shortdramakit": {
+  "descEn": "Short play list tool, save play links, tags and notes in Chrome sidebar, support CSV export and JSON backup. Local movie lists are free and no registration is required; supported network collection and downloading consume points based on tasks",
+  "at": "2026-11-14"
+ },
+ "main-20261113-315fang-雅思爱我": {
+  "descEn": "IELTS and CET-4 and CET-6 vocabulary memorization websites only display one word on one screen: British and American phonetic symbols, Chinese core meanings, a memory hook and IELTS context example sentences; learn new words as planned every day, automatically review them when due, and enter wrong words into the wrong vocabulary book; there are also celebrity speeches that can be listened to sentence by sentence, and new words in the subtitles can be looked up with just one click. Open and use immediately, log in to the same mailbox and synchronize multiple terminals",
+  "at": "2026-11-14"
+ },
+ "main-20261113-joelpillar1-topsaas": {
+  "descEn": "Navigation catalog of SaaS products and AI tools, supports free submission of products, and allows you to browse, compare and discover popular new products by categories such as AI, efficiency, marketing, design, etc.",
+  "at": "2026-11-14"
+ },
+ "main-20261113-yoking-chan-tunenoodle": {
+  "descEn": "AI music generation website, you can write a description, fill in lyrics or hum a melody to generate songs, and there are 30+ registration-free browser audio tools (audio to MIDI, BPM speed test, chord analysis)",
+  "at": "2026-11-14"
+ },
+ "main-20261113-kanlac-tutti": {
+  "descEn": "Music score PDF to MusicXML tool, directly reads the note data in the PDF and exports it from Sibelius and other notation software, instead of relying on image recognition. After the conversion, you can continue editing in MuseScore, Dorico, and Sibelius. 5 pages per week are free",
+  "at": "2026-11-14"
+ },
+ "main-20261113-autoresearch-autoresearch": {
+  "descEn": "The browser-side AI scientific research system connects literature exploration, scientific research ideas, model implementation, GPU experiments and paper writing in the same process. The complete system is currently in internal testing: you need to submit an application on the official website. After being reviewed and approved by the administrator, follow the email guidance to set a password and log in; approved members will receive 5,000 initial credits. The official statement states that it is free during the internal testing period, but this is limited, not unlimited free; subsequent plans have been previewed on the price page, and the specific price has not yet been announced.",
+  "at": "2026-11-14"
+ },
+ "programmer-20261113-shadowdragons-vsux": {
+  "descEn": "A native Mac lightweight editor that organizes split-screen terminals, files, Git changes, common commands, and background services by project; free, MIT open source, supports Chinese and English, requires macOS 14+ and Apple Silicon, currently v0.1.2 pre-release version",
+  "at": "2026-11-14"
+ },
+ "game-20261113-omogglegame-com-团队-omoggle-game": {
+  "descEn": "Browser 1v1 \"mog battle\" camera battle game, first do a side-to-side PSL facial score (symmetry, coordination, jaw, skin, eye canthus tilt, the model is run locally in the browser, the picture is not uploaded), and then randomly matched with strangers for a 15-second on-camera duel, the audience votes to determine the winner and will be included in the ELO ladder; basic battles, private rooms and ladders are free and do not require registration, optional VIP ($4.99/month or $12.99 Buyout) offers priority queue and gender/region filtering; live video matching is 18+ only",
+  "at": "2026-11-14"
+ },
+ "custom-20261114-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-14"
  }
 }

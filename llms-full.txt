@@ -1,13 +1,28 @@
-# AI 独立制造所 · 全部产品清单（3609）
+# AI 独立制造所 · 全部产品清单（3616）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-13（北京时间）
+> 更新时间：2026-11-14（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（2999）
+## 大众产品（3004）
 
-- **[免费科研计划工具](https://autoresearch.me/zh/research-plan/)** — 开发者 AutoResearch · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/project-45a694.html)
-  无需注册，在浏览器里整理并下载科研实验计划；训练前明确研究问题、数据划分、对比基线、评估指标与所需证据
+- **[ShortDramaKit](https://shortdramakit.com)** — 开发者 leontloveless · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/shortdramakit.html)
+  短剧片单工具，在 Chrome 侧边栏保存剧目链接、标签和备注，支持 CSV 导出与 JSON 备份。本地片单免费、无需注册；受支持的联网采集和下载按任务消耗积分
+
+- **[雅思爱我](https://yasilove.me)** — 开发者 315fang · 音视频 / 教育学习 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/project-5ed7ab.html)
+  雅思和四六级背单词网站，一屏只放一个词：英美音标、中文核心义、一句记忆钩子和雅思语境例句；每天按计划学新词，到期自动复习，答错的词进错词本；另有名人演讲逐句精听，字幕里的生词点一下就能查。打开即用，登录同一邮箱可多端同步
+
+- **[TopSAAS](https://topsaas.space/)** — 开发者 Joelpillar1 · AI 工具 / 效率工具 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/topsaas.html)
+  SaaS 产品与 AI 工具导航目录，支持免费提交产品，可按 AI、效率、营销、设计等分类浏览、对比和发现热门新品
+
+- **[Tunenoodle](https://tunenoodle.com)** — 开发者 Yoking Chan（广州） · AI 工具 / 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/tunenoodle.html)
+  AI 音乐生成网站，写一句描述、填歌词或哼一段旋律就能生成歌曲，另有 30+ 个免注册的浏览器音频工具（音频转 MIDI、BPM 测速、和弦分析）
+
+- **[Tutti](https://tutti-studio.com)** — 开发者 Kan · 图片工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/tutti.html)
+  乐谱 PDF 转 MusicXML 工具，直接读取 Sibelius 等打谱软件导出 PDF 里的音符数据，而不是靠图像识别，转完可在 MuseScore、Dorico、Sibelius 里继续编辑，每周 5 页免费
+
+- **[AutoResearch](https://autoresearch.me/zh/)** — 开发者 AutoResearch · AI 工具 / 文档办公 / 效率工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/autoresearch.html)
+  浏览器端 AI 科研系统，将文献探索、科研想法、模型实现、GPU 实验与论文写作连在同一流程。完整系统目前为内测：需在官网提交申请，经管理员审核通过后，按邮件引导设置密码并登录；获批成员获赠 5,000 初始 credits。官方说明内测期间免费，但这是有限额度，不是无限免费；后续方案已在价格页预览，具体价格尚未公布
 
 - **[SeekPhoto](https://www.seekphoto.cn)** — 开发者 aiyo407（广州） · AI 工具 / 图片工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/seekphoto.html)
   Windows 本地 AI 搜图工具，用一句中文描述（如「海滩日落」「孩子笑脸」）就能在几万张照片里找到那张，还能以图搜图、搜照片上的文字；照片和 AI 都在自己电脑上跑、不上传云端，直接在原有文件夹建索引，免费版永久可用，Pro 一次性买断
@@ -9003,7 +9018,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（445）
+## 程序员版（446）
+
+- **[vsux](https://vsux.sphrag.com/)** — 开发者 Junexus · 开发工具 / 免费工具 · 开发中 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/vsux.html)
+  原生 Mac 轻量编辑器，按项目组织分屏终端、文件、Git 变更、常用命令与后台服务；免费、MIT 开源，支持中英文，需要 macOS 14+ 与 Apple Silicon，目前为 v0.1.2 预发布版
 
 - **[Github加速器](https://github.com/bebincas/IPOptimize)** — 开发者 bebincas · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/github-c50877.html)
   免费开源 Windows 本地工具，通过优选 IP 来加速 GitHub 和 Cloudflare CDN 网站（非 VPN）
@@ -10340,7 +10358,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（165）
+## 独立游戏（166）
+
+- **[Omoggle Game](https://omogglegame.com/)** — 开发者 omogglegame.com 团队 · 音视频 / 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/omoggle-game.html)
+  浏览器 1v1 "mog battle" 镜头对战游戏，先做一次端侧 PSL 面部评分（对称、协调、下颌、皮肤、眼角倾斜，模型在浏览器本地运行、画面不上传），再随机匹配陌生人进行 15 秒开镜头对决，观众投票定胜负并计入 ELO 天梯；基础对战、私人房间和天梯免费且无需注册，可选 VIP（$4.99/月或 $12.99 买断）提供优先队列和性别/地区筛选；实时视频匹配仅限 18 岁以上
 
 - **[萌宠出征](https://www.mcleyuan.com/cz/index.html)** — 开发者 芽朵软件 · 开发工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/project-dea432.html)
   Windows 桌面宠物割草游戏，养 16 种猫狗鸟龟躲虫群打 40 关，通关 5 关宠物住进桌面，全程离线免费无广告
