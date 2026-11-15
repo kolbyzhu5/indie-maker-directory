@@ -1,10 +1,49 @@
-# AI 独立制造所 · 全部产品清单（3616）
+# AI 独立制造所 · 全部产品清单（3632）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-14（北京时间）
+> 更新时间：2026-11-15（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3004）
+## 大众产品（3017）
+
+- **[运动营养健康指南](https://jiangweiqi001.github.io/sports-nutrition-health/search.html)** — 开发者 jiangweiqi001 · 生活服务 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/project-87ea71.html)
+  给普通成年人的中文问答网站，免费、免登录，可直接搜索 465 条关于跑步、力量训练、营养和训练健康的问题。回答优先参考权威指南、专业学会的立场声明和系统综述，每条都标注证据等级并附参考出处
+
+- **[iching.tools](https://iching.tools/zh-CN)** — 开发者 tusunsun · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/iching-tools.html)
+  在线易经占卜，水墨风界面里点屏幕逐爻掷铜钱起卦，附 64 卦与 384 爻原文解读，可免费 AI 解卦，支持简繁英日韩等 10 种语言
+
+- **[giffgaff 保号提醒工具](https://getgiffgaff.com/tools/keep-number-reminder/)** — 开发者 Nathan · 效率工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/giffgaff.html)
+  境外卡保号日历提醒工具，输入上次使用日期在浏览器本地计算第 5 个月缓冲期并导出 .ics 日历文件，防范跨国号码因逾期未用被注销；纯本地计算不收集号码，免费免注册
+
+- **[灵犀 Lyncis](https://lyncis.app)** — 开发者 Lorraine（新加坡） · 未分类 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/lyncis.html)
+  国学版 MBTI，输入生日，测出你在《周易》64 卦里的本命卦、身份名和本命神，还能拉朋友合一卦，看你们是什么组合；不算命、不断吉凶，每一句都有古籍出处，支持中英文，网页直接用
+
+- **[AIHOT](https://aihot.news/)** — 开发者 数字生命卡兹克 · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/aihot.html)
+  中文 AI 资讯网站，把模型发布、新产品、研究和行业动态整理成精选与日、周、月报，每条保留原文链接，也可以按主题跟踪进展。打开即读，无需注册
+
+- **[農民曆](https://nongminli.tw/)** — 开发者 CrabMen · 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/project-eff8bd.html)
+  面向台湾的农历、宜忌与国定假日查询网站，附资料来源；提供免费的假日行事历订阅，目前包含 2026、2027 年，无需注册即可使用
+
+- **[光梦 AlphaDrama](https://www.getalphadrama.com/)** — 开发者 Alwzc · AI 工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/alphadrama.html)
+  AI 短剧漫剧与带货视频工作台，把网文小说或商品图一键改写成 60 秒 9:16 竖屏剧本、生成角色正侧背三视图锁脸、拆解 12–18 镜分镜表，接 Seedance / 可灵 / 海螺 / Wan / Veo 批量生视频并配音压字幕导出成片；也支持粘贴爆款短视频链接按镜拆解复刻。新注册送免费体验额度
+
+- **[PixBloom](https://pixbloom.org)** — 开发者 jayyaj642111-bit · 图片工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/pixbloom.html)
+  上传一张商品实拍，一次出齐白底主图、使用场景图、材质细节图和多角度图（电商套图）；也能一句话生成小红书封面、春节海报、头像和壁纸。按张消耗积分（每张 10 积分），首单 ¥9.9 可生成 4 张，生成失败自动退回积分
+
+- **[ImgEdify](https://imgedify.com)** — 开发者 Andy Zhang · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/imgedify.html)
+  在线 AI 修图和文生图工具，可上传图片编辑或用文字生成图片，并带去背景功能
+
+- **[Secret Santa Generator](https://secretsantagenerator.xyz/)** — 开发者 Aster110 · 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/secret-santa-generator.html)
+  圣诞交换礼物（Secret Santa）在线抽签工具，3 到 200 人，可设排除名单（情侣、同住不互抽）和礼物预算，每人一个私密链接或打印纸条；免费、无需注册、不收邮箱
+
+- **[Fitness OS](https://korey2028.tech/fitness/app/?demo=1&lang=zh)** — 开发者 王天如（北京） · 未分类 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/fitness-os.html)
+  私教工作台，把会员训练、到课和跟进记在同一页，免登录即可打开演示；源自亲自服务 40+ 名健身会员的案例，不是对外售卖的 SaaS
+
+- **[热力地图工坊](https://heatmap.mavi.help/)** — 开发者 Ollivander23 · 文档办公 / 生活服务 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/project-8c924c.html)
+  小而美的Excel数据地图工坊，一键生成可下钻，可联动柱状图的动态地图。地图覆盖全国 34 个省级行政区、388 个地级市、2897 个县级行政区。支持"全国+区县级"、"xx省+区县级"组合，任意粒度任意层级，想看多细的划分，由你决定！
+
+- **[WordLinea](https://wordlinea.com/zh)** — 开发者 BukeLy · 音视频 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/wordlinea.html)
+  看剧学外语的浏览器插件（Chrome、Edge、Safari），YouTube、Netflix、B 站字幕译成两行，点字幕里的生词按这句台词给释义，词连同台词和播放到的那一秒存进词库，到期出一道题复习；所有功能免费账号都能用
 
 - **[ShortDramaKit](https://shortdramakit.com)** — 开发者 leontloveless · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/shortdramakit.html)
   短剧片单工具，在 Chrome 侧边栏保存剧目链接、标签和备注，支持 CSV 导出与 JSON 备份。本地片单免费、无需注册；受支持的联网采集和下载按任务消耗积分
@@ -4950,6 +4989,18 @@
 - **[数字生命管](https://news.lizer.cc/)** — 开发者 Lizer（重庆） · AI 工具 / 效率工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-8c8f02.html)
   抖音热搜时间轴， 一小时自动抓取一次，通过工作流全网搜关于这个事件的时间线，然后 AI 梳理，AI 配图
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Lizer（重庆） · AI 工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/ai-796a3f.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Lizer（重庆） · 开发工具 / 免费工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-ea40db.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Lizer（重庆） · 开发工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-32f4fc.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Lizer（重庆） · 浏览器扩展 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-32f97c.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[ARR (Annual Recurring Revenue) （年度经常性收入）排行榜](https://arrfounder.com)** — 开发者 北纬27度 · 未分类 · 已上线 · 收录 2025-08-25 · [详情页](https://indiemaker.cn/p/arr-annual-recurring-revenue.html)
   爬取了全网公开的 ARR 营收数据做的 founder ARR 榜单，会定期更新，感兴趣的朋友可以看看，说不定你也在这份榜单上面
 
@@ -5009,18 +5060,6 @@
 
 - **[Wplace Tool](https://wplacetool.com)** — 开发者 Ethan Sunray · 图片工具 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2025-08-13 · [详情页](https://indiemaker.cn/p/wplace-tool.html)
   基于浏览器的工具集，帮助 wplace.live 玩家设计像素艺术、匹配官方调色板颜色、监控服务器状态，并协调团队构建
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Ethan Sunray · AI 工具 · 已上线 · 收录 2025-08-13 · [详情页](https://indiemaker.cn/p/ai-f61268.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Ethan Sunray · 开发工具 / 免费工具 · 已上线 · 收录 2025-08-13 · [详情页](https://indiemaker.cn/p/project-ec6725.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Ethan Sunray · 开发工具 · 已上线 · 收录 2025-08-13 · [详情页](https://indiemaker.cn/p/project-bea315.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Ethan Sunray · 浏览器扩展 · 已上线 · 收录 2025-08-13 · [详情页](https://indiemaker.cn/p/project-bea795.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[PromptArk](https://promptark.net/)** — 开发者 jammy24 · AI 工具 · 已上线 · 收录 2025-08-12 · [详情页](https://indiemaker.cn/p/promptark.html)
   帮助用户优化提示词，用户输入简单的提示词，AI 辅助生成更结构化，更详细的提示词
@@ -9018,7 +9057,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（446）
+## 程序员版（448）
+
+- **[SourceWeft](https://sourceweft.com/zh-CN)** — 开发者 QThans · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/sourceweft.html)
+  开源 AI 工作站，多智能体、技能库、MCP 和带引用的知识库放在一起，可自托管并使用自己的模型 Key，提供 Web 端与 macOS/Windows/Linux 桌面端
+
+- **[okdata](https://okdata.online/zh/)** — 开发者 王文 · AI 工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/okdata.html)
+  给 AI 智能体和开发者用的社媒数据 API 和 MCP，覆盖抖音、小红书、公众号、视频号、B站、微博、快手、TikTok、X、YouTube 等 17 个平台约 200 个接口；按次付费，失败不扣费，新账号送 0.1 美元试用额度
 
 - **[vsux](https://vsux.sphrag.com/)** — 开发者 Junexus · 开发工具 / 免费工具 · 开发中 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/vsux.html)
   原生 Mac 轻量编辑器，按项目组织分屏终端、文件、Git 变更、常用命令与后台服务；免费、MIT 开源，支持中英文，需要 macOS 14+ 与 Apple Silicon，目前为 v0.1.2 预发布版
@@ -10358,7 +10403,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（166）
+## 独立游戏（167）
+
+- **[ROB RUN Wiki](https://www.robrun-game.com/)** — 开发者 liuzhen264 · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/rob-run-wiki.html)
+  面向《ROB RUN》玩家的免费攻略站，可以查新手入门步骤、遇到好友不在同一服务器时如何组队，以及服务器重置可能影响哪些进度。主要攻略有简体中文、繁体中文和英文版本
 
 - **[Omoggle Game](https://omogglegame.com/)** — 开发者 omogglegame.com 团队 · 音视频 / 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/omoggle-game.html)
   浏览器 1v1 "mog battle" 镜头对战游戏，先做一次端侧 PSL 面部评分（对称、协调、下颌、皮肤、眼角倾斜，模型在浏览器本地运行、画面不上传），再随机匹配陌生人进行 15 秒开镜头对决，观众投票定胜负并计入 ELO 天梯；基础对战、私人房间和天梯免费且无需注册，可选 VIP（$4.99/月或 $12.99 买断）提供优先队列和性别/地区筛选；实时视频匹配仅限 18 岁以上
