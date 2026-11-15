@@ -1,10 +1,25 @@
-# AI 独立制造所 · 全部产品清单（3632）
+# AI 独立制造所 · 全部产品清单（3639）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-11-15（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3017）
+## 大众产品（3022）
+
+- **[图小妥-证件照助手](https://photo.jimxu.cn/)** — 开发者 jimxu · 图片工具 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/project-7c6bcf.html)
+  在线证件照制作工具，面向报名、入职等场景，支持自动抠图、构图和换底，可按要求调整像素、DPI与文件大小上限，提供一寸、二寸等常用规格及自定义尺寸，支持2×4、2×5打印排版；提供网页版和微信小程序，当前免费试用，无需额外注册
+
+- **[LayerSeparator](https://layerseparator.com/)** — 开发者 Waypernix AI · 图片工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/layerseparator.html)
+  将平面图片拆分为可供后续编辑的位图图层，支持导出分层 PSD 和 PNG ZIP
+
+- **[漫迹](https://apps.apple.com/cn/app/id6827694426)** — 开发者 lxyeternal · 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/project-8e1c60.html)
+  自动足迹记录 iPhone App，不用按开始，后台全天记下走过的路和到过的地方，还能从相册点亮以前去过的城市和国家；数据只存在自己的 iCloud，免费
+
+- **[Trace](https://github.com/lxyeternal/Trace)** — 开发者 lxyeternal · 效率工具 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/trace-3b99ef.html)
+  Mac 自动时间记录工具，免费开源，不用手动计时，自动记下每个应用、窗口、文件和网页用了多久，可按标签和项目查看一天的时间线和周报；数据只存在本机，支持中英文
+
+- **[GSC Vault](https://gscvault.app/zh)** — 开发者 Quanneng BI · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/gsc-vault.html)
+  给网站站长的 Chrome 扩展，打开即用：批量对照 Search Console 官方数据，列出 Sitemap 里哪些页面没被 Google 收录以及原因，并把 GSC 数据自动备份到自己的 Google Drive，不怕超过 16 个月被删除。3 个站点以内免费
 
 - **[运动营养健康指南](https://jiangweiqi001.github.io/sports-nutrition-health/search.html)** — 开发者 jiangweiqi001 · 生活服务 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/project-87ea71.html)
   给普通成年人的中文问答网站，免费、免登录，可直接搜索 465 条关于跑步、力量训练、营养和训练健康的问题。回答优先参考权威指南、专业学会的立场声明和系统综述，每条都标注证据等级并附参考出处
@@ -4953,6 +4968,18 @@
 - **[nanobanana.co](https://nanobanana.co/)** — 开发者 Jay6343 · AI 工具 / 图片工具 / 效率工具 / 教育学习 · 已上线 · 收录 2025-09-02 · [详情页](https://indiemaker.cn/p/nanobanana-co.html)
   Nanobanana.co 是革命性的人工智能图像编辑平台，通过智能文本驱动编辑改变创意工作流程。无论您是数字艺术家，内容创作者还是营销专业人士，每次都可以零学习曲线和完美结果体验 AI 图像编辑的未来。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Jay6343 · AI 工具 · 已上线 · 收录 2025-09-02 · [详情页](https://indiemaker.cn/p/ai-f5f5df.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Jay6343 · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-02 · [详情页](https://indiemaker.cn/p/project-663df9.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Jay6343 · 开发工具 · 已上线 · 收录 2025-09-02 · [详情页](https://indiemaker.cn/p/project-b12313.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Jay6343 · 浏览器扩展 · 已上线 · 收录 2025-09-02 · [详情页](https://indiemaker.cn/p/project-b12792.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[对话翻译器](https://www.talk-translator.com)** — 开发者 JR（深圳） · AI 工具 / 音视频 · 已上线 · 收录 2025-09-01 · [详情页](https://indiemaker.cn/p/project-e9120f.html)
   将你的耳机变成实时翻译器，支持双语实时语音自动翻译、AI对话问答你的翻译记录
 
@@ -4988,18 +5015,6 @@
 
 - **[数字生命管](https://news.lizer.cc/)** — 开发者 Lizer（重庆） · AI 工具 / 效率工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-8c8f02.html)
   抖音热搜时间轴， 一小时自动抓取一次，通过工作流全网搜关于这个事件的时间线，然后 AI 梳理，AI 配图
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Lizer（重庆） · AI 工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/ai-796a3f.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Lizer（重庆） · 开发工具 / 免费工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-ea40db.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Lizer（重庆） · 开发工具 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-32f4fc.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Lizer（重庆） · 浏览器扩展 · 已上线 · 收录 2025-08-26 · [详情页](https://indiemaker.cn/p/project-32f97c.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[ARR (Annual Recurring Revenue) （年度经常性收入）排行榜](https://arrfounder.com)** — 开发者 北纬27度 · 未分类 · 已上线 · 收录 2025-08-25 · [详情页](https://indiemaker.cn/p/arr-annual-recurring-revenue.html)
   爬取了全网公开的 ARR 营收数据做的 founder ARR 榜单，会定期更新，感兴趣的朋友可以看看，说不定你也在这份榜单上面
@@ -6531,7 +6546,7 @@
 - **[MermaidHelp](https://mermaid.shizhuoran.top/)** — 开发者 没想好（北京） · AI 工具 / 免费工具 · 已上线 · 收录 2024-06-19 · [详情页](https://indiemaker.cn/p/mermaidhelp.html)
   Mermaid + AI绘制流程图，免翻墙，免费，目前用的 KIMI
 
-- **[Trace](https://github.com/yeayee/Trace)** — 开发者 Civilpy（西安） · 开发工具 / 浏览器扩展 / 社交社区 · 已停止 · 收录 2024-06-18 · [详情页](https://indiemaker.cn/p/trace.html)
+- **[Trace](https://github.com/yeayee/Trace)** — 开发者 Civilpy（西安） · 开发工具 / 浏览器扩展 / 社交社区 · 已停止 · 收录 2024-06-18 · [详情页](https://indiemaker.cn/p/trace-4b6a33.html)
   封装 QQ + 微信聊天记录分析的 Windows 桌面应用，封装 QQ + 微信聊天记录分析、B站、小红书竞调数据分析、Selenium+谷歌浏览器（准指纹浏览器，不限登录账号数量）
 
 - **[aifly.tools](https://aifly.tools/)** — 开发者 Civilpy（西安） · AI 工具 · 已上线 · 收录 2024-06-18 · [详情页](https://indiemaker.cn/p/aifly-tools.html)
@@ -9057,7 +9072,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（448）
+## 程序员版（449）
+
+- **[AimStack（三知弟弟）](https://github.com/tanxiansheng221/aimstack-sanzhidiji)** — 开发者 tanxiansheng221 · AI 工具 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/aimstack.html)
+  纯 C / 纯 stdlib 从零手写的本地 AI 全栈，含三值推理引擎、插件总线、多引擎爬虫、全文检索知识库、训练管线和 Web UI，零第三方依赖、断网可运行；2018 年 i7-7500U 无 GPU 笔记本实测可跑 BitNet 2B 模型（3.2 tok/s），AGPL-3.0 开源
 
 - **[SourceWeft](https://sourceweft.com/zh-CN)** — 开发者 QThans · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/sourceweft.html)
   开源 AI 工作站，多智能体、技能库、MCP 和带引用的知识库放在一起，可自托管并使用自己的模型 Key，提供 Web 端与 macOS/Windows/Linux 桌面端
@@ -10403,7 +10421,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（167）
+## 独立游戏（168）
+
+- **[白日梦想家 Story](https://hidaydream.com/)** — 开发者 白日梦想家 Hi Daydream · AI 工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/story.html)
+  中文互动小说，选一本故事读开场，再用自己的话写下角色的行动或对白，由 AI 续写剧情，浏览器免注册可免费试玩两回合 - 直接试玩 · 玩法介绍
 
 - **[ROB RUN Wiki](https://www.robrun-game.com/)** — 开发者 liuzhen264 · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-14 · [详情页](https://indiemaker.cn/p/rob-run-wiki.html)
   面向《ROB RUN》玩家的免费攻略站，可以查新手入门步骤、遇到好友不在同一服务器时如何组队，以及服务器重置可能影响哪些进度。主要攻略有简体中文、繁体中文和英文版本

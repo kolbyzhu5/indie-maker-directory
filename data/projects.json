@@ -4,29 +4,147 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-15T01:55:37.907Z",
+  "generatedAt": "2026-11-15T13:34:50.733Z",
   "counts": {
-    "total": 3632,
-    "main": 3017,
-    "programmer": 448,
-    "game": 167,
+    "total": 3639,
+    "main": 3022,
+    "programmer": 449,
+    "game": 168,
     "custom": 1
   },
   "categoryCounts": {
+    "图片工具": 691,
+    "免费工具": 820,
+    "效率工具": 499,
+    "浏览器扩展": 397,
     "生活服务": 112,
-    "免费工具": 814,
-    "AI 工具": 1239,
-    "效率工具": 498,
-    "浏览器扩展": 394,
+    "AI 工具": 1241,
+    "文档办公": 360,
     "音视频": 651,
-    "图片工具": 689,
-    "文档办公": 359,
     "开发工具": 723,
     "教育学习": 203,
     "游戏娱乐": 197,
     "社交社区": 136
   },
   "projects": [
+    {
+      "id": "main-20261115-jimxu-图小妥-证件照助手",
+      "edition": "main",
+      "addedAt": "2026-11-15",
+      "maker": "jimxu",
+      "city": "",
+      "makerLinks": [],
+      "name": "图小妥-证件照助手",
+      "url": "https://photo.jimxu.cn/",
+      "status": "online",
+      "description": "在线证件照制作工具，面向报名、入职等场景，支持自动抠图、构图和换底，可按要求调整像素、DPI与文件大小上限，提供一寸、二寸等常用规格及自定义尺寸，支持2×4、2×5打印排版；提供网页版和微信小程序，当前免费试用，无需额外注册",
+      "extraLinks": [
+        {
+          "label": "微信小程序码",
+          "url": "https://photo.jimxu.cn/assets/wechat-miniapp-code.jpg"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261115-waypernix-ai-layerseparator",
+      "edition": "main",
+      "addedAt": "2026-11-15",
+      "maker": "Waypernix AI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Waypernix-AI"
+        }
+      ],
+      "name": "LayerSeparator",
+      "url": "https://layerseparator.com/",
+      "status": "online",
+      "description": "将平面图片拆分为可供后续编辑的位图图层，支持导出分层 PSD 和 PNG ZIP",
+      "extraLinks": [],
+      "categories": [
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261115-lxyeternal-漫迹",
+      "edition": "main",
+      "addedAt": "2026-11-15",
+      "maker": "lxyeternal",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxyeternal"
+        }
+      ],
+      "name": "漫迹",
+      "url": "https://apps.apple.com/cn/app/id6827694426",
+      "status": "online",
+      "description": "自动足迹记录 iPhone App，不用按开始，后台全天记下走过的路和到过的地方，还能从相册点亮以前去过的城市和国家；数据只存在自己的 iCloud，免费",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/lxyeternal/PathTracker"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261115-lxyeternal-trace",
+      "edition": "main",
+      "addedAt": "2026-11-15",
+      "maker": "lxyeternal",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxyeternal"
+        }
+      ],
+      "name": "Trace",
+      "url": "https://github.com/lxyeternal/Trace",
+      "status": "online",
+      "description": "Mac 自动时间记录工具，免费开源，不用手动计时，自动记下每个应用、窗口、文件和网页用了多久，可按标签和项目查看一天的时间线和周报；数据只存在本机，支持中英文",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261115-biquanneng-gsc-vault",
+      "edition": "main",
+      "addedAt": "2026-11-15",
+      "maker": "Quanneng BI",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/biquanneng"
+        }
+      ],
+      "name": "GSC Vault",
+      "url": "https://gscvault.app/zh",
+      "status": "online",
+      "description": "给网站站长的 Chrome 扩展，打开即用：批量对照 Search Console 官方数据，列出 Sitemap 里哪些页面没被 Google 收录以及原因，并把 GSC 数据自动备份到自己的 Google Drive，不怕超过 16 个月被删除。3 个站点以内免费",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261115-jiangweiqi001-运动营养健康指南",
       "edition": "main",
@@ -69,6 +187,59 @@
       "extraLinks": [],
       "categories": [
         "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261115-tanxiansheng221-aimstack-三知弟弟",
+      "edition": "programmer",
+      "addedAt": "2026-11-15",
+      "maker": "tanxiansheng221",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tanxiansheng221"
+        }
+      ],
+      "name": "AimStack（三知弟弟）",
+      "url": "https://github.com/tanxiansheng221/aimstack-sanzhidiji",
+      "status": "online",
+      "description": "纯 C / 纯 stdlib 从零手写的本地 AI 全栈，含三值推理引擎、插件总线、多引擎爬虫、全文检索知识库、训练管线和 Web UI，零第三方依赖、断网可运行；2018 年 i7-7500U 无 GPU 笔记本实测可跑 BitNet 2B 模型（3.2 tok/s），AGPL-3.0 开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261115-白日梦想家-hi-daydream-白日梦想家-story",
+      "edition": "game",
+      "addedAt": "2026-11-15",
+      "maker": "白日梦想家 Hi Daydream",
+      "city": "",
+      "makerLinks": [],
+      "name": "白日梦想家 Story",
+      "url": "https://hidaydream.com/",
+      "status": "online",
+      "description": "中文互动小说，选一本故事读开场，再用自己的话写下角色的行动或对白，由 AI 续写剧情，浏览器免注册可免费试玩两回合 - [直接试玩](https://hidaydream.com/demo) · [玩法介绍](https://hidaydream.com/story/about)",
+      "extraLinks": [
+        {
+          "label": "直接试玩",
+          "url": "https://hidaydream.com/demo"
+        },
+        {
+          "label": "玩法介绍",
+          "url": "https://hidaydream.com/story/about"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "浏览器扩展",
         "免费工具"
       ],
       "source": "upstream"
@@ -48800,6 +48971,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250902-jay6343-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-09-02",
+      "maker": "Jay6343",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jay6343"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250902-jay6343-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-09-02",
+      "maker": "Jay6343",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jay6343"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250902-jay6343-独立星球",
+      "edition": "main",
+      "addedAt": "2025-09-02",
+      "maker": "Jay6343",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jay6343"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250902-jay6343-独立观察",
+      "edition": "main",
+      "addedAt": "2025-09-02",
+      "maker": "Jay6343",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Jay6343"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250901-jr-对话翻译器",
       "edition": "main",
       "addedAt": "2025-09-01",
@@ -49083,115 +49363,6 @@
       "categories": [
         "AI 工具",
         "效率工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250826-loverz55-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-08-26",
-      "maker": "Lizer",
-      "city": "重庆",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Loverz55"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250826-loverz55-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-08-26",
-      "maker": "Lizer",
-      "city": "重庆",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Loverz55"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250826-loverz55-独立星球",
-      "edition": "main",
-      "addedAt": "2025-08-26",
-      "maker": "Lizer",
-      "city": "重庆",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Loverz55"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250826-loverz55-独立观察",
-      "edition": "main",
-      "addedAt": "2025-08-26",
-      "maker": "Lizer",
-      "city": "重庆",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Loverz55"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

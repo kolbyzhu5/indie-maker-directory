@@ -15194,5 +15194,49 @@
  "programmer-20261114-conn-ho-okdata": {
   "descEn": "Social media data API and MCP for AI agents and developers, covering approximately 200 interfaces on 17 platforms including Douyin, Xiaohongshu, official accounts, video accounts, Bilibili, Weibo, Kuaishou, TikTok,",
   "at": "2026-11-15"
+ },
+ "main-20261115-jimxu-图小妥-证件照助手": {
+  "descEn": "The online ID photo production tool is designed for registration, employment and other scenarios. It supports automatic cutout, composition and background change. It can adjust the pixels, DPI and file size limit as required. It provides common specifications such as one inch and two inches as well as custom sizes. It supports 2×4 and 2×5 printing and typesetting. It provides a web version and a WeChat Mini Program. It is currently available for free trial without additional registration.",
+  "at": "2026-11-15"
+ },
+ "main-20261115-waypernix-ai-layerseparator": {
+  "descEn": "Split flat images into bitmap layers for subsequent editing, support exporting layered PSD and PNG ZIP",
+  "at": "2026-11-15"
+ },
+ "main-20261115-lxyeternal-漫迹": {
+  "descEn": "Automatic footprint recording iPhone App, no need to press start, the background records the roads and places visited all day long, and can also highlight the cities and countries visited before from the photo album; the data is only stored in your own iCloud, free of charge",
+  "at": "2026-11-15"
+ },
+ "main-20261115-lxyeternal-trace": {
+  "descEn": "Mac automatic time recording tool, free and open source, no need to manually time the time, automatically record how long each application, window, file and web page was used, you can view the daily timeline and weekly report by tags and projects; the data only exists on the local machine, supports Chinese and English",
+  "at": "2026-11-15"
+ },
+ "main-20261115-biquanneng-gsc-vault": {
+  "descEn": "Chrome extension for webmasters, ready to use: compare Search Console official data in batches, list which pages in the Sitemap are not included by Google and the reasons, and automatically back up the GSC data to your own Google Drive, without fear of deletion for more than 16 months. Free for up to 3 sites",
+  "at": "2026-11-15"
+ },
+ "programmer-20261115-tanxiansheng221-aimstack-三知弟弟": {
+  "descEn": "Pure C/pure stdlib handwritten local AI full stack from scratch, including ternary inference engine, plug-in bus, multi-engine crawler, full-text search knowledge base, training pipeline and Web UI, zero third-party dependencies, and can be run when disconnected from the network; in 2018, i7-7500U without GPU notebook can run the BitNet 2B model (3.2 tok/s), AGPL-3.0 open source",
+  "at": "2026-11-15"
+ },
+ "game-20261115-白日梦想家-hi-daydream-白日梦想家-story": {
+  "descEn": "Chinese interactive novel, choose a story and read the opening, then write the character's actions or dialogue in your own words, and AI will continue to write the plot. You can try it for two rounds for free without registering in the browser - [Direct trial](https://hidaydream.com/demo) · [How to play](https://hidaydream.com/story/about)",
+  "at": "2026-11-15"
+ },
+ "main-20250902-jay6343-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-15"
+ },
+ "main-20250902-jay6343-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-15"
+ },
+ "main-20250902-jay6343-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-15"
+ },
+ "main-20250902-jay6343-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-15"
  }
 }

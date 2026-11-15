@@ -369,8 +369,15 @@
   <url><loc>https://indiemaker.cn/en/c/uncategorized/9.html</loc><lastmod>2026-11-15</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/uncategorized/10.html</loc><lastmod>2026-11-15</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
   <url><loc>https://indiemaker.cn/en/c/uncategorized/11.html</loc><lastmod>2026-11-15</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/project-7c6bcf.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/layerseparator.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/project-8e1c60.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/trace-3b99ef.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/gsc-vault.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/project-87ea71.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/iching-tools.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/aimstack.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/story.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/giffgaff.html</loc><lastmod>2026-11-14</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/lyncis.html</loc><lastmod>2026-11-14</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/aihot.html</loc><lastmod>2026-11-14</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
@@ -2422,6 +2429,10 @@
   <url><loc>https://indiemaker.cn/en/p/effectmidi.html</loc><lastmod>2025-09-04</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/project-d299f0.html</loc><lastmod>2025-09-03</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/nanobanana-co.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/ai-f5f5df.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/project-663df9.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/project-b12313.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/project-b12792.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/project-e9120f.html</loc><lastmod>2025-09-01</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/nano-banana-ai-58ef4e.html</loc><lastmod>2025-09-01</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/launchitx.html</loc><lastmod>2025-09-01</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
@@ -2435,10 +2446,6 @@
   <url><loc>https://indiemaker.cn/en/p/ezwebp.html</loc><lastmod>2025-08-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/timeguessr.html</loc><lastmod>2025-08-27</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/project-8c8f02.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://indiemaker.cn/en/p/ai-796a3f.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://indiemaker.cn/en/p/project-ea40db.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://indiemaker.cn/en/p/project-32f4fc.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://indiemaker.cn/en/p/project-32f97c.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/arr-annual-recurring-revenue.html</loc><lastmod>2025-08-25</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/ai-short-video-factory.html</loc><lastmod>2025-08-25</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/image-splitter-416cc6.html</loc><lastmod>2025-08-25</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
@@ -3023,7 +3030,7 @@
   <url><loc>https://indiemaker.cn/en/p/dubbo-desktop-manager.html</loc><lastmod>2024-06-20</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/project-4c25a2.html</loc><lastmod>2024-06-19</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/mermaidhelp.html</loc><lastmod>2024-06-19</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://indiemaker.cn/en/p/trace.html</loc><lastmod>2024-06-18</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/en/p/trace-4b6a33.html</loc><lastmod>2024-06-18</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/aifly-tools.html</loc><lastmod>2024-06-18</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/project-0b919c.html</loc><lastmod>2024-06-17</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/en/p/html2image.html</loc><lastmod>2024-06-14</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
@@ -4118,8 +4125,15 @@
   <url><loc>https://indiemaker.cn/c/uncategorized/9.html</loc><lastmod>2026-11-15</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/uncategorized/10.html</loc><lastmod>2026-11-15</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://indiemaker.cn/c/uncategorized/11.html</loc><lastmod>2026-11-15</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
+  <url><loc>https://indiemaker.cn/p/project-7c6bcf.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/layerseparator.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/project-8e1c60.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/trace-3b99ef.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/gsc-vault.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/project-87ea71.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/iching-tools.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/aimstack.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/story.html</loc><lastmod>2026-11-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/giffgaff.html</loc><lastmod>2026-11-14</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/lyncis.html</loc><lastmod>2026-11-14</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/aihot.html</loc><lastmod>2026-11-14</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -6171,6 +6185,10 @@
   <url><loc>https://indiemaker.cn/p/effectmidi.html</loc><lastmod>2025-09-04</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/project-d299f0.html</loc><lastmod>2025-09-03</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/nanobanana-co.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/ai-f5f5df.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/project-663df9.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/project-b12313.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/project-b12792.html</loc><lastmod>2025-09-02</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/project-e9120f.html</loc><lastmod>2025-09-01</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/nano-banana-ai-58ef4e.html</loc><lastmod>2025-09-01</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/launchitx.html</loc><lastmod>2025-09-01</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -6184,10 +6202,6 @@
   <url><loc>https://indiemaker.cn/p/ezwebp.html</loc><lastmod>2025-08-27</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/timeguessr.html</loc><lastmod>2025-08-27</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/project-8c8f02.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://indiemaker.cn/p/ai-796a3f.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://indiemaker.cn/p/project-ea40db.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://indiemaker.cn/p/project-32f4fc.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://indiemaker.cn/p/project-32f97c.html</loc><lastmod>2025-08-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/arr-annual-recurring-revenue.html</loc><lastmod>2025-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/ai-short-video-factory.html</loc><lastmod>2025-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/image-splitter-416cc6.html</loc><lastmod>2025-08-25</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -6772,7 +6786,7 @@
   <url><loc>https://indiemaker.cn/p/dubbo-desktop-manager.html</loc><lastmod>2024-06-20</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/project-4c25a2.html</loc><lastmod>2024-06-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/mermaidhelp.html</loc><lastmod>2024-06-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://indiemaker.cn/p/trace.html</loc><lastmod>2024-06-18</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://indiemaker.cn/p/trace-4b6a33.html</loc><lastmod>2024-06-18</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/aifly-tools.html</loc><lastmod>2024-06-18</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/project-0b919c.html</loc><lastmod>2024-06-17</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://indiemaker.cn/p/html2image.html</loc><lastmod>2024-06-14</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
