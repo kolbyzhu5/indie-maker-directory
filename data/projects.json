@@ -4,29 +4,72 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-15T13:34:50.733Z",
+  "generatedAt": "2026-11-16T02:07:45.322Z",
   "counts": {
-    "total": 3639,
-    "main": 3022,
+    "total": 3641,
+    "main": 3024,
     "programmer": 449,
     "game": 168,
     "custom": 1
   },
   "categoryCounts": {
-    "图片工具": 691,
-    "免费工具": 820,
-    "效率工具": 499,
+    "图片工具": 692,
+    "音视频": 653,
+    "免费工具": 821,
+    "AI 工具": 1242,
+    "效率工具": 500,
     "浏览器扩展": 397,
     "生活服务": 112,
-    "AI 工具": 1241,
     "文档办公": 360,
-    "音视频": 651,
     "开发工具": 723,
     "教育学习": 203,
     "游戏娱乐": 197,
     "社交社区": 136
   },
   "projects": [
+    {
+      "id": "main-20261116-ljxyaly-giflance",
+      "edition": "main",
+      "addedAt": "2026-11-16",
+      "maker": "ljxyaly",
+      "city": "深圳",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ljxyaly"
+        }
+      ],
+      "name": "GIFLance",
+      "url": "https://www.giflance.com",
+      "status": "online",
+      "description": "免费在线GIF转换器 —— 裁剪、压缩、视频转GIF、图片转GIF",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261115-yeefyisok-aiclipmaker-org",
+      "edition": "main",
+      "addedAt": "2026-11-15",
+      "maker": "YeefyisOK",
+      "city": "",
+      "makerLinks": [],
+      "name": "AIClipMaker.org",
+      "url": "https://aiclipmaker.org",
+      "status": "online",
+      "description": "AI 视频切片工具，把播客、直播、访谈等长视频按你选的时间段切成 15–90 秒的片段，每次最多 10 段，用 AI 人脸跟踪重新构图成 9:16 竖屏，让说话的人始终在画面里，导出 720×1280 MP4，可直接发 TikTok、Reels 和 YouTube Shorts",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261115-jimxu-图小妥-证件照助手",
       "edition": "main",
@@ -20316,7 +20359,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261115-0",
+      "id": "custom-20261116-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",

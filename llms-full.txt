@@ -1,10 +1,16 @@
-# AI 独立制造所 · 全部产品清单（3639）
+# AI 独立制造所 · 全部产品清单（3641）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-15（北京时间）
+> 更新时间：2026-11-16（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3022）
+## 大众产品（3024）
+
+- **[GIFLance](https://www.giflance.com)** — 开发者 ljxyaly（深圳） · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-16 · [详情页](https://indiemaker.cn/p/giflance.html)
+  免费在线GIF转换器 —— 裁剪、压缩、视频转GIF、图片转GIF
+
+- **[AIClipMaker.org](https://aiclipmaker.org)** — 开发者 YeefyisOK · AI 工具 / 音视频 / 效率工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/aiclipmaker-org.html)
+  AI 视频切片工具，把播客、直播、访谈等长视频按你选的时间段切成 15–90 秒的片段，每次最多 10 段，用 AI 人脸跟踪重新构图成 9:16 竖屏，让说话的人始终在画面里，导出 720×1280 MP4，可直接发 TikTok、Reels 和 YouTube Shorts
 
 - **[图小妥-证件照助手](https://photo.jimxu.cn/)** — 开发者 jimxu · 图片工具 / 免费工具 · 已上线 · 收录 2026-11-15 · [详情页](https://indiemaker.cn/p/project-7c6bcf.html)
   在线证件照制作工具，面向报名、入职等场景，支持自动抠图、构图和换底，可按要求调整像素、DPI与文件大小上限，提供一寸、二寸等常用规格及自定义尺寸，支持2×4、2×5打印排版；提供网页版和微信小程序，当前免费试用，无需额外注册
