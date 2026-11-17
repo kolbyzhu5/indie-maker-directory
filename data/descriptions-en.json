@@ -15250,5 +15250,89 @@
  "custom-20261116-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-11-16"
+ },
+ "main-20261116-zxcholmes-english-dialogue": {
+  "descEn": "Immersive English learning website (free), providing 600+ real-life scenarios, 3,300+ conversation courses and 2,800+ high-frequency vocabulary, supporting Chinese-English bilingual comparison, AI speaking scoring, listening, speaking, reading and writing interactive exercises and spaced repetition review, no registration required",
+  "at": "2026-11-17"
+ },
+ "custom-20261117-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-17"
+ },
+ "main-20250907-prompt-2-tool-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-17"
+ },
+ "main-20250907-prompt-2-tool-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-17"
+ },
+ "main-20250907-prompt-2-tool-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-17"
+ },
+ "main-20250907-prompt-2-tool-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-17"
+ },
+ "main-20261117-jonathanowentj-资料星球": {
+  "descEn": "Navigation of Chinese learning and creation materials, search for materials by topics such as language learning, AI, content creation, etc., first preview the catalog, then jump to Quark Network Disk to get it for free, no registration required to browse",
+  "at": "2026-11-17"
+ },
+ "main-20261117-chilayt-bazi-diff": {
+  "descEn": "A registration-free four-column and horoscope calculation website. You can only remember the approximate birth time. You can also compare five layout settings by time period to see which columns are consistent and which ones may change. The birth data is calculated in the browser.",
+  "at": "2026-11-17"
+ },
+ "main-20261117-blynkai-telo": {
+  "descEn": "The AI ​​health assistant on iPhone and Apple Watch puts sleep, exercise and heart rate variability in Apple Health together, making it easy to check daily status and record health events with voice, photos or text.",
+  "at": "2026-11-17"
+ },
+ "programmer-20261117-vbarter-dsplugin-app": {
+  "descEn": "DeepSeek Harness community plug-in directory, you can filter by source and manifest status, view GitHub data and installation commands, you can also publish and automatically discover the dsh-plugin repository - [Source code](https://github.com/vbarter/dsh-plugin-registry)",
+  "at": "2026-11-17"
+ },
+ "programmer-20261117-arron-byte-同事ai-订单台账核查技能": {
+  "descEn": "This machine checks the duplicate numbers, abnormal amounts and refund status of CSV and XLSX order tables, and generates exception lists and HTML reports that can be traced back to the source row. Alipay ¥19.90 one-time buyout",
+  "at": "2026-11-17"
+ },
+ "game-20261117-elunvi-games-elunvi-games": {
+  "descEn": "A free web game platform that collects 69 independent games and AI-assisted creative works. You can play them by opening the browser. Each game lists the operation method, supported equipment and game language, and can be filtered by gameplay classification.",
+  "at": "2026-11-17"
+ },
+ "main-20261116-老钱-52出海": {
+  "descEn": "Navigation of affiliate marketing and overseas tools, classified by alliance platform, VPS, domain name website building, AI tools, fingerprint browser, virtual card and payment collection, each category comes with in-site Chinese tutorials, free and no registration required",
+  "at": "2026-11-17"
+ },
+ "main-20261116-lwjuolpenncjbs-humanpen": {
+  "descEn": "AI document processing and translation platform supports document translation in 12 languages ​​(PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT retains the original layout), DOCX/PPTX/TXT document-level polishing (Humanize), DOCX streamlining and citation format correction, and you will receive 100 points upon registration (commercial service billed based on points)",
+  "at": "2026-11-17"
+ },
+ "main-20261116-meekr-拾页-shiye": {
+  "descEn": "K12 parent-child learning tool, enter knowledge points and generate a one-page interactive learning handbook with one click",
+  "at": "2026-11-17"
+ },
+ "main-20261116-listone075-sys-toolcraft": {
+  "descEn": "50 file tools such as PDF to JPG, image compression, and PDF merging are all processed in the browser - no files are uploaded, no login required, unlimited times, and can be used even if the network is disconnected after being installed as a PWA",
+  "at": "2026-11-17"
+ },
+ "main-20261116-robin2027-face-rate": {
+  "descEn": "Facial symmetry test, using facial key points to compare the left and right sides and giving proportion data. The analysis is completed locally in the browser. The pictures are deleted within 2 hours. The results are for entertainment reference only.",
+  "at": "2026-11-17"
+ },
+ "main-20261116-arron-byte-同事ai-订单-csv-自查": {
+  "descEn": "Free order form self-checking tool, find duplicate or blank order numbers and blank amounts in the browser, and export an exception list with original table line numbers, no registration required",
+  "at": "2026-11-17"
+ },
+ "main-20261116-dohooo-iforgot": {
+  "descEn": "The Likes and Collections Sync App synchronizes the likes and collections of posts in Xiaohongshu and Douyin into one place, and the previously saved posts will also be added; after authorization once, AI such as Claude and ChatGPT can recommend food and entertainment based on the things you have collected. Currently, it is only available for iPhone.",
+  "at": "2026-11-17"
+ },
+ "main-20261116-todanley-srt-字幕检查器": {
+  "descEn": "Proofread SRT subtitles in the browser, check line length and reading speed, and convert between Simplified and Traditional Chinese. The file will be kept locally and not uploaded.",
+  "at": "2026-11-17"
+ },
+ "main-20261116-todanley-app-上架字数统计": {
+  "descEn": "Count the word count of the copy on the shelves according to the official field limits of App Store / Google Play, including keyword checking. The copy will be left in the browser and not uploaded.",
+  "at": "2026-11-17"
  }
 }
