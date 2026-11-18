@@ -1,10 +1,34 @@
-# AI 独立制造所 · 全部产品清单（3668）
+# AI 独立制造所 · 全部产品清单（3678）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
 > 更新时间：2026-11-18（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3045）
+## 大众产品（3054）
+
+- **[Viral Video AI](https://viralvideoai.ai/)** — 开发者 Viral Video AI 团队 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/viral-video-ai.html)
+  网页版短视频生成工具，上传自己的照片套用热门模板，或粘贴公开的 TikTok、YouTube、Instagram 视频链接作为参考，省去手动下载和重传；生成前可查看积分消耗，生成需要 Google 登录和付费积分
+
+- **[Ruxget 拾影](https://hidaydream.cloud/ruxget/?utm_source=github_cn_independent)** — 开发者 白日梦想家 Hi Daydream · 音视频 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/ruxget.html)
+  Windows 下载器与浏览器插件，桌面版可保存 YouTube 视频，插件可保存 B站等受支持平台的视频
+
+- **[Tapaste](https://hidaydream.cloud/tapaste/?utm_source=github_cn_independent)** — 开发者 白日梦想家 Hi Daydream · 图片工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/tapaste.html)
+  手机和电脑在同一 Wi-Fi 下双向发送照片、文件和文字，手机扫码打开网页
+
+- **[Lightable](https://hidaydream.cloud/lightable/?utm_source=github_cn_independent)** — 开发者 白日梦想家 Hi Daydream · 图片工具 / 开发工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/lightable.html)
+  Windows 看图软件，支持浏览常见 RAW 照片、打星选片和全屏放幻灯片
+
+- **[Leafable](https://hidaydream.cloud/leafable/?utm_source=github_cn_independent)** — 开发者 白日梦想家 Hi Daydream · 文档办公 / 开发工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/leafable.html)
+  在 Windows 本地查看、合并和压缩 PDF，可以拖动缩略图调整页序
+
+- **[Twinline](https://hidaydream.cloud/twinline/?utm_source=github_cn_independent)** — 开发者 白日梦想家 Hi Daydream · 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/twinline.html)
+  在电脑 Chrome 中给已有字幕的 YouTube 视频加一行中文译文，也可逐段翻译网页
+
+- **[ClassyGit](https://classygit.dev)** — 开发者 小学后生（杭州） · 开发工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/classygit.html)
+  基于 GitHub 的个人主页与博客网站，将公开数据渲染成 System 6、8-bit、Windows 98、DOS 四套复古主题；输入任意公开用户名即可看效果，不用部署、不用注册、不用服务器
+
+- **[Angry Dance](https://angrydance.com/zh)** — 开发者 Nathan · AI 工具 / 图片工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/angry-dance.html)
+  单张照片生成 AI 跳舞与整活竖屏视频的网站，无需剪辑经验或写英文提示词，上传人像、猫狗或爱车照片即可直出 9:16 无水印成片（内置愤怒之舞、狗狗跳舞、小狗大战美容师、微缩工人洗车等 23 款特效，复杂场景自动串联两步定帧与运镜）；支持中英文，采用一次性积分包计费免包月订阅，生成失败自动退还积分 - 英文版 · 开源提示词配方库
 
 - **[动动乐园](https://dongdongpark.com)** — 开发者 zerosoul · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/project-8315a2.html)
   儿童体感运动游戏网站，用电脑自带摄像头就能玩，孩子跳、蹲、挥手，游戏跟着动；111 个游戏覆盖 3～18 岁，支持双人对战和班级轮流，适合室内体育课和雨天大课间；不用手柄不用安装，画面只在本机识别不上传，可以免费玩（另有可选会员）
@@ -17,6 +41,9 @@
 
 - **[Humanize Ink](https://humanizeink.com)** — 开发者 David Yang · AI 工具 / 文档办公 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/humanize-ink.html)
   免费的 AI 文本改写工具，把英文草稿改写成自然、专业或随意三种语气，左右对照；单次最多 1200 词，无需注册，完全免费
+
+- **[CEOFans](https://www.ceofans.com)** — 开发者 CEOFans 团队 · AI 工具 / 效率工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/ceofans.html)
+  面向一人公司和小微团队的 AI 数字员工协作平台，支持任务分派、成果审核及企业知识沉淀
 
 - **[叮当小宝CS](https://dingdang.asia/?ch=cnindie)** — 开发者 22109906 · AI 工具 / 图片工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/cs.html)
   给中小电商卖家的 Windows AI 客服助手，支持千牛（淘宝/天猫）、拼多多、京东、抖店、快手、小红书、微信、闲鱼 8 个平台自动回复；买家发图片能识别，可设为「人工检查后发送」，知识库保存在本机不上云；注册免费，每天 30 条 AI 接待额度
@@ -1287,7 +1314,7 @@
 - **[Translate Picture](https://translate-picture.com/)** — 开发者 zeroXu1 · 图片工具 / 浏览器扩展 · 已上线 · 收录 2026-10-12 · [详情页](https://indiemaker.cn/p/translate-picture.html)
   图片文字翻译工具，上传产品图并选择目标语言，即可生成文字被替换掉的新图，用来做产品图的本地化 — 支持 JPG / PNG / WebP，单张最大 8 MB，结果图长边约 1000 ~ 1900 像素；每个网络每天限 8 张，处理在浏览器标签页内完成，刷新即清除
 
-- **[Beav](https://github.com/Jamailar/Beav)** — 开发者 Jamailar · AI 工具 · 已上线 · 收录 2026-10-11 · [详情页](https://indiemaker.cn/p/beav.html)
+- **[Beav](https://beav.pro/)** — 开发者 Jamailar · AI 工具 · 已上线 · 收录 2026-10-11 · [详情页](https://indiemaker.cn/p/beav.html)
   为不同社媒账号分别整理素材、稿件和长期偏好，让 AI 检索引用资料并辅助写稿；复用带文字变量和参考图的模板，为小红书等平台制作不同选题的图文 — 本地优先 AI 社媒工作台，素材库定位类似面向社媒和 AI 的 Eagle
 
 - **[AI Burning Bridges](https://aiburningbridges.app)** — 开发者 ouy35521-beep · AI 工具 / 图片工具 / 音视频 / 浏览器扩展 · 已上线 · 收录 2026-10-11 · [详情页](https://indiemaker.cn/p/ai-burning-bridges.html)
@@ -4920,6 +4947,18 @@
 - **[NanoEditor](https://nanoeditor.app/)** — 开发者 NINGSHIQI（深圳） · AI 工具 / 图片工具 · 已上线 · 收录 2025-09-19 · [详情页](https://indiemaker.cn/p/nanoeditor.html)
   对话式 AI 生图平台
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 NINGSHIQI（深圳） · AI 工具 · 已上线 · 收录 2025-09-19 · [详情页](https://indiemaker.cn/p/ai-257334.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 NINGSHIQI（深圳） · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-19 · [详情页](https://indiemaker.cn/p/project-3280a1.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 NINGSHIQI（深圳） · 开发工具 · 已上线 · 收录 2025-09-19 · [详情页](https://indiemaker.cn/p/project-75b689.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 NINGSHIQI（深圳） · 浏览器扩展 · 已上线 · 收录 2025-09-19 · [详情页](https://indiemaker.cn/p/project-75bb09.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[JSON Translator](https://jsontrans.fun)** — 开发者 Red · AI 工具 / 开发工具 · 已上线 · 收录 2025-09-17 · [详情页](https://indiemaker.cn/p/json-translator-d09785.html)
   国际化（i18n）翻译工具（为前端开发者打造），上传 json 文件，通过 AI（支持 DeepSeek、Gemini、OpenAI、Anthropic）翻译后直接导出 json，支持 70+ 个国家语言，助力产品出海
 
@@ -4970,18 +5009,6 @@
 
 - **[AIToolsss](https://www.aitoolsss.com/)** — 开发者 Carys · AI 工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/aitoolsss.html)
   AI 工具导航，收录全球 AI 产品与应用
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Carys · AI 工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/ai-fec1bc.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Carys · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/project-5bce8f.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Carys · 开发工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/project-a77fdc.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Carys · 浏览器扩展 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/project-a7845c.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Proxied Web from URL](https://web.818233.xyz)** — 开发者 yvonuk · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-10 · [详情页](https://indiemaker.cn/p/proxied-web-from-url.html)
   代理服务器，完全免费，把任何网址放在 https://web.818233.xyz/ 后面，这个新的网址就可以作为代理服务器获取原网站的内容，目前只支持内容获取，不支持网站交互操作。
@@ -9141,7 +9168,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（452）
+## 程序员版（453）
+
+- **[HiAPI](https://hiapi.ai/?utm_source=github&utm_medium=awesome-list&utm_campaign=bf26&utm_content=chinese-independent-developer)** — 开发者 HiAPI 开发团队 · AI 工具 / 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/hiapi.html)
+  多模型 AI API 平台，同一个 Key 按量调用图片、视频、音频和文本模型（GPT Image、Seedance、Kling、Veo、DeepSeek、Claude、Grok、Qwen 等）；文本走 OpenAI 兼容的 Responses 与 Chat Completions，媒体生成走异步任务接口（提交任务拿 ID、轮询取结果）；按美元计费、单价公开，任务失败自动退款，注册送 200 积分（2,000 积分 = $1），需要用代码调用
 
 - **[Lastout](https://lastout.dev)** — 开发者 Xiang-Suc · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/lastout.html)
   macOS 终端输出工具。在任何 App 里按 ⌃⌥⌘C，把上一条终端命令的输出整理好复制出来，直接粘给 AI：长日志只留开头、报错附近和结尾，识别到的密钥先打码，还在跑的 dev server 也能复制；另带 lo 命令行和只读 MCP。闭源，14 天免费试用，之后 29 美元买断

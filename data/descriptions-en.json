@@ -15398,5 +15398,61 @@
  "custom-20261118-3": {
   "descEn": "Free AI text rewriting tool, rewrite English drafts into three tones: natural, professional or casual, with left and right contrast; up to 1,200 words at a time, no registration required, completely free",
   "at": "2026-11-18"
+ },
+ "main-20261118-viral-video-ai-团队-viral-video-ai": {
+  "descEn": "Web version of short video generation tool, upload your own photos and apply popular templates, or paste public TikTok, YouTube, Instagram video links as reference, eliminating the need for manual downloading and re-uploading; you can check the points consumption before generation, and generation requires Google login and paid points",
+  "at": "2026-11-18"
+ },
+ "main-20261118-白日梦想家-hi-daydream-ruxget-拾影": {
+  "descEn": "Windows downloader and browser plug-in, the desktop version can save YouTube videos, and the plug-in can save videos from supported platforms such as Bilibili",
+  "at": "2026-11-18"
+ },
+ "main-20261118-白日梦想家-hi-daydream-tapaste": {
+  "descEn": "The mobile phone and computer can send photos, files and text in both directions under the same Wi-Fi, and the mobile phone can scan the QR code to open the web page.",
+  "at": "2026-11-18"
+ },
+ "main-20261118-白日梦想家-hi-daydream-lightable": {
+  "descEn": "Windows picture viewing software, supports browsing common RAW photos, selecting photos by stars and playing full-screen slideshows",
+  "at": "2026-11-18"
+ },
+ "main-20261118-白日梦想家-hi-daydream-leafable": {
+  "descEn": "View, merge and compress PDFs natively in Windows, and drag thumbnails to adjust page order",
+  "at": "2026-11-18"
+ },
+ "main-20261118-白日梦想家-hi-daydream-twinline": {
+  "descEn": "Add a line of Chinese translation to a YouTube video that already has subtitles in Chrome on your computer, or translate web pages segment by segment",
+  "at": "2026-11-18"
+ },
+ "main-20261118-dnevend-classygit": {
+  "descEn": "Based on GitHub's personal homepage and blog website, public data is rendered into four sets of retro themes: System 6, 8-bit, Windows 98, and DOS; enter any public username to see the effect, no deployment, no registration, no server required",
+  "at": "2026-11-18"
+ },
+ "main-20261118-siuserxiaowei-angry-dance": {
+  "descEn": "A website that generates AI dancing and live vertical videos from a single photo. No editing experience or English prompts are required. Upload portraits, cats, dogs, or car photos to produce 9:16 videos without watermarks (built-in 23 special effects such as Angry Dance, Dog Dancing, Puppy vs. Beautician, Miniature Worker Car Wash, etc., and complex scenes automatically connect two-step framing and camera movement); supports Chinese and English, uses a one-time point package to charge for free monthly subscription, and points are automatically refunded if the generation fails - [English version](https://angrydance.com) · [Open source prompt word recipe library](https://github.com/siuserxiaowei/ai-photo-to-video-prompt-recipes)",
+  "at": "2026-11-18"
+ },
+ "programmer-20261118-hiapiai-hiapi": {
+  "descEn": "Multi-model AI API platform, the same Key can call image, video, audio and text models (GPT Image, Seedance, Kling, Veo, DeepSeek, Claude, Grok, Qwen, etc.) on a volume basis; text uses OpenAI compatible Responses and Chat Completions, and media generation uses an asynchronous task interface (submit the task to get the ID, poll to get the result); billed in US dollars, the unit price is disclosed, automatic refunds for task failure, registration will give you 200 points (2,000) Points = $1), need to be called with code",
+  "at": "2026-11-18"
+ },
+ "custom-20261118-4": {
+  "descEn": "An AI digital employee collaboration platform for one-person companies and small and micro teams, supporting task assignment, results review, and corporate knowledge accumulation",
+  "at": "2026-11-18"
+ },
+ "main-20250919-ningshiqi-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-18"
+ },
+ "main-20250919-ningshiqi-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-18"
+ },
+ "main-20250919-ningshiqi-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-18"
+ },
+ "main-20250919-ningshiqi-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-18"
  }
 }
