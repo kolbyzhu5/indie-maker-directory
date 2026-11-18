@@ -30,6 +30,16 @@
       "status": "online",
       "categories": ["AI 工具", "开发工具"],
       "addedAt": "2026-11-18"
+    },
+    {
+      "name": "Humanize Ink",
+      "url": "https://humanizeink.com",
+      "description": "免费的 AI 文本改写工具，把英文草稿改写成自然、专业或随意三种语气，左右对照；单次最多 1200 词，无需注册，完全免费",
+      "maker": "David Yang",
+      "city": "",
+      "status": "online",
+      "categories": ["AI 工具", "文档办公"],
+      "addedAt": "2026-11-18"
     }
   ]
 }
