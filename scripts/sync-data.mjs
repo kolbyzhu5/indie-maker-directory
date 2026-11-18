@@ -225,8 +225,10 @@ async function loadCustomProjects() {
 // 归一化人工收录条目 → 统一 project 格式
 function normalizeCustomProject(item, index) {
   const today = beijingDate();
+  // ⚠️ id 必须用 addedAt 而非 today：id 是 slug 冲突时的 hash 来源，today 每天变会让
+  // 名字撞车的产品（如 base="ai"/"project"）slug 每天漂移、旧链接天天 404。addedAt 一旦显式填写即稳定。
   return {
-    id: `custom-${today.replaceAll("-", "")}-${index}`,
+    id: `custom-${(item.addedAt || today).replaceAll("-", "")}-${index}`,
     edition: item.edition || "main",
     addedAt: item.addedAt || today,
     maker: item.maker || "未知开发者",
