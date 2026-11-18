@@ -10,6 +10,16 @@
       "status": "online",
       "categories": ["AI 工具", "音视频", "效率工具"],
       "addedAt": "2026-08-29"
+    },
+    {
+      "name": "小剧匠AI漫剧系统",
+      "url": "https://xiaojujiangai.cn",
+      "description": "一站式 AI 漫剧创作工坊，从 AI 剧本、智能分镜、角色锁定到图像视频生成、配音剪辑、成片导出全流程装进浏览器，主角不换脸",
+      "maker": "陈生",
+      "city": "",
+      "status": "online",
+      "categories": ["音视频", "AI 工具"],
+      "addedAt": "2026-11-18"
     }
   ]
 }
