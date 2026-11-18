@@ -114,6 +114,7 @@ npm test
 - 上游清单：[`1c7/chinese-independent-developer`](https://github.com/1c7/chinese-independent-developer)（感谢维护者的持续更新）
 - 本项目每天自动同步上游，不手动干预
 - 收录标准、项目状态标记（🕗 开发中 / ✅ 已上线 / ❌ 已关闭）遵循上游规则
+- 英文详情页如需链接到同一产品的英文入口，可在 `data/english-urls.json` 中按同步项目 ID 配置同源 HTTPS 网址。无配置或网址不符合条件时使用上游原链接；中文页面不受影响。项目 ID 因上游日期、开发者或名称变化而变化时需重新核对映射。
 
 ## 贡献
 

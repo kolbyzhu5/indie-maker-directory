@@ -953,7 +953,17 @@ function enStatusChip(p) {
 }
 
 function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
-  const { siteUrl, umamiScript, organizationLd, categorySlugs } = ctx;
+  const { siteUrl, umamiScript, organizationLd, categorySlugs, englishUrlMap = {} } = ctx;
+  // Overrides affect only English product pages. Ignore malformed, non-HTTPS,
+  // or cross-origin values so synced upstream URLs remain authoritative.
+  let englishUrl = p.url;
+  try {
+    const candidate = new URL(englishUrlMap[p.id]);
+    const original = new URL(p.url);
+    if (candidate.protocol === "https:" && candidate.origin === original.origin && !candidate.username && !candidate.password) {
+      englishUrl = candidate.href;
+    }
+  } catch {}
   const name = esc(enNameOf(p));
   const descEn = descEnMap[p.id]?.descEn || "";
   const hasEn = Boolean(descEn);
@@ -991,7 +1001,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
     "@type": "SoftwareApplication",
     name: enNameOf(p),
     description: hasEn ? descEn : `${enNameOf(p)} — a tool by ${p.maker}${enCityOf(p.city) ? `, based in ${enCityOf(p.city)}` : ""}. English translation pending.`,
-    url: p.url,
+    url: englishUrl,
     applicationCategory: catEn,
     operatingSystem: "Web",
     offers: { "@type": "Offer", price: "0", priceCurrency: "CNY" },
@@ -1044,7 +1054,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
         <span><b>Added</b><time>${p.addedAt}</time></span>
         <span><b>Tags</b>${tagLinks}</span>
       </div>
-      <p class="detail-actions"><a class="btn-primary" href="${esc(p.url)}" target="_blank" rel="noreferrer"${outbound}>Visit official site ↗</a>${extraLinks}</p>
+      <p class="detail-actions"><a class="btn-primary" href="${esc(englishUrl)}" target="_blank" rel="noreferrer"${outbound}>Visit official site ↗</a>${extraLinks}</p>
     </article>
     ${originalBlock}
     ${relatedCards ? `<section class="related" id="related"><h2>Related products</h2><div class="related-grid">${relatedCards}</div></section>` : ""}
@@ -1121,8 +1131,8 @@ function renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, a
  */
 export function buildEnglishDeepPages(ctx) {
   if (ctx.nameEnMap) nameEnMap = ctx.nameEnMap;
-  const { siteUrl, umamiScript, organizationLd, projects, slugMap, categorySlugs, descEnMap, relatedMap, primaryCatMap, allCats } = ctx;
-  const base = { siteUrl, umamiScript, organizationLd, categorySlugs };
+  const { siteUrl, umamiScript, organizationLd, projects, slugMap, categorySlugs, descEnMap, relatedMap, primaryCatMap, allCats, englishUrlMap = {} } = ctx;
+  const base = { siteUrl, umamiScript, organizationLd, categorySlugs, englishUrlMap };
   const pages = [];
 
   for (const p of projects) {
