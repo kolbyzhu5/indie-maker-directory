@@ -4,19 +4,19 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-18T07:08:34.002Z",
+  "generatedAt": "2026-11-18T07:30:35.256Z",
   "counts": {
-    "total": 3666,
-    "main": 3043,
+    "total": 3667,
+    "main": 3044,
     "programmer": 452,
     "game": 171,
-    "custom": 2
+    "custom": 3
   },
   "categoryCounts": {
     "游戏娱乐": 202,
     "免费工具": 833,
-    "AI 工具": 1255,
-    "开发工具": 726,
+    "AI 工具": 1256,
+    "开发工具": 727,
     "效率工具": 504,
     "浏览器扩展": 409,
     "音视频": 656,
@@ -146,6 +146,24 @@
       "categories": [
         "音视频",
         "AI 工具"
+      ],
+      "source": "custom"
+    },
+    {
+      "id": "custom-20261118-2",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "山海渡团队",
+      "city": "",
+      "makerLinks": [],
+      "name": "山海渡",
+      "url": "https://shferry.com",
+      "status": "online",
+      "description": "统一接入主流国产模型，提供图片、视频、音频和圆桌讨论等网页应用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
       ],
       "source": "custom"
     },
