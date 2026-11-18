@@ -4,25 +4,25 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-18T07:30:35.256Z",
+  "generatedAt": "2026-11-18T07:58:33.153Z",
   "counts": {
-    "total": 3667,
-    "main": 3044,
+    "total": 3668,
+    "main": 3045,
     "programmer": 452,
     "game": 171,
-    "custom": 3
+    "custom": 4
   },
   "categoryCounts": {
     "游戏娱乐": 202,
     "免费工具": 833,
-    "AI 工具": 1256,
+    "AI 工具": 1257,
     "开发工具": 727,
     "效率工具": 504,
     "浏览器扩展": 409,
     "音视频": 656,
+    "文档办公": 365,
     "图片工具": 696,
     "生活服务": 115,
-    "文档办公": 364,
     "教育学习": 208,
     "社交社区": 137
   },
@@ -164,6 +164,24 @@
       "categories": [
         "AI 工具",
         "开发工具"
+      ],
+      "source": "custom"
+    },
+    {
+      "id": "custom-20261118-3",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "David Yang",
+      "city": "",
+      "makerLinks": [],
+      "name": "Humanize Ink",
+      "url": "https://humanizeink.com",
+      "status": "online",
+      "description": "免费的 AI 文本改写工具，把英文草稿改写成自然、专业或随意三种语气，左右对照；单次最多 1200 词，无需注册，完全免费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公"
       ],
       "source": "custom"
     },
