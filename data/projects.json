@@ -4,29 +4,220 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-17T04:28:40.372Z",
+  "generatedAt": "2026-11-18T03:42:31.277Z",
   "counts": {
-    "total": 3657,
-    "main": 3037,
-    "programmer": 451,
-    "game": 169,
+    "total": 3664,
+    "main": 3041,
+    "programmer": 452,
+    "game": 171,
     "custom": 1
   },
   "categoryCounts": {
-    "AI 工具": 1252,
-    "教育学习": 207,
-    "免费工具": 826,
-    "效率工具": 501,
-    "浏览器扩展": 406,
-    "图片工具": 695,
+    "AI 工具": 1254,
+    "开发工具": 726,
+    "免费工具": 832,
+    "效率工具": 504,
+    "游戏娱乐": 201,
+    "浏览器扩展": 409,
+    "图片工具": 696,
+    "生活服务": 115,
+    "文档办公": 364,
+    "教育学习": 208,
     "音视频": 655,
-    "生活服务": 114,
-    "开发工具": 724,
-    "社交社区": 137,
-    "游戏娱乐": 199,
-    "文档办公": 363
+    "社交社区": 137
   },
   "projects": [
+    {
+      "id": "programmer-20261118-xiang-suc-lastout",
+      "edition": "programmer",
+      "addedAt": "2026-11-18",
+      "maker": "Xiang-Suc",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Xiang-Suc"
+        }
+      ],
+      "name": "Lastout",
+      "url": "https://lastout.dev",
+      "status": "online",
+      "description": "macOS 终端输出工具。在任何 App 里按 ⌃⌥⌘C，把上一条终端命令的输出整理好复制出来，直接粘给 AI：长日志只留开头、报错附近和结尾，识别到的密钥先打码，还在跑的 dev server 也能复制；另带 lo 命令行和只读 MCP。闭源，14 天免费试用，之后 29 美元买断",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261118-dongan-beta-best-daily-games",
+      "edition": "game",
+      "addedAt": "2026-11-18",
+      "maker": "Andrew Bamboo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dongan-beta"
+        }
+      ],
+      "name": "Best Daily Games",
+      "url": "https://bestdaily.games/",
+      "status": "online",
+      "description": "每日网页游戏导航，按文字、地理、问答等玩法找游戏，条目链接到创作者原版。只有几分钟时，可以先看[适合咖啡休息时间玩的小游戏](https://bestdaily.games/collections/coffee-break-games/)",
+      "extraLinks": [
+        {
+          "label": "适合咖啡休息时间玩的小游戏",
+          "url": "https://bestdaily.games/collections/coffee-break-games/"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261118-dongan-beta-puffer-party",
+      "edition": "game",
+      "addedAt": "2026-11-18",
+      "maker": "Andrew Bamboo",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dongan-beta"
+        }
+      ],
+      "name": "Puffer Party",
+      "url": "https://pufferparty.org/",
+      "status": "online",
+      "description": "浏览器多人派对游戏（免费）。开私人房间邀请朋友，轮流给出符合题目且没人用过的答案，赶在河豚爆开前传给下一位。不用下载",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261117-22109906-叮当小宝cs",
+      "edition": "main",
+      "addedAt": "2026-11-17",
+      "maker": "22109906",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/22109906"
+        }
+      ],
+      "name": "叮当小宝CS",
+      "url": "https://dingdang.asia/?ch=cnindie",
+      "status": "online",
+      "description": "给中小电商卖家的 Windows AI 客服助手，支持千牛（淘宝/天猫）、拼多多、京东、抖店、快手、小红书、微信、闲鱼 8 个平台自动回复；买家发图片能识别，可设为「人工检查后发送」，知识库保存在本机不上云；注册免费，每天 30 条 AI 接待额度",
+      "extraLinks": [
+        {
+          "label": "GitHub 发布页",
+          "url": "https://github.com/22109906/DingDangCS"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261117-deanchensj-江山时序",
+      "edition": "main",
+      "addedAt": "2026-11-17",
+      "maker": "Dean Chen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/DeanChensj"
+        },
+        {
+          "label": "博客",
+          "url": "https://deanchen.me"
+        }
+      ],
+      "name": "江山时序",
+      "url": "https://deanchen.me/jiangshan-map/",
+      "status": "online",
+      "description": "中国历史交互地图网站，拖动时间轴浏览战国至现代 2400 年疆域分合与古海岸线演变，支持点击古城查看 18 朝政区沿革、同屏追踪百余位历史人物行迹与战役沙盘，纯浏览器运行免费无需注册",
+      "extraLinks": [
+        {
+          "label": "GitHub 源码",
+          "url": "https://github.com/DeanChensj/jiangshan-map"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "浏览器扩展",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261117-kaixiangliuran-刊讯",
+      "edition": "main",
+      "addedAt": "2026-11-17",
+      "maker": "Open Books",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/kaixiangliuran"
+        }
+      ],
+      "name": "刊讯",
+      "url": "https://books.sanzhigou.cn/",
+      "status": "online",
+      "description": "技术期刊目录与更新订阅网站，聚合 RSS/Atom 更新，支持按日、周、月浏览新刊；登录后可关注期刊，在收件箱、日历和邮件摘要中跟踪更新",
+      "extraLinks": [],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261117-jasonxu610-antshot",
+      "edition": "main",
+      "addedAt": "2026-11-17",
+      "maker": "jasonxu610",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jasonxu610"
+        }
+      ],
+      "name": "AntShot",
+      "url": "https://antshot.com/zh/",
+      "status": "online",
+      "description": "Chrome / Edge 整页截图扩展，一键截整页，网页里自己滚动的表格、列表、看板也能整块截下来，截图只在本机处理不上传，免账号，免费版无水印",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://microsoftedge.microsoft.com/addons/detail/ijhjpbbanmcggdokkdkfjadgkngfligj"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261117-jonathanowentj-资料星球",
       "edition": "main",
@@ -66,11 +257,15 @@
       "name": "Bazi Diff",
       "url": "https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh",
       "status": "online",
-      "description": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算",
+      "description": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/) · [两岗事业样稿](https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=career_sample_zh)",
       "extraLinks": [
         {
           "label": "中文说明",
           "url": "https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/"
+        },
+        {
+          "label": "两岗事业样稿",
+          "url": "https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=career_sample_zh"
         }
       ],
       "categories": [
@@ -210,7 +405,7 @@
       "name": "HumanPen",
       "url": "https://humanpen.net",
       "status": "online",
-      "description": "AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）",
+      "description": "AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 尽量保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）",
       "extraLinks": [],
       "categories": [
         "AI 工具",
@@ -20743,7 +20938,7 @@
       "source": "upstream"
     },
     {
-      "id": "custom-20261117-0",
+      "id": "custom-20261118-0",
       "edition": "main",
       "addedAt": "2026-08-29",
       "maker": "HBAI-Ltd",
@@ -41257,10 +41452,12 @@
       "name": "CookLLM",
       "url": "https://cookllm.com/",
       "status": "online",
-      "description": "带你从头训练一个 LLM",
+      "description": "中文大模型训练课程，带你从零训练一个 3.07 亿参数的中英双语小模型（会员付费）；另有免费的 AI 岗位看板，收录 1,400 多家 AI 公司官网上的岗位",
       "extraLinks": [],
       "categories": [
-        "AI 工具"
+        "AI 工具",
+        "教育学习",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -48872,6 +49069,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250911-caron77ai-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-09-11",
+      "maker": "Carys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Caron77ai"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250911-caron77ai-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-09-11",
+      "maker": "Carys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Caron77ai"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250911-caron77ai-独立星球",
+      "edition": "main",
+      "addedAt": "2025-09-11",
+      "maker": "Carys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Caron77ai"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250911-caron77ai-独立观察",
+      "edition": "main",
+      "addedAt": "2025-09-11",
+      "maker": "Carys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Caron77ai"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250910-yvonuk-proxied-web-from-url",
       "edition": "main",
       "addedAt": "2025-09-10",
@@ -49095,115 +49401,6 @@
       "categories": [
         "AI 工具",
         "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250907-prompt-2-tool-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-09-07",
-      "maker": "Prompt2Tool",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/prompt-2-tool"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250907-prompt-2-tool-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-09-07",
-      "maker": "Prompt2Tool",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/prompt-2-tool"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250907-prompt-2-tool-独立星球",
-      "edition": "main",
-      "addedAt": "2025-09-07",
-      "maker": "Prompt2Tool",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/prompt-2-tool"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250907-prompt-2-tool-独立观察",
-      "edition": "main",
-      "addedAt": "2025-09-07",
-      "maker": "Prompt2Tool",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/prompt-2-tool"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

@@ -15334,5 +15334,53 @@
  "main-20261116-todanley-app-上架字数统计": {
   "descEn": "Count the word count of the copy on the shelves according to the official field limits of App Store / Google Play, including keyword checking. The copy will be left in the browser and not uploaded.",
   "at": "2026-11-17"
+ },
+ "programmer-20261118-xiang-suc-lastout": {
+  "descEn": "macOS terminal output tool. Press ⌃⌥⌘C in any app, organize and copy the output of the previous terminal command, and paste it directly to the AI: the long log only leaves the beginning, near the error report, and the end. The identified key is coded first, and the dev server that is still running can also be copied; it also comes with the lo command line and read-only MCP. Closed source, 14-day free trial, then $29 buyout",
+  "at": "2026-11-18"
+ },
+ "game-20261118-dongan-beta-best-daily-games": {
+  "descEn": "Daily web game navigation, find games by text, geography, Q&A and other gameplay, and the entries are linked to the original version of the creator. If you only have a few minutes, you can first watch [small games suitable for coffee breaks](https://bestdaily.games/collections/coffee-break-games/)",
+  "at": "2026-11-18"
+ },
+ "game-20261118-dongan-beta-puffer-party": {
+  "descEn": "Browser multiplayer party game (free). Open a private room and invite friends, take turns giving answers that fit the question and that no one has used before, and pass it on to the next person before the blowfish explodes. No need to download",
+  "at": "2026-11-18"
+ },
+ "main-20261117-22109906-叮当小宝cs": {
+  "descEn": "Windows AI customer service assistant for small and medium-sized e-commerce sellers, supporting Qianniu (Taobao/Tmall), Pinduoduo, JD.com, Doudian, Kuaishou, Xiaohongshu, WeChat, and Xianyu. Automatic replies; pictures sent by buyers can be recognized, and can be set to \"send after manual inspection\". The knowledge base is saved locally and not on the cloud; registration is free, and the AI ​​reception quota is 30 messages per day.",
+  "at": "2026-11-18"
+ },
+ "main-20261117-deanchensj-江山时序": {
+  "descEn": "Chinese history interactive map website, drag the timeline to browse the division and union of territories and the evolution of ancient coastlines in the 2,400 years from the Warring States Period to modern times. You can click on the ancient city to view the evolution of 18 political districts, and track the movements of more than 100 historical figures and battle sandboxes on the same screen. It is free to run in a browser without registration.",
+  "at": "2026-11-18"
+ },
+ "main-20261117-kaixiangliuran-刊讯": {
+  "descEn": "Technical journal catalog and update subscription website, aggregating RSS/Atom updates, supporting browsing new issues by day, week, and month; after logging in, you can follow the journal and track updates in your inbox, calendar, and email summary",
+  "at": "2026-11-18"
+ },
+ "main-20261117-jasonxu610-antshot": {
+  "descEn": "Chrome/Edge full page screenshot extension, one-click to capture the entire page. You can also capture the scrolling tables, lists, and bulletin boards in the web page. The screenshots are only processed locally and not uploaded. No account is required. The free version has no watermark.",
+  "at": "2026-11-18"
+ },
+ "custom-20261118-0": {
+  "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
+  "at": "2026-11-18"
+ },
+ "main-20250911-caron77ai-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-18"
+ },
+ "main-20250911-caron77ai-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-18"
+ },
+ "main-20250911-caron77ai-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-18"
+ },
+ "main-20250911-caron77ai-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-18"
  }
 }

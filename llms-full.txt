@@ -1,16 +1,28 @@
-# AI 独立制造所 · 全部产品清单（3657）
+# AI 独立制造所 · 全部产品清单（3664）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-17（北京时间）
+> 更新时间：2026-11-18（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3037）
+## 大众产品（3041）
+
+- **[叮当小宝CS](https://dingdang.asia/?ch=cnindie)** — 开发者 22109906 · AI 工具 / 图片工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/cs.html)
+  给中小电商卖家的 Windows AI 客服助手，支持千牛（淘宝/天猫）、拼多多、京东、抖店、快手、小红书、微信、闲鱼 8 个平台自动回复；买家发图片能识别，可设为「人工检查后发送」，知识库保存在本机不上云；注册免费，每天 30 条 AI 接待额度
+
+- **[江山时序](https://deanchen.me/jiangshan-map/)** — 开发者 Dean Chen · 效率工具 / 浏览器扩展 / 生活服务 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/project-1d4f5b.html)
+  中国历史交互地图网站，拖动时间轴浏览战国至现代 2400 年疆域分合与古海岸线演变，支持点击古城查看 18 朝政区沿革、同屏追踪百余位历史人物行迹与战役沙盘，纯浏览器运行免费无需注册
+
+- **[刊讯](https://books.sanzhigou.cn/)** — 开发者 Open Books · 效率工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/project-14c200.html)
+  技术期刊目录与更新订阅网站，聚合 RSS/Atom 更新，支持按日、周、月浏览新刊；登录后可关注期刊，在收件箱、日历和邮件摘要中跟踪更新
+
+- **[AntShot](https://antshot.com/zh/)** — 开发者 jasonxu610 · 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/antshot.html)
+  Chrome / Edge 整页截图扩展，一键截整页，网页里自己滚动的表格、列表、看板也能整块截下来，截图只在本机处理不上传，免账号，免费版无水印
 
 - **[资料星球](https://resources.packscena.com/)** — 开发者 JonathanOwenTJ · AI 工具 / 教育学习 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/project-f5c118.html)
   中文学习与创作资料导航，按语言学习、AI、内容创作等主题查找资料，先看目录预览，再跳转夸克网盘免费领取，浏览无需注册
 
 - **[Bazi Diff](https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh)** — 开发者 chilayt · 效率工具 / 浏览器扩展 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/bazi-diff.html)
-  免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算
+  免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - 中文说明 · 两岗事业样稿
 
 - **[Telo](https://telo.ferryman.app/)** — 开发者 BlynkAI · AI 工具 / 图片工具 / 音视频 / 生活服务 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/telo.html)
   iPhone 和 Apple Watch 上的 AI 健康助手，把 Apple 健康里的睡眠、运动与心率变异性放在一起，方便查看每日状态，也能用语音、照片或文字记录健康事件
@@ -19,7 +31,7 @@
   联盟营销和出海工具导航，按联盟平台、VPS、域名建站、AI 工具、指纹浏览器、虚拟卡和收款分类，每类附站内中文教程，免费无需注册
 
 - **[HumanPen](https://humanpen.net)** — 开发者 LWJUOLPENNCJBS · AI 工具 / 文档办公 · 已上线 · 收录 2026-11-16 · [详情页](https://indiemaker.cn/p/humanpen.html)
-  AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）
+  AI 文档处理与翻译平台，支持 12 种语言文档翻译（PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 尽量保留原排版）、DOCX/PPTX/TXT 文档级润色（Humanize）、DOCX 精简与引文格式校正，注册即赠 100 积分（按积分计费的商业服务）
 
 - **[拾页 Shiye](https://shiye.leiping.dev/)** — 开发者 Perry Lei · 教育学习 · 已上线 · 收录 2026-11-16 · [详情页](https://indiemaker.cn/p/shiye.html)
   K12 亲子学习工具，输入知识点，一键生成一页纸互动学习手账
@@ -3999,8 +4011,8 @@
 - **[GroAsk](https://groask.com/)** — 开发者 Jack · AI 工具 / 开发工具 · 已上线 · 收录 2026-02-14 · [详情页](https://indiemaker.cn/p/groask.html)
   macOS 菜单栏 AI 启动器，⌥Space 直达多个 AI（快捷键可自定义）
 
-- **[CookLLM](https://cookllm.com/)** — 开发者 Yuzu-Peel（上海） · AI 工具 · 已上线 · 收录 2026-02-13 · [详情页](https://indiemaker.cn/p/cookllm.html)
-  带你从头训练一个 LLM
+- **[CookLLM](https://cookllm.com/)** — 开发者 Yuzu-Peel（上海） · AI 工具 / 教育学习 / 免费工具 · 已上线 · 收录 2026-02-13 · [详情页](https://indiemaker.cn/p/cookllm.html)
+  中文大模型训练课程，带你从零训练一个 3.07 亿参数的中英双语小模型（会员付费）；另有免费的 AI 岗位看板，收录 1,400 多家 AI 公司官网上的岗位
 
 - **[Seedance 2.0 Video](https://seedance2.video)** — 开发者 托马（杭州） · AI 工具 / 音视频 · 已上线 · 收录 2026-02-12 · [详情页](https://indiemaker.cn/p/seedance-2-0-video.html)
   基于 Seedance 2.0 的 AI 视频生成和编辑平台
@@ -4947,6 +4959,18 @@
 - **[AIToolsss](https://www.aitoolsss.com/)** — 开发者 Carys · AI 工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/aitoolsss.html)
   AI 工具导航，收录全球 AI 产品与应用
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Carys · AI 工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/ai-fec1bc.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Carys · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/project-5bce8f.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Carys · 开发工具 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/project-a77fdc.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Carys · 浏览器扩展 · 已上线 · 收录 2025-09-11 · [详情页](https://indiemaker.cn/p/project-a7845c.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Proxied Web from URL](https://web.818233.xyz)** — 开发者 yvonuk · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-10 · [详情页](https://indiemaker.cn/p/proxied-web-from-url.html)
   代理服务器，完全免费，把任何网址放在 https://web.818233.xyz/ 后面，这个新的网址就可以作为代理服务器获取原网站的内容，目前只支持内容获取，不支持网站交互操作。
 
@@ -4976,18 +5000,6 @@
 
 - **[AI 驱动的免费在线工具平台](https://prompt2tool.com/)** — 开发者 Prompt2Tool · AI 工具 / 免费工具 · 已上线 · 收录 2025-09-07 · [详情页](https://indiemaker.cn/p/ai-91a3fa.html)
   提供 300+ 实用工具，无需注册即可使用
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Prompt2Tool · AI 工具 · 已上线 · 收录 2025-09-07 · [详情页](https://indiemaker.cn/p/ai-0c4589.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Prompt2Tool · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-07 · [详情页](https://indiemaker.cn/p/project-f8f4b9.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Prompt2Tool · 开发工具 · 已上线 · 收录 2025-09-07 · [详情页](https://indiemaker.cn/p/project-660a16.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Prompt2Tool · 浏览器扩展 · 已上线 · 收录 2025-09-07 · [详情页](https://indiemaker.cn/p/project-660e96.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[PDF 编辑器](https://pdf-editor.uyidev.com)** — 开发者 ljxyaly（深圳） · 文档办公 · 已上线 · 收录 2025-09-06 · [详情页](https://indiemaker.cn/p/pdf-7b4a96.html)
   简易的 PDF 编辑器
@@ -9117,7 +9129,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（451）
+## 程序员版（452）
+
+- **[Lastout](https://lastout.dev)** — 开发者 Xiang-Suc · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/lastout.html)
+  macOS 终端输出工具。在任何 App 里按 ⌃⌥⌘C，把上一条终端命令的输出整理好复制出来，直接粘给 AI：长日志只留开头、报错附近和结尾，识别到的密钥先打码，还在跑的 dev server 也能复制；另带 lo 命令行和只读 MCP。闭源，14 天免费试用，之后 29 美元买断
 
 - **[dsplugin.app](https://dsplugin.app/)** — 开发者 vbarter · AI 工具 / 开发工具 / 浏览器扩展 / 社交社区 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/dsplugin-app.html)
   DeepSeek Harness 社区插件目录，可按来源与 Manifest 状态筛选，查看 GitHub 数据和安装命令，也可发布与自动发现 dsh-plugin 仓库 — 源码
@@ -10472,7 +10487,13 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（169）
+## 独立游戏（171）
+
+- **[Best Daily Games](https://bestdaily.games/)** — 开发者 Andrew Bamboo · 效率工具 / 游戏娱乐 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/best-daily-games.html)
+  每日网页游戏导航，按文字、地理、问答等玩法找游戏，条目链接到创作者原版。只有几分钟时，可以先看适合咖啡休息时间玩的小游戏
+
+- **[Puffer Party](https://pufferparty.org/)** — 开发者 Andrew Bamboo · 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/puffer-party.html)
+  浏览器多人派对游戏（免费）。开私人房间邀请朋友，轮流给出符合题目且没人用过的答案，赶在河豚爆开前传给下一位。不用下载
 
 - **[Elunvi Games](https://elunvi.fun/?lang=zh-Hans&src=gh-cnindie)** — 开发者 Elunvi Games · AI 工具 / 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/elunvi-games.html)
   免费网页游戏平台，收录 69 款独立游戏与 AI 辅助创作作品，打开浏览器即可玩，每款列明操作方式、支持设备和游戏语言，可按玩法分类筛选
