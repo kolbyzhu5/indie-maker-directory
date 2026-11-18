@@ -4,29 +4,57 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-18T03:42:31.277Z",
+  "generatedAt": "2026-11-18T07:08:34.002Z",
   "counts": {
-    "total": 3664,
-    "main": 3041,
+    "total": 3666,
+    "main": 3043,
     "programmer": 452,
     "game": 171,
-    "custom": 1
+    "custom": 2
   },
   "categoryCounts": {
-    "AI 工具": 1254,
+    "游戏娱乐": 202,
+    "免费工具": 833,
+    "AI 工具": 1255,
     "开发工具": 726,
-    "免费工具": 832,
     "效率工具": 504,
-    "游戏娱乐": 201,
     "浏览器扩展": 409,
+    "音视频": 656,
     "图片工具": 696,
     "生活服务": 115,
     "文档办公": 364,
     "教育学习": 208,
-    "音视频": 655,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261118-zerosoul-动动乐园",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "zerosoul",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zerosoul"
+        }
+      ],
+      "name": "动动乐园",
+      "url": "https://dongdongpark.com",
+      "status": "online",
+      "description": "儿童体感运动游戏网站，用电脑自带摄像头就能玩，孩子跳、蹲、挥手，游戏跟着动；111 个游戏覆盖 3～18 岁，支持双人对战和班级轮流，适合室内体育课和雨天大课间；不用手柄不用安装，画面只在本机识别不上传，可以免费玩（另有可选会员）",
+      "extraLinks": [
+        {
+          "label": "英文版",
+          "url": "https://dongdongpark.com/en"
+        }
+      ],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "programmer-20261118-xiang-suc-lastout",
       "edition": "programmer",
@@ -102,6 +130,24 @@
         "免费工具"
       ],
       "source": "upstream"
+    },
+    {
+      "id": "custom-20261118-1",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "陈生",
+      "city": "",
+      "makerLinks": [],
+      "name": "小剧匠AI漫剧系统",
+      "url": "https://xiaojujiangai.cn",
+      "status": "online",
+      "description": "一站式 AI 漫剧创作工坊，从 AI 剧本、智能分镜、角色锁定到图像视频生成、配音剪辑、成片导出全流程装进浏览器，主角不换脸",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "AI 工具"
+      ],
+      "source": "custom"
     },
     {
       "id": "main-20261117-22109906-叮当小宝cs",
