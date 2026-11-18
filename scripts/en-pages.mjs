@@ -272,7 +272,7 @@ export const EN_REPORT = {
 export const EN_HOME = {
   title: "Chinese indie developer directory: AI tools, websites, apps and games",
   desc: "A directory of AI tools, websites, apps and games created by Chinese indie developers. {total} products, updated daily from an open-source repository. No membership, no paid ranking, entirely free.",
-  lead: "A directory of AI tools, websites, apps and games created by Chinese indie developers. We don't build, host or resell any product — we only index and navigate. Entirely free, with no paid ranking.",
+  lead: "A directory of AI tools, websites, apps and games created by indie developers and OPCs worldwide. We don't build, host or resell any product — we only index and navigate. Entirely free, with no paid ranking.",
   faq: [
     { q: "What is this site?", a: "AI Indie Maker is a directory of works by Chinese indie developers — AI tools, websites, apps and games. We sync from an open-source repository every day, organise everything by category and use case, and make it searchable. We don't build, host or resell any of the products listed; every listing links to the product's own site." },
     { q: "Is it free? Is there a membership?", a: "Completely free. There is no membership, no subscription, no paid feature, and no paid ranking. Sorting is by date added or name, and nothing on the site can be bought." },
