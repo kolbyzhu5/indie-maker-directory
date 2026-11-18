@@ -40,6 +40,16 @@
       "status": "online",
       "categories": ["AI 工具", "文档办公"],
       "addedAt": "2026-11-18"
+    },
+    {
+      "name": "CEOFans",
+      "url": "https://www.ceofans.com",
+      "description": "面向一人公司和小微团队的 AI 数字员工协作平台，支持任务分派、成果审核及企业知识沉淀",
+      "maker": "CEOFans 团队",
+      "city": "",
+      "status": "online",
+      "categories": ["AI 工具", "效率工具"],
+      "addedAt": "2026-11-18"
     }
   ]
 }
