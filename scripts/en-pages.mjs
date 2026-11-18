@@ -1018,7 +1018,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
     ? `<p class="u-note">${MT_NOTE} <a href="${siteUrl}/p/${slug}.html" hreflang="zh-CN" lang="zh-CN">中文原页 ↗</a></p>`
     : `<p class="u-note">This entry's English translation is not ready yet — the original Chinese description is shown. <a href="${siteUrl}/p/${slug}.html" hreflang="zh-CN" lang="zh-CN">中文原页 ↗</a></p>`;
 
-  const title = `${enNameOf(p)} — ${catEn} by Chinese indie developers | Indie Maker`;
+  const title = `${enNameOf(p)} — ${catEn} by indie developers | Indie Maker`;
   const metaDesc = hasEn
     ? (descEn.length > 300 ? descEn.slice(0, 297) + "..." : descEn)
     : `${enNameOf(p)} — a ${catEn.toLowerCase()} tool by ${p.maker}. English translation pending.`;
@@ -1094,8 +1094,8 @@ function renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, a
     siteUrl,
     umamiScript,
     organizationLd,
-    title: `${catEn} by Chinese indie developers (${productsInCat.length})${page > 1 ? ` — page ${page}` : ""} | Indie Maker`,
-    desc: `Browse ${productsInCat.length} ${catEn.toLowerCase()} built by Chinese indie developers, with English descriptions, updated daily. Entirely free directory, no paid ranking.${page > 1 ? ` Page ${page} of ${totalPages}.` : ""}`,
+    title: `${catEn} by indie developers (${productsInCat.length})${page > 1 ? ` — page ${page}` : ""} | Indie Maker`,
+    desc: `Browse ${productsInCat.length} ${catEn.toLowerCase()} built by indie developers, with English descriptions, updated daily. Entirely free directory, no paid ranking.${page > 1 ? ` Page ${page} of ${totalPages}.` : ""}`,
     canonical,
     zhUrl,
     jsonLd: [listLD],
