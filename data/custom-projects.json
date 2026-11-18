@@ -20,6 +20,16 @@
       "status": "online",
       "categories": ["音视频", "AI 工具"],
       "addedAt": "2026-11-18"
+    },
+    {
+      "name": "山海渡",
+      "url": "https://shferry.com",
+      "description": "统一接入主流国产模型，提供图片、视频、音频和圆桌讨论等网页应用",
+      "maker": "山海渡团队",
+      "city": "",
+      "status": "online",
+      "categories": ["AI 工具", "开发工具"],
+      "addedAt": "2026-11-18"
     }
   ]
 }
