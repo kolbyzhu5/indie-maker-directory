@@ -15494,5 +15494,25 @@
  "game-20261118-stimqq-famedle": {
   "descEn": "It's a web game to guess the celebrity by looking at the clues. You have to type the celebrity's name before the countdown ends. Each person has 3 clues, which are unlocked sequentially over time; if you guess wrong, compare the answer with the four items of country of birth, year of death, age of death, and field. Green, yellow, and gray blocks will be used to indicate the distance, and an additional clue will be opened immediately. There are 10 levels in total, with 5 people in each level. The later people are less popular, the shorter the time (30 seconds for each level is reduced to 20 seconds). Each level you pass will get a title card (from \"Informed\" to \"Hall of Fame\"), which can be saved or shared; there are 1,143 ancient and modern Chinese and foreign figures in the question bank. The Chinese and English interfaces can be switched. When the device language is Chinese, Chinese celebrities will appear first. Free, no need to register, you can play it by opening the browser on your mobile phone or computer",
   "at": "2026-11-19"
+ },
+ "main-20261119-stimqq-blubiu": {
+  "descEn": "The AI ​​animation video generation tool focuses on \"every shot of the character is the same\": the character's setting card, three views, scenes and props are first stored in the asset library, and then used directly for each video without having to re-describe it. Scripts, character diagrams, shots, and dubbing are all nodes on the canvas. When connected, they form a workflow. If you are not satisfied with any step, just repeat that step. You can also tell the built-in Agent what you want to do, and it will add nodes, connect lines, and write prompts. One point is applicable to 24 image and video models (Seedance 2.0, Kling 4.0, VEO 3.1 Fast, GPT Image 2.6, etc.), and there are also ready-made tools such as photo animation, photo talking, mascot design, AI dancing, and stickman animation. The webpage has an English interface, you can switch to Chinese, and you can log in with Google. The free version will give you 75 points every month. After that, the monthly subscription starts at $14.9. There are also point packages ($89.9 per package that never expires). Points will be automatically refunded if the generation fails.",
+  "at": "2026-11-19"
+ },
+ "main-20250925-皮皮卡-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-19"
+ },
+ "main-20250925-皮皮卡-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-19"
+ },
+ "main-20250925-皮皮卡-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-19"
+ },
+ "main-20250925-皮皮卡-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-19"
  }
 }

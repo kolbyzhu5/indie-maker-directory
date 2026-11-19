@@ -4,29 +4,55 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-19T03:09:54.570Z",
+  "generatedAt": "2026-11-19T03:27:30.174Z",
   "counts": {
-    "total": 3687,
-    "main": 3062,
+    "total": 3688,
+    "main": 3063,
     "programmer": 453,
     "game": 172,
     "custom": 5
   },
   "categoryCounts": {
-    "AI 工具": 1266,
-    "图片工具": 709,
-    "音视频": 666,
+    "AI 工具": 1267,
+    "图片工具": 710,
+    "音视频": 667,
+    "效率工具": 506,
+    "免费工具": 837,
     "开发工具": 733,
     "浏览器扩展": 412,
     "文档办公": 366,
-    "免费工具": 836,
     "游戏娱乐": 203,
-    "效率工具": 505,
     "教育学习": 209,
     "生活服务": 115,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261119-stimqq-blubiu",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "stimQQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "name": "blubiu",
+      "url": "https://blubiu.ai",
+      "status": "online",
+      "description": "AI 动画视频生成工具，主打「角色每一镜都是同一个」：角色的设定卡、三视图、场景和道具先存进资产库，之后做每条视频都直接取用，不用重新描述。剧本、角色图、镜头、配音都是画布上的节点，连起来就是一条工作流，哪一步不满意只重跑那一步；也可以对内置的 Agent 说一句想做什么，它来加节点、连线、写提示词。一份积分通用 24 个图片和视频模型（Seedance 2.0、Kling 4.0、VEO 3.1 Fast、GPT Image 2.6 等），另有照片动起来、照片说话、吉祥物设计、AI 跳舞、火柴人动画等现成工具。网页英文界面，可切换中文，Google 登录，免费档每月送 75 积分，之后月订阅 $14.9 起，也有积分包（$89.9 一包永不过期），生成失败自动退还积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261118-红鸦团队-红鸦-ai",
       "edition": "main",
@@ -48848,6 +48874,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20250925-皮皮卡-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-09-25",
+      "maker": "皮皮卡",
+      "city": "",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250925-皮皮卡-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-09-25",
+      "maker": "皮皮卡",
+      "city": "",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250925-皮皮卡-独立星球",
+      "edition": "main",
+      "addedAt": "2025-09-25",
+      "maker": "皮皮卡",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20250925-皮皮卡-独立观察",
+      "edition": "main",
+      "addedAt": "2025-09-25",
+      "maker": "皮皮卡",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "programmer-20250925-rusty-req-rusty-req",
       "edition": "programmer",
       "addedAt": "2025-09-25",
@@ -49167,95 +49282,6 @@
       "categories": [
         "AI 工具",
         "图片工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250919-ningshiqi-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-09-19",
-      "maker": "NINGSHIQI",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250919-ningshiqi-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-09-19",
-      "maker": "NINGSHIQI",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250919-ningshiqi-独立星球",
-      "edition": "main",
-      "addedAt": "2025-09-19",
-      "maker": "NINGSHIQI",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250919-ningshiqi-独立观察",
-      "edition": "main",
-      "addedAt": "2025-09-19",
-      "maker": "NINGSHIQI",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
