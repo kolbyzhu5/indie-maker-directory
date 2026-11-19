@@ -47,7 +47,7 @@ export const EN_CATEGORY = {
 
 // [SEO] English visible long-tail intros for category pages (first page only). {n} = product count.
 const EN_CATEGORY_INTROS = {
-  "AI 工具": "A collection of {n} AI tools built by Chinese indie developers — AI writing, AI image generation, AI video, background removal, AI coding and more. Most are free and run online with no download required. Looking for the best Chinese AI tools or handy online AI apps? Browse by need right here.",
+  "AI 工具": "A collection of {n} AI tools built by indie developers and OPCs worldwide — AI writing, AI image generation, AI video, background removal, AI coding and more. Most are free and run online with no download required. Looking for the best AI tools or handy online AI apps? Browse by need right here.",
   "图片工具": "{n} online image tools made by indie developers — free background removal, image compression, image-to-text, watermark removal, format conversion and more. Upload and go, no software to install. Looking for a good online photo editor? They're all organised by use case below.",
   "音视频": "{n} audio and video tools from indie developers — online video compression, subtitle generation, video-to-GIF, audio extraction and format conversion. Most are free and run right in your browser. Looking for reliable online media tools? Browse the list here.",
   "开发工具": "{n} online tools for developers — JSON formatting, regex testing, API debugging, code formatters and encryption utilities. Free to use, no sign-up. Practical programming tools built by indie developers, grouped by function so you can find what you need fast.",
@@ -130,11 +130,11 @@ const ORIGINAL_LANG_NOTE =
 export const EN_RANKINGS = {
   "best-ai-tools": {
     navLabel: "AI Tools",
-    title: "Best free AI tools from Chinese indie developers (2026)",
-    desc: "A hand-picked list of {n} free AI tools built by Chinese indie developers — image and design, video and audio, productivity, developer tools, learning and more. Many run in the browser with no signup.",
-    intro: "China's indie developers ship a lot of AI tools, but most of them never get covered in English. This page collects <b>{n} of them</b>, grouped by what you actually want to do — generate images, edit video, speed up office work, code faster, or just play. Every entry is free or has a free tier, and links to its own page on this directory.",
+    title: "Best free AI tools from indie developers and OPCs worldwide (2026)",
+    desc: "A hand-picked list of {n} free AI tools built by indie developers and OPCs worldwide — image and design, video and audio, productivity, developer tools, learning and more. Many run in the browser with no signup.",
+    intro: "indie developers and OPCs worldwide ship a lot of AI tools, but most of them never get covered in English. This page collects <b>{n} of them</b>, grouped by what you actually want to do — generate images, edit video, speed up office work, code faster, or just play. Every entry is free or has a free tier, and links to its own page on this directory.",
     faq: [
-      { q: "What are the best free AI tools made by Chinese developers?", a: "This list covers image and design, video and audio, productivity and office, developer tools, learning, and playful experiments. Each entry is free or offers a free tier, and can be used online without installing anything." },
+      { q: "What are the best free AI tools made by indie developers and OPCs worldwide?", a: "This list covers image and design, video and audio, productivity and office, developer tools, learning, and playful experiments. Each entry is free or offers a free tier, and can be used online without installing anything." },
       { q: "Do I need to read Chinese to use these tools?", a: "Most of them have an English interface or work with English prompts, but a few are Chinese-only. We keep every product's original description in Chinese so you can see exactly what the developer wrote, and each listing links to the product's official site where you can check the interface before signing up." },
       { q: "Are these tools really free?", a: "Most are free or have a generous free tier. A few use a free-plus-paid model — that pricing belongs to the individual product, not to this directory. This directory itself is completely free, with no membership and no paid ranking." },
       { q: "Why are these tools grouped by category instead of ranked 1 to N?", a: "Because 'best' depends on your task. A tool that wins at image generation tells you nothing about subtitle translation. We group by use case and list everything inside each group, so you can scan the category that matches your job." },
@@ -144,7 +144,7 @@ export const EN_RANKINGS = {
   "best-free-tools": {
     navLabel: "Free Tools",
     title: "Free online tools you can use without installing anything (2026)",
-    desc: "A hand-picked list of {n} free browser-based tools by Chinese indie developers — image and document processing, audio and video, format conversion, device diagnostics. No install, often no signup.",
+    desc: "A hand-picked list of {n} free browser-based tools by indie developers and OPCs worldwide — image and document processing, audio and video, format conversion, device diagnostics. No install, often no signup.",
     intro: "Sometimes you just need to crop an image, convert a file or check a device — and you don't want to install another app for it. These <b>{n} tools</b> all run in a browser tab. Many of them process your files locally, so the file never leaves your machine.",
     faq: [
       { q: "What can I do without installing software?", a: "Image and document processing, audio and video conversion, file format conversion, QR codes and sharing, device and network diagnostics, and a long tail of small utilities. All of them open in a browser tab." },
@@ -156,8 +156,8 @@ export const EN_RANKINGS = {
   },
   "best-dev-tools": {
     navLabel: "Dev Tools",
-    title: "AI coding and developer tools by Chinese indie developers (2026)",
-    desc: "A hand-picked list of {n} developer tools from Chinese indie developers — AI coding agents, model API gateways, research and visibility, security and forensics, dev resources and plugins.",
+    title: "AI coding and developer tools by indie developers and OPCs worldwide (2026)",
+    desc: "A hand-picked list of {n} developer tools from indie developers and OPCs worldwide — AI coding agents, model API gateways, research and visibility, security and forensics, dev resources and plugins.",
     intro: "These are tools built by developers, for developers: <b>{n of them}</b>, covering AI coding and agent platforms, model API gateways, market research and visibility, security and forensics, and everyday dev resources. Most are open source or have a free developer tier.",
     faq: [
       { q: "What developer tools are on this list?", a: "AI coding and agent platforms, model API gateways and routers, research and visibility tooling, security and forensics utilities, plus plugins and resources that speed up day-to-day development." },
@@ -170,7 +170,7 @@ export const EN_RANKINGS = {
   "best-productivity-tools": {
     navLabel: "Productivity",
     title: "AI productivity tools for notes, focus and knowledge (2026)",
-    desc: "A hand-picked list of {n} AI productivity tools by Chinese indie developers — session and usage management, focus and habits, notes and knowledge, social media and translation, learning and creation.",
+    desc: "A hand-picked list of {n} AI productivity tools by indie developers and OPCs worldwide — session and usage management, focus and habits, notes and knowledge, social media and translation, learning and creation.",
     intro: "Tools for people who juggle several threads at once: <b>{n of them}</b>, covering AI session and usage management, focus and habit building, notes and knowledge bases, social media and translation, and learning and content creation.",
     faq: [
       { q: "What counts as an AI productivity tool here?", a: "Anything that helps you manage attention, information or output: usage tracking for AI subscriptions, focus timers and habit trackers, note-taking and knowledge bases, translation and social publishing, and learning tools." },
@@ -182,9 +182,9 @@ export const EN_RANKINGS = {
   },
   "best-browser-extensions": {
     navLabel: "Extensions",
-    title: "Browser extensions and in-browser tools by Chinese indie developers (2026)",
-    desc: "A hand-picked list of {n} browser extensions and in-browser tools from Chinese indie developers — bookmarks and tabs, web media and downloads, reading and translation, creative fun, format conversion.",
-    intro: "Extensions and browser-native tools: <b>{n of them}</b>, covering bookmark and tab management, downloading web media, reading and translation, creative experiments, and in-browser format conversion. All from Chinese indie developers, mostly free.",
+    title: "Browser extensions and in-browser tools by indie developers and OPCs worldwide (2026)",
+    desc: "A hand-picked list of {n} browser extensions and in-browser tools from indie developers and OPCs worldwide — bookmarks and tabs, web media and downloads, reading and translation, creative fun, format conversion.",
+    intro: "Extensions and browser-native tools: <b>{n of them}</b>, covering bookmark and tab management, downloading web media, reading and translation, creative experiments, and in-browser format conversion. All from indie developers and OPCs worldwide, mostly free.",
     faq: [
       { q: "Which browsers do these extensions support?", a: "Mostly Chrome and Edge, and many also work in Firefox or other Chromium browsers. The individual product page says which stores it's published in." },
       { q: "Are these extensions safe to install?", a: "We list the developer's own description without rewriting it, and every entry links to the product's official page and store listing. Extensions request browser permissions — check those in the store listing before installing, as you would with any extension." },
@@ -196,8 +196,8 @@ export const EN_RANKINGS = {
   "best-indie-games": {
     navLabel: "Indie Games",
     title: "Free indie games you can play in your browser (2026)",
-    desc: "A hand-picked list of {n} free games by Chinese indie developers — casual and idle games, brain and focus training, party and multiplayer, music creation, sandbox and RPG, plus game tools.",
-    intro: "Small games from Chinese indie developers, playable in a browser tab: <b>{n of them}</b>, from casual idle games and brain training to party games, music toys, sandbox experiments and RPGs. No download, and most need no account.",
+    desc: "A hand-picked list of {n} free games by indie developers and OPCs worldwide — casual and idle games, brain and focus training, party and multiplayer, music creation, sandbox and RPG, plus game tools.",
+    intro: "Small games from indie developers and OPCs worldwide, playable in a browser tab: <b>{n of them}</b>, from casual idle games and brain training to party games, music toys, sandbox experiments and RPGs. No download, and most need no account.",
     faq: [
       { q: "Do I need to download or install these games?", a: "No. They run in a browser tab — open the page and play. A few also ship as desktop builds, but the browser version works first." },
       { q: "Are they really free?", a: "Yes, these are free to play. Some are open source. There's no purchase step on our side — this directory never charges anything." },
@@ -213,7 +213,7 @@ export const EN_SCENARIOS = {
     navLabel: "PDF tools",
     h1: "Online PDF tools",
     title: "Free online PDF tools: convert, merge, compress and OCR (2026)",
-    desc: "A curated set of {n} free online PDF tools by Chinese indie developers — convert to and from PDF, batch-generate certificates and invoices, merge, split, compress, compare and OCR. Many process files in your browser.",
+    desc: "A curated set of {n} free online PDF tools by indie developers and OPCs worldwide — convert to and from PDF, batch-generate certificates and invoices, merge, split, compress, compare and OCR. Many process files in your browser.",
     intro: "You shouldn't have to install Adobe to deal with a PDF. This page groups <b>{n online PDF tools}</b> by what you actually need to do — convert formats, batch-generate certificates and contracts, merge and split, compress, compare two versions, or OCR a scanned document. Many run entirely in the browser and never upload your file.",
     faq: [
       { q: "Are there free online PDF tools that don't upload my file?", a: "Yes, and this page favours them. Tools listed under browser-based processing state that the file stays on your device — useful for contracts, invoices and anything confidential. You can verify by opening your browser's Network panel while processing a file: no large outbound request means it's local." },
@@ -227,7 +227,7 @@ export const EN_SCENARIOS = {
     navLabel: "Translation",
     h1: "Online translation tools",
     title: "Free online translation tools: documents, subtitles and live speech (2026)",
-    desc: "A curated set of {n} online translation tools by Chinese indie developers — document and paper translation, subtitle and video translation, select-to-translate browser extensions, live speech translation and translation APIs.",
+    desc: "A curated set of {n} online translation tools by indie developers and OPCs worldwide — document and paper translation, subtitle and video translation, select-to-translate browser extensions, live speech translation and translation APIs.",
     intro: "Translation split by what you're translating: <b>{n tools}</b>, covering documents and academic papers, subtitles and video, browser select-to-translate and bilingual reading, live speech and conversation, plus APIs for building your own. Some accept your own model key so the text never passes through a third party.",
     faq: [
       { q: "How do I translate a whole document or academic paper?", a: "Use the document translation tools listed here. They accept a file, translate it while preserving layout, and give you back a readable document — better than pasting text paragraph by paragraph, especially for papers with figures and references." },
@@ -243,7 +243,7 @@ export const EN_LOCAL_FIRST = {
   navLabel: "Local-first tools",
   h1: "Online tools that never upload your files",
   title: "Online tools that don't upload your files (browser-based, 2026)",
-  desc: "A curated set of local-first online tools by Chinese indie developers — the processing happens inside your browser, so your file never reaches a server. Useful for contracts, ID photos and anything confidential.",
+  desc: "A curated set of local-first online tools by indie developers and OPCs worldwide — the processing happens inside your browser, so your file never reaches a server. Useful for contracts, ID photos and anything confidential.",
   intro: "Most online tools quietly upload your file to a server. These don't: the work happens <b>inside your browser tab</b>, using your own machine's CPU and memory. That makes them a reasonable choice for contracts, ID photos, medical documents and anything else you'd rather not hand to a third party.",
   faq: [
     { q: "How can I tell whether an online tool uploads my file?", a: "Three checks that actually work. First, read the description: a genuinely local tool says so plainly ('runs locally', 'file never leaves your device', 'no upload'). Second, load the page, disconnect from the internet, and use it — if it still works, the processing is local. Third, open your browser's Network panel and watch while you process a file: a local tool produces no large outbound request." },
@@ -256,25 +256,25 @@ export const EN_LOCAL_FIRST = {
 
 export const EN_REPORT = {
   navLabel: "Data report",
-  h1: "Chinese indie developer products: a survival report",
-  title: "Chinese indie developer report: {inactive}% of products are no longer maintained",
-  desc: "An original data report built from {total} products by Chinese indie developers, synced daily from an open-source repository. See how many shipped each year, what share is still maintained, and how the picture changes with age.",
-  intro: "This report is generated from our own database of <b>{total} products</b> by Chinese indie developers, synced every day from an open-source repository. Nothing here is estimated or sampled — it's a census of everything the directory has ever collected, counted by the year we first saw it and by whether the product is still active today.",
+  h1: "indie developer & OPC products: a survival report",
+  title: "indie developer & OPC report: {inactive}% of products are no longer maintained",
+  desc: "An original data report built from {total} products by indie developers and OPCs worldwide, synced daily from an open-source repository. See how many shipped each year, what share is still maintained, and how the picture changes with age.",
+  intro: "This report is generated from our own database of <b>{total} products</b> by indie developers and OPCs worldwide, synced every day from an open-source repository. Nothing here is estimated or sampled — it's a census of everything the directory has ever collected, counted by the year we first saw it and by whether the product is still active today.",
   faq: [
-    { q: "What share of Chinese indie developer products are still maintained?", a: "Across the whole database, roughly {onlinePct}% of products are still live and {inactivePct}% are no longer maintained. The figure moves with age: products first listed in the current year are almost all still active, while older cohorts have naturally lost more of their number." },
+    { q: "What share of indie developer & OPC products are still maintained?", a: "Across the whole database, roughly {onlinePct}% of products are still live and {inactivePct}% are no longer maintained. The figure moves with age: products first listed in the current year are almost all still active, while older cohorts have naturally lost more of their number." },
     { q: "Why do older products stop being maintained?", a: "The same reasons anywhere: the developer moved on, the project merged into something else, the market didn't materialise, or it was a learning project that served its purpose. A non-maintained product isn't a failure — many were deliberately finished rather than abandoned." },
-    { q: "Where does this data come from?", a: "The open-source repository chinese-independent-developer, which Chinese indie developers submit their work to. Our directory syncs it daily. We count only what appears there — we don't scrape stores or estimate market size." },
-    { q: "Can I reuse this report or its numbers?", a: "Yes, with attribution. Citing 'AI Indie Maker (indiemaker.cn) — Chinese indie developer survival report' and linking back is enough. The underlying data is open source." },
+    { q: "Where does this data come from?", a: "The open-source repository chinese-independent-developer, which indie developers and OPCs worldwide submit their work to. Our directory syncs it daily. We count only what appears there — we don't scrape stores or estimate market size." },
+    { q: "Can I reuse this report or its numbers?", a: "Yes, with attribution. Citing 'AI Indie Maker (indiemaker.cn) — indie developer & OPC survival report' and linking back is enough. The underlying data is open source." },
     { q: "How current is this data?", a: "The dataset is re-synced daily, and the counts on this page are regenerated on every build, so they reflect the latest sync rather than a frozen snapshot." }
   ]
 };
 
 export const EN_HOME = {
-  title: "Chinese indie developer directory: AI tools, websites, apps and games",
-  desc: "A directory of AI tools, websites, apps and games created by Chinese indie developers. {total} products, updated daily from an open-source repository. No membership, no paid ranking, entirely free.",
+  title: "indie developer & OPC directory: AI tools, websites, apps and games",
+  desc: "A directory of AI tools, websites, apps and games created by indie developers and OPCs worldwide. {total} products, updated daily from an open-source repository. No membership, no paid ranking, entirely free.",
   lead: "A directory of AI tools, websites, apps and games created by indie developers and OPCs worldwide. We don't build, host or resell any product — we only index and navigate. Entirely free, with no paid ranking.",
   faq: [
-    { q: "What is this site?", a: "AI Indie Maker is a directory of works by Chinese indie developers — AI tools, websites, apps and games. We sync from an open-source repository every day, organise everything by category and use case, and make it searchable. We don't build, host or resell any of the products listed; every listing links to the product's own site." },
+    { q: "What is this site?", a: "AI Indie Maker is a directory of works by indie developers and OPCs worldwide — AI tools, websites, apps and games. We sync from an open-source repository every day, organise everything by category and use case, and make it searchable. We don't build, host or resell any of the products listed; every listing links to the product's own site." },
     { q: "Is it free? Is there a membership?", a: "Completely free. There is no membership, no subscription, no paid feature, and no paid ranking. Sorting is by date added or name, and nothing on the site can be bought." },
     { q: "Why is the site in Chinese if it's for a global audience?", a: "The products are made by Chinese-speaking developers and the upstream data source is Chinese. Product descriptions are machine-translated into English for browsing (the original Chinese stays untouched on each product's Chinese page), and product names are kept as the developers wrote them. The interface, categories and all editorial pages are available in English." },
     { q: "I saw a product description mention a membership or a paid plan — is that yours?", a: "No. Any pricing, membership or paid tier mentioned in a product's description belongs to that product itself. This directory is entirely free and has no membership of any kind." },
@@ -326,7 +326,7 @@ function shell({ siteUrl, umamiScript, organizationLd, title, desc, canonical, z
       <span class="brand-seal">AI</span>
       <!-- strong 是移动端唯一显示的（.brand small 在窄屏隐藏），且 .brand strong 为 nowrap
            ——英文品牌名必须短，否则在 390px 下会文本溢出（实测踩过）。 -->
-      <span><strong>${BRAND_EN}</strong><small>${BRAND_EN_FULL} · Chinese indie developer directory</small></span>
+      <span><strong>${BRAND_EN}</strong><small>${BRAND_EN_FULL} · indie developer & OPC directory</small></span>
     </a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="/en/">Directory</a>
@@ -465,7 +465,7 @@ export function buildEnglishPages(ctx) {
       jsonLd: [faqLD(EN_HOME.faq)],
       body: `    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="${siteUrl}/" hreflang="zh-CN" lang="zh-CN">中文版</a><span class="sep">›</span><span class="current">English</span></nav>
     <div class="category-head">
-      <h1>Chinese indie developer directory</h1>
+      <h1>indie developer & OPC directory</h1>
       <p class="category-count">A directory of <b>${total.toLocaleString("en")}</b> products · updated ${today}</p>
     </div>
 
@@ -479,7 +479,7 @@ export function buildEnglishPages(ctx) {
       </p>
     </section>
 
-    <p class="best-intro">Every day we sync a public open-source repository where Chinese indie developers submit their work, then organise it by category and by what you're trying to do. The result is a searchable directory of <b>${total.toLocaleString("en")} products</b> that is genuinely easier to browse than scrolling a README.</p>
+    <p class="best-intro">Every day we sync a public open-source repository where indie developers and OPCs worldwide submit their work, then organise it by category and by what you're trying to do. The result is a searchable directory of <b>${total.toLocaleString("en")} products</b> that is genuinely easier to browse than scrolling a README.</p>
 
     <p class="u-note">${esc(ORIGINAL_LANG_NOTE)}</p>
 
@@ -751,12 +751,12 @@ export function englishUrls(siteUrl) {
 // 与中文 /about.html 是 hreflang 对：中文页对英文访客会自动跳转到这里。
 function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
   const aboutUpdated = new Date().toISOString().slice(0, 10);
-  const title = `About — ${BRAND_EN_FULL} | Chinese indie developer directory`;
-  const desc = `${BRAND_EN_FULL} (indiemaker.cn) is an entirely free directory of AI tools, websites, apps and games created by Chinese indie developers. Daily sync from an open-source repository; no membership, no paid ranking.`;
+  const title = `About — ${BRAND_EN_FULL} | indie developer & OPC directory`;
+  const desc = `${BRAND_EN_FULL} (indiemaker.cn) is an entirely free directory of AI tools, websites, apps and games created by indie developers and OPCs worldwide. Daily sync from an open-source repository; no membership, no paid ranking.`;
   const faq = [
     {
       q: `What is ${BRAND_EN_FULL}?`,
-      a: "A directory (not a tool site) of AI tools, websites, apps and games created by Chinese indie developers. We organise works scattered across GitHub READMEs into a directory that is genuinely easy to browse, search and discover. Indexing and navigation only: we don't build, host or resell any product — entirely free, no membership, no paid ranking."
+      a: "A directory (not a tool site) of AI tools, websites, apps and games created by indie developers and OPCs worldwide. We organise works scattered across GitHub READMEs into a directory that is genuinely easy to browse, search and discover. Indexing and navigation only: we don't build, host or resell any product — entirely free, no membership, no paid ranking."
     },
     {
       q: "Where does the data come from?",
@@ -791,7 +791,7 @@ function renderEnAboutPage({ siteUrl, umamiScript, organizationLd }) {
   const body = `    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/en/">Directory</a><span class="sep">›</span><span class="current">About</span></nav>
     <section class="site-def" aria-labelledby="siteDefTitle">
       <h2 id="siteDefTitle">What is ${BRAND_EN_FULL}?</h2>
-      <p class="site-def-lead">A <b>directory</b> of works by Chinese indie developers — not a tool site. We don't build, host or resell any product; we only index and navigate.</p>
+      <p class="site-def-lead">A <b>directory</b> of works by indie developers and OPCs worldwide — not a tool site. We don't build, host or resell any product; we only index and navigate.</p>
       <p class="site-def-meta">
         <span><b>Entirely free</b> — no membership, no paid features</span>
         <span><b>No paid ranking</b> — sorted by date added only</span>
@@ -1050,7 +1050,7 @@ function renderEnProductPage(p, slug, slugMap, related, descEnMap, ctx) {
     ${relatedCards ? `<section class="related" id="related"><h2>Related products</h2><div class="related-grid">${relatedCards}</div></section>` : ""}
     <section class="unique-block">
       <h2>About this listing</h2>
-      <p>This page is part of <a href="/en/">Indie Maker</a>, a directory of works by Chinese indie developers. We sync daily from the open-source repository <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer</a>; this product was added on <b>${p.addedAt}</b>.</p>
+      <p>This page is part of <a href="/en/">Indie Maker</a>, a directory of works by indie developers and OPCs worldwide. We sync daily from the open-source repository <a href="https://github.com/1c7/chinese-independent-developer" target="_blank" rel="noreferrer">chinese-independent-developer</a>; this product was added on <b>${p.addedAt}</b>.</p>
       <p class="u-boundary"><b>About pricing</b><span>Any pricing, membership, plans or premium features mentioned in a product's description belong to that product itself, not to this directory. We don't build, host or resell any product — the directory is entirely free.</span></p>
     </section>`
   });
@@ -1085,7 +1085,7 @@ function renderEnCategoryPage(cat, catSlug, productsInCat, slugMap, descEnMap, a
   const listLD = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `${catEn} — Chinese indie developer products`,
+    name: `${catEn} — indie developer & OPC products`,
     numberOfItems: productsInCat.length,
     itemListElement: slice.map((p, i) => ({ "@type": "ListItem", position: (page - 1) * CATEGORY_PAGE_SIZE + i + 1, name: enNameOf(p), url: `${siteUrl}/en/p/${slugMap.get(p.id)}.html` }))
   });

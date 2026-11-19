@@ -113,7 +113,7 @@ export const LOCALES = {
     notFoundLatest: "最新收录",
     // 首页站点定义（GEO：给 AI 搜索一个明确可引用的自我描述）
     siteDefTitle: "AI 独立制造所是什么？",
-    siteDefLead: "收录中国独立开发者创造的 AI 工具、网站、应用与游戏的目录站，不是工具站：本站不开发、不托管、不代理任何产品，只做索引与导航。",
+    siteDefLead: "收录全网独立开发者及OPC创造的 AI 工具、网站、应用与游戏的目录站，不是工具站：本站不开发、不托管、不代理任何产品，只做索引与导航。",
     siteDefFree: "全站免费，无会员无付费",
     siteDefNoRank: "无竞价排名，排序只看收录时间",
     siteDefBoundary: "描述中的价格与会员属产品自身，与本站无关"
@@ -164,7 +164,7 @@ export const LOCALES = {
     footerContact: "Contact & Feedback",
     footerSupport: "Support this site",
     a11yFooterLinks: "Footer navigation",
-    footerDef: "A directory of works by Chinese indie developers. We don't build, host or resell any product — entirely free, no paid rankings.",
+    footerDef: "A directory of works by indie developers and OPCs worldwide. We don't build, host or resell any product — entirely free, no paid rankings.",
     footerFeedback: "Feedback",
     // Homepage channel hub. Ranking/category labels come from CATEGORY_I18N instead.
     hubTitle: "Not sure where to start?",
@@ -221,7 +221,7 @@ export const LOCALES = {
     notFoundLatest: "Recently added",
     // Homepage site definition (GEO: a quotable self-description for AI search)
     siteDefTitle: "What is Indie Maker?",
-    siteDefLead: "A directory of AI tools, websites, apps and games created by Chinese indie developers — not a tool site. We don't build, host or resell any product; we only index and navigate.",
+    siteDefLead: "A directory of AI tools, websites, apps and games created by indie developers and OPCs worldwide — not a tool site. We don't build, host or resell any product; we only index and navigate.",
     siteDefFree: "Entirely free — no membership, no paid features",
     siteDefNoRank: "No paid ranking — sorted by date added only",
     siteDefBoundary: "Pricing & membership in a description belong to that product, not to us"
