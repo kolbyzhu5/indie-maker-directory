@@ -4,29 +4,175 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-18T13:42:29.729Z",
+  "generatedAt": "2026-11-19T03:09:54.570Z",
   "counts": {
-    "total": 3678,
-    "main": 3054,
+    "total": 3687,
+    "main": 3062,
     "programmer": 453,
-    "game": 171,
+    "game": 172,
     "custom": 5
   },
   "categoryCounts": {
-    "AI 工具": 1261,
-    "图片工具": 701,
-    "音视频": 661,
+    "AI 工具": 1266,
+    "图片工具": 709,
+    "音视频": 666,
     "开发工具": 733,
-    "浏览器扩展": 411,
+    "浏览器扩展": 412,
     "文档办公": 366,
-    "免费工具": 834,
-    "游戏娱乐": 202,
+    "免费工具": 836,
+    "游戏娱乐": 203,
     "效率工具": 505,
+    "教育学习": 209,
     "生活服务": 115,
-    "教育学习": 208,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261118-红鸦团队-红鸦-ai",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "红鸦团队",
+      "city": "",
+      "makerLinks": [],
+      "name": "红鸦 AI",
+      "url": "https://hy.ithinkai.cn/",
+      "status": "online",
+      "description": "给小红书运营和电商商家使用的网页版图文工具，输入主题或上传商品实拍图，先核对标题、正文与每页配图大纲，再批量生成图片；生成按账号积分计费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261118-ldmts-ai-pet-meme",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "Ldmts",
+      "city": "",
+      "makerLinks": [],
+      "name": "AI Pet Meme",
+      "url": "https://aipetmeme.org/",
+      "status": "online",
+      "description": "宠物梗视频工具，一张猫或狗的照片即可生成跳舞、唱歌、说话或反应类的带声音短视频",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261118-ldmts-rap-ai-video",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "Ldmts",
+      "city": "",
+      "makerLinks": [],
+      "name": "Rap AI Video",
+      "url": "https://airapvideoai.org/",
+      "status": "online",
+      "description": "说唱短视频工具，上传两张照片并选择舞台，生成带嘻哈节奏和说唱人声的竖屏片段",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261118-ldmts-effectclick",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "Ldmts",
+      "city": "",
+      "makerLinks": [],
+      "name": "EffectClick",
+      "url": "https://effectclick.com/",
+      "status": "online",
+      "description": "模板视频工具，选热门模板、上传一张照片，即可生成带声音的竖屏短视频，不用写提示词",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261118-ldmts-ai-image-editor",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "Ldmts",
+      "city": "",
+      "makerLinks": [],
+      "name": "AI Image Editor",
+      "url": "https://image-editor-ai.com/",
+      "status": "online",
+      "description": "AI 修图工具，支持提示词编辑，以及去背景、去文字水印、老照片修复、上色和放大",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261118-ldmts-image-to-image-ai",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "Ldmts",
+      "city": "",
+      "makerLinks": [],
+      "name": "Image to Image AI",
+      "url": "https://imagetoimageai.io/",
+      "status": "online",
+      "description": "图生图编辑工具，上传照片后用提示词做风格迁移、细节修改和去背景",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261118-ldmts-grok-imagine",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "Ldmts",
+      "city": "",
+      "makerLinks": [],
+      "name": "Grok Imagine",
+      "url": "https://imaginegrok.org/",
+      "status": "online",
+      "description": "图像和短视频生成工具，支持文生图、图生视频，提供 Normal、Fun、Spicy 三种模式，无需 X 账号",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261118-ldmts-letsmkvideo",
+      "edition": "main",
+      "addedAt": "2026-11-18",
+      "maker": "Ldmts",
+      "city": "",
+      "makerLinks": [],
+      "name": "letsmkvideo",
+      "url": "https://letsmkvideo.com/",
+      "status": "online",
+      "description": "文生视频和图生视频工具，既可以从提示词或照片生成，也可以用舞蹈、动漫、电影感等模板直接出片",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261118-viral-video-ai-团队-viral-video-ai",
       "edition": "main",
@@ -280,6 +426,32 @@
       "categories": [
         "AI 工具",
         "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261118-stimqq-famedle",
+      "edition": "game",
+      "addedAt": "2026-11-18",
+      "maker": "stimQQ",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/stimQQ"
+        }
+      ],
+      "name": "Famedle",
+      "url": "https://sparkgame.store/famedle",
+      "status": "online",
+      "description": "看线索猜名人的网页小游戏，要在倒计时结束前打出这位名人的名字。每人有 3 条线索，随时间依次解锁；猜错时按出生国家、去世年份、去世年龄和领域四项和答案比对，用绿、黄、灰色块提示差多远，并立刻多开一条线索。共 10 关、每关 5 人，越往后人越冷门、时间越短（每人 30 秒逐关减到 20 秒），每过一关得到一张称号卡（从「见多识广」到「名人堂」），可以保存或分享；题库 1,143 位古今中外人物，中英文界面可切换，设备语言是中文时先出中国名人。免费、免注册，手机和电脑浏览器打开就能玩",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "浏览器扩展",
+        "教育学习",
+        "游戏娱乐",
         "免费工具"
       ],
       "source": "upstream"
@@ -562,11 +734,15 @@
       "name": "Bazi Diff",
       "url": "https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh",
       "status": "online",
-      "description": "免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/) · [两岗事业样稿](https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=career_sample_zh)",
+      "description": "免费八字与紫微斗数排盘，可比较出生时段内哪些八字柱会变，也可用两张虚构盘对照夫妻宫。免注册，出生资料在浏览器内计算 - [中文说明](https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/) · [紫微夫妻宫算例](https://bazi-diff.pages.dev/guides/relationship-reflection/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=spouse_example_zh#relationship-empty-star) · [两岗事业样稿](https://bazi-diff.pages.dev/sample-report/career/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=career_sample_zh)",
       "extraLinks": [
         {
           "label": "中文说明",
           "url": "https://bazi-diff.pages.dev/guides/bazi-without-exact-birth-time/zh-hans/"
+        },
+        {
+          "label": "紫微夫妻宫算例",
+          "url": "https://bazi-diff.pages.dev/guides/relationship-reflection/zh-hans/?utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=spouse_example_zh#relationship-empty-star"
         },
         {
           "label": "两岗事业样稿",
@@ -574,8 +750,8 @@
         }
       ],
       "categories": [
-        "效率工具",
-        "浏览器扩展"
+        "浏览器扩展",
+        "免费工具"
       ],
       "source": "upstream"
     },

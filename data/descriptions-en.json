@@ -15458,5 +15458,41 @@
  "custom-20260829-0": {
   "descEn": "Open source and free AI short drama factory: full link automation from novels to scripts, storyboards, and videos, multi-agent collaboration, role consistency maintenance, and full platform availability",
   "at": "2026-11-18"
+ },
+ "main-20261118-红鸦团队-红鸦-ai": {
+  "descEn": "A web-based graphic and text tool for Xiaohongshu operators and e-commerce merchants. Enter a theme or upload real-life photos of the product. First check the title, text and outline of the images on each page, and then generate images in batches. The generated images are billed based on account points.",
+  "at": "2026-11-19"
+ },
+ "main-20261118-ldmts-ai-pet-meme": {
+  "descEn": "Pet meme video tool, a photo of a cat or dog can generate a short video with sound of dancing, singing, talking or reacting",
+  "at": "2026-11-19"
+ },
+ "main-20261118-ldmts-rap-ai-video": {
+  "descEn": "Rap short video tool, upload two photos and select the stage to generate a vertical screen clip with hip-hop rhythm and rap vocals",
+  "at": "2026-11-19"
+ },
+ "main-20261118-ldmts-effectclick": {
+  "descEn": "Template video tool, select a popular template, upload a photo, and you can generate a vertical short video with sound, no need to write prompt words",
+  "at": "2026-11-19"
+ },
+ "main-20261118-ldmts-ai-image-editor": {
+  "descEn": "AI photo retouching tool that supports prompt word editing, background removal, text watermark removal, old photo repair, coloring and enlargement",
+  "at": "2026-11-19"
+ },
+ "main-20261118-ldmts-image-to-image-ai": {
+  "descEn": "Tusheng photo editing tool, after uploading photos, use prompt words to transfer styles, modify details and remove backgrounds",
+  "at": "2026-11-19"
+ },
+ "main-20261118-ldmts-grok-imagine": {
+  "descEn": "Image and short video generation tool, supports text-based pictures and pictures-based videos, and provides three modes: Normal, Fun, and Spicy. No X account is required.",
+  "at": "2026-11-19"
+ },
+ "main-20261118-ldmts-letsmkvideo": {
+  "descEn": "Wensheng video and Tusheng video tools can be generated from prompt words or photos, or can be used to directly produce videos using dance, animation, movie-like templates, etc.",
+  "at": "2026-11-19"
+ },
+ "game-20261118-stimqq-famedle": {
+  "descEn": "It's a web game to guess the celebrity by looking at the clues. You have to type the celebrity's name before the countdown ends. Each person has 3 clues, which are unlocked sequentially over time; if you guess wrong, compare the answer with the four items of country of birth, year of death, age of death, and field. Green, yellow, and gray blocks will be used to indicate the distance, and an additional clue will be opened immediately. There are 10 levels in total, with 5 people in each level. The later people are less popular, the shorter the time (30 seconds for each level is reduced to 20 seconds). Each level you pass will get a title card (from \"Informed\" to \"Hall of Fame\"), which can be saved or shared; there are 1,143 ancient and modern Chinese and foreign figures in the question bank. The Chinese and English interfaces can be switched. When the device language is Chinese, Chinese celebrities will appear first. Free, no need to register, you can play it by opening the browser on your mobile phone or computer",
+  "at": "2026-11-19"
  }
 }

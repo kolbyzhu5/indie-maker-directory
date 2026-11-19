@@ -1,10 +1,34 @@
-# AI 独立制造所 · 全部产品清单（3678）
+# AI 独立制造所 · 全部产品清单（3687）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-18（北京时间）
+> 更新时间：2026-11-19（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3054）
+## 大众产品（3062）
+
+- **[红鸦 AI](https://hy.ithinkai.cn/)** — 开发者 红鸦团队 · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/ai-9f7798.html)
+  给小红书运营和电商商家使用的网页版图文工具，输入主题或上传商品实拍图，先核对标题、正文与每页配图大纲，再批量生成图片；生成按账号积分计费
+
+- **[AI Pet Meme](https://aipetmeme.org/)** — 开发者 Ldmts · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/ai-pet-meme.html)
+  宠物梗视频工具，一张猫或狗的照片即可生成跳舞、唱歌、说话或反应类的带声音短视频
+
+- **[Rap AI Video](https://airapvideoai.org/)** — 开发者 Ldmts · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/rap-ai-video.html)
+  说唱短视频工具，上传两张照片并选择舞台，生成带嘻哈节奏和说唱人声的竖屏片段
+
+- **[EffectClick](https://effectclick.com/)** — 开发者 Ldmts · 图片工具 / 音视频 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/effectclick.html)
+  模板视频工具，选热门模板、上传一张照片，即可生成带声音的竖屏短视频，不用写提示词
+
+- **[AI Image Editor](https://image-editor-ai.com/)** — 开发者 Ldmts · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/ai-image-editor-cde727.html)
+  AI 修图工具，支持提示词编辑，以及去背景、去文字水印、老照片修复、上色和放大
+
+- **[Image to Image AI](https://imagetoimageai.io/)** — 开发者 Ldmts · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/image-to-image-ai-33e34e.html)
+  图生图编辑工具，上传照片后用提示词做风格迁移、细节修改和去背景
+
+- **[Grok Imagine](https://imaginegrok.org/)** — 开发者 Ldmts · 图片工具 / 音视频 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/grok-imagine.html)
+  图像和短视频生成工具，支持文生图、图生视频，提供 Normal、Fun、Spicy 三种模式，无需 X 账号
+
+- **[letsmkvideo](https://letsmkvideo.com/)** — 开发者 Ldmts · 图片工具 / 音视频 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/letsmkvideo.html)
+  文生视频和图生视频工具，既可以从提示词或照片生成，也可以用舞蹈、动漫、电影感等模板直接出片
 
 - **[Viral Video AI](https://viralvideoai.ai/)** — 开发者 Viral Video AI 团队 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/viral-video-ai.html)
   网页版短视频生成工具，上传自己的照片套用热门模板，或粘贴公开的 TikTok、YouTube、Instagram 视频链接作为参考，省去手动下载和重传；生成前可查看积分消耗，生成需要 Google 登录和付费积分
@@ -60,8 +84,8 @@
 - **[资料星球](https://resources.packscena.com/)** — 开发者 JonathanOwenTJ · AI 工具 / 教育学习 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/project-f5c118.html)
   中文学习与创作资料导航，按语言学习、AI、内容创作等主题查找资料，先看目录预览，再跳转夸克网盘免费领取，浏览无需注册
 
-- **[Bazi Diff](https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh)** — 开发者 chilayt · 效率工具 / 浏览器扩展 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/bazi-diff.html)
-  免注册的四柱八字试算网站，出生时间只记得大概时，也能按时段比较五种排盘设置，查看哪些柱一致、哪些可能变化，出生资料在浏览器内计算 - 中文说明 · 两岗事业样稿
+- **[Bazi Diff](https://bazi-diff.pages.dev/chart/?time=range&utm_source=chinese_indie_dev&utm_medium=community&utm_campaign=birth_time_zh)** — 开发者 chilayt · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/bazi-diff.html)
+  免费八字与紫微斗数排盘，可比较出生时段内哪些八字柱会变，也可用两张虚构盘对照夫妻宫。免注册，出生资料在浏览器内计算 - 中文说明 · 紫微夫妻宫算例 · 两岗事业样稿
 
 - **[Telo](https://telo.ferryman.app/)** — 开发者 BlynkAI · AI 工具 / 图片工具 / 音视频 / 生活服务 · 已上线 · 收录 2026-11-17 · [详情页](https://indiemaker.cn/p/telo.html)
   iPhone 和 Apple Watch 上的 AI 健康助手，把 Apple 健康里的睡眠、运动与心率变异性放在一起，方便查看每日状态，也能用语音、照片或文字记录健康事件
@@ -10529,7 +10553,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（171）
+## 独立游戏（172）
+
+- **[Famedle](https://sparkgame.store/famedle)** — 开发者 stimQQ · 效率工具 / 浏览器扩展 / 教育学习 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/famedle.html)
+  看线索猜名人的网页小游戏，要在倒计时结束前打出这位名人的名字。每人有 3 条线索，随时间依次解锁；猜错时按出生国家、去世年份、去世年龄和领域四项和答案比对，用绿、黄、灰色块提示差多远，并立刻多开一条线索。共 10 关、每关 5 人，越往后人越冷门、时间越短（每人 30 秒逐关减到 20 秒），每过一关得到一张称号卡（从「见多识广」到「名人堂」），可以保存或分享；题库 1,143 位古今中外人物，中英文界面可切换，设备语言是中文时先出中国名人。免费、免注册，手机和电脑浏览器打开就能玩
 
 - **[Best Daily Games](https://bestdaily.games/)** — 开发者 Andrew Bamboo · 效率工具 / 游戏娱乐 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/best-daily-games.html)
   每日网页游戏导航，按文字、地理、问答等玩法找游戏，条目链接到创作者原版。只有几分钟时，可以先看适合咖啡休息时间玩的小游戏
