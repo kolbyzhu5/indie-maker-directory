@@ -50,6 +50,16 @@
       "status": "online",
       "categories": ["AI 工具", "效率工具"],
       "addedAt": "2026-11-18"
+    },
+    {
+      "name": "巧手打字通",
+      "url": "https://laidazi.com",
+      "description": "面向初学者的在线打字练习平台，集打字教学、练习、速度测试与趣味打字游戏于一体",
+      "maker": "巧手打字通团队",
+      "city": "",
+      "status": "online",
+      "categories": ["教育学习", "免费工具"],
+      "addedAt": "2026-11-19"
     }
   ]
 }
