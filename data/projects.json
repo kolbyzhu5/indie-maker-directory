@@ -4,25 +4,25 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-19T04:11:17.880Z",
+  "generatedAt": "2026-11-19T04:30:26.485Z",
   "counts": {
-    "total": 3688,
-    "main": 3063,
+    "total": 3689,
+    "main": 3064,
     "programmer": 453,
     "game": 172,
-    "custom": 5
+    "custom": 6
   },
   "categoryCounts": {
     "AI 工具": 1267,
     "图片工具": 710,
     "音视频": 667,
     "效率工具": 506,
-    "免费工具": 837,
+    "免费工具": 838,
+    "教育学习": 210,
     "开发工具": 733,
     "浏览器扩展": 412,
     "文档办公": 366,
     "游戏娱乐": 203,
-    "教育学习": 209,
     "生活服务": 115,
     "社交社区": 137
   },
@@ -52,6 +52,24 @@
         "免费工具"
       ],
       "source": "upstream"
+    },
+    {
+      "id": "custom-20261119-5",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "巧手打字通团队",
+      "city": "",
+      "makerLinks": [],
+      "name": "巧手打字通",
+      "url": "https://laidazi.com",
+      "status": "online",
+      "description": "面向初学者的在线打字练习平台，集打字教学、练习、速度测试与趣味打字游戏于一体",
+      "extraLinks": [],
+      "categories": [
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "custom"
     },
     {
       "id": "main-20261118-红鸦团队-红鸦-ai",
