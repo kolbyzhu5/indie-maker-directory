@@ -6,6 +6,16 @@
       "statusCode": 301
     },
     {
+      "source": "/en/",
+      "destination": "/en/index.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en",
+      "destination": "/en/index.html",
+      "statusCode": 301
+    },
+    {
       "source": "/p/3d.html",
       "destination": "/p/3d-bf225d.html",
       "statusCode": 301
