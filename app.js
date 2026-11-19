@@ -230,7 +230,7 @@ function injectItemListJSONLD() {
   const ld = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "中国独立开发者产品列表",
+    "name": "全网独立开发者及OPC产品列表",
     "itemListElement": items
   };
   document.querySelectorAll('script[data-seo="itemlist"]').forEach((node) => node.remove());
@@ -278,8 +278,8 @@ function applyLocale() {
   const totalCount = state.data?.counts?.total;
   const totalLabel = totalCount ? `${totalCount.toLocaleString("zh-CN")}+` : "2900+";
   const desc = isZh
-    ? `发现中国独立开发者创造的网站、应用、工具与游戏，每日自动同步更新。涵盖 AI 工具、音视频、效率工具、开发工具、独立游戏等 ${totalLabel} 精选产品。`
-    : `Discover websites, apps, tools and games built by Chinese indie developers, synced daily. ${totalLabel} handpicked products across AI, productivity, dev tools and more.`;
+    ? `发现全网独立开发者及OPC创造的网站、应用、工具与游戏，每日自动同步更新。涵盖 AI 工具、音视频、效率工具、开发工具、独立游戏等 ${totalLabel} 精选产品。`
+    : `Discover websites, apps, tools and games built by indie developers and OPCs worldwide, synced daily. ${totalLabel} handpicked products across AI, productivity, dev tools and more.`;
   document.querySelector('meta[name="description"]')?.setAttribute("content", desc);
   document.querySelector('meta[property="og:title"]')?.setAttribute("content", document.title);
   document.querySelector('meta[property="og:description"]')?.setAttribute("content", desc);
