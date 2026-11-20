@@ -1,10 +1,52 @@
-# AI 独立制造所 · 全部产品清单（3689）
+# AI 独立制造所 · 全部产品清单（3708）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-19（北京时间）
+> 更新时间：2026-11-20（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3064）
+## 大众产品（3078）
+
+- **[微境沙盘](https://wyanhub.com/microcosm/)** — 开发者 微言 · 浏览器扩展 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-3de24f.html)
+  浏览器里的互动科学沙盘。可以拨动摆球观察摆波、调整棱镜看白光分色，也可以种植物观察生长过程，免登录
+
+- **[微言桌面 WyanDesk](https://desk.wyanhub.com/)** — 开发者 微言 · 效率工具 / 浏览器扩展 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/wyandesk.html)
+  浏览器里的个人桌面，可以把常用网站、待办和便签放在同一页，并按自己的习惯调整布局
+
+- **[AI指南站](https://taofai.com)** — 开发者 wodeai956-ops · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/ai-d430a8.html)
+  把免费 GPU、免费服务器、免费大模型 API 的额度信息逐条核实后整理成清单，标明额度、领取条件和核实日期，失效就下架，帮开发者省去自己逐个验证真伪的时间 - 开源仓库（179 条清单，每日自动同步）
+
+- **[观象](https://hexa.gavin.pub)** — 开发者 Gao Jiasheng · 效率工具 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-36ba2f.html)
+  中国古籍研读网站，85 部典籍原文逐段配白话译文，难字点开有注释，另有朝代时间轴、人物志与诸子对辩，免费免登录无广告
+
+- **[红果桌面端](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases)** — 开发者 渠道有数 · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-3b4a69.html)
+  适用于 Windows 10 / 11 x64 的免费第三方短剧客户端，在电脑上搜索、选集、收藏和接着本机进度看。由渠道有数独立维护，非红果官方出品。另有 Mac 和 Android TV 测试版
+
+- **[DemoReady](https://demoready.bitwonder.app/)** — 开发者 qijin-3 · 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/demoready.html)
+  输入网页链接直接录制产品演示视频，支持 localhost 和线上网站，可选视频比例、设备 Mockup 与莫奈、葛饰北斋等艺术画作背景，实时预览最终画面后直接录制下载，全程在浏览器里完成，不用安装
+
+- **[小陪班 PetWaits](https://petwaits.com/zh)** — 开发者 ZHANG LINGQING · 图片工具 / 开发工具 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/petwaits.html)
+  用一张自家猫狗的照片做一个会唱歌、会跳舞的桌宠，让它在 Mac 或 Windows 桌面上陪你工作。每只宠物一次付费
+
+- **[BeatMusic](https://beatmusic.ai/)** — 开发者 Haoxiang Chen · AI 工具 / 音视频 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/beatmusic.html)
+  AI 音乐生成工具，输入一句想法或粘贴歌词，几分钟生成原创、免版税的完整歌曲，还支持 100+ 种声音风格的 AI 翻唱、50+ 种风格的 AI 混音和人声分离，不会乐器也能用
+
+- **[BeatMV](https://beatmv.ai/)** — 开发者 Haoxiang Chen · AI 工具 / 音视频 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/beatmv.html)
+  AI 音乐视频生成工具，上传一首歌就能生成跟着节拍走的音乐 MV，支持固定角色、分镜生成、Suno/Udio 歌曲转视频和歌词视频，可导出到 YouTube、TikTok、Reels
+
+- **[构图AI](https://draw.lzkz.top/)** — 开发者 松柏 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/ai-ec3b55.html)
+  基于 Excalidraw 引擎的 AI 手绘风格技术图表工具，一句话生成架构图、时序图、流程图、思维导图、拓扑图、ER 图等 12 种技术图表，生成后可在画布上继续拖拽编辑或框选局部让 AI 精修，支持导出 PNG / SVG / .excalidraw 源文件；内置 20+ 可二次编辑的示例模板，登录可免费体验（另有会员档与 MIT 开源版可自带 API Key 本地运行）
+
+- **[松果看板](https://songguo.lzkz.top)** — 开发者 松柏 · AI 工具 / 音视频 / 文档办公 / 开发工具 / 浏览器扩展 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/project-ec8e6e.html)
+  面向自媒体创作者与内容运营的多平台数据看板与 AI 复盘工作台，把微信公众号、小红书、B站、抖音、微信视频号五个平台的阅读/播放、点赞、收藏、评论、互动率与粉丝数据收进同一张表，按各平台自身篇均倍数自动标记爆款、生成最佳发布时段热力图、支持一键 AI 复盘及通过远程/本地 MCP 接入 Claude、Cursor 直接查数据写复盘；登录态仅保存在本地浏览器，服务器不存 Cookie。免费版可先连接 1 个平台，内置免登录公众号 Markdown 排版工具永久免费
+
+- **[Earlyfollow](https://earlyfollow.com/)** — 开发者 Wujie Li · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/earlyfollow.html)
+  AI 创业公司发现榜单，每天盯 500 多位风投、天使投资人在 X 上刚开始关注的新 AI 公司，每条信号都能看到是谁、在哪天关注的；免费看延后 14 天的榜单，Pro 去掉延迟并提供完整关注者名单、CSV 与 API
+
+- **[My Face Analyzer](https://myfaceanalyzer.com/zh-cn)** — 开发者 deepblue1991 · AI 工具 / 图片工具 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/my-face-analyzer.html)
+  脸部分析网站，上传一张自拍免费测脸型、眼型、下颌线、左右对称、黄金比例和眼角倾斜，测量线直接画在照片上；478 个面部关键点在浏览器本地计算，照片不上传、无需注册；详细报告一次性付费 $7.99 起（含 AI 发型试戴图和 PDF），支持简繁中文、英文、日文
+
+- **[7 Deadly Sins Test](https://7-deadly-sins-test.org/?utm_source=github.com&utm_medium=referral&utm_campaign=directory_listing&utm_content=website_link)** — 开发者 finalgod2003 · 免费工具 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/7-deadly-sins-test.html)
+  免费七宗罪网页测验，答完 28 道题可查看七项得分，分享结果后可与朋友在同一张图上对比，无需注册
 
 - **[blubiu](https://blubiu.ai)** — 开发者 stimQQ · AI 工具 / 图片工具 / 音视频 / 效率工具 / 免费工具 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/blubiu.html)
   AI 动画视频生成工具，主打「角色每一镜都是同一个」：角色的设定卡、三视图、场景和道具先存进资产库，之后做每条视频都直接取用，不用重新描述。剧本、角色图、镜头、配音都是画布上的节点，连起来就是一条工作流，哪一步不满意只重跑那一步；也可以对内置的 Agent 说一句想做什么，它来加节点、连线、写提示词。一份积分通用 24 个图片和视频模型（Seedance 2.0、Kling 4.0、VEO 3.1 Fast、GPT Image 2.6 等），另有照片动起来、照片说话、吉祥物设计、AI 跳舞、火柴人动画等现成工具。网页英文界面，可切换中文，Google 登录，免费档每月送 75 积分，之后月订阅 $14.9 起，也有积分包（$89.9 一包永不过期），生成失败自动退还积分
@@ -4899,6 +4941,18 @@
 - **[Beardstyle AI](https://beardstyle.org/)** — 开发者 Yuzu-Peel（北京） · AI 工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/beardstyle-ai.html)
   虚拟试戴胡子
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Yuzu-Peel（北京） · AI 工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/ai-2045e5.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Yuzu-Peel（北京） · 开发工具 / 免费工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/project-ea6e0c.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Yuzu-Peel（北京） · 开发工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/project-f13507.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Yuzu-Peel（北京） · 浏览器扩展 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/project-f13987.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[实用小工具：时间格式转换和计算器](https://time-to-decimal.org/)** — 开发者 pandaupup（广州） · 效率工具 · 已上线 · 收录 2025-09-29 · [详情页](https://indiemaker.cn/p/project-4673d7.html)
   支持时分秒格式和小数表示法双向转换、分钟/秒/天不同单位相互转换、考勤打卡时间四舍五入，工资计算等
 
@@ -4937,18 +4991,6 @@
 
 - **[AI Image Editor](https://aiimageeditor.photos/)** — 开发者 皮皮卡 · AI 工具 / 图片工具 · 已上线 · 收录 2025-09-25 · [详情页](https://indiemaker.cn/p/ai-image-editor-417ffc.html)
   通过文字指令编辑你的照片，AI 图像编辑器是一款由提示词驱动的智能新一代工具，它能让您使用自然语言编辑照片——无需像传统照片编辑器那样进行复杂的手动操作
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 皮皮卡 · AI 工具 · 已上线 · 收录 2025-09-25 · [详情页](https://indiemaker.cn/p/ai-18f7f9.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 皮皮卡 · 开发工具 / 免费工具 · 已上线 · 收录 2025-09-25 · [详情页](https://indiemaker.cn/p/project-7eadb0.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 皮皮卡 · 开发工具 · 已上线 · 收录 2025-09-25 · [详情页](https://indiemaker.cn/p/project-0ac836.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 皮皮卡 · 浏览器扩展 · 已上线 · 收录 2025-09-25 · [详情页](https://indiemaker.cn/p/project-0accb6.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Image to Image AI](https://imagetoimage.tech/)** — 开发者 Ryan10Yu · AI 工具 / 图片工具 · 已上线 · 收录 2025-09-24 · [详情页](https://indiemaker.cn/p/image-to-image-ai-ec7442.html)
   基于 AI 的图片修改和重绘工具
@@ -10559,7 +10601,22 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（172）
+## 独立游戏（177）
+
+- **[晚灯书店](https://wyanhub.com/bookshop/)** — 开发者 微言 · 游戏娱乐 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-37423f.html)
+  三维网页寻物游戏。可以在书店等场景里找藏物，也可以自己藏一封信，把链接发给朋友来找
+
+- **[算独方格](https://wyanhub.com/sudoku/)** — 开发者 微言 · 未分类 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-42f548.html)
+  网页版数独练习与解题工具。可以自己做题，也可以逐步查看解题推理、整理题本和打印题目
+
+- **[GuessCrowd](https://guesscrowd.com/)** — 开发者 liuzhen264 · 效率工具 / 浏览器扩展 / 生活服务 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/guesscrowd.html)
+  英文每日问答网页游戏。每天五道生活类问题，每题有 20 秒输入你认为最多人会给出的答案，越常见的答案得分越高。作答后可看答案排名，初期由预估答案生成，再随真实作答更新。每天当地时间零点换题，往期可以重玩。免费，手机和电脑浏览器打开就能玩，无需注册
+
+- **[pubgspot](https://pubgspot.com/zh/)** — 开发者 Ted151951 · 浏览器扩展 / 生活服务 / 游戏娱乐 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/pubgspot.html)
+  《绝地求生》九张互动地图，可查密室和载具点位。在艾伦格和米拉玛点选密室，就能对照游戏实景找到入口。手机浏览器可直接使用
+
+- **[深矿 Deepmine](https://github.com/yjin94606-art/deepmine)** — 开发者 yjin94606-art · AI 工具 / 图片工具 / 开发工具 / 游戏娱乐 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/deepmine.html)
+  在自己电脑上玩的像素挖掘游戏。打开仓库 README，按系统下载并启动，选一个用 Codex 或 Claude Code 做过的项目：那天消耗的 token 会驱动钻头，画过的肖像、做过的网页就可能从岩层里蹦出来；沿矿道往上翻，还能找到以前的作品 - 中文试玩（免安装，虚构样例） · 18 秒中文实机演示
 
 - **[Famedle](https://sparkgame.store/famedle)** — 开发者 stimQQ · 效率工具 / 浏览器扩展 / 教育学习 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/famedle.html)
   看线索猜名人的网页小游戏，要在倒计时结束前打出这位名人的名字。每人有 3 条线索，随时间依次解锁；猜错时按出生国家、去世年份、去世年龄和领域四项和答案比对，用绿、黄、灰色块提示差多远，并立刻多开一条线索。共 10 关、每关 5 人，越往后人越冷门、时间越短（每人 30 秒逐关减到 20 秒），每过一关得到一张称号卡（从「见多识广」到「名人堂」），可以保存或分享；题库 1,143 位古今中外人物，中英文界面可切换，设备语言是中文时先出中国名人。免费、免注册，手机和电脑浏览器打开就能玩

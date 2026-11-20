@@ -4,29 +4,461 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-19T04:30:26.485Z",
+  "generatedAt": "2026-11-20T03:15:14.997Z",
   "counts": {
-    "total": 3689,
-    "main": 3064,
+    "total": 3708,
+    "main": 3078,
     "programmer": 453,
-    "game": 172,
+    "game": 177,
     "custom": 6
   },
   "categoryCounts": {
-    "AI 工具": 1267,
-    "图片工具": 710,
-    "音视频": 667,
-    "效率工具": 506,
-    "免费工具": 838,
+    "浏览器扩展": 419,
+    "效率工具": 510,
+    "AI 工具": 1275,
+    "开发工具": 740,
+    "免费工具": 846,
+    "游戏娱乐": 207,
+    "生活服务": 117,
+    "音视频": 671,
+    "图片工具": 713,
+    "文档办公": 368,
     "教育学习": 210,
-    "开发工具": 733,
-    "浏览器扩展": 412,
-    "文档办公": 366,
-    "游戏娱乐": 203,
-    "生活服务": 115,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261120-lxshwyan-微境沙盘",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "微境沙盘",
+      "url": "https://wyanhub.com/microcosm/",
+      "status": "online",
+      "description": "浏览器里的互动科学沙盘。可以拨动摆球观察摆波、调整棱镜看白光分色，也可以种植物观察生长过程，免登录",
+      "extraLinks": [
+        {
+          "label": "直接体验摆波",
+          "url": "https://wyanhub.com/microcosm/lab/pendulum/"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-lxshwyan-微言桌面-wyandesk",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "微言桌面 WyanDesk",
+      "url": "https://desk.wyanhub.com/",
+      "status": "online",
+      "description": "浏览器里的个人桌面，可以把常用网站、待办和便签放在同一页，并按自己的习惯调整布局",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-wodeai956-ops-ai指南站",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "wodeai956-ops",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/wodeai956-ops"
+        }
+      ],
+      "name": "AI指南站",
+      "url": "https://taofai.com",
+      "status": "online",
+      "description": "把免费 GPU、免费服务器、免费大模型 API 的额度信息逐条核实后整理成清单，标明额度、领取条件和核实日期，失效就下架，帮开发者省去自己逐个验证真伪的时间 - [开源仓库](https://github.com/wodeai956-ops/awesome-free-ai-resources)（179 条清单，每日自动同步）",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/wodeai956-ops/awesome-free-ai-resources"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-gaojiasheng-观象",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "Gao Jiasheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/GaoJiasheng"
+        }
+      ],
+      "name": "观象",
+      "url": "https://hexa.gavin.pub",
+      "status": "online",
+      "description": "中国古籍研读网站，85 部典籍原文逐段配白话译文，难字点开有注释，另有朝代时间轴、人物志与诸子对辩，免费免登录无广告",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-waligoraamodio288-rgb-红果桌面端",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "渠道有数",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/waligoraamodio288-rgb"
+        }
+      ],
+      "name": "红果桌面端",
+      "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
+      "status": "online",
+      "description": "适用于 Windows 10 / 11 x64 的免费第三方短剧客户端，在电脑上搜索、选集、收藏和接着本机进度看。由渠道有数独立维护，非红果官方出品。另有 Mac 和 Android TV 测试版",
+      "extraLinks": [
+        {
+          "label": "Windows 下载与安装",
+          "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/docs/WINDOWS-INSTALL.md"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261120-lxshwyan-晚灯书店",
+      "edition": "game",
+      "addedAt": "2026-11-20",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "晚灯书店",
+      "url": "https://wyanhub.com/bookshop/",
+      "status": "online",
+      "description": "三维网页寻物游戏。可以在书店等场景里找藏物，也可以自己藏一封信，把链接发给朋友来找",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261120-lxshwyan-算独方格",
+      "edition": "game",
+      "addedAt": "2026-11-20",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "算独方格",
+      "url": "https://wyanhub.com/sudoku/",
+      "status": "online",
+      "description": "网页版数独练习与解题工具。可以自己做题，也可以逐步查看解题推理、整理题本和打印题目",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261120-liuzhen264-guesscrowd",
+      "edition": "game",
+      "addedAt": "2026-11-20",
+      "maker": "liuzhen264",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/liuzhen264"
+        }
+      ],
+      "name": "GuessCrowd",
+      "url": "https://guesscrowd.com/",
+      "status": "online",
+      "description": "英文每日问答网页游戏。每天五道生活类问题，每题有 20 秒输入你认为最多人会给出的答案，越常见的答案得分越高。作答后可看答案排名，初期由预估答案生成，再随真实作答更新。每天当地时间零点换题，往期可以重玩。免费，手机和电脑浏览器打开就能玩，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "浏览器扩展",
+        "生活服务",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261120-ted151951-pubgspot",
+      "edition": "game",
+      "addedAt": "2026-11-20",
+      "maker": "Ted151951",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Ted151951"
+        }
+      ],
+      "name": "pubgspot",
+      "url": "https://pubgspot.com/zh/",
+      "status": "online",
+      "description": "《绝地求生》九张互动地图，可查密室和载具点位。在艾伦格和米拉玛点选密室，就能对照游戏实景找到入口。手机浏览器可直接使用",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "生活服务",
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-qijin-3-demoready",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "qijin-3",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/qijin-3"
+        }
+      ],
+      "name": "DemoReady",
+      "url": "https://demoready.bitwonder.app/",
+      "status": "online",
+      "description": "输入网页链接直接录制产品演示视频，支持 localhost 和线上网站，可选视频比例、设备 Mockup 与莫奈、葛饰北斋等艺术画作背景，实时预览最终画面后直接录制下载，全程在浏览器里完成，不用安装",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-zhang-lingqing-小陪班-petwaits",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "ZHANG LINGQING",
+      "city": "",
+      "makerLinks": [],
+      "name": "小陪班 PetWaits",
+      "url": "https://petwaits.com/zh",
+      "status": "online",
+      "description": "用一张自家猫狗的照片做一个会唱歌、会跳舞的桌宠，让它在 Mac 或 Windows 桌面上陪你工作。每只宠物一次付费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-haoxiang-chen-beatmusic",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "Haoxiang Chen",
+      "city": "",
+      "makerLinks": [],
+      "name": "BeatMusic",
+      "url": "https://beatmusic.ai/",
+      "status": "online",
+      "description": "AI 音乐生成工具，输入一句想法或粘贴歌词，几分钟生成原创、免版税的完整歌曲，还支持 100+ 种声音风格的 AI 翻唱、50+ 种风格的 AI 混音和人声分离，不会乐器也能用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-haoxiang-chen-beatmv",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "Haoxiang Chen",
+      "city": "",
+      "makerLinks": [],
+      "name": "BeatMV",
+      "url": "https://beatmv.ai/",
+      "status": "online",
+      "description": "AI 音乐视频生成工具，上传一首歌就能生成跟着节拍走的音乐 MV，支持固定角色、分镜生成、Suno/Udio 歌曲转视频和歌词视频，可导出到 YouTube、TikTok、Reels",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-co-pine-构图ai",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "松柏",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/co-pine"
+        }
+      ],
+      "name": "构图AI",
+      "url": "https://draw.lzkz.top/",
+      "status": "online",
+      "description": "基于 Excalidraw 引擎的 AI 手绘风格技术图表工具，一句话生成架构图、时序图、流程图、思维导图、拓扑图、ER 图等 12 种技术图表，生成后可在画布上继续拖拽编辑或框选局部让 AI 精修，支持导出 PNG / SVG / .excalidraw 源文件；内置 20+ 可二次编辑的示例模板，登录可免费体验（另有会员档与 MIT 开源版可自带 API Key 本地运行）",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/co-pine/ai-excalidraw"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-co-pine-松果看板",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "松柏",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/co-pine"
+        }
+      ],
+      "name": "松果看板",
+      "url": "https://songguo.lzkz.top",
+      "status": "online",
+      "description": "面向自媒体创作者与内容运营的多平台数据看板与 AI 复盘工作台，把微信公众号、小红书、B站、抖音、微信视频号五个平台的阅读/播放、点赞、收藏、评论、互动率与粉丝数据收进同一张表，按各平台自身篇均倍数自动标记爆款、生成最佳发布时段热力图、支持一键 AI 复盘及通过远程/本地 MCP 接入 Claude、Cursor 直接查数据写复盘；登录态仅保存在本地浏览器，服务器不存 Cookie。免费版可先连接 1 个平台，内置免登录公众号 Markdown 排版工具永久免费",
+      "extraLinks": [
+        {
+          "label": "公众号 Markdown 排版器",
+          "url": "https://songguo.lzkz.top/tools/wechat-formatter"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "文档办公",
+        "开发工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-wujieli0207-earlyfollow",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "Wujie Li",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/wujieli0207"
+        }
+      ],
+      "name": "Earlyfollow",
+      "url": "https://earlyfollow.com/",
+      "status": "online",
+      "description": "AI 创业公司发现榜单，每天盯 500 多位风投、天使投资人在 X 上刚开始关注的新 AI 公司，每条信号都能看到是谁、在哪天关注的；免费看延后 14 天的榜单，Pro 去掉延迟并提供完整关注者名单、CSV 与 API",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-deepblue1991-my-face-analyzer",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "deepblue1991",
+      "city": "",
+      "makerLinks": [],
+      "name": "My Face Analyzer",
+      "url": "https://myfaceanalyzer.com/zh-cn",
+      "status": "online",
+      "description": "脸部分析网站，上传一张自拍免费测脸型、眼型、下颌线、左右对称、黄金比例和眼角倾斜，测量线直接画在照片上；478 个面部关键点在浏览器本地计算，照片不上传、无需注册；详细报告一次性付费 $7.99 起（含 AI 发型试戴图和 PDF），支持简繁中文、英文、日文",
+      "extraLinks": [
+        {
+          "label": "英文版",
+          "url": "https://myfaceanalyzer.com"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-finalgod2003-7-deadly-sins-test",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "finalgod2003",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/finalgod2003"
+        }
+      ],
+      "name": "7 Deadly Sins Test",
+      "url": "https://7-deadly-sins-test.org/?utm_source=github.com&utm_medium=referral&utm_campaign=directory_listing&utm_content=website_link",
+      "status": "online",
+      "description": "免费七宗罪网页测验，答完 28 道题可查看七项得分，分享结果后可与朋友在同一张图上对比，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261119-stimqq-blubiu",
       "edition": "main",
@@ -50,6 +482,40 @@
         "音视频",
         "效率工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261119-yjin94606-art-深矿-deepmine",
+      "edition": "game",
+      "addedAt": "2026-11-19",
+      "maker": "yjin94606-art",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yjin94606-art"
+        }
+      ],
+      "name": "深矿 Deepmine",
+      "url": "https://github.com/yjin94606-art/deepmine",
+      "status": "online",
+      "description": "在自己电脑上玩的像素挖掘游戏。打开仓库 README，按系统下载并启动，选一个用 Codex 或 Claude Code 做过的项目：那天消耗的 token 会驱动钻头，画过的肖像、做过的网页就可能从岩层里蹦出来；沿矿道往上翻，还能找到以前的作品 - [中文试玩（免安装，虚构样例）](https://yjin94606-art.github.io/deepmine/?lang=zh-CN) · [18 秒中文实机演示](https://yjin94606-art.github.io/deepmine/watch/zh/)",
+      "extraLinks": [
+        {
+          "label": "中文试玩（免安装，虚构样例）",
+          "url": "https://yjin94606-art.github.io/deepmine/?lang=zh-CN"
+        },
+        {
+          "label": "18 秒中文实机演示",
+          "url": "https://yjin94606-art.github.io/deepmine/watch/zh/"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "游戏娱乐"
       ],
       "source": "upstream"
     },
@@ -48598,6 +49064,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251001-yuzu-peel-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-10-01",
+      "maker": "Yuzu-Peel",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yuzu-Peel"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251001-yuzu-peel-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-10-01",
+      "maker": "Yuzu-Peel",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yuzu-Peel"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251001-yuzu-peel-独立星球",
+      "edition": "main",
+      "addedAt": "2025-10-01",
+      "maker": "Yuzu-Peel",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yuzu-Peel"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251001-yuzu-peel-独立观察",
+      "edition": "main",
+      "addedAt": "2025-10-01",
+      "maker": "Yuzu-Peel",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Yuzu-Peel"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20250929-pandaupup-实用小工具-时间格式转换和计算器",
       "edition": "main",
       "addedAt": "2025-09-29",
@@ -48888,95 +49463,6 @@
       "categories": [
         "AI 工具",
         "图片工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250925-皮皮卡-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-09-25",
-      "maker": "皮皮卡",
-      "city": "",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250925-皮皮卡-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-09-25",
-      "maker": "皮皮卡",
-      "city": "",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250925-皮皮卡-独立星球",
-      "edition": "main",
-      "addedAt": "2025-09-25",
-      "maker": "皮皮卡",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20250925-皮皮卡-独立观察",
-      "edition": "main",
-      "addedAt": "2025-09-25",
-      "maker": "皮皮卡",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
