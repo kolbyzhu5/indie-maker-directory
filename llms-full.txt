@@ -1,10 +1,37 @@
-# AI 独立制造所 · 全部产品清单（3708）
+# AI 独立制造所 · 全部产品清单（3720）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-20（北京时间）
+> 更新时间：2026-11-21（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3078）
+## 大众产品（3087）
+
+- **[Photo to 3D Model](https://phototo3dmodel.org/)** — 开发者 Jianyu Chen · 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/photo-to-3d-model.html)
+  拍一张物品照片，在浏览器里生成可旋转查看、可下载的 3D 模型（GLB），登录可免费生成一次无纹理模型，带纹理版本按积分付费
+
+- **[StmtPilot](https://stmtpilot.com/zh)** — 开发者 Jianyu Chen · 文档办公 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/stmtpilot.html)
+  将 PDF 银行对账单转为 CSV 或 Excel，保留每笔交易的来源页，方便会计在导出前核对金额和标记行
+
+- **[Textless](https://textless.video/?utm_source=github&utm_medium=referral&utm_campaign=cn_indie)** — 开发者 Kuber · AI 工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/textless.html)
+  AI去除视频文字、字幕、水印。上传视频后框出文字、字幕或水印的位置，AI 重建画面；支持 MP4/MOV/AVI/MKV/WebM，免费可处理 10 秒视频，免登录先试 1 次
+
+- **[PawO](https://pawoai.com/?utm_source=github&utm_medium=referral&utm_campaign=cn_indie)** — 开发者 Kuber · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/pawo.html)
+  让你的宠物照片动起来！内置了很多AI模板，只需要上传一张宠物照片，就可以让宠物跳舞、模仿人说话、以及特殊搞笑场景模仿
+
+- **[面试领航员 InterPilot](https://interpilot.cn)** — 开发者 zhangmnn · 文档办公 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/interpilot.html)
+  线上面试时实时识别面试官的问题，结合简历和岗位给出可以直接说出口的回答，支持飞书、钉钉、腾讯会议等网页版，按分钟计费，新用户注册送 20 分钟
+
+- **[GuruTrans](https://gurutrans.app/)** — 开发者 Haoxiang Chen · AI 工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/gurutrans.html)
+  AI 翻译与文本工具网站，支持中英、日英、希腊语等语言互译，还能把英文改写成莎士比亚等历史风格，以及转换摩斯码，粘贴文字就能用
+
+- **[TattooTryOn](https://tattootryon.app/)** — 开发者 Yuzu-Peel · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/tattootryon.html)
+  纹之前，先在自己身上看看效果。上传一张照片，AI 把纹身画进你的皮肤，摆放预览免费
+
+- **[书本记账](https://github.com/z850672062/shubenjizhang)** — 开发者 z850672062 · AI 工具 / 音视频 / 生活服务 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-977774.html)
+  AI 语音记账微信小程序，说一句话自动识别金额、分类与标签，可按标签归类与多选筛选统计，支持从其他记账应用迁移数据
+
+- **[jpnotes 日语备考](https://jpnotes.dev/)** — 开发者 jpnotes · AI 工具 / 音视频 / 文档办公 / 教育学习 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/jpnotes.html)
+  JLPT 日语能力考试备考网站，N5–N1 全部免费：4000+ 道练习题（含带音频的听力题）、整套模拟考、93 课语法笔记和单词卡，答完可让 AI 讲解，点生词加入生词本按间隔复习；免注册，登录后进度多设备同步，中英双语界面
 
 - **[微境沙盘](https://wyanhub.com/microcosm/)** — 开发者 微言 · 浏览器扩展 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-3de24f.html)
   浏览器里的互动科学沙盘。可以拨动摆球观察摆波、调整棱镜看白光分色，也可以种植物观察生长过程，免登录
@@ -4902,6 +4929,18 @@
 - **[Sora Video Downloader](https://soravideodownloader.com/)** — 开发者 sing1ee（上海） · AI 工具 / 音视频 · 已停止 · 收录 2025-10-12 · [详情页](https://indiemaker.cn/p/sora-video-downloader.html)
   从共享链接下载 Sora AI 生成的视频。获取原始提示和高质量视频文件
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 sing1ee（上海） · AI 工具 · 已上线 · 收录 2025-10-12 · [详情页](https://indiemaker.cn/p/ai-e6ed08.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 sing1ee（上海） · 开发工具 / 免费工具 · 已上线 · 收录 2025-10-12 · [详情页](https://indiemaker.cn/p/project-7f06c2.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 sing1ee（上海） · 开发工具 · 已上线 · 收录 2025-10-12 · [详情页](https://indiemaker.cn/p/project-d43b4b.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 sing1ee（上海） · 浏览器扩展 · 已上线 · 收录 2025-10-12 · [详情页](https://indiemaker.cn/p/project-d43fcb.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Gemini Storybook Gallery](https://geministorybook.gallery/)** — 开发者 Leo（成都） · 教育学习 · 已上线 · 收录 2025-10-10 · [详情页](https://indiemaker.cn/p/gemini-storybook-gallery.html)
   Gemini Storybook 汇总，分类，保留原生的交互式阅读体验
 
@@ -4940,18 +4979,6 @@
 
 - **[Beardstyle AI](https://beardstyle.org/)** — 开发者 Yuzu-Peel（北京） · AI 工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/beardstyle-ai.html)
   虚拟试戴胡子
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 Yuzu-Peel（北京） · AI 工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/ai-2045e5.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 Yuzu-Peel（北京） · 开发工具 / 免费工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/project-ea6e0c.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 Yuzu-Peel（北京） · 开发工具 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/project-f13507.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 Yuzu-Peel（北京） · 浏览器扩展 · 已上线 · 收录 2025-10-01 · [详情页](https://indiemaker.cn/p/project-f13987.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[实用小工具：时间格式转换和计算器](https://time-to-decimal.org/)** — 开发者 pandaupup（广州） · 效率工具 · 已上线 · 收录 2025-09-29 · [详情页](https://indiemaker.cn/p/project-4673d7.html)
   支持时分秒格式和小数表示法双向转换、分钟/秒/天不同单位相互转换、考勤打卡时间四舍五入，工资计算等
@@ -9240,7 +9267,10 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（453）
+## 程序员版（454）
+
+- **[DataXAPI](https://dataxapi.com/zh/)** — 开发者 DataXAPI 团队 · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/dataxapi.html)
+  给 AI 和开发者用的市场数据接口，一把 Key 取抖音（含巨量算数、星图）、小红书（含蒲公英）、公众号、视频号、快手、B站、微博、知乎以及 TikTok、X、YouTube 等 21 个平台的公开数据；HTTP、SDK、命令行、远程 MCP 都能接，一次 $0.0003 起，调用失败不收费，免费试用最多 333 次、不用绑卡；需要写代码或在 AI 客户端里配置
 
 - **[HiAPI](https://hiapi.ai/?utm_source=github&utm_medium=awesome-list&utm_campaign=bf26&utm_content=chinese-independent-developer)** — 开发者 HiAPI 开发团队 · AI 工具 / 图片工具 / 音视频 / 开发工具 · 已上线 · 收录 2026-11-18 · [详情页](https://indiemaker.cn/p/hiapi.html)
   多模型 AI API 平台，同一个 Key 按量调用图片、视频、音频和文本模型（GPT Image、Seedance、Kling、Veo、DeepSeek、Claude、Grok、Qwen 等）；文本走 OpenAI 兼容的 Responses 与 Chat Completions，媒体生成走异步任务接口（提交任务拿 ID、轮询取结果）；按美元计费、单价公开，任务失败自动退款，注册送 200 积分（2,000 积分 = $1），需要用代码调用
@@ -10601,13 +10631,19 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（177）
+## 独立游戏（179）
+
+- **[熊熊时间工具](https://github.com/zollero/bear-time-challenge)** — 开发者 zollero · 效率工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/project-7b64c1.html)
+  凭感觉估时的微信小程序，开始后不显示计时数字，觉得 10 秒到了就按结束，查看实际用时和误差，也可以和朋友比谁更接近目标
 
 - **[晚灯书店](https://wyanhub.com/bookshop/)** — 开发者 微言 · 游戏娱乐 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-37423f.html)
   三维网页寻物游戏。可以在书店等场景里找藏物，也可以自己藏一封信，把链接发给朋友来找
 
 - **[算独方格](https://wyanhub.com/sudoku/)** — 开发者 微言 · 未分类 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-42f548.html)
   网页版数独练习与解题工具。可以自己做题，也可以逐步查看解题推理、整理题本和打印题目
+
+- **[微言松弛休闲](https://tools.wyanhub.com/relax)** — 开发者 微言 · 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-5d17ef.html)
+  浏览器益智与怀旧小游戏合集（免费），收录扫雷、推箱子、数独、2048 等经典玩法，也有旋镜引光、落叶归湾等原创短局。打开网页即可玩
 
 - **[GuessCrowd](https://guesscrowd.com/)** — 开发者 liuzhen264 · 效率工具 / 浏览器扩展 / 生活服务 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/guesscrowd.html)
   英文每日问答网页游戏。每天五道生活类问题，每题有 20 秒输入你认为最多人会给出的答案，越常见的答案得分越高。作答后可看答案排名，初期由预估答案生成，再随真实作答更新。每天当地时间零点换题，往期可以重玩。免费，手机和电脑浏览器打开就能玩，无需注册

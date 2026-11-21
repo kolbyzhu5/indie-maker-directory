@@ -4,29 +4,262 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-20T03:15:14.997Z",
+  "generatedAt": "2026-11-21T03:13:06.630Z",
   "counts": {
-    "total": 3708,
-    "main": 3078,
-    "programmer": 453,
-    "game": 177,
+    "total": 3720,
+    "main": 3087,
+    "programmer": 454,
+    "game": 179,
     "custom": 6
   },
   "categoryCounts": {
-    "浏览器扩展": 419,
-    "效率工具": 510,
-    "AI 工具": 1275,
-    "开发工具": 740,
-    "免费工具": 846,
-    "游戏娱乐": 207,
-    "生活服务": 117,
-    "音视频": 671,
-    "图片工具": 713,
-    "文档办公": 368,
-    "教育学习": 210,
+    "图片工具": 716,
+    "浏览器扩展": 421,
+    "免费工具": 852,
+    "文档办公": 371,
+    "AI 工具": 1282,
+    "音视频": 675,
+    "效率工具": 511,
+    "生活服务": 118,
+    "教育学习": 211,
+    "开发工具": 741,
+    "游戏娱乐": 208,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261121-cjianyu-photo-to-3d-model",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Jianyu Chen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CJianYu"
+        }
+      ],
+      "name": "Photo to 3D Model",
+      "url": "https://phototo3dmodel.org/",
+      "status": "online",
+      "description": "拍一张物品照片，在浏览器里生成可旋转查看、可下载的 3D 模型（GLB），登录可免费生成一次无纹理模型，带纹理版本按积分付费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-cjianyu-stmtpilot",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Jianyu Chen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/CJianYu"
+        }
+      ],
+      "name": "StmtPilot",
+      "url": "https://stmtpilot.com/zh",
+      "status": "online",
+      "description": "将 PDF 银行对账单转为 CSV 或 Excel，保留每笔交易的来源页，方便会计在导出前核对金额和标记行",
+      "extraLinks": [],
+      "categories": [
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-iam-tin-textless",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Kuber",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/iam-tin"
+        }
+      ],
+      "name": "Textless",
+      "url": "https://textless.video/?utm_source=github&utm_medium=referral&utm_campaign=cn_indie",
+      "status": "online",
+      "description": "AI去除视频文字、字幕、水印。上传视频后框出文字、字幕或水印的位置，AI 重建画面；支持 MP4/MOV/AVI/MKV/WebM，免费可处理 10 秒视频，免登录先试 1 次",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-iam-tin-pawo",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Kuber",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/iam-tin"
+        }
+      ],
+      "name": "PawO",
+      "url": "https://pawoai.com/?utm_source=github&utm_medium=referral&utm_campaign=cn_indie",
+      "status": "online",
+      "description": "让你的宠物照片动起来！内置了很多AI模板，只需要上传一张宠物照片，就可以让宠物跳舞、模仿人说话、以及特殊搞笑场景模仿",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261121-zollero-熊熊时间工具",
+      "edition": "game",
+      "addedAt": "2026-11-21",
+      "maker": "zollero",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zollero"
+        }
+      ],
+      "name": "熊熊时间工具",
+      "url": "https://github.com/zollero/bear-time-challenge",
+      "status": "online",
+      "description": "凭感觉估时的微信小程序，开始后不显示计时数字，觉得 10 秒到了就按结束，查看实际用时和误差，也可以和朋友比谁更接近目标",
+      "extraLinks": [],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-zhangmnn-面试领航员-interpilot",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "zhangmnn",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zhangmnn"
+        }
+      ],
+      "name": "面试领航员 InterPilot",
+      "url": "https://interpilot.cn",
+      "status": "online",
+      "description": "线上面试时实时识别面试官的问题，结合简历和岗位给出可以直接说出口的回答，支持飞书、钉钉、腾讯会议等网页版，按分钟计费，新用户注册送 20 分钟",
+      "extraLinks": [
+        {
+          "label": "使用说明",
+          "url": "https://interpilot.cn/guide.html"
+        }
+      ],
+      "categories": [
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-haoxiang-chen-gurutrans",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "Haoxiang Chen",
+      "city": "",
+      "makerLinks": [],
+      "name": "GuruTrans",
+      "url": "https://gurutrans.app/",
+      "status": "online",
+      "description": "AI 翻译与文本工具网站，支持中英、日英、希腊语等语言互译，还能把英文改写成莎士比亚等历史风格，以及转换摩斯码，粘贴文字就能用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-yuzu-peel-tattootryon",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "Yuzu-Peel",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Yuzu-Peel"
+        }
+      ],
+      "name": "TattooTryOn",
+      "url": "https://tattootryon.app/",
+      "status": "online",
+      "description": "纹之前，先在自己身上看看效果。上传一张照片，AI 把纹身画进你的皮肤，摆放预览免费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-z850672062-书本记账",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "z850672062",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/z850672062"
+        }
+      ],
+      "name": "书本记账",
+      "url": "https://github.com/z850672062/shubenjizhang",
+      "status": "online",
+      "description": "AI 语音记账微信小程序，说一句话自动识别金额、分类与标签，可按标签归类与多选筛选统计，支持从其他记账应用迁移数据",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261120-ralphbupt-jpnotes-日语备考",
+      "edition": "main",
+      "addedAt": "2026-11-20",
+      "maker": "jpnotes",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Ralphbupt"
+        }
+      ],
+      "name": "jpnotes 日语备考",
+      "url": "https://jpnotes.dev/",
+      "status": "online",
+      "description": "JLPT 日语能力考试备考网站，N5–N1 全部免费：4000+ 道练习题（含带音频的听力题）、整套模拟考、93 课语法笔记和单词卡，答完可让 AI 讲解，点生词加入生词本按间隔复习；免注册，登录后进度多设备同步，中英双语界面",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "文档办公",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261120-lxshwyan-微境沙盘",
       "edition": "main",
@@ -159,6 +392,36 @@
       "source": "upstream"
     },
     {
+      "id": "programmer-20261120-data-x-api-dataxapi",
+      "edition": "programmer",
+      "addedAt": "2026-11-20",
+      "maker": "DataXAPI 团队",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/data-x-api"
+        }
+      ],
+      "name": "DataXAPI",
+      "url": "https://dataxapi.com/zh/",
+      "status": "online",
+      "description": "给 AI 和开发者用的市场数据接口，一把 Key 取抖音（含巨量算数、星图）、小红书（含蒲公英）、公众号、视频号、快手、B站、微博、知乎以及 TikTok、X、YouTube 等 21 个平台的公开数据；HTTP、SDK、命令行、远程 MCP 都能接，一次 $0.0003 起，调用失败不收费，免费试用最多 333 次、不用绑卡；需要写代码或在 AI 客户端里配置",
+      "extraLinks": [
+        {
+          "label": "SDK 与中文文档",
+          "url": "https://github.com/data-x-api/dataxapi"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "game-20261120-lxshwyan-晚灯书店",
       "edition": "game",
       "addedAt": "2026-11-20",
@@ -198,6 +461,30 @@
       "description": "网页版数独练习与解题工具。可以自己做题，也可以逐步查看解题推理、整理题本和打印题目",
       "extraLinks": [],
       "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261120-lxshwyan-微言松弛休闲",
+      "edition": "game",
+      "addedAt": "2026-11-20",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "微言松弛休闲",
+      "url": "https://tools.wyanhub.com/relax",
+      "status": "online",
+      "description": "浏览器益智与怀旧小游戏合集（免费），收录扫雷、推箱子、数独、2048 等经典玩法，也有旋镜引光、落叶归湾等原创短局。打开网页即可玩",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "游戏娱乐",
+        "免费工具"
+      ],
       "source": "upstream"
     },
     {
@@ -48800,6 +49087,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251012-sing1ee-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-10-12",
+      "maker": "sing1ee",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sing1ee"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251012-sing1ee-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-10-12",
+      "maker": "sing1ee",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sing1ee"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251012-sing1ee-独立星球",
+      "edition": "main",
+      "addedAt": "2025-10-12",
+      "maker": "sing1ee",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sing1ee"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251012-sing1ee-独立观察",
+      "edition": "main",
+      "addedAt": "2025-10-12",
+      "maker": "sing1ee",
+      "city": "上海",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sing1ee"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20251010-leo-gemini-storybook-gallery",
       "edition": "main",
       "addedAt": "2025-10-10",
@@ -49060,115 +49456,6 @@
       "extraLinks": [],
       "categories": [
         "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251001-yuzu-peel-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-10-01",
-      "maker": "Yuzu-Peel",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Yuzu-Peel"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251001-yuzu-peel-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-10-01",
-      "maker": "Yuzu-Peel",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Yuzu-Peel"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251001-yuzu-peel-独立星球",
-      "edition": "main",
-      "addedAt": "2025-10-01",
-      "maker": "Yuzu-Peel",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Yuzu-Peel"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251001-yuzu-peel-独立观察",
-      "edition": "main",
-      "addedAt": "2025-10-01",
-      "maker": "Yuzu-Peel",
-      "city": "北京",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/Yuzu-Peel"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

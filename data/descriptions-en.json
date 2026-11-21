@@ -15610,5 +15610,69 @@
  "main-20251001-yuzu-peel-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-20"
+ },
+ "main-20251012-sing1ee-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-21"
+ },
+ "main-20261121-cjianyu-photo-to-3d-model": {
+  "descEn": "Take a photo of the item and generate a 3D model (GLB) that can be rotated and viewed in the browser and can be downloaded. Log in to generate a non-texture model for free, and the textured version is paid by points.",
+  "at": "2026-11-21"
+ },
+ "main-20261121-cjianyu-stmtpilot": {
+  "descEn": "Convert PDF bank statements to CSV or Excel, retaining the source page of each transaction so your accountant can verify amounts and mark rows before exporting",
+  "at": "2026-11-21"
+ },
+ "main-20261121-iam-tin-textless": {
+  "descEn": "AI removes video text, subtitles, and watermarks. After uploading the video, frame the position of text, subtitles or watermarks, and AI will reconstruct the picture; supports MP4/MOV/AVI/MKV/WebM, and can process 10-second videos for free. No need to log in to try once.",
+  "at": "2026-11-21"
+ },
+ "main-20261121-iam-tin-pawo": {
+  "descEn": "Make your pet photos move! There are many built-in AI templates. You only need to upload a pet photo to make your pet dance, imitate human speech, and imitate special funny scenes.",
+  "at": "2026-11-21"
+ },
+ "game-20261121-zollero-熊熊时间工具": {
+  "descEn": "A WeChat Mini Program for estimating time by feeling. It does not display the timing number after it starts. When you feel that 10 seconds are up, press End to check the actual time and error. You can also compare with your friends to see who is closer to the goal.",
+  "at": "2026-11-21"
+ },
+ "main-20261120-zhangmnn-面试领航员-interpilot": {
+  "descEn": "Identify the interviewer's questions in real time during an online interview, and give direct answers based on your resume and position. It supports web versions such as Feishu, DingTalk, and Tencent Meetings. It is billed by the minute. New users will receive 20 minutes for registration.",
+  "at": "2026-11-21"
+ },
+ "main-20261120-haoxiang-chen-gurutrans": {
+  "descEn": "The AI ​​translation and text tool website supports translation between Chinese and English, Japanese and English, Greek and other languages. It can also rewrite English into historical styles such as Shakespeare, as well as convert Morse code and paste text to use.",
+  "at": "2026-11-21"
+ },
+ "main-20261120-yuzu-peel-tattootryon": {
+  "descEn": "Before getting a tattoo, check the effect on yourself first. Upload a photo, AI will draw the tattoo into your skin, place and preview for free",
+  "at": "2026-11-21"
+ },
+ "main-20261120-z850672062-书本记账": {
+  "descEn": "AI voice accounting WeChat Mini Program can automatically identify amounts, categories and tags by speaking one sentence. It can classify and filter statistics by tags and support multiple selections. It supports data migration from other accounting applications.",
+  "at": "2026-11-21"
+ },
+ "main-20261120-ralphbupt-jpnotes-日语备考": {
+  "descEn": "JLPT Japanese Language Proficiency Test preparation website, N5-N1, all free: 4000+ practice questions (including listening questions with audio), a complete set of mock tests, 93 lessons of grammar notes and word cards. After answering, you can let AI explain, click on new words to add to the vocabulary book and review at intervals; no registration required, progress is synchronized on multiple devices after logging in, bilingual interface in Chinese and English",
+  "at": "2026-11-21"
+ },
+ "programmer-20261120-data-x-api-dataxapi": {
+  "descEn": "A market data interface for AI and developers. With one key, you can retrieve public data from 21 platforms including Douyin (including huge arithmetic and star maps), Xiaohongshu (including Dandelion), public accounts, video accounts, Kuaishou, Bilibili, Weibo, Zhihu, TikTok, No need to bind a card; you need to write code or configure it in the AI client",
+  "at": "2026-11-21"
+ },
+ "game-20261120-lxshwyan-微言松弛休闲": {
+  "descEn": "A collection of browser puzzle and nostalgic mini-games (free), including classic games such as Minesweeper, Sokoban, Sudoku, and 2048, as well as original short games such as Rotating Mirror to Light and Falling Leaves Returning to the Bay. Open the web page to play",
+  "at": "2026-11-21"
+ },
+ "main-20251012-sing1ee-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-21"
+ },
+ "main-20251012-sing1ee-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-21"
+ },
+ "main-20251012-sing1ee-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-21"
  }
 }
