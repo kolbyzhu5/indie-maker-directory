@@ -4,29 +4,388 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-21T03:13:06.630Z",
+  "generatedAt": "2026-11-22T02:13:52.289Z",
   "counts": {
-    "total": 3720,
-    "main": 3087,
-    "programmer": 454,
-    "game": 179,
+    "total": 3739,
+    "main": 3102,
+    "programmer": 456,
+    "game": 181,
     "custom": 6
   },
   "categoryCounts": {
-    "图片工具": 716,
-    "浏览器扩展": 421,
-    "免费工具": 852,
-    "文档办公": 371,
-    "AI 工具": 1282,
-    "音视频": 675,
-    "效率工具": 511,
-    "生活服务": 118,
-    "教育学习": 211,
-    "开发工具": 741,
-    "游戏娱乐": 208,
+    "AI 工具": 1286,
+    "图片工具": 719,
+    "音视频": 682,
+    "文档办公": 372,
+    "免费工具": 864,
+    "浏览器扩展": 423,
+    "生活服务": 119,
+    "开发工具": 744,
+    "效率工具": 512,
+    "游戏娱乐": 209,
+    "教育学习": 210,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261121-hehehai-refto",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "hehehai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "name": "Refto",
+      "url": "https://refto.one",
+      "status": "online",
+      "description": "Mac 上的素材库，图片、视频、PDF、网页收进一个库，按画面里的文字、录音里的话和相似图片找回来；AI 在本机运行，不上传",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-hehehai-dicta",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "hehehai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "name": "Dicta",
+      "url": "https://actnow.dev/zh/dicta",
+      "status": "online",
+      "description": "Mac 会议记录，不拉机器人进会，Zoom、腾讯会议、飞书开会时自动录音，本机分说话人转写并写总结",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-hehehai-inboxly",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "hehehai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "name": "Inboxly",
+      "url": "https://actnow.dev/zh/inboxly",
+      "status": "online",
+      "description": "Mac 邮件 App，Gmail、iCloud、QQ 邮箱、163 收进一个收件箱，等你回的信排最前，摘要和回信由本机模型写",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-hehehai-audiosmith",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "hehehai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "name": "AudioSmith",
+      "url": "https://actnow.dev/zh/audiosmith",
+      "status": "online",
+      "description": "Mac 本机语音工作室，朗读、克隆音色、做有声书、给视频配另一种语言，下载模型后离线可用，免费开源",
+      "extraLinks": [
+        {
+          "label": "开源代码",
+          "url": "https://github.com/hehehai/AudioSmith"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-hehehai-voxtmini",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "hehehai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "name": "VoxtMini",
+      "url": "https://actnow.dev/zh/voxtmini",
+      "status": "online",
+      "description": "Mac 语音输入，在任何 App 里按右 Option 说话，本地模型转成文字、翻译或改写，支持中英日，免费开源",
+      "extraLinks": [
+        {
+          "label": "开源代码",
+          "url": "https://github.com/hehehai/VoxtMini"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-hehehai-auralink",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "hehehai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "name": "Auralink",
+      "url": "https://actnow.dev/zh/auralink",
+      "status": "online",
+      "description": "Mac 语音输入，按 fn 说话，用你自己的豆包、阿里云、阶跃星辰等密钥，整理好的文字直接出现在光标处，免费开源",
+      "extraLinks": [
+        {
+          "label": "开源代码",
+          "url": "https://github.com/hehehai/Auralink"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-lrj982795268-arch-今天吃什么",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "lrj982795268-arch",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lrj982795268-arch"
+        }
+      ],
+      "name": "今天吃什么",
+      "url": "https://jinrichishenme.xyz/",
+      "status": "online",
+      "description": "家庭配餐工具，可以按冰箱里的食材找菜，选好早午晚餐后，把几顿饭要买的东西合成一张清单",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-loaslave1-drop",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "loaslave1",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/loaslave1"
+        }
+      ],
+      "name": "DROP",
+      "url": "https://drop.space/",
+      "status": "online",
+      "description": "临时文件收发工具。发一个链接，客户就能免注册交原稿，各自只看见自己交的文件。也可以授权 AI 助手收稿、核对缺件",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-ricky-transparentgifmaker",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Ricky",
+      "city": "深圳",
+      "makerLinks": [],
+      "name": "TransparentGIFMaker",
+      "url": "https://transparentgifmaker.online",
+      "status": "online",
+      "description": "一键移除动画 GIF 的背景并保留动画，输出透明 GIF，注册送 5 积分免费试",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-fatfish516-gifkit",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Zengzihe",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/fatfish516"
+        }
+      ],
+      "name": "gifkit",
+      "url": "https://gifkit.net",
+      "status": "online",
+      "description": "浏览器里的免费 GIF 工具箱，文件全程不上传：把 GIF 压缩到目标大小（含 Discord 的 256KB）、裁剪、变速、逐帧导出 PNG 或 ZIP、输入文字生成打字动图；免注册、无水印",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-饭响-饭响",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "饭响",
+      "city": "",
+      "makerLinks": [],
+      "name": "饭响",
+      "url": "https://fanxiang.cc",
+      "status": "online",
+      "description": "中文低粉创作者变现路线站，联盟项目库收录国内外 50 多个推广计划，每个按官方页写清佣金比例、分多久、提现门槛和收款方式，另有网盘拉新教程和变现问答，免费免注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-ceelog-cleanbit",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Ceelog",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Ceelog"
+        }
+      ],
+      "name": "CleanBit",
+      "url": "https://getcleanbit.app/zh/",
+      "status": "online",
+      "description": "Mac App Store 沙盒磁盘清理工具，无需 root 也不装后台进程；每一项缓存、Xcode/node_modules 项目产物、AI 会话与应用残留都会先写明是什么和删了有什么影响，确认后才动手，待确认项一律移入废纸篓可放回。扫描和前 2 次清理免费，提供订阅与一次买断",
+      "extraLinks": [
+        {
+          "label": "Mac App Store",
+          "url": "https://apps.apple.com/app/apple-store/id6829159531?pt=127116872&ct=github-list&mt=8"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-ixiehao-any2webp",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "ixiehao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "name": "Any2WebP",
+      "url": "https://ixiehao.github.io/Any2WebP/zh/",
+      "status": "online",
+      "description": "本地图片转换工具，把图片批量转为 WebP 或 GIF，也能把多张图片或短视频片段制成动图并逐帧对比；免费、MIT 开源",
+      "extraLinks": [
+        {
+          "label": "源码与下载",
+          "url": "https://github.com/ixiehao/Any2WebP"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-ixiehao-ezntfs",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "ixiehao",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ixiehao"
+        }
+      ],
+      "name": "ezNTFS",
+      "url": "https://ixiehao.github.io/ezNTFS/zh/",
+      "status": "online",
+      "description": "Mac 外接 NTFS 磁盘读写工具，支持按磁盘自动挂载、安全推出和 SHA-256 复制校验；免费开源，需 macFUSE",
+      "extraLinks": [
+        {
+          "label": "源码与安装要求",
+          "url": "https://github.com/ixiehao/ezNTFS"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261121-linky-aiinlink-site-templates-hub",
+      "edition": "main",
+      "addedAt": "2026-11-21",
+      "maker": "Linky",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Linky-AIinlink"
+        }
+      ],
+      "name": "Site Templates Hub",
+      "url": "https://sitetemplateshub.com/",
+      "status": "online",
+      "description": "免费 Google Sites 网站模板库，挑一个复制到自己的 Google Drive，替换文字和照片即可发布；无需写代码，托管免费，可绑定自定义域名",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261121-cjianyu-photo-to-3d-model",
       "edition": "main",
@@ -117,6 +476,104 @@
       "categories": [
         "AI 工具",
         "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261121-hehehai-pik",
+      "edition": "programmer",
+      "addedAt": "2026-11-21",
+      "maker": "hehehai",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hehehai"
+        }
+      ],
+      "name": "Pik",
+      "url": "https://actnow.dev/zh/pik",
+      "status": "online",
+      "description": "菜单栏取色器，取屏幕上任意一点的颜色存进调色板，可复制成 CSS、SwiftUI 等 28 种代码格式",
+      "extraLinks": [],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261121-jiangxingfan1-coder-open-agent-api",
+      "edition": "programmer",
+      "addedAt": "2026-11-21",
+      "maker": "StarFans",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jiangxingfan1-coder"
+        }
+      ],
+      "name": "Open Agent API",
+      "url": "https://openagentapi.pages.dev/",
+      "status": "online",
+      "description": "自托管开发工具，让现有 Python 或 Node.js 程序沿用 OpenAI SDK 调用本机代码助手，不用自己管理交互式命令行进程。Apache-2.0 开源，附不耗模型额度的离线示例",
+      "extraLinks": [
+        {
+          "label": "源码与中文快速入门",
+          "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API/blob/main/README.zh-CN.md"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261121-jnmbys-jnmbys-s-billions-zombie",
+      "edition": "game",
+      "addedAt": "2026-11-21",
+      "maker": "jnmbys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jnmbys"
+        }
+      ],
+      "name": "jnmbys's billions zombie",
+      "url": "https://zombie.jnmbys-war-atlas.com/",
+      "status": "online",
+      "description": "免费网页守城游戏，1–4 人可以一起建据点、修城墙、给炮塔补弹；尸潮恶母会标记受损的石墙，引导僵尸集中突破。支持中英文、触屏和存档续玩，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261121-lxshwyan-闲钓小栈",
+      "edition": "game",
+      "addedAt": "2026-11-21",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "闲钓小栈",
+      "url": "https://fishing.wyanhub.com/",
+      "status": "online",
+      "description": "在电脑浏览器里玩的单人 3D 钓鱼模拟。可以去池塘、河流、湖泊和近海选钓位，从配钓组、调漂、抛竿一路练到看漂、遛鱼和抄鱼。也可以单独练习辨认漂相和调漂。免费免登录，练习记录保存在当前浏览器",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -376,13 +833,13 @@
         }
       ],
       "name": "红果桌面端",
-      "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
+      "url": "https://hongguo-directory-traffic.waligoraamodio288.chatgpt.site/project",
       "status": "online",
       "description": "适用于 Windows 10 / 11 x64 的免费第三方短剧客户端，在电脑上搜索、选集、收藏和接着本机进度看。由渠道有数独立维护，非红果官方出品。另有 Mac 和 Android TV 测试版",
       "extraLinks": [
         {
-          "label": "Windows 下载与安装",
-          "url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/blob/main/docs/WINDOWS-INSTALL.md"
+          "label": "Windows 固定最新版",
+          "url": "https://hongguo-directory-traffic.waligoraamodio288.chatgpt.site/windows"
         }
       ],
       "categories": [
@@ -13747,20 +14204,19 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261014-km1024kkm-像话",
+      "id": "main-20261014-km1024kkm-像话口语",
       "edition": "main",
       "addedAt": "2026-10-14",
       "maker": "KM1024KKM",
       "city": "",
       "makerLinks": [],
-      "name": "像话",
+      "name": "像话口语",
       "url": "https://mirrorsay.com",
       "status": "online",
-      "description": "无需注册，说一句英语就告诉你母语者会怎么说，再带你跟读、逐词对比；英文卡住时说中文也行（iOS / Android，免费）",
+      "description": "说一句中文或英文，听示范、跟读，再回听自己的录音。也能从网页邀请和朋友练同一道题，录音默认私密（iOS / Android）",
       "extraLinks": [],
       "categories": [
-        "教育学习",
-        "免费工具"
+        "音视频"
       ],
       "source": "upstream"
     },
@@ -48488,6 +48944,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251021-cabbagehao-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-10-21",
+      "maker": "haocheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cabbagehao"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251021-cabbagehao-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-10-21",
+      "maker": "haocheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cabbagehao"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251021-cabbagehao-独立星球",
+      "edition": "main",
+      "addedAt": "2025-10-21",
+      "maker": "haocheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cabbagehao"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251021-cabbagehao-独立观察",
+      "edition": "main",
+      "addedAt": "2025-10-21",
+      "maker": "haocheng",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/cabbagehao"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "game-20251021-sky4366-games-hub",
       "edition": "game",
       "addedAt": "2025-10-21",
@@ -49083,115 +49648,6 @@
       "categories": [
         "AI 工具",
         "音视频"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251012-sing1ee-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-10-12",
-      "maker": "sing1ee",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251012-sing1ee-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-10-12",
-      "maker": "sing1ee",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251012-sing1ee-独立星球",
-      "edition": "main",
-      "addedAt": "2025-10-12",
-      "maker": "sing1ee",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251012-sing1ee-独立观察",
-      "edition": "main",
-      "addedAt": "2025-10-12",
-      "maker": "sing1ee",
-      "city": "上海",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/sing1ee"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

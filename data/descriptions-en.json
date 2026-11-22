@@ -15674,5 +15674,101 @@
  "main-20251012-sing1ee-独立星球": {
   "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
   "at": "2026-11-21"
+ },
+ "programmer-20261121-hehehai-pik": {
+  "descEn": "Menu bar color picker, pick the color at any point on the screen and save it into the palette. It can be copied into 28 code formats such as CSS and SwiftUI.",
+  "at": "2026-11-22"
+ },
+ "programmer-20261121-jiangxingfan1-coder-open-agent-api": {
+  "descEn": "Self-hosted development tools allow existing Python or Node.js programs to use the OpenAI SDK to call native code assistants without having to manage interactive command line processes themselves. Apache-2.0 open source, with offline examples that do not consume model credits",
+  "at": "2026-11-22"
+ },
+ "game-20261121-jnmbys-jnmbys-s-billions-zombie": {
+  "descEn": "A free web-based city defense game where 1-4 people can build strongholds, repair city walls, and refill turrets together; the zombie mother will mark damaged stone walls to guide zombies to break through. Supports Chinese and English, touch screen and archived playback, no registration required",
+  "at": "2026-11-22"
+ },
+ "game-20261121-lxshwyan-闲钓小栈": {
+  "descEn": "A single-player 3D fishing simulation played in your computer browser. You can go to ponds, rivers, lakes and offshore to choose fishing positions, and practice from assembling fishing groups, adjusting floats, and throwing rods to watching floats, walking fish, and catching fish. You can also practice identifying the drift phase and adjusting the drift individually. Free and no login required, practice records are saved in the current browser",
+  "at": "2026-11-22"
+ },
+ "main-20261014-km1024kkm-像话口语": {
+  "descEn": "Say a sentence in Chinese or English, listen to the demonstration, read along, and then listen back to your own recording. You can also invite friends from the web to practice the same question, and the recording is private by default (iOS/Android)",
+  "at": "2026-11-22"
+ },
+ "main-20251021-cabbagehao-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-22"
+ },
+ "main-20251021-cabbagehao-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-22"
+ },
+ "main-20251021-cabbagehao-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-22"
+ },
+ "main-20251021-cabbagehao-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-22"
+ },
+ "main-20261121-hehehai-refto": {
+  "descEn": "In the material library on Mac, pictures, videos, PDFs, and web pages are collected into one library, and can be retrieved based on the text in the screen, the words in the recording, and similar pictures; AI runs locally and does not upload",
+  "at": "2026-11-22"
+ },
+ "main-20261121-hehehai-dicta": {
+  "descEn": "Mac meeting records, no robots are invited into the meeting, automatic recording during Zoom, Tencent meetings, and Feishu meetings, the machine transcribes and writes summaries according to the speaker.",
+  "at": "2026-11-22"
+ },
+ "main-20261121-hehehai-inboxly": {
+  "descEn": "Mac Mail App, Gmail, iCloud, QQ mailbox, 163 are collected into an inbox, and the letters waiting for your reply are ranked first. The summary and reply are written by the native model.",
+  "at": "2026-11-22"
+ },
+ "main-20261121-hehehai-audiosmith": {
+  "descEn": "Mac native voice studio, read aloud, clone sounds, create audiobooks, add another language to videos, download the model and use it offline, free and open source",
+  "at": "2026-11-22"
+ },
+ "main-20261121-hehehai-voxtmini": {
+  "descEn": "Mac voice input, press the right Option in any app to speak, the local model is converted into text, translated or rewritten, supports Chinese, English and Japanese, free and open source",
+  "at": "2026-11-22"
+ },
+ "main-20261121-hehehai-auralink": {
+  "descEn": "Mac voice input, press fn to speak, use your own Doubao, Alibaba Cloud, Step Star and other keys, the organized text appears directly at the cursor, free and open source",
+  "at": "2026-11-22"
+ },
+ "main-20261121-lrj982795268-arch-今天吃什么": {
+  "descEn": "This family meal preparation tool allows you to find dishes based on the ingredients in the refrigerator. After selecting breakfast, lunch and dinner, you can combine the items you need to buy for several meals into a list.",
+  "at": "2026-11-22"
+ },
+ "main-20261121-loaslave1-drop": {
+  "descEn": "Temporary file sending and receiving tool. By sending a link, customers can submit manuscripts without registration, and each person will only see the documents they submitted. You can also authorize the AI ​​assistant to receive manuscripts and check for missing documents.",
+  "at": "2026-11-22"
+ },
+ "main-20261121-ricky-transparentgifmaker": {
+  "descEn": "Remove the background of animated GIFs with one click and keep the animation, output transparent GIFs, sign up to get 5 points for free trial",
+  "at": "2026-11-22"
+ },
+ "main-20261121-fatfish516-gifkit": {
+  "descEn": "Free GIF toolbox in the browser, without uploading files: compress GIF to target size (including Discord's 256KB), crop, change speed, export PNG or ZIP frame by frame, enter text to generate typing animations; no registration required, no watermark",
+  "at": "2026-11-22"
+ },
+ "main-20261121-饭响-饭响": {
+  "descEn": "Chinese low-fan creator monetization route site. The alliance project library contains more than 50 promotion plans at home and abroad. Each official page states the commission ratio, how long it will be divided, the withdrawal threshold and the payment method. There are also online disk new tutorials and monetization Q&A, free and no registration required.",
+  "at": "2026-11-22"
+ },
+ "main-20261121-ceelog-cleanbit": {
+  "descEn": "The Mac App Store sandbox disk cleanup tool does not require root or install background processes; each cache, Xcode/node_modules project product, AI session and application residue will first state what it is and what the impact will be if it is deleted, and then proceed after confirmation. All pending items are moved to the trash and can be put back. Scans and first 2 cleans are free, subscription available with one-time buyout",
+  "at": "2026-11-22"
+ },
+ "main-20261121-ixiehao-any2webp": {
+  "descEn": "A local image conversion tool that converts images to WebP or GIF in batches. It can also turn multiple images or short video clips into animated images and compare them frame by frame; free, MIT open source",
+  "at": "2026-11-22"
+ },
+ "main-20261121-ixiehao-ezntfs": {
+  "descEn": "Mac external NTFS disk reading and writing tool, supports automatic mounting by disk, safe rollout and SHA-256 copy verification; free and open source, requires macFUSE",
+  "at": "2026-11-22"
+ },
+ "main-20261121-linky-aiinlink-site-templates-hub": {
+  "descEn": "Free Google Sites website template library, pick one and copy it to your own Google Drive, replace the text and photos and publish it; no need to write code, free hosting, and can be bound to a custom domain name",
+  "at": "2026-11-22"
  }
 }
