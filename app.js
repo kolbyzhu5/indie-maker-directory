@@ -328,10 +328,14 @@ function toggleLocale() {
 let enDescPromise = null;
 function ensureEnDescriptions() {
   if (getCurrentLocale() !== "en" || state.descEnMap || enDescPromise) return;
+  // ⚠️ 必须 no-store：这三个 JSON 每天由 CI 重写，但 EdgeOne CDN 给 /data/* 设了
+  // max-age=31536000（缓存一年）。不加 no-store 时浏览器会锁死首次缓存的旧文件，
+  // 新收录产品的英文翻译永远拿不到 → 英文首页卡片 fallback 显示中文（2026-11-23 踩坑）。
+  // 与 projects.json 的加载方式保持一致（它本来就是 no-store，所以产品列表一直是新的）。
   enDescPromise = Promise.all([
-    fetch("/data/descriptions-en.json"),
-    fetch("/data/names-en.json"),
-    fetch("/data/cities-en.json")
+    fetch("/data/descriptions-en.json", { cache: "no-store" }),
+    fetch("/data/names-en.json", { cache: "no-store" }),
+    fetch("/data/cities-en.json", { cache: "no-store" })
   ])
     .then(([rDesc, rNames, rCity]) => Promise.all([rDesc.ok ? rDesc.json() : {}, rNames.ok ? rNames.json() : {}, rCity.ok ? rCity.json() : {}]))
     .then(([map, names, cities]) => {
