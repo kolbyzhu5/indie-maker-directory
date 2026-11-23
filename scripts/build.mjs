@@ -2670,6 +2670,13 @@ ${sections}
   } catch {
     console.log("[build][warn] data/descriptions-en.json 不存在 → 英文深层页将显示中文原文（先跑 node scripts/translate.mjs）");
   }
+  // Optional same-origin English landing pages, keyed by the synced project ID.
+  let englishUrlMap = {};
+  try {
+    englishUrlMap = JSON.parse(await readFile(path.join(ROOT, "data", "english-urls.json"), "utf8"));
+  } catch {
+    console.log("[build][warn] data/english-urls.json 不存在或无效 → 使用上游原始链接");
+  }
   // 英文产品名映射（scripts/translate-names.mjs 生成；只改英文展示名，slug/URL 不动）
   let nameEnMap = {};
   try {
@@ -2727,6 +2734,7 @@ ${sections}
     categorySlugs: CATEGORY_SLUGS,
     descEnMap,
     nameEnMap,
+    englishUrlMap,
     relatedMap,
     primaryCatMap,
     allCats: enAllCats
