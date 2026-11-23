@@ -4,29 +4,420 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-22T02:13:52.289Z",
+  "generatedAt": "2026-11-23T02:45:11.845Z",
   "counts": {
-    "total": 3739,
-    "main": 3102,
-    "programmer": 456,
-    "game": 181,
+    "total": 3754,
+    "main": 3113,
+    "programmer": 458,
+    "game": 183,
     "custom": 6
   },
   "categoryCounts": {
-    "AI 工具": 1286,
-    "图片工具": 719,
+    "文档办公": 375,
+    "浏览器扩展": 429,
+    "图片工具": 722,
+    "开发工具": 748,
+    "免费工具": 874,
+    "AI 工具": 1290,
     "音视频": 682,
-    "文档办公": 372,
-    "免费工具": 864,
-    "浏览器扩展": 423,
-    "生活服务": 119,
-    "开发工具": 744,
-    "效率工具": 512,
-    "游戏娱乐": 209,
-    "教育学习": 210,
+    "效率工具": 513,
+    "教育学习": 211,
+    "生活服务": 120,
+    "游戏娱乐": 210,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261123-lxshwyan-微言工具箱",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "微言工具箱",
+      "url": "https://tools.wyanhub.com/tools",
+      "status": "online",
+      "description": "在浏览器里改证件照尺寸和底色、处理 PDF、整理表格，多数工具在本地运行，打开网页就能用",
+      "extraLinks": [
+        {
+          "label": "直接做证件照",
+          "url": "https://tools.wyanhub.com/tools/image/id-photo-layout"
+        }
+      ],
+      "categories": [
+        "文档办公",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-sillyaboy-闪电右键-quickright",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "Jason",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/sillyaboy"
+        }
+      ],
+      "name": "闪电右键 QuickRight",
+      "url": "https://apps.apple.com/us/app/quickright/id6763963598?mt=12",
+      "status": "online",
+      "description": "给 Mac 访达的右键菜单补上一整套常用操作——系统只给了「新建文件夹」，它能直接新建文本、Markdown、Word、Excel 等格式的文件（可自定义模板）、剪切移动、复制完整路径、在当前文件夹开终端、图片转换压缩、算 SHA-256；完全免费，不用注册、没有订阅，只有可选的小费",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-ducheng980-coder-mfxgj-免费小工具",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "ducheng980-coder",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ducheng980-coder"
+        }
+      ],
+      "name": "MFXGJ 免费小工具",
+      "url": "https://ducheng980-coder.github.io/",
+      "status": "online",
+      "description": "免费在线工具集合，35 个工具：个税（五险一金）、贷款、复利计算，字数统计、JSON 格式化、图片压缩、二维码生成等，免注册、手机可用，所有处理都在浏览器本地完成不上传",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-sn0vv0511-sn0vv-city",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "SN0VV",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/SN0VV0511"
+        }
+      ],
+      "name": "SN0VV CITY",
+      "url": "https://www.sn0vv.top/",
+      "status": "online",
+      "description": "可以在浏览器里漫游的 3D 滨海城市，点击建筑探索里面的项目，还能坐 08 号楼「技术手稿馆」的电梯，翻看架构笔记和 LoRA 指南",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-shil630-thesisee-持见",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "shil630",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/shil630"
+        }
+      ],
+      "name": "Thesisee 持见",
+      "url": "https://thesisee.com/",
+      "status": "online",
+      "description": "用新财报对照原有投资假设、标注原文依据并留存判断的研究工具",
+      "extraLinks": [
+        {
+          "label": "产品介绍",
+          "url": "https://thesisee.com/product/"
+        }
+      ],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-berry-hcy-reletter",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "Berry-hcy",
+      "city": "",
+      "makerLinks": [],
+      "name": "Reletter",
+      "url": "https://aiedittextinimage.com/",
+      "status": "online",
+      "description": "在浏览器里识别并逐块修改截图、菜单和商品图片中的中英文文字，标准编辑和带水印预览免费免登录，无水印 PNG 下载和 AI 局部重绘按积分计费",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-lwxyfer-justsvg",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "LW",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lwxyfer"
+        }
+      ],
+      "name": "JustSVG",
+      "url": "https://justsvg.vercel.app/",
+      "status": "online",
+      "description": "开源的网页图表编辑器，从空白画布、示例或已有 SVG 起步，修改架构图、流程图和信息图的文字、图形与位置，再导出可继续编辑的 SVG；无需注册",
+      "extraLinks": [
+        {
+          "label": "源码",
+          "url": "https://github.com/lwxyfer/justsvg"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-qijin-3-demoready",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "Q.Jin",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/qijin-3"
+        }
+      ],
+      "name": "DemoReady",
+      "url": "https://demoready.bitwonder.app/",
+      "status": "online",
+      "description": "在浏览器里录产品演示视频，直接输入 localhost 或线上网页链接就能开录，先选视频比例、手机平板电脑的 Mockup 和背景（含莫奈、葛饰北斋画作），实时预览后录制下载，不用装软件、不用再剪辑",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261123-hacklyc-myagents",
+      "edition": "programmer",
+      "addedAt": "2026-11-23",
+      "maker": "Ethan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hAcKlyc"
+        }
+      ],
+      "name": "MyAgents",
+      "url": "https://github.com/hAcKlyc/MyAgents",
+      "status": "online",
+      "description": "开源桌面 Agent 工作台与任务中心，在 macOS 和 Windows 上为 Claude、Codex、DeepSeek Harness 配置各自的工作区，创建定时任务，也可把活派给自己的另一台在线电脑",
+      "extraLinks": [
+        {
+          "label": "安装包",
+          "url": "https://github.com/hAcKlyc/MyAgents/releases/tag/v0.5.14"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261123-lxshwyan-团团巡梦",
+      "edition": "game",
+      "addedAt": "2026-11-23",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "团团巡梦",
+      "url": "https://wyanhub.itch.io/tuantuan-dreams",
+      "status": "online",
+      "description": "在浏览器里玩的单人 3D 梦境冒险，走过六个梦境、60 个短关卡，收集光点、找回遗失物，点亮沉睡的花园，支持简体中文，进度保存在当前浏览器，也支持微信小程序",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261123-anoxia-football-krillion",
+      "edition": "game",
+      "addedAt": "2026-11-23",
+      "maker": "anoxia",
+      "city": "",
+      "makerLinks": [],
+      "name": "Football Krillion",
+      "url": "https://footballkrillion.net/",
+      "status": "online",
+      "description": "每天七道男子世界杯问答，根据 1930 至 2022 年的赛事线索填入球员或代表队。同一题有多个正确答案，答对越少见的选手或球队，得分越高。每日挑战免费，手机和电脑浏览器均可直接游玩，支持简体中文，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261122-lxshwyan-小伴清单",
+      "edition": "main",
+      "addedAt": "2026-11-22",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "小伴清单",
+      "url": "https://together.wyanhub.com/about.html",
+      "status": "online",
+      "description": "给家人和朋友一起用的待办清单，家务、采购或出行准备可以放进同一张清单，邀请对方一起添加、认领和勾选，电脑上整理好，手机上接着看",
+      "extraLinks": [],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261122-aaronzmemo-maker-teamlingua",
+      "edition": "main",
+      "addedAt": "2026-11-22",
+      "maker": "Aaron",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/aaronzmemo-maker"
+        }
+      ],
+      "name": "TeamLingua",
+      "url": "https://teamlingua.github.io/",
+      "status": "online",
+      "description": "团队职场英语练习网页，题目来自请假、订会议室等真实上班场景，可先做一题再注册，完全免费，界面目前是简体中文",
+      "extraLinks": [],
+      "categories": [
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261122-a3011336204-cmyk-ai-game-makers",
+      "edition": "main",
+      "addedAt": "2026-11-22",
+      "maker": "cian",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/a3011336204-cmyk"
+        }
+      ],
+      "name": "AI Game Makers",
+      "url": "https://aigamemakers.com/",
+      "status": "online",
+      "description": "Roblox AI 游戏生成工具，用一句话描述想做的 Roblox 游戏（中文英文都行），AI 自己策划玩法、搭 3D 地图、写 Luau 脚本和界面，平均约 35 分钟出一整款，下载 .rbxlx 用免费的 Roblox Studio 打开就能玩；第一款完整游戏免费，不用绑卡",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "生活服务",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261122-jiji262-douzy",
+      "edition": "main",
+      "addedAt": "2026-11-22",
+      "maker": "jiji262",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jiji262"
+        }
+      ],
+      "name": "Douzy",
+      "url": "https://godouzy.com/",
+      "status": "online",
+      "description": "多平台桌面下载工具，粘贴抖音、TikTok、YouTube、Telegram、X 的链接，自动认出作品、图集、主页或合集，在后台排队下载，存进本机的作品档案；标准版免费，多链接队列、主页批量、关注同步和订阅自动下载需要激活码，支持 macOS（Apple 芯片与 Intel）和 Windows",
+      "extraLinks": [
+        {
+          "label": "英文版",
+          "url": "https://godouzy.com/en/"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261122-heming9-agenterm",
+      "edition": "programmer",
+      "addedAt": "2026-11-22",
+      "maker": "Heming9",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Heming9"
+        }
+      ],
+      "name": "Agenterm",
+      "url": "https://agenterm.net/",
+      "status": "online",
+      "description": "开源远程终端工具，让已有的 Codex 或 Claude Code 协助排查同事电脑上的环境与日志。对方用邀请里的一条命令下载并启动 Rust CLI，确认授权后才连接，无需配置 SSH",
+      "extraLinks": [
+        {
+          "label": "源码与中文指南",
+          "url": "https://github.com/Heming9/agenterm/blob/main/README.zh-CN.md"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261121-hehehai-refto",
       "edition": "main",
@@ -991,29 +1382,6 @@
         "浏览器扩展",
         "生活服务",
         "游戏娱乐"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20261119-qijin-3-demoready",
-      "edition": "main",
-      "addedAt": "2026-11-19",
-      "maker": "qijin-3",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/qijin-3"
-        }
-      ],
-      "name": "DemoReady",
-      "url": "https://demoready.bitwonder.app/",
-      "status": "online",
-      "description": "输入网页链接直接录制产品演示视频，支持 localhost 和线上网站，可选视频比例、设备 Mockup 与莫奈、葛饰北斋等艺术画作背景，实时预览最终画面后直接录制下载，全程在浏览器里完成，不用安装",
-      "extraLinks": [],
-      "categories": [
-        "音视频",
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
@@ -48434,6 +48802,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251031-dodid-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-10-31",
+      "maker": "dodid",
+      "city": "",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251031-dodid-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-10-31",
+      "maker": "dodid",
+      "city": "",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251031-dodid-独立星球",
+      "edition": "main",
+      "addedAt": "2025-10-31",
+      "maker": "dodid",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251031-dodid-独立观察",
+      "edition": "main",
+      "addedAt": "2025-10-31",
+      "maker": "dodid",
+      "city": "",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20251030-zxcholmes-filinginsight",
       "edition": "main",
       "addedAt": "2025-10-30",
@@ -48941,115 +49398,6 @@
       "description": "摩斯密码在线转换工具",
       "extraLinks": [],
       "categories": [],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251021-cabbagehao-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-10-21",
-      "maker": "haocheng",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cabbagehao"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251021-cabbagehao-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-10-21",
-      "maker": "haocheng",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cabbagehao"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251021-cabbagehao-独立星球",
-      "edition": "main",
-      "addedAt": "2025-10-21",
-      "maker": "haocheng",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cabbagehao"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251021-cabbagehao-独立观察",
-      "edition": "main",
-      "addedAt": "2025-10-21",
-      "maker": "haocheng",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/cabbagehao"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
-      ],
       "source": "upstream"
     },
     {

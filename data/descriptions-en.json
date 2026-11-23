@@ -15770,5 +15770,85 @@
  "main-20261121-linky-aiinlink-site-templates-hub": {
   "descEn": "Free Google Sites website template library, pick one and copy it to your own Google Drive, replace the text and photos and publish it; no need to write code, free hosting, and can be bound to a custom domain name",
   "at": "2026-11-22"
+ },
+ "main-20261123-lxshwyan-微言工具箱": {
+  "descEn": "Change the size and background color of ID photos, process PDFs, and organize forms in the browser. Most tools run locally and can be used by opening a web page.",
+  "at": "2026-11-23"
+ },
+ "main-20261123-sillyaboy-闪电右键-quickright": {
+  "descEn": "Add a set of common operations to the right-click menu of the Mac Finder - the system only provides \"New Folder\", which can directly create files in text, Markdown, Word, Excel and other formats (customizable templates), cut and move, copy full paths, open a terminal in the current folder, convert and compress images, and calculate SHA-256; completely free, no registration, no subscription, only optional tips",
+  "at": "2026-11-23"
+ },
+ "main-20261123-ducheng980-coder-mfxgj-免费小工具": {
+  "descEn": "Free online tool collection, 35 tools: personal tax (five insurances and one fund), loans, compound interest calculation, word count, JSON formatting, image compression, QR code generation, etc. No registration required, available on mobile phones, all processing is completed locally in the browser without uploading",
+  "at": "2026-11-23"
+ },
+ "main-20261123-sn0vv0511-sn0vv-city": {
+  "descEn": "You can roam the 3D coastal city in the browser, click on the buildings to explore the projects inside, and take the elevator of the \"Technical Manuscript Hall\" in Building 08 to read the architectural notes and LoRA guides.",
+  "at": "2026-11-23"
+ },
+ "main-20261123-shil630-thesisee-持见": {
+  "descEn": "A research tool that uses new financial reports to compare with original investment assumptions, annotate the original text basis, and retain judgment.",
+  "at": "2026-11-23"
+ },
+ "main-20261123-berry-hcy-reletter": {
+  "descEn": "Recognize and modify Chinese and English text in screenshots, menus and product images piece by piece in the browser. Standard editing and watermark preview are free and no login is required. Watermark-free PNG downloads and AI partial redrawing are charged by points.",
+  "at": "2026-11-23"
+ },
+ "main-20261123-lwxyfer-justsvg": {
+  "descEn": "An open source web diagram editor. Start with a blank canvas, sample or existing SVG, modify the text, graphics and position of architecture diagrams, flow charts and infographics, and then export an SVG that can be edited further; no registration required.",
+  "at": "2026-11-23"
+ },
+ "main-20261123-qijin-3-demoready": {
+  "descEn": "Record a product demonstration video in the browser, directly enter localhost or an online web link to start the recording. First select the video ratio, mockup for mobile phones and tablets, and background (including paintings by Monet and Katsushika Hokusai). After real-time preview, record and download. No need to install software or edit.",
+  "at": "2026-11-23"
+ },
+ "programmer-20261123-hacklyc-myagents": {
+  "descEn": "Open source desktop Agent workbench and task center, configure respective workspaces for Claude, Codex, and DeepSeek Harness on macOS and Windows, create scheduled tasks, and assign work to another online computer of your own",
+  "at": "2026-11-23"
+ },
+ "game-20261123-lxshwyan-团团巡梦": {
+  "descEn": "A single-player 3D dream adventure played in the browser. Go through six dreams and 60 short levels, collect light points, retrieve lost objects, and light up the sleeping garden. It supports Simplified Chinese, and the progress is saved in the current browser. It also supports WeChat Mini Program.",
+  "at": "2026-11-23"
+ },
+ "game-20261123-anoxia-football-krillion": {
+  "descEn": "Seven daily Men's World Cup trivia questions, fill in player or team clues based on events from 1930 to 2022. There are multiple correct answers to the same question. The fewer correct answers the player or team has, the higher the score. Daily challenges are free and can be played directly on mobile phones and computer browsers. Simplified Chinese is supported and no registration is required.",
+  "at": "2026-11-23"
+ },
+ "main-20261122-lxshwyan-小伴清单": {
+  "descEn": "A to-do list for family and friends. Housework, shopping or travel preparations can be put into the same list. Invite others to add, claim and check them together. Organize them on your computer and continue reading them on your mobile phone.",
+  "at": "2026-11-23"
+ },
+ "main-20261122-aaronzmemo-maker-teamlingua": {
+  "descEn": "Team workplace English practice webpage, the questions come from real work scenarios such as asking for leave, booking a conference room, etc. You can take one question first and then register. It is completely free. The interface is currently in Simplified Chinese",
+  "at": "2026-11-23"
+ },
+ "main-20261122-a3011336204-cmyk-ai-game-makers": {
+  "descEn": "Roblox AI game generation tool, use one sentence to describe the Roblox game you want to make (both Chinese and English). The AI ​​plans the gameplay, builds 3D maps, writes Luau scripts and interfaces. It takes about 35 minutes on average to produce a complete game. Download .rbxlx and open it with free Roblox Studio to play; the first complete game is free and does not need to bind a card.",
+  "at": "2026-11-23"
+ },
+ "main-20261122-jiji262-douzy": {
+  "descEn": "Multi-platform desktop download tool, paste links to Douyin, TikTok, YouTube, Telegram,",
+  "at": "2026-11-23"
+ },
+ "programmer-20261122-heming9-agenterm": {
+  "descEn": "An open source remote terminal tool that allows existing Codex or Claude Code to help troubleshoot the environment and logs on colleagues' computers. The other party uses a command in the invitation to download and start Rust CLI, and then connect after confirming authorization. No need to configure SSH.",
+  "at": "2026-11-23"
+ },
+ "main-20251031-dodid-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-23"
+ },
+ "main-20251031-dodid-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-23"
+ },
+ "main-20251031-dodid-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-23"
+ },
+ "main-20251031-dodid-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-23"
  }
 }
