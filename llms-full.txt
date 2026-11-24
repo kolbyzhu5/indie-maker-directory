@@ -1,10 +1,40 @@
-# AI 独立制造所 · 全部产品清单（3754）
+# AI 独立制造所 · 全部产品清单（3768）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-23（北京时间）
+> 更新时间：2026-11-24（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3113）
+## 大众产品（3122）
+
+- **[熊炼训练记录](https://xionglian-training-notes.chunhui1222.chatgpt.site/)** — 开发者 lchunhui999-dev · 未分类 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/project-0bba60.html)
+  力量训练记录微信小程序，逐组记下实际重量和次数，下次练同一动作时可带入上次的数字
+
+- **[微言表单](https://forms.wyanhub.com/)** — 开发者 微言 · 文档办公 / 效率工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/project-cbd5fd.html)
+  用于活动报名、信息登记和反馈收集的在线表单工具，可以从模板创建表单，通过链接或二维码分享，为不同群或渠道生成专属链接，查看每份提交来自哪里，并将结果导出为 Excel；网页和微信小程序都能创建和管理表单
+
+- **[HSKWin](https://hskwin.com/)** — 开发者 Daniel Gross · AI 工具 / 文档办公 / 教育学习 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/hskwin.html)
+  HSK 3.0 模拟考试网站，按真实考试计时并提供即时评分、每题解析、AI 写作批改和 HSKK 口语评分
+
+- **[OpenFMV](https://github.com/Sheldon23357/OpenFMV/releases/tag/v0.1.2)** — 开发者 Sheldon23357 · 音视频 / 开发工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/openfmv.html)
+  中文互动影游编辑器，导入视频后可以连出可选择的剧情、安排事件和条件，导出独立 Windows 或网页游戏；Windows 11 x64 便携预览版，无需注册，MIT 开源
+
+- **[赛博小生灵](https://37lg9exexq3fzopftr0.traesite.cn/)** — 开发者 叶世民（温州） · 生活服务 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/project-281508.html)
+  「电子放生」微信小程序，在地图上划定的开放区域里放归一只小生灵，它会在那里自在游动漂移，心情值随之积累
+
+- **[回声口袋](https://huishengkoudai.cn/)** — 开发者 苏维 · 音视频 / 效率工具 / 教育学习 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/project-b25045.html)
+  中文音视频转文字工具，把会议、采访和课程录音自动整理成带时间轴、可区分说话人的文字稿，支持导出和分享，提供网站和小程序
+
+- **[MakeMidas](https://makemidas.com)** — 开发者 hypercube67 · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/makemidas.html)
+  AI 生图、生视频和音乐工具，一个页面、一份积分就能用 GPT Image、Nano Banana、Veo、Kling、Seedance、Suno 等主流模型，生成前先显示要扣的积分，失败自动退回，新账号验证邮箱送 50 积分
+
+- **[AirTether](https://github.com/onear233/AirTether)** — 开发者 onear233 · 效率工具 / 开发工具 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/airtether.html)
+  通过低功耗蓝牙连接在任意 Windows 电脑上远程开关 Android 手机热点、实时同步手机蜂窝网络状态，并支持 Windows 原生来电提醒（拒接 / 静音），后续将加入更多互联功能
+
+- **[H3ImageGen](https://h3imagegen.com/)** — 开发者 Miracle · 图片工具 / 浏览器扩展 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/h3imagegen.html)
+  在浏览器中使用 MiniMax H3 的图片生成与编辑工具，可根据文字提示词和最多 16 张参考图创作并下载图片
+
+- **[LogoAnimation](https://logoanimation.net/)** — 开发者 Miracle · AI 工具 / 音视频 / 效率工具 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/logoanimation.html)
+  AI 标识动画制作工具，可将已有品牌标识制作成视频片头或片尾。创业者、内容创作者、营销人员和设计师无需操作时间轴或安装动画软件，即可为品牌制作动效
 
 - **[微言工具箱](https://tools.wyanhub.com/tools)** — 开发者 微言 · 文档办公 / 浏览器扩展 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/project-39abe7.html)
   在浏览器里改证件照尺寸和底色、处理 PDF、整理表格，多数工具在本地运行，打开网页就能用
@@ -26,9 +56,6 @@
 
 - **[JustSVG](https://justsvg.vercel.app/)** — 开发者 LW · 免费工具 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/justsvg.html)
   开源的网页图表编辑器，从空白画布、示例或已有 SVG 起步，修改架构图、流程图和信息图的文字、图形与位置，再导出可继续编辑的 SVG；无需注册
-
-- **[DemoReady](https://demoready.bitwonder.app/)** — 开发者 Q.Jin · 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/demoready.html)
-  在浏览器里录产品演示视频，直接输入 localhost 或线上网页链接就能开录，先选视频比例、手机平板电脑的 Mockup 和背景（含莫奈、葛饰北斋画作），实时预览后录制下载，不用装软件、不用再剪辑
 
 - **[小伴清单](https://together.wyanhub.com/about.html)** — 开发者 微言 · 效率工具 · 已上线 · 收录 2026-11-22 · [详情页](https://indiemaker.cn/p/project-824d49.html)
   给家人和朋友一起用的待办清单，家务、采购或出行准备可以放进同一张清单，邀请对方一起添加、认领和勾选，电脑上整理好，手机上接着看
@@ -128,6 +155,9 @@
 
 - **[红果桌面端](https://hongguo-directory-traffic.waligoraamodio288.chatgpt.site/project)** — 开发者 渠道有数 · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-20 · [详情页](https://indiemaker.cn/p/project-3b4a69.html)
   适用于 Windows 10 / 11 x64 的免费第三方短剧客户端，在电脑上搜索、选集、收藏和接着本机进度看。由渠道有数独立维护，非红果官方出品。另有 Mac 和 Android TV 测试版
+
+- **[DemoReady](https://demoready.bitwonder.app/)** — 开发者 qijin-3 · 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/demoready.html)
+  输入网页链接直接录制产品演示视频，支持 localhost 和线上网站，可选视频比例、设备 Mockup 与莫奈、葛饰北斋等艺术画作背景，实时预览最终画面后直接录制下载，全程在浏览器里完成，不用安装
 
 - **[小陪班 PetWaits](https://petwaits.com/zh)** — 开发者 ZHANG LINGQING · 图片工具 / 开发工具 · 已上线 · 收录 2026-11-19 · [详情页](https://indiemaker.cn/p/petwaits.html)
   用一张自家猫狗的照片做一个会唱歌、会跳舞的桌宠，让它在 Mac 或 Windows 桌面上陪你工作。每只宠物一次付费
@@ -427,7 +457,7 @@
   开源的 macOS Telegram 第三方客户端，Rust + Slint 编写，支持多账号与 MCP（AI 工具接入）
 
 - **[欧八面试陪练](https://interview.redboook.cn/)** — 开发者 欧八同学 · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-12 · [详情页](https://indiemaker.cn/p/project-c5073d.html)
-  中文语音与文字 AI 面试陪练网站，结合目标岗位 JD 与个人真实经历，先练 1–2 分钟自我介绍，再用三道经历题进行连环追问、原话引用五维点评与初答重答对比；内置 AI 产品、后端研发、数据分析等岗位练习库，平台免费且 MIT 开源，需自备百炼 API Key
+  中文语音与文字 AI 面试陪练网站，结合目标岗位 JD 与个人真实经历，先练 1–2 分钟自我介绍，再用三道经历题进行连环追问、原话引用五维点评与初答重答对比；内置 AI 产品、后端研发、数据分析等岗位练习库，在线版无需 API Key 即可免费练习（每位访客每天最多新建 3 场，受共享额度限制），也可使用自己的百炼 API Key，项目采用 MIT 协议开源
 
 - **[PitchReel](https://pitchreel.newkwlab.com)** — 开发者 Vision（广州） · AI 工具 / 音视频 / 文档办公 · 已上线 · 收录 2026-11-12 · [详情页](https://indiemaker.cn/p/pitchreel.html)
   把文字简历变成竖版口播视频简历，带讲解和字幕，投递前还能先做一次 AI 就绪度评分
@@ -3735,9 +3765,6 @@
 - **[Best HEIC to PNG Converter](https://heictopng.org/)** — 开发者 eileendai0505-boop · 图片工具 · 已上线 · 收录 2026-04-16 · [详情页](https://indiemaker.cn/p/best-heic-to-png-converter.html)
   将苹果 HEIC 格式图片转换为 PNG 格式，解决兼容性问题
 
-- **[Seedance 2.0](https://seedances.app/)** — 开发者 hebrewbear · AI 工具 / 音视频 · 已上线 · 收录 2026-04-16 · [详情页](https://indiemaker.cn/p/seedance-2-0-210b81.html)
-  AI 视频生成，支持原生音频和 2K 分辨率，通过先进的多模态输入将创意转化为电影级现实。
-
 - **[audjust.ai](https://audjust.ai/)** — 开发者 xinhuokeji · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-04-16 · [详情页](https://indiemaker.cn/p/audjust-ai.html)
   智能音频编辑与 AI 音乐生成工具，帮助处理音频文件（智能缩短歌曲、延长音频、寻找完美无缝循环）并从文字描述、歌词或图片生成完整音乐轨道。支持多种风格，内置 MIDI 编辑器、音轨分离、Lo-fi 转换等专业工具。
 
@@ -4842,6 +4869,18 @@
 - **[Create Custom Graffiti Art Online](https://graffiti-generator.org)** — 开发者 翟应康（深圳） · 免费工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/create-custom-graffiti-art-online.html)
   自定义涂鸦艺术(免费，不限次数)
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 翟应康（深圳） · AI 工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/ai-83d7c5.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 翟应康（深圳） · 开发工具 / 免费工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/project-1e6cdf.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 翟应康（深圳） · 开发工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/project-7b26df.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 翟应康（深圳） · 浏览器扩展 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/project-7b2b5f.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[Rednote Video Download](https://www.rednote-video-download.com)** — 开发者 ljxyaly（深圳） · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2025-11-04 · [详情页](https://indiemaker.cn/p/rednote-video-download.html)
   Rednote (小红书) 视频、图片去水印下载（免费、不限次数）
 
@@ -4874,18 +4913,6 @@
 
 - **[ReadTube](https://apps.apple.com/cn/app/readtube-youtube-video-summary/id6752214777)** — 开发者 dodid · AI 工具 / 音视频 · 已停止 · 收录 2025-10-31 · [详情页](https://indiemaker.cn/p/readtube.html)
   Youtube 视频转文字总结、幻灯片总结、AI 优化文字稿
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 dodid · AI 工具 · 已上线 · 收录 2025-10-31 · [详情页](https://indiemaker.cn/p/ai-edb4d0.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 dodid · 开发工具 / 免费工具 · 已上线 · 收录 2025-10-31 · [详情页](https://indiemaker.cn/p/project-9fc0e3.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 dodid · 开发工具 · 已上线 · 收录 2025-10-31 · [详情页](https://indiemaker.cn/p/project-91052e.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 dodid · 浏览器扩展 · 已上线 · 收录 2025-10-31 · [详情页](https://indiemaker.cn/p/project-9109ae.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[FilingInsight](https://filing-insight.com/)** — 开发者 zxcHolmes · AI 工具 / 教育学习 / 免费工具 · 已上线 · 收录 2025-10-30 · [详情页](https://indiemaker.cn/p/filinginsight.html)
   快速解读美股财报的 AI 工具，1 万多份财报解读，多语言支持，免费阅读
@@ -9345,7 +9372,19 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（458）
+## 程序员版（462）
+
+- **[pt-tools](https://firlab.app/pt-tools/)** — 开发者 sunerpy · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/pt-tools.html)
+  PT 站点自动化工具，一个 Docker 容器完成 RSS 下载、刷流、IYUU 辅种、追剧入库、签到保号和数据统计，统一管理 qBittorrent 和 Transmission，内置 AI 助手，另有 Android App，开源免费
+
+- **[Keepbay](https://keepbay.app)** — 开发者 SparkStudio · 图片工具 / 文档办公 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/keepbay.html)
+  自部署的私有网盘，直接管理硬盘上已有的文件夹，只建索引、不导入；专业版用本地模型读取证件、合同和保修卡，提取到期日并提醒，按语义搜索文档和照片；支持 Linux 和 Docker，免费版是完整的网盘，专业版 ¥199 买断
+
+- **[Krss](https://github.com/kue02/Krss)** — 开发者 kue · AI 工具 / 浏览器扩展 / 教育学习 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/krss.html)
+  自托管 RSS 阅读器，单二进制 + SQLite，能装插件、按规则自动过滤、把 MCP 当订阅源，支持 AI 摘要翻译和多形态阅读
+
+- **[PS TwinRun](https://github.com/bobbychina32747/ps-twinrun/releases/tag/v0.1.0)** — 开发者 bobbychina32747 · 开发工具 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/ps-twinrun.html)
+  Windows 脚本迁移工具，同一脚本分别在 PowerShell 5.1 和 7 实跑，一条命令对照退出码、终端输出及文件字节
 
 - **[MyAgents](https://github.com/hAcKlyc/MyAgents)** — 开发者 Ethan · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/myagents.html)
   开源桌面 Agent 工作台与任务中心，在 macOS 和 Windows 上为 Claude、Codex、DeepSeek Harness 配置各自的工作区，创建定时任务，也可把活派给自己的另一台在线电脑
@@ -10721,7 +10760,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（183）
+## 独立游戏（184）
+
+- **[Simon Puzzle Games](https://puzzles-game.com/zh/games/)** — 开发者 selfboot · 浏览器扩展 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/simon-puzzle-games.html)
+  在浏览器里玩 101 种逻辑谜题，读完中文规则就能动手连桥、画环或划分星系，进度自动保存在本机
 
 - **[团团巡梦](https://wyanhub.itch.io/tuantuan-dreams)** — 开发者 微言 · 浏览器扩展 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/project-183264.html)
   在浏览器里玩的单人 3D 梦境冒险，走过六个梦境、60 个短关卡，收集光点、找回遗失物，点亮沉睡的花园，支持简体中文，进度保存在当前浏览器，也支持微信小程序

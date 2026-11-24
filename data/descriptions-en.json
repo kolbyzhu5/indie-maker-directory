@@ -15850,5 +15850,81 @@
  "main-20251031-dodid-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-23"
+ },
+ "main-20251105-翟应康-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-24"
+ },
+ "main-20251105-翟应康-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-24"
+ },
+ "main-20251105-翟应康-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-24"
+ },
+ "main-20251105-翟应康-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-24"
+ },
+ "main-20261124-lchunhui999-dev-熊炼训练记录": {
+  "descEn": "Strength training recording WeChat Mini Program, record the actual weight and number of times group by group, and you can bring the last number when you practice the same movement next time",
+  "at": "2026-11-24"
+ },
+ "main-20261124-lxshwyan-微言表单": {
+  "descEn": "An online form tool for event registration, information registration and feedback collection. You can create forms from templates, share them through links or QR codes, generate exclusive links for different groups or channels, check where each submission comes from, and export the results to Excel; both web pages and WeChat Mini Program can create and manage forms.",
+  "at": "2026-11-24"
+ },
+ "main-20261124-obcl3w-hskwin": {
+  "descEn": "HSK 3.0 mock test website, timed according to the real test and providing real-time scoring, analysis of each question, AI writing correction and HSKK speaking scoring",
+  "at": "2026-11-24"
+ },
+ "main-20261124-sheldon23357-openfmv": {
+  "descEn": "Chinese interactive video game editor, after importing videos, you can connect optional plots, arrange events and conditions, and export independent Windows or web games; Windows 11 x64 portable preview version, no registration required, MIT open source",
+  "at": "2026-11-24"
+ },
+ "programmer-20261124-sunerpy-pt-tools": {
+  "descEn": "PT site automation tool, a Docker container completes RSS downloading, brushing, IYUU auxiliary seeding, drama storage, sign-in and account protection and data statistics, unified management of qBittorrent and Transmission, built-in AI assistant, and Android App, open source and free",
+  "at": "2026-11-24"
+ },
+ "programmer-20261124-huohuastudio-keepbay": {
+  "descEn": "Self-deployed private network disk, directly manages existing folders on the hard disk, only builds indexes, does not import; the professional version uses local models to read documents, contracts and warranty cards, extract expiration dates and remind them, and search documents and photos semantically; supports Linux and Docker, the free version is a complete network disk, and the professional version is available for ¥199",
+  "at": "2026-11-24"
+ },
+ "main-20261123-yeshimin-赛博小生灵": {
+  "descEn": "\"Electronic Release\" WeChat Mini Program releases a small creature in an open area defined on the map. It will swim and drift freely there, and its mood value will accumulate accordingly.",
+  "at": "2026-11-24"
+ },
+ "main-20261123-dsfsdsfs2007-回声口袋": {
+  "descEn": "A Chinese audio and video to text tool that automatically organizes conference, interview and course recordings into transcripts with a timeline that can distinguish speakers. It supports exporting and sharing, and provides websites and mini-programs.",
+  "at": "2026-11-24"
+ },
+ "main-20261123-hypercube67-formal-makemidas": {
+  "descEn": "AI image generation, video and music tool, one page and one point can use mainstream models such as GPT Image, Nano Banana, Veo, Kling, Seedance, Suno, etc. The points to be deducted are displayed before generation. Failure will automatically return. 50 points will be sent to the new account verification email",
+  "at": "2026-11-24"
+ },
+ "main-20261123-onear233-airtether": {
+  "descEn": "Remotely turn on and off the Android phone hotspot on any Windows computer through low-power Bluetooth connection, synchronize the mobile phone's cellular network status in real time, and support Windows native call reminders (reject/mute). More interconnection functions will be added in the future.",
+  "at": "2026-11-24"
+ },
+ "main-20261123-zhoulianbo-h3imagegen": {
+  "descEn": "Use MiniMax H3's image generation and editing tools in your browser to create and download images based on text prompts and up to 16 reference images.",
+  "at": "2026-11-24"
+ },
+ "main-20261123-zhoulianbo-logoanimation": {
+  "descEn": "AI logo animation production tool can make existing brand logos into video intros or outro. Entrepreneurs, content creators, marketers and designers can create animations for their brands without having to manipulate a timeline or install animation software",
+  "at": "2026-11-24"
+ },
+ "programmer-20261123-kue02-krss": {
+  "descEn": "Self-hosted RSS reader, single binary + SQLite, can install plug-ins, automatically filter according to rules, use MCP as a feed, supports AI summary translation and multi-form reading",
+  "at": "2026-11-24"
+ },
+ "programmer-20261123-bobbychina32747-ps-twinrun": {
+  "descEn": "Windows script migration tool. The same script is run in PowerShell 5.1 and 7 respectively. One command compares the exit code, terminal output and file bytes.",
+  "at": "2026-11-24"
+ },
+ "game-20261123-selfboot-simon-puzzle-games": {
+  "descEn": "Play 101 logic puzzles in the browser. After reading the Chinese rules, you can start connecting bridges, drawing rings or dividing galaxies. The progress will be automatically saved locally.",
+  "at": "2026-11-24"
  }
 }

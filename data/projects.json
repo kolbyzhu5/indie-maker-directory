@@ -4,29 +4,331 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-23T05:06:32.853Z",
+  "generatedAt": "2026-11-24T06:03:09.913Z",
   "counts": {
-    "total": 3754,
-    "main": 3113,
-    "programmer": 458,
-    "game": 183,
+    "total": 3768,
+    "main": 3122,
+    "programmer": 462,
+    "game": 184,
     "custom": 6
   },
   "categoryCounts": {
-    "文档办公": 375,
-    "浏览器扩展": 429,
-    "图片工具": 722,
-    "开发工具": 748,
-    "免费工具": 874,
-    "AI 工具": 1290,
-    "音视频": 682,
-    "效率工具": 513,
-    "教育学习": 211,
-    "生活服务": 120,
-    "游戏娱乐": 210,
+    "文档办公": 378,
+    "效率工具": 519,
+    "AI 工具": 1294,
+    "教育学习": 214,
+    "音视频": 685,
+    "开发工具": 753,
+    "游戏娱乐": 211,
+    "免费工具": 877,
+    "图片工具": 725,
+    "生活服务": 121,
+    "浏览器扩展": 432,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261124-lchunhui999-dev-熊炼训练记录",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "lchunhui999-dev",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lchunhui999-dev"
+        }
+      ],
+      "name": "熊炼训练记录",
+      "url": "https://xionglian-training-notes.chunhui1222.chatgpt.site/",
+      "status": "online",
+      "description": "力量训练记录微信小程序，逐组记下实际重量和次数，下次练同一动作时可带入上次的数字",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-lxshwyan-微言表单",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "微言表单",
+      "url": "https://forms.wyanhub.com/",
+      "status": "online",
+      "description": "用于活动报名、信息登记和反馈收集的在线表单工具，可以从模板创建表单，通过链接或二维码分享，为不同群或渠道生成专属链接，查看每份提交来自哪里，并将结果导出为 Excel；网页和微信小程序都能创建和管理表单",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-obcl3w-hskwin",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "Daniel Gross",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/obcl3w"
+        }
+      ],
+      "name": "HSKWin",
+      "url": "https://hskwin.com/",
+      "status": "online",
+      "description": "HSK 3.0 模拟考试网站，按真实考试计时并提供即时评分、每题解析、AI 写作批改和 HSKK 口语评分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-sheldon23357-openfmv",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "Sheldon23357",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Sheldon23357"
+        }
+      ],
+      "name": "OpenFMV",
+      "url": "https://github.com/Sheldon23357/OpenFMV/releases/tag/v0.1.2",
+      "status": "online",
+      "description": "中文互动影游编辑器，导入视频后可以连出可选择的剧情、安排事件和条件，导出独立 Windows 或网页游戏；Windows 11 x64 便携预览版，无需注册，MIT 开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/Sheldon23357/OpenFMV"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "开发工具",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261124-sunerpy-pt-tools",
+      "edition": "programmer",
+      "addedAt": "2026-11-24",
+      "maker": "sunerpy",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/sunerpy"
+        }
+      ],
+      "name": "pt-tools",
+      "url": "https://firlab.app/pt-tools/",
+      "status": "online",
+      "description": "PT 站点自动化工具，一个 Docker 容器完成 RSS 下载、刷流、IYUU 辅种、追剧入库、签到保号和数据统计，统一管理 qBittorrent 和 Transmission，内置 AI 助手，另有 Android App，开源免费",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/sunerpy/pt-tools"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261124-huohuastudio-keepbay",
+      "edition": "programmer",
+      "addedAt": "2026-11-24",
+      "maker": "SparkStudio",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/huohuastudio"
+        }
+      ],
+      "name": "Keepbay",
+      "url": "https://keepbay.app",
+      "status": "online",
+      "description": "自部署的私有网盘，直接管理硬盘上已有的文件夹，只建索引、不导入；专业版用本地模型读取证件、合同和保修卡，提取到期日并提醒，按语义搜索文档和照片；支持 Linux 和 Docker，免费版是完整的网盘，专业版 ¥199 买断",
+      "extraLinks": [
+        {
+          "label": "在线演示",
+          "url": "https://demo.keepbay.app"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-yeshimin-赛博小生灵",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "叶世民",
+      "city": "温州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/yeshimin"
+        },
+        {
+          "label": "博客",
+          "url": "https://blog.yeshimin.com/"
+        }
+      ],
+      "name": "赛博小生灵",
+      "url": "https://37lg9exexq3fzopftr0.traesite.cn/",
+      "status": "online",
+      "description": "「电子放生」微信小程序，在地图上划定的开放区域里放归一只小生灵，它会在那里自在游动漂移，心情值随之积累",
+      "extraLinks": [],
+      "categories": [
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-dsfsdsfs2007-回声口袋",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "苏维",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/dsfsdsfs2007"
+        }
+      ],
+      "name": "回声口袋",
+      "url": "https://huishengkoudai.cn/",
+      "status": "online",
+      "description": "中文音视频转文字工具，把会议、采访和课程录音自动整理成带时间轴、可区分说话人的文字稿，支持导出和分享，提供网站和小程序",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "效率工具",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-hypercube67-formal-makemidas",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "hypercube67",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/hypercube67-formal"
+        }
+      ],
+      "name": "MakeMidas",
+      "url": "https://makemidas.com",
+      "status": "online",
+      "description": "AI 生图、生视频和音乐工具，一个页面、一份积分就能用 GPT Image、Nano Banana、Veo、Kling、Seedance、Suno 等主流模型，生成前先显示要扣的积分，失败自动退回，新账号验证邮箱送 50 积分",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-onear233-airtether",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "onear233",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/onear233"
+        }
+      ],
+      "name": "AirTether",
+      "url": "https://github.com/onear233/AirTether",
+      "status": "online",
+      "description": "通过低功耗蓝牙连接在任意 Windows 电脑上远程开关 Android 手机热点、实时同步手机蜂窝网络状态，并支持 Windows 原生来电提醒（拒接 / 静音），后续将加入更多互联功能",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-zhoulianbo-h3imagegen",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "Miracle",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "name": "H3ImageGen",
+      "url": "https://h3imagegen.com/",
+      "status": "online",
+      "description": "在浏览器中使用 MiniMax H3 的图片生成与编辑工具，可根据文字提示词和最多 16 张参考图创作并下载图片",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261123-zhoulianbo-logoanimation",
+      "edition": "main",
+      "addedAt": "2026-11-23",
+      "maker": "Miracle",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zhoulianbo"
+        }
+      ],
+      "name": "LogoAnimation",
+      "url": "https://logoanimation.net/",
+      "status": "online",
+      "description": "AI 标识动画制作工具，可将已有品牌标识制作成视频片头或片尾。创业者、内容创作者、营销人员和设计师无需操作时间轴或安装动画软件，即可为品牌制作动效",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261123-lxshwyan-微言工具箱",
       "edition": "main",
@@ -200,25 +502,58 @@
       "source": "upstream"
     },
     {
-      "id": "main-20261123-qijin-3-demoready",
-      "edition": "main",
+      "id": "programmer-20261123-kue02-krss",
+      "edition": "programmer",
       "addedAt": "2026-11-23",
-      "maker": "Q.Jin",
+      "maker": "kue",
       "city": "",
       "makerLinks": [
         {
           "label": "GitHub",
-          "url": "https://github.com/qijin-3"
+          "url": "https://github.com/kue02"
         }
       ],
-      "name": "DemoReady",
-      "url": "https://demoready.bitwonder.app/",
+      "name": "Krss",
+      "url": "https://github.com/kue02/Krss",
       "status": "online",
-      "description": "在浏览器里录产品演示视频，直接输入 localhost 或线上网页链接就能开录，先选视频比例、手机平板电脑的 Mockup 和背景（含莫奈、葛饰北斋画作），实时预览后录制下载，不用装软件、不用再剪辑",
-      "extraLinks": [],
+      "description": "自托管 RSS 阅读器，单二进制 + SQLite，能装插件、按规则自动过滤、把 MCP 当订阅源，支持 AI 摘要翻译和多形态阅读",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kue02/Krss#readme"
+        }
+      ],
       "categories": [
-        "音视频",
-        "浏览器扩展"
+        "AI 工具",
+        "浏览器扩展",
+        "教育学习"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261123-bobbychina32747-ps-twinrun",
+      "edition": "programmer",
+      "addedAt": "2026-11-23",
+      "maker": "bobbychina32747",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/bobbychina32747"
+        }
+      ],
+      "name": "PS TwinRun",
+      "url": "https://github.com/bobbychina32747/ps-twinrun/releases/tag/v0.1.0",
+      "status": "online",
+      "description": "Windows 脚本迁移工具，同一脚本分别在 PowerShell 5.1 和 7 实跑，一条命令对照退出码、终端输出及文件字节",
+      "extraLinks": [
+        {
+          "label": "中文说明和报告截图",
+          "url": "https://github.com/bobbychina32747/ps-twinrun/blob/main/README.zh-CN.md"
+        }
+      ],
+      "categories": [
+        "开发工具"
       ],
       "source": "upstream"
     },
@@ -248,6 +583,28 @@
         "AI 工具",
         "开发工具",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261123-selfboot-simon-puzzle-games",
+      "edition": "game",
+      "addedAt": "2026-11-23",
+      "maker": "selfboot",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/selfboot"
+        }
+      ],
+      "name": "Simon Puzzle Games",
+      "url": "https://puzzles-game.com/zh/games/",
+      "status": "online",
+      "description": "在浏览器里玩 101 种逻辑谜题，读完中文规则就能动手连桥、画环或划分星系，进度自动保存在本机",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展"
       ],
       "source": "upstream"
     },
@@ -1382,6 +1739,29 @@
         "浏览器扩展",
         "生活服务",
         "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261119-qijin-3-demoready",
+      "edition": "main",
+      "addedAt": "2026-11-19",
+      "maker": "qijin-3",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/qijin-3"
+        }
+      ],
+      "name": "DemoReady",
+      "url": "https://demoready.bitwonder.app/",
+      "status": "online",
+      "description": "输入网页链接直接录制产品演示视频，支持 localhost 和线上网站，可选视频比例、设备 Mockup 与莫奈、葛饰北斋等艺术画作背景，实时预览最终画面后直接录制下载，全程在浏览器里完成，不用安装",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展"
       ],
       "source": "upstream"
     },
@@ -4181,7 +4561,7 @@
       "name": "欧八面试陪练",
       "url": "https://interview.redboook.cn/",
       "status": "online",
-      "description": "中文语音与文字 AI 面试陪练网站，结合目标岗位 JD 与个人真实经历，先练 1–2 分钟自我介绍，再用三道经历题进行连环追问、原话引用五维点评与初答重答对比；内置 AI 产品、后端研发、数据分析等岗位练习库，平台免费且 MIT 开源，需自备百炼 API Key",
+      "description": "中文语音与文字 AI 面试陪练网站，结合目标岗位 JD 与个人真实经历，先练 1–2 分钟自我介绍，再用三道经历题进行连环追问、原话引用五维点评与初答重答对比；内置 AI 产品、后端研发、数据分析等岗位练习库，在线版无需 API Key 即可免费练习（每位访客每天最多新建 3 场，受共享额度限制），也可使用自己的百炼 API Key，项目采用 MIT 协议开源",
       "extraLinks": [
         {
           "label": "开源代码",
@@ -36426,12 +36806,7 @@
       "url": "https://cv.cm",
       "status": "online",
       "description": "浏览器本地 PDF、图片和二维码工具，文件不上传；另有阅后即焚云剪切板",
-      "extraLinks": [
-        {
-          "label": "GitHub 仓库",
-          "url": "https://github.com/mantoufan/cvcm"
-        }
-      ],
+      "extraLinks": [],
       "categories": [
         "图片工具",
         "文档办公",
@@ -39642,29 +40017,6 @@
       "extraLinks": [],
       "categories": [
         "图片工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20260416-hebrewbear-seedance-2-0",
-      "edition": "main",
-      "addedAt": "2026-04-16",
-      "maker": "hebrewbear",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/hebrewbear"
-        }
-      ],
-      "name": "Seedance 2.0",
-      "url": "https://seedances.app/",
-      "status": "online",
-      "description": "AI 视频生成，支持原生音频和 2K 分辨率，通过先进的多模态输入将创意转化为电影级现实。",
-      "extraLinks": [],
-      "categories": [
-        "AI 工具",
-        "音视频"
       ],
       "source": "upstream"
     },
@@ -48531,6 +48883,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251105-翟应康-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-11-05",
+      "maker": "翟应康",
+      "city": "深圳",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251105-翟应康-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-11-05",
+      "maker": "翟应康",
+      "city": "深圳",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251105-翟应康-独立星球",
+      "edition": "main",
+      "addedAt": "2025-11-05",
+      "maker": "翟应康",
+      "city": "深圳",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251105-翟应康-独立观察",
+      "edition": "main",
+      "addedAt": "2025-11-05",
+      "maker": "翟应康",
+      "city": "深圳",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "game-20251105-290713469-dispatch-calculator",
       "edition": "game",
       "addedAt": "2025-11-05",
@@ -48798,95 +49239,6 @@
       "categories": [
         "AI 工具",
         "音视频"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251031-dodid-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-10-31",
-      "maker": "dodid",
-      "city": "",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251031-dodid-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-10-31",
-      "maker": "dodid",
-      "city": "",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251031-dodid-独立星球",
-      "edition": "main",
-      "addedAt": "2025-10-31",
-      "maker": "dodid",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251031-dodid-独立观察",
-      "edition": "main",
-      "addedAt": "2025-10-31",
-      "maker": "dodid",
-      "city": "",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },
