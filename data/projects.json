@@ -4,29 +4,245 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-24T06:03:09.913Z",
+  "generatedAt": "2026-11-25T04:53:34.857Z",
   "counts": {
-    "total": 3768,
-    "main": 3122,
-    "programmer": 462,
-    "game": 184,
+    "total": 3784,
+    "main": 3132,
+    "programmer": 464,
+    "game": 188,
     "custom": 6
   },
   "categoryCounts": {
-    "文档办公": 378,
+    "AI 工具": 1301,
+    "开发工具": 754,
+    "生活服务": 123,
+    "免费工具": 887,
+    "图片工具": 730,
+    "音视频": 692,
+    "浏览器扩展": 439,
+    "文档办公": 379,
     "效率工具": 519,
-    "AI 工具": 1294,
     "教育学习": 214,
-    "音视频": 685,
-    "开发工具": 753,
-    "游戏娱乐": 211,
-    "免费工具": 877,
-    "图片工具": 725,
-    "生活服务": 121,
-    "浏览器扩展": 432,
+    "游戏娱乐": 214,
     "社交社区": 137
   },
   "projects": [
+    {
+      "id": "main-20261124-jonasjoe233-rake",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "JonasJoe233",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/JonasJoe233"
+        }
+      ],
+      "name": "Rake",
+      "url": "https://jonasjoe233.github.io/rake-mac/",
+      "status": "online",
+      "description": "Mac 磁盘清理工具，把整块盘画成一张地图，先看清空间去哪了再勾选清理；缓存直接删，其余移进废纸篓可放回，也能找出 AI Agent 留在本机的大文件；免费开源，离线运行，支持 macOS 13+",
+      "extraLinks": [
+        {
+          "label": "开源代码",
+          "url": "https://github.com/JonasJoe233/rake-mac"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-zty5678-removebackground-me",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "zty5678",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zty5678"
+        }
+      ],
+      "name": "removebackground.me",
+      "url": "https://removebackground.me/",
+      "status": "online",
+      "description": "AI 图片去背景工具，上传后可下载透明 PNG，并继续细修边缘或更换背景，适合商品图和人像",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-zty5678-bulkimggenerator",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "zty5678",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/zty5678"
+        }
+      ],
+      "name": "BulkImgGenerator",
+      "url": "https://bulkimggenerator.net/",
+      "status": "online",
+      "description": "批量 AI 图片生成工具，可从一个或多个提示词生成候选图，也可比较多个图像模型，支持参考图和 CSV 提示词列表",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-amierhan-to-any-ai-万物生ai",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "amierhan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/amierhan"
+        }
+      ],
+      "name": "To Any AI（万物生AI）",
+      "url": "https://toany.ai/",
+      "status": "online",
+      "description": "多模型 AI 设计平台，用提示词和参考素材生成图片、视频与音频，提供无限画布和图像编辑工具",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-huiguyy-听幕-tingmu",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "开发者创业老杨",
+      "city": "郑州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huiguyy"
+        }
+      ],
+      "name": "听幕 Tingmu",
+      "url": "https://github.com/huiguyy/tingmu",
+      "status": "online",
+      "description": "给听障人士的实时字幕 App，对方一说话屏幕立刻出现大字，识别全程离线跑在手机本地，零网络请求、无账号、音频不出设备 — Android",
+      "extraLinks": [],
+      "categories": [
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-ykykchan-morsecove",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "Yoking Chan",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ykykchan"
+        }
+      ],
+      "name": "Morsecove",
+      "url": "https://morsecove.com",
+      "status": "online",
+      "description": "免费浏览器摩斯电码翻译工具，可在文本和点划之间互转、播放并调节速度与音调、下载 WAV，转换和音频都在本地完成，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-ykykchan-troop-benefits",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "Yoking Chan",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ykykchan"
+        }
+      ],
+      "name": "Troop Benefits",
+      "url": "https://troopbenefits.com/",
+      "status": "online",
+      "description": "免费美军住房津贴（BAH）查询工具，按驻地、军衔和有无家属查看 2026 年月度与年度金额，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-henz-hu-flowvoice-流声",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "Henz Hu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/henz-Hu"
+        }
+      ],
+      "name": "FlowVoice 流声",
+      "url": "https://flowvoice.net/",
+      "status": "online",
+      "description": "电脑端 Chrome、Edge 文字朗读扩展，可把多个网页的选段接成朗读队列，也支持 TXT、Markdown、HTML、DOCX 文稿导入，以及预先准备的原文与译文对照听读；基础功能免费含音频广告，可选 Neural 音色需要付费授权和使用积分",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "文档办公",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-davidww0719-dev-image2ai",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "Ethan Chen",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/davidww0719-dev"
+        }
+      ],
+      "name": "Image2AI",
+      "url": "https://image2ai.cloud/zh/",
+      "status": "online",
+      "description": "AI 生图与改图网站，海报和封面上的中文标题按你写的字出来，也能给商品照换背景、做漫剧分镜；6 个模型一份积分（GPT Image 2、Nano Banana、Seedream 等），生成前按钮上写着扣多少，失败自动退",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261124-lchunhui999-dev-熊炼训练记录",
       "edition": "main",
@@ -67,6 +283,30 @@
       "categories": [
         "文档办公",
         "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261124-lxshwyan-转山共行",
+      "edition": "main",
+      "addedAt": "2026-11-24",
+      "maker": "微言",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/lxshwyan"
+        }
+      ],
+      "name": "转山共行",
+      "url": "https://wyanhub.com/kora/",
+      "status": "online",
+      "description": "浏览器里的多人 3D 徒步，可以独自走过经幡山口、溪谷和冰湖，也能发链接让朋友到你所在的路段会合一起走，路上可停下来等人或把眼前的山景拍成照片，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -121,6 +361,54 @@
         "开发工具",
         "游戏娱乐",
         "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261124-huiguyy-douyin-fill",
+      "edition": "programmer",
+      "addedAt": "2026-11-24",
+      "maker": "开发者创业老杨",
+      "city": "郑州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huiguyy"
+        }
+      ],
+      "name": "douyin-fill",
+      "url": "https://github.com/huiguyy/douyin-fill",
+      "status": "online",
+      "description": "抖音“只填不发”Agent 技能，把视频帖在独立 Chrome 里准备到发布前一步，发布永远由人工点击，杜绝误发",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261124-huiguyy-kuaishou-fill",
+      "edition": "programmer",
+      "addedAt": "2026-11-24",
+      "maker": "开发者创业老杨",
+      "city": "郑州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/huiguyy"
+        }
+      ],
+      "name": "kuaishou-fill",
+      "url": "https://github.com/huiguyy/kuaishou-fill",
+      "status": "online",
+      "description": "快手“只填不发”Agent 技能，在独立 Chrome 内备好视频帖、停在发布前一步，发布动作永远由人完成",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "浏览器扩展"
       ],
       "source": "upstream"
     },
@@ -181,6 +469,101 @@
         "文档办公",
         "效率工具",
         "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261124-ykykchan-number-guessing-game",
+      "edition": "game",
+      "addedAt": "2026-11-24",
+      "maker": "Yoking Chan",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/ykykchan"
+        }
+      ],
+      "name": "Number Guessing Game",
+      "url": "https://smart-game.fun/number-guessing-game",
+      "status": "online",
+      "description": "免费每日 1 到 100 猜数字游戏，七次机会，根据偏高或偏低提示缩小范围，每天 00:00 UTC 换新题目，浏览器即可玩，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261124-alexreed6868-stage-tour-guide",
+      "edition": "game",
+      "addedAt": "2026-11-24",
+      "maker": "Alex Reed",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexreed6868"
+        }
+      ],
+      "name": "Stage Tour Guide",
+      "url": "https://stagetourguide.com/",
+      "status": "online",
+      "description": "Stage Tour 乐队节奏游戏资料站，查询已确认歌单并观看官方视频预览，对照套装价格和各平台乐器控制器兼容信息；资料附来源与最近核对日期，免费浏览，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261124-alexreed6868-football-krillion",
+      "edition": "game",
+      "addedAt": "2026-11-24",
+      "maker": "Alex Reed",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexreed6868"
+        }
+      ],
+      "name": "Football Krillion",
+      "url": "https://footballkrillion.org/",
+      "status": "online",
+      "description": "英文足球知识竞猜游戏（免费），每局 7 道限时题，回答符合条件的球员名字，正确答案越冷门得分越高；提供足球、NFL 每日局和 Unlimited 无限练习，无需注册或下载",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261124-alexreed6868-gta-6-map",
+      "edition": "game",
+      "addedAt": "2026-11-24",
+      "maker": "Alex Reed",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/alexreed6868"
+        }
+      ],
+      "name": "GTA 6 Map",
+      "url": "https://gta-6-map.org/",
+      "status": "online",
+      "description": "GTA 6 免费交互地图，可搜索和筛选 Leonida 地点、添加个人标记与备注，探索进度保存在浏览器本地，支持多存档和导入导出，无需注册",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "生活服务",
         "免费工具"
       ],
       "source": "upstream"
@@ -3875,11 +4258,12 @@
       "name": "国内AI活动追踪",
       "url": "https://antonailog.com/more/ai-events/",
       "status": "online",
-      "description": "每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报",
+      "description": "国内 AI 活动聚合工具，每日汇总并去重大会、分享会、黑客松等活动，每场提供独立详情页，支持按日历、9 个城市页（含线上）和 7 个类型页查看，提供 iCalendar 日历订阅、RSS、JSON 数据及每日邮件简报，免费无需登录",
       "extraLinks": [],
       "categories": [
         "AI 工具",
-        "效率工具"
+        "效率工具",
+        "免费工具"
       ],
       "source": "upstream"
     },
@@ -6744,7 +7128,7 @@
       "name": "Linger",
       "url": "https://withlinger.com/zh/",
       "status": "online",
-      "description": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买",
+      "description": "macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持搭载 Apple Silicon 的 macOS 14+，提供 7 天完整试用，之后可一次性买断",
       "extraLinks": [
         {
           "label": "在线体验",
@@ -48637,6 +49021,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251111-monsoonw-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-11-11",
+      "maker": "monsoonw",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251111-monsoonw-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-11-11",
+      "maker": "monsoonw",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251111-monsoonw-独立星球",
+      "edition": "main",
+      "addedAt": "2025-11-11",
+      "maker": "monsoonw",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251111-monsoonw-独立观察",
+      "edition": "main",
+      "addedAt": "2025-11-11",
+      "maker": "monsoonw",
+      "city": "杭州",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20251110-xbaicai0-musci",
       "edition": "main",
       "addedAt": "2025-11-10",
@@ -48879,95 +49352,6 @@
       "extraLinks": [],
       "categories": [
         "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251105-翟应康-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-11-05",
-      "maker": "翟应康",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251105-翟应康-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-11-05",
-      "maker": "翟应康",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251105-翟应康-独立星球",
-      "edition": "main",
-      "addedAt": "2025-11-05",
-      "maker": "翟应康",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251105-翟应康-独立观察",
-      "edition": "main",
-      "addedAt": "2025-11-05",
-      "maker": "翟应康",
-      "city": "深圳",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

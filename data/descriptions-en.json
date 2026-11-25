@@ -15926,5 +15926,85 @@
  "game-20261123-selfboot-simon-puzzle-games": {
   "descEn": "Play 101 logic puzzles in the browser. After reading the Chinese rules, you can start connecting bridges, drawing rings or dividing galaxies. The progress will be automatically saved locally.",
   "at": "2026-11-24"
+ },
+ "game-20261124-alexreed6868-gta-6-map": {
+  "descEn": "GTA 6 free interactive map, you can search and filter Leonida locations, add personal marks and notes, the exploration progress is saved locally in the browser, supports multiple archives and import and export, no registration is required",
+  "at": "2026-11-25"
+ },
+ "main-20251111-monsoonw-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-25"
+ },
+ "main-20251111-monsoonw-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-25"
+ },
+ "main-20251111-monsoonw-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-25"
+ },
+ "main-20251111-monsoonw-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-25"
+ },
+ "main-20261124-jonasjoe233-rake": {
+  "descEn": "Mac disk cleaning tool draws the entire disk into a map. You can first see where the space is and then check to clean it. The cache is deleted directly, and the rest can be moved to the trash can and put back. It can also find large files left by the AI ​​Agent on the local machine. It is free and open source, runs offline, and supports macOS 13+.",
+  "at": "2026-11-25"
+ },
+ "main-20261124-zty5678-removebackground-me": {
+  "descEn": "AI picture background removal tool, you can download transparent PNG after uploading, and continue to fine-tune the edges or change the background, suitable for product images and portraits",
+  "at": "2026-11-25"
+ },
+ "main-20261124-zty5678-bulkimggenerator": {
+  "descEn": "Batch AI image generation tool, which can generate candidate images from one or more prompt words, and can also compare multiple image models, supporting reference images and CSV prompt word lists",
+  "at": "2026-11-25"
+ },
+ "main-20261124-amierhan-to-any-ai-万物生ai": {
+  "descEn": "A multi-model AI design platform that uses prompt words and reference materials to generate images, videos, and audio, and provides unlimited canvas and image editing tools",
+  "at": "2026-11-25"
+ },
+ "main-20261124-huiguyy-听幕-tingmu": {
+  "descEn": "A real-time subtitle app for the hearing-impaired. As soon as the other party speaks, large characters appear on the screen. The entire recognition process runs offline and locally on the phone. There are zero network requests, no account, and the audio does not come out of the device — Android",
+  "at": "2026-11-25"
+ },
+ "main-20261124-ykykchan-morsecove": {
+  "descEn": "Free browser Morse code translation tool that can convert between text and dots, play and adjust speed and pitch, download WAV, conversion and audio are all done locally, no registration required",
+  "at": "2026-11-25"
+ },
+ "main-20261124-ykykchan-troop-benefits": {
+  "descEn": "Free U.S. Army Housing Allowance (BAH) query tool to view monthly and annual amounts in 2026 by location, rank and dependents, no registration required",
+  "at": "2026-11-25"
+ },
+ "main-20261124-henz-hu-flowvoice-流声": {
+  "descEn": "The text reading extension for Chrome and Edge on the computer can connect selected sections of multiple web pages into a reading queue. It also supports the import of TXT, Markdown, HTML, and DOCX documents, as well as the comparison and listening of pre-prepared original texts and translations. The basic functions include audio advertising for free, and optional Neural sounds require paid authorization and usage points.",
+  "at": "2026-11-25"
+ },
+ "main-20261124-davidww0719-dev-image2ai": {
+  "descEn": "AI image generation and image modification website. The Chinese titles on posters and covers are written according to your words. You can also change the background of product photos and make comic storyboards. 6 models have one point (GPT Image 2, Nano Banana, Seedream, etc.). The button before generation says how much will be deducted. If it fails, you will be automatically refunded.",
+  "at": "2026-11-25"
+ },
+ "main-20261124-lxshwyan-转山共行": {
+  "descEn": "Multi-player 3D hiking in the browser allows you to walk alone through the prayer flag pass, valley and ice lake. You can also send a link to ask friends to meet you on the section of the road where you are. You can stop and wait for others on the way or take photos of the mountain scenery in front of you. No registration is required.",
+  "at": "2026-11-25"
+ },
+ "programmer-20261124-huiguyy-douyin-fill": {
+  "descEn": "Douyin’s “fill-in-not-post” agent skill prepares video posts in independent Chrome until one step before publication. Posting is always manually clicked to prevent mis-posting.",
+  "at": "2026-11-25"
+ },
+ "programmer-20261124-huiguyy-kuaishou-fill": {
+  "descEn": "Kuaishou's \"fill-in-but-not-post\" Agent skill allows you to prepare video posts in independent Chrome and stop one step before publishing. The publishing action is always done by humans.",
+  "at": "2026-11-25"
+ },
+ "game-20261124-ykykchan-number-guessing-game": {
+  "descEn": "Free daily number guessing game from 1 to 100, seven chances, narrow the range according to high or low prompts, new questions every day at 00:00 UTC, you can play in the browser, no registration required",
+  "at": "2026-11-25"
+ },
+ "game-20261124-alexreed6868-stage-tour-guide": {
+  "descEn": "Stage Tour band rhythm game information site, check the confirmed song list and watch the official video preview, compare the package price and instrument controller compatibility information on each platform; the information is attached with the source and the latest verification date, free to browse, no registration required",
+  "at": "2026-11-25"
+ },
+ "game-20261124-alexreed6868-football-krillion": {
+  "descEn": "English football knowledge quiz game (free), 7 time-limited questions in each game, answer the names of qualified players, the more unpopular the correct answer is, the higher the score; provides football, NFL daily games and Unlimited unlimited exercises, no registration or download required",
+  "at": "2026-11-25"
  }
 }

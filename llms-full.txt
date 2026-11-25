@@ -1,16 +1,46 @@
-# AI 独立制造所 · 全部产品清单（3768）
+# AI 独立制造所 · 全部产品清单（3784）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-24（北京时间）
+> 更新时间：2026-11-25（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3122）
+## 大众产品（3132）
+
+- **[Rake](https://jonasjoe233.github.io/rake-mac/)** — 开发者 JonasJoe233 · AI 工具 / 开发工具 / 生活服务 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/rake.html)
+  Mac 磁盘清理工具，把整块盘画成一张地图，先看清空间去哪了再勾选清理；缓存直接删，其余移进废纸篓可放回，也能找出 AI Agent 留在本机的大文件；免费开源，离线运行，支持 macOS 13+
+
+- **[removebackground.me](https://removebackground.me/)** — 开发者 zty5678 · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/removebackground-me.html)
+  AI 图片去背景工具，上传后可下载透明 PNG，并继续细修边缘或更换背景，适合商品图和人像
+
+- **[BulkImgGenerator](https://bulkimggenerator.net/)** — 开发者 zty5678 · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/bulkimggenerator.html)
+  批量 AI 图片生成工具，可从一个或多个提示词生成候选图，也可比较多个图像模型，支持参考图和 CSV 提示词列表
+
+- **[To Any AI（万物生AI）](https://toany.ai/)** — 开发者 amierhan · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/to-any-ai-ai.html)
+  多模型 AI 设计平台，用提示词和参考素材生成图片、视频与音频，提供无限画布和图像编辑工具
+
+- **[听幕 Tingmu](https://github.com/huiguyy/tingmu)** — 开发者 开发者创业老杨（郑州） · 音视频 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/tingmu.html)
+  给听障人士的实时字幕 App，对方一说话屏幕立刻出现大字，识别全程离线跑在手机本地，零网络请求、无账号、音频不出设备 — Android
+
+- **[Morsecove](https://morsecove.com)** — 开发者 Yoking Chan（广州） · 音视频 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/morsecove.html)
+  免费浏览器摩斯电码翻译工具，可在文本和点划之间互转、播放并调节速度与音调、下载 WAV，转换和音频都在本地完成，无需注册
+
+- **[Troop Benefits](https://troopbenefits.com/)** — 开发者 Yoking Chan（广州） · 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/troop-benefits.html)
+  免费美军住房津贴（BAH）查询工具，按驻地、军衔和有无家属查看 2026 年月度与年度金额，无需注册
+
+- **[FlowVoice 流声](https://flowvoice.net/)** — 开发者 Henz Hu · 音视频 / 文档办公 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/flowvoice.html)
+  电脑端 Chrome、Edge 文字朗读扩展，可把多个网页的选段接成朗读队列，也支持 TXT、Markdown、HTML、DOCX 文稿导入，以及预先准备的原文与译文对照听读；基础功能免费含音频广告，可选 Neural 音色需要付费授权和使用积分
+
+- **[Image2AI](https://image2ai.cloud/zh/)** — 开发者 Ethan Chen · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/image2ai.html)
+  AI 生图与改图网站，海报和封面上的中文标题按你写的字出来，也能给商品照换背景、做漫剧分镜；6 个模型一份积分（GPT Image 2、Nano Banana、Seedream 等），生成前按钮上写着扣多少，失败自动退
 
 - **[熊炼训练记录](https://xionglian-training-notes.chunhui1222.chatgpt.site/)** — 开发者 lchunhui999-dev · 未分类 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/project-0bba60.html)
   力量训练记录微信小程序，逐组记下实际重量和次数，下次练同一动作时可带入上次的数字
 
 - **[微言表单](https://forms.wyanhub.com/)** — 开发者 微言 · 文档办公 / 效率工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/project-cbd5fd.html)
   用于活动报名、信息登记和反馈收集的在线表单工具，可以从模板创建表单，通过链接或二维码分享，为不同群或渠道生成专属链接，查看每份提交来自哪里，并将结果导出为 Excel；网页和微信小程序都能创建和管理表单
+
+- **[转山共行](https://wyanhub.com/kora/)** — 开发者 微言 · 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/project-e53b4e.html)
+  浏览器里的多人 3D 徒步，可以独自走过经幡山口、溪谷和冰湖，也能发链接让朋友到你所在的路段会合一起走，路上可停下来等人或把眼前的山景拍成照片，无需注册
 
 - **[HSKWin](https://hskwin.com/)** — 开发者 Daniel Gross · AI 工具 / 文档办公 / 教育学习 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/hskwin.html)
   HSK 3.0 模拟考试网站，按真实考试计时并提供即时评分、每题解析、AI 写作批改和 HSKK 口语评分
@@ -384,8 +414,8 @@
 - **[SeekPhoto](https://www.seekphoto.cn)** — 开发者 aiyo407（广州） · AI 工具 / 图片工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/seekphoto.html)
   Windows 本地 AI 搜图工具，用一句中文描述（如「海滩日落」「孩子笑脸」）就能在几万张照片里找到那张，还能以图搜图、搜照片上的文字；照片和 AI 都在自己电脑上跑、不上传云端，直接在原有文件夹建索引，免费版永久可用，Pro 一次性买断
 
-- **[国内AI活动追踪](https://antonailog.com/more/ai-events/)** — 开发者 阿東 · AI 工具 / 效率工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/ai-d0123a.html)
-  每天汇总国内 AI 大会、分享会和黑客松，合并重复活动，按日历、城市和线上线下查看，可订阅每日邮件简报
+- **[国内AI活动追踪](https://antonailog.com/more/ai-events/)** — 开发者 阿東 · AI 工具 / 效率工具 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/ai-d0123a.html)
+  国内 AI 活动聚合工具，每日汇总并去重大会、分享会、黑客松等活动，每场提供独立详情页，支持按日历、9 个城市页（含线上）和 7 个类型页查看，提供 iCalendar 日历订阅、RSS、JSON 数据及每日邮件简报，免费无需登录
 
 - **[gessov](https://apps.apple.com/cn/app/id6815108797)** — 开发者 gessov 的开发者 · 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/gessov.html)
   英英词汇 iPhone app，先读英文例句理解语境，再看全英文解释，不给中文释义；无需注册，进度只存在手机上
@@ -649,7 +679,7 @@
   iPhone / iPad 上的 AI 聊天客户端，自带 API Key 接任意 OpenAI / Anthropic 兼容模型（含本机 Ollama），可挂远程 MCP 服务器调用工具；对话和 Key 只存本机、无需注册，MCP 工具属一次性买断
 
 - **[Linger](https://withlinger.com/zh/)** — 开发者 Lucius Miao · 图片工具 / 文档办公 / 开发工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/linger.html)
-  macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持 Apple Silicon，提供 14 天试用，之后一次性购买
+  macOS 本地优先私人灵感库，保存图片、网页出处与自己的笔记，用关键词和筛选找回参考；支持搭载 Apple Silicon 的 macOS 14+，提供 7 天完整试用，之后可一次性买断
 
 - **[Clarpex](https://clarpex.ai/)** — 开发者 Wen · AI 工具 / 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-03 · [详情页](https://indiemaker.cn/p/clarpex.html)
   AI 照片修复工具，上传模糊、低清或老照片即可增强、去模糊、放大与上色，浏览器内完成，每日免费额度无需注册
@@ -4836,6 +4866,18 @@
 - **[Nano Banana 2](https://nanobanana-2.net)** — 开发者 monsoonw（杭州） · 效率工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/nano-banana-2-927f85.html)
   收录最新的 Nano Banana 2 模型推特，油管资讯，并第一时间提供 nano banana 2 模型体验
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 monsoonw（杭州） · AI 工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/ai-de3dc3.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 monsoonw（杭州） · 开发工具 / 免费工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/project-b870f6.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 monsoonw（杭州） · 开发工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/project-76eb7d.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 monsoonw（杭州） · 浏览器扩展 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/project-76effc.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[musci](https://musci.io)** — 开发者 xbaicai0 · 未分类 · 已上线 · 收录 2025-11-10 · [详情页](https://indiemaker.cn/p/musci-3764c3.html)
   music 生成平台
 
@@ -4868,18 +4910,6 @@
 
 - **[Create Custom Graffiti Art Online](https://graffiti-generator.org)** — 开发者 翟应康（深圳） · 免费工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/create-custom-graffiti-art-online.html)
   自定义涂鸦艺术(免费，不限次数)
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 翟应康（深圳） · AI 工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/ai-83d7c5.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 翟应康（深圳） · 开发工具 / 免费工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/project-1e6cdf.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 翟应康（深圳） · 开发工具 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/project-7b26df.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 翟应康（深圳） · 浏览器扩展 · 已上线 · 收录 2025-11-05 · [详情页](https://indiemaker.cn/p/project-7b2b5f.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[Rednote Video Download](https://www.rednote-video-download.com)** — 开发者 ljxyaly（深圳） · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2025-11-04 · [详情页](https://indiemaker.cn/p/rednote-video-download.html)
   Rednote (小红书) 视频、图片去水印下载（免费、不限次数）
@@ -9372,7 +9402,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（462）
+## 程序员版（464）
+
+- **[douyin-fill](https://github.com/huiguyy/douyin-fill)** — 开发者 开发者创业老杨（郑州） · AI 工具 / 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/douyin-fill.html)
+  抖音“只填不发”Agent 技能，把视频帖在独立 Chrome 里准备到发布前一步，发布永远由人工点击，杜绝误发
+
+- **[kuaishou-fill](https://github.com/huiguyy/kuaishou-fill)** — 开发者 开发者创业老杨（郑州） · AI 工具 / 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/kuaishou-fill.html)
+  快手“只填不发”Agent 技能，在独立 Chrome 内备好视频帖、停在发布前一步，发布动作永远由人完成
 
 - **[pt-tools](https://firlab.app/pt-tools/)** — 开发者 sunerpy · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/pt-tools.html)
   PT 站点自动化工具，一个 Docker 容器完成 RSS 下载、刷流、IYUU 辅种、追剧入库、签到保号和数据统计，统一管理 qBittorrent 和 Transmission，内置 AI 助手，另有 Android App，开源免费
@@ -10760,7 +10796,19 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（184）
+## 独立游戏（188）
+
+- **[Number Guessing Game](https://smart-game.fun/number-guessing-game)** — 开发者 Yoking Chan（广州） · 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/number-guessing-game.html)
+  免费每日 1 到 100 猜数字游戏，七次机会，根据偏高或偏低提示缩小范围，每天 00:00 UTC 换新题目，浏览器即可玩，无需注册
+
+- **[Stage Tour Guide](https://stagetourguide.com/)** — 开发者 Alex Reed · 音视频 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/stage-tour-guide.html)
+  Stage Tour 乐队节奏游戏资料站，查询已确认歌单并观看官方视频预览，对照套装价格和各平台乐器控制器兼容信息；资料附来源与最近核对日期，免费浏览，无需注册
+
+- **[Football Krillion](https://footballkrillion.org/)** — 开发者 Alex Reed · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/football-krillion-ca7977.html)
+  英文足球知识竞猜游戏（免费），每局 7 道限时题，回答符合条件的球员名字，正确答案越冷门得分越高；提供足球、NFL 每日局和 Unlimited 无限练习，无需注册或下载
+
+- **[GTA 6 Map](https://gta-6-map.org/)** — 开发者 Alex Reed · 浏览器扩展 / 生活服务 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/gta-6-map.html)
+  GTA 6 免费交互地图，可搜索和筛选 Leonida 地点、添加个人标记与备注，探索进度保存在浏览器本地，支持多存档和导入导出，无需注册
 
 - **[Simon Puzzle Games](https://puzzles-game.com/zh/games/)** — 开发者 selfboot · 浏览器扩展 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/simon-puzzle-games.html)
   在浏览器里玩 101 种逻辑谜题，读完中文规则就能动手连桥、画环或划分星系，进度自动保存在本机
@@ -10768,7 +10816,7 @@
 - **[团团巡梦](https://wyanhub.itch.io/tuantuan-dreams)** — 开发者 微言 · 浏览器扩展 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/project-183264.html)
   在浏览器里玩的单人 3D 梦境冒险，走过六个梦境、60 个短关卡，收集光点、找回遗失物，点亮沉睡的花园，支持简体中文，进度保存在当前浏览器，也支持微信小程序
 
-- **[Football Krillion](https://footballkrillion.net/)** — 开发者 anoxia · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/football-krillion.html)
+- **[Football Krillion](https://footballkrillion.net/)** — 开发者 anoxia · 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-23 · [详情页](https://indiemaker.cn/p/football-krillion-a5c3dd.html)
   每天七道男子世界杯问答，根据 1930 至 2022 年的赛事线索填入球员或代表队。同一题有多个正确答案，答对越少见的选手或球队，得分越高。每日挑战免费，手机和电脑浏览器均可直接游玩，支持简体中文，无需注册
 
 - **[jnmbys's billions zombie](https://zombie.jnmbys-war-atlas.com/)** — 开发者 jnmbys · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/jnmbys-s-billions-zombie.html)
