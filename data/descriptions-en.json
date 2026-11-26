@@ -16006,5 +16006,121 @@
  "game-20261124-alexreed6868-football-krillion": {
   "descEn": "English football knowledge quiz game (free), 7 time-limited questions in each game, answer the names of qualified players, the more unpopular the correct answer is, the higher the score; provides football, NFL daily games and Unlimited unlimited exercises, no registration or download required",
   "at": "2026-11-25"
+ },
+ "main-20261125-ouxxyy-刺猬关系": {
+  "descEn": "Use animals to represent family members, adjust the distance and orientation in the 3D sandbox, and discuss your observations with AI based on the background and screenshots. Supports Chinese and English.",
+  "at": "2026-11-26"
+ },
+ "main-20261125-ouxxyy-小猫陪你": {
+  "descEn": "Confess to the AI ​​kitty in two separate conversations, or turn an angry remark into a message that can be copied to your partner, in both Chinese and English",
+  "at": "2026-11-26"
+ },
+ "main-20261125-newer027-justmarkdown": {
+  "descEn": "Online document conversion website, convert PDF, Word, PPT, Excel, EPUB and web pages into editable Markdown; text layer PDF and native scanned pages can be converted directly in the browser. After the conversion, you can save, view the version, and generate sharing links.",
+  "at": "2026-11-26"
+ },
+ "main-20261125-io-oi-ai-web2md": {
+  "descEn": "Chrome/Firefox webpage to Markdown plug-in, remove ads, menus and sidebars with one click, can be sent directly to ChatGPT, Claude or saved to Obsidian, specially extracted articles from Reddit, GitHub, arXiv, WeChat public accounts, free version 3 times a day",
+  "at": "2026-11-26"
+ },
+ "main-20261125-io-oi-ai-inplain": {
+  "descEn": "AI document and presentation tool, turning the output of ChatGPT, Claude, and Cursor into editable slides, reports, and dashboards, sharing with online links, and modifications taking effect immediately, and can be exported to PPTX/DOCX/PDF. The free version costs 50 points per month",
+  "at": "2026-11-26"
+ },
+ "main-20261125-io-oi-ai-hearl": {
+  "descEn": "Product public opinion inbox, which summarizes posts mentioning your product on platforms such as",
+  "at": "2026-11-26"
+ },
+ "main-20261125-zhulinsen-alphasift-公开选股与胜率看板": {
+  "descEn": "Open the 7-market quantitative stock selection and public T+N winning rate verification station; automatically screen A-shares/US/Hong Kong/Japan/Korea/Taiwan/India multi-strategy consensus candidates after the market opens every day, display 250-day classic K-line empirical anti-counterfeiting, and open accounting based on the opening price of the next day. It supports dark/light themes and printable after-hours research reports. It is free and open source",
+  "at": "2026-11-26"
+ },
+ "main-20261125-hehehai-pik": {
+  "descEn": "Mac menu bar color picker, pick the color at any point on the screen and save it into the palette, and copy it into 28 code formats such as CSS and SwiftUI with one click (Tailwind, OKLCH, etc. can be opened separately). It can also generate palettes from the screen area and check the contrast; supports Apple chips and Intel, 15-day free trial, and then a one-time purchase",
+  "at": "2026-11-26"
+ },
+ "programmer-20261125-likc1606-theoremos": {
+  "descEn": "Open source Lean 4 mathematical research workbench and Linux CLI, you can compare the original question and Lean statement, view the error reports of proof candidates, and come with a local rerun example without a model key",
+  "at": "2026-11-26"
+ },
+ "programmer-20261125-fubuki363-csv-明细对账": {
+  "descEn": "Check two CSVs by SKU or order number on this machine, requires Python 3.9 or newer version, 9.90 yuan to buy out",
+  "at": "2026-11-26"
+ },
+ "main-20251126-binglish-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-26"
+ },
+ "main-20251126-binglish-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-26"
+ },
+ "main-20251126-binglish-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-26"
+ },
+ "main-20251126-binglish-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-26"
+ },
+ "main-20261126-liangyouyiji-dev-锦囊匣-jnbox": {
+  "descEn": "Web automation workbench for operations, sales and customers. After receiving the form, you can assign it according to conditions, submit it to the person in charge for confirmation, then write it into the ledger and check the operation results.",
+  "at": "2026-11-26"
+ },
+ "main-20261126-zty5678-imagetoprompts": {
+  "descEn": "AI picture to prompt word tool, upload a picture or enter a public picture URL to generate editable drawing prompt words; supports Midjourney, FLUX, JSON and other formats, and can generate 3 free drawing prompts per day without logging in",
+  "at": "2026-11-26"
+ },
+ "main-20261126-imphillip-paychacha": {
+  "descEn": "Website payment and incoming material self-checking tool. Enter the URL to see what type of merchant (MCC) Stripe, PayPal and other payment institutions may classify the website as, what risk markers, business entities, refund policies and other incoming material are missing. It also recommends commonly used local payment methods according to the market where the visitor is located. Free to use, bilingual in Chinese and English.",
+  "at": "2026-11-26"
+ },
+ "main-20261126-sunzenki-logoxd": {
+  "descEn": "AI Logo design tool, first look at the style example, and then fill in the brand name, industry, graphic idea and color matching. You can view the required points before generating and download the PNG after completion. Currently open for internal testing",
+  "at": "2026-11-26"
+ },
+ "main-20261126-hinstein-stagepeek": {
+  "descEn": "Concert 2D seating map and 3D stage view simulator, covering 201 stadiums and domes around the world. You can preview by entering the seat arrangement in the area before purchasing tickets. 1.18-meter seated sight line and 1x–10x mobile phone zoom angle. Free browsing without logging in.",
+  "at": "2026-11-26"
+ },
+ "main-20261126-zhangxingmao-english-in-telugu-typing": {
+  "descEn": "Free Telugu Unicode input tool, spell Telugu words with English letters, select candidates and copy, or download TXT / editable DOCX; English interface, no registration required",
+  "at": "2026-11-26"
+ },
+ "main-20261126-wyx2333333-一篇-v2note": {
+  "descEn": "Audio and video conversion tool. Upload spoken word recordings or videos, or paste public video links from third-party platforms such as Douyin, Xiaohongshu, and Bilibili to generate an editable first draft of the article. You can choose your own style for each article and generate a beautiful first cover for free",
+  "at": "2026-11-26"
+ },
+ "main-20261126-ivan666jjj-圆明园数字复原计划": {
+  "descEn": "An open restoration atlas that puts together the Old Summer Palace before 1860 piece by piece. A list of 77 scenes has been restored, and 15 scenes have been restored. Each scene is accompanied by the source of historical materials and a generated prompt word.",
+  "at": "2026-11-26"
+ },
+ "programmer-20261126-social-to-ai-socialtoai": {
+  "descEn": "Social media data MCP service for AI. After logging in and authorizing in Claude, ChatGPT, and Cursor, you can read public content on 18 platforms including Xiaohongshu, Douyin, Weibo, Bilibili, Reddit, and X, without copying the Key.",
+  "at": "2026-11-26"
+ },
+ "programmer-20261126-apivale-apivale": {
+  "descEn": "OpenAI/Anthropic-compatible AI API gateway for developers, one endpoint calls DeepSeek-V4.1 Flash, Qwen 3.8 Max, GLM-5.3 and Kimi K3 on a volume basis, supports PayPal and international credit cards",
+  "at": "2026-11-26"
+ },
+ "programmer-20261126-apivale-esp32-deepseek-client": {
+  "descEn": "ESP32 / ESP32-S3 lightweight large model client (PlatformIO C++ and MicroPython dual versions), built-in memory overflow prevention control, MIT open source",
+  "at": "2026-11-26"
+ },
+ "programmer-20261126-lxshwyan-hmkit-validator": {
+  "descEn": "An open source verification library for HarmonyOS NEXT and OpenHarmony. It uses a set of Schema to verify forms, nested objects and interface data. It supports asynchronous rules and can also display errors by fields in ArkUI forms. The core library has no third-party runtime dependencies and can be installed through ohpm install @hmkit/validator.",
+  "at": "2026-11-26"
+ },
+ "programmer-20261126-lxshwyan-微言物联网平台": {
+  "descEn": "An open source IoT platform for small and medium-sized projects. You can define what data the device should report, and after accessing the device, you can view real-time values ​​and historical curves, configure alarms, and issue control commands and view device readbacks. Supports self-deployment, currently 0.1.x pre-release version",
+  "at": "2026-11-26"
+ },
+ "game-20261126-dyljqq-团子吃画": {
+  "descEn": "A pixel painting puzzle game where you send dumplings to eat the entire painting from bottom to top. Each dumpling only eats the same color and only eats the bottom grid of each column. There are 30 levels plus one painting per day, and each level is verified by the program to pass. Chinese, English and Japanese interface, you can play it by opening your mobile phone or computer. It is free, no registration is required, and there are no ads. There is also a WeChat mini game version.",
+  "at": "2026-11-26"
+ },
+ "main-20261125-tangde2025-ai-img2img": {
+  "descEn": "AI picture generation and editing tool, integrating a variety of mainstream AI image models, no need to log in or design skills, you can generate, edit pictures and convert picture styles through natural language descriptions",
+  "at": "2026-11-26"
  }
 }

@@ -1,10 +1,61 @@
-# AI 独立制造所 · 全部产品清单（3784）
+# AI 独立制造所 · 全部产品清单（3808）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-25（北京时间）
+> 更新时间：2026-11-26（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3132）
+## 大众产品（3149）
+
+- **[锦囊匣（Jnbox）](https://liangyouyiji.com/product/workbench?utm_source=github_indiecn)** — 开发者 锦囊匣团队 · 效率工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/jnbox.html)
+  给运营、销售和客服用的网页自动化工作台。收到表单后可按条件分派，交负责人确认，再写入台账并查看运行结果
+
+- **[ImageToPrompts](https://imagetoprompts.io/)** — 开发者 zty5678 · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/imagetoprompts.html)
+  AI 图片转提示词工具，上传图片或输入公开图片 URL，即可生成可编辑的绘图提示词；支持 Midjourney、FLUX、JSON 等格式，每天无需登录可免费生成 3 条
+
+- **[PayChacha](https://paychacha.com/zh/)** — 开发者 Phillip · 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/paychacha.html)
+  网站收款进件自查工具，输入网址即可看到 Stripe、PayPal 等支付机构可能把网站归为哪类商户（MCC）、有哪些风险标记、经营主体和退款政策等进件资料还缺什么，并按访客所在市场推荐当地常用的支付方式，免费使用，中英双语
+
+- **[LogoXD](https://logoxd.com)** — 开发者 Sunzenki · AI 工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/logoxd.html)
+  AI Logo 设计工具，先看风格示例，再填写品牌名称、行业、图形构想和配色。生成前可查看所需积分，完成后可下载 PNG。目前已开放内测
+
+- **[StagePeek](https://stagepeek.live/zh-CN/)** — 开发者 Hinstein · 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/stagepeek.html)
+  演唱会 2D 座位图与 3D 舞台视野模拟器，覆盖全球 201 座体育场与巨蛋，购票前输入区排座即可预览 1.18 米坐姿视线与 1x–10x 手机变焦视角，免登录免费浏览
+
+- **[English in Telugu Typing](https://englishintelugutyping.com/)** — 开发者 zhangxingmao（项目维护者） · 教育学习 / 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/english-in-telugu-typing.html)
+  免费泰卢固语 Unicode 输入工具，用英文字母拼写 Telugu 单词、选择候选后复制，或下载 TXT / 可编辑 DOCX；英文界面，无需注册
+
+- **[一篇 V2Note](https://v2note.cn/)** — 开发者 wyx2333333 · 音视频 / 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/v2note.html)
+  音视频转图文工具。上传口播录音或视频，也可粘贴抖音、小红书、B 站等第三方平台的公开视频链接，生成可编辑的文章初稿。每篇可自选风格，免费生成首张精美封面
+
+- **[圆明园数字复原计划](https://ivan666jjj.github.io/yuanmingyuan-restoration/)** — 开发者 严毓焕（北京） · 未分类 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/project-efeae3.html)
+  把 1860 年前的圆明园一块一块拼回来的开放复原图册，77 景清单已复原 15 景，每景附史料出处与生成提示词
+
+- **[AI Img2Img](https://aiimg2img.net)** — 开发者 DDC（南昌） · AI 工具 / 图片工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/ai-img2img.html)
+  AI 图片生成与编辑工具，集成多种主流 AI 图像模型，无需登录、无需设计技能，通过自然语言描述即可生成、编辑图片和转换图片风格
+
+- **[刺猬关系](https://hilingge.redboook.cn/)** — 开发者 欧八同学 · AI 工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/project-7e31f7.html)
+  用动物代表家人，在 3D 沙盘里调整距离和朝向，可结合背景和截图与 AI 讨论自己的观察，支持中英文
+
+- **[小猫陪你](https://redboook.cn/)** — 开发者 欧八同学 · AI 工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/project-839edf.html)
+  在两个独立对话中向 AI 小猫倾诉，或把一句气话改成可以复制给伴侣的消息，支持中英文
+
+- **[JustMarkdown](https://justmarkdown.com/zh)** — 开发者 justin · 文档办公 / 浏览器扩展 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/justmarkdown.html)
+  在线文档转换网站，把 PDF、Word、PPT、Excel、EPUB 和网页转成可编辑的 Markdown；文字层 PDF 和本机扫描页在浏览器里直接转，转完可以保存、看版本、生成分享链接
+
+- **[Web2MD](https://web2md.org)** — 开发者 Xichen Wu · AI 工具 / 文档办公 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/web2md.html)
+  Chrome/Firefox 网页转 Markdown 插件，一键去掉广告、菜单和侧边栏，可直接发送到 ChatGPT、Claude 或保存到 Obsidian，对 Reddit、GitHub、arXiv、微信公众号文章做了专门提取，免费版每天 3 次
+
+- **[Inplain](https://inplain.app)** — 开发者 Xichen Wu · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/inplain.html)
+  AI 文档与演示工具，把 ChatGPT、Claude、Cursor 的输出变成可编辑的幻灯片、报告和仪表盘，以在线链接分享、修改即时生效，可导出 PPTX/DOCX/PDF，免费版每月 50 积分
+
+- **[Hearl](https://hearl.org)** — 开发者 Xichen Wu · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/hearl.html)
+  产品舆情收件箱，汇总 X、Reddit、Hacker News 及小红书、微博、知乎等平台上提到你产品的帖子，AI 判断是否需要回复，每条指定负责人和截止日期，有免费版
+
+- **[AlphaSift 公开选股与胜率看板](https://alphasift.zhulinsen.tech/?lang=zh)** — 开发者 ZhuLinsen · 生活服务 / 免费工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/alphasift.html)
+  打开即看的 7 市场量化选股与公开 T+N 胜率验证站；每天盘后自动筛选 A股/美/港/日/韩/台/印多策略共识候选、展示 250 日经典 K 线实证打假并按次日开盘价公开记账，支持暗/亮主题与可打印盘后研报，免费开源
+
+- **[Pik](https://actnow.dev/zh/pik)** — 开发者 hehehai · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/pik.html)
+  Mac 菜单栏取色器，取屏幕上任意一点的颜色存进调色板，一键复制成 CSS、SwiftUI 等 28 种代码格式（Tailwind、OKLCH 等可另外开启），还能从屏幕区域生成调色板、检查对比度；支持 Apple 芯片和 Intel，15 天免费试用，之后一次买断
 
 - **[Rake](https://jonasjoe233.github.io/rake-mac/)** — 开发者 JonasJoe233 · AI 工具 / 开发工具 / 生活服务 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/rake.html)
   Mac 磁盘清理工具，把整块盘画成一张地图，先看清空间去哪了再勾选清理；缓存直接删，其余移进废纸篓可放回，也能找出 AI Agent 留在本机的大文件；免费开源，离线运行，支持 macOS 13+
@@ -102,11 +153,11 @@
 - **[Refto](https://refto.one)** — 开发者 hehehai · AI 工具 / 图片工具 / 音视频 / 文档办公 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/refto.html)
   Mac 上的素材库，图片、视频、PDF、网页收进一个库，按画面里的文字、录音里的话和相似图片找回来；AI 在本机运行，不上传
 
-- **[Dicta](https://actnow.dev/zh/dicta)** — 开发者 hehehai · 音视频 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/dicta.html)
-  Mac 会议记录，不拉机器人进会，Zoom、腾讯会议、飞书开会时自动录音，本机分说话人转写并写总结
+- **[Dicta](https://actnow.dev/zh/dicta)** — 开发者 hehehai · 音视频 / 免费工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/dicta.html)
+  Mac 会议记录，不拉机器人进会，Zoom、腾讯会议、飞书开会时自动录音，本机分说话人转写并写总结；15 天免费试用，之后一次买断
 
-- **[Inboxly](https://actnow.dev/zh/inboxly)** — 开发者 hehehai · 未分类 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/inboxly.html)
-  Mac 邮件 App，Gmail、iCloud、QQ 邮箱、163 收进一个收件箱，等你回的信排最前，摘要和回信由本机模型写
+- **[Inboxly](https://actnow.dev/zh/inboxly)** — 开发者 hehehai · 免费工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/inboxly.html)
+  Mac 邮件 App，Gmail、iCloud、QQ 邮箱、163 收进一个收件箱，等你回的信排最前，摘要和回信由本机模型写；15 天免费试用，之后一次买断
 
 - **[AudioSmith](https://actnow.dev/zh/audiosmith)** — 开发者 hehehai · 音视频 / 免费工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/audiosmith.html)
   Mac 本机语音工作室，朗读、克隆音色、做有声书、给视频配另一种语言，下载模型后离线可用，免费开源
@@ -420,8 +471,8 @@
 - **[gessov](https://apps.apple.com/cn/app/id6815108797)** — 开发者 gessov 的开发者 · 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/gessov.html)
   英英词汇 iPhone app，先读英文例句理解语境，再看全英文解释，不给中文释义；无需注册，进度只存在手机上
 
-- **[inspace](https://opctoai.com/inspace)** — 开发者 lhq1363511234 · 未分类 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/inspace.html)
-  地点攻略与故事网站，按地点查阅内容，并用一个空间链接分享攻略和记录
+- **[inspace](https://opctoai.com/inspace)** — 开发者 lhq1363511234 · 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/inspace.html)
+  地点攻略与互动庭院网站，在山寺漫游、进入殿堂、听钟点灯，也能浏览中英文攻略和分享空间链接；漫游与浏览无需注册 - 体验山寺
 
 - **[AI Photo Editor](https://getaiphotoeditor.com/)** — 开发者 CoderLim（北京） · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2026-11-13 · [详情页](https://indiemaker.cn/p/ai-photo-editor.html)
   免费在线 AI 图片编辑器，无需注册
@@ -4779,6 +4830,18 @@
 - **[Binglish- AI桌面英语](https://github.com/klemperer/binglish)** — 开发者 klemperer · AI 工具 / 图片工具 / 音视频 / 教育学习 · 已上线 · 收录 2025-11-26 · [详情页](https://indiemaker.cn/p/binglish-ai.html)
   自动更换必应 Bing 每日壁纸，顺便学个单词（AI 生成相关解释、相关好句、语音说明等）。 点亮屏幕，欣赏美景，邂逅知识，聚沙成塔。
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 klemperer · AI 工具 · 已上线 · 收录 2025-11-26 · [详情页](https://indiemaker.cn/p/ai-096a61.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 klemperer · 开发工具 / 免费工具 · 已上线 · 收录 2025-11-26 · [详情页](https://indiemaker.cn/p/project-d7c877.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 klemperer · 开发工具 · 已上线 · 收录 2025-11-26 · [详情页](https://indiemaker.cn/p/project-6b22df.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 klemperer · 浏览器扩展 · 已上线 · 收录 2025-11-26 · [详情页](https://indiemaker.cn/p/project-6b275f.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[banana-pro.com](https://banana-pro.com/)** — 开发者 amierhan · AI 工具 / 图片工具 / 音视频 · 已停止 · 收录 2025-11-25 · [详情页](https://indiemaker.cn/p/banana-pro-com.html)
   Banana Pro AI 图像、视频创作平台。整合了 Nano Banana Pro、Nano Banana 以及 Sora2 模型。它可以高效生成高分辨率图像（最高 4K）和流畅的视频，同时提供智能提示优化、角色一致性、对复杂场景的上下文理解等功能
 
@@ -4865,18 +4928,6 @@
 
 - **[Nano Banana 2](https://nanobanana-2.net)** — 开发者 monsoonw（杭州） · 效率工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/nano-banana-2-927f85.html)
   收录最新的 Nano Banana 2 模型推特，油管资讯，并第一时间提供 nano banana 2 模型体验
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 monsoonw（杭州） · AI 工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/ai-de3dc3.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 monsoonw（杭州） · 开发工具 / 免费工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/project-b870f6.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 monsoonw（杭州） · 开发工具 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/project-76eb7d.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 monsoonw（杭州） · 浏览器扩展 · 已上线 · 收录 2025-11-11 · [详情页](https://indiemaker.cn/p/project-76effc.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[musci](https://musci.io)** — 开发者 xbaicai0 · 未分类 · 已上线 · 收录 2025-11-10 · [详情页](https://indiemaker.cn/p/musci-3764c3.html)
   music 生成平台
@@ -9402,7 +9453,28 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（464）
+## 程序员版（470）
+
+- **[SocialToAI](https://socialtoai.com)** — 开发者 SocialToAI 团队 · AI 工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/socialtoai.html)
+  给 AI 用的社媒数据 MCP 服务，在 Claude、ChatGPT、Cursor 里登录授权就能读小红书、抖音、微博、B 站、Reddit、X 等 18 个平台的公开内容，不用复制 Key
+
+- **[APIVALE](https://apivale.com)** — 开发者 Jack Yang（北京） · AI 工具 / 开发工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/apivale.html)
+  面向开发者的 OpenAI/Anthropic 兼容 AI API 网关，一个端点按量调用 DeepSeek-V4.1 Flash、Qwen 3.8 Max、GLM-5.3 与 Kimi K3，支持 PayPal 与国际信用卡
+
+- **[esp32-deepseek-client](https://github.com/bshx2024/esp32-deepseek-client)** — 开发者 Jack Yang（北京） · AI 工具 / 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/esp32-deepseek-client.html)
+  ESP32 / ESP32-S3 轻量级大模型客户端（PlatformIO C++ 与 MicroPython 双版本），内置内存防溢出控制，MIT 开源
+
+- **[@hmkit/validator](https://ohpm.openharmony.cn/#/cn/detail/@hmkit%2Fvalidator)** — 开发者 微言 · 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/hmkit-validator.html)
+  面向 HarmonyOS NEXT 和 OpenHarmony 的开源校验库，用一套 Schema 校验表单、嵌套对象和接口数据，支持异步规则，也能在 ArkUI 表单里按字段展示错误；核心库无第三方运行时依赖，可通过 ohpm install @hmkit/validator 安装
+
+- **[微言物联网平台](https://gitee.com/lxsh_wyan/wyan-iot)** — 开发者 微言 · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/project-c8804b.html)
+  面向中小项目的开源物联网平台。可以定义设备要上报哪些数据，接入设备后查看实时值和历史曲线、配置告警，也能下发控制命令并查看设备回读。支持自行部署，目前为 0.1.x 预发布版
+
+- **[TheoremOS](https://github.com/HuggingMath/theorem-os)** — 开发者 WestlakeNLP（西湖大学） · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/theoremos.html)
+  开源 Lean 4 数学研究工作台与 Linux CLI，可对照原题和 Lean 陈述、查看证明候选的报错，配有无需模型密钥的本地复跑示例
+
+- **[CSV 明细对账](https://skillpay.alipay.com/shelf/product?productId=P0806000214839841&merchantCode=csv-data-tools)** — 开发者 fubuki363 · 未分类 · 已上线 · 收录 2026-11-25 · [详情页](https://indiemaker.cn/p/csv.html)
+  在本机按 SKU 或订单号核对两份 CSV，需要 Python 3.9 或更新版本，9.90 元买断
 
 - **[douyin-fill](https://github.com/huiguyy/douyin-fill)** — 开发者 开发者创业老杨（郑州） · AI 工具 / 音视频 / 浏览器扩展 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/douyin-fill.html)
   抖音“只填不发”Agent 技能，把视频帖在独立 Chrome 里准备到发布前一步，发布永远由人工点击，杜绝误发
@@ -9427,9 +9499,6 @@
 
 - **[Agenterm](https://agenterm.net/)** — 开发者 Heming9 · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-22 · [详情页](https://indiemaker.cn/p/agenterm.html)
   开源远程终端工具，让已有的 Codex 或 Claude Code 协助排查同事电脑上的环境与日志。对方用邀请里的一条命令下载并启动 Rust CLI，确认授权后才连接，无需配置 SSH
-
-- **[Pik](https://actnow.dev/zh/pik)** — 开发者 hehehai · 开发工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/pik.html)
-  菜单栏取色器，取屏幕上任意一点的颜色存进调色板，可复制成 CSS、SwiftUI 等 28 种代码格式
 
 - **[Open Agent API](https://openagentapi.pages.dev/)** — 开发者 StarFans · AI 工具 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-21 · [详情页](https://indiemaker.cn/p/open-agent-api.html)
   自托管开发工具，让现有 Python 或 Node.js 程序沿用 OpenAI SDK 调用本机代码助手，不用自己管理交互式命令行进程。Apache-2.0 开源，附不耗模型额度的离线示例
@@ -10796,7 +10865,10 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（188）
+## 独立游戏（189）
+
+- **[团子吃画](https://gokajqqgame.com/games/tuanzi-chihua/)** — 开发者 Goka · 图片工具 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/project-5933bb.html)
+  像素画解谜小游戏，派团子从下往上吃掉一整幅画，每个团子只吃同色、只吃每列最下面的格子；30 关加每日一画，每关都用程序验证过能通关。中英日界面，手机电脑打开就能玩，免费、无需注册、没有广告，也有微信小游戏版
 
 - **[Number Guessing Game](https://smart-game.fun/number-guessing-game)** — 开发者 Yoking Chan（广州） · 浏览器扩展 / 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-24 · [详情页](https://indiemaker.cn/p/number-guessing-game.html)
   免费每日 1 到 100 猜数字游戏，七次机会，根据偏高或偏低提示缩小范围，每天 00:00 UTC 换新题目，浏览器即可玩，无需注册
