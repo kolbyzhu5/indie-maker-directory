@@ -4,29 +4,338 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-26T04:09:31.523Z",
+  "generatedAt": "2026-11-27T04:15:17.774Z",
   "counts": {
-    "total": 3808,
-    "main": 3149,
-    "programmer": 470,
-    "game": 189,
+    "total": 3823,
+    "main": 3160,
+    "programmer": 472,
+    "game": 191,
     "custom": 6
   },
   "categoryCounts": {
-    "效率工具": 520,
-    "AI 工具": 1312,
-    "图片工具": 733,
-    "免费工具": 905,
-    "教育学习": 215,
+    "AI 工具": 1317,
+    "文档办公": 385,
+    "免费工具": 917,
+    "图片工具": 738,
+    "效率工具": 523,
+    "浏览器扩展": 443,
+    "开发工具": 763,
+    "游戏娱乐": 216,
+    "教育学习": 216,
     "音视频": 693,
-    "开发工具": 758,
-    "游戏娱乐": 215,
-    "文档办公": 382,
-    "浏览器扩展": 441,
-    "生活服务": 124,
-    "社交社区": 137
+    "社交社区": 138,
+    "生活服务": 124
   },
   "projects": [
+    {
+      "id": "main-20261127-tomsabay-stylefuse",
+      "edition": "main",
+      "addedAt": "2026-11-27",
+      "maker": "Tomsabay",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Tomsabay"
+        }
+      ],
+      "name": "StyleFuse",
+      "url": "https://stylefuse.top",
+      "status": "online",
+      "description": "上传自己的 Word/纯文本草稿和目标期刊范文，5 阶段 AI 协作按句流式改写并实时显示 Canvas 红绿 Diff，支持划词微调与直接导出排版好的 Word 文档。打开网页即可使用，注册每周免费体验 3 次",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261127-waterjason-creoart-poster-studio",
+      "edition": "main",
+      "addedAt": "2026-11-27",
+      "maker": "WaterJason",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/WaterJason"
+        },
+        {
+          "label": "个人网站",
+          "url": "https://chaowei.site"
+        }
+      ],
+      "name": "CreoArt Poster Studio",
+      "url": "https://poster.creoart.app/zh",
+      "status": "online",
+      "description": "免费免登录、纯浏览器本地 0 上传的 300 DPI 打印排版工具箱。内置 2027 丁未羊年 A4 农历日历生成器（紫金山/香港天文台 CST 核验每日农历与 24 节气、国务院国办发明电〔2026〕10 号 7 大放假与 5 个补班日、照片月历、365 天习惯打卡表与 12 页无水印打包 PDF），以及身份证正反面 1:1 实寸 A4 合拼（ISO 7810 + 防盗用水印）、永久静态 Wi-Fi/收款二维码桌牌、大图多页拼接、手写体笔记与寻字练习纸等 8 款打印刚需工具",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公",
+        "效率工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261127-begineri-观画壁纸-paintpane",
+      "edition": "main",
+      "addedAt": "2026-11-27",
+      "maker": "begineri",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/begineri"
+        }
+      ],
+      "name": "观画壁纸 Paintpane",
+      "url": "https://begineri.github.io/Paintpane/zh/",
+      "status": "online",
+      "description": "Windows 托盘壁纸软件，把大都会艺术博物馆、芝加哥艺术博物馆、台北故宫博物院等十家博物馆开放馆藏里的名画设成桌面和锁屏壁纸，定时换一幅，有完整显示、博物馆画框、智能裁切三种显示方式；免费、不收集数据，Microsoft Store 或单文件 exe",
+      "extraLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/begineri/Paintpane"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261127-dreamcraftermaker-gta6people",
+      "edition": "game",
+      "addedAt": "2026-11-27",
+      "maker": "dreamcrafterMaker",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/dreamcrafterMaker"
+        }
+      ],
+      "name": "GTA6People",
+      "url": "https://gta6people.com/",
+      "status": "online",
+      "description": "GTA 6 角色资料站，整理主角与配角介绍、配音演员及剧情背景，提供角色分类与来源链接，英文界面，无需注册即可浏览",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261127-jnmbys-jnmbys-s-shot",
+      "edition": "game",
+      "addedAt": "2026-11-27",
+      "maker": "jnmbys",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jnmbys"
+        }
+      ],
+      "name": "jnmbys's shot",
+      "url": "https://jnmbyscoin.com/shot/",
+      "status": "online",
+      "description": "海盗港口里打的免费网页 FPS，两个人开房就能在灯塔庭院里拿同一把武器单挑，也能组队玩 2v2 搭档或 5v5 火药桶爆破；一个人可以直接打 AI，支持键鼠和 iPad 横屏触控，有简体中文和英文，打开网页就能玩",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261126-jimmyyandev-spriteskin",
+      "edition": "main",
+      "addedAt": "2026-11-26",
+      "maker": "JimmyYanDev",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/JimmyYanDev"
+        }
+      ],
+      "name": "SpriteSkin",
+      "url": "https://spriteskin.com/",
+      "status": "online",
+      "description": "把照片或文字描述转成能在 Minecraft 中穿戴的角色皮肤，可旋转预览、逐像素修改并导出 PNG。手绘编辑器免费免登录，AI 生成按积分使用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261126-nine19een-ascii-camera",
+      "edition": "main",
+      "addedAt": "2026-11-26",
+      "maker": "nine19een",
+      "city": "北京",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nine19een"
+        },
+        {
+          "label": "个人网站",
+          "url": "https://nine19een.com/"
+        }
+      ],
+      "name": "ASCII Camera",
+      "url": "https://ascii.nine19een.com/",
+      "status": "online",
+      "description": "免费开源的实时字符画相机，支持多种视觉效果、自定义字符集与调色板，以及 PNG、MP4、WebM 和 GIF 导出。适配电脑与手机，无需安装",
+      "extraLinks": [
+        {
+          "label": "开源仓库",
+          "url": "https://github.com/nine19een/ascii-camera"
+        }
+      ],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261126-yaokai4-xicoclean",
+      "edition": "main",
+      "addedAt": "2026-11-26",
+      "maker": "XicoClean 团队",
+      "city": "广州",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/yaokai4"
+        }
+      ],
+      "name": "XicoClean",
+      "url": "https://xicoclean.com/",
+      "status": "online",
+      "description": "Mac 磁盘管理工具，按目录查看空间占用，定位大文件和重复文件，逐项确认要清理的内容；支持简体中文，15 天完整试用，之后可选择一次买断",
+      "extraLinks": [],
+      "categories": [
+        "效率工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261126-fzlzjerry-ohmyshot",
+      "edition": "main",
+      "addedAt": "2026-11-26",
+      "maker": "Morax",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/fzlzjerry"
+        },
+        {
+          "label": "博客",
+          "url": "https://moraxcheng.me"
+        }
+      ],
+      "name": "OhMyShot",
+      "url": "https://www.ohmyshot.org/",
+      "status": "online",
+      "description": "原生 macOS 截图、录屏、标注、贴图与端侧 OCR 工具，内置 Studio 自动缩放剪辑、四向滚动截屏、公式转 LaTeX 与 CleanShot X 兼容 URL 自动化，免费且 GPL-3.0 开源（Apple 芯片，macOS 26+）",
+      "extraLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/MMFoundation/OhMyShot"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261126-hellocodesha-泊记-parkmemo",
+      "edition": "main",
+      "addedAt": "2026-11-26",
+      "maker": "Javon",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/hellocodesha"
+        }
+      ],
+      "name": "泊记 ParkMemo",
+      "url": "https://apps.apple.com/us/app/id6839172847",
+      "status": "online",
+      "description": "iPhone 与 Apple Watch 停车记录 App，保存照片、楼层、区域和备注，照片文字在 iPhone 本机识别；手表可独立记录文字与可用坐标，恢复连接后同步；无账号、广告和订阅，简体中文界面，美区 US$1.99 一次买断（仅提供美区下载入口）",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://parkmemo-support.netlify.app/"
+        }
+      ],
+      "categories": [
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261126-liuqianyu885-mrr-bench",
+      "edition": "main",
+      "addedAt": "2026-11-26",
+      "maker": "liuqianyu885",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/liuqianyu885"
+        }
+      ],
+      "name": "MRR Bench",
+      "url": "https://mrrbench.com",
+      "status": "online",
+      "description": "把四千多个 SaaS 的定价页每天读一遍，记录每一档价格和改价日期。可以查一个工具改过几次价、是涨还是降、中位入门价多少，也能按价格区间找同类工具。免费查看，不用注册",
+      "extraLinks": [],
+      "categories": [
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261126-东林先生-automd",
+      "edition": "main",
+      "addedAt": "2026-11-26",
+      "maker": "东林先生",
+      "city": "侯哥",
+      "makerLinks": [],
+      "name": "AutoMD",
+      "url": "https://automd.macnie.com",
+      "status": "online",
+      "description": "本地 Markdown 阅读器与轻量编辑器，免费、无广告，把文件夹收成工作区做知识库，支持静读、Git 提交与推送，可导出 PDF、Word、HTML、长图和 TXT — Windows",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "开发工具",
+        "教育学习",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261126-liangyouyiji-dev-锦囊匣-jnbox",
       "edition": "main",
@@ -208,6 +517,54 @@
       "description": "把 1860 年前的圆明园一块一块拼回来的开放复原图册，77 景清单已复原 15 景，每景附史料出处与生成提示词",
       "extraLinks": [],
       "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261126-zhayujie-cowagent",
+      "edition": "programmer",
+      "addedAt": "2026-11-26",
+      "maker": "zhayujie",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/zhayujie"
+        }
+      ],
+      "name": "CowAgent",
+      "url": "https://cowagent.cn/",
+      "status": "online",
+      "description": "开源的个人 AI 助理与 Agent Harness，能规划任务、调用工具和技能，靠长期记忆与知识自进化；支持多智能体协作，可接入微信、飞书、钉钉等聊天工具和 DeepSeek、Claude、Qwen 等模型，桌面客户端、手机 App 或源码自部署皆可 — 免费开源",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "社交社区",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261126-hejk-k3-1-studio",
+      "edition": "programmer",
+      "addedAt": "2026-11-26",
+      "maker": "Hejk",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/Hejk"
+        }
+      ],
+      "name": "K3.1 Studio",
+      "url": "https://kimik3pro.com",
+      "status": "online",
+      "description": "面向前端开发者的独立 AI 工作台，可将界面截图转成 React 代码，也支持上传项目源码进行跨文件审查",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
       "source": "upstream"
     },
     {
@@ -37803,6 +38160,29 @@
       "source": "upstream"
     },
     {
+      "id": "main-20260605-mantoufan-cv-cm-免费测试",
+      "edition": "main",
+      "addedAt": "2026-06-05",
+      "maker": "馒头饭",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/mantoufan"
+        }
+      ],
+      "name": "cv.cm 免费测试",
+      "url": "https://cv.cm/zh-cn/tests/",
+      "status": "online",
+      "description": "125 个免费测试，有 MBTI、大五人格、骨架诊断、肤质测试、DND 阵营、哈利波特魔杖和动漫角色测试，9 种语言，答案只在浏览器里计分，不上传、不用注册",
+      "extraLinks": [],
+      "categories": [
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20260604-imsg-aigptimage",
       "edition": "main",
       "addedAt": "2026-06-04",
@@ -48483,6 +48863,95 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251203-mingforpc-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-12-03",
+      "maker": "mingforpc",
+      "city": "珠海",
+      "makerLinks": [],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251203-mingforpc-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-12-03",
+      "maker": "mingforpc",
+      "city": "珠海",
+      "makerLinks": [],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251203-mingforpc-独立星球",
+      "edition": "main",
+      "addedAt": "2025-12-03",
+      "maker": "mingforpc",
+      "city": "珠海",
+      "makerLinks": [],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251203-mingforpc-独立观察",
+      "edition": "main",
+      "addedAt": "2025-12-03",
+      "maker": "mingforpc",
+      "city": "珠海",
+      "makerLinks": [],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20251202-selenium39-e-ink",
       "edition": "main",
       "addedAt": "2025-12-02",
@@ -48853,115 +49322,6 @@
         "图片工具",
         "音视频",
         "教育学习"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251126-binglish-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-11-26",
-      "maker": "klemperer",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/klemperer/binglish"
-        }
-      ],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251126-binglish-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-11-26",
-      "maker": "klemperer",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/klemperer/binglish"
-        }
-      ],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251126-binglish-独立星球",
-      "edition": "main",
-      "addedAt": "2025-11-26",
-      "maker": "klemperer",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/klemperer/binglish"
-        }
-      ],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251126-binglish-独立观察",
-      "edition": "main",
-      "addedAt": "2025-11-26",
-      "maker": "klemperer",
-      "city": "",
-      "makerLinks": [
-        {
-          "label": "Github",
-          "url": "https://github.com/klemperer/binglish"
-        }
-      ],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

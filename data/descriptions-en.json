@@ -16122,5 +16122,81 @@
  "main-20261125-tangde2025-ai-img2img": {
   "descEn": "AI picture generation and editing tool, integrating a variety of mainstream AI image models, no need to log in or design skills, you can generate, edit pictures and convert picture styles through natural language descriptions",
   "at": "2026-11-26"
+ },
+ "main-20261127-tomsabay-stylefuse": {
+  "descEn": "Upload your own Word/plain text draft and target journal sample article, 5-stage AI collaboration will rewrite sentence by sentence and display Canvas red and green Diff in real time. It supports fine-tuning of words and direct export of formatted Word documents. You can use it by opening the web page, and register to try it out for free 3 times a week.",
+  "at": "2026-11-27"
+ },
+ "main-20261127-waterjason-creoart-poster-studio": {
+  "descEn": "Free login-free, browser-only local 0-upload 300 DPI print and typesetting toolbox. Built-in 2027 Dingwei Sheep Year A4 lunar calendar generator (Purple Mountain/Hong Kong Observatory CST verified daily lunar calendar and 24 solar terms, 7 major holidays and 5 make-up days invented by the State Council Office of the People's Republic of China [2026] No. 10, photo calendar, 365-day habit punch list and 12-page non-watermark packaged PDF), and the front and back of the ID card 1:1 full size A4 8 essential printing tools including combined (ISO 7810 + anti-theft watermark), permanent static Wi-Fi/payment QR code table cards, large picture multi-page splicing, handwritten notes and word-finding practice sheets",
+  "at": "2026-11-27"
+ },
+ "main-20261127-begineri-观画壁纸-paintpane": {
+  "descEn": "Windows tray wallpaper software, set famous paintings from the open collections of ten museums including the Metropolitan Museum of Art, the Art Institute of Chicago, and the National Palace Museum in Taipei as desktop and lock screen wallpapers, and change them regularly. There are three display modes: full display, museum frame, and smart cropping; free, no data collection, Microsoft Store or single file exe",
+  "at": "2026-11-27"
+ },
+ "game-20261127-dreamcraftermaker-gta6people": {
+  "descEn": "GTA 6 character information site, which organizes the introduction of protagonists and supporting characters, voice actors and plot background, provides character classification and source links, and has an English interface. You can browse without registration.",
+  "at": "2026-11-27"
+ },
+ "game-20261127-jnmbys-jnmbys-s-shot": {
+  "descEn": "It is a free web FPS played in the pirate port. Two people can open a room and fight with the same weapon in the lighthouse courtyard. They can also team up to play 2v2 partners or 5v5 powder barrel blasting. One person can directly play AI. It supports keyboard, mouse and iPad horizontal screen touch. It is available in simplified Chinese and English. You can play it by opening the web page.",
+  "at": "2026-11-27"
+ },
+ "main-20261126-jimmyyandev-spriteskin": {
+  "descEn": "Turn photos or text descriptions into wearable character skins in Minecraft with rotated previews, pixel-by-pixel modifications, and export as PNGs. The hand-drawn editor is free and requires no login, and AI generation can be used by points.",
+  "at": "2026-11-27"
+ },
+ "main-20261126-nine19een-ascii-camera": {
+  "descEn": "Free and open source real-time character drawing camera that supports multiple visual effects, custom character sets and color palettes, and PNG, MP4, WebM, and GIF export. Compatible with computers and mobile phones, no installation required",
+  "at": "2026-11-27"
+ },
+ "main-20261126-yaokai4-xicoclean": {
+  "descEn": "Mac disk management tool, check space usage by directory, locate large files and duplicate files, and confirm the content to be cleaned item by item; supports Simplified Chinese, 15-day full trial, after which you can choose to buy out once",
+  "at": "2026-11-27"
+ },
+ "main-20261126-fzlzjerry-ohmyshot": {
+  "descEn": "Native macOS screenshots, screen recordings, annotations, textures and end-side OCR tools, built-in Studio automatic zoom clipping, four-way scrolling screenshots, formula conversion to LaTeX and CleanShot X compatible URL automation, free and GPL-3.0 open source (Apple chip, macOS 26+)",
+  "at": "2026-11-27"
+ },
+ "main-20261126-hellocodesha-泊记-parkmemo": {
+  "descEn": "Parking record app for iPhone and Apple Watch, saves photos, floors, areas and notes, photo text is recognized locally on the iPhone; the watch can independently record text and available coordinates, and synchronize after restoring the connection; no account, advertising and subscription, simplified Chinese interface, US$1.99 one-time buyout in the US (only the download entrance for the US area is provided)",
+  "at": "2026-11-27"
+ },
+ "main-20261126-liuqianyu885-mrr-bench": {
+  "descEn": "Read more than 4,000 SaaS pricing pages every day and record each price and price change date. You can check how many times a tool has changed price, whether it has increased or dropped, what the median entry price is, and you can also find similar tools by price range. Free to view, no registration required",
+  "at": "2026-11-27"
+ },
+ "main-20261126-东林先生-automd": {
+  "descEn": "Local Markdown reader and lightweight editor, free and ad-free, collects folders into a workspace as a knowledge base, supports silent reading, Git submission and push, and can export PDF, Word, HTML, long images and TXT — Windows",
+  "at": "2026-11-27"
+ },
+ "programmer-20261126-zhayujie-cowagent": {
+  "descEn": "The open source personal AI assistant and Agent Harness can plan tasks, call tools and skills, and evolve automatically based on long-term memory and knowledge. It supports multi-agent collaboration and can be connected to chat tools such as WeChat, Feishu, and DingTalk, as well as models such as DeepSeek, Claude, and Qwen. It can be deployed as a desktop client, mobile app, or source code - free and open source",
+  "at": "2026-11-27"
+ },
+ "programmer-20261126-hejk-k3-1-studio": {
+  "descEn": "An independent AI workbench for front-end developers, which can convert interface screenshots into React code, and also supports uploading project source code for cross-file review",
+  "at": "2026-11-27"
+ },
+ "main-20260605-mantoufan-cv-cm-免费测试": {
+  "descEn": "125 free tests, including MBTI, Big Five personality, skeleton diagnosis, skin type test, DND camp, Harry Potter wand and anime character tests, in 9 languages, answers are only scored in the browser, no uploading, no registration required",
+  "at": "2026-11-27"
+ },
+ "main-20251203-mingforpc-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-27"
+ },
+ "main-20251203-mingforpc-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-27"
+ },
+ "main-20251203-mingforpc-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-27"
+ },
+ "main-20251203-mingforpc-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-27"
  }
 }
