@@ -1,10 +1,73 @@
-# AI 独立制造所 · 全部产品清单（3823）
+# AI 独立制造所 · 全部产品清单（3849）
 
 > 数据源：https://github.com/1c7/chinese-independent-developer
-> 更新时间：2026-11-27（北京时间）
+> 更新时间：2026-11-28（北京时间）
 > 说明：本清单供 AI 搜索引擎与爬虫全文索引；人类读者请访问 https://indiemaker.cn/ 使用交互式浏览。
 
-## 大众产品（3160）
+## 大众产品（3181）
+
+- **[Filewise](https://filewise.gatheon.com)** — 开发者 Gatheon · 文档办公 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/filewise.html)
+  Mac 文件管理器，在本机读文件内容，把「下载 (3).pdf」这类名字改成看得懂的；先出对照表、勾了才改、可撤销，没有删除动作；文件不上传，目前免费（Apple 芯片，macOS 14 或更新）
+
+- **[Shotbox](https://box.gatheon.com)** — 开发者 Gatheon · 开发工具 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/shotbox.html)
+  Mac 菜单栏截图工具，截图后在本机识别图里的字并自动起标题，记得一个词就能搜回原图；验证码、订单号一键复制，⌥⌘K 截长图；没有账号，截图不上传，免费（macOS 13 或更新）
+
+- **[Zapthen](https://zapthen.com)** — 开发者 Gatheon · AI 工具 / 文档办公 / 效率工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/zapthen.html)
+  Mac 菜单栏小工具，在任何地方按住右键 0.3 秒叫出面板，搜 App、算算式、跳系统设置、翻剪贴板；选中文字旁边出小条，一键翻译、问 AI、记成待办；剪贴板和笔记只存本机，没有账号，目前免费（macOS 26 或更新）
+
+- **[活更久](https://apps.apple.com/cn/app/id6760715158)** — 开发者 nico112358 · 生活服务 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/project-e93c6d.html)
+  iPhone 健康记录 App，拍下体检报告就能提取指标，按日期查看同一指标的历史变化；也可以拍照记一餐，核对识别出的菜品后保存
+
+- **[口袋遥控器（iPocketRemote）](https://ipocket.xyz/zh-CN/apps/pocketremote/)** — 开发者 iPocket · 未分类 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/ipocketremote.html)
+  把 iPhone 或 iPad 变成 Mac 的无线触控板，在同一局域网与 Mac 端 iPocketDock 扫码配对，就能移动指针、滚动页面和控制媒体播放
+
+- **[FileTrail](https://ipocket.xyz/zh-CN/apps/filetrail/)** — 开发者 iPocket · 未分类 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/filetrail.html)
+  记录 Mac 上指定文件夹里新出现的文件，可从菜单栏或访达直接定位刚下载的文件，也能按文件名搜索本机历史记录
+
+- **[TinyMast](https://tinymast.com)** — 开发者 周磊 · 图片工具 / 文档办公 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/tinymast.html)
+  在线 PDF 与图片工具，支持 PDF 合并、拆分、压缩与 OCR，以及图片压缩、缩放和格式转换，上传的文件与结果 24 小时内删除
+
+- **[百用工具箱](https://baiyong-tools.pages.dev/)** — 开发者 FQfqcom · 生活服务 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/project-9c95bd.html)
+  13 大分类、100 项免费在线实用工具，覆盖生活经营、财务记账、工程装修、农业养殖、办公辅助、单位换算等领域；支持中英文一键切换，适配手机、平板和电脑，无需注册、无需下载安装，打开即用
+
+- **[Photo Timestamp](https://timestamp.fit/)** — 开发者 MakermingOne · 图片工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/photo-timestamp.html)
+  选一张照片，读取 EXIF 拍摄日期，调整日期格式和位置，导出一份带日期的照片，原图留在浏览器本地；对没有拍摄信息的扫描老照片，可以手动填写日期，免费版每批处理 5 张
+
+- **[MAGI 2 AI](https://magi2-ai.org)** — 开发者 Junwu Xu · AI 工具 / 图片工具 / 音视频 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/magi-2-ai.html)
+  独立的 MAGI-2 网页创作界面，可用文字或参考图片、视频和音频生成最长 30 秒的 1080p 有声视频，并控制首尾帧、运镜和多镜头节奏；登录后按积分使用
+
+- **[Emote Resizer](https://emoteresize.com/)** — 开发者 Winson · 音视频 / 社交社区 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/emote-resizer.html)
+  直播表情缩放工具，把一张表情原图导出为聊天或直播平台需要的多种尺寸
+
+- **[Free Image Merger](https://freeimagemerger.com/)** — 开发者 Winson · 图片工具 / 浏览器扩展 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/free-image-merger.html)
+  浏览器本地拼图工具，把多张图片横排、竖排或拼成网格，无需上传原图
+
+- **[Songifted](https://songifted.com/)** — 开发者 Winson · 未分类 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/songifted.html)
+  定制礼物歌曲工具，把送礼对象和共同回忆写成歌词，生成演唱前可先逐句修改
+
+- **[TryOnSwap](https://tryonswap.com/)** — 开发者 Winson · 未分类 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/tryonswap.html)
+  服装试穿预览工具，上传人物照和衣服图就能比较造型，生成图用于看搭配
+
+- **[PawMotif](https://pawmotif.com/)** — 开发者 Winson · 图片工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/pawmotif.html)
+  把宠物照片做成插画肖像，可以先看风格预览，再决定是否购买适合打印的高清图
+
+- **[MakeItRap](https://makeitrap.com/)** — 开发者 Winson · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/makeitrap.html)
+  可以免费写和改说唱歌词，也可以用照片和名字生成带声音的 15 秒说唱视频，视频生成使用点数
+
+- **[航迹 Flyprint](https://flyprint.billpwchan.art/?ref=1c7)** — 开发者 Bill Chan（香港） · 音视频 / 文档办公 / 开发工具 / 生活服务 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/flyprint.html)
+  飞行记录地图，把登机牌、行程截图、电子客票 PDF 或 Flighty 导出文件拖进去，坐过的每一班飞机都画在一个实拍地球上，按你住在哪里自动分出每一次旅行；一年的航班可以导出成 14 秒的视频和分享卡片，在你自己的设备上生成；不用注册先试，MIT 开源，可以用 Docker 自部署
+
+- **[Sol Next](https://chongyangzhang92-hub.github.io/Sol-Next/)** — 开发者 许昌北海医院张重阳（许昌） · AI 工具 / 音视频 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/sol-next.html)
+  开源的 AI 手机行动助手，装好即用，免费内置加密 DeepSeek（也可换自有 API Key），能按自然语音或文字在后台 1:1 虚拟屏自动替你操作手机、跨 App 处理任务与 AI 接打电话，关 Wi-Fi 无线调试不断连，20 国语言随手机系统语言自动切换，支持 4 线程 OTA 更新，Apache-2.0 开源且提供国内直连下载 — Android / 鸿蒙
+
+- **[今日世界](https://world.acity.me/)** — 开发者 Jimmer Code · 效率工具 / 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/project-d05130.html)
+  免费免登录的全球要闻与金融市场看板，用可交互 3D 地球串联当天全球大事与航运咽喉，并聚合 A 股/美股分时、北京时间宏观日程与美联储点阵图
+
+- **[Deerly – Baby Tracker & Log](https://apps.apple.com/cn/app/id6802015210)** — 开发者 Ken · 图片工具 / 音视频 / 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/deerly-baby-tracker-log.html)
+  婴儿成长记录 App，单手一键或用语音记下喂奶、睡眠、换尿布等 30+ 种记录，伴侣和长辈实时同步同一个宝宝，还有桌面小组件和 Apple Watch 哺乳计时；记录、统计、WHO 成长曲线与家人共享免费，免费版有广告，Pro 订阅去广告并开放家人共享照片视频（界面为英文和繁体中文）
+
+- **[PriceDog](https://apps.apple.com/tw/app/id6757205395)** — 开发者 Ken · 效率工具 / 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/pricedog.html)
+  UNIQLO / GU 降价追踪 App，输入吊牌 6 位数编号或扫条码就能追踪，特价开始、创历史新低时推送提醒并附价格走势图，在日本店内扫吊牌可看台湾价差；免费使用，Premium 订阅去广告（仅台湾区）
 
 - **[StyleFuse](https://stylefuse.top)** — 开发者 Tomsabay · AI 工具 / 文档办公 / 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/stylefuse.html)
   上传自己的 Word/纯文本草稿和目标期刊范文，5 阶段 AI 协作按句流式改写并实时显示 Canvas 红绿 Diff，支持划词微调与直接导出排版好的 Word 文档。打开网页即可使用，注册每周免费体验 3 次
@@ -4716,6 +4779,18 @@
 - **[极简AI生图](https://image.stockai.trade)** — 开发者 yvonuk · AI 工具 / 图片工具 / 免费工具 · 已上线 · 收录 2025-12-15 · [详情页](https://indiemaker.cn/p/ai-66faf1.html)
   AI 生图网站，完全免费、免登录、无广告、无水印
 
+- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 yvonuk · AI 工具 · 已上线 · 收录 2025-12-15 · [详情页](https://indiemaker.cn/p/ai-88ea68.html)
+  本列表的可搜索、可筛选、每日自动同步的可视化版本
+
+- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 yvonuk · 开发工具 / 免费工具 · 已上线 · 收录 2025-12-15 · [详情页](https://indiemaker.cn/p/project-48311e.html)
+  基于本列表数据制作的网页版，开源
+
+- **[独立星球](https://du.liuwa.xyz/)** — 开发者 yvonuk · 开发工具 · 已上线 · 收录 2025-12-15 · [详情页](https://indiemaker.cn/p/project-f79641.html)
+  中国独立开发者作品集，按项目浏览与发现
+
+- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 yvonuk · 浏览器扩展 · 已上线 · 收录 2025-12-15 · [详情页](https://indiemaker.cn/p/project-f79ac1.html)
+  把本列表整理成可搜索、可追踪更新的浏览器看板
+
 - **[YourGirlfriend.app](https://www.yourgirlfriend.app/)** — 开发者 yuhanw496-sketch · AI 工具 / 效率工具 / 社交社区 / 游戏娱乐 · 已停止 · 收录 2025-12-14 · [详情页](https://indiemaker.cn/p/yourgirlfriend-app.html)
   AI 伴侣（专注于对话与情感支持），提供自然流畅的聊天体验，适合缓解压力或日常陪伴
 
@@ -4817,18 +4892,6 @@
 
 - **[PaperPrint](http://paperprint.officedocprint.com/)** — 开发者 mingforpc（珠海） · 图片工具 / 文档办公 / 免费工具 · 已停止 · 收录 2025-12-03 · [详情页](https://indiemaker.cn/p/paperprint.html)
   打印纸模版网站（免费），支持多种打印纸模版并且支持在线调整、预览、导出图片和PDF
-
-- **[AI 独立制造所](https://indiemaker.cn/)** — 开发者 mingforpc（珠海） · AI 工具 · 已上线 · 收录 2025-12-03 · [详情页](https://indiemaker.cn/p/ai-072d17.html)
-  本列表的可搜索、可筛选、每日自动同步的可视化版本
-
-- **[中国独立开发者项目列表（网页版）](https://developer.hubing.online/home)** — 开发者 mingforpc（珠海） · 开发工具 / 免费工具 · 已上线 · 收录 2025-12-03 · [详情页](https://indiemaker.cn/p/project-9db164.html)
-  基于本列表数据制作的网页版，开源
-
-- **[独立星球](https://du.liuwa.xyz/)** — 开发者 mingforpc（珠海） · 开发工具 · 已上线 · 收录 2025-12-03 · [详情页](https://indiemaker.cn/p/project-7ad205.html)
-  中国独立开发者作品集，按项目浏览与发现
-
-- **[独立观察](https://lei1024.github.io/chinese-independent-developer-report/)** — 开发者 mingforpc（珠海） · 浏览器扩展 · 已上线 · 收录 2025-12-03 · [详情页](https://indiemaker.cn/p/project-7ad685.html)
-  把本列表整理成可搜索、可追踪更新的浏览器看板
 
 - **[E-ink](https://e-ink.me/zh)** — 开发者 Selenium39（广州） · 教育学习 / 免费工具 · 已上线 · 收录 2025-12-02 · [详情页](https://indiemaker.cn/p/e-ink.html)
   网页转电子书工具的平台（免费），支持将网页快速转换为多种电子书格式并在线阅读与编辑
@@ -9486,7 +9549,13 @@
 - **[CC 速成班](https://www.coolapk.com/apk/com.crashcourse.china.c17)** — 开发者 糖醋陈皮 · 音视频 · 已停止 · 收录 2018-03-17 · [详情页](https://indiemaker.cn/p/cc.html)
   聚合所有中文字幕 Crash Course 视频
 
-## 程序员版（472）
+## 程序员版（474）
+
+- **[Pararepo](https://github.com/porcelaintech/pararepo-releases)** — 开发者 Qiaohan · AI 工具 / 开发工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/pararepo.html)
+  在同一仓库并行使用多个编程 Agent 时，每项任务在独立 Git 工作树中完成；在 Mac 看板上核对哪些改动已经接收，在原对话查看结果；支持 Apple 芯片 Mac，提供简体中文和英文版本
+
+- **[SerialBot](https://github.com/jerry-token/serialbot)** — 开发者 Jerry · AI 工具 / 开发工具 / 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/serialbot.html)
+  内置 MCP 的跨平台串口调试助手，Claude Code、Codex 等 AI 编程工具可直接打开串口收发、等待设备输出，写入前可逐条确认；支持 TCP/UDP、波形、XMODEM/YMODEM 发固件和命令行版 — 免费开源
 
 - **[CowAgent](https://cowagent.cn/)** — 开发者 zhayujie · AI 工具 / 开发工具 / 社交社区 / 免费工具 · 已上线 · 收录 2026-11-26 · [详情页](https://indiemaker.cn/p/cowagent.html)
   开源的个人 AI 助理与 Agent Harness，能规划任务、调用工具和技能，靠长期记忆与知识自进化；支持多智能体协作，可接入微信、飞书、钉钉等聊天工具和 DeepSeek、Claude、Qwen 等模型，桌面客户端、手机 App 或源码自部署皆可 — 免费开源
@@ -10904,7 +10973,16 @@
 - **[LemonTea](http://lemontea.slothindie.org/)** — 开发者 袁慠棱 · 未分类 · 已停止 · 收录 2019-04-11 · [详情页](https://indiemaker.cn/p/lemontea.html)
   极简且特别的静态网站生成器
 
-## 独立游戏（191）
+## 独立游戏（194）
+
+- **[Minecraft Krillion](https://minecraftkrillion.net/)** — 开发者 Minecraft Krillion 项目组 · 游戏娱乐 / 免费工具 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/minecraft-krillion.html)
+  免费英文 Minecraft 知识问答网页游戏，每日七题，每题 25 秒，答对后越少人想到的答案挖得越接近基岩；无需注册，可用不限次模式练习
+
+- **[Streakdle](https://streakdle.com/)** — 开发者 Winson · 游戏娱乐 · 已上线 · 收录 2026-11-28 · [详情页](https://indiemaker.cn/p/streakdle.html)
+  限时英文文字游戏，每轮七道题，输入符合提示的词；相同题目里较少玩家使用的答案得分更高，免注册并能连续重玩
+
+- **[糟了！我只是来恋综修网线的](https://oopswifi.github.io/?ref=1c7)** — 开发者 oopswifi · AI 工具 / 图片工具 / 开发工具 / 浏览器扩展 / 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/project-0f7c1f.html)
+  在浏览器里玩的第一人称恋综喜剧互动影游：周五 17:59 被裁的程序员去海边别墅修网线，被导演拉去当了男嘉宾。全程用写实照片演出（AI 生成），有限时选择、好感度、弹幕和嘉宾群聊。序章和第 1 集免费、无需注册，手机电脑打开就能玩，免费部分就有 7 个翻车结局；完整版一次买断，支持简体 / 繁體
 
 - **[GTA6People](https://gta6people.com/)** — 开发者 dreamcrafterMaker · 免费工具 · 已上线 · 收录 2026-11-27 · [详情页](https://indiemaker.cn/p/gta6people.html)
   GTA 6 角色资料站，整理主角与配角介绍、配音演员及剧情背景，提供角色分类与来源链接，英文界面，无需注册即可浏览

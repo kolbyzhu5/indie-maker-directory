@@ -4,29 +4,605 @@
     "upstream",
     "custom"
   ],
-  "generatedAt": "2026-11-27T04:15:17.774Z",
+  "generatedAt": "2026-11-28T03:54:13.276Z",
   "counts": {
-    "total": 3823,
-    "main": 3160,
-    "programmer": 472,
-    "game": 191,
+    "total": 3849,
+    "main": 3181,
+    "programmer": 474,
+    "game": 194,
     "custom": 6
   },
   "categoryCounts": {
-    "AI 工具": 1317,
-    "文档办公": 385,
-    "免费工具": 917,
-    "图片工具": 738,
-    "效率工具": 523,
-    "浏览器扩展": 443,
-    "开发工具": 763,
-    "游戏娱乐": 216,
-    "教育学习": 216,
-    "音视频": 693,
-    "社交社区": 138,
-    "生活服务": 124
+    "文档办公": 389,
+    "效率工具": 527,
+    "开发工具": 771,
+    "免费工具": 931,
+    "AI 工具": 1323,
+    "生活服务": 127,
+    "图片工具": 746,
+    "浏览器扩展": 446,
+    "音视频": 699,
+    "社交社区": 139,
+    "游戏娱乐": 218,
+    "教育学习": 216
   },
   "projects": [
+    {
+      "id": "main-20261128-zapthen-filewise",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Gatheon",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/depthsky2016/zapthen"
+        }
+      ],
+      "name": "Filewise",
+      "url": "https://filewise.gatheon.com",
+      "status": "online",
+      "description": "Mac 文件管理器，在本机读文件内容，把「下载 (3).pdf」这类名字改成看得懂的；先出对照表、勾了才改、可撤销，没有删除动作；文件不上传，目前免费（Apple 芯片，macOS 14 或更新）",
+      "extraLinks": [],
+      "categories": [
+        "文档办公",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-zapthen-shotbox",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Gatheon",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/depthsky2016/zapthen"
+        }
+      ],
+      "name": "Shotbox",
+      "url": "https://box.gatheon.com",
+      "status": "online",
+      "description": "Mac 菜单栏截图工具，截图后在本机识别图里的字并自动起标题，记得一个词就能搜回原图；验证码、订单号一键复制，⌥⌘K 截长图；没有账号，截图不上传，免费（macOS 13 或更新）",
+      "extraLinks": [],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-zapthen-zapthen",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Gatheon",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/depthsky2016/zapthen"
+        }
+      ],
+      "name": "Zapthen",
+      "url": "https://zapthen.com",
+      "status": "online",
+      "description": "Mac 菜单栏小工具，在任何地方按住右键 0.3 秒叫出面板，搜 App、算算式、跳系统设置、翻剪贴板；选中文字旁边出小条，一键翻译、问 AI、记成待办；剪贴板和笔记只存本机，没有账号，目前免费（macOS 26 或更新）",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "文档办公",
+        "效率工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-nico112358-活更久",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "nico112358",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/nico112358"
+        }
+      ],
+      "name": "活更久",
+      "url": "https://apps.apple.com/cn/app/id6760715158",
+      "status": "online",
+      "description": "iPhone 健康记录 App，拍下体检报告就能提取指标，按日期查看同一指标的历史变化；也可以拍照记一餐，核对识别出的菜品后保存",
+      "extraLinks": [],
+      "categories": [
+        "生活服务"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ipocket-app-口袋遥控器-ipocketremote",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "iPocket",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/iPocket-APP"
+        }
+      ],
+      "name": "口袋遥控器（iPocketRemote）",
+      "url": "https://ipocket.xyz/zh-CN/apps/pocketremote/",
+      "status": "online",
+      "description": "把 iPhone 或 iPad 变成 Mac 的无线触控板，在同一局域网与 Mac 端 iPocketDock 扫码配对，就能移动指针、滚动页面和控制媒体播放",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ipocket-app-filetrail",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "iPocket",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/iPocket-APP"
+        }
+      ],
+      "name": "FileTrail",
+      "url": "https://ipocket.xyz/zh-CN/apps/filetrail/",
+      "status": "online",
+      "description": "记录 Mac 上指定文件夹里新出现的文件，可从菜单栏或访达直接定位刚下载的文件，也能按文件名搜索本机历史记录",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-duoduoio-tinymast",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "周磊",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/duoduoio"
+        }
+      ],
+      "name": "TinyMast",
+      "url": "https://tinymast.com",
+      "status": "online",
+      "description": "在线 PDF 与图片工具，支持 PDF 合并、拆分、压缩与 OCR，以及图片压缩、缩放和格式转换，上传的文件与结果 24 小时内删除",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "文档办公"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-fqfqcom-百用工具箱",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "FQfqcom",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/FQfqcom"
+        }
+      ],
+      "name": "百用工具箱",
+      "url": "https://baiyong-tools.pages.dev/",
+      "status": "online",
+      "description": "13 大分类、100 项免费在线实用工具，覆盖生活经营、财务记账、工程装修、农业养殖、办公辅助、单位换算等领域；支持中英文一键切换，适配手机、平板和电脑，无需注册、无需下载安装，打开即用",
+      "extraLinks": [],
+      "categories": [
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-makermingone-photo-timestamp",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "MakermingOne",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/MakermingOne"
+        }
+      ],
+      "name": "Photo Timestamp",
+      "url": "https://timestamp.fit/",
+      "status": "online",
+      "description": "选一张照片，读取 EXIF 拍摄日期，调整日期格式和位置，导出一份带日期的照片，原图留在浏览器本地；对没有拍摄信息的扫描老照片，可以手动填写日期，免费版每批处理 5 张",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-amierhan-magi-2-ai",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Junwu Xu",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/amierhan"
+        }
+      ],
+      "name": "MAGI 2 AI",
+      "url": "https://magi2-ai.org",
+      "status": "online",
+      "description": "独立的 MAGI-2 网页创作界面，可用文字或参考图片、视频和音频生成最长 30 秒的 1080p 有声视频，并控制首尾帧、运镜和多镜头节奏；登录后按积分使用",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "音视频"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ystyleb-emote-resizer",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Winson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "name": "Emote Resizer",
+      "url": "https://emoteresize.com/",
+      "status": "online",
+      "description": "直播表情缩放工具，把一张表情原图导出为聊天或直播平台需要的多种尺寸",
+      "extraLinks": [],
+      "categories": [
+        "音视频",
+        "社交社区"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ystyleb-free-image-merger",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Winson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "name": "Free Image Merger",
+      "url": "https://freeimagemerger.com/",
+      "status": "online",
+      "description": "浏览器本地拼图工具，把多张图片横排、竖排或拼成网格，无需上传原图",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ystyleb-songifted",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Winson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "name": "Songifted",
+      "url": "https://songifted.com/",
+      "status": "online",
+      "description": "定制礼物歌曲工具，把送礼对象和共同回忆写成歌词，生成演唱前可先逐句修改",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ystyleb-tryonswap",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Winson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "name": "TryOnSwap",
+      "url": "https://tryonswap.com/",
+      "status": "online",
+      "description": "服装试穿预览工具，上传人物照和衣服图就能比较造型，生成图用于看搭配",
+      "extraLinks": [],
+      "categories": [],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ystyleb-pawmotif",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Winson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "name": "PawMotif",
+      "url": "https://pawmotif.com/",
+      "status": "online",
+      "description": "把宠物照片做成插画肖像，可以先看风格预览，再决定是否购买适合打印的高清图",
+      "extraLinks": [],
+      "categories": [
+        "图片工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-ystyleb-makeitrap",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Winson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "name": "MakeItRap",
+      "url": "https://makeitrap.com/",
+      "status": "online",
+      "description": "可以免费写和改说唱歌词，也可以用照片和名字生成带声音的 15 秒说唱视频，视频生成使用点数",
+      "extraLinks": [],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261128-billpwchan-航迹-flyprint",
+      "edition": "main",
+      "addedAt": "2026-11-28",
+      "maker": "Bill Chan",
+      "city": "香港",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/billpwchan"
+        }
+      ],
+      "name": "航迹 Flyprint",
+      "url": "https://flyprint.billpwchan.art/?ref=1c7",
+      "status": "online",
+      "description": "飞行记录地图，把登机牌、行程截图、电子客票 PDF 或 Flighty 导出文件拖进去，坐过的每一班飞机都画在一个实拍地球上，按你住在哪里自动分出每一次旅行；一年的航班可以导出成 14 秒的视频和分享卡片，在你自己的设备上生成；不用注册先试，MIT 开源，可以用 Docker 自部署",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/billpwchan/flyprint"
+        }
+      ],
+      "categories": [
+        "音视频",
+        "文档办公",
+        "开发工具",
+        "生活服务",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261128-porcelaintech-pararepo",
+      "edition": "programmer",
+      "addedAt": "2026-11-28",
+      "maker": "Qiaohan",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/porcelaintech"
+        }
+      ],
+      "name": "Pararepo",
+      "url": "https://github.com/porcelaintech/pararepo-releases",
+      "status": "online",
+      "description": "在同一仓库并行使用多个编程 Agent 时，每项任务在独立 Git 工作树中完成；在 Mac 看板上核对哪些改动已经接收，在原对话查看结果；支持 Apple 芯片 Mac，提供简体中文和英文版本",
+      "extraLinks": [
+        {
+          "label": "当前版本与安装说明",
+          "url": "https://github.com/porcelaintech/pararepo-releases/releases/tag/v0.2.0"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261128-minecraft-krillion-项目组-minecraft-krillion",
+      "edition": "game",
+      "addedAt": "2026-11-28",
+      "maker": "Minecraft Krillion 项目组",
+      "city": "",
+      "makerLinks": [],
+      "name": "Minecraft Krillion",
+      "url": "https://minecraftkrillion.net/",
+      "status": "online",
+      "description": "免费英文 Minecraft 知识问答网页游戏，每日七题，每题 25 秒，答对后越少人想到的答案挖得越接近基岩；无需注册，可用不限次模式练习",
+      "extraLinks": [
+        {
+          "label": "玩法与规则",
+          "url": "https://minecraftkrillion.net/about"
+        }
+      ],
+      "categories": [
+        "游戏娱乐",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261128-ystyleb-streakdle",
+      "edition": "game",
+      "addedAt": "2026-11-28",
+      "maker": "Winson",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ystyleb"
+        }
+      ],
+      "name": "Streakdle",
+      "url": "https://streakdle.com/",
+      "status": "online",
+      "description": "限时英文文字游戏，每轮七道题，输入符合提示的词；相同题目里较少玩家使用的答案得分更高，免注册并能连续重玩",
+      "extraLinks": [],
+      "categories": [
+        "游戏娱乐"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261127-chongyangzhang92-hub-sol-next",
+      "edition": "main",
+      "addedAt": "2026-11-27",
+      "maker": "许昌北海医院张重阳",
+      "city": "许昌",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/chongyangzhang92-hub"
+        }
+      ],
+      "name": "Sol Next",
+      "url": "https://chongyangzhang92-hub.github.io/Sol-Next/",
+      "status": "online",
+      "description": "开源的 AI 手机行动助手，装好即用，免费内置加密 DeepSeek（也可换自有 API Key），能按自然语音或文字在后台 1:1 虚拟屏自动替你操作手机、跨 App 处理任务与 AI 接打电话，关 Wi-Fi 无线调试不断连，20 国语言随手机系统语言自动切换，支持 4 线程 OTA 更新，Apache-2.0 开源且提供国内直连下载 — Android / 鸿蒙",
+      "extraLinks": [
+        {
+          "label": "GitHub 仓库",
+          "url": "https://github.com/chongyangzhang92-hub/Sol-Next"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "音视频",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261127-jimmer-code-今日世界",
+      "edition": "main",
+      "addedAt": "2026-11-27",
+      "maker": "Jimmer Code",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/jimmer-code"
+        }
+      ],
+      "name": "今日世界",
+      "url": "https://world.acity.me/",
+      "status": "online",
+      "description": "免费免登录的全球要闻与金融市场看板，用可交互 3D 地球串联当天全球大事与航运咽喉，并聚合 A 股/美股分时、北京时间宏观日程与美联储点阵图",
+      "extraLinks": [],
+      "categories": [
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261127-ken80207-deerly-baby-tracker-log",
+      "edition": "main",
+      "addedAt": "2026-11-27",
+      "maker": "Ken",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ken80207"
+        }
+      ],
+      "name": "Deerly – Baby Tracker & Log",
+      "url": "https://apps.apple.com/cn/app/id6802015210",
+      "status": "online",
+      "description": "婴儿成长记录 App，单手一键或用语音记下喂奶、睡眠、换尿布等 30+ 种记录，伴侣和长辈实时同步同一个宝宝，还有桌面小组件和 Apple Watch 哺乳计时；记录、统计、WHO 成长曲线与家人共享免费，免费版有广告，Pro 订阅去广告并开放家人共享照片视频（界面为英文和繁体中文）",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://ken80207.github.io/deerly-support/"
+        }
+      ],
+      "categories": [
+        "图片工具",
+        "音视频",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20261127-ken80207-pricedog",
+      "edition": "main",
+      "addedAt": "2026-11-27",
+      "maker": "Ken",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/ken80207"
+        }
+      ],
+      "name": "PriceDog",
+      "url": "https://apps.apple.com/tw/app/id6757205395",
+      "status": "online",
+      "description": "UNIQLO / GU 降价追踪 App，输入吊牌 6 位数编号或扫条码就能追踪，特价开始、创历史新低时推送提醒并附价格走势图，在日本店内扫吊牌可看台湾价差；免费使用，Premium 订阅去广告（仅台湾区）",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://ken80207.github.io/pricedog-support/"
+        }
+      ],
+      "categories": [
+        "效率工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
     {
       "id": "main-20261127-tomsabay-stylefuse",
       "edition": "main",
@@ -106,6 +682,61 @@
       "categories": [
         "图片工具",
         "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "programmer-20261127-jerry-token-serialbot",
+      "edition": "programmer",
+      "addedAt": "2026-11-27",
+      "maker": "Jerry",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "Github",
+          "url": "https://github.com/jerry-token"
+        }
+      ],
+      "name": "SerialBot",
+      "url": "https://github.com/jerry-token/serialbot",
+      "status": "online",
+      "description": "内置 MCP 的跨平台串口调试助手，Claude Code、Codex 等 AI 编程工具可直接打开串口收发、等待设备输出，写入前可逐条确认；支持 TCP/UDP、波形、XMODEM/YMODEM 发固件和命令行版 — 免费开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://serialbot.aiany.cc"
+        }
+      ],
+      "categories": [
+        "AI 工具",
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "game-20261127-oopswifi-糟了-我只是来恋综修网线的",
+      "edition": "game",
+      "addedAt": "2026-11-27",
+      "maker": "oopswifi",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/oopswifi"
+        }
+      ],
+      "name": "糟了！我只是来恋综修网线的",
+      "url": "https://oopswifi.github.io/?ref=1c7",
+      "status": "online",
+      "description": "在浏览器里玩的第一人称恋综喜剧互动影游：周五 17:59 被裁的程序员去海边别墅修网线，被导演拉去当了男嘉宾。全程用写实照片演出（AI 生成），有限时选择、好感度、弹幕和嘉宾群聊。序章和第 1 集免费、无需注册，手机电脑打开就能玩，免费部分就有 7 个翻车结局；完整版一次买断，支持简体 / 繁體",
+      "extraLinks": [],
+      "categories": [
+        "AI 工具",
+        "图片工具",
+        "开发工具",
+        "浏览器扩展",
         "免费工具"
       ],
       "source": "upstream"
@@ -48071,6 +48702,115 @@
       "source": "upstream"
     },
     {
+      "id": "main-20251215-yvonuk-ai-独立制造所",
+      "edition": "main",
+      "addedAt": "2025-12-15",
+      "maker": "yvonuk",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "推特",
+          "url": "https://x.com/mcwangcn"
+        }
+      ],
+      "name": "AI 独立制造所",
+      "url": "https://indiemaker.cn/",
+      "status": "online",
+      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
+        }
+      ],
+      "categories": [
+        "AI 工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251215-yvonuk-中国独立开发者项目列表-网页版",
+      "edition": "main",
+      "addedAt": "2025-12-15",
+      "maker": "yvonuk",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "推特",
+          "url": "https://x.com/mcwangcn"
+        }
+      ],
+      "name": "中国独立开发者项目列表（网页版）",
+      "url": "https://developer.hubing.online/home",
+      "status": "online",
+      "description": "基于本列表数据制作的网页版，开源",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/kisslove/chinese-independent-developer-site"
+        }
+      ],
+      "categories": [
+        "开发工具",
+        "免费工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251215-yvonuk-独立星球",
+      "edition": "main",
+      "addedAt": "2025-12-15",
+      "maker": "yvonuk",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "推特",
+          "url": "https://x.com/mcwangcn"
+        }
+      ],
+      "name": "独立星球",
+      "url": "https://du.liuwa.xyz/",
+      "status": "online",
+      "description": "中国独立开发者作品集，按项目浏览与发现",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/zhulin025/chinese-independent-developer"
+        }
+      ],
+      "categories": [
+        "开发工具"
+      ],
+      "source": "upstream"
+    },
+    {
+      "id": "main-20251215-yvonuk-独立观察",
+      "edition": "main",
+      "addedAt": "2025-12-15",
+      "maker": "yvonuk",
+      "city": "",
+      "makerLinks": [
+        {
+          "label": "推特",
+          "url": "https://x.com/mcwangcn"
+        }
+      ],
+      "name": "独立观察",
+      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
+      "status": "online",
+      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
+      "extraLinks": [
+        {
+          "label": "更多介绍",
+          "url": "https://github.com/lei1024/chinese-independent-developer-report"
+        }
+      ],
+      "categories": [
+        "浏览器扩展"
+      ],
+      "source": "upstream"
+    },
+    {
       "id": "main-20251214-yuhanw496-sketch-yourgirlfriend-app",
       "edition": "main",
       "addedAt": "2025-12-14",
@@ -48859,95 +49599,6 @@
         "图片工具",
         "文档办公",
         "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251203-mingforpc-ai-独立制造所",
-      "edition": "main",
-      "addedAt": "2025-12-03",
-      "maker": "mingforpc",
-      "city": "珠海",
-      "makerLinks": [],
-      "name": "AI 独立制造所",
-      "url": "https://indiemaker.cn/",
-      "status": "online",
-      "description": "本列表的可搜索、可筛选、每日自动同步的可视化版本",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kolbyzhu5/indie-maker-directory"
-        }
-      ],
-      "categories": [
-        "AI 工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251203-mingforpc-中国独立开发者项目列表-网页版",
-      "edition": "main",
-      "addedAt": "2025-12-03",
-      "maker": "mingforpc",
-      "city": "珠海",
-      "makerLinks": [],
-      "name": "中国独立开发者项目列表（网页版）",
-      "url": "https://developer.hubing.online/home",
-      "status": "online",
-      "description": "基于本列表数据制作的网页版，开源",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/kisslove/chinese-independent-developer-site"
-        }
-      ],
-      "categories": [
-        "开发工具",
-        "免费工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251203-mingforpc-独立星球",
-      "edition": "main",
-      "addedAt": "2025-12-03",
-      "maker": "mingforpc",
-      "city": "珠海",
-      "makerLinks": [],
-      "name": "独立星球",
-      "url": "https://du.liuwa.xyz/",
-      "status": "online",
-      "description": "中国独立开发者作品集，按项目浏览与发现",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/zhulin025/chinese-independent-developer"
-        }
-      ],
-      "categories": [
-        "开发工具"
-      ],
-      "source": "upstream"
-    },
-    {
-      "id": "main-20251203-mingforpc-独立观察",
-      "edition": "main",
-      "addedAt": "2025-12-03",
-      "maker": "mingforpc",
-      "city": "珠海",
-      "makerLinks": [],
-      "name": "独立观察",
-      "url": "https://lei1024.github.io/chinese-independent-developer-report/",
-      "status": "online",
-      "description": "把本列表整理成可搜索、可追踪更新的浏览器看板",
-      "extraLinks": [
-        {
-          "label": "更多介绍",
-          "url": "https://github.com/lei1024/chinese-independent-developer-report"
-        }
-      ],
-      "categories": [
-        "浏览器扩展"
       ],
       "source": "upstream"
     },

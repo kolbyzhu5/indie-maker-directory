@@ -16198,5 +16198,125 @@
  "main-20251203-mingforpc-独立观察": {
   "descEn": "Organize this list into a searchable and trackable browser dashboard",
   "at": "2026-11-27"
+ },
+ "main-20261128-zapthen-filewise": {
+  "descEn": "Mac file manager, read the content of the file locally, change the name such as \"Download (3).pdf\" to something understandable; create a comparison table first, check it before changing it, can be undone, and there is no deletion action; the file is not uploaded, currently free (Apple chip, macOS 14 or newer)",
+  "at": "2026-11-28"
+ },
+ "main-20261128-zapthen-shotbox": {
+  "descEn": "Mac menu bar screenshot tool, after taking a screenshot, the machine will recognize the words in the picture and automatically create a title. Remember a word to search for the original picture; copy the verification code and order number with one click, ⌥⌘K to crop the picture; no account, screenshots will not be uploaded, free (macOS 13 or newer)",
+  "at": "2026-11-28"
+ },
+ "main-20261128-zapthen-zapthen": {
+  "descEn": "Mac menu bar gadget, right-click anywhere for 0.3 seconds to bring up the panel, search for apps, calculate equations, jump to system settings, and flip through the clipboard; a small bar will appear next to the selected text, translate it with one click, ask AI, and record it as a to-do; the clipboard and notes are only saved to the local machine, no account, currently free (macOS 26 or newer)",
+  "at": "2026-11-28"
+ },
+ "main-20261128-nico112358-活更久": {
+  "descEn": "iPhone Health Record App, you can extract indicators by taking a photo of the physical examination report, and view the historical changes of the same indicator by date; you can also take a photo to record a meal, check the identified dishes and save them",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ipocket-app-口袋遥控器-ipocketremote": {
+  "descEn": "Turn your iPhone or iPad into a Mac wireless trackpad. Scan and pair it with the Mac iPocketDock on the same LAN to move the pointer, scroll pages and control media playback.",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ipocket-app-filetrail": {
+  "descEn": "Record new files that appear in specified folders on Mac. You can directly locate the newly downloaded file from the menu bar or Finder, and you can also search the local history by file name.",
+  "at": "2026-11-28"
+ },
+ "main-20261128-duoduoio-tinymast": {
+  "descEn": "Online PDF and image tools, supporting PDF merging, splitting, compression and OCR, as well as image compression, scaling and format conversion. Uploaded files and results will be deleted within 24 hours",
+  "at": "2026-11-28"
+ },
+ "main-20261128-fqfqcom-百用工具箱": {
+  "descEn": "13 major categories, 100 free online practical tools, covering life management, financial accounting, engineering decoration, agricultural breeding, office assistance, unit conversion and other fields; supports one-click switching between Chinese and English, adapts to mobile phones, tablets and computers, no need to register, no need to download and install, just open and use",
+  "at": "2026-11-28"
+ },
+ "main-20261128-makermingone-photo-timestamp": {
+  "descEn": "Select a photo, read the EXIF ​​shooting date, adjust the date format and position, and export a photo with the date, leaving the original image locally in the browser; for scanned old photos without shooting information, you can manually fill in the date, and the free version processes 5 photos per batch",
+  "at": "2026-11-28"
+ },
+ "main-20261128-amierhan-magi-2-ai": {
+  "descEn": "The independent MAGI-2 web creation interface can use text or reference pictures, videos and audio to generate 1080p audio videos of up to 30 seconds, and control the first and last frames, camera movement and multi-shot rhythm; log in and use according to points",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ystyleb-emote-resizer": {
+  "descEn": "Live emoticon scaling tool, export an original emoticon image into multiple sizes required by the chat or live broadcast platform",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ystyleb-free-image-merger": {
+  "descEn": "The browser's local collage tool can arrange multiple pictures horizontally, vertically or into a grid without uploading the original image.",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ystyleb-songifted": {
+  "descEn": "Customized gift song tool, write the gift recipient and shared memories into lyrics, and you can modify them sentence by sentence before generating the song.",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ystyleb-tryonswap": {
+  "descEn": "Clothing try-on preview tool, you can upload photos of people and clothes to compare styles, and generate pictures to see the matching.",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ystyleb-pawmotif": {
+  "descEn": "To turn pet photos into illustration portraits, you can preview the style first and then decide whether to purchase high-definition images suitable for printing.",
+  "at": "2026-11-28"
+ },
+ "main-20261128-ystyleb-makeitrap": {
+  "descEn": "You can write and change rap lyrics for free, or you can use photos and names to generate a 15-second rap video with sound. Points are used for video generation.",
+  "at": "2026-11-28"
+ },
+ "main-20261128-billpwchan-航迹-flyprint": {
+  "descEn": "On the flight record map, drag your boarding pass, itinerary screenshots, e-ticket PDF or Flighty export file into it, and every flight you have taken is drawn on a real-life globe, and each trip is automatically divided according to where you live; a year's worth of flights can be exported into 14-second videos and share cards, generated on your own device; there is no need to register to try it out, MIT-licensed open source and can be self-deployed with Docker",
+  "at": "2026-11-28"
+ },
+ "programmer-20261128-porcelaintech-pararepo": {
+  "descEn": "When using multiple programming agents in parallel in the same warehouse, each task is completed in an independent Git work tree; check which changes have been received on the Mac dashboard and view the results in the original conversation; supports Apple chip Mac, available in Simplified Chinese and English versions",
+  "at": "2026-11-28"
+ },
+ "game-20261128-minecraft-krillion-项目组-minecraft-krillion": {
+  "descEn": "Free English Minecraft trivia web game, seven questions a day, 25 seconds for each question. The less people think of the correct answer, the closer the answer is to the bedrock; no registration required, unlimited practice mode available",
+  "at": "2026-11-28"
+ },
+ "game-20261128-ystyleb-streakdle": {
+  "descEn": "A limited-time English word game with seven questions in each round. Enter the words that match the prompts. Answers used by fewer players in the same question will score higher. No registration is required and can be played continuously.",
+  "at": "2026-11-28"
+ },
+ "main-20261127-chongyangzhang92-hub-sol-next": {
+  "descEn": "Open source AI mobile assistant, ready to use, free built-in encryption DeepSeek (you can also replace it with your own API Key), can automatically operate the phone for you according to natural voice or text on the 1:1 virtual screen in the background, handle tasks across apps and answer calls with AI, turn off Wi-Fi wireless debugging to continuously connect, 20 languages ​​​​will automatically switch with the phone system language, support 4-thread OTA updates, Apache-2.0 is open source and provides domestic direct connection download - Android / Hongmeng",
+  "at": "2026-11-28"
+ },
+ "main-20261127-jimmer-code-今日世界": {
+  "descEn": "A free login-free global news and financial market bulletin board, using an interactive 3D globe to connect the day's global events and shipping channels, and aggregating A-share/U.S. stock time-sharing, Beijing time macro schedule and the Federal Reserve dot plot",
+  "at": "2026-11-28"
+ },
+ "main-20261127-ken80207-deerly-baby-tracker-log": {
+  "descEn": "Baby Growth Record App, which can record more than 30 types of records such as feeding, sleeping, and changing diapers with one click or by voice. Partners and elders can synchronize the same baby in real time. It also has desktop widgets and Apple Watch breastfeeding timing. Records, statistics, and WHO growth curves can be shared with family members for free. The free version has ads. Pro subscription removes ads and allows family members to share photos and videos (the interface is in English and Traditional Chinese)",
+  "at": "2026-11-28"
+ },
+ "main-20261127-ken80207-pricedog": {
+  "descEn": "UNIQLO / GU Price Reduction Tracking App, enter the 6-digit number of the tag or scan the barcode to track it. When the special price starts or reaches a record low, it will push a reminder with a price trend chart. Scan the tag in the Japanese store to see the price difference in Taiwan; free to use, Premium subscription to remove ads (Taiwan area only)",
+  "at": "2026-11-28"
+ },
+ "programmer-20261127-jerry-token-serialbot": {
+  "descEn": "Cross-platform serial port debugging assistant with built-in MCP, AI programming tools such as Claude Code and Codex can directly open the serial port to send and receive, wait for device output, and confirm each item before writing; supports TCP/UDP, waveform, XMODEM/YMODEM firmware and command line version - free and open source",
+  "at": "2026-11-28"
+ },
+ "game-20261127-oopswifi-糟了-我只是来恋综修网线的": {
+  "descEn": "A first-person romance comedy interactive video game played in the browser: Friday 17:59 The laid-off programmer went to the beach villa to repair the network cable, and was roped in by the director to be the male guest. The whole process is performed with realistic photos (generated by AI), with limited time selection, favorability, barrage and guest group chat. The prologue and episode 1 are free and no registration is required. You can play it by opening it on your mobile phone or computer. The free part has 7 overturning endings. The full version can be purchased once and supports simplified/traditional Chinese.",
+  "at": "2026-11-28"
+ },
+ "main-20251215-yvonuk-ai-独立制造所": {
+  "descEn": "A searchable, filterable, daily, automatically synced visual version of this list",
+  "at": "2026-11-28"
+ },
+ "main-20251215-yvonuk-中国独立开发者项目列表-网页版": {
+  "descEn": "A web version based on the data in this list, open source",
+  "at": "2026-11-28"
+ },
+ "main-20251215-yvonuk-独立星球": {
+  "descEn": "Portfolio of Chinese independent developers, browse and discover by project",
+  "at": "2026-11-28"
+ },
+ "main-20251215-yvonuk-独立观察": {
+  "descEn": "Organize this list into a searchable and trackable browser dashboard",
+  "at": "2026-11-28"
  }
 }
